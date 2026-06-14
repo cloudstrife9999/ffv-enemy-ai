@@ -4,9 +4,6 @@ __pycache__/
 
 res/roms/
 
-ai.json
-ai2.json
-
 *.txt
 *.csv
 
