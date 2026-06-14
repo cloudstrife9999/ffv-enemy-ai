@@ -2,7 +2,7 @@ from enum import IntEnum
 from typing import override
 
 
-#TODO: Use better names.
+# TODO: Use better names.
 class PartyMemberPropertyTable(IntEnum):
     ROW = 0x00
     JOB = 0x01
