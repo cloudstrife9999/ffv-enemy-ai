@@ -1,0 +1,14 @@
+{
+    "enemy_stats": [
+        "0x100000",
+        "0x102FFF"
+    ],
+    "enemy_ai_offsets": [
+        "0x109C00",
+        "0x109EFF"
+    ],
+    "enemy_ai": [
+        "0x109F00",
+        "0x10C7FF"
+    ]
+}

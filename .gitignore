@@ -1,0 +1,16 @@
+*pyc
+*pyo
+__pycache__/
+
+res/codes/
+res/roms/
+
+ai.json
+ai2.json
+
+*.txt
+*.csv
+
+parser/old/
+
+.vscode/

@@ -1,0 +1,21 @@
+from typing import Any, override
+
+from .condition import AIRuleCondition
+from ..enums.condition_code import ConditionCode
+from ..enums.target_count import TargetCount
+
+
+class TargetCountCondition(AIRuleCondition):
+    def __init__(self, target_count: TargetCount, third_byte: int, fourth_byte: int) -> None:
+        super().__init__(ConditionCode.TARGET_COUNT.value, target_count.value, third_byte, fourth_byte)
+
+    @property
+    def target_count(self) -> TargetCount:
+        return TargetCount(self.raw_second_byte)
+
+    @override
+    def to_json(self) -> str | dict[str, Any]:
+        return {
+            "condition": self.condition_code.name,
+            "target_count": self.target_count.name
+        }
