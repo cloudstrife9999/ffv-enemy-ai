@@ -3,24 +3,25 @@ from typing import Any, override
 
 from .action import AIRuleAction
 from ..enums.action_code import ActionCode
-from ..enums.party_member import PartyMemberParameter
+from ..enums.party_member_offset import PartyMemberPropertyTable
+from ..enums.command_status import CommandStatus
 
 
 class SetStatsOrToggleStatusAction(AIRuleAction):
-    def __init__(self, parameter: PartyMemberParameter, value_msb: int) -> None:
-        super().__init__(action_code=ActionCode.SET_STATS_OR_TOGGLE_STATUS, optional_second_byte=parameter.value, optional_third_byte=value_msb, optional_fourth_byte=None)
+    def __init__(self, property_table: PartyMemberPropertyTable, mask: int) -> None:
+        super().__init__(action_code=ActionCode.SET_STATS_OR_TOGGLE_STATUS, optional_second_byte=property_table.value, optional_third_byte=mask, optional_fourth_byte=None)
 
     @property
-    def parameter(self) -> PartyMemberParameter:
+    def property_table(self) -> PartyMemberPropertyTable:
         if not self.raw_second_byte:
-            raise ValueError("Party member parameter is not set.")
+            raise ValueError("Party member offset is not set.")
         else:
-            return PartyMemberParameter(self.raw_second_byte)
+            return PartyMemberPropertyTable(self.raw_second_byte)
 
     @property
-    def value_msb(self) -> int:
+    def mask(self) -> int:
         if not self.raw_third_byte:
-            raise ValueError("Value MSB is not set.")
+            raise ValueError("Mask is not set.")
         else:
             return self.raw_third_byte
 
@@ -28,6 +29,10 @@ class SetStatsOrToggleStatusAction(AIRuleAction):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
-            "parameter": self.parameter.name,
-            "value_msb": self.value_msb
+            "property_table": self.property_table.name,
+            "mask": self.mask,
+        } if self.property_table != PartyMemberPropertyTable.CMD_STATUS else {
+            "action": self.action_code.name,
+            "property_table": self.property_table.name,
+            "command_status": CommandStatus(self.mask).name
         }

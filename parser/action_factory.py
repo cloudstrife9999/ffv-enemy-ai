@@ -16,7 +16,7 @@ from .enums.action_code import ActionCode
 from .enums.target import Target
 from .enums.variable import Variable
 from .enums.global_event_table import GlobalEventTable
-from .enums.party_member import PartyMemberParameter
+from .enums.party_member_offset import PartyMemberPropertyTable
 
 
 class ActionFactory():
@@ -73,7 +73,7 @@ class ActionFactory():
             case ActionCode.SET_GLOBAL_EVENT_FLAG:
                 return SetGlobalEventFlagAction(global_event_table_number=GlobalEventTable(second_byte), mask=third_byte)
             case ActionCode.SET_STATS_OR_TOGGLE_STATUS:
-                return SetStatsOrToggleStatusAction(parameter=PartyMemberParameter(second_byte), value_msb=third_byte)
+                return SetStatsOrToggleStatusAction(property_table=PartyMemberPropertyTable(second_byte), mask=third_byte)
             case _:
                 raise ValueError(f"Unknown three-byte action code: {action_code:#04x}.")
 

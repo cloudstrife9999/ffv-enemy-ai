@@ -26,7 +26,7 @@ from .enums.command import Command
 from .enums.ability import Ability
 from .enums.item import Item
 from .enums.target_count import TargetCount
-from .enums.party_member import PartyMemberParameter
+from .enums.party_member_offset import PartyMemberPropertyTable
 from .enums.global_event_table import GlobalEventTable
 
 
@@ -68,7 +68,7 @@ class ConditionFactory():
                 case ConditionCode.TARGET_COUNT:
                     return TargetCountCondition(target_count=TargetCount(second_byte), third_byte=third_byte, fourth_byte=fourth_byte)
                 case ConditionCode.PARTY_MEMBER_PARAMETER:
-                    return PartyMemberParameterCondition(target=Target(second_byte), parameter=PartyMemberParameter(third_byte), expected_value=fourth_byte)
+                    return PartyMemberParameterCondition(target=Target(second_byte), property_table=PartyMemberPropertyTable(third_byte), expected_value=fourth_byte)
                 case ConditionCode.COMPARE_WITH_A2:
                     return A2ComparisonCondition(second_byte=second_byte, value_lsb=third_byte, value_msb=fourth_byte)
                 case ConditionCode.GLOBAL_EVENT_FLAGS:

@@ -3,7 +3,7 @@ from typing import override
 
 
 #TODO: Use better names.
-class PartyMemberParameter(IntEnum):
+class PartyMemberPropertyTable(IntEnum):
     ROW = 0x00
     JOB = 0x01
     LEVEL = 0x02
@@ -34,7 +34,7 @@ class PartyMemberParameter(IntEnum):
     STATUS2 = 0x1B
     STATUS3 = 0x1C
     STATUS4 = 0x1D
-    CMD_STATUS = 0x1E
+    CMD_STATUS = 0x1E  # the CommandStatus enum is used to interpret the value at this offset.
     DAMAGE_MOD = 0x1F
     PASSIVES1 = 0x20
     PASSIVES2 = 0x21
