@@ -11,3 +11,7 @@ class Variable(Enum):
     @override
     def __str__(self) -> str:
         return self.name.title()
+
+    @classmethod
+    def is_valid_var_id(cls, value: int) -> bool:
+        return value in cls._value2member_map_

@@ -162,3 +162,7 @@ class Target(IntEnum):
                 return "Party member #4 if dead"
             case _:
                 raise ValueError(f"{self} is not a valid {self.__class__.__name__}.")
+
+    @classmethod
+    def is_valid_target_id(cls, value: int) -> bool:
+        return value in cls._value2member_map_

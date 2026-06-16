@@ -19,3 +19,27 @@ class ActionCode(IntEnum):
     @override
     def __str__(self) -> str:
         return self.name.title().replace("_", " ")  # TODO: refine this.
+
+    @classmethod
+    def is_valid_four_byte_action_code(cls, value: int) -> bool:
+        '''Returns True if the given value is a valid 1-byte action code of a 4-byte action.'''
+        return value in {
+            ActionCode.GBA_RANDOM_SELECTION,
+            ActionCode.RANDOM_SELECTION,
+            ActionCode.AI_COMMAND
+        }
+
+    @classmethod
+    def is_valid_three_byte_action_code(cls, value: int) -> bool:
+        '''Returns True if the given value is a valid 1-byte action code of a 3-byte action.'''
+        return value in {
+            ActionCode.UNHIDE_ENEMY,
+            ActionCode.SET_TARGET,
+            ActionCode.SET_VARIABLE,
+            ActionCode.UNKNOWN_F5_ACTION,
+            ActionCode.DISPLAY_MESSAGE,
+            ActionCode.NO_INTERRUPT,
+            ActionCode.FULL_SCREEN_EFFECT,
+            ActionCode.SET_GLOBAL_EVENT_FLAG,
+            ActionCode.SET_STATS_OR_TOGGLE_STATUS
+        }

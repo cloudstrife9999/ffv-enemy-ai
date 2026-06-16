@@ -54,3 +54,7 @@ class Command(IntEnum):
                 return self.name.replace("_", " ").title()
             case _:
                 return f"!{self.name.replace('_', ' ').title()}"
+
+    @classmethod
+    def is_valid_command_id(cls, value: int) -> bool:
+        return value in cls._value2member_map_

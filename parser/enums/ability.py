@@ -248,3 +248,7 @@ class Ability(IntEnum):
     @override
     def __str__(self) -> str:
         return self.name.replace("_", " ").title()  # TODO: refine this.
+
+    @classmethod
+    def is_valid_ability_id(cls, value: int) -> bool:
+        return value in cls._value2member_map_

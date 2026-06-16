@@ -64,3 +64,84 @@ class ConditionCode(IntEnum):
                 return "No female party members targetable"
             case _:
                 raise ValueError(f"{self} is not a valid {self.__class__.__name__}.")
+
+    @classmethod
+    def is_valid_condition_code(cls, value: int) -> bool:
+        return value in cls._value2member_map_
+
+    def has_irrelevant_second_byte(self) -> bool:
+        '''Irrelevant as in "ignored by the game".'''
+        return self in {
+            ConditionCode.UNCONDITIONAL,
+            ConditionCode.VAR_CHECK,
+            ConditionCode.LONE_ENEMY,
+            ConditionCode.COMPARE_WITH_A2,
+            ConditionCode.GLOBAL_EVENT_FLAGS,
+            ConditionCode.HP_DAMAGE_JUST_TAKEN,
+            ConditionCode.DEATH_COUNTER,
+            ConditionCode.SINGLE_PARTY_MEMBER_ALIVE,
+            ConditionCode.HIT_BY_SUMMON,
+            ConditionCode.NO_FEMALE_PARTY_MEMBERS_TARGETABLE
+        }
+
+    def has_unrestricted_second_byte(self) -> bool:
+        '''Unrestricted as in "any value is valid".'''
+        return self in {
+            ConditionCode.ENEMY_SLOTS,
+            ConditionCode.HIT_BY_COMMAND,
+            ConditionCode.HIT_BY_COMMAND_CLASS,
+            ConditionCode.HIT_BY_SPELL,
+            ConditionCode.HIT_BY_ITEM,
+            ConditionCode.TARGET_COUNT
+        }
+
+    def has_irrelevant_third_byte(self) -> bool:
+        '''Irrelevant as in "ignored by the game".'''
+        return self in {
+            ConditionCode.UNCONDITIONAL,
+            ConditionCode.ENEMY_SLOTS,
+            ConditionCode.TARGET_COUNT,
+            ConditionCode.HP_DAMAGE_JUST_TAKEN,
+            ConditionCode.DEATH_COUNTER,
+            ConditionCode.SINGLE_PARTY_MEMBER_ALIVE,
+            ConditionCode.HIT_BY_SUMMON,
+            ConditionCode.NO_FEMALE_PARTY_MEMBERS_TARGETABLE
+        }
+
+    def has_unrestricted_third_byte(self) -> bool:
+        '''Unrestricted as in "any value is valid".'''
+        return self in {
+            ConditionCode.HP_LOWER_THAN_THRESHOLD,
+            ConditionCode.LONE_ENEMY,  # This is probably a bug in the original game, but the third byte of this condition is ignored.
+            ConditionCode.HIT_BY_ITEM,
+            ConditionCode.COMPARE_WITH_A2
+        }
+
+    def has_irrelevant_fourth_byte(self) -> bool:
+        '''Irrelevant as in "ignored by the game".'''
+        return self in {
+            ConditionCode.UNCONDITIONAL,
+            ConditionCode.LONE_ENEMY,
+            ConditionCode.HIT_BY_SPELL,
+            ConditionCode.HIT_BY_ITEM,
+            ConditionCode.TARGET_COUNT,
+            ConditionCode.HP_DAMAGE_JUST_TAKEN,
+            ConditionCode.DEATH_COUNTER,
+            ConditionCode.SINGLE_PARTY_MEMBER_ALIVE,
+            ConditionCode.HIT_BY_SUMMON,
+            ConditionCode.NO_FEMALE_PARTY_MEMBERS_TARGETABLE
+        }
+
+    def has_unrestricted_fourth_byte(self) -> bool:
+        '''Unrestricted as in "any value is valid".'''
+        return self in {
+            ConditionCode.STATUS_EFFECT,  # Multiple statuses can be checked by using a bitmask in the fourth byte.
+            ConditionCode.HP_LOWER_THAN_THRESHOLD,
+            ConditionCode.VAR_CHECK,
+            ConditionCode.ENEMY_SLOTS,  # Multiple slots can be checked by using a bitmask in the fourth byte.
+            ConditionCode.HIT_BY_COMMAND,  # Multiple elements can be checked by using a bitmask in the fourth byte.
+            ConditionCode.HIT_BY_COMMAND_CLASS,  # Multiple elements can be checked by using a bitmask in the fourth byte.
+            ConditionCode.PARTY_MEMBER_PARAMETER,
+            ConditionCode.COMPARE_WITH_A2,
+            ConditionCode.GLOBAL_EVENT_FLAGS  # Multiple flags can be checked by using a bitmask in the fourth byte.
+        }

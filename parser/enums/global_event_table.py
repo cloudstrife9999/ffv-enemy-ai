@@ -22,3 +22,7 @@ class GlobalEventTable(IntEnum):
     @override
     def __str__(self) -> str:
         return f"{self.name.title()} table"
+
+    @classmethod
+    def is_valid_global_event_table_id(cls, value: int) -> bool:
+        return value in cls._value2member_map_

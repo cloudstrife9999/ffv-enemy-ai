@@ -8,10 +8,13 @@
 
 - Line 6: # TODO: Implement this.
 
+## [parser/parser.py](parser/parser.py)
+
+- Line 16: # TODO: rather than simply moving through the states, build a tree of rule objects as we parse the tokens, and add a getter property to return the tree of rule objects.
+
 ## [parser/enums/party_member_offset.py](parser/enums/party_member_offset.py)
 
-- Line 5: # TODO: Use better names.
-- Line 138: return self.name.replace("_", " ").title()  # TODO: refine this.
+- Line 137: return self.name.replace("_", " ").title()  # TODO: refine this.
 
 ## [parser/enums/global_event.py](parser/enums/global_event.py)
 
