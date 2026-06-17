@@ -10,14 +10,14 @@ class UnhideEnemyAction(AIRuleAction):
 
     @property
     def mask(self) -> int:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Mask is not set.")
         else:
             return self.raw_second_byte
 
     @property
     def enemy_set(self) -> int:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Enemy set is not set.")
         else:
             return self.raw_third_byte

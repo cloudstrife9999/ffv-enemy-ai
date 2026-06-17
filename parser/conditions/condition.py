@@ -6,6 +6,8 @@ from ..enums.condition_code import ConditionCode
 
 class AIRuleCondition(ABC):
     def __init__(self, condition_code: int, second_byte: int, third_byte: int, fourth_byte: int) -> None:
+        assert all(isinstance(byte, int) for byte in [condition_code, second_byte, third_byte, fourth_byte]), f"All bytes must be integers. Got {[condition_code, second_byte, third_byte, fourth_byte]}"
+
         self.__condition_code: int = condition_code
         self.__second_byte: int = second_byte
         self.__third_byte: int = third_byte

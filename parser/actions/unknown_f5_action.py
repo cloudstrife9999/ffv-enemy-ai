@@ -11,14 +11,14 @@ class UnknownF5Action(AIRuleAction):
 
     @property
     def second_byte(self) -> int:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Second byte is not set.")
         else:
             return self.raw_second_byte
 
     @property
     def third_byte(self) -> int:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Third byte is not set.")
         else:
             return self.raw_third_byte

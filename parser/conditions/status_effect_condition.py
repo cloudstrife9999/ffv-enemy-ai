@@ -9,7 +9,7 @@ from ..enums.status import StatusCode
 
 class StatusEffectCondition(AIRuleCondition):
     def __init__(self, target: Target, status_table_number: StatusTable, mask: int) -> None:
-        super().__init__(ConditionCode.STATUS_EFFECT.value, target.value, status_table_number.value, StatusCode.from_table_and_mask(status_table_number, mask).value)
+        super().__init__(ConditionCode.STATUS_EFFECT.value, target.value, status_table_number.value, StatusCode.from_table_and_mask(status_table_number, mask).value[1])
 
     @property
     def target(self) -> Target:

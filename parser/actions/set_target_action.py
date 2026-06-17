@@ -12,7 +12,7 @@ class SetTargetAction(AIRuleAction):
 
     @property
     def target(self) -> Target:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Target is not set.")
         else:
             return Target(self.raw_second_byte)

@@ -17,7 +17,7 @@ class AICommandAction(AIRuleAction):
 
     @property
     def sub_action(self) -> AIRuleAction:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Sub-action is not set.")
         else:
             return self.__sub_action
@@ -25,6 +25,6 @@ class AICommandAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
             "sub_action": self.sub_action.to_json()
         }

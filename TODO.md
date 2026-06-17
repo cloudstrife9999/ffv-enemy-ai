@@ -1,16 +1,24 @@
 # TODO List
 
-## [parser/rule.py](parser/rule.py)
+## [main.py](main.py)
 
-- Line 7: # TODO: Implement this.
+- Line 11: # TODO: move these constants to a config file.
 
-## [parser/enemy_ai.py](parser/enemy_ai.py)
+## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
 
-- Line 6: # TODO: Implement this.
+- Line 37: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
 
-## [parser/parser.py](parser/parser.py)
+## [parser/actions/display_message_action.py](parser/actions/display_message_action.py)
 
-- Line 16: # TODO: rather than simply moving through the states, build a tree of rule objects as we parse the tokens, and add a getter property to return the tree of rule objects.
+- Line 7: # TODO: Find out the mapping between the second and third bytes and the actual message that is displayed. For now, just store the raw values.
+
+## [parser/actions/ai_command_action.py](parser/actions/ai_command_action.py)
+
+- Line 28: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
+
+## [parser/actions/full_screen_effect_action.py](parser/actions/full_screen_effect_action.py)
+
+- Line 7: # TODO: Find out the mapping between the second and third bytes and the actual full screen effect that is applied. For now, just store the raw values.
 
 ## [parser/enums/party_member_offset.py](parser/enums/party_member_offset.py)
 
@@ -18,7 +26,7 @@
 
 ## [parser/enums/global_event.py](parser/enums/global_event.py)
 
-- Line 47: return self.name.replace("_", " ").title()  # TODO: refine this.
+- Line 63: return self.name.replace("_", " ").title()  # TODO: refine this.
 
 ## [parser/enums/item.py](parser/enums/item.py)
 

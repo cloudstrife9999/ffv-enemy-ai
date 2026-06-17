@@ -13,14 +13,14 @@ class SetStatsOrToggleStatusAction(AIRuleAction):
 
     @property
     def property_table(self) -> PartyMemberPropertyTable:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Party member offset is not set.")
         else:
             return PartyMemberPropertyTable(self.raw_second_byte)
 
     @property
     def mask(self) -> int:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Mask is not set.")
         else:
             return self.raw_third_byte

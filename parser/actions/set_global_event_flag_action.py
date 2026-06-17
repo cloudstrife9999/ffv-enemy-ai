@@ -12,25 +12,25 @@ class SetGlobalEventFlagAction(AIRuleAction):
 
     @property
     def global_event_table_number(self) -> GlobalEventTable:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Global event table number is not set.")
         else:
             return GlobalEventTable(self.raw_second_byte)
 
     @property
-    def global_event_code(self) -> GlobalEvent:
-        if not self.raw_third_byte:
+    def global_events_codes(self) -> list[GlobalEvent]:
+        if self.raw_third_byte is None:
             raise ValueError("Global event mask is not set.")
         else:
             return GlobalEvent.from_table_and_mask(self.global_event_table_number, self.raw_third_byte)
 
     @property
-    def global_event_name(self) -> str:
-        return str(self.global_event_code)
+    def global_events_names(self) -> list[str]:
+        return [str(event) for event in self.global_events_codes]
 
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
-            "global_event": self.global_event_code.name
+            "global_events": self.global_events_names
         }

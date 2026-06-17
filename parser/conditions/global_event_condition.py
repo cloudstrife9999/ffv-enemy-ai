@@ -15,16 +15,16 @@ class GlobalEventCondition(AIRuleCondition):
         return GlobalEventTable(self.raw_third_byte)
 
     @property
-    def global_event_code(self) -> GlobalEvent:
+    def global_events_codes(self) -> list[GlobalEvent]:
         return GlobalEvent.from_table_and_mask(self.global_event_table_number, self.raw_fourth_byte)
 
     @property
-    def global_event_name(self) -> str:
-        return str(self.global_event_code)
+    def global_events_names(self) -> list[str]:
+        return [str(event) for event in self.global_events_codes]
 
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "condition": self.condition_code.name,
-            "global_event": self.global_event_name
+            "global_events": self.global_events_names
         }

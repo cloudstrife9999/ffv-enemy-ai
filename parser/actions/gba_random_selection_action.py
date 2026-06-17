@@ -12,21 +12,21 @@ class GBARandomSelectionAction(AIRuleAction):
 
     @property
     def first_choice(self) -> SimpleAction:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("First choice action code is not set.")
         else:
             return SimpleAction(self.raw_second_byte)
 
     @property
     def second_choice(self) -> SimpleAction:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Second choice action code is not set.")
         else:
             return SimpleAction(self.raw_third_byte)
 
     @property
     def third_choice(self) -> SimpleAction:
-        if not self.raw_fourth_byte:
+        if self.raw_fourth_byte is None:
             raise ValueError("Third choice action code is not set.")
         else:
             return SimpleAction(self.raw_fourth_byte)

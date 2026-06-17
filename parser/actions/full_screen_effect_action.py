@@ -4,20 +4,21 @@ from .action import AIRuleAction
 from ..enums.action_code import ActionCode
 
 
+# TODO: Find out the mapping between the second and third bytes and the actual full screen effect that is applied. For now, just store the raw values.
 class FullScreenEffectAction(AIRuleAction):
     def __init__(self, second_byte: int, third_byte: int) -> None:
         super().__init__(action_code=ActionCode.FULL_SCREEN_EFFECT, optional_second_byte=second_byte, optional_third_byte=third_byte, optional_fourth_byte=None)
 
     @property
     def second_byte(self) -> int:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Second byte is not set.")
         else:
             return self.raw_second_byte
 
     @property
     def third_byte(self) -> int:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Third byte is not set.")
         else:
             return self.raw_third_byte

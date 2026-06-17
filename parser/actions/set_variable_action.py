@@ -11,14 +11,14 @@ class SetVariableAction(AIRuleAction):
 
     @property
     def var_id(self) -> Variable:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Variable ID is not set.")
         else:
             return Variable(self.raw_second_byte)
 
     @property
     def value(self) -> int:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Value is not set.")
         else:
             return self.raw_third_byte

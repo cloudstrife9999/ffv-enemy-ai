@@ -4,8 +4,13 @@ from ..enums.action_code import ActionCode
 
 
 class AIRuleAction(ABC):
-    def __init__(self, action_code: int, optional_second_byte: Optional[int], optional_third_byte: Optional[int], optional_fourth_byte: Optional[int]=None) -> None:
-        self.__action_code: int = action_code
+    def __init__(self, action_code: int | ActionCode, optional_second_byte: Optional[int], optional_third_byte: Optional[int], optional_fourth_byte: Optional[int]=None) -> None:
+        assert isinstance(action_code, (int, ActionCode)), "action_code must be an integer or ActionCode."
+        assert optional_second_byte is None or isinstance(optional_second_byte, int), "optional_second_byte must be an integer or None."
+        assert optional_third_byte is None or isinstance(optional_third_byte, int), "optional_third_byte must be an integer or None."
+        assert optional_fourth_byte is None or isinstance(optional_fourth_byte, int), "optional_fourth_byte must be an integer or None."
+
+        self.__action_code: int = action_code.value if isinstance(action_code, ActionCode) else action_code
         self.__second_byte: Optional[int] = optional_second_byte
         self.__third_byte: Optional[int] = optional_third_byte
         self.__fourth_byte: Optional[int] = optional_fourth_byte
@@ -93,15 +98,29 @@ class AIRuleAction(ABC):
 
         return length
 
+    def get_tokens(self) -> list[int]:
+        tokens: list[int] = [self.__action_code]
+
+        if self.__second_byte is not None:
+            tokens.append(self.__second_byte)
+
+        if self.__third_byte is not None:
+            tokens.append(self.__third_byte)
+
+        if self.__fourth_byte is not None:
+            tokens.append(self.__fourth_byte)
+
+        return tokens
+
     @override
     def __str__(self) -> str:
         # No spaces.
-        return f"{self.hex_action_code}{self.hex_second_byte}{self.hex_third_byte}{self.hex_fourth_byte}"
+        return "".join(filter(None, [self.hex_action_code, self.hex_second_byte, self.hex_third_byte, self.hex_fourth_byte]))
 
     @override
     def __repr__(self) -> str:
         # Spaces between each byte.
-        return f"{self.hex_action_code} {self.hex_second_byte} {self.hex_third_byte} {self.hex_fourth_byte}"
+        return " ".join(filter(None, [self.hex_action_code, self.hex_second_byte, self.hex_third_byte, self.hex_fourth_byte]))
 
     @abstractmethod
     def to_json(self) -> str | dict[str, Any]:

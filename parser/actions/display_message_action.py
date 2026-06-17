@@ -4,20 +4,21 @@ from .action import AIRuleAction
 from ..enums.action_code import ActionCode
 
 
+# TODO: Find out the mapping between the second and third bytes and the actual message that is displayed. For now, just store the raw values.
 class DisplayMessageAction(AIRuleAction):
     def __init__(self, message_table_number: int, message_entry: int) -> None:
         super().__init__(action_code=ActionCode.DISPLAY_MESSAGE, optional_second_byte=message_table_number, optional_third_byte=message_entry, optional_fourth_byte=None)
 
     @property
     def message_table_number(self) -> int:
-        if not self.raw_second_byte:
+        if self.raw_second_byte is None:
             raise ValueError("Message table number is not set.")
         else:
             return self.raw_second_byte
 
     @property
     def message_entry(self) -> int:
-        if not self.raw_third_byte:
+        if self.raw_third_byte is None:
             raise ValueError("Message entry is not set.")
         else:
             return self.raw_third_byte

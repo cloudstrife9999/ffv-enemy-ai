@@ -52,7 +52,7 @@ class StatusCode(Enum):
             if status.table is table and status.mask == mask:
                 return status
 
-        raise ValueError(f"Invalid status code: table={table}, mask={mask:#04x}")
+        raise ValueError(f"Invalid status code: table={table}, mask={mask:02X}.")
 
     @override
     def __str__(self) -> str:
