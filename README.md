@@ -30,43 +30,38 @@ TBA
 ```text
 Enemy ID: 169
 Enemy Name: Shinryu
-Active Rules:
-Rule #1:
-  Conditions:
-    Variable Var_00 == 1
-  Actions:
-    Turn #1: random(Maelstrom, Physical attack, Roulette)
-    Turn #2: random(Snowstorm, Atomic Ray, Lightning)
-    Turn #3: AI command:
-               No interrupt:
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: random(Maelstrom, Physical attack, Roulette)
+      Turn #2: random(Snowstorm, Atomic Ray, Lightning)
+      Turn #3: Consecutive actions:
                  random(Maelstrom, Physical attack, Roulette)
                  random(Mighty Guard, Level 2 Old, Level 3 Flare)
-    Turn #4: AI command:
-               No interrupt:
+               Consecutive actions:
                  random(Physical attack, Physical attack, Demon Eye (enemy magic))
                  random(Physical attack, Physical attack, Poison Breath)
-Default rule:
-  Conditions:
-    Unconditional
-  Actions:
-    Turn #1: Do nothing
-    Turn #2: AI command:
-               No interrupt:
-                 AI command:
-                   Set Var_00 to 1
-                 Tidal Wave (enemy magic)
-Reactive Rules:
-Rule #1:
-  Conditions:
-    Hit by this spell: Unnamed script trigger
-  Actions:
-    AI command:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Nothing
+      Turn #2: Consecutive actions:
+                 Set Var_00 to 1
+                 Ability: Tidal Wave (enemy magic)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by the Unnamed script trigger spell
+    Actions:
       Set Var_00 to 0
-    Zombie Breath
-Rule #2:
-  Conditions:
-    Current HP < 20000
-    HP damage just taken
-  Actions:
-    random(Unnamed script trigger, Do nothing, Do nothing)
+      Ability: Zombie Breath
+  Rule #2:
+    Conditions:
+      Current HP < 20000
+      HP damage just taken
+    Actions:
+      random(Unnamed script trigger, Nothing, Nothing)
 ```

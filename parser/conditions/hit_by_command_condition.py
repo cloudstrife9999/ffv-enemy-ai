@@ -50,6 +50,8 @@ class HitByCommandCondition(AIRuleCondition):
         if self.match_type == MatchType.MATCH and self.elements:
             return [f"{" " * indent}Hit by {str(self.command)} using any of the following elements: {[str(element) for element in self.elements]}"]
         elif self.elements:
-            return [f"{" " * indent}Hit by a command different from {str(self.command)} or hit by it with an elemental action that does not match any of {[str(element) for element in self.elements]}"]
+            return [f"{" " * indent}Hit by a command other than {str(self.command)} or hit by it with an elemental action that does not match any of {[str(element) for element in self.elements]}"]
+        elif self.match_type == MatchType.MATCH:
+            return [f"{" " * indent}Hit by {str(self.command)}"]
         else:
-            return [f"{" " * indent}Hit by a command different from {str(self.command)}, regardless of the element used"]
+            return [f"{" " * indent}Hit by a command other than {str(self.command)}"]

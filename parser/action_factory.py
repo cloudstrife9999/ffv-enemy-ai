@@ -46,7 +46,7 @@ class ActionFactory():
 
         match ActionCode(action_code):
             case ActionCode.SET_ENEMY_TO_SHOW:
-                return SetEnemyToShowAction(slot_mask=second_byte, enemy_formation_number=third_byte)
+                return SetEnemyToShowAction(flags=second_byte, slot_mask=third_byte)
             case ActionCode.SET_TARGET:
                 return SetTargetAction(target=Target(second_byte), optional_third_byte=third_byte)
             case ActionCode.SET_VARIABLE:

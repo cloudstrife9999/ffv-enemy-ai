@@ -36,13 +36,13 @@ class EnemySlotsCondition(AIRuleCondition):
         return {
             "condition": self.condition_code.name,
             "match_type": self.match_type.name,
-            "explanation": "enemies only in these slots" if self.match_type == MatchType.MATCH else "either one of these slots is empty, or there is at least an enemy in a slot not in this list",
+            "explanation": "visible enemies only in these slots" if self.match_type == MatchType.MATCH else "either one of these slots is empty, or there is at least a visible enemy in a slot not in this list",
             "enemy_slots": [slot.name for slot in self.enemy_slots]
         }
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
         if self.match_type == MatchType.MATCH:
-            return [f"{" " * indent}No enemies in slots other than [{", ".join(slot.name.split("_")[1] for slot in self.enemy_slots)}]"]
+            return [f"{" " * indent}No visible enemies in slots other than [{", ".join(f"#{slot.name.split("_")[1]}" for slot in self.enemy_slots)}]"]
         else:
-            return [f"{" " * indent}At least one enemy in any of the following slots: [{", ".join(slot.name.split("_")[1] for slot in self.enemy_slots)}]"]
+            return [f"{" " * indent}At least one visible enemy in any of the following slots: [{", ".join(f"#{slot.name.split("_")[1]}" for slot in self.enemy_slots)}]"]

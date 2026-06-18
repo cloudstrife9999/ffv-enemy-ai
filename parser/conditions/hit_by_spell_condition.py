@@ -34,7 +34,15 @@ class HitByExactSpellCondition(AIRuleCondition):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        if self.match_type == MatchType.MATCH:
-            return [f"{" " * indent}Hit by this spell: {str(self.spell)}"]
+        spell_name: str = str(self.spell)
+
+        if self.match_type == MatchType.MATCH and self.spell is Ability.SCRIPT_TRIGGER:
+            return [f"{" " * indent}Hit by the unnamed script trigger spell"]
+        elif self.match_type == MatchType.MATCH:
+            return [f"{" " * indent}Hit by the {spell_name} spell"]
+        elif self.match_type == MatchType.NO_MATCH and self.spell is Ability.SCRIPT_TRIGGER:
+            return [f"{" " * indent}Hit by a spell other than the unnamed script trigger"]
+        elif self.match_type == MatchType.NO_MATCH:
+            return [f"{" " * indent}Hit by a spell other than {spell_name}"]
         else:
-            return [f"{" " * indent}Hit by a spell that is not {str(self.spell)}"]
+            raise ValueError(f"Invalid match type: {self.match_type}.")

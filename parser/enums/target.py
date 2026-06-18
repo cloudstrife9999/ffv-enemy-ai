@@ -38,8 +38,8 @@ class Target(IntEnum):
     ALL_ENEMIES_WITH_LESS_THAN_HALF_HP = 0x20
     RANDOM_ENEMY_WITH_LESS_THAN_HALF_HP = 0x21
     RANDOM_PARTY_MEMBER_WITHOUT_REFLECT = 0x22
-    ALL_ALLIES_OF_THE_ENEMY = 0x23
-    RANDOM_ALLY_OF_THE_ENEMY = 0x24
+    ALL_PARTY_MEMBERS = 0x23
+    RANDOM_PARTY_MEMBER = 0x24
     ALL_DEAD_ENEMIES = 0x25
     RANDOM_DEAD_ENEMY = 0x26
     ENKIDU = 0x27  # TODO: check this.
@@ -63,14 +63,14 @@ class Target(IntEnum):
                     Target.SELF_UNLESS_FORCED | Target.RANDOM_NON_SELF_ENEMY | Target.RANDOM_ENEMY | Target.RANDOM_FRONT_ROW_PARTY_MEMBER |\
                     Target.RANDOM_BACK_ROW_PARTY_MEMBER | Target.RANDOM_FEMALE_PARTY_MEMBER | Target.RANDOM_MALE_PARTY_MEMBER |\
                     Target.RANDOM_DEAD_PARTY_MEMBER | Target.RANDOM_ENEMY_WITH_REFLECT | Target.RANDOM_ENEMY_WITH_CRITICAL |\
-                    Target.RANDOM_ENEMY_WITH_LESS_THAN_HALF_HP | Target.RANDOM_PARTY_MEMBER_WITHOUT_REFLECT | Target.RANDOM_ALLY_OF_THE_ENEMY |\
+                    Target.RANDOM_ENEMY_WITH_LESS_THAN_HALF_HP | Target.RANDOM_PARTY_MEMBER_WITHOUT_REFLECT | Target.RANDOM_PARTY_MEMBER |\
                     Target.RANDOM_DEAD_ENEMY | Target.ENKIDU | Target.BARTZ_IF_JUMPING | Target.LENNA_IF_JUMPING | Target.FARIS_IF_JUMPING |\
                     Target.GALUF_IF_JUMPING | Target.KRILE_IF_JUMPING | Target.TICK_ACTOR | Target.PARTY_MEMBER_1_IF_DEAD |\
                     Target.PARTY_MEMBER_2_IF_DEAD | Target.PARTY_MEMBER_3_IF_DEAD | Target.PARTY_MEMBER_4_IF_DEAD:
                 return "is"
             case Target.ALL_NON_SELF_ENEMIES | Target.ALL_ENEMIES | Target.ALL_FRONT_ROW_PARTY_MEMBERS | Target.ALL_BACK_ROW_PARTY_MEMBERS |\
                     Target.ALL_FEMALE_PARTY_MEMBERS | Target.ALL_MALE_PARTY_MEMBERS | Target.ALL_DEAD_PARTY_MEMBERS | Target.ALL_ENEMIES_WITH_REFLECT |\
-                    Target.ALL_ENEMIES_WITH_CRITICAL | Target.ALL_ENEMIES_WITH_LESS_THAN_HALF_HP | Target.ALL_ALLIES_OF_THE_ENEMY |\
+                    Target.ALL_ENEMIES_WITH_CRITICAL | Target.ALL_ENEMIES_WITH_LESS_THAN_HALF_HP | Target.ALL_PARTY_MEMBERS |\
                     Target.ALL_DEAD_ENEMIES | Target.ALL_PARTY_MEMBERS_MATCHING_CONDITION:
                 return "are"
             case _:
@@ -92,7 +92,7 @@ class Target(IntEnum):
             case Target.ENEMY_IN_SLOT_1 | Target.ENEMY_IN_SLOT_2 | Target.ENEMY_IN_SLOT_3 | Target.ENEMY_IN_SLOT_4 | Target.ENEMY_IN_SLOT_5 | Target.ENEMY_IN_SLOT_6 | Target.ENEMY_IN_SLOT_7 | Target.ENEMY_IN_SLOT_8:
                 return f"The enemy in slot #{self.value - Target.ENEMY_IN_SLOT_1.value + 1}"
             case Target.SELF_UNLESS_FORCED:
-                return "Self (unless forced)"
+                return "Self"
             case Target.ALL_NON_SELF_ENEMIES:
                 return "All non-self enemies"
             case Target.ALL_ENEMIES:
@@ -135,16 +135,16 @@ class Target(IntEnum):
                 return "A random enemy with less than half HP"
             case Target.RANDOM_PARTY_MEMBER_WITHOUT_REFLECT:
                 return "A random party member without the reflect status effect"
-            case Target.ALL_ALLIES_OF_THE_ENEMY:
-                return "All allies of the enemy (from its perspective)"
-            case Target.RANDOM_ALLY_OF_THE_ENEMY:
-                return "A random ally of the enemy (from its perspective)"
+            case Target.ALL_PARTY_MEMBERS:
+                return "All party members"
+            case Target.RANDOM_PARTY_MEMBER:
+                return "A random party member"
             case Target.ALL_DEAD_ENEMIES:
                 return "All dead (or with 0 HP) enemies"
             case Target.RANDOM_DEAD_ENEMY:
                 return "A random dead (or with 0 HP) enemy"
             case Target.ENKIDU:
-                return "Enkidu (TODO: check if this is correct)"
+                return "Enkidu"
             case Target.BARTZ_IF_JUMPING | Target.LENNA_IF_JUMPING | Target.FARIS_IF_JUMPING | Target.GALUF_IF_JUMPING | Target.KRILE_IF_JUMPING:
                 return f"{self.name.split("_")[0].capitalize()} (while jumping)"
             case Target.TICK_ACTOR:

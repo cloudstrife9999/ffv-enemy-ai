@@ -84,9 +84,9 @@ class EnemyAI():
 
     def to_compact_representation(self) -> list[str]:
         return [
-            "Active Rules:",
+            "ACTIVE RULES:"
         ] + self.__format_active_rules() + [
-            "Reactive Rules:"
+            "REACTIVE RULES:"
         ] + self.__format_reactive_rules()
 
     def __format_active_rules(self) -> list[str]:
@@ -96,9 +96,9 @@ class EnemyAI():
             compact_rule_lines: list[str] = rule.to_compact_representation(reactive=False)
 
             if i == len(self.__active_ai_rules) - 1:
-                new_lines.extend(["Default rule:"] + [f"  {line}" for line in compact_rule_lines])
+                new_lines.extend(["  Default rule:"] + [f"    {line}" for line in compact_rule_lines])
             else:
-                new_lines.extend([f"Rule #{i+1}:"] + [f"  {line}" for line in compact_rule_lines])
+                new_lines.extend([f"  Rule #{i+1}:"] + [f"    {line}" for line in compact_rule_lines])
 
         return new_lines
 
@@ -111,6 +111,6 @@ class EnemyAI():
         for i, rule in enumerate(self.__reactive_ai_rules):
             compact_rule_lines: list[str] = rule.to_compact_representation(reactive=True)
 
-            new_lines.extend([f"Rule #{i+1}:"] + [f"  {line}" for line in compact_rule_lines])
+            new_lines.extend([f"  Rule #{i+1}:"] + [f"    {line}" for line in compact_rule_lines])
 
         return new_lines

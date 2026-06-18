@@ -24,6 +24,10 @@ class DisplayMessageAction(AIRuleAction):
             return self.raw_third_byte
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return False
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,

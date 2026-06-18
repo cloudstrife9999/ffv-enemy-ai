@@ -90,21 +90,29 @@ class EnemyAIRule():
 
     def __add_turn_numbers_to_actions(self) -> list[str]:
         new_lines: list[str] = []
+        new_turn: bool = True
+        turn_number: int = 1
 
-        for i, action in enumerate(self.__actions):
+        for action in self.__actions:
             action_lines: list[str] = action.to_compact_representation(indent=2)
-            prefix: str = f"Turn #{i+1}: "
+            prefix: str = f"Turn #{turn_number}: "
 
             for j, line in enumerate(action_lines):
                 existing_leading_spaces: int = len(line) - len(line.lstrip())
 
-                if j == 0:
+                if j == 0 and new_turn:
                     line = " " * existing_leading_spaces + prefix + line.lstrip()
+
+                    new_turn = False
                 else:
                     line = " " * (existing_leading_spaces + len(prefix)) + line.lstrip()
 
                 action_lines[j] = line
 
             new_lines.extend(action_lines)
+
+            if action.terminates_turn_by_default():
+                new_turn = True
+                turn_number += 1
 
         return new_lines

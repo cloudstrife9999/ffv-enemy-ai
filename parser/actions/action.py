@@ -123,6 +123,11 @@ class AIRuleAction(ABC):
         return " ".join(filter(None, [self.hex_action_code, self.hex_second_byte, self.hex_third_byte, self.hex_fourth_byte]))
 
     @abstractmethod
+    def terminates_turn_by_default(self) -> bool:
+        """Indicates whether this action terminates the turn by default."""
+        ...
+
+    @abstractmethod
     def to_json(self) -> str | dict[str, Any]:
         """Converts the action to a JSON-serialisable dictionary."""
         ...

@@ -18,6 +18,10 @@ class SetTargetAction(AIRuleAction):
             return Target(self.raw_second_byte)
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return False
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
@@ -26,4 +30,4 @@ class SetTargetAction(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}Set the next action's target(s) to {self.target.for_mid_sentence()}"]
+        return [f"{" " * indent}Forcefully change target(s) to {self.target.for_mid_sentence()}"]

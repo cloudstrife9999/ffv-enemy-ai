@@ -16,9 +16,16 @@ class SimpleAction(AIRuleAction):
         return Ability(self.raw_action_code)
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return True
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         return str(self.action)
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}{str(self.action)}"]
+        if self.action is Ability.NOTHING:
+            return [f"{" " * indent}Nothing"]
+        else:
+            return [f"{" " * indent}Ability: {str(self.action)}"]

@@ -28,6 +28,10 @@ class SetStatsOrToggleStatusAction(AIRuleAction):
             return self.raw_third_byte
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return False
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         if self.property_table == PartyMemberPropertyTable.STATUS_1:
             status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FIRST, self.mask)

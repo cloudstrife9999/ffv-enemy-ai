@@ -23,6 +23,10 @@ class AICommandAction(AIRuleAction):
             return self.__sub_action
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return False
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
@@ -38,4 +42,12 @@ class AICommandAction(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}AI command:"] + [f"{" " * indent}{line}" for line in self.sub_action.to_compact_representation(indent)]
+        sub_action_compact_representation: list[str] = self.sub_action.to_compact_representation(indent)
+        suffix: str = sub_action_compact_representation[0].strip()
+
+        #suffix = suffix[0].lower() + suffix[1:]
+
+        if len(sub_action_compact_representation) == 1:
+            return [f"{" " * indent}{suffix}"]
+        else:
+            return [f"{" " * indent}{suffix}"] + sub_action_compact_representation[1:]

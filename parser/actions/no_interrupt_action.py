@@ -53,6 +53,10 @@ class NoInterruptAction(AIRuleAction):
             raise ValueError(f"Sub-actions cumulative length ({cumulative_length}) does not match the specified limit ({declared_length}). An additional byte for a separator or terminator was {"included" if self.__separator_or_terminator_included_in_length else "not included"} in the cumulative length.")
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return True
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
@@ -61,4 +65,4 @@ class NoInterruptAction(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}No interrupt:"] + [f"{" " * indent}{line}" for action in self.sub_actions for line in action.to_compact_representation(indent)]
+        return [f"{" " * indent}Consecutive actions:"] + [f"{" " * indent}{line}" for action in self.sub_actions for line in action.to_compact_representation(indent)]

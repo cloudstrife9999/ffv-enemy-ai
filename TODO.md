@@ -2,7 +2,7 @@
 
 ## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
 
-- Line 37: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
+- Line 41: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
 
 ## [parser/actions/display_message_action.py](parser/actions/display_message_action.py)
 
@@ -10,7 +10,7 @@
 
 ## [parser/actions/ai_command_action.py](parser/actions/ai_command_action.py)
 
-- Line 28: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
+- Line 32: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
 
 ## [parser/actions/full_screen_effect_action.py](parser/actions/full_screen_effect_action.py)
 
@@ -40,7 +40,6 @@
 - Line 54: PARTY_MEMBER_2_IF_DEAD = 0x30  # TODO: check if it targets Lenna specifically, or whoever is in the second party slot.
 - Line 55: PARTY_MEMBER_3_IF_DEAD = 0x31  # TODO: check if it targets Galuf specifically, or whoever is in the third party slot.
 - Line 56: PARTY_MEMBER_4_IF_DEAD = 0x32  # TODO: check if it targets Faris specifically, or whoever is in the fourth party slot.
-- Line 147: return "Enkidu (TODO: check if this is correct)"
 
 ## [parser/enums/ability.py](parser/enums/ability.py)
 

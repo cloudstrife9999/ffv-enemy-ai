@@ -37,4 +37,7 @@ class StatusEffectCondition(AIRuleCondition):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}{str(self.target)} {self.target.get_nominal_predicate()} affected by the {self.status_name} status"]
+        if self.target is Target.SELF_UNLESS_FORCED:
+            return [f"{" " * indent}Affected by the {self.status_name} status"]
+        else:
+            return [f"{" " * indent}{str(self.target)} {self.target.get_nominal_predicate()} affected by the {self.status_name} status"]

@@ -32,6 +32,10 @@ class RandomSelectionAction(AIRuleAction):
             return SimpleAction(self.raw_fourth_byte)
 
     @override
+    def terminates_turn_by_default(self) -> bool:
+        return True
+
+    @override
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
@@ -42,4 +46,16 @@ class RandomSelectionAction(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}random({self.first_choice.to_compact_representation(0)[0]}, {self.second_choice.to_compact_representation(0)[0]}, {self.third_choice.to_compact_representation(0)[0]})"]
+        first_choice_repr: str = RandomSelectionAction.__format_choice_repr(self.first_choice.to_compact_representation(0)[0])
+        second_choice_repr: str = RandomSelectionAction.__format_choice_repr(self.second_choice.to_compact_representation(0)[0])
+        third_choice_repr: str = RandomSelectionAction.__format_choice_repr(self.third_choice.to_compact_representation(0)[0])
+
+        return [f"{" " * indent}random({first_choice_repr}, {second_choice_repr}, {third_choice_repr})"]
+
+
+    @staticmethod
+    def __format_choice_repr(choice_repr: str) -> str:
+        if choice_repr.strip().startswith("Ability: "):
+            return choice_repr.replace("Ability: ", "")
+        else:
+            return choice_repr

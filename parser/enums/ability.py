@@ -91,14 +91,14 @@ class Ability(IntEnum):
     SUMMON_PHOENIX = 0x54
     SUMMON_LEVIATHAN = 0x55
     SUMMON_BAHAMUT = 0x56
-    SONG_POWER = 0x57
-    SONG_SPEED = 0x58
-    SONG_VITALITY = 0x59
-    SONG_MAGIC = 0x5A
-    SONG_HERO = 0x5B
+    SONG_SINEWY_ETUDE = 0x57
+    SONG_SWIFT_SONG = 0x58
+    SONG_MIGHTY_MARCH = 0x59
+    SONG_MANAS_PAEAN = 0x5A
+    SONG_HEROS_RIME = 0x5B
     SONG_REQUIEM = 0x5C
-    SONG_LOVE = 0x5D
-    SONG_CHARM = 0x5E
+    SONG_ROMEOS_BALLAD = 0x5D
+    SONG_ALLURING_AIR = 0x5E
     SUMMON_CHOCO_KICK = 0x5F
     SUMMON_WHISPERWIND = 0x60
     SUMMON_CONSTRICT = 0x61
@@ -242,7 +242,7 @@ class Ability(IntEnum):
     ENEMY_MAGIC_DEMON_EYE = 0xEB
     ENEMY_MAGIC_PULL = 0xEC
     ENEMY_MAGIC_WIN_BATTLE = 0xED
-    ENEMY_MAGIC_HIDE_SELF_AND_UNHIDE_ENEMY = 0xEE
+    ENEMY_MAGIC_UNHIDE_ENEMY = 0xEE
     ENEMY_MAGIC_TERMINATE = 0xEF
 
     @override
@@ -258,7 +258,7 @@ class Ability(IntEnum):
         elif 0x48 <= self.value <= 0x56:
             return f"{self.name.split("_")[-1].capitalize()}"
         elif 0x57 <= self.value <= 0x5E:
-            return f"{self.name.split("_")[-1].capitalize()}"
+            return f"{self.name.replace("SONG_", "").replace("S_", "'s ").replace("_", " ").title()}"
         elif 0x5F <= self.value <= 0x70:
             return f"{self.name.replace("SUMMON_", "").replace("_", " ").capitalize()} (summon ability)"
         elif 0x71 <= self.value <= 0x72:
@@ -291,6 +291,8 @@ class Ability(IntEnum):
             return "Do nothing"
         elif self is Ability.SCRIPT_TRIGGER:
             return "Unnamed script trigger"
+        elif self is Ability.ENEMY_MAGIC_UNHIDE_ENEMY:
+            return "Hide/show enemies"
         elif self.value in (0xD0, 0xD1, 0xD2, 0xD9, 0xDE, 0xE8, 0xE9, 0xEB):
             return f"{self.name.replace("ENEMY_MAGIC_", "").replace("_", " ").title()} (enemy magic)"
         elif 0xA0 <= self.value <= 0xEF:

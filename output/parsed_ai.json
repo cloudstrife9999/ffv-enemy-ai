@@ -236,7 +236,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -583,7 +583,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -703,7 +703,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -968,7 +968,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 800
                     },
                     "HP_DAMAGE_JUST_TAKEN"
@@ -1157,7 +1157,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 300
                     }
                 ],
@@ -1289,7 +1289,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Mini"
                 ]
@@ -1414,10 +1414,10 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000011",
-                        "enemy_formation_number": 12
+                        "slot_mask": "00001100",
+                        "flags": "10000011"
                     },
-                    "Hide Self And Unhide Enemy"
+                    "Hide/show enemies"
                 ]
             }
         ]
@@ -1450,7 +1450,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Moon Flute"
                 ]
@@ -1603,7 +1603,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     {
                         "action": "RANDOM_SELECTION",
@@ -1643,8 +1643,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000111",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "10000111"
                     },
                     "Unhide Next Page"
                 ]
@@ -1679,8 +1679,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000111",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "10000111"
                     },
                     "Unhide Next Page"
                 ]
@@ -1715,8 +1715,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000111",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "10000111"
                     },
                     "Unhide Next Page"
                 ]
@@ -1737,7 +1737,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #3": "Moon Flute"
                 }
@@ -1752,8 +1752,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000111",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "10000111"
                     },
                     "Unhide Next Page"
                 ]
@@ -1879,7 +1879,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Bio"
                 ]
@@ -1962,7 +1962,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -2127,7 +2127,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -2138,7 +2138,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -2149,7 +2149,7 @@
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #6": {
                         "action": "RANDOM_SELECTION",
@@ -2231,7 +2231,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -2251,7 +2251,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -2561,7 +2561,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 300
                     }
                 ],
@@ -2640,7 +2640,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Curaga"
                 ]
@@ -2799,7 +2799,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     },
                     "HP_DAMAGE_JUST_TAKEN"
@@ -2956,10 +2956,10 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000111",
-                        "enemy_formation_number": 252
+                        "slot_mask": "11111100",
+                        "flags": "00000111"
                     },
-                    "Hide Self And Unhide Enemy"
+                    "Hide/show enemies"
                 ]
             }
         ]
@@ -3015,7 +3015,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 300
                     }
                 ],
@@ -3247,10 +3247,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000010",
-                        "enemy_formation_number": 16
+                        "slot_mask": "00010000",
+                        "flags": "10000010"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             },
             {
@@ -3947,7 +3947,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -4385,10 +4385,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01000101",
-                                "enemy_formation_number": 112
+                                "slot_mask": "01110000",
+                                "flags": "01000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -4417,10 +4417,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000000",
-                                "enemy_formation_number": 224
+                                "slot_mask": "11100000",
+                                "flags": "00000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             "Delta Attack"
                         ]
                     }
@@ -4647,7 +4647,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -4718,10 +4718,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000000",
-                                "enemy_formation_number": 0
+                                "slot_mask": "00000000",
+                                "flags": "10000000"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -4862,7 +4862,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -5123,7 +5123,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_2"
                         ]
@@ -5144,7 +5144,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_2",
                             "SLOT_3"
@@ -5422,7 +5422,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_3"
                         ]
@@ -5443,7 +5443,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_2",
                             "SLOT_3"
@@ -5616,7 +5616,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -5924,7 +5924,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_5"
                         ]
@@ -5943,10 +5943,10 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "01000000",
-                        "enemy_formation_number": 240
+                        "slot_mask": "11110000",
+                        "flags": "01000000"
                     },
-                    "Turn #3": "Hide Self And Unhide Enemy"
+                    "Turn #3": "Hide/show enemies"
                 }
             },
             {
@@ -5954,7 +5954,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_4"
                         ]
@@ -5964,10 +5964,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000000",
-                        "enemy_formation_number": 8
+                        "slot_mask": "00001000",
+                        "flags": "00000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             },
             {
@@ -5975,7 +5975,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_3"
                         ]
@@ -5985,10 +5985,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000000",
-                        "enemy_formation_number": 16
+                        "slot_mask": "00010000",
+                        "flags": "00000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             },
             {
@@ -5996,7 +5996,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_2"
                         ]
@@ -6006,10 +6006,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000000",
-                        "enemy_formation_number": 32
+                        "slot_mask": "00100000",
+                        "flags": "00000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             },
             {
@@ -6020,10 +6020,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000000",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "00000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             }
         ],
@@ -6155,7 +6155,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "Toad"
                     }
                 ],
@@ -6188,7 +6188,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "Toad"
                     }
                 ],
@@ -6221,7 +6221,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "Toad"
                     }
                 ],
@@ -6861,7 +6861,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 3000
                     }
                 ],
@@ -7296,10 +7296,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000101",
-                                "enemy_formation_number": 224
+                                "slot_mask": "11100000",
+                                "flags": "10000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -7329,10 +7329,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 28
+                                "slot_mask": "00011100",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -7426,7 +7426,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 30000
                     }
                 ],
@@ -7488,7 +7488,7 @@
                     "Turn #10": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #11": "Unnamed script trigger"
                 }
@@ -7988,7 +7988,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "All allies of the enemy (from its perspective)"
+                                "target": "All party members"
                             },
                             "Blizzara",
                             {
@@ -8000,10 +8000,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8035,10 +8035,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8070,10 +8070,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8105,10 +8105,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8140,10 +8140,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8175,10 +8175,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8210,10 +8210,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8245,10 +8245,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8280,10 +8280,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -8345,7 +8345,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Darkness"
                 ]
@@ -8422,7 +8422,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Bio"
                 ]
@@ -8541,7 +8541,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #3": "Confuse"
                 }
@@ -8586,7 +8586,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Moon Flute"
                 ]
@@ -8798,10 +8798,10 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000101",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "00000101"
                     },
-                    "Turn #4": "Hide Self And Unhide Enemy"
+                    "Turn #4": "Hide/show enemies"
                 }
             }
         ],
@@ -8826,10 +8826,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 128
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             "Breath Wing"
                         ]
                     }
@@ -8952,10 +8952,10 @@
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000010",
-                        "enemy_formation_number": 128
+                        "slot_mask": "10000000",
+                        "flags": "00000010"
                     },
-                    "Turn #6": "Hide Self And Unhide Enemy"
+                    "Turn #6": "Hide/show enemies"
                 }
             }
         ],
@@ -9002,10 +9002,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000101",
-                                "enemy_formation_number": 64
+                                "slot_mask": "01000000",
+                                "flags": "00000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 }
@@ -9044,10 +9044,10 @@
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000101",
-                        "enemy_formation_number": 128
+                        "slot_mask": "10000000",
+                        "flags": "00000101"
                     },
-                    "Turn #5": "Hide Self And Unhide Enemy"
+                    "Turn #5": "Hide/show enemies"
                 }
             }
         ],
@@ -9090,7 +9090,7 @@
                     },
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 300
                     }
                 ],
@@ -9108,10 +9108,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000000",
-                                "enemy_formation_number": 192
+                                "slot_mask": "11000000",
+                                "flags": "10000000"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     },
                     "Turn #2": {
@@ -9165,7 +9165,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "Toad"
                     }
                 ],
@@ -9173,7 +9173,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": "Toad"
                 }
@@ -9192,7 +9192,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 800
                     },
                     "HP_DAMAGE_JUST_TAKEN"
@@ -9248,10 +9248,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01000101",
-                                "enemy_formation_number": 96
+                                "slot_mask": "01100000",
+                                "flags": "01000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -9291,10 +9291,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01000101",
-                                "enemy_formation_number": 160
+                                "slot_mask": "10100000",
+                                "flags": "01000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -9314,7 +9314,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": "Fira"
                 }
@@ -9334,10 +9334,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01000101",
-                                "enemy_formation_number": 192
+                                "slot_mask": "11000000",
+                                "flags": "01000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -9397,7 +9397,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Win Battle"
                 ]
@@ -9466,22 +9466,22 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00001000",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "00001000"
                     },
                     "Turn #2": "Stalker Attack",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00001000",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "00001000"
                     },
                     "Turn #4": "Stalker Attack",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00001000",
-                        "enemy_formation_number": 1
+                        "slot_mask": "00000001",
+                        "flags": "00001000"
                     },
                     "Turn #6": "Stalker Attack",
                     "Turn #7": {
@@ -9590,7 +9590,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     }
                 ],
@@ -9607,7 +9607,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 30000
                     }
                 ],
@@ -9707,10 +9707,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10001101",
-                                "enemy_formation_number": 222
+                                "slot_mask": "11011110",
+                                "flags": "10001101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -9833,7 +9833,7 @@
                     "HP_DAMAGE_JUST_TAKEN",
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     }
                 ],
@@ -9876,10 +9876,10 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000010",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "10000010"
                     },
-                    "Hide Self And Unhide Enemy"
+                    "Hide/show enemies"
                 ]
             }
         ]
@@ -9912,10 +9912,10 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000010",
-                        "enemy_formation_number": 32
+                        "slot_mask": "00100000",
+                        "flags": "10000010"
                     },
-                    "Hide Self And Unhide Enemy"
+                    "Hide/show enemies"
                 ]
             }
         ]
@@ -9948,10 +9948,10 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000010",
-                        "enemy_formation_number": 16
+                        "slot_mask": "00010000",
+                        "flags": "10000010"
                     },
-                    "Hide Self And Unhide Enemy"
+                    "Hide/show enemies"
                 ]
             }
         ]
@@ -9988,10 +9988,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000000",
-                                "enemy_formation_number": 8
+                                "slot_mask": "00001000",
+                                "flags": "10000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
@@ -10192,7 +10192,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Cura"
                 ]
@@ -10268,7 +10268,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     },
                     "HP_DAMAGE_JUST_TAKEN"
@@ -10482,7 +10482,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 2500
                     },
                     "HP_DAMAGE_JUST_TAKEN",
@@ -10678,10 +10678,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 252
+                        "slot_mask": "11111100",
+                        "flags": "10000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             },
             {
@@ -10703,10 +10703,10 @@
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 252
+                        "slot_mask": "11111100",
+                        "flags": "10000000"
                     },
-                    "Turn #7": "Hide Self And Unhide Enemy"
+                    "Turn #7": "Hide/show enemies"
                 }
             },
             {
@@ -10717,31 +10717,31 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 204
+                        "slot_mask": "11001100",
+                        "flags": "10000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy",
+                    "Turn #2": "Hide/show enemies",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 216
+                        "slot_mask": "11011000",
+                        "flags": "10000000"
                     },
-                    "Turn #4": "Hide Self And Unhide Enemy",
+                    "Turn #4": "Hide/show enemies",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 180
+                        "slot_mask": "10110100",
+                        "flags": "10000000"
                     },
-                    "Turn #6": "Hide Self And Unhide Enemy",
+                    "Turn #6": "Hide/show enemies",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 252
+                        "slot_mask": "11111100",
+                        "flags": "10000000"
                     },
-                    "Turn #8": "Hide Self And Unhide Enemy",
+                    "Turn #8": "Hide/show enemies",
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
@@ -10899,7 +10899,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 6000
                     }
                 ],
@@ -10911,10 +10911,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000000",
-                                "enemy_formation_number": 192
+                                "slot_mask": "11000000",
+                                "flags": "10000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
@@ -10942,7 +10942,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "Enkidu (TODO: check if this is correct)"
+                                "target": "Enkidu"
                             },
                             "Unnamed script trigger"
                         ]
@@ -11291,7 +11291,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 3000
                     }
                 ],
@@ -11299,7 +11299,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #2": "Firaga"
                 }
@@ -11329,7 +11329,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 3000
                     }
                 ],
@@ -11362,7 +11362,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 3000
                     }
                 ],
@@ -11395,7 +11395,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 3000
                     }
                 ],
@@ -11403,7 +11403,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #2": "Aeroga"
                 }
@@ -11433,7 +11433,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 5000
                     }
                 ],
@@ -11441,7 +11441,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -11452,7 +11452,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -11463,7 +11463,7 @@
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #6": {
                         "action": "RANDOM_SELECTION",
@@ -11474,17 +11474,17 @@
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000010",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
                     },
-                    "Turn #8": "Hide Self And Unhide Enemy"
+                    "Turn #8": "Hide/show enemies"
                 }
             },
             {
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     }
                 ],
@@ -11492,7 +11492,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -11503,7 +11503,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -11514,7 +11514,7 @@
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #6": {
                         "action": "RANDOM_SELECTION",
@@ -11525,10 +11525,10 @@
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000010",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
                     },
-                    "Turn #8": "Hide Self And Unhide Enemy"
+                    "Turn #8": "Hide/show enemies"
                 }
             },
             {
@@ -11539,7 +11539,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -11550,7 +11550,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -11561,7 +11561,7 @@
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #6": {
                         "action": "RANDOM_SELECTION",
@@ -11572,10 +11572,10 @@
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000010",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
                     },
-                    "Turn #8": "Hide Self And Unhide Enemy"
+                    "Turn #8": "Hide/show enemies"
                 }
             }
         ],
@@ -11811,7 +11811,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 16000
                     }
                 ],
@@ -11876,7 +11876,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 7000
                     }
                 ],
@@ -11984,7 +11984,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "A random ally of the enemy (from its perspective)"
+                        "target": "A random party member"
                     },
                     {
                         "action": "RANDOM_SELECTION",
@@ -12347,17 +12347,17 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "All allies of the enemy (from its perspective)"
+                                "target": "All party members"
                             },
                             "Blizzaga",
                             "Barrier Change",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01001001",
-                                "enemy_formation_number": 240
+                                "slot_mask": "11110000",
+                                "flags": "01001001"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -12449,17 +12449,17 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "All allies of the enemy (from its perspective)"
+                                "target": "All party members"
                             },
                             "Thundaga",
                             "Barrier Change",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01001010",
-                                "enemy_formation_number": 240
+                                "slot_mask": "11110000",
+                                "flags": "01001010"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -12551,17 +12551,17 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "All allies of the enemy (from its perspective)"
+                                "target": "All party members"
                             },
                             "Firaga",
                             "Barrier Change",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01001011",
-                                "enemy_formation_number": 240
+                                "slot_mask": "11110000",
+                                "flags": "01001011"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -12655,10 +12655,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "01001100",
-                                "enemy_formation_number": 240
+                                "slot_mask": "11110000",
+                                "flags": "01001100"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -12716,10 +12716,10 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000000",
-                        "enemy_formation_number": 192
+                        "slot_mask": "11000000",
+                        "flags": "10000000"
                     },
-                    "Turn #2": "Hide Self And Unhide Enemy"
+                    "Turn #2": "Hide/show enemies"
                 }
             },
             {
@@ -12783,10 +12783,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000000",
-                                "enemy_formation_number": 224
+                                "slot_mask": "11100000",
+                                "flags": "00000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             "Delta Attack"
                         ]
                     }
@@ -12806,7 +12806,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
@@ -12852,10 +12852,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000000",
-                                "enemy_formation_number": 224
+                                "slot_mask": "11100000",
+                                "flags": "00000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             "Delta Attack"
                         ]
                     }
@@ -12916,10 +12916,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000000",
-                                "enemy_formation_number": 224
+                                "slot_mask": "11100000",
+                                "flags": "00000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             "Delta Attack"
                         ]
                     }
@@ -12939,7 +12939,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
@@ -12973,7 +12973,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 4000
                     }
                 ],
@@ -13375,7 +13375,7 @@
                     },
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "False Image"
                     },
                     {
@@ -13513,7 +13513,7 @@
                     "Turn #10": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #11": "Banish (enemy magic)"
                 }
@@ -13642,7 +13642,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 33000
                     },
                     "HP_DAMAGE_JUST_TAKEN"
@@ -13762,7 +13762,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     }
                 ],
@@ -13779,7 +13779,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 15000
                     }
                 ],
@@ -13802,7 +13802,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 20000
                     }
                 ],
@@ -13825,7 +13825,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 25000
                     }
                 ],
@@ -13848,7 +13848,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 30000
                     }
                 ],
@@ -13871,7 +13871,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 35000
                     }
                 ],
@@ -13906,7 +13906,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     },
                     {
@@ -14060,7 +14060,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #3": "Kurururu"
                 }
@@ -14098,7 +14098,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 1
                     }
                 ],
@@ -14124,7 +14124,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 43000
                     }
                 ],
@@ -14268,7 +14268,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "Self (unless forced)"
+                                "target": "Self"
                             },
                             "Wrong Way"
                         ]
@@ -14491,10 +14491,10 @@
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000001",
-                        "enemy_formation_number": 8
+                        "slot_mask": "00001000",
+                        "flags": "00000001"
                     },
-                    "Turn #10": "Hide Self And Unhide Enemy",
+                    "Turn #10": "Hide/show enemies",
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "UNKNOWN_F5_ACTION",
@@ -14637,7 +14637,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "A random ally of the enemy (from its perspective)",
+                        "target": "A random party member",
                         "status_name": "Reflect"
                     }
                 ],
@@ -14670,7 +14670,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "Reflect"
                     }
                 ],
@@ -14678,7 +14678,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -14689,7 +14689,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -14746,7 +14746,7 @@
                     },
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Self (unless forced)",
+                        "target": "Self",
                         "status_name": "Toad"
                     }
                 ],
@@ -14754,7 +14754,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #2": "Toad"
                 }
@@ -15244,7 +15244,7 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "A random ally of the enemy (from its perspective)",
+                        "target": "A random party member",
                         "status_name": "Float"
                     }
                 ],
@@ -15568,7 +15568,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 9999
                     },
                     {
@@ -15600,10 +15600,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000000",
-                                "enemy_formation_number": 132
+                                "slot_mask": "10000100",
+                                "flags": "10000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
@@ -15696,7 +15696,7 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "All allies of the enemy (from its perspective)"
+                        "target": "All party members"
                     },
                     "Turn #4": "Mind Blast",
                     "Turn #5": "Wind Slash",
@@ -15704,10 +15704,10 @@
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000010",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
                     },
-                    "Turn #8": "Hide Self And Unhide Enemy"
+                    "Turn #8": "Hide/show enemies"
                 }
             }
         ],
@@ -15772,7 +15772,7 @@
                     "HP_DAMAGE_JUST_TAKEN",
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     }
                 ],
@@ -15780,7 +15780,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Punishment"
                 ]
@@ -15807,7 +15807,7 @@
                     "HP_DAMAGE_JUST_TAKEN",
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 10000
                     }
                 ],
@@ -15815,7 +15815,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Punishment"
                 ]
@@ -15913,10 +15913,10 @@
                     "Turn #13": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000111",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "10000111"
                     },
-                    "Turn #14": "Hide Self And Unhide Enemy"
+                    "Turn #14": "Hide/show enemies"
                 }
             },
             {
@@ -15968,7 +15968,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 42000
                     },
                     {
@@ -16035,10 +16035,10 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "00000010",
-                        "enemy_formation_number": 128
+                        "slot_mask": "10000000",
+                        "flags": "00000010"
                     },
-                    "Turn #3": "Hide Self And Unhide Enemy"
+                    "Turn #3": "Hide/show enemies"
                 }
             }
         ],
@@ -16100,7 +16100,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_TARGET",
-                                "target": "Self (unless forced)"
+                                "target": "Self"
                             },
                             "Medicine",
                             "Reverse Polarity",
@@ -16267,10 +16267,10 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
-                        "slot_mask": "10000101",
-                        "enemy_formation_number": 64
+                        "slot_mask": "01000000",
+                        "flags": "10000101"
                     },
-                    "Hide Self And Unhide Enemy"
+                    "Hide/show enemies"
                 ]
             },
             {
@@ -16387,10 +16387,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "10000101",
-                                "enemy_formation_number": 96
+                                "slot_mask": "01100000",
+                                "flags": "10000101"
                             },
-                            "Hide Self And Unhide Enemy"
+                            "Hide/show enemies"
                         ]
                     }
                 ]
@@ -16464,7 +16464,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #3": "Firaga",
                     "Turn #4": {
@@ -16592,10 +16592,10 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_ENEMY_TO_SHOW",
-                                "slot_mask": "00000000",
-                                "enemy_formation_number": 224
+                                "slot_mask": "11100000",
+                                "flags": "00000000"
                             },
-                            "Hide Self And Unhide Enemy",
+                            "Hide/show enemies",
                             "Stalker Attack",
                             {
                                 "action": "AI_COMMAND",
@@ -16722,7 +16722,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 20000
                     },
                     "HP_DAMAGE_JUST_TAKEN"
@@ -16807,7 +16807,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_1",
                             "SLOT_2",
@@ -16898,7 +16898,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 15000
                     }
                 ],
@@ -16936,7 +16936,7 @@
                 "conditions": [
                     {
                         "condition": "HP_LOWER_THAN_THRESHOLD",
-                        "target": "self (unless forced)",
+                        "target": "self",
                         "hp_threshold": 30000
                     }
                 ],
@@ -17014,7 +17014,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_1",
                             "SLOT_2",
@@ -17115,7 +17115,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_1",
                             "SLOT_2",
@@ -17218,7 +17218,7 @@
                     {
                         "condition": "ENEMY_SLOTS",
                         "match_type": "MATCH",
-                        "explanation": "enemies only in these slots",
+                        "explanation": "visible enemies only in these slots",
                         "enemy_slots": [
                             "SLOT_1",
                             "SLOT_2",
@@ -17404,7 +17404,7 @@
                     "Turn #10": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #11": "Remedy",
                     "Turn #12": {
@@ -17416,7 +17416,7 @@
                     "Turn #13": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #14": "Remedy"
                 }
@@ -17502,7 +17502,7 @@
                     "Turn #14": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
-                        "target": "Self (unless forced)"
+                        "target": "Self"
                     },
                     "Turn #15": "Remedy"
                 }
