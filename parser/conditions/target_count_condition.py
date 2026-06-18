@@ -19,3 +19,7 @@ class TargetCountCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "target_count": self.target_count.name
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Hit by a {"single-target" if self.target_count == TargetCount.SINGLE else "multi-target"} action"]

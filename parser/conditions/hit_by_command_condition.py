@@ -41,6 +41,15 @@ class HitByCommandCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "match_type": self.match_type.name,
             "explanation": "both command and elements match" if self.match_type == MatchType.MATCH else "either the command or the elements or both do not match",
-            "command": self.command.name,
-            "elements": [element.name for element in self.elements] if self.elements else "non-elemental"
+            "command": str(self.command),
+            "elements": [element.name.capitalize() for element in self.elements] if self.elements else "irrelevant (including non-elemental)"
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        if self.match_type == MatchType.MATCH and self.elements:
+            return [f"{" " * indent}Hit by {str(self.command)} using any of the following elements: {[str(element) for element in self.elements]}"]
+        elif self.elements:
+            return [f"{" " * indent}Hit by a command different from {str(self.command)} or hit by it with an elemental action that does not match any of {[str(element) for element in self.elements]}"]
+        else:
+            return [f"{" " * indent}Hit by a command different from {str(self.command)}, regardless of the element used"]

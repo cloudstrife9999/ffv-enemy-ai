@@ -39,3 +39,7 @@ class RandomSelectionAction(AIRuleAction):
             "second_choice": self.second_choice.to_json(),
             "third_choice": self.third_choice.to_json()
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}random({self.first_choice.to_compact_representation(0)[0]}, {self.second_choice.to_compact_representation(0)[0]}, {self.third_choice.to_compact_representation(0)[0]})"]

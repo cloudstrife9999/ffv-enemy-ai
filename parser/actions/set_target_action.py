@@ -21,5 +21,9 @@ class SetTargetAction(AIRuleAction):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
-            "target": self.target.name
+            "target": str(self.target)
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Set the next action's target(s) to {self.target.for_mid_sentence()}"]

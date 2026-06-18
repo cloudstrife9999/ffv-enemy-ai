@@ -28,3 +28,7 @@ class GlobalEventCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "global_events": self.global_events_names
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}All of the following global events are active/true: [{", ".join(self.global_events_names)}]"]

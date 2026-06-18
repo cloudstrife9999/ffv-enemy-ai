@@ -14,4 +14,8 @@ class CommandStatus(Enum):
 
     @override
     def __str__(self) -> str:
-        return self.name.title().replace("_", " ")
+        match self:
+            case CommandStatus.UNKNOWN_01 | CommandStatus.UNKNOWN_02 | CommandStatus.UNKNOWN_04 | CommandStatus.UNKNOWN_20:
+                return f"Unknown ({self.value:#04x})"
+            case _:
+                return self.name.title()

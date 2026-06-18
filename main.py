@@ -8,10 +8,8 @@ from typing import Any, TypeAlias
 
 from parser.parser import EnemyAIParser
 
-# TODO: move these constants to a config file.
-ENEMY_AI_MAP_PATH: Path = Path("res/enemies/enemy_ai_map.json")
-ENEMY_NAMES_PATH: Path = Path("res/enemies/enemy_names.json")
-OUTPUT_PATH: Path = Path("res/enemies/parsed_ai.json")
+CONFIG_FILE_PATH: Path = Path("res/config.json")
+CONFIG: dict[str, str] = {}
 
 PATCHED_ENEMY_ID: str = "E5"
 BAD_TERMINATOR: str = "FEFF"
@@ -21,6 +19,13 @@ GOOD_TERMINATOR: str = "FFFF"
 JsonObject: TypeAlias = dict[str, Any]
 
 
+def load_config() -> None:
+    with CONFIG_FILE_PATH.open("r", encoding="utf-8") as file:
+        config: dict[str, str] = load(file)
+
+        CONFIG.update(config)   
+        
+
 def load_json(path: Path) -> JsonObject:
     with path.open("r", encoding="utf-8") as file:
         return load(file)
@@ -29,6 +34,12 @@ def load_json(path: Path) -> JsonObject:
 def write_json(path: Path, data: Any) -> None:
     with path.open("w", encoding="utf-8") as file:
         dump(data, file, indent=4)
+
+
+def write_compact_representation(path: Path, lines: list[str]) -> None:
+    with path.open("w", encoding="utf-8") as file:
+        for line in lines:
+            file.write(line + "\n")
 
 
 def parse_enemy_ai(enemy_id: str, enemy_name: str, hex_ai: str) -> tuple[bool, EnemyAIParser]:
@@ -73,31 +84,65 @@ def validate_recompile(enemy_id: str, hex_ai: str, parser: EnemyAIParser) -> Non
         raise ValueError(f"[Parser] Parsed and recompiled AI for enemy {enemy_id} does not match original hex AI.\nHex AI: {hex_ai}.\nRecompiled AI: {recompiled}.")
 
 
-def build_validation_result(enemy_id: str, enemy_name: str, original_hex_ai: str) -> JsonObject:
+def parse_ai(enemy_id: str, enemy_name: str, original_hex_ai: str) -> tuple[JsonObject, list[str]]:
     valid, final_hex_ai, parser = parse_with_optional_patch(enemy_id, enemy_name, original_hex_ai)
 
     if not valid:
         error: str = (f"Failed to parse AI even after patching {BAD_TERMINATOR} to {GOOD_TERMINATOR}." if enemy_id == PATCHED_ENEMY_ID else "Failed to parse AI.")
 
-        return failure_result(enemy_id, enemy_name, final_hex_ai, error)
+        return failure_result(enemy_id, enemy_name, final_hex_ai, error), []
 
     validate_recompile(enemy_id, final_hex_ai, parser)
 
-    result: JsonObject = parser.get_parsed_ai().to_json()
+    parsed_ai: JsonObject = parser.get_parsed_ai().to_json()
+    ai_script: list[str] = parser.get_parsed_ai().to_compact_representation()
 
     if final_hex_ai != original_hex_ai:
-        result["raw"] = final_hex_ai
+        parsed_ai["raw"] = final_hex_ai
 
-    return result
+    return parsed_ai, ai_script
+
+
+def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_names: dict[str, str]) -> list[list[str]]:
+    parsed_ai_list: list[JsonObject] = []
+    ai_script_list: list[list[str]] = []
+    
+    for enemy_id, hex_ai in enemy_ai_map.items():
+        enemy_name: str = enemy_names.get(enemy_id, "Unknown Enemy")
+        parsed_ai, ai_script = parse_ai(enemy_id, enemy_name, hex_ai)
+
+        parsed_ai_list.append(parsed_ai)
+        ai_script_list.append(ai_script)
+
+    write_json(Path(CONFIG["parsed_ai_file_path"]), parsed_ai_list)
+
+    return ai_script_list
+
+
+def write_ai_script(ai_script_list: list[list[str]], enemy_names: dict[str, str]) -> None:
+    ai_script_lines: list[str] = []
+
+    for (enemy_id, enemy_name), ai_script in zip(enemy_names.items(), ai_script_list):
+        ai_script_lines.append(f"Enemy ID: {enemy_id}")
+        ai_script_lines.append(f"Enemy Name: {enemy_name}")
+
+        for line in ai_script:
+            ai_script_lines.append(line)
+
+        ai_script_lines.append("\n" + "-" * 40 + "\n")
+
+    write_compact_representation(Path(CONFIG["ai_script_representation_file_path"]), ai_script_lines)
 
 
 def main() -> None:
-    enemy_ai_map: dict[str, str] = load_json(ENEMY_AI_MAP_PATH)
-    enemy_names: dict[str, str] = load_json(ENEMY_NAMES_PATH)
+    load_config()
 
-    validation_results: list[JsonObject] = [build_validation_result(enemy_id, enemy_names[enemy_id], hex_ai) for enemy_id, hex_ai in enemy_ai_map.items()]
+    enemy_ai_map: dict[str, str] = load_json(Path(CONFIG["enemy_ai_map_file_path"]))
+    enemy_names: dict[str, str] = load_json(Path(CONFIG["enemy_names_file_path"]))
 
-    write_json(OUTPUT_PATH, validation_results)
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(enemy_ai_map, enemy_names)
+    
+    write_ai_script(ai_script_list, enemy_names)
 
 
 if __name__ == "__main__":

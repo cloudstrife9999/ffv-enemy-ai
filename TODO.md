@@ -1,9 +1,5 @@
 # TODO List
 
-## [main.py](main.py)
-
-- Line 11: # TODO: move these constants to a config file.
-
 ## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
 
 - Line 37: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
@@ -44,9 +40,8 @@
 - Line 54: PARTY_MEMBER_2_IF_DEAD = 0x30  # TODO: check if it targets Lenna specifically, or whoever is in the second party slot.
 - Line 55: PARTY_MEMBER_3_IF_DEAD = 0x31  # TODO: check if it targets Galuf specifically, or whoever is in the third party slot.
 - Line 56: PARTY_MEMBER_4_IF_DEAD = 0x32  # TODO: check if it targets Faris specifically, or whoever is in the fourth party slot.
-- Line 140: return "Enkidu (TODO: check if this is correct)"
+- Line 147: return "Enkidu (TODO: check if this is correct)"
 
 ## [parser/enums/ability.py](parser/enums/ability.py)
 
 - Line 5: # TODO: Complete migrating to GBA version names.
-- Line 250: return self.name.replace("_", " ").title()  # TODO: refine this.

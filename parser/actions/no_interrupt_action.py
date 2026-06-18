@@ -41,11 +41,16 @@ class NoInterruptAction(AIRuleAction):
             raise ValueError("A NoInterruptAction must contain at least two sub-actions.")
 
         cumulative_length: int = sum(len(sub_action.get_tokens()) for sub_action in self.__sub_actions) + (1 if self.__separator_or_terminator_included_in_length else 0)
+        declared_length: int = cast(int, self.raw_second_byte)
+        # We add back the 0xFD prefix from the AICommandAction.
+        all_tokens: list[int] = [0xFD] + self.get_tokens() + [token for action in self.sub_actions for token in action.get_tokens()] # Exclude the tokens of the actual NoInterruptAction itself (4 bytes)
 
-        if override_length_mismatch:
-            print(f"Warning: Overriding length mismatch. Sub-actions cumulative length ({cumulative_length}) does not match the specified limit ({self.raw_second_byte}). An additional byte for a separator or terminator was {'included' if self.__separator_or_terminator_included_in_length else 'not included'} in the cumulative length.")
-        elif cumulative_length != cast(int, self.raw_second_byte):
-            raise ValueError(f"Sub-actions cumulative length ({cumulative_length}) does not match the specified limit ({self.raw_second_byte}). An additional byte for a separator or terminator was {"included" if self.__separator_or_terminator_included_in_length else "not included"} in the cumulative length.")
+        if cumulative_length != declared_length and override_length_mismatch:
+            print(f"[Parser] Warning: NoInterruptAction declared length ({declared_length}) does not match the cumulative length of sub-actions ({cumulative_length}). This mismatch is being overridden.")
+            print(f"[Parser] The cumulative length {"includes" if self.__separator_or_terminator_included_in_length else "does not include"} an additional byte due to the separator/terminator being included.")
+            print(f"[Parser] NoInterruptAction tokens (excluding a potential final separator/terminator): {" ".join(f"{b:02X}" for b in all_tokens)}.")
+        elif cumulative_length != declared_length:
+            raise ValueError(f"Sub-actions cumulative length ({cumulative_length}) does not match the specified limit ({declared_length}). An additional byte for a separator or terminator was {"included" if self.__separator_or_terminator_included_in_length else "not included"} in the cumulative length.")
 
     @override
     def to_json(self) -> str | dict[str, Any]:
@@ -53,3 +58,7 @@ class NoInterruptAction(AIRuleAction):
             "action": self.action_code.name,
             "sub_actions": [action.to_json() for action in self.sub_actions]
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}No interrupt:"] + [f"{" " * indent}{line}" for action in self.sub_actions for line in action.to_compact_representation(indent)]

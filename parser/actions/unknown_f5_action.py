@@ -30,3 +30,7 @@ class UnknownF5Action(AIRuleAction):
             "second_byte": self.second_byte,
             "third_byte": self.third_byte
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}An unknown action (0xF5)"]

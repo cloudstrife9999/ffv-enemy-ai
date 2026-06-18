@@ -27,6 +27,10 @@ class SetVariableAction(AIRuleAction):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
-            "var_id": self.var_id.name,
+            "var_id": str(self.var_id),
             "value": self.value
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Set {str(self.var_id)} to {self.value}"]

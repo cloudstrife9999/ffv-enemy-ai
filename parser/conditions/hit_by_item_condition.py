@@ -29,5 +29,12 @@ class HitByExactItemCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "match_type": self.match_type.name,
             "explanation": "the item matches" if self.match_type == MatchType.MATCH else "the item does not match",
-            "item": self.item.name
+            "item": str(self.item)
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        if self.match_type == MatchType.MATCH:
+            return [f"{" " * indent}Hit by this item: {str(self.item)}"]
+        else:
+            return [f"{" " * indent}Hit by an item that is not {str(self.item)}"]

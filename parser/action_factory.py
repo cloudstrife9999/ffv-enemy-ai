@@ -1,6 +1,6 @@
 from .actions.action import AIRuleAction
 from .actions.simple_action import SimpleAction
-from .actions.unhide_enemy_action import UnhideEnemyAction
+from .actions.set_enemy_to_show import SetEnemyToShowAction
 from .actions.set_target_action import SetTargetAction
 from .actions.set_variable_action import SetVariableAction
 from .actions.unknown_f5_action import UnknownF5Action
@@ -45,8 +45,8 @@ class ActionFactory():
         third_byte: int = bytes[2] & 0xFF
 
         match ActionCode(action_code):
-            case ActionCode.UNHIDE_ENEMY:
-                return UnhideEnemyAction(mask=second_byte, enemy_set=third_byte)
+            case ActionCode.SET_ENEMY_TO_SHOW:
+                return SetEnemyToShowAction(slot_mask=second_byte, enemy_formation_number=third_byte)
             case ActionCode.SET_TARGET:
                 return SetTargetAction(target=Target(second_byte), optional_third_byte=third_byte)
             case ActionCode.SET_VARIABLE:

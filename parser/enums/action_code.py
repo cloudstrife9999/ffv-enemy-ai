@@ -3,7 +3,7 @@ from typing import override
 
 
 class ActionCode(IntEnum):
-    UNHIDE_ENEMY = 0xF2
+    SET_ENEMY_TO_SHOW = 0xF2
     SET_TARGET = 0xF3
     SET_VARIABLE = 0xF4
     UNKNOWN_F5_ACTION = 0xF5
@@ -33,7 +33,7 @@ class ActionCode(IntEnum):
     def is_valid_three_byte_action_code(cls, value: int) -> bool:
         '''Returns True if the given value is a valid 1-byte action code of a 3-byte action.'''
         return value in {
-            ActionCode.UNHIDE_ENEMY,
+            ActionCode.SET_ENEMY_TO_SHOW,
             ActionCode.SET_TARGET,
             ActionCode.SET_VARIABLE,
             ActionCode.UNKNOWN_F5_ACTION,

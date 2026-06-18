@@ -29,5 +29,12 @@ class HitByExactSpellCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "match_type": self.match_type.name,
             "explanation": "the ability matches" if self.match_type == MatchType.MATCH else "the ability does not match",
-            "ability": self.spell.name
+            "ability": str(self.spell)
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        if self.match_type == MatchType.MATCH:
+            return [f"{" " * indent}Hit by this spell: {str(self.spell)}"]
+        else:
+            return [f"{" " * indent}Hit by a spell that is not {str(self.spell)}"]

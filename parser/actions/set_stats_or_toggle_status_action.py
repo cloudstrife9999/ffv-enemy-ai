@@ -5,6 +5,8 @@ from .action import AIRuleAction
 from ..enums.action_code import ActionCode
 from ..enums.party_member_offset import PartyMemberPropertyTable
 from ..enums.command_status import CommandStatus
+from ..enums.status import StatusCode
+from ..enums.status_table import StatusTable
 
 
 class SetStatsOrToggleStatusAction(AIRuleAction):
@@ -27,12 +29,74 @@ class SetStatsOrToggleStatusAction(AIRuleAction):
 
     @override
     def to_json(self) -> str | dict[str, Any]:
-        return {
-            "action": self.action_code.name,
-            "property_table": self.property_table.name,
-            "mask": self.mask,
-        } if self.property_table != PartyMemberPropertyTable.CMD_STATUS else {
-            "action": self.action_code.name,
-            "property_table": self.property_table.name,
-            "command_status": CommandStatus(self.mask).name
-        }
+        if self.property_table == PartyMemberPropertyTable.STATUS_1:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FIRST, self.mask)
+
+            return {
+                "action": self.action_code.name,
+                "property_table": self.property_table.name,
+                "status": status.name
+            }
+        elif self.property_table == PartyMemberPropertyTable.STATUS_2:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.SECOND, self.mask)
+
+            return {
+                "action": self.action_code.name,
+                "property_table": self.property_table.name,
+                "status": status.name
+            }
+        elif self.property_table == PartyMemberPropertyTable.STATUS_3:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.THIRD, self.mask)
+
+            return {
+                "action": self.action_code.name,
+                "property_table": self.property_table.name,
+                "status": status.name
+            }
+        elif self.property_table == PartyMemberPropertyTable.STATUS_4:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FOURTH, self.mask)
+
+            return {
+                "action": self.action_code.name,
+                "property_table": self.property_table.name,
+                "status": status.name
+            }
+        elif self.property_table == PartyMemberPropertyTable.CMD_STATUS:
+            command_status: CommandStatus = CommandStatus(self.mask)
+
+            return {
+                "action": self.action_code.name,
+                "property_table": self.property_table.name,
+                "command_status": command_status.name
+            }
+        else:
+            return {
+                "action": self.action_code.name,
+                "property_table": self.property_table.name,
+                "mask": self.mask,
+            }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        if self.property_table == PartyMemberPropertyTable.STATUS_1:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FIRST, self.mask)
+
+            return [f"{" " * indent}Toggle {str(status)} status."]
+        elif self.property_table == PartyMemberPropertyTable.STATUS_2:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.SECOND, self.mask)
+
+            return [f"{" " * indent}Toggle {str(status)} status."]
+        elif self.property_table == PartyMemberPropertyTable.STATUS_3:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.THIRD, self.mask)
+
+            return [f"{" " * indent}Toggle {str(status)} status."]
+        elif self.property_table == PartyMemberPropertyTable.STATUS_4:
+            status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FOURTH, self.mask)
+
+            return [f"{" " * indent}Toggle {str(status)} status."]
+        elif self.property_table == PartyMemberPropertyTable.CMD_STATUS:
+            command_status: CommandStatus = CommandStatus(self.mask)
+
+            return [f"{" " * indent}Set command status to {str(command_status)}."]
+        else:
+            return [f"{" " * indent}Set property {str(self.property_table)} to {self.mask:#04x}"]

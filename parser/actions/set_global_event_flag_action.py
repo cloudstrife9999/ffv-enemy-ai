@@ -34,3 +34,7 @@ class SetGlobalEventFlagAction(AIRuleAction):
             "action": self.action_code.name,
             "global_events": self.global_events_names
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Mark the following global events as true: {self.global_events_names}"]

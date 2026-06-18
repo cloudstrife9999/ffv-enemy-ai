@@ -11,3 +11,7 @@ class HPDamageCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return self.condition_code.name
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}HP damage just taken"]

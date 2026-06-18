@@ -28,6 +28,10 @@ class VarCheckCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "match_type": self.match_type.name,
             "explanation": "variable == value" if self.match_type == MatchType.MATCH else "variable != value",
-            "var_id": self.var_id.name,
+            "var_id": str(self.var_id),
             "value_to_match": self.value_to_match
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Variable {str(self.var_id)} {"==" if self.match_type == MatchType.MATCH else "!="} {self.value_to_match}"]

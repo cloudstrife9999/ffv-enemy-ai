@@ -18,3 +18,7 @@ class A2ComparisonCondition(AIRuleCondition):
             "condition": self.condition_code.name,
             "value": self.value
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}{self.value} matches 0xA2"]

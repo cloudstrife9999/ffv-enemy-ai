@@ -36,3 +36,10 @@ class PartyMemberParameterCondition(AIRuleCondition):
             "property_table": self.property_table.name,
             "command_status": CommandStatus(self.expected_value).name
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        if self.property_table == PartyMemberPropertyTable.CMD_STATUS:
+            return [f"{" " * indent}Property {str(self.property_table)} is \"{str(CommandStatus(self.expected_value))}\" for {self.target.for_mid_sentence()}"]
+        else:
+            return [f"{" " * indent}Property {str(self.property_table)} is {self.expected_value} for {self.target.for_mid_sentence()}"]

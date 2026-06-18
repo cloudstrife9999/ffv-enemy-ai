@@ -31,6 +31,10 @@ class StatusEffectCondition(AIRuleCondition):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "condition": self.condition_code.name,
-            "target": self.target.name,
+            "target": str(self.target),
             "status_name": self.status_name
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}{str(self.target)} {self.target.get_nominal_predicate()} affected by the {self.status_name} status"]

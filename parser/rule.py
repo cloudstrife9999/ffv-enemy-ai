@@ -8,7 +8,7 @@ from .condition_factory import ConditionFactory
 from .action_factory import ActionFactory
 
 class EnemyAIRule():
-    def __init__(self):
+    def __init__(self) -> None:
         self.__tokens: list[list[int]] = []
         self.__conditions: list[AIRuleCondition] = []
         self.__actions: list[AIRuleAction] = []
@@ -62,8 +62,49 @@ class EnemyAIRule():
     def has_lingering_no_interrupt_action(self) -> bool:
         return self.__current_no_interrupt_action is not None
 
-    def to_json(self) -> dict[str, list[str | dict[str, Any]]]:
+    def to_json(self, reactive: bool) -> dict[str, Any]:
         return {
             "conditions": [condition.to_json() for condition in self.__conditions],
-            "actions": [action.to_json() for action in self.__actions]
+            "actions": {f"Turn #{i+1}": action.to_json() for i, action in enumerate(self.__actions)} if not reactive else [action.to_json() for action in self.__actions]
         }
+
+    def to_compact_representation(self, reactive: bool) -> list[str]:
+        if reactive:
+            return [
+                "Conditions:"
+            ] + [
+                condition_line for condition in self.__conditions for condition_line in condition.to_compact_representation(indent=2)
+            ] + [
+                "Actions:"
+            ] + [
+                action_line for action in self.__actions for action_line in action.to_compact_representation(indent=2)
+            ]        
+        else:
+            return [
+                "Conditions:"
+            ] + [
+                condition_line for condition in self.__conditions for condition_line in condition.to_compact_representation(indent=2)
+            ] + [
+                "Actions:"
+            ] + self.__add_turn_numbers_to_actions()
+
+    def __add_turn_numbers_to_actions(self) -> list[str]:
+        new_lines: list[str] = []
+
+        for i, action in enumerate(self.__actions):
+            action_lines: list[str] = action.to_compact_representation(indent=2)
+            prefix: str = f"Turn #{i+1}: "
+
+            for j, line in enumerate(action_lines):
+                existing_leading_spaces: int = len(line) - len(line.lstrip())
+
+                if j == 0:
+                    line = " " * existing_leading_spaces + prefix + line.lstrip()
+                else:
+                    line = " " * (existing_leading_spaces + len(prefix)) + line.lstrip()
+
+                action_lines[j] = line
+
+            new_lines.extend(action_lines)
+
+        return new_lines

@@ -4,9 +4,4 @@ __pycache__/
 
 res/roms/
 
-*.txt
-*.csv
-
-parser/old/
-
 .vscode/

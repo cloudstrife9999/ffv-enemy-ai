@@ -38,9 +38,9 @@ class EnemyAIParser():
 
     def __handle_error_state(self, previous_byte: int, optional_message: Optional[str] = None) -> bool:
         if optional_message:
-            print(f"[Parser] Ended up in error state for enemy 0x{self.__enemy_id} ({self.__enemy_name}): {optional_message} Previous byte: 0x{previous_byte:02X} in state {self.__current_state.name}. Tokens: {" ".join(f"{b:02X}" for b in self.__tokens)}.")
+            print(f"[Parser] Ended up in error state for enemy 0x{self.__enemy_id} ({self.__enemy_name}): {optional_message} Previous byte: 0x{previous_byte:02X} in state {self.__current_state.name}.\n - Tokens: {" ".join(f"{b:02X}" for b in self.__tokens)}.")
         else:
-            print(f"[Parser] Ended up in error state for enemy 0x{self.__enemy_id} ({self.__enemy_name}): unexpected byte 0x{previous_byte:02X} in state {self.__current_state.name}. Tokens: {" ".join(f"{b:02X}" for b in self.__tokens)}.")
+            print(f"[Parser] Ended up in error state for enemy 0x{self.__enemy_id} ({self.__enemy_name}): unexpected byte 0x{previous_byte:02X} in state {self.__current_state.name}.\n - Tokens: {" ".join(f"{b:02X}" for b in self.__tokens)}.")
 
         self.__current_state = StateEnum.ERROR
 
@@ -273,7 +273,7 @@ class EnemyAIParser():
             return self.__handle_ca2_state_helper(action_code=action_code, sub_action_code=sub_action_code, current_byte=current_byte, i=i, f7_counter=f7_counter)
 
     def __handle_ca2_state_helper(self, action_code: ActionCode, sub_action_code: Optional[ActionCode], current_byte: int, i: int, f7_counter: int) -> bool:
-        if sub_action_code in (ActionCode.UNHIDE_ENEMY, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
+        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_TARGET and Target.is_valid_target_id(current_byte):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
@@ -581,7 +581,7 @@ class EnemyAIParser():
             return self.__handle_cda2_state_helper(action_code=action_code, sub_action_code=sub_action_code, current_byte=current_byte, i=i, f7_counter=f7_counter)
 
     def __handle_cda2_state_helper(self, action_code: ActionCode, sub_action_code: Optional[ActionCode], current_byte: int, i: int, f7_counter: int) -> bool:
-        if sub_action_code in (ActionCode.UNHIDE_ENEMY, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
+        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_TARGET and Target.is_valid_target_id(current_byte):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
@@ -895,7 +895,7 @@ class EnemyAIParser():
             return self.__handle_rca2_state_helper(action_code=action_code, sub_action_code=sub_action_code, current_byte=current_byte, i=i, f7_counter=f7_counter)
 
     def __handle_rca2_state_helper(self, action_code: ActionCode, sub_action_code: Optional[ActionCode], current_byte: int, i: int, f7_counter: int) -> bool:
-        if sub_action_code in (ActionCode.UNHIDE_ENEMY, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
+        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_TARGET and Target.is_valid_target_id(current_byte):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)

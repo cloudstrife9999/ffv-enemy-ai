@@ -17,4 +17,8 @@ class SimpleAction(AIRuleAction):
 
     @override
     def to_json(self) -> str | dict[str, Any]:
-        return self.action.name
+        return str(self.action)
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}{str(self.action)}"]

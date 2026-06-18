@@ -128,8 +128,8 @@ class Ability(IntEnum):
     DANCE_MYSTERY_WALTZ = 0x79
     DANCE_JITTERBUG_DUET = 0x7A
     DANCE_TEMPTING_TANGO = 0x7B
-    COMMAND_MAGIC_BARRIER = 0x7C
-    COMMAND_SWORD_DANCE = 0x7D
+    MAGIC_SHELL = 0x7C
+    DANCE_SWORD_DANCE = 0x7D
     COMMAND_ICE_AURA_DUMMIED = 0x7E
     COMMAND_ENTANGLE_WHIP_MAGIC = 0x7F
     ENEMY_ATTACK = 0x80
@@ -174,9 +174,9 @@ class Ability(IntEnum):
     ENEMY_MAGIC_DELTA_ATTACK = 0xA7
     ENEMY_MAGIC_INTERCEPTOR_ROCKET = 0xA8
     ENEMY_MAGIC_BARRIER_CHANGE = 0xA9
-    ENEMY_MAGIC_NOTHING = 0xAA
+    NOTHING = 0xAA
     ENEMY_MAGIC_WIND_SLASH = 0xAB
-    ENEMY_MAGIC_NO_DAMAGE_MAGIC = 0xAC
+    SCRIPT_TRIGGER = 0xAC
     ENEMY_MAGIC_TARGETING = 0xAD
     ENEMY_MAGIC_GRAVITY_100 = 0xAE
     ENEMY_MAGIC_DARKNESS = 0xAF
@@ -212,7 +212,7 @@ class Ability(IntEnum):
     ENEMY_MAGIC_FROST = 0xCD
     ENEMY_MAGIC_ELECTRIC_SHOCK = 0xCE
     ENEMY_MAGIC_EARTH_SHAKER = 0xCF
-    ENEMY_MAGIC_ZANTETSUCKEN = 0xD0
+    ENEMY_MAGIC_ZANTETSUKEN = 0xD0
     ENEMY_MAGIC_TIDAL_WAVE = 0xD1
     ENEMY_MAGIC_MEGA_FLARE = 0xD2
     ENEMY_MAGIC_SONIC_WAVE = 0xD3
@@ -242,12 +242,61 @@ class Ability(IntEnum):
     ENEMY_MAGIC_DEMON_EYE = 0xEB
     ENEMY_MAGIC_PULL = 0xEC
     ENEMY_MAGIC_WIN_BATTLE = 0xED
-    ENEMY_MAGIC_UNHIDE_ENEMY = 0xEE
+    ENEMY_MAGIC_HIDE_SELF_AND_UNHIDE_ENEMY = 0xEE
     ENEMY_MAGIC_TERMINATE = 0xEF
 
     @override
     def __str__(self) -> str:
-        return self.name.replace("_", " ").title()  # TODO: refine this.
+        if 0 <= self.value <= 0x11:
+            return f"{self.name.split("_")[-1].capitalize()} spellblade"
+        elif 0x12 <= self.value <= 0x23:
+            return f"{self.name.split("_")[-1].capitalize()}"
+        elif 0x24 <= self.value <= 0x35:
+            return f"{self.name.split("_")[-1].capitalize()}"
+        elif 0x36 <= self.value <= 0x47:
+            return f"{self.name.split("_")[-1].capitalize()}"
+        elif 0x48 <= self.value <= 0x56:
+            return f"{self.name.split("_")[-1].capitalize()}"
+        elif 0x57 <= self.value <= 0x5E:
+            return f"{self.name.split("_")[-1].capitalize()}"
+        elif 0x5F <= self.value <= 0x70:
+            return f"{self.name.replace("SUMMON_", "").replace("_", " ").capitalize()} (summon ability)"
+        elif 0x71 <= self.value <= 0x72:
+            return f"!Lance ({self.name.replace("LANCE_", "").replace("_", " ").capitalize()} effect)"
+        elif self is Ability.EGG_CHOP:
+            return self.name.replace("_", " ").capitalize()
+        elif 0x74 <= self.value <= 0x75:
+            return f"{self.name.replace("HARP_", "").replace("_", " ").title()}' s spell"
+        elif self is Ability.HARP_LAMIAS_HARP:
+            return "Lamia's harp's spell"
+        elif self is Ability.HARP_APOLLOS_HARP:
+            return "Apollo's harp's spell"
+        elif self is Ability.ITEM_FAIL:
+            return "A failed item use"
+        elif 0x79 <= self.value <= 0x7B or self.value == 0x7D:
+            return f"{self.name.replace("DANCE_", "").replace("_", " ").title()}"
+        elif self is Ability.MAGIC_SHELL:
+            return self.name.replace("_", " ").title()
+        elif self is Ability.COMMAND_ICE_AURA_DUMMIED:
+            return "Ice Aura (dummied)"
+        elif self is Ability.COMMAND_ENTANGLE_WHIP_MAGIC:
+            return "Entangle (whip magic)"
+        elif self is Ability.ENEMY_ATTACK:
+            return "Physical attack"
+        elif self is Ability.ENEMY_SPECIAL_ABILITY:
+            return "Special ability"
+        elif 0x82 <= self.value <= 0x9F:
+            return f"{self.name.replace("BLUE_MAGIC_", "").replace("_", " ").title()}"
+        elif self is Ability.NOTHING:
+            return "Do nothing"
+        elif self is Ability.SCRIPT_TRIGGER:
+            return "Unnamed script trigger"
+        elif self.value in (0xD0, 0xD1, 0xD2, 0xD9, 0xDE, 0xE8, 0xE9, 0xEB):
+            return f"{self.name.replace("ENEMY_MAGIC_", "").replace("_", " ").title()} (enemy magic)"
+        elif 0xA0 <= self.value <= 0xEF:
+            return f"{self.name.replace("ENEMY_MAGIC_", "").replace("_", " ").title()}"
+        else:
+            raise ValueError(f"Invalid ability ID: {self.value:#04x}. It must be between 0x00 and 0xEF (inclusive).")
 
     @classmethod
     def is_valid_ability_id(cls, value: int) -> bool:

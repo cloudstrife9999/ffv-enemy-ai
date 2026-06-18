@@ -21,6 +21,13 @@ class HPThresholdCondition(AIRuleCondition):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "condition": self.condition_code.name,
-            "target": self.target.name,
+            "target": self.target.for_mid_sentence(),
             "hp_threshold": self.hp_threshold
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        if self.target is Target.SELF_UNLESS_FORCED:
+            return [f"{" " * indent}Current HP < {self.hp_threshold}"]
+        else:
+            return [f"{" " * indent}Current HP < {self.hp_threshold} for {self.target.for_mid_sentence()}"]

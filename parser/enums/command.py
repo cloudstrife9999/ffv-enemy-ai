@@ -50,10 +50,12 @@ class Command(IntEnum):
     @override
     def __str__(self) -> str:
         match self:
-            case Command.OTHER | Command.ANY_COMMAND | Command.DUMMIED_0X23 | Command.DUMMIED_0X26 | Command.ANY_SPELL:
-                return self.name.replace("_", " ").title()
+            case Command.DUMMIED_0X23 | Command.DUMMIED_0X26:
+                return f"\"Dummy command ({self.value:#04x})\""
+            case Command.OTHER | Command.ANY_COMMAND | Command.ANY_SPELL:
+                return self.name.replace("_", " ").lower()
             case _:
-                return f"!{self.name.replace('_', ' ').title()}"
+                return f"!{self.name.replace("_", " ").title()}"
 
     @classmethod
     def is_valid_command_id(cls, value: int) -> bool:

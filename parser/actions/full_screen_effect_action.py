@@ -30,3 +30,7 @@ class FullScreenEffectAction(AIRuleAction):
             "second_byte": self.second_byte,
             "third_byte": self.third_byte
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Full screen effect: second byte = {self.second_byte}, third byte = {self.third_byte}"]

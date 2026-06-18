@@ -30,3 +30,7 @@ class DisplayMessageAction(AIRuleAction):
             "message_table_number": self.message_table_number,
             "message_entry": self.message_entry
         }
+
+    @override
+    def to_compact_representation(self, indent: int) -> list[str]:
+        return [f"{" " * indent}Display message {self.message_entry} from table {self.message_table_number}"]

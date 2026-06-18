@@ -1,0 +1,8 @@
+{
+    "snes_rom_file_path": "res/roms/ff5.smc",
+    "snes_boundaries_file_path": "res/snes_boundaries.json",
+    "enemy_ai_map_file_path": "res/enemies/enemy_ai_map.json",
+    "enemy_names_file_path": "res/enemies/enemy_names.json",
+    "parsed_ai_file_path": "output/parsed_ai.json",
+    "ai_script_representation_file_path": "output/ai_script.txt"
+}
