@@ -54,7 +54,7 @@ ACTIVE RULES:
 REACTIVE RULES:
   Rule #1:
     Conditions:
-      Hit by the Unnamed script trigger spell
+      Hit by the unnamed script trigger spell
     Actions:
       Set Var_00 to 0
       Ability: Zombie Breath
