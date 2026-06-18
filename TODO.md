@@ -4,10 +4,6 @@
 
 - Line 41: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
 
-## [parser/actions/display_message_action.py](parser/actions/display_message_action.py)
-
-- Line 7: # TODO: Find out the mapping between the second and third bytes and the actual message that is displayed. For now, just store the raw values.
-
 ## [parser/actions/ai_command_action.py](parser/actions/ai_command_action.py)
 
 - Line 32: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.

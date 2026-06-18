@@ -15,13 +15,14 @@ from .enemy_ai import EnemyAI
 
 
 class EnemyAIParser():
-    def __init__(self, enemy_id: str, enemy_name: str, tokens: bytes) -> None:
+    def __init__(self, enemy_id: str, enemy_name: str, tokens: bytes, battle_text: dict[int, dict[int, str]]) -> None:
         self.__enemy_id: str = enemy_id
         self.__enemy_name: str = enemy_name
         self.__current_state: StateEnum = StateEnum.START
         self.__tokens: bytes = tokens
         self.__no_interrupt_error_message: str = "Unexpected end of no-interrupt action."
         self.__enemy_ai: EnemyAI = EnemyAI(enemy_id=enemy_id, enemy_name=enemy_name, raw=tokens.hex().upper())
+        self.__battle_text: dict[int, dict[int, str]] = battle_text
         self.__current_tokens_group: list[int] = []
 
     def parse(self) -> bool:
@@ -189,7 +190,7 @@ class EnemyAIParser():
         '''
         self.__current_state = StateEnum.SA
 
-        self.__enemy_ai.add_action(tokens=self.__current_tokens_group)
+        self.__enemy_ai.add_action(tokens=self.__current_tokens_group, battle_text=self.__battle_text)
 
         if f7_counter == 0:
             # We found the last sub-action of a no-interrupt action whose length does not cover a separator or terminator byte.
@@ -328,7 +329,7 @@ class EnemyAIParser():
         '''
         self.__current_state = StateEnum.CA4        
 
-        self.__enemy_ai.add_action(tokens=self.__current_tokens_group)
+        self.__enemy_ai.add_action(tokens=self.__current_tokens_group, battle_text=self.__battle_text)
 
         if f7_counter == 0:
             # We found the last sub-action of a no-interrupt action whose length does not cover a separator or terminator byte.
@@ -498,7 +499,7 @@ class EnemyAIParser():
         '''
         self.__current_state = StateEnum.SDA
 
-        self.__enemy_ai.add_action(tokens=self.__current_tokens_group)
+        self.__enemy_ai.add_action(tokens=self.__current_tokens_group, battle_text=self.__battle_text)
 
         if f7_counter == 0:
             # We found the last sub-action of a no-interrupt action whose length does not cover a separator or terminator byte.
@@ -636,7 +637,7 @@ class EnemyAIParser():
         '''
         self.__current_state = StateEnum.CDA4
 
-        self.__enemy_ai.add_action(tokens=self.__current_tokens_group)
+        self.__enemy_ai.add_action(tokens=self.__current_tokens_group, battle_text=self.__battle_text)
 
         if f7_counter == 0:
             # We found the last sub-action of a no-interrupt action whose length does not cover a separator or terminator byte.
@@ -811,7 +812,7 @@ class EnemyAIParser():
         '''
         self.__current_state = StateEnum.RSA
 
-        self.__enemy_ai.add_action(tokens=self.__current_tokens_group)
+        self.__enemy_ai.add_action(tokens=self.__current_tokens_group, battle_text=self.__battle_text)
 
         if f7_counter == 0:
             # We found the last sub-action of a no-interrupt action whose length does not cover a separator or terminator byte.
@@ -951,7 +952,7 @@ class EnemyAIParser():
         '''
         self.__current_state = StateEnum.RCA4
 
-        self.__enemy_ai.add_action(tokens=self.__current_tokens_group)
+        self.__enemy_ai.add_action(tokens=self.__current_tokens_group, battle_text=self.__battle_text)
 
         if f7_counter == 0:
             # We found the last sub-action of a no-interrupt action whose length does not cover a separator or terminator byte.

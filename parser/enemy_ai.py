@@ -28,10 +28,10 @@ class EnemyAI():
 
         self.__current_rule.add_condition(tokens)
 
-    def add_action(self, tokens: list[int]) -> None:
+    def add_action(self, tokens: list[int], battle_text: dict[int, dict[int, str]]) -> None:
         self.__tokens.append(tokens)
 
-        self.__current_rule.add_action(tokens)
+        self.__current_rule.add_action(tokens, battle_text)
 
     def add_separator(self, tokens: list[int]) -> None:
         self.__tokens.append(tokens)

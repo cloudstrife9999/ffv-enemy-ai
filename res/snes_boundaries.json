@@ -10,5 +10,13 @@
     "enemy_ai": [
         "0x109F00",
         "0x10C7FF"
+    ],
+    "battle_text": [
+        "0x273B00",
+        "0x2750FF"
+    ],
+    "battle_pointers": [
+        "0x10F000",
+        "0x10F1D3"
     ]
 }

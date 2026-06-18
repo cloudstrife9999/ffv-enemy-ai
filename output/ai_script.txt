@@ -153,14 +153,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 232 from table 3
+      Turn #1: Display message: "Gimme an Elixir pleeease!
                Ability: Remedy
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by the Elixir item
     Actions:
-      Display message 233 from table 2
+      Display message: "Yay!! Yay!! Thanks!!
       random(Escape, Nothing, Nothing)
 
 ----------------------------------------
@@ -495,20 +495,20 @@ REACTIVE RULES:
       Hit by the Ifrit spell
     Actions:
       Consecutive actions:
-        Display message 8 from table 5
-        Display message 9 from table 5
-        Display message 59 from table 5
-        Display message 60 from table 5
+        Display message: Byblos:  I, Ifrit...
+        Display message: "You fools!  The seal...
+        Display message: "But the seal of my master
+        Display message: "Still lives!!!
         Nothing
   Rule #2:
     Conditions:
       Just before dying
     Actions:
       Consecutive actions:
-        Display message 57 from table 5
-        Display message 58 from table 5
-        Display message 59 from table 5
-        Display message 60 from table 5
+        Display message: Byblos:  Uggh!!!
+        Display message: "This is the end....
+        Display message: "But the seal of my master
+        Display message: "Still lives!!!
         Nothing
   Rule #3:
     Conditions:
@@ -637,13 +637,13 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 108 from table 3
-      Display message 109 from table 3
-      Display message 110 from table 3
-      Display message 111 from table 3
-      Display message 112 from table 3
-      Display message 113 from table 3
-      Display message 114 from table 3
+      Display message: Ramuh:  Huh?  Ifrit...?
+      Display message: "What are you...?
+      Display message: Ifrit:  Ramuh!
+      Display message: "You're getting better!
+      Display message: "If it were possible...
+      Display message: Ramuh:  Stop, Ifrit!
+      Display message: "This isn't between us!
       Mark the following global events as true: ['Ramuh Defeated']
       Nothing
   Rule #2:
@@ -753,14 +753,14 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: Display message 20 from table 1
+      Turn #1: Display message: "Crap!  You stubborn...!!
                Ability: Escape
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Display message 11 from table 1
+                 Display message: Sergeant:  Attack them!
                  Forcefully change target(s) to all non-self enemies
                  Ability: Unnamed script trigger
 REACTIVE RULES:
@@ -931,9 +931,9 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 1 from table 4
-      Display message 2 from table 4
-      Display message 3 from table 4
+      Display message: Ifrit:  You are strong...!
+      Display message: "I have decided to grant my
+      Display message: "powers to you...
       Nothing
 
 ----------------------------------------
@@ -1716,7 +1716,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 5 from table 2
+      Turn #1: Display message: Golem:  Help me!
                Nothing
 REACTIVE RULES:
   None
@@ -2305,7 +2305,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Nothing
       Turn #2: Consecutive actions:
-                 Display message 96 from table 1
+                 Display message: Metamorpha:  Change!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#2, #3, #4]
                    Behaviour:
@@ -2388,8 +2388,8 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 75 from table 3
-      Display message 76 from table 3
+      Display message: Sekmet:  Even if you defeat me...
+      Display message: "My brother at the tower... Ugh!
       Mark the following global events as true: ['Sekhmet Defeated']
       Nothing
 
@@ -2470,7 +2470,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Nothing
       Turn #2: Consecutive actions:
-                 Display message 41 from table 2
+                 Display message: "Come forth!  Evil one!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: []
                    Behaviour:
@@ -2738,7 +2738,7 @@ REACTIVE RULES:
       Hit by any spell
     Actions:
       Consecutive actions:
-        Display message 21 from table 2
+        Display message: "Here...magic is useless!
         Ability: Physical attack
         Ability: Physical attack
         Ability: Physical attack
@@ -3089,7 +3089,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: Display message 92 from table 1
+      Turn #1: Display message: Charging up!
                Nothing
       Turn #2: Ability: Strong Attack
   Default rule:
@@ -3118,9 +3118,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 44 from table 2
+      Turn #1: Display message: "Narrrrrr Torrrrrr
                Nothing
-      Turn #2: Display message 45 from table 2
+      Turn #2: Display message: "Kirrrrrr Sarrrrrr
                Nothing
       Turn #3: Consecutive actions:
                  Forcefully change target(s) to the enemy in slot #2
@@ -3731,15 +3731,15 @@ ACTIVE RULES:
     Conditions:
       Current HP < 30000
     Actions:
-      Turn #1: Display message 133 from table 4
-               Display message 134 from table 3
-               Display message 135 from table 7
-               Display message 136 from table 4
-               Display message 137 from table 5
-               Display message 138 from table 4
-               Display message 139 from table 6
-               Display message 140 from table 7
-               Display message 141 from table 5
+      Turn #1: Display message: "...<NAME>...?
+               Display message: "It's you isn't it!!
+               Display message: "Why didn't you say so?
+               Display message: "The monsters here are scary,
+               Display message: "And I can't find my way out...
+               Display message: "I'm about to cry...
+               Display message: "By the way, how'd you get here?
+               Display message: <NAME> explains what happened
+               Display message: "I see...now I can get home!
                Forcefully change target(s) to self
                Ability: Unnamed script trigger
   Rule #2:
@@ -3747,18 +3747,18 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: Consecutive actions:
-                 Display message 115 from table 1
+                 Display message: Gilgamesh:  Hah!
                  random(Physical attack, Physical attack, Nothing)
                  random(Physical attack, Physical attack, Nothing)
                Consecutive actions:
-                 Display message 120 from table 1
+                 Display message: Gilgamesh:  Hah!
                  random(Physical attack, Physical attack, Nothing)
                  random(Physical attack, Physical attack, Nothing)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 132 from table 2
+      Turn #1: Display message: Gilgamesh:  Another monster!
                Set Var_00 to 1
                Ability: Physical attack
 REACTIVE RULES:
@@ -3766,14 +3766,14 @@ REACTIVE RULES:
     Conditions:
       Hit by the unnamed script trigger spell
     Actions:
-      Display message 219 from table 6
-      Display message 220 from table 6
-      Display message 221 from table 6
-      Display message 222 from table 4
-      Display message 223 from table 4
-      Display message 224 from table 6
-      Display message 225 from table 6
-      Display message 226 from table 1
+      Display message: "How'd you like to escape?
+      Display message: "...
+      Display message: "Oh..yeah...that's right...
+      Display message: "Well if we live, let's meet again...
+      Display message: "I know we will...
+      Display message: "At that time we'll be friends...
+      Display message: "N... never mind!
+      Display message: "Later!
       Ability: Terminate
 
 ----------------------------------------
@@ -3949,8 +3949,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 6 from table 3
-               Display message 7 from table 3
+      Turn #1: Display message: Golem:  Thank you!
+               Display message: "Hey, can I go with you?
                Mark the following global events as true: ['Golem Bone Dragon Zombie Dragon Defeated', 'Solo Golem Battle Unavailable']
                Ability: Wrong Way
 REACTIVE RULES:
@@ -3981,7 +3981,7 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  Forcefully change target(s) to all party members
                  Ability: Blizzara
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4003,7 +4003,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Blaze
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4025,7 +4025,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Lightning
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4047,7 +4047,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Special ability
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4069,7 +4069,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Breath Wing
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4091,7 +4091,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Ponds Chorus
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4113,7 +4113,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Flash
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4135,7 +4135,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Aeroga
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4157,7 +4157,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Zombie Breath
-                 Display message 97 from table 1
+                 Display message: <0503>"Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4480,8 +4480,8 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      Display message 208 from table 5
-      Display message 209 from table 5
+      Display message: Attack when its wings are closed,
+      Display message: and it'll respond with its claws!!
       Set Var_00 to 1
       Ability: Special ability
 
@@ -4510,7 +4510,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Full screen effect: second byte = 3, third byte = 240
-               Display message 87 from table 3
+               Display message: Charging up for Giga Flare!
                Nothing
       Turn #2: Ability: Giga Flare
       Turn #3: Prepare to show/hide enemies:
@@ -4536,7 +4536,7 @@ ACTIVE RULES:
       Turn #2: random(Cure, Blizzard, Libra)
       Turn #3: random(Protect, Sleep, Thunder)
       Turn #4: Consecutive actions:
-                 Display message 4 from table 2
+                 Display message: Changes to an Undead!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#2]
                    Behaviour:
@@ -4593,7 +4593,7 @@ ACTIVE RULES:
       Current HP < 300
     Actions:
       Turn #1: Consecutive actions:
-                 Display message 10 from table 1
+                 Display message: Magisa:  Honey, a job for you!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1, #2]
                    Behaviour:
@@ -4882,11 +4882,11 @@ REACTIVE RULES:
     Actions:
       Consecutive actions:
         Full screen effect: second byte = 0, third byte = 62
-        Display message 227 from table 7
-        Display message 228 from table 7
-        Display message 229 from table 7
-        Display message 230 from table 7
-        Display message 231 from table 7
+        Display message: <0503>The Void begins to
+        Display message: <0503>devour Exdeath!!
+        Display message: Exdeath:  W  H  Y?
+        Display message: "I had the power of "Void'!
+        Display message: "What IS "Void'...?  Arrrgh!!
         Prepare to show/hide enemies:
           Relevant enemy slots: [#1, #2, #4, #5, #6, #7]
           Behaviour:
@@ -4904,31 +4904,31 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: Display message 22 from table 2
+      Turn #1: Display message: Filling Multi-Surge Beam energy
                Nothing
-      Turn #2: Display message 25 from table 2
+      Turn #2: Display message: Explosives pressure increased
                Nothing
-      Turn #3: Display message 27 from table 2
+      Turn #3: Display message: Energy Level 128%
                Nothing
-      Turn #4: Display message 28 from table 1
+      Turn #4: Display message: Fire!!!
                Ability: Surge Beam
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 22 from table 2
+      Turn #1: Display message: Filling Multi-Surge Beam energy
                Nothing
-      Turn #2: Display message 23 from table 2
+      Turn #2: Display message: Cross Encountersnosity set to 20
                Nothing
-      Turn #3: Display message 24 from table 2
+      Turn #3: Display message: Safety Lock released
                Nothing
-      Turn #4: Display message 25 from table 2
+      Turn #4: Display message: Explosives pressure increased
                Nothing
-      Turn #5: Display message 26 from table 2
+      Turn #5: Display message: Anti-Shock Anti-Flash Shield on
                Nothing
-      Turn #6: Display message 27 from table 2
+      Turn #6: Display message: Energy Level 128%
                Nothing
-      Turn #7: Display message 28 from table 1
+      Turn #7: Display message: Fire!!!
                Ability: Surge Beam
       Turn #8: Set Var_00 to 1
                Nothing
@@ -5033,10 +5033,10 @@ REACTIVE RULES:
             - Show all enemies from the specified slots
             - Style: Fade
         Ability: Hide/show enemies
-        Display message 217 from table 4
-        Display message 214 from table 4
-        Display message 215 from table 4
-        Display message 216 from table 4
+        Display message: ArchaeoAvis revived!
+        Display message: King Tycoon:  Astounding!
+        Display message: "What life force!!
+        Display message: "The power of the Crystals...?
         Nothing
 
 ----------------------------------------
@@ -5140,9 +5140,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 115 from table 1
+      Turn #1: Display message: Gilgamesh:  Hah!
                random(Physical attack, Physical attack, Special ability)
-      Turn #2: Display message 120 from table 1
+      Turn #2: Display message: Gilgamesh:  Hah!
                random(Physical attack, Physical attack, Special ability)
 REACTIVE RULES:
   Rule #1:
@@ -5150,10 +5150,10 @@ REACTIVE RULES:
       Current HP < 10000
       HP damage just taken
     Actions:
-      Display message 116 from table 2
-      Display message 117 from table 2
-      Display message 118 from table 2
-      Display message 119 from table 2
+      Display message: Gilgamesh:  Crap!
+      Display message: "Alright.. for today
+      Display message: "I'll let you go...
+      Display message: "Lucky for you!
       Ability: Escape
 
 ----------------------------------------
@@ -5233,9 +5233,9 @@ REACTIVE RULES:
       Just before dying
       Variable Var_00 == 1
     Actions:
-      Display message 34 from table 2
-      Display message 35 from table 2
-      Display message 121 from table 2
+      Display message: Gilgamesh:  Hey!
+      Display message: "I remembered urgent business!
+      Display message: "I'll be back!!
       Ability: Escape
   Rule #2:
     Conditions:
@@ -5244,13 +5244,13 @@ REACTIVE RULES:
       Variable Var_00 == 0
     Actions:
       Consecutive actions:
-        Display message 30 from table 2
+        Display message: "I was wrong...
         Ability: Haste
-        Display message 31 from table 2
+        Display message: "I can't fight four people...
         Ability: Protect
-        Display message 32 from table 2
+        Display message: "I don't stand a chance...
         Ability: Shell
-        Display message 33 from table 2
+        Display message: "...did you believe me!!?
         Ability: Jump (enemy magic)
         Set Var_00 to 1
 
@@ -5465,10 +5465,10 @@ ACTIVE RULES:
                      - Show all enemies from the specified slots
                      - Style: Fade
                  Ability: Hide/show enemies
-                 Display message 36 from table 2
-                 Display message 37 from table 2
-                 Display message 38 from table 2
-                 Display message 39 from table 2
+                 Display message: Gilgamesh:  What took you so long?
+                 Display message: Enkidou:  That  old man...
+                 Display message: "Gave me a bit of trouble...
+                 Display message: Gilgamesh:  First aid...please!
                  Forcefully change target(s) to Enkidu
                  Ability: Unnamed script trigger
   Default rule:
@@ -5486,11 +5486,11 @@ REACTIVE RULES:
       Lone enemy
     Actions:
       Consecutive actions:
-        Display message 210 from table 3
-        Display message 211 from table 4
+        Display message: Gilgamesh:  Enkidou!
+        Display message: "I'll leave the rest to you!
         Ability: Reverse Polarity
-        Display message 212 from table 5
-        Display message 213 from table 3
+        Display message: "Enkidou...
+        Display message: "Hey, don't leave me!!
         Nothing
 
 ----------------------------------------
@@ -5729,7 +5729,7 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 93 from table 3
+      Display message: Ramuh:  Oh!?  Ifrit...
       Ability: Escape
 
 ----------------------------------------
@@ -5741,35 +5741,35 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 2
     Actions:
-      Turn #1: Display message 178 from table 5
-               Display message 179 from table 5
-               Display message 180 from table 5
-               Display message 181 from table 5
-               Display message 182 from table 5
+      Turn #1: Display message: Exdeath:  You worthless...
+               Display message: "To the Cleft of Dimension!!
+               Display message: Gilgamesh:  D..don't!
+               Display message: "Forgive me!
+               Display message: Exdeath:  Silence!
                Ability: Banish (enemy magic)
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Display message 183 from table 5
-                 Display message 184 from table 5
+                 Display message: "Excalibur...
+                 Display message: "Let me see your strength!
                  Ability: Physical attack
                Consecutive actions:
                  Ability: Physical attack
-                 Display message 185 from table 2
+                 Display message: "Huh?
                  Nothing
                Consecutive actions:
                  Ability: Physical attack
-                 Display message 186 from table 2
+                 Display message: "What the...?
                  Nothing
                Consecutive actions:
                  Ability: Physical attack
-                 Display message 187 from table 2
+                 Display message: "Isn't it the strongest sword!?
                  Nothing
                Full screen effect: second byte = 0, third byte = 45
-               Display message 176 from table 5
-               Display message 177 from table 5
+               Display message: Exdeath:  Gilgamesh!
+               Display message: Gilgamesh:  ...
                Set Var_00 to 2
                Nothing
 REACTIVE RULES:
@@ -5778,7 +5778,7 @@ REACTIVE RULES:
       Just before dying
       Hit by the Banish (enemy magic) spell
     Actions:
-      Display message 88 from table 3
+      Display message: Gilgamesh:  Aaahh!!
       Mark the following global events as true: ['Gilgamesh Available In The Interdimensional Rift']
       Nothing
 
@@ -6095,7 +6095,7 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 73 from table 1
+      Display message: Odin:  This is it!
       Ability: Terminate
 
 ----------------------------------------
@@ -6265,8 +6265,8 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 77 from table 3
-      Display message 78 from table 3
+      Display message: Minotaur:  Holy...the magic
+      Display message: "of strength...See its power!
       Ability: Holy
   Rule #2:
     Conditions:
@@ -6377,15 +6377,15 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 2
     Actions:
-      Turn #1: Display message 192 from table 5
-               Display message 193 from table 5
-               Display message 194 from table 5
-               Display message 195 from table 5
-               Display message 196 from table 5
-               Display message 197 from table 5
-               Display message 198 from table 5
-               Display message 199 from table 5
-               Display message 200 from table 5
+      Turn #1: Display message: Gogo:  I give up!
+               Display message: "That's the way!
+               Display message: "I'm not doing anything...
+               Display message: "So you did nothing!
+               Display message: "You copied me!
+               Display message: "Good job!
+               Display message: "That is the art of the mimic!
+               Display message: "You're graduates now!
+               Display message: "Goodbye!!
                Forcefully change target(s) to self
                Ability: Banish (enemy magic)
   Rule #3:
@@ -6422,16 +6422,16 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 46 from table 4
-               Display message 47 from table 4
-               Display message 48 from table 4
-               Display message 49 from table 4
-               Display message 50 from table 4
-               Display message 51 from table 4
-               Display message 52 from table 4
-               Display message 53 from table 4
-               Display message 54 from table 4
-               Display message 55 from table 4
+      Turn #1: Display message: Gogo:  My name is Gogo!
+               Display message: "The famous mimic...
+               Display message: "The trick to mimicking...
+               Display message: "Is to imitate...
+               Display message: "So I'll watch you and
+               Display message: "Do what you do...
+               Display message: "If you fight, I fight...
+               Display message: "If you use magic, so will I!
+               Display message: "If you do what I do,
+               Display message: "You'll surely win!
                Set Var_00 to 1
                Nothing
 REACTIVE RULES:
@@ -6440,11 +6440,11 @@ REACTIVE RULES:
       Current HP < 33000
       HP damage just taken
     Actions:
-      Display message 188 from table 4
-      Display message 189 from table 4
-      Display message 190 from table 4
+      Display message: Gogo:  You guys...
+      Display message: "You didn't get the point!
+      Display message: "No more imitation...
       Full screen effect: second byte = 0, third byte = 1
-      Display message 191 from table 4
+      Display message: "Let's do it some other time!
       Set Var_01 to 2
       Ability: Meteor
   Rule #2:
@@ -6570,7 +6570,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a summon
     Actions:
-      Display message 218 from table 1
+      Display message: <0505> focusing power!
       Full screen effect: second byte = 3, third byte = 240
       Ability: Strong Attack
 
@@ -6593,20 +6593,20 @@ ACTIVE RULES:
     Conditions:
       Current HP < 43000
     Actions:
-      Turn #1: Display message 129 from table 1
+      Turn #1: Display message: Exdeath:  Take this!!
                Ability: Special ability
       Turn #2: Consecutive actions:
-                 Display message 130 from table 3
-                 Display message 131 from table 3
+                 Display message: "You've made me mad!
+                 Display message: "To the world of Death with you!!
                  Ability: Flare
                  Ability: Holy
                  Ability: Meteor
                Consecutive actions:
-                 Display message 98 from table 2
-                 Display message 99 from table 2
-                 Display message 100 from table 2
-                 Display message 101 from table 2
-                 Display message 102 from table 2
+                 Display message: Exdeath:  Wh-, why won't you die!?
+                 Display message: Galuf:  Not yet...
+                 Display message: "I can't die yet!
+                 Display message: Galuf:  Even if my life
+                 Display message: "burns out...I will defeat you!!
                  Set Var_00 to 1
                  Set Var_01 to 1
                  Nothing
@@ -6624,7 +6624,7 @@ REACTIVE RULES:
       Hit by any command
     Actions:
       Consecutive actions:
-        Display message 107 from table 3
+        Display message: Exdeath:  Then what is it...?
         Mark the following global events as true: ['Galuf Solo Vs Exdeath Already Happened']
         Forcefully change target(s) to self
         Ability: Wrong Way
@@ -6633,8 +6633,8 @@ REACTIVE RULES:
       Variable Var_00 == 2
       Hit by any command
     Actions:
-      Display message 105 from table 3
-      Display message 106 from table 3
+      Display message: Galuf:  This isn't anger...
+      Display message: "... nor is it hatred...!!
       Set Var_00 to 3
       Nothing
   Rule #3:
@@ -6642,8 +6642,8 @@ REACTIVE RULES:
       Variable Var_00 == 1
       Hit by any command
     Actions:
-      Display message 103 from table 2
-      Display message 104 from table 2
+      Display message: Exdeath:  I cannot be defeated by
+      Display message: "anger or hatred...
       Set Var_00 to 2
       Nothing
 
@@ -6709,14 +6709,14 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: Display message 12 from table 1
-               Display message 13 from table 1
-               Display message 14 from table 1
-               Display message 15 from table 1
-               Display message 16 from table 1
-               Display message 17 from table 1
-               Display message 18 from table 1
-               Display message 19 from table 1
+      Turn #1: Display message: "Th- this guy's....
+               Display message: "He's not just a Sergeant!
+               Display message: "Show your true colors!
+               Display message: "Duhahahahaha
+               Display message: "Me?  I am the great
+               Display message: "Bounty hunter...
+               Display message: "Iron Claw!!
+               Display message: "Change form!!
                Prepare to show/hide enemies:
                  Relevant enemy slots: [#5]
                  Behaviour:
@@ -6730,7 +6730,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Display message 11 from table 1
+                 Display message: Sergeant:  Attack them!
                  Forcefully change target(s) to all non-self enemies
                  Ability: Unnamed script trigger
 REACTIVE RULES:
@@ -6902,49 +6902,49 @@ REACTIVE RULES:
     Conditions:
       Hit by the Level 3 Flare spell
     Actions:
-      Display message 81 from table 3
+      Display message: Learned L.3 Flare!
       Set Var_00 to 1
       Nothing
   Rule #2:
     Conditions:
       Hit by the Aeroga spell
     Actions:
-      Display message 80 from table 3
+      Display message: Learned Aero 3!
       Set Var_00 to 2
       Nothing
   Rule #3:
     Conditions:
       Hit by the 1000 Needles spell
     Actions:
-      Display message 82 from table 3
+      Display message: Learned Blowfish!
       Set Var_00 to 3
       Nothing
   Rule #4:
     Conditions:
       Hit by the Vampire spell
     Actions:
-      Display message 83 from table 3
+      Display message: Learned Vampire!
       Set Var_00 to 4
       Nothing
   Rule #5:
     Conditions:
       Hit by the Aqua Breath spell
     Actions:
-      Display message 84 from table 3
+      Display message: Learned Aqua Rake!
       Set Var_00 to 5
       Nothing
   Rule #6:
     Conditions:
       Hit by the Magic Hammer spell
     Actions:
-      Display message 85 from table 3
+      Display message: Learned Magic Hammer!
       Set Var_00 to 6
       Nothing
   Rule #7:
     Conditions:
       Hit by the Self Destruct spell
     Actions:
-      Display message 86 from table 3
+      Display message: Learned Exploder!
       Set Var_00 to 7
       Nothing
 
@@ -6978,7 +6978,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Toggle Invincible status.
-                 Display message 169 from table 2
+                 Display message: Necrofobia:  Die!!
                  Forcefully change target(s) to the enemy in slot #6
                  Ability: Flare
                  Forcefully change target(s) to the enemy in slot #6
@@ -7017,10 +7017,10 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: Display message 124 from table 7
-               Display message 125 from table 2
-               Display message 126 from table 2
-               Display message 127 from table 2
+      Turn #1: Display message: "M... my invincible barrier...
+               Display message: "Then I have no choice...
+               Display message: "Have a taste of...
+               Display message: "My real power!!
                Toggle Invincible status.
                Set Var_00 to 2
                Ability: Flash
@@ -7033,9 +7033,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 172 from table 3
-               Display message 173 from table 3
-               Display message 174 from table 3
+      Turn #1: Display message: "With these four barriers...
+               Display message: "I am now invincible!
+               Display message: "Can you defeat me?
                Set Var_00 to 1
                Nothing
 REACTIVE RULES:
@@ -7044,7 +7044,7 @@ REACTIVE RULES:
       Just before dying
       Lone enemy
     Actions:
-      Display message 175 from table 3
+      Display message: "E...  Ex... !!!
       Nothing
   Rule #2:
     Conditions:
@@ -7062,14 +7062,14 @@ REACTIVE RULES:
             - Show all enemies from the specified slots
             - Style: Fade
         Ability: Hide/show enemies
-        Display message 142 from table 7
-        Display message 128 from table 7
-        Display message 143 from table 7
-        Display message 144 from table 7
-        Display message 145 from table 7
-        Display message 146 from table 7
-        Display message 147 from table 7
-        Display message 148 from table 7
+        Display message: "Gil... Gilgamesh!!
+        Display message: Gilgamesh:  Phew!  I made it!
+        Display message: "If I go home right now,
+        Display message: "I'll remain in history
+        Display message: "as a weakling!
+        Display message: Necrofobia:  Heh...
+        Display message: "Blabbermouth...
+        Display message: "I'll get rid of you first!
         Toggle Invincible status.
         Set Var_01 to 1
         Nothing
@@ -7155,18 +7155,18 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: Display message 64 from table 3
+      Turn #1: Display message: "Makes me kinda happy...
                random(Hurricane, Physical attack, Ponds Chorus)
-      Turn #2: Display message 65 from table 3
-               Display message 66 from table 7
-               Display message 67 from table 5
-               Display message 68 from table 5
+      Turn #2: Display message: Gilgamesh:  By the way...
+               Display message: "Where's that jolly old man?
+               Display message: Cara:  Exdeath...
+               Display message: Gilgamesh:  ... I see...
                random(Time Slip, Physical attack, Special ability)
-      Turn #3: Display message 69 from table 3
+      Turn #3: Display message: Gilgamesh:  ...........
                random(Sonic Wave, Physical attack, Lilliputian Lyric)
-      Turn #4: Display message 70 from table 3
-               Display message 71 from table 3
-               Display message 72 from table 3
+      Turn #4: Display message: Gilgamesh:  OK, this is
+               Display message: "the end of my warm-up!
+               Display message: "Gilgamesh Change!!
                Prepare to show/hide enemies:
                  Relevant enemy slots: [#2]
                  Behaviour:
@@ -7192,9 +7192,9 @@ REACTIVE RULES:
       HP damage just taken
     Actions:
       Consecutive actions:
-        Display message 61 from table 3
-        Display message 62 from table 3
-        Display message 63 from table 3
+        Display message: Gilgamesh:  So...
+        Display message: "Let's see...
+        Display message: "This is our fourth time, huh...
         Set Var_00 to 1
         random(Flash, Physical attack, Special ability)
 
@@ -7242,7 +7242,7 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: Consecutive actions:
-                 Display message 123 from table 3
+                 Display message: Apanda:  -shiver- -tremble-
                  Forcefully change target(s) to self
                  Ability: Medicine
                  Ability: Reverse Polarity
@@ -7262,7 +7262,7 @@ REACTIVE RULES:
     Actions:
       Consecutive actions:
         Ability: Reverse Polarity
-        Display message 122 from table 3
+        Display message: Apanda:  Eek eek it's Ifrit
         Set Var_00 to 1
         Nothing
   Rule #2:
@@ -7293,7 +7293,7 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Display message 89 from table 3
+      Display message: Alte Roite shows its true form!
       Prepare to show/hide enemies:
         Relevant enemy slots: [#2]
         Behaviour:
@@ -7305,8 +7305,8 @@ REACTIVE RULES:
     Conditions:
       Hit by the Gold Needle item
     Actions:
-      Display message 201 from table 3
-      Display message 202 from table 3
+      Display message: Arute Roite:  Aahh!
+      Display message: "Really works...
       Ability: Remedy
 
 ----------------------------------------
@@ -7327,7 +7327,7 @@ REACTIVE RULES:
       Lone enemy
       Variable Var_00 == 1
     Actions:
-      Display message 91 from table 3
+      Display message: "This is the end!!
       Nothing
   Rule #2:
     Conditions:
@@ -7340,7 +7340,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Consecutive actions:
-        Display message 79 from table 2
+        Display message: "Image!!
         Set Var_00 to 1
         Prepare to show/hide enemies:
           Relevant enemy slots: [#2, #3]
@@ -7442,7 +7442,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Physical attack, Blaster, Special ability)
       Turn #2: Consecutive actions:
-                 Display message 79 from table 2
+                 Display message: "Image!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1, #2, #3]
                    Behaviour:
@@ -7544,7 +7544,7 @@ ACTIVE RULES:
     Conditions:
       Current HP < 15000
     Actions:
-      Turn #1: Display message 74 from table 5
+      Turn #1: Display message: <0502>The laws of physics are broken!
                Full screen effect: second byte = 10, third byte = 3
                Nothing
       Turn #2: Full screen effect: second byte = 10, third byte = 131
@@ -7555,7 +7555,7 @@ ACTIVE RULES:
     Conditions:
       Current HP < 30000
     Actions:
-      Turn #1: Display message 74 from table 5
+      Turn #1: Display message: <0502>The laws of physics are broken!
                Full screen effect: second byte = 10, third byte = 3
                Nothing
       Turn #2: Full screen effect: second byte = 10, third byte = 131
@@ -7571,7 +7571,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Nothing
-      Turn #2: Display message 74 from table 5
+      Turn #2: Display message: <0502>The laws of physics are broken!
                Full screen effect: second byte = 10, third byte = 3
                Nothing
       Turn #3: Full screen effect: second byte = 10, third byte = 131
@@ -7685,15 +7685,15 @@ ACTIVE RULES:
     Conditions:
       Variable Var_03 == 1
     Actions:
-      Turn #1: Display message 160 from table 7
-               Display message 161 from table 7
-               Display message 162 from table 7
-               Display message 163 from table 7
-               Display message 164 from table 7
-               Display message 165 from table 7
-               Display message 166 from table 7
-               Display message 167 from table 7
-               Display message 168 from table 7
+      Turn #1: Display message: Gilgamesh:  Lenna!
+               Display message: "Never forget your
+               Display message: "love for animals...
+               Display message: Lenna:  ...
+               Display message: Gilgamesh:  <NAME>!
+               Display message: "I would've liked to have a
+               Display message: "one on one battle with you!
+               Display message: "You were such good friends...
+               Display message: "... Gilgamesh....
                Forcefully change target(s) to self
                Ability: Remedy
       Turn #2: Set Var_02 to 1
@@ -7703,18 +7703,18 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Display message 149 from table 5
-               Display message 150 from table 5
-               Display message 151 from table 5
+      Turn #1: Display message: Gilgamesh:  You're pretty good!
+               Display message: "You can even defeat...
+               Display message: "The great Gilgamesh?!
                Ability: Reverse Polarity
-      Turn #2: Display message 152 from table 7
-               Display message 153 from table 7
-               Display message 154 from table 7
-               Display message 155 from table 7
-               Display message 156 from table 7
-               Display message 157 from table 7
-               Display message 158 from table 7
-               Display message 159 from table 7
+      Turn #2: Display message: Gilgamesh:  Cara!
+               Display message: "Your grandfather...
+               Display message: "He was a strong man!
+               Display message: Cara:  ... Grandpa....
+               Display message: Gilgamesh:  Faris!
+               Display message: "Go fall in love...
+               Display message: "Then you'd be more feminine!
+               Display message: Faris:  ...
                Set Var_03 to 1
                Forcefully change target(s) to self
                Ability: Remedy
@@ -7724,8 +7724,8 @@ REACTIVE RULES:
       Hit by the unnamed script trigger spell
     Actions:
       Consecutive actions:
-        Display message 170 from table 3
-        Display message 171 from table 4
+        Display message: Gilgamesh:  That's...!
+        Display message: "my line!!
         Forcefully change target(s) to the enemy in slot #1
         Ability: Self Destruct
         Ability: Terminate

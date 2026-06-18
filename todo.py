@@ -7,7 +7,7 @@ ROOT = Path(".")
 OUTPUT_FILE = Path("TODO.md")
 
 ALLOWED_EXTENSIONS = {".py"}
-EXCLUDE_DIRS = {"old", "venv", "__pycache__"}
+EXCLUDE_DIRS = {"venv", "__pycache__"}
 EXCLUDE_FILES = {"todo.py"}
 
 
