@@ -1623,7 +1623,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Physical attack, Special ability)
-      Turn #2: random(Physical attack, Quake, Special ability)
+      Turn #2: random(Physical attack, Earthquake, Special ability)
 REACTIVE RULES:
   None
 
@@ -3251,7 +3251,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Quake, Special ability)
+      Turn #1: random(Physical attack, Earthquake, Special ability)
 REACTIVE RULES:
   None
 
@@ -3531,7 +3531,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(Quake, Nothing, Nothing)
+      random(Earthquake, Nothing, Nothing)
 
 ----------------------------------------
 
@@ -3574,13 +3574,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Ability: Targeting
+      Turn #1: Ability: Search
       Turn #2: random(Level 5 Death, Level 4 Graviga, Level 2 Old)
-      Turn #3: Ability: Targeting
+      Turn #3: Ability: Search
       Turn #4: random(Level 4 Graviga, Level 2 Old, Level 3 Flare)
-      Turn #5: Ability: Targeting
+      Turn #5: Ability: Search
       Turn #6: random(Level 2 Old, Level 3 Flare, Level 5 Death)
-      Turn #7: Ability: Targeting
+      Turn #7: Ability: Search
       Turn #8: random(Level 3 Flare, Level 5 Death, Level 2 Old)
 REACTIVE RULES:
   None
@@ -4365,7 +4365,7 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Ability: Quake
+      Ability: Earthquake
   Rule #2:
     Conditions:
       HP damage just taken
@@ -4384,15 +4384,15 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Atomic Ray, Delta Attack, Blaster)
-      Turn #2: Ability: Surge Beam
+      Turn #2: Ability: Wave Cannon
       Turn #3: random(Rainbow Wind, Flame Thrower, Atomic Ray)
-      Turn #4: Ability: Surge Beam
+      Turn #4: Ability: Wave Cannon
       Turn #5: Consecutive actions:
-                 random(Delta Attack, Blaster, Surge Beam)
-                 random(Maelstrom, Quake, Rainbow Wind)
-      Turn #6: Ability: Targeting
+                 random(Delta Attack, Blaster, Wave Cannon)
+                 random(Maelstrom, Earthquake, Rainbow Wind)
+      Turn #6: Ability: Search
       Turn #7: random(Rainbow Wind, Flame Thrower, Atomic Ray)
-      Turn #8: Ability: Surge Beam
+      Turn #8: Ability: Wave Cannon
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4911,7 +4911,7 @@ ACTIVE RULES:
       Turn #3: Display message: Energy Level 128%
                Nothing
       Turn #4: Display message: Fire!!!
-               Ability: Surge Beam
+               Ability: Wave Cannon
   Default rule:
     Conditions:
       Unconditional
@@ -4929,7 +4929,7 @@ ACTIVE RULES:
       Turn #6: Display message: Energy Level 128%
                Nothing
       Turn #7: Display message: Fire!!!
-               Ability: Surge Beam
+               Ability: Wave Cannon
       Turn #8: Set Var_00 to 1
                Nothing
 REACTIVE RULES:
@@ -5932,7 +5932,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Missile, Flame Thrower, Nothing)
-      Turn #2: random(Mustard Bomb, Surge Beam, Nothing)
+      Turn #2: random(Mustard Bomb, Wave Cannon, Nothing)
       Turn #3: random(Missile, Flame Thrower, Nothing)
       Turn #4: random(Mustard Bomb, Dynamo, Nothing)
       Turn #5: Ability: Physical attack
@@ -7416,7 +7416,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Missile, Surge Beam, Electromagnetic Field)
+      Turn #1: random(Missile, Wave Cannon, Electromagnetic Field)
 REACTIVE RULES:
   None
 

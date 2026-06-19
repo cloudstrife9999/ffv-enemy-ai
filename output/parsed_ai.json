@@ -3075,7 +3075,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Quake",
+                        "second_choice": "Earthquake",
                         "third_choice": "Special ability"
                     }
                 }
@@ -6333,7 +6333,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Quake",
+                        "second_choice": "Earthquake",
                         "third_choice": "Special ability"
                     }
                 }
@@ -6974,7 +6974,7 @@
                 "actions": [
                     {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Quake",
+                        "first_choice": "Earthquake",
                         "second_choice": "Do nothing",
                         "third_choice": "Do nothing"
                     }
@@ -7053,28 +7053,28 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "Targeting",
+                    "Turn #1": "Search",
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Level 5 Death",
                         "second_choice": "Level 4 Graviga",
                         "third_choice": "Level 2 Old"
                     },
-                    "Turn #3": "Targeting",
+                    "Turn #3": "Search",
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Level 4 Graviga",
                         "second_choice": "Level 2 Old",
                         "third_choice": "Level 3 Flare"
                     },
-                    "Turn #5": "Targeting",
+                    "Turn #5": "Search",
                     "Turn #6": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Level 2 Old",
                         "second_choice": "Level 3 Flare",
                         "third_choice": "Level 5 Death"
                     },
-                    "Turn #7": "Targeting",
+                    "Turn #7": "Search",
                     "Turn #8": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Level 3 Flare",
@@ -8578,7 +8578,7 @@
                     "DEATH_COUNTER"
                 ],
                 "actions": [
-                    "Quake"
+                    "Earthquake"
                 ]
             },
             {
@@ -8614,14 +8614,14 @@
                         "second_choice": "Delta Attack",
                         "third_choice": "Blaster"
                     },
-                    "Turn #2": "Surge Beam",
+                    "Turn #2": "Wave Cannon",
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Rainbow Wind",
                         "second_choice": "Flame Thrower",
                         "third_choice": "Atomic Ray"
                     },
-                    "Turn #4": "Surge Beam",
+                    "Turn #4": "Wave Cannon",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -8630,24 +8630,24 @@
                                 "action": "RANDOM_SELECTION",
                                 "first_choice": "Delta Attack",
                                 "second_choice": "Blaster",
-                                "third_choice": "Surge Beam"
+                                "third_choice": "Wave Cannon"
                             },
                             {
                                 "action": "RANDOM_SELECTION",
                                 "first_choice": "Maelstrom",
-                                "second_choice": "Quake",
+                                "second_choice": "Earthquake",
                                 "third_choice": "Rainbow Wind"
                             }
                         ]
                     },
-                    "Turn #6": "Targeting",
+                    "Turn #6": "Search",
                     "Turn #7": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Rainbow Wind",
                         "second_choice": "Flame Thrower",
                         "third_choice": "Atomic Ray"
                     },
-                    "Turn #8": "Surge Beam"
+                    "Turn #8": "Wave Cannon"
                 }
             }
         ],
@@ -9684,7 +9684,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Fire!!!"
                     },
-                    "Turn #8": "Surge Beam"
+                    "Turn #8": "Wave Cannon"
                 }
             },
             {
@@ -9733,7 +9733,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Fire!!!"
                     },
-                    "Turn #14": "Surge Beam",
+                    "Turn #14": "Wave Cannon",
                     "Turn #15": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
@@ -12119,7 +12119,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Mustard Bomb",
-                        "second_choice": "Surge Beam",
+                        "second_choice": "Wave Cannon",
                         "third_choice": "Do nothing"
                     },
                     "Turn #3": {
@@ -16304,7 +16304,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Missile",
-                        "second_choice": "Surge Beam",
+                        "second_choice": "Wave Cannon",
                         "third_choice": "Electromagnetic Field"
                     }
                 }
