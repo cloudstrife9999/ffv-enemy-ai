@@ -7941,7 +7941,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -7975,7 +7975,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8009,7 +8009,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8043,7 +8043,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8077,7 +8077,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8111,7 +8111,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8145,7 +8145,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8179,7 +8179,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8213,7 +8213,7 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>\"Change back!!"
+                                "message": "  \"Change back!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -9610,12 +9610,12 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>The Void begins to"
+                                "message": "  The Void begins to"
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "<0503>devour Exdeath!!"
+                                "message": "  devour Exdeath!!"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -13927,7 +13927,7 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "<0505> focusing power!"
+                        "message": "   focusing power!"
                     },
                     {
                         "action": "AI_COMMAND",
@@ -16691,7 +16691,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "<0502>The laws of physics are broken!"
+                        "message": "  The laws of physics are broken!"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -16728,7 +16728,7 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "<0502>The laws of physics are broken!"
+                        "message": "  The laws of physics are broken!"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -16761,7 +16761,7 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "<0502>The laws of physics are broken!"
+                        "message": "  The laws of physics are broken!"
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",

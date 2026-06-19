@@ -3013,7 +3013,7 @@ ACTIVE RULES:
                  Ability: Special ability
                  Ability: Special ability
                  Ability: Special ability
-               Prepare to show/hide enemies:
+      Turn #2: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #2, #3, #4]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
@@ -3614,7 +3614,7 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Firaga, Thundaga, Blizzaga)
                  random(Firaga, Thundaga, Blizzaga)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Silence, Toad, Mini)
                  random(Comet, Slowga, Bio)
   Default rule:
@@ -3750,7 +3750,7 @@ ACTIVE RULES:
                  Display message: Gilgamesh:  Hah!
                  random(Physical attack, Physical attack, Nothing)
                  random(Physical attack, Physical attack, Nothing)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  Display message: Gilgamesh:  Hah!
                  random(Physical attack, Physical attack, Nothing)
                  random(Physical attack, Physical attack, Nothing)
@@ -3981,7 +3981,7 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  Forcefully change target(s) to all party members
                  Ability: Blizzara
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4003,7 +4003,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Blaze
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4025,7 +4025,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Lightning
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4047,7 +4047,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Special ability
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4069,7 +4069,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Breath Wing
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4091,7 +4091,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Ponds Chorus
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4113,7 +4113,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Flash
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4135,7 +4135,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Aeroga
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4157,7 +4157,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Ability: Zombie Breath
-                 Display message: <0503>"Change back!!
+                 Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
                    Behaviour:
@@ -4390,9 +4390,9 @@ ACTIVE RULES:
       Turn #5: Consecutive actions:
                  random(Delta Attack, Blaster, Surge Beam)
                  random(Maelstrom, Quake, Rainbow Wind)
-               Ability: Targeting
-      Turn #6: random(Rainbow Wind, Flame Thrower, Atomic Ray)
-      Turn #7: Ability: Surge Beam
+      Turn #6: Ability: Targeting
+      Turn #7: random(Rainbow Wind, Flame Thrower, Atomic Ray)
+      Turn #8: Ability: Surge Beam
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4601,7 +4601,7 @@ ACTIVE RULES:
                      - Show all enemies from the specified slots
                      - Style: Fade
                  Ability: Hide/show enemies
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  Forcefully change target(s) to a random non-self enemy
                  Ability: Regen
                  Set Var_00 to 1
@@ -4816,11 +4816,11 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  Ability: Physical attack
                  Ability: Physical attack
-               random(Physical attack, Physical attack, Special ability)
-      Turn #2: Consecutive actions:
+      Turn #2: random(Physical attack, Physical attack, Special ability)
+      Turn #3: Consecutive actions:
                  Ability: Special ability
                  Ability: Special ability
-               random(Physical attack, Physical attack, Special ability)
+      Turn #4: random(Physical attack, Physical attack, Special ability)
 REACTIVE RULES:
   None
 
@@ -4882,8 +4882,8 @@ REACTIVE RULES:
     Actions:
       Consecutive actions:
         Full screen effect: second byte = 0, third byte = 62
-        Display message: <0503>The Void begins to
-        Display message: <0503>devour Exdeath!!
+        Display message:   The Void begins to
+        Display message:   devour Exdeath!!
         Display message: Exdeath:  W  H  Y?
         Display message: "I had the power of "Void'!
         Display message: "What IS "Void'...?  Arrrgh!!
@@ -5755,19 +5755,19 @@ ACTIVE RULES:
                  Display message: "Excalibur...
                  Display message: "Let me see your strength!
                  Ability: Physical attack
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  Ability: Physical attack
                  Display message: "Huh?
                  Nothing
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  Ability: Physical attack
                  Display message: "What the...?
                  Nothing
-               Consecutive actions:
+      Turn #4: Consecutive actions:
                  Ability: Physical attack
                  Display message: "Isn't it the strongest sword!?
                  Nothing
-               Full screen effect: second byte = 0, third byte = 45
+      Turn #5: Full screen effect: second byte = 0, third byte = 45
                Display message: Exdeath:  Gilgamesh!
                Display message: Gilgamesh:  ...
                Set Var_00 to 2
@@ -5794,10 +5794,10 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Physical attack, Special ability, Nothing)
                  random(Firaga, Thundaga, Physical attack)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Firaga, Physical attack, Special ability)
                  random(Blizzaga, Physical attack, Nothing)
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  random(Blizzaga, Physical attack, Nothing)
                  random(Thundaga, Physical attack, Special ability)
   Rule #2:
@@ -6293,17 +6293,17 @@ ACTIVE RULES:
       Turn #3: Consecutive actions:
                  random(Physical attack, Special ability, Tidal Wave (enemy magic))
                  random(Physical attack, Tidal Wave (enemy magic), Tidal Wave (enemy magic))
-               random(Physical attack, Physical attack, Special ability)
-      Turn #4: random(Physical attack, Tidal Wave (enemy magic), Special ability)
-      Turn #5: random(Physical attack, Aqua Breath, Aqua Breath)
-      Turn #6: Consecutive actions:
+      Turn #4: random(Physical attack, Physical attack, Special ability)
+      Turn #5: random(Physical attack, Tidal Wave (enemy magic), Special ability)
+      Turn #6: random(Physical attack, Aqua Breath, Aqua Breath)
+      Turn #7: Consecutive actions:
                  random(Tidal Wave (enemy magic), Tidal Wave (enemy magic), Special ability)
                  random(Special ability, Physical attack, Tidal Wave (enemy magic))
-               random(Physical attack, Tidal Wave (enemy magic), Special ability)
-      Turn #7: random(Physical attack, Physical attack, Special ability)
-      Turn #8: Consecutive actions:
-                 random(Physical attack, Special ability, Tidal Wave (enemy magic))
-                 random(Physical attack, Special ability, Tidal Wave (enemy magic))
+      Turn #8: random(Physical attack, Tidal Wave (enemy magic), Special ability)
+      Turn #9: random(Physical attack, Physical attack, Special ability)
+      Turn #10: Consecutive actions:
+                  random(Physical attack, Special ability, Tidal Wave (enemy magic))
+                  random(Physical attack, Special ability, Tidal Wave (enemy magic))
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -6365,11 +6365,11 @@ ACTIVE RULES:
                  Ability: Meteor
                  Ability: Meteor
                  Ability: Meteor
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  Ability: Maelstrom
                  Ability: Snowstorm
                  Ability: Aqua Breath
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  Ability: Frost
                  Ability: Snowstorm
                  Ability: Aqua Breath
@@ -6570,7 +6570,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a summon
     Actions:
-      Display message: <0505> focusing power!
+      Display message:    focusing power!
       Full screen effect: second byte = 3, third byte = 240
       Ability: Strong Attack
 
@@ -6601,7 +6601,7 @@ ACTIVE RULES:
                  Ability: Flare
                  Ability: Holy
                  Ability: Meteor
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  Display message: Exdeath:  Wh-, why won't you die!?
                  Display message: Galuf:  Not yet...
                  Display message: "I can't die yet!
@@ -7004,13 +7004,13 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Physical attack, Physical attack, Hurricane)
                  random(Physical attack, Physical attack, Special ability)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Physical attack, Physical attack, Special ability)
                  random(Physical attack, Physical attack, Special ability)
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  random(Physical attack, Physical attack, Hurricane)
                  random(Physical attack, Physical attack, Special ability)
-               Consecutive actions:
+      Turn #4: Consecutive actions:
                  random(Physical attack, Physical attack, Special ability)
                  random(Physical attack, Physical attack, Death)
   Rule #5:
@@ -7469,7 +7469,7 @@ ACTIVE RULES:
       Turn #3: Consecutive actions:
                  random(Maelstrom, Physical attack, Roulette)
                  random(Mighty Guard, Level 2 Old, Level 3 Flare)
-               Consecutive actions:
+      Turn #4: Consecutive actions:
                  random(Physical attack, Physical attack, Demon Eye (enemy magic))
                  random(Physical attack, Physical attack, Poison Breath)
   Default rule:
@@ -7526,13 +7526,13 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Meteor, Almagest, Special ability)
                  random(Comet, Special ability, Special ability)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Meteor, Almagest, Special ability)
                  random(Maelstrom, Almagest, Special ability)
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  random(Meteor, Physical attack, Special ability)
                  random(Comet, Almagest, Special ability)
-               Ability: Grand Cross
+      Turn #4: Ability: Grand Cross
   Rule #2:
     Conditions:
       Variable Var_00 == 1
@@ -7544,7 +7544,7 @@ ACTIVE RULES:
     Conditions:
       Current HP < 15000
     Actions:
-      Turn #1: Display message: <0502>The laws of physics are broken!
+      Turn #1: Display message:   The laws of physics are broken!
                Full screen effect: second byte = 10, third byte = 3
                Nothing
       Turn #2: Full screen effect: second byte = 10, third byte = 131
@@ -7555,7 +7555,7 @@ ACTIVE RULES:
     Conditions:
       Current HP < 30000
     Actions:
-      Turn #1: Display message: <0502>The laws of physics are broken!
+      Turn #1: Display message:   The laws of physics are broken!
                Full screen effect: second byte = 10, third byte = 3
                Nothing
       Turn #2: Full screen effect: second byte = 10, third byte = 131
@@ -7571,7 +7571,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Nothing
-      Turn #2: Display message: <0502>The laws of physics are broken!
+      Turn #2: Display message:   The laws of physics are broken!
                Full screen effect: second byte = 10, third byte = 3
                Nothing
       Turn #3: Full screen effect: second byte = 10, third byte = 131
@@ -7595,10 +7595,10 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Meteor, Almagest, Special ability)
                  random(Comet, Special ability, Special ability)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Meteor, Almagest, Special ability)
                  random(Maelstrom, Almagest, Special ability)
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  random(Meteor, Physical attack, Special ability)
                  random(Comet, Almagest, Special ability)
   Default rule:
@@ -7626,10 +7626,10 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Meteor, Meteor, Special ability)
                  random(Comet, Special ability, Special ability)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Meteor, Meteor, Special ability)
                  random(Maelstrom, Maelstrom, Special ability)
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  random(Meteor, Physical attack, Special ability)
                  random(Comet, Almagest, Special ability)
   Default rule:
@@ -7654,10 +7654,10 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  random(Meteor, Meteor, Special ability)
                  random(Comet, Special ability, Special ability)
-               Consecutive actions:
+      Turn #2: Consecutive actions:
                  random(Meteor, Meteor, Special ability)
                  random(Maelstrom, Maelstrom, Special ability)
-               Consecutive actions:
+      Turn #3: Consecutive actions:
                  random(Meteor, Physical attack, Special ability)
                  random(Comet, Almagest, Special ability)
   Default rule:

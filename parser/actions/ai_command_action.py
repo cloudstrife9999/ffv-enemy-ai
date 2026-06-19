@@ -24,7 +24,7 @@ class AICommandAction(AIRuleAction):
 
     @override
     def terminates_turn_by_default(self) -> bool:
-        return False
+        return self.__sub_action.terminates_turn_by_default()
 
     @override
     def to_json(self) -> str | dict[str, Any]:
