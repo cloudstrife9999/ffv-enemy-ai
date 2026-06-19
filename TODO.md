@@ -14,7 +14,8 @@
 
 ## [parser/enums/party_member_offset.py](parser/enums/party_member_offset.py)
 
-- Line 137: return self.name.replace("_", " ").title()  # TODO: refine this.
+- Line 5: # TODO: this only works for the SNES version. The GBA version has a different table/order.
+- Line 138: return self.name.replace("_", " ").title()  # TODO: refine this.
 
 ## [parser/enums/global_event.py](parser/enums/global_event.py)
 

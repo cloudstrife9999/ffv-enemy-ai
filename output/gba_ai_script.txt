@@ -8085,7 +8085,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 200
-Enemy Name: Enemy_200
+Enemy Name: Wing Raptor (1st form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8106,7 +8106,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 201
-Enemy Name: Enemy_201
+Enemy Name: Wing Raptor (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8142,7 +8142,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 202
-Enemy Name: Enemy_202
+Enemy Name: Karlabos
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8157,7 +8157,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 203
-Enemy Name: Enemy_203
+Enemy Name: Twintania (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8180,7 +8180,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 204
-Enemy Name: Enemy_204
+Enemy Name: Siren (1st form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8204,7 +8204,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 205
-Enemy Name: Enemy_205
+Enemy Name: Siren (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8226,7 +8226,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 206
-Enemy Name: Enemy_206
+Enemy Name: Forza
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8239,7 +8239,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 207
-Enemy Name: Enemy_207
+Enemy Name: Magissa
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -8271,7 +8271,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 208
-Enemy Name: Enemy_208
+Enemy Name: Garula (boss)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -8297,7 +8297,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 209
-Enemy Name: Enemy_209
+Enemy Name: Liquid Flame (human form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8322,7 +8322,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 20A
-Enemy Name: Enemy_20A
+Enemy Name: Liquid Flame (hand form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8347,7 +8347,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 20B
-Enemy Name: Enemy_20B
+Enemy Name: Liquid Flame (tornado form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8373,7 +8373,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 20C
-Enemy Name: Enemy_20C
+Enemy Name: Ice Commander
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8386,7 +8386,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 20D
-Enemy Name: Enemy_20D
+Enemy Name: Sandworm
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8409,7 +8409,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 20E
-Enemy Name: Enemy_20E
+Enemy Name: Hole (Sandworm battle)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8426,7 +8426,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 20F
-Enemy Name: Enemy_20F
+Enemy Name: Fake Sandworm
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8461,7 +8461,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 210
-Enemy Name: Enemy_210
+Enemy Name: Adamantoise
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8481,7 +8481,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 211
-Enemy Name: Enemy_211
+Enemy Name: Flame Thrower
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8494,7 +8494,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 212
-Enemy Name: Enemy_212
+Enemy Name: Rocket Launcher
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8508,7 +8508,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 213
-Enemy Name: Enemy_213
+Enemy Name: Exdeath (tree)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -8552,7 +8552,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 214
-Enemy Name: Enemy_214
+Enemy Name: Soul Cannon (boss)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -8598,7 +8598,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 215
-Enemy Name: Enemy_215
+Enemy Name: Archeoaevis (1st form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8621,7 +8621,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 216
-Enemy Name: Enemy_216
+Enemy Name: Archeoaevis (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8644,7 +8644,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 217
-Enemy Name: Enemy_217
+Enemy Name: Archeoaevis (3rd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8667,7 +8667,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 218
-Enemy Name: Enemy_218
+Enemy Name: Archeoaevis (4th form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8696,7 +8696,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 219
-Enemy Name: Enemy_219
+Enemy Name: Archeoaevis (5th form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8716,7 +8716,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 21A
-Enemy Name: Enemy_21A
+Enemy Name: Chimera Brain
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8730,7 +8730,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 21B
-Enemy Name: Enemy_21B
+Enemy Name: Titan
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8748,7 +8748,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 21C
-Enemy Name: Enemy_21C
+Enemy Name: Purobolos
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8774,7 +8774,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 21D
-Enemy Name: Enemy_21D
+Enemy Name: Abductor (Bartz solo)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8788,7 +8788,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 21E
-Enemy Name: Enemy_21E
+Enemy Name: Gilgamesh (dungeon)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8813,7 +8813,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 21F
-Enemy Name: Enemy_21F
+Enemy Name: Merrow
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8826,7 +8826,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 220
-Enemy Name: Enemy_220
+Enemy Name: Flying Killer
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8839,7 +8839,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 221
-Enemy Name: Enemy_221
+Enemy Name: Little Chariot
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8852,7 +8852,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 222
-Enemy Name: Enemy_222
+Enemy Name: Neo Garula
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8865,7 +8865,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 223
-Enemy Name: Enemy_223
+Enemy Name: Gilgamesh (Big Bridge)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -8911,7 +8911,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 224
-Enemy Name: Enemy_224
+Enemy Name: Tyrannosaur
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8933,7 +8933,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 225
-Enemy Name: Enemy_225
+Enemy Name: Shiva (boss)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8949,7 +8949,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 226
-Enemy Name: Enemy_226
+Enemy Name: Abductor (Castle of Bal)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -8963,7 +8963,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 227
-Enemy Name: Enemy_227
+Enemy Name: Dragon Pod
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9033,7 +9033,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 228
-Enemy Name: Enemy_228
+Enemy Name: Dragon Flower (1st)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9046,7 +9046,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 229
-Enemy Name: Enemy_229
+Enemy Name: Dragon Flower (2nd)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9059,7 +9059,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 22A
-Enemy Name: Enemy_22A
+Enemy Name: Dragon Flower (3rd)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9072,7 +9072,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 22B
-Enemy Name: Enemy_22B
+Enemy Name: Dragon Flower (4th)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9085,7 +9085,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 22C
-Enemy Name: Enemy_22C
+Enemy Name: Dragon Flower (5th)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9098,7 +9098,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 22D
-Enemy Name: Enemy_22D
+Enemy Name: Gilgamesh (Xezat's Fleet)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9150,7 +9150,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 22E
-Enemy Name: Enemy_22E
+Enemy Name: Enkidu
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9172,7 +9172,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 22F
-Enemy Name: Enemy_22F
+Enemy Name: Atomos
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9236,7 +9236,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 230
-Enemy Name: Enemy_230
+Enemy Name: Fire Crystal
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9255,7 +9255,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 231
-Enemy Name: Enemy_231
+Enemy Name: Earth Crystal
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9273,7 +9273,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 232
-Enemy Name: Enemy_232
+Enemy Name: Water Crystal
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9291,7 +9291,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 233
-Enemy Name: Enemy_233
+Enemy Name: Wind Crystal
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9310,7 +9310,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 234
-Enemy Name: Enemy_234
+Enemy Name: Carbuncle (1st form)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9369,7 +9369,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 235
-Enemy Name: Enemy_235
+Enemy Name: Melusine (ending credits)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9389,7 +9389,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 236
-Enemy Name: Enemy_236
+Enemy Name: Gilgamesh (Castle Exdeath, morphed)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9439,7 +9439,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 237
-Enemy Name: Enemy_237
+Enemy Name: Exdeath (Castle Exdeath)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9496,7 +9496,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 238
-Enemy Name: Enemy_238
+Enemy Name: Antlion
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9517,7 +9517,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 239
-Enemy Name: Enemy_239
+Enemy Name: Mummy
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9535,7 +9535,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 23A
-Enemy Name: Enemy_23A
+Enemy Name: Aspis
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9549,7 +9549,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 23B
-Enemy Name: Enemy_23B
+Enemy Name: Mecha Head
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9596,7 +9596,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 23C
-Enemy Name: Enemy_23C
+Enemy Name: Melusine (1st form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9631,7 +9631,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 23D
-Enemy Name: Enemy_23D
+Enemy Name: Melusine (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9666,7 +9666,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 23E
-Enemy Name: Enemy_23E
+Enemy Name: Melusine (3rd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9701,7 +9701,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 23F
-Enemy Name: Enemy_23F
+Enemy Name: Melusine (4th form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9735,7 +9735,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 240
-Enemy Name: Enemy_240
+Enemy Name: Odin
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9755,7 +9755,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 241
-Enemy Name: Enemy_241
+Enemy Name: Gargoyle
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9783,7 +9783,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 242
-Enemy Name: Enemy_242
+Enemy Name: Triton
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9813,7 +9813,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 243
-Enemy Name: Enemy_243
+Enemy Name: Nereid
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9842,7 +9842,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 244
-Enemy Name: Enemy_244
+Enemy Name: Phobos
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9872,7 +9872,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 245
-Enemy Name: Enemy_245
+Enemy Name: Omniscient
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -9907,7 +9907,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 246
-Enemy Name: Enemy_246
+Enemy Name: Minotaur
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9936,7 +9936,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 247
-Enemy Name: Enemy_247
+Enemy Name: Leviathan
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -9973,7 +9973,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 248
-Enemy Name: Enemy_248
+Enemy Name: Wendigo
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10009,7 +10009,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 249
-Enemy Name: Enemy_249
+Enemy Name: Famed Mimic Gogo
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10123,7 +10123,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24A
-Enemy Name: Enemy_24A
+Enemy Name: Bahamut
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10178,7 +10178,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24B
-Enemy Name: Enemy_24B
+Enemy Name: Jura Aevis
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10198,7 +10198,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24C
-Enemy Name: Enemy_24C
+Enemy Name: Halicarnassus
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10231,7 +10231,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24D
-Enemy Name: Enemy_24D
+Enemy Name: Exdeath (Galuf solo)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10304,7 +10304,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24E
-Enemy Name: Enemy_24E
+Enemy Name: NeoExdeath (dummy 1)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10317,7 +10317,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24F
-Enemy Name: Enemy_24F
+Enemy Name: NeoExdeath (dummy 2)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10330,7 +10330,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 250
-Enemy Name: Enemy_250
+Enemy Name: Goblin (Bartz solo)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10343,7 +10343,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 251
-Enemy Name: Enemy_251
+Enemy Name: Iron Claw
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10357,7 +10357,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 252
-Enemy Name: Enemy_252
+Enemy Name: Sergeant (Iron Claw battle)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10393,7 +10393,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 253
-Enemy Name: Enemy_253
+Enemy Name: Cur Nakk (Iron Claw battle)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10415,7 +10415,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 254
-Enemy Name: Enemy_254
+Enemy Name: Cray Claw
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10430,7 +10430,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 255
-Enemy Name: Enemy_255
+Enemy Name: Neo Goblin
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10443,7 +10443,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 256
-Enemy Name: Enemy_256
+Enemy Name: Calofisteri
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10476,7 +10476,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 257
-Enemy Name: Enemy_257
+Enemy Name: Azulmagia
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10605,7 +10605,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 258
-Enemy Name: Enemy_258
+Enemy Name: Catastrophe
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10624,7 +10624,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 259
-Enemy Name: Enemy_259
+Enemy Name: Necrophobe
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10731,7 +10731,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 25A
-Enemy Name: Enemy_25A
+Enemy Name: Twintania (1st form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10765,7 +10765,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 25B
-Enemy Name: Enemy_25B
+Enemy Name: Launcher (1st, Soul Cannon battle)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10784,7 +10784,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 25C
-Enemy Name: Enemy_25C
+Enemy Name: Launcher (2nd, Soul Cannon battle)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10803,7 +10803,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 25D
-Enemy Name: Enemy_25D
+Enemy Name: Gilgamesh (Castle Exdeath, normal)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10855,7 +10855,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 25E
-Enemy Name: Enemy_25E
+Enemy Name: Carbuncle (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10875,7 +10875,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 25F
-Enemy Name: Enemy_25F
+Enemy Name: Grand Mummy
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10889,7 +10889,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 260
-Enemy Name: Enemy_260
+Enemy Name: Apanda
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10935,7 +10935,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 261
-Enemy Name: Enemy_261
+Enemy Name: Alte Roite
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10966,7 +10966,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 262
-Enemy Name: Enemy_262
+Enemy Name: Covert
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11007,7 +11007,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 263
-Enemy Name: Enemy_263
+Enemy Name: Abductor (Castle Exdeath)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11021,7 +11021,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 264
-Enemy Name: Enemy_264
+Enemy Name: Bandercoeurl (Phoenix Tower)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11034,7 +11034,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 265
-Enemy Name: Enemy_265
+Enemy Name: Liquid Flame (Phoenix Tower)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11051,7 +11051,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 266
-Enemy Name: Enemy_266
+Enemy Name: Kuza Beast (Phoenix Tower)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11064,7 +11064,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 267
-Enemy Name: Enemy_267
+Enemy Name: Soul Cannon (Phoenix Tower)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11077,7 +11077,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 268
-Enemy Name: Enemy_268
+Enemy Name: Pantera
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -11112,7 +11112,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 269
-Enemy Name: Enemy_269
+Enemy Name: Shinryu
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -11151,7 +11151,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 26A
-Enemy Name: Enemy_26A
+Enemy Name: Barrier
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -11171,7 +11171,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 26B
-Enemy Name: Enemy_26B
+Enemy Name: Neo Exdeath (top)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -11240,7 +11240,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 26C
-Enemy Name: Enemy_26C
+Enemy Name: Neo Exdeath (bottom)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -11271,7 +11271,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 26D
-Enemy Name: Enemy_26D
+Enemy Name: Neo Exdeath (back)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -11299,7 +11299,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 26E
-Enemy Name: Enemy_26E
+Enemy Name: Neo Exdeath (front)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -11328,7 +11328,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 26F
-Enemy Name: Enemy_26F
+Enemy Name: Gilgamesh (Necrophobe battle)
 ACTIVE RULES:
   Rule #1:
     Conditions:

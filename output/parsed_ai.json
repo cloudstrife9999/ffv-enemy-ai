@@ -8713,7 +8713,7 @@
     },
     {
         "enemy_id": "100",
-        "enemy_name": "WingRaptor (1st form)",
+        "enemy_name": "Wing Raptor (1st form)",
         "raw": "00000000FEFDDA80DAFDDA80DAFDF20540EEFFFF",
         "active_rules": [
             {
@@ -8747,7 +8747,7 @@
     },
     {
         "enemy_id": "101",
-        "enemy_name": "WingRaptor (2nd form)",
+        "enemy_name": "Wing Raptor (2nd form)",
         "raw": "00000000FEAAAAFDF707F0FDF20580EEDAFF0700040003000001FE81FE07000400FEFDF605D0FDF605D1FDF4000181FF",
         "active_rules": [
             {
@@ -9150,7 +9150,7 @@
     },
     {
         "enemy_id": "109",
-        "enemy_name": "Liquid Flame (Human form)",
+        "enemy_name": "Liquid Flame (human form)",
         "raw": "00000000FEFD8081DBFF0E000000FEFDF707F0DBFDF24560EEFF",
         "active_rules": [
             {
@@ -9193,7 +9193,7 @@
     },
     {
         "enemy_id": "10A",
-        "enemy_name": "Liquid Flame (Hand form)",
+        "enemy_name": "Liquid Flame (hand form)",
         "raw": "00000000FEFD808081FF0E000000FEFDF707F02AFDF245A0EEFF",
         "active_rules": [
             {
@@ -9236,7 +9236,7 @@
     },
     {
         "enemy_id": "10B",
-        "enemy_name": "Liquid Flame (Tornado form)",
+        "enemy_name": "Liquid Flame (tornado form)",
         "raw": "00000000FEFDF30DF02AFF0E000000FEFDF707F0E6FDF245C0EEFF",
         "active_rules": [
             {
@@ -9388,7 +9388,7 @@
     },
     {
         "enemy_id": "10F",
-        "enemy_name": "(blank) (Sandworm)",
+        "enemy_name": "Fake Sandworm",
         "raw": "00000000FEFDF20801A3FDF20801A3FDF20801A3FDF30EF0ACFFFF",
         "active_rules": [
             {
@@ -10001,7 +10001,7 @@
     },
     {
         "enemy_id": "11A",
-        "enemy_name": "Chimwera Brain",
+        "enemy_name": "Chimera Brain",
         "raw": "00000000FEFD848081FD84CDCDFFFF",
         "active_rules": [
             {
@@ -11475,7 +11475,7 @@
     },
     {
         "enemy_id": "135",
-        "enemy_name": "Melusine (Ending Credits)",
+        "enemy_name": "Melusine (ending credits)",
         "raw": "00000000FEFD3080BBFD328081FD31BB81FF0F000000FEFDF6035DA2FF",
         "active_rules": [
             {
@@ -15559,7 +15559,7 @@
     },
     {
         "enemy_id": "15B",
-        "enemy_name": "Launcher (1)",
+        "enemy_name": "Launcher (1st, Soul Cannon battle)",
         "raw": "00000000FEE0FF0E000000020D1027FEFDF30DF0B1FF",
         "active_rules": [
             {
@@ -15594,7 +15594,7 @@
     },
     {
         "enemy_id": "15C",
-        "enemy_name": "Launcher (2)",
+        "enemy_name": "Launcher (2nd, Soul Cannon battle)",
         "raw": "00000000FEE0FF0E000000020D1027FEFDF30DF0B1FF",
         "active_rules": [
             {

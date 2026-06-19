@@ -2,6 +2,7 @@ from enum import IntEnum
 from typing import override
 
 
+# TODO: this only works for the SNES version. The GBA version has a different table/order.
 class PartyMemberPropertyTable(IntEnum):
     ROW = 0x00
     JOB = 0x01

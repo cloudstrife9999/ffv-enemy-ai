@@ -15034,7 +15034,7 @@
     },
     {
         "enemy_id": "200",
-        "enemy_name": "Enemy_200",
+        "enemy_name": "Wing Raptor (1st form)",
         "raw": "00000000FEFCDA80DAFCDA80DAFDF20540EEFFFF",
         "active_rules": [
             {
@@ -15068,7 +15068,7 @@
     },
     {
         "enemy_id": "201",
-        "enemy_name": "Enemy_201",
+        "enemy_name": "Wing Raptor (2nd form)",
         "raw": "00000000FEAAAAFDF707F0FDF20580EEDAFF0700040003000001FE81FE07000400FEFDF605D0FDF605D1FDF4000181FF",
         "active_rules": [
             {
@@ -15151,7 +15151,7 @@
     },
     {
         "enemy_id": "202",
-        "enemy_name": "Enemy_202",
+        "enemy_name": "Karlabos",
         "raw": "00000000FEFC808181FC80C481FC80C481FFFF",
         "active_rules": [
             {
@@ -15184,7 +15184,7 @@
     },
     {
         "enemy_id": "203",
-        "enemy_name": "Enemy_203",
+        "enemy_name": "Twintania (2nd form)",
         "raw": "00000000FEFDF803F0FDF60357AAE1FDF20280EEFFFF",
         "active_rules": [
             {
@@ -15219,7 +15219,7 @@
     },
     {
         "enemy_id": "204",
-        "enemy_name": "Enemy_204",
+        "enemy_name": "Siren (1st form)",
         "raw": "00000000FEFC15373AFC122513FC162826FDF70AF0FDF60204FDF20540EEFFFF",
         "active_rules": [
             {
@@ -15270,7 +15270,7 @@
     },
     {
         "enemy_id": "205",
-        "enemy_name": "Enemy_205",
+        "enemy_name": "Siren (2nd form)",
         "raw": "00000000FEFC808180FC808180FC808181FDF20580EEFFFF",
         "active_rules": [
             {
@@ -15310,7 +15310,7 @@
     },
     {
         "enemy_id": "206",
-        "enemy_name": "Enemy_206",
+        "enemy_name": "Forza",
         "raw": "00000000FEFC808180FFFF",
         "active_rules": [
             {
@@ -15331,7 +15331,7 @@
     },
     {
         "enemy_id": "207",
-        "enemy_name": "Enemy_207",
+        "enemy_name": "Magissa",
         "raw": "03000000020D2C01FEFDF709F0FDF6010AFDF280C0EEFDF70AF0FDF310F038FDF40001FE00000000FEFC242526FC8F812DFFFF",
         "active_rules": [
             {
@@ -15412,7 +15412,7 @@
     },
     {
         "enemy_id": "208",
-        "enemy_name": "Enemy_208",
+        "enemy_name": "Garula (boss)",
         "raw": "010D0020FEFDF30DF029FE00000000FE80FF020D20030E000000FEFDF706F080FC8180AAFF",
         "active_rules": [
             {
@@ -15471,7 +15471,7 @@
     },
     {
         "enemy_id": "209",
-        "enemy_name": "Enemy_209",
+        "enemy_name": "Liquid Flame (human form)",
         "raw": "00000000FEFC8081DBFF0E000000FEFDF707F0DBFDF24560EEFF",
         "active_rules": [
             {
@@ -15514,7 +15514,7 @@
     },
     {
         "enemy_id": "20A",
-        "enemy_name": "Enemy_20A",
+        "enemy_name": "Liquid Flame (hand form)",
         "raw": "00000000FEFC808081FF0E000000FEFDF707F02AFDF245A0EEFF",
         "active_rules": [
             {
@@ -15557,7 +15557,7 @@
     },
     {
         "enemy_id": "20B",
-        "enemy_name": "Enemy_20B",
+        "enemy_name": "Liquid Flame (tornado form)",
         "raw": "00000000FEFDF30DF02AFF0E000000FEFDF707F0E6FDF245C0EEFF",
         "active_rules": [
             {
@@ -15600,7 +15600,7 @@
     },
     {
         "enemy_id": "20C",
-        "enemy_name": "Enemy_20C",
+        "enemy_name": "Ice Commander",
         "raw": "00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -15621,7 +15621,7 @@
     },
     {
         "enemy_id": "20D",
-        "enemy_name": "Enemy_20D",
+        "enemy_name": "Sandworm",
         "raw": "00000000FEFCDEC9C9FF020B0100FEFDF30DF0EDFE0800AC00FEDEFF",
         "active_rules": [
             {
@@ -15673,7 +15673,7 @@
     },
     {
         "enemy_id": "20E",
-        "enemy_name": "Enemy_20E",
+        "enemy_name": "Hole (Sandworm battle)",
         "raw": "00000000FEAAFF06012BF0FE3CFF",
         "active_rules": [
             {
@@ -15709,7 +15709,7 @@
     },
     {
         "enemy_id": "20F",
-        "enemy_name": "Enemy_20F",
+        "enemy_name": "Fake Sandworm",
         "raw": "00000000FEFDF20801A3FDF20801A3FDF20801A3FDF30EF0ACFFFF",
         "active_rules": [
             {
@@ -15751,7 +15751,7 @@
     },
     {
         "enemy_id": "210",
-        "enemy_name": "Enemy_210",
+        "enemy_name": "Adamantoise",
         "raw": "00000000FEFDF702F08080FC808081FDF702F08181FC808081FFFF",
         "active_rules": [
             {
@@ -15794,7 +15794,7 @@
     },
     {
         "enemy_id": "211",
-        "enemy_name": "Enemy_211",
+        "enemy_name": "Flame Thrower",
         "raw": "00000000FE92FFFF",
         "active_rules": [
             {
@@ -15810,7 +15810,7 @@
     },
     {
         "enemy_id": "212",
-        "enemy_name": "Enemy_212",
+        "enemy_name": "Rocket Launcher",
         "raw": "00000000FEFC9FC6AAFC9F9FC6FFFF",
         "active_rules": [
             {
@@ -15837,7 +15837,7 @@
     },
     {
         "enemy_id": "213",
-        "enemy_name": "Enemy_213",
+        "enemy_name": "Exdeath (tree)",
         "raw": "020D1027FEFC45DEAAFE020D3075FEFC3322DEFCDEDEC0FCDEC0AAFCDE82C0FE00000000FEFCDEC0AAFCDEC0DEFF0F000000FEFDF71EF0FDF8003EFDF607E3FDF607E4FDF607E5FDF607E6FDF607E7FDF28DDEEEFF",
         "active_rules": [
             {
@@ -15968,7 +15968,7 @@
     },
     {
         "enemy_id": "214",
-        "enemy_name": "Enemy_214",
+        "enemy_name": "Soul Cannon (boss)",
         "raw": "03000001FEFDF60216AAFDF60219AAFDF6021BAAFDF6011CDDFE00000000FEFDF60216AAFDF60217AAFDF60218AAFDF60219AAFDF6021AAAFDF6021BAAFDF6011CDDFDF40001AAFF0E000000020D1027FEFDF30FF0B1FF",
         "active_rules": [
             {
@@ -16088,7 +16088,7 @@
     },
     {
         "enemy_id": "215",
-        "enemy_name": "Enemy_215",
+        "enemy_name": "Archeoaevis (1st form)",
         "raw": "00000000FEFCDEDA81FF0F000000FEFDF28240EEFF",
         "active_rules": [
             {
@@ -16124,7 +16124,7 @@
     },
     {
         "enemy_id": "216",
-        "enemy_name": "Enemy_216",
+        "enemy_name": "Archeoaevis (2nd form)",
         "raw": "00000000FEFCDECD81FF0F000000FEFDF28220EEFF",
         "active_rules": [
             {
@@ -16160,7 +16160,7 @@
     },
     {
         "enemy_id": "217",
-        "enemy_name": "Enemy_217",
+        "enemy_name": "Archeoaevis (3rd form)",
         "raw": "00000000FEFCDEDB81FF0F000000FEFDF28210EEFF",
         "active_rules": [
             {
@@ -16196,7 +16196,7 @@
     },
     {
         "enemy_id": "218",
-        "enemy_name": "Enemy_218",
+        "enemy_name": "Archeoaevis (4th form)",
         "raw": "00000000FEFCDEDC81FF0F000000FEFDF717F0FDF28008EEFDF604D9FDF604D6FDF604D7FDF604D8AAFF",
         "active_rules": [
             {
@@ -16259,7 +16259,7 @@
     },
     {
         "enemy_id": "219",
-        "enemy_name": "Enemy_219",
+        "enemy_name": "Archeoaevis (5th form)",
         "raw": "00000000FEFCDAC281FCBC8081FCDBC281FCBC8081FCDCC281FCBC8081FCCDC281FCBC8081FFFF",
         "active_rules": [
             {
@@ -16322,7 +16322,7 @@
     },
     {
         "enemy_id": "21A",
-        "enemy_name": "Enemy_21A",
+        "enemy_name": "Chimera Brain",
         "raw": "00000000FEFC848081FC84CDCDFFFF",
         "active_rules": [
             {
@@ -16349,7 +16349,7 @@
     },
     {
         "enemy_id": "21B",
-        "enemy_name": "Enemy_21B",
+        "enemy_name": "Titan",
         "raw": "00000000FEFC808081FC80CF81FF0F000000FECFFF",
         "active_rules": [
             {
@@ -16385,7 +16385,7 @@
     },
     {
         "enemy_id": "21C",
-        "enemy_name": "Enemy_21C",
+        "enemy_name": "Purobolos",
         "raw": "00000000FEAAAAFC80819BFF0F000000FEFDF325F021FE11000000FEFDF30DF018FF",
         "active_rules": [
             {
@@ -16435,7 +16435,7 @@
     },
     {
         "enemy_id": "21D",
-        "enemy_name": "Enemy_21D",
+        "enemy_name": "Abductor (Bartz solo)",
         "raw": "00000000FEFC80EA80FC808081FFFF",
         "active_rules": [
             {
@@ -16462,7 +16462,7 @@
     },
     {
         "enemy_id": "21E",
-        "enemy_name": "Enemy_21E",
+        "enemy_name": "Gilgamesh (dungeon)",
         "raw": "00000000FEFDF60173FC808081FDF60178FC808081FF020D10270E000000FEFDF60274FDF60275FDF60276FDF60277A2FF",
         "active_rules": [
             {
@@ -16533,7 +16533,7 @@
     },
     {
         "enemy_id": "21F",
-        "enemy_name": "Enemy_21F",
+        "enemy_name": "Merrow",
         "raw": "00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -16554,7 +16554,7 @@
     },
     {
         "enemy_id": "220",
-        "enemy_name": "Enemy_220",
+        "enemy_name": "Flying Killer",
         "raw": "00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -16575,7 +16575,7 @@
     },
     {
         "enemy_id": "221",
-        "enemy_name": "Enemy_221",
+        "enemy_name": "Little Chariot",
         "raw": "00000000FEFC80C781FFFF",
         "active_rules": [
             {
@@ -16596,7 +16596,7 @@
     },
     {
         "enemy_id": "222",
-        "enemy_name": "Enemy_222",
+        "enemy_name": "Neo Garula",
         "raw": "00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -16617,7 +16617,7 @@
     },
     {
         "enemy_id": "223",
-        "enemy_name": "Enemy_223",
+        "enemy_name": "Gilgamesh (Big Bridge)",
         "raw": "03000001FEFCDEE8CEFCDEDEE8FE00000000FE80FC809381FC809080FC80AB81FF0F00000003000001FEFDF60222FDF60223FDF60279A2FE020DC4090E00000003000000FEFDF719F0FDF6021E3AFDF6021F16FDF602201CFDF60221E8FDF40001FF",
         "active_rules": [
             {
@@ -16762,7 +16762,7 @@
     },
     {
         "enemy_id": "224",
-        "enemy_name": "Enemy_224",
+        "enemy_name": "Tyrannosaur",
         "raw": "00000000FEFC808081FF06002BF0FEB6FE06012BF0FEFC80819CFF",
         "active_rules": [
             {
@@ -16827,7 +16827,7 @@
     },
     {
         "enemy_id": "225",
-        "enemy_name": "Enemy_225",
+        "enemy_name": "Shiva (boss)",
         "raw": "00000000FEFDF312F02BFDF313F02BFFFF",
         "active_rules": [
             {
@@ -16854,7 +16854,7 @@
     },
     {
         "enemy_id": "226",
-        "enemy_name": "Enemy_226",
+        "enemy_name": "Abductor (Castle of Bal)",
         "raw": "00000000FEFC80EA81FC809881FFFF",
         "active_rules": [
             {
@@ -16881,7 +16881,7 @@
     },
     {
         "enemy_id": "227",
-        "enemy_name": "Enemy_227",
+        "enemy_name": "Dragon Pod",
         "raw": "0300000104000000FEFDF280FCEEFE03000001FEAAAAAAAAAAFDF280FCEEFE00000000FEFDF280CCEEFDF280D8EEFDF280B4EEFDF280FCEEFDF40001AAFFFF",
         "active_rules": [
             {
@@ -16977,7 +16977,7 @@
     },
     {
         "enemy_id": "228",
-        "enemy_name": "Enemy_228",
+        "enemy_name": "Dragon Flower (1st)",
         "raw": "00000000FEFC8181AAFFFF",
         "active_rules": [
             {
@@ -16998,7 +16998,7 @@
     },
     {
         "enemy_id": "229",
-        "enemy_name": "Enemy_229",
+        "enemy_name": "Dragon Flower (2nd)",
         "raw": "00000000FEFC8181AAFFFF",
         "active_rules": [
             {
@@ -17019,7 +17019,7 @@
     },
     {
         "enemy_id": "22A",
-        "enemy_name": "Enemy_22A",
+        "enemy_name": "Dragon Flower (3rd)",
         "raw": "00000000FEFC8181AAFFFF",
         "active_rules": [
             {
@@ -17040,7 +17040,7 @@
     },
     {
         "enemy_id": "22B",
-        "enemy_name": "Enemy_22B",
+        "enemy_name": "Dragon Flower (4th)",
         "raw": "00000000FEFC8181AAFFFF",
         "active_rules": [
             {
@@ -17061,7 +17061,7 @@
     },
     {
         "enemy_id": "22C",
-        "enemy_name": "Enemy_22C",
+        "enemy_name": "Dragon Flower (5th)",
         "raw": "00000000FEFC8181AAFFFF",
         "active_rules": [
             {
@@ -17082,7 +17082,7 @@
     },
     {
         "enemy_id": "22D",
-        "enemy_name": "Enemy_22D",
+        "enemy_name": "Gilgamesh (Xezat's Fleet)",
         "raw": "03000001FEFC809F80FC808081FC808E80FE020D7017FEFDF71BF0FDF280C0EEFDF60224FDF60225FDF60226FDF60227FDF327F0ACFE00000000FEFC808081FC809F80FC808081FC808E80FF0F00000004000000FEFDF713F0FDF603D2FDF604D3E7FDF605D4FDF603D5AAFF",
         "active_rules": [
             {
@@ -17239,7 +17239,7 @@
     },
     {
         "enemy_id": "22E",
-        "enemy_name": "Enemy_22E",
+        "enemy_name": "Enkidu",
         "raw": "00000000FEFC809081FC989FABFC808081FC98D4ABFC80D39EFF0800AC00FEFDF400019EFF",
         "active_rules": [
             {
@@ -17304,7 +17304,7 @@
     },
     {
         "enemy_id": "22F",
-        "enemy_name": "Enemy_22F",
+        "enemy_name": "Atomos",
         "raw": "012F00800D000380FEFDF32E00E3FE013000800D000340FEFDF32E00E3FE013100800D000320FEFDF32E00E3FE013200800D000310FEFDF32E00E3FE011B0080FEFCECECECECECFCECEC40ECFCECEC3CECFCECEC42ECFCECEC44ECFCECECECECFCECEC3CECFCECEC42ECFE00000000FEFDF709F0FC3F3FAAFC3F3FAAFFFF",
         "active_rules": [
             {
@@ -17497,7 +17497,7 @@
     },
     {
         "enemy_id": "230",
-        "enemy_name": "Enemy_230",
+        "enemy_name": "Fire Crystal",
         "raw": "020DB80BFEFDF323F030FE00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -17535,7 +17535,7 @@
     },
     {
         "enemy_id": "231",
-        "enemy_name": "Enemy_231",
+        "enemy_name": "Earth Crystal",
         "raw": "020DB80BFECFFE00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -17568,7 +17568,7 @@
     },
     {
         "enemy_id": "232",
-        "enemy_name": "Enemy_232",
+        "enemy_name": "Water Crystal",
         "raw": "020DB80BFE84FE00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -17601,7 +17601,7 @@
     },
     {
         "enemy_id": "233",
-        "enemy_name": "Enemy_233",
+        "enemy_name": "Wind Crystal",
         "raw": "020DB80BFEFDF323F091FE00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -17639,7 +17639,7 @@
     },
     {
         "enemy_id": "234",
-        "enemy_name": "Enemy_234",
+        "enemy_name": "Carbuncle (1st form)",
         "raw": "020D8813FEFDF30DF0FC2E4734FDF30DF0FC2E4734FDF30DF0FC2E4734FDF20240EEFE020D1027FEFDF30DF0FC2F3D1AFDF30DF0FC2F3D1AFDF30DF0FC2F3D1AFDF20240EEFE00000000FEFDF30DF0FC2B2A2CFDF30DF0FC2B2A2CFDF30DF0FC2B2A2CFDF20240EEFFFF",
         "active_rules": [
             {
@@ -17796,7 +17796,7 @@
     },
     {
         "enemy_id": "235",
-        "enemy_name": "Enemy_235",
+        "enemy_name": "Melusine (ending credits)",
         "raw": "00000000FEFC3080BBFC328081FC31BB81FF0F000000FEFDF6035DA2FF",
         "active_rules": [
             {
@@ -17843,7 +17843,7 @@
     },
     {
         "enemy_id": "236",
-        "enemy_name": "Enemy_236",
+        "enemy_name": "Gilgamesh (Castle Exdeath, morphed)",
         "raw": "03000002FEFDF605B2FDF605B3FDF605B4FDF605B5FDF605B6E9FE00000000FEFDF709F0FDF605B7FDF605B880FDF706F080FDF602B9AAFDF706F080FDF602BAAAFDF706F080FDF602BBAAFDF8002DFDF605B0FDF605B1FDF40002AAFF0F0000000800E900FEFDF60358FDF90104AAFF",
         "active_rules": [
             {
@@ -18003,7 +18003,7 @@
     },
     {
         "enemy_id": "237",
-        "enemy_name": "Enemy_237",
+        "enemy_name": "Exdeath (Castle Exdeath)",
         "raw": "020D803EFEFDF708F0FC8081AAFC303280FDF708F0FC308081FC3180AAFDF709F0FC3180AAFC328081FE020D581BFEFC454580FC303132FC808081FE00000000FEFC808282FCE5E581FCAE3C80FC808081FCCFCF80FCDB8081FCEAEA80FCB9B981FC802F80FC888881FF06000400FEFDF324F0FC23AAAAFE08003700FE3AFE08004000FE3AFF",
         "active_rules": [
             {
@@ -18223,7 +18223,7 @@
     },
     {
         "enemy_id": "238",
-        "enemy_name": "Enemy_238",
+        "enemy_name": "Antlion",
         "raw": "00000000FEFC80D381FC80D381FC80D381FC80D381C5FF0F000000FEA2FF",
         "active_rules": [
             {
@@ -18272,7 +18272,7 @@
     },
     {
         "enemy_id": "239",
-        "enemy_name": "Enemy_239",
+        "enemy_name": "Mummy",
         "raw": "04000000FEFC80B781FE00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -18306,7 +18306,7 @@
     },
     {
         "enemy_id": "23A",
-        "enemy_name": "Enemy_23A",
+        "enemy_name": "Aspis",
         "raw": "00000000FEFC80BC81FC35BC81FFFF",
         "active_rules": [
             {
@@ -18333,7 +18333,7 @@
     },
     {
         "enemy_id": "23B",
-        "enemy_name": "Enemy_23B",
+        "enemy_name": "Mecha Head",
         "raw": "0B281810FEFDF328F0A8FE0B291810FEFDF329F0A8FE0B2A1810FEFDF32AF0A8FE0B2B1810FEFDF32BF0A8FE0B2C1810FEFDF32CF0A8FE00000000FEFC9F92AAFCC7DDAAFC9F92AAFCC7E5AA80FFFF",
         "active_rules": [
             {
@@ -18463,7 +18463,7 @@
     },
     {
         "enemy_id": "23C",
-        "enemy_name": "Enemy_23C",
+        "enemy_name": "Melusine (1st form)",
         "raw": "00000000FEFC8080AAFC3280AAFC3180AAFC80ACAAFC32ACAAFC31ACAAFC80ACACFC32ACACFC31ACACFF0800AC00FEFDF70CF0FDF323F031A9FDF249F0EEFF",
         "active_rules": [
             {
@@ -18565,7 +18565,7 @@
     },
     {
         "enemy_id": "23D",
-        "enemy_name": "Enemy_23D",
+        "enemy_name": "Melusine (2nd form)",
         "raw": "00000000FEFC80AAAAFC32AAAAFC30AAAAFC80ACAAFC32ACAAFC30ACAAFC80ACACFC32ACACFC30ACACFF0800AC00FEFDF70CF0FDF323F032A9FDF24AF0EEFF",
         "active_rules": [
             {
@@ -18667,7 +18667,7 @@
     },
     {
         "enemy_id": "23E",
-        "enemy_name": "Enemy_23E",
+        "enemy_name": "Melusine (3rd form)",
         "raw": "00000000FEFC80AAAAFC31AAAAFC30AAAAFC80ACAAFC31ACAAFC30ACAAFC80ACACFC31ACACFC30ACACFF0800AC00FEFDF70CF0FDF323F030A9FDF24BF0EEFF",
         "active_rules": [
             {
@@ -18769,7 +18769,7 @@
     },
     {
         "enemy_id": "23F",
-        "enemy_name": "Enemy_23F",
+        "enemy_name": "Melusine (4th form)",
         "raw": "00000000FEFC30AAAAFC31AAAAFC32AAAAFC30ACAAFC31ACAAFC32ACAAFC30ACACFC31ACACFC32ACACFF0800AC00FEFDF708F0BBA9FDF24CF0EEFF",
         "active_rules": [
             {
@@ -18866,7 +18866,7 @@
     },
     {
         "enemy_id": "240",
-        "enemy_name": "Enemy_240",
+        "enemy_name": "Odin",
         "raw": "00000000FEAAD0FC808081FF0F000000FEFDF60149EFFF",
         "active_rules": [
             {
@@ -18903,7 +18903,7 @@
     },
     {
         "enemy_id": "241",
-        "enemy_name": "Enemy_241",
+        "enemy_name": "Gargoyle",
         "raw": "04000000FEFDF280C0EEFE00000000FEFC808081FC808081FC808081FC808081FC968081FFFF",
         "active_rules": [
             {
@@ -18962,7 +18962,7 @@
     },
     {
         "enemy_id": "242",
-        "enemy_name": "Enemy_242",
+        "enemy_name": "Triton",
         "raw": "01260080FEFDF707F0FDF200E0EEA7FE00000000FEFC8080AAFDF323F0FC3030AAFC808092FC803080FFFF",
         "active_rules": [
             {
@@ -19031,7 +19031,7 @@
     },
     {
         "enemy_id": "243",
-        "enemy_name": "Enemy_243",
+        "enemy_name": "Nereid",
         "raw": "01260080FEFDF707F0FDF200E0EEA7FE00000000FEFC8080AAFCCCCCAAFC8080CDFC803180FFFF",
         "active_rules": [
             {
@@ -19095,7 +19095,7 @@
     },
     {
         "enemy_id": "244",
-        "enemy_name": "Enemy_244",
+        "enemy_name": "Phobos",
         "raw": "01260080FEFDF707F0FDF200E0EEA7FE00000000FEFC8080AAFDF323F0FC2F2FAAFC8080BDFC802F80FFFF",
         "active_rules": [
             {
@@ -19164,7 +19164,7 @@
     },
     {
         "enemy_id": "245",
-        "enemy_name": "Enemy_245",
+        "enemy_name": "Omniscient",
         "raw": "020DA00FFEFC323031FE00000000FEFC122437FC132538FC15273AFC173BAAFC18293CFC1A2A3DFC2C2B42FC1F2D2FFF0F000000FE33FE06012B0006010A00FE41FF",
         "active_rules": [
             {
@@ -19274,7 +19274,7 @@
     },
     {
         "enemy_id": "246",
-        "enemy_name": "Enemy_246",
+        "enemy_name": "Minotaur",
         "raw": "00000000FEFC808081FF0F000000FEFDF6034DFDF6034E22FE09000B00FEA5FE06012B00FEFC81AAAAFF",
         "active_rules": [
             {
@@ -19346,7 +19346,7 @@
     },
     {
         "enemy_id": "247",
-        "enemy_name": "Enemy_247",
+        "enemy_name": "Leviathan",
         "raw": "00000000FEFC808081FC808081FDF708F0FC8081D1FC80D1D1FC808081FC80D181FC808484FDF708F0FCD1D181FC8180D1FC80D181FC808081FDF709F0FC8081D1FC8081D1FF07002B00FEFCD1AAAAFE07012B00FEFCBCAAAAFF",
         "active_rules": [
             {
@@ -19496,7 +19496,7 @@
     },
     {
         "enemy_id": "248",
-        "enemy_name": "Enemy_248",
+        "enemy_name": "Wendigo",
         "raw": "010F0340FEFDFA1740A5FE00000000FEFC97AAAAFCDEAAAAFCEAAAAAFCDEAAAAFC1AAAAAFCDEAAAAA3FF0A000001010D034006000700FECDFE0E000000FEA3FF",
         "active_rules": [
             {
@@ -19598,7 +19598,7 @@
     },
     {
         "enemy_id": "249",
-        "enemy_name": "Enemy_249",
+        "enemy_name": "Famed Mimic Gogo",
         "raw": "03000102FEFDF703F0454545FDF703F0C2CC84FDF704F0CDCC84FE03000002FEFDF605C0FDF605C1FDF605C2FDF605C3FDF605C4FDF605C5FDF605C6FDF605C7FDF605C8FDF30DF0E9FE03000001FEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFDF40002AAFE00000000FEFDF6042EFDF6042FFDF60430FDF60431FDF60432FDF60433FDF60434FDF60435FDF60436FDF60437FDF40001AAFF020DE8800E000000FEFDF604BCFDF604BDFDF604BEFDF80001FDF604BFFDF4010245FE07002B00FEFDF40101FC223345FE07012B00FEFDF40101FC8081D7FE0E000000FEFDF40101DFFF",
         "active_rules": [
             {
@@ -19928,7 +19928,7 @@
     },
     {
         "enemy_id": "24A",
-        "enemy_name": "Enemy_24A",
+        "enemy_name": "Bahamut",
         "raw": "020D1027FEFCD2D280FE020D983AFEFCB6B680FCB9B980FE020D204EFEFCC2C280FCCCCC80FE020DA861FEFC848480FCDCDC80FE020D3075FEFCDBDB80FCCFCF80FE020DB888FEFCCACA80FCCDCD80FE00000000FEAAAAD2FF020D10270800D200FED2FF",
         "active_rules": [
             {
@@ -20097,7 +20097,7 @@
     },
     {
         "enemy_id": "24B",
-        "enemy_name": "Enemy_24B",
+        "enemy_name": "Jura Aevis",
         "raw": "00000000FEFCDAC281FCBC8081FCDBC281FCBC8081FCDCC281FCBC8081FCCDC281FCBC8081FFFF",
         "active_rules": [
             {
@@ -20160,7 +20160,7 @@
     },
     {
         "enemy_id": "24C",
-        "enemy_name": "Enemy_24C",
+        "enemy_name": "Halicarnassus",
         "raw": "03000001FEFC80E581FC808023FC80E581FC80803AFC80E581FC80801CFDF4000022FE00000000FEFDF40001FDF323F0A0FF11000000FEFDF601DAFDF803F0D7FF",
         "active_rules": [
             {
@@ -20263,7 +20263,7 @@
     },
     {
         "enemy_id": "24D",
-        "enemy_name": "Enemy_24D",
+        "enemy_name": "Exdeath (Galuf solo)",
         "raw": "020D0100FEEFFE03000101FE80FE020DF8A7FEFDF6018181FDF70BF0FDF60382FDF60383332245FDF71EF0FDF60262FDF60263FDF60264FDF60265FDF60266FDF40001FDF40101AAFE00000000FEFC313032FCDEDE4280FF0300000306000700FEFDF70EF0FDF6036BFDF90280FDF30DF0A5FE0300000206000700FEFDF60369FDF6036AFDF40003AAFE0300000106000700FEFDF60267FDF60268FDF40002AAFF",
         "active_rules": [
             {
@@ -20516,7 +20516,7 @@
     },
     {
         "enemy_id": "24E",
-        "enemy_name": "Enemy_24E",
+        "enemy_name": "NeoExdeath (dummy 1)",
         "raw": "00000000FEAAFFFF",
         "active_rules": [
             {
@@ -20532,7 +20532,7 @@
     },
     {
         "enemy_id": "24F",
-        "enemy_name": "Enemy_24F",
+        "enemy_name": "NeoExdeath (dummy 2)",
         "raw": "00000000FEAAFFFF",
         "active_rules": [
             {
@@ -20548,7 +20548,7 @@
     },
     {
         "enemy_id": "250",
-        "enemy_name": "Enemy_250",
+        "enemy_name": "Goblin (Bartz solo)",
         "raw": "00000000FE80FFFF",
         "active_rules": [
             {
@@ -20564,7 +20564,7 @@
     },
     {
         "enemy_id": "251",
-        "enemy_name": "Enemy_251",
+        "enemy_name": "Iron Claw",
         "raw": "00000000FEFC808E81FC8E8E81FFFF",
         "active_rules": [
             {
@@ -20591,7 +20591,7 @@
     },
     {
         "enemy_id": "252",
-        "enemy_name": "Enemy_252",
+        "enemy_name": "Sergeant (Iron Claw battle)",
         "raw": "04000000FEFDF6010CFDF6010DFDF6010EFDF6010FFDF60110FDF60111FDF60112FDF60113FDF20108EEFDF5F022FE00000000FEFDF70AF0FDF6010BFDF30EF0ACFFFF",
         "active_rules": [
             {
@@ -20683,7 +20683,7 @@
     },
     {
         "enemy_id": "253",
-        "enemy_name": "Enemy_253",
+        "enemy_name": "Cur Nakk (Iron Claw battle)",
         "raw": "04000100FEA2FE00000000FEAAFF0800AC00FEFC808081FF",
         "active_rules": [
             {
@@ -20726,7 +20726,7 @@
     },
     {
         "enemy_id": "254",
-        "enemy_name": "Enemy_254",
+        "enemy_name": "Cray Claw",
         "raw": "00000000FEFCC4C480FCC4C480FCC4D580FFFF",
         "active_rules": [
             {
@@ -20759,7 +20759,7 @@
     },
     {
         "enemy_id": "255",
-        "enemy_name": "Enemy_255",
+        "enemy_name": "Neo Goblin",
         "raw": "00000000FEFC808081FFFF",
         "active_rules": [
             {
@@ -20780,7 +20780,7 @@
     },
     {
         "enemy_id": "256",
-        "enemy_name": "Enemy_256",
+        "enemy_name": "Calofisteri",
         "raw": "01240280FEFDF322F0FC3A1638FDF322F0FC181C1DFE010D0280FEFDF30DF0FC1F2F27FDF30DF0FC1F443DFE00000000FEFC1F443DFF06000400FE2DFF",
         "active_rules": [
             {
@@ -20882,7 +20882,7 @@
     },
     {
         "enemy_id": "257",
-        "enemy_name": "Enemy_257",
+        "enemy_name": "Azulmagia",
         "raw": "03000000010D0020FEFDF30DF029FE03000001FEFC888894FC888895FC888893FDF40000FC888897FE03000002FEFC919182FC919183FC91918FFDF40000FC919187FE03000003FEFC9D9D85FC9D9D86FDF40000FC9D9D9AFE03000004FEFC98988AFC98988BFDF40000FC98989CFE03000005FEFC848490FC848492FC848489FDF40000FC84849FFE03000006FEFC99998CFC99998EFDF40000FC99999EFE03000007FE9BFE00000000FEFC949597FC828387FC85869AFC8A8B9CFC90929FFC8C8E9EFF08008800FEFDF60351FDF40001AAFE08009100FEFDF60350FDF40002AAFE08009D00FEFDF60352FDF40003AAFE08009800FEFDF60353FDF40004AAFE08008400FEFDF60354FDF40005AAFE08009900FEFDF60355FDF40006AAFE08009B00FEFDF60356FDF40007AAFF",
         "active_rules": [
             {
@@ -21380,7 +21380,7 @@
     },
     {
         "enemy_id": "258",
-        "enemy_name": "Enemy_258",
+        "enemy_name": "Catastrophe",
         "raw": "01240008FEAEFE00000000FEFCCFCFEBFC80CF81FFFF",
         "active_rules": [
             {
@@ -21419,7 +21419,7 @@
     },
     {
         "enemy_id": "259",
-        "enemy_name": "Enemy_259",
+        "enemy_name": "Necrophobe",
         "raw": "03000201FEFDF713F0FDFA1602FDF602A9FDF30AF033FDF30AF0ACFE0300010104000000FEEFFE03000101FEFDF30AF0FC813032FDF30AF0FC8131D7FE03000002FEFDF708F0FC8080EAFC808081FDF708F0FC808081FC808081FDF708F0FC8080EAFC808081FDF709F0FC808081FC808034FE04000000FEFDF6077CFDF6027DFDF6027EFDF6027FFDFA1602FDF400028BFE03000001FEAAFE00000000FEFDF603ACFDF603ADFDF603AEFDF40001AAFF0F00000004000000FEFDF603AFAAFE020D0F27030001000E0000000D000104FEFDF733F0FDF80022FDF28084EEFDF6078EFDF60780FDF6078FFDF60790FDF60791FDF60792FDF60793FDF60794FDFA1602FDF40101AAFF",
         "active_rules": [
             {
@@ -21799,7 +21799,7 @@
     },
     {
         "enemy_id": "25A",
-        "enemy_name": "Enemy_25A",
+        "enemy_name": "Twintania (1st form)",
         "raw": "00000000FEFCCACC80FCCACC80FDF323F097ABABFDF20240EEFF06012B00FEFCD1AAAAFE06002B00FEFCD2AAAAFF",
         "active_rules": [
             {
@@ -21880,7 +21880,7 @@
     },
     {
         "enemy_id": "25B",
-        "enemy_name": "Enemy_25B",
+        "enemy_name": "Launcher (1st, Soul Cannon battle)",
         "raw": "00000000FEE0FF0E000000020D1027FEFDF30DF0B1FF",
         "active_rules": [
             {
@@ -21915,7 +21915,7 @@
     },
     {
         "enemy_id": "25C",
-        "enemy_name": "Enemy_25C",
+        "enemy_name": "Launcher (2nd, Soul Cannon battle)",
         "raw": "00000000FEE0FF0E000000020D1027FEFDF30DF0B1FF",
         "active_rules": [
             {
@@ -21950,7 +21950,7 @@
     },
     {
         "enemy_id": "25D",
-        "enemy_name": "Enemy_25D",
+        "enemy_name": "Gilgamesh (Castle Exdeath, normal)",
         "raw": "03000001FEFDF60340FCEA8089FDF60341FDF60742FDF60543FDF60544FC8C8081FDF60345FCD3808AFDF60346FDF60347FDF60348FDF28740EEFE00000000FEFCD3808AFCBE8081FC8B8081FCEA8089FC8C8081FCC68089FF020D10A4030000000E000000FEFDF715F0FDF6033DFDF6033EFDF6033FFDF40001FC8B8081FF",
         "active_rules": [
             {
@@ -22137,7 +22137,7 @@
     },
     {
         "enemy_id": "25E",
-        "enemy_name": "Enemy_25E",
+        "enemy_name": "Carbuncle (2nd form)",
         "raw": "00000000FE18FDF20280EEFFFF",
         "active_rules": [
             {
@@ -22160,7 +22160,7 @@
     },
     {
         "enemy_id": "25F",
-        "enemy_name": "Enemy_25F",
+        "enemy_name": "Grand Mummy",
         "raw": "00000000FEFC80BE81FC80BE81FFFF",
         "active_rules": [
             {
@@ -22187,7 +22187,7 @@
     },
     {
         "enemy_id": "260",
-        "enemy_name": "Enemy_260",
+        "enemy_name": "Apanda",
         "raw": "03000001FEFDF70FF0FDF6037BFDF30DF0D8E7FDF40000FE00000000FEFCD49980FC801AABFC9980D4FCD3AB80FF08004D00FEFDF70BF0E7FDF6037AFDF40001AAFE0300000006012B00FEFC162DAAFE0300000006002B00FEFC292DAAFF",
         "active_rules": [
             {
@@ -22347,7 +22347,7 @@
     },
     {
         "enemy_id": "261",
-        "enemy_name": "Enemy_261",
+        "enemy_name": "Alte Roite",
         "raw": "00000000FEFC80E281FF0F000000FEFDF60359FDF28540EEFE0900EC00FEFDF603C9FDF603CADFFF",
         "active_rules": [
             {
@@ -22411,7 +22411,7 @@
     },
     {
         "enemy_id": "262",
-        "enemy_name": "Enemy_262",
+        "enemy_name": "Covert",
         "raw": "00000000FEFC80ABAAFC80DB81FF0F0000000400000003000001FEFDF6035BAAFE0F00000003000001FEAAFE0F000000FEFDF70FF0FDF6024FFDF40001FDF28560EEFF",
         "active_rules": [
             {
@@ -22506,7 +22506,7 @@
     },
     {
         "enemy_id": "263",
-        "enemy_name": "Enemy_263",
+        "enemy_name": "Abductor (Castle Exdeath)",
         "raw": "00000000FEFC908081FCEA8081FFFF",
         "active_rules": [
             {
@@ -22533,7 +22533,7 @@
     },
     {
         "enemy_id": "264",
-        "enemy_name": "Enemy_264",
+        "enemy_name": "Bandercoeurl (Phoenix Tower)",
         "raw": "00000000FEFC80B281FFFF",
         "active_rules": [
             {
@@ -22554,7 +22554,7 @@
     },
     {
         "enemy_id": "265",
-        "enemy_name": "Enemy_265",
+        "enemy_name": "Liquid Flame (Phoenix Tower)",
         "raw": "00000000FEFC2ADB81FDF30DF030FC2ADB81FC2ADB81FFFF",
         "active_rules": [
             {
@@ -22593,7 +22593,7 @@
     },
     {
         "enemy_id": "266",
-        "enemy_name": "Enemy_266",
+        "enemy_name": "Kuza Beast (Phoenix Tower)",
         "raw": "00000000FEFC809C81FFFF",
         "active_rules": [
             {
@@ -22614,7 +22614,7 @@
     },
     {
         "enemy_id": "267",
-        "enemy_name": "Enemy_267",
+        "enemy_name": "Soul Cannon (Phoenix Tower)",
         "raw": "00000000FEFC9FDDBFFFFF",
         "active_rules": [
             {
@@ -22635,7 +22635,7 @@
     },
     {
         "enemy_id": "268",
-        "enemy_name": "Enemy_268",
+        "enemy_name": "Pantera",
         "raw": "010F0340FEFDFA1740A2FE03000001FEFC8081B2FE00000000FEFC80B281FDF70FF0FDF6024FFDF200E0EEA3FDF40001FFFF",
         "active_rules": [
             {
@@ -22718,7 +22718,7 @@
     },
     {
         "enemy_id": "269",
-        "enemy_name": "Enemy_269",
+        "enemy_name": "Shinryu",
         "raw": "03000001FEFCC28083FCCCCADCFDF708F0FCC28083FC9A8788FDF709F0FC8080EBFC8080B6FE00000000FEAAFDF706F0FDF40001D1FF0800AC00FEFDF40000B9FE020D204E0E000000FEFCACAAAAFF",
         "active_rules": [
             {
@@ -22846,7 +22846,7 @@
     },
     {
         "enemy_id": "26A",
-        "enemy_name": "Enemy_26A",
+        "enemy_name": "Barrier",
         "raw": "00000000FEFDF31DF0FC332233FDF31CF0FC303231FDF31DF0FC223322FDF31CF0FC303231FFFF",
         "active_rules": [
             {
@@ -22905,7 +22905,7 @@
     },
     {
         "enemy_id": "26B",
-        "enemy_name": "Enemy_26B",
+        "enemy_name": "Neo Exdeath (top)",
         "raw": "050000D0FEFDF708F0FC45C881FC3F8181FDF708F0FC45C881FCC2C881FDF708F0FC458081FC3FC881A6FE03000001FE80FC4580AAAAFE020D983AFEFDF6054AFDF80A03AAFDF80A83A6FDF40001AAFE020D3075FEFDF6054AFDF80A03AAFDF80A83A6AAAA8023AAAAFE00000000FEAAFDF6054AFDF80A03AAFDF80A83A6AAAA23AAFFFF",
         "active_rules": [
             {
@@ -23109,7 +23109,7 @@
     },
     {
         "enemy_id": "26C",
-        "enemy_name": "Enemy_26C",
+        "enemy_name": "Neo Exdeath (bottom)",
         "raw": "050000C8FEFDF708F0FC45C881FC3F8181FDF708F0FC45C881FCC2C881FDF709F0FC458081FC3FC881FE00000000FEFDF80904AAFDF80984C8AAAAFFFF",
         "active_rules": [
             {
@@ -23210,7 +23210,7 @@
     },
     {
         "enemy_id": "26D",
-        "enemy_name": "Enemy_26D",
+        "enemy_name": "Neo Exdeath (back)",
         "raw": "050000C4FEFDF708F0FC454581FC3F8181FDF708F0FC454581FCC2C281FDF709F0FC458081FC3FC881FE00000000FEFC8081AAFC808081FC808123FFFF",
         "active_rules": [
             {
@@ -23313,7 +23313,7 @@
     },
     {
         "enemy_id": "26E",
-        "enemy_name": "Enemy_26E",
+        "enemy_name": "Neo Exdeath (front)",
         "raw": "050000C2FEFDF708F0FC454581FC3F8181FDF708F0FC454581FCC2C281FDF709F0FC458081FC3FC881FE00000000FEFC91A780FC318023FC333080FC2232AAFFFF",
         "active_rules": [
             {
@@ -23422,7 +23422,7 @@
     },
     {
         "enemy_id": "26F",
-        "enemy_name": "Enemy_26F",
+        "enemy_name": "Gilgamesh (Necrophobe battle)",
         "raw": "03000201FEAAFE03000301FEFDF607A0FDF607A1FDF607A2FDF607A3FDF607A4FDF607A5FDF607A6FDF607A7FDF607A8FDF30DF0DFFDF40201FDF30DF0DFFE00000000FEFDF60595FDF60596FDF60597E7FDF60798FDF60799FDF6079AFDF6079BFDF6079CFDF6079DFDF6079EFDF6079FFDF40301FDF30DF0DFFF0800AC00FEFDF70FF0FDF603AAFDF604ABFDF305F09BEFFF",
         "active_rules": [
             {

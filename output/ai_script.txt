@@ -4431,7 +4431,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 100
-Enemy Name: WingRaptor (1st form)
+Enemy Name: Wing Raptor (1st form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4452,7 +4452,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 101
-Enemy Name: WingRaptor (2nd form)
+Enemy Name: Wing Raptor (2nd form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4643,7 +4643,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 109
-Enemy Name: Liquid Flame (Human form)
+Enemy Name: Liquid Flame (human form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4668,7 +4668,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 10A
-Enemy Name: Liquid Flame (Hand form)
+Enemy Name: Liquid Flame (hand form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4693,7 +4693,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 10B
-Enemy Name: Liquid Flame (Tornado form)
+Enemy Name: Liquid Flame (tornado form)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4772,7 +4772,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 10F
-Enemy Name: (blank) (Sandworm)
+Enemy Name: Fake Sandworm
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -5062,7 +5062,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 11A
-Enemy Name: Chimwera Brain
+Enemy Name: Chimera Brain
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -5715,7 +5715,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 135
-Enemy Name: Melusine (Ending Credits)
+Enemy Name: Melusine (ending credits)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -7111,7 +7111,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 15B
-Enemy Name: Launcher (1)
+Enemy Name: Launcher (1st, Soul Cannon battle)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -7130,7 +7130,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 15C
-Enemy Name: Launcher (2)
+Enemy Name: Launcher (2nd, Soul Cannon battle)
 ACTIVE RULES:
   Default rule:
     Conditions:
