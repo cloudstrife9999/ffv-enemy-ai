@@ -446,7 +446,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 1E
-Enemy Name: Wyvern (Metapmorph)
+Enemy Name: Wyvern (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -563,7 +563,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Physical attack, Unknown)
+      Turn #1: random(Physical attack, Physical attack, ????)
       Turn #2: random(Physical attack, Physical attack, Special ability)
 REACTIVE RULES:
   None
@@ -1411,7 +1411,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Ability: Unknown
+      Turn #1: Ability: ????
 REACTIVE RULES:
   None
 
@@ -1657,7 +1657,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 64
-Enemy Name: Bone Dragon
+Enemy Name: Bone Dragon (regular)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -2905,7 +2905,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: AD
-Enemy Name: Unknown (Slime)
+Enemy Name: Unknown (slime)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -2924,7 +2924,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: AE
-Enemy Name: Unknown (Worm)
+Enemy Name: Unknown (worm)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -2941,7 +2941,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: AF
-Enemy Name: Unknown (Blob 2)
+Enemy Name: Unknown (blob 2)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -2960,7 +2960,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: B0
-Enemy Name: Unknown (Skeleton)
+Enemy Name: Unknown (skeleton)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4418,7 +4418,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: FF
-Enemy Name: Empty
+Enemy Name: Enemy_FF
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -5274,7 +5274,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
     Actions:
-      random(Physical attack, Special ability, Unknown)
+      random(Physical attack, Special ability, ????)
 
 ----------------------------------------
 
@@ -5522,29 +5522,29 @@ Enemy Name: Atomos
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Party member #1 (while dead) is affected by the Death status
-      All of the following global events are active/true: [Character Present In Top Party Slot]
+      Bartz (while dead) is affected by the Death status
+      All of the following global events are active/true: [Bartz Is In The Party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #2:
     Conditions:
-      Party member #2 (while dead) is affected by the Death status
-      All of the following global events are active/true: [Character Present In Second Party Slot]
+      Lenna (while dead) is affected by the Death status
+      All of the following global events are active/true: [Lenna Is In The Party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #3:
     Conditions:
-      Party member #3 (while dead) is affected by the Death status
-      All of the following global events are active/true: [Character Present In Third Party Slot]
+      Galuf (while dead) is affected by the Death status
+      All of the following global events are active/true: [Galuf Is In The Party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #4:
     Conditions:
-      Party member #4 (while dead) is affected by the Death status
-      All of the following global events are active/true: [Character Present In Fourth Party Slot]
+      Faris (while dead) is affected by the Death status
+      All of the following global events are active/true: [Faris Is In The Party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
@@ -6864,7 +6864,7 @@ ACTIVE RULES:
       Turn #1: random(Vampire, Vampire, Lilliputian Lyric)
       Turn #2: random(Vampire, Vampire, Flash)
       Turn #3: Set Var_00 to 0
-               random(Vampire, Vampire, Unknown)
+               random(Vampire, Vampire, ????)
   Rule #6:
     Conditions:
       Variable Var_00 == 5
@@ -6894,7 +6894,7 @@ ACTIVE RULES:
       Turn #1: random(Dark Spark, Off Guard, Mind Blast)
       Turn #2: random(Doom, Roulette, Level 2 Old)
       Turn #3: random(Level 5 Death, Level 4 Graviga, Mighty Guard)
-      Turn #4: random(Lilliputian Lyric, Flash, Unknown)
+      Turn #4: random(Lilliputian Lyric, Flash, ????)
       Turn #5: random(Aera, Flame Thrower, Missile)
       Turn #6: random(Time Slip, Death Claw, White Wind)
 REACTIVE RULES:
@@ -7403,7 +7403,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Unknown, Special ability)
+      Turn #1: random(Physical attack, ????, Special ability)
 REACTIVE RULES:
   None
 

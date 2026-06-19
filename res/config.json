@@ -5,5 +5,12 @@
     "enemy_names_file_path": "res/enemies/enemy_names.json",
     "rpge_battle_text_file_path": "res/text/rpge_battle_text.json",
     "parsed_ai_file_path": "output/parsed_ai.json",
-    "ai_script_representation_file_path": "output/ai_script.txt"
+    "ai_script_representation_file_path": "output/ai_script.txt",
+    "gba_rom_file_path": "res/roms/ff5a.gba",
+    "gba_boundaries_file_path": "res/gba_boundaries.json",
+    "gba_enemy_ai_map_file_path": "res/enemies/gba_enemy_ai_map.json",
+    "gba_enemy_names_file_path": "res/enemies/gba_enemy_names.json",
+    "gba_battle_text_file_path": "res/text/gba_battle_text.json",
+    "gba_parsed_ai_file_path": "output/gba_parsed_ai.json",
+    "gba_ai_script_representation_file_path": "output/gba_ai_script.txt"
 }

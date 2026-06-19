@@ -160,7 +160,7 @@ class Ability(IntEnum):
     BLUE_MAGIC_MAGIC_HAMMER = 0x99
     BLUE_MAGIC_MIGHTY_GUARD = 0x9A
     BLUE_MAGIC_SELF_DESTRUCT = 0x9B
-    BLUE_MAGIC_UNKNOWN = 0x9C
+    BLUE_MAGIC_QUESTION_MARKS = 0x9C
     BLUE_MAGIC_1000_NEEDLES = 0x9D
     BLUE_MAGIC_WHITE_WIND = 0x9E
     BLUE_MAGIC_MISSILE = 0x9F
@@ -285,6 +285,8 @@ class Ability(IntEnum):
             return "Physical attack"
         elif self is Ability.ENEMY_SPECIAL_ABILITY:
             return "Special ability"
+        elif self is Ability.BLUE_MAGIC_QUESTION_MARKS:
+            return "????"
         elif 0x82 <= self.value <= 0x9F:
             return f"{self.name.replace("BLUE_MAGIC_", "").replace("_", " ").title()}"
         elif self is Ability.NOTHING:

@@ -50,10 +50,11 @@ class Target(IntEnum):
     KRILE_IF_JUMPING = 0x2C
     TICK_ACTOR = 0x2D
     ALL_PARTY_MEMBERS_MATCHING_CONDITION = 0x2E  # Condition from event bitmask
-    PARTY_MEMBER_1_IF_DEAD = 0x2F  # TODO: check if it targets Bartz specifically, or whoever is in the first party slot.
-    PARTY_MEMBER_2_IF_DEAD = 0x30  # TODO: check if it targets Lenna specifically, or whoever is in the second party slot.
-    PARTY_MEMBER_3_IF_DEAD = 0x31  # TODO: check if it targets Galuf specifically, or whoever is in the third party slot.
-    PARTY_MEMBER_4_IF_DEAD = 0x32  # TODO: check if it targets Faris specifically, or whoever is in the fourth party slot.
+    BARTZ_IF_DEAD = 0x2F
+    LENNA_IF_DEAD = 0x30
+    GALUF_IF_DEAD = 0x31
+    FARIS_IF_DEAD = 0x32
+    KRILE_IF_DEAD = 0x33
 
     def get_nominal_predicate(self) -> str:
         match self:
@@ -65,8 +66,8 @@ class Target(IntEnum):
                     Target.RANDOM_DEAD_PARTY_MEMBER | Target.RANDOM_ENEMY_WITH_REFLECT | Target.RANDOM_ENEMY_WITH_CRITICAL |\
                     Target.RANDOM_ENEMY_WITH_LESS_THAN_HALF_HP | Target.RANDOM_PARTY_MEMBER_WITHOUT_REFLECT | Target.RANDOM_PARTY_MEMBER |\
                     Target.RANDOM_DEAD_ENEMY | Target.ENKIDU | Target.BARTZ_IF_JUMPING | Target.LENNA_IF_JUMPING | Target.FARIS_IF_JUMPING |\
-                    Target.GALUF_IF_JUMPING | Target.KRILE_IF_JUMPING | Target.TICK_ACTOR | Target.PARTY_MEMBER_1_IF_DEAD |\
-                    Target.PARTY_MEMBER_2_IF_DEAD | Target.PARTY_MEMBER_3_IF_DEAD | Target.PARTY_MEMBER_4_IF_DEAD:
+                    Target.GALUF_IF_JUMPING | Target.KRILE_IF_JUMPING | Target.TICK_ACTOR | Target.BARTZ_IF_DEAD |\
+                    Target.LENNA_IF_DEAD | Target.GALUF_IF_DEAD | Target.FARIS_IF_DEAD | Target.KRILE_IF_DEAD:
                 return "is"
             case Target.ALL_NON_SELF_ENEMIES | Target.ALL_ENEMIES | Target.ALL_FRONT_ROW_PARTY_MEMBERS | Target.ALL_BACK_ROW_PARTY_MEMBERS |\
                     Target.ALL_FEMALE_PARTY_MEMBERS | Target.ALL_MALE_PARTY_MEMBERS | Target.ALL_DEAD_PARTY_MEMBERS | Target.ALL_ENEMIES_WITH_REFLECT |\
@@ -151,8 +152,8 @@ class Target(IntEnum):
                 return "Whoever acted in the current tick"
             case Target.ALL_PARTY_MEMBERS_MATCHING_CONDITION:
                 return "All party members matching the condition"
-            case Target.PARTY_MEMBER_1_IF_DEAD | Target.PARTY_MEMBER_2_IF_DEAD | Target.PARTY_MEMBER_3_IF_DEAD | Target.PARTY_MEMBER_4_IF_DEAD:
-                return f"Party member #{self.value - Target.PARTY_MEMBER_1_IF_DEAD.value + 1} (while dead)"
+            case Target.BARTZ_IF_DEAD | Target.LENNA_IF_DEAD | Target.GALUF_IF_DEAD | Target.FARIS_IF_DEAD | Target.KRILE_IF_DEAD:
+                return f"{self.name.split("_")[0].capitalize()} (while dead)"
             case _:
                 raise ValueError(f"{self} is not a valid {self.__class__.__name__}.")
 

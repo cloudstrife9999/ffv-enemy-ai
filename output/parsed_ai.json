@@ -793,7 +793,7 @@
     },
     {
         "enemy_id": "1E",
-        "enemy_name": "Wyvern (Metapmorph)",
+        "enemy_name": "Wyvern (regular)",
         "raw": "04000000FEFD80DADAFE00000000FE80FFFF",
         "active_rules": [
             {
@@ -1069,7 +1069,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
                         "second_choice": "Physical attack",
-                        "third_choice": "Unknown"
+                        "third_choice": "????"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -2678,7 +2678,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "Unknown"
+                    "Turn #1": "????"
                 }
             }
         ],
@@ -3133,7 +3133,7 @@
     },
     {
         "enemy_id": "64",
-        "enemy_name": "Bone Dragon",
+        "enemy_name": "Bone Dragon (regular)",
         "raw": "00000000FEFD80C381FD8080AAFFFF",
         "active_rules": [
             {
@@ -5678,7 +5678,7 @@
     },
     {
         "enemy_id": "AD",
-        "enemy_name": "Unknown (Slime)",
+        "enemy_name": "Unknown (slime)",
         "raw": "00000000FEFDD58081FF06000400FEFDF703F0E4A5FF",
         "active_rules": [
             {
@@ -5721,7 +5721,7 @@
     },
     {
         "enemy_id": "AE",
-        "enemy_name": "Unknown (Worm)",
+        "enemy_name": "Unknown (worm)",
         "raw": "00000000FEFDC58081FF06000400FEFDD5BCAAFF",
         "active_rules": [
             {
@@ -5762,7 +5762,7 @@
     },
     {
         "enemy_id": "AF",
-        "enemy_name": "Unknown (Blob 2)",
+        "enemy_name": "Unknown (blob 2)",
         "raw": "00000000FE80FD8080E5FD808081FF06000400FEFDB5B5AAFF",
         "active_rules": [
             {
@@ -5810,7 +5810,7 @@
     },
     {
         "enemy_id": "B0",
-        "enemy_name": "Unknown (Skeleton)",
+        "enemy_name": "Unknown (skeleton)",
         "raw": "00000000FEFD828081FF06000400FE82FF",
         "active_rules": [
             {
@@ -8697,7 +8697,7 @@
     },
     {
         "enemy_id": "FF",
-        "enemy_name": "Empty",
+        "enemy_name": "Enemy_FF",
         "raw": "00000000FE80FFFF",
         "active_rules": [
             {
@@ -10498,7 +10498,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
                         "second_choice": "Special ability",
-                        "third_choice": "Unknown"
+                        "third_choice": "????"
                     }
                 ]
             }
@@ -10990,13 +10990,13 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Party member #1 (while dead)",
+                        "target": "Bartz (while dead)",
                         "status_name": "Death"
                     },
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Character Present In Top Party Slot"
+                            "Bartz Is In The Party"
                         ]
                     }
                 ],
@@ -11013,13 +11013,13 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Party member #2 (while dead)",
+                        "target": "Lenna (while dead)",
                         "status_name": "Death"
                     },
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Character Present In Second Party Slot"
+                            "Lenna Is In The Party"
                         ]
                     }
                 ],
@@ -11036,13 +11036,13 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Party member #3 (while dead)",
+                        "target": "Galuf (while dead)",
                         "status_name": "Death"
                     },
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Character Present In Third Party Slot"
+                            "Galuf Is In The Party"
                         ]
                     }
                 ],
@@ -11059,13 +11059,13 @@
                 "conditions": [
                     {
                         "condition": "STATUS_EFFECT",
-                        "target": "Party member #4 (while dead)",
+                        "target": "Faris (while dead)",
                         "status_name": "Death"
                     },
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Character Present In Fourth Party Slot"
+                            "Faris Is In The Party"
                         ]
                     }
                 ],
@@ -14744,7 +14744,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Vampire",
                         "second_choice": "Vampire",
-                        "third_choice": "Unknown"
+                        "third_choice": "????"
                     }
                 }
             },
@@ -14869,7 +14869,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Lilliputian Lyric",
                         "second_choice": "Flash",
-                        "third_choice": "Unknown"
+                        "third_choice": "????"
                     },
                     "Turn #5": {
                         "action": "RANDOM_SELECTION",
@@ -16283,7 +16283,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Unknown",
+                        "second_choice": "????",
                         "third_choice": "Special ability"
                     }
                 }

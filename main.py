@@ -116,7 +116,7 @@ def parse_ai(enemy_id: str, enemy_name: str, original_hex_ai: str, battle_text: 
     return parsed_ai, ai_script
 
 
-def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_names: dict[str, str], battle_text: dict[int, dict[int, str]]) -> list[list[str]]:
+def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_names: dict[str, str], battle_text: dict[int, dict[int, str]], ai_output_file: str) -> list[list[str]]:
     parsed_ai_list: list[JsonObject] = []
     ai_script_list: list[list[str]] = []
     
@@ -127,12 +127,12 @@ def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_na
         parsed_ai_list.append(parsed_ai)
         ai_script_list.append(ai_script)
 
-    write_json(Path(CONFIG["parsed_ai_file_path"]), parsed_ai_list)
+    write_json(Path(ai_output_file), parsed_ai_list)
 
     return ai_script_list
 
 
-def write_ai_script(ai_script_list: list[list[str]], enemy_names: dict[str, str]) -> None:
+def write_ai_script(ai_script_list: list[list[str]], enemy_names: dict[str, str], script_output_file: str) -> None:
     ai_script_lines: list[str] = []
 
     for (enemy_id, enemy_name), ai_script in zip(enemy_names.items(), ai_script_list):
@@ -144,20 +144,40 @@ def write_ai_script(ai_script_list: list[list[str]], enemy_names: dict[str, str]
 
         ai_script_lines.append("\n" + "-" * 40 + "\n")
 
-    write_compact_representation(Path(CONFIG["ai_script_representation_file_path"]), ai_script_lines)
+    write_compact_representation(Path(script_output_file), ai_script_lines)
+
+
+def snes_main() -> None:
+    enemy_ai_map: dict[str, str] = load_json(Path(CONFIG["enemy_ai_map_file_path"]))
+    enemy_names: dict[str, str] = load_json(Path(CONFIG["enemy_names_file_path"]))
+    battle_text: dict[str, dict[str, str]] = load_json(Path(CONFIG["rpge_battle_text_file_path"]))
+    converted_battle_text: dict[int, dict[int, str]] = convert_battle_text_keys_to_int(battle_text)
+    ai_output_file: str = CONFIG["parsed_ai_file_path"]
+    script_output_file: str = CONFIG["ai_script_representation_file_path"]
+
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(enemy_ai_map, enemy_names, converted_battle_text, ai_output_file)
+    
+    write_ai_script(ai_script_list, enemy_names, script_output_file)
+
+
+def gba_main() -> None:
+    enemy_ai_map: dict[str, str] = load_json(Path(CONFIG["gba_enemy_ai_map_file_path"]))
+    enemy_names: dict[str, str] = load_json(Path(CONFIG["gba_enemy_names_file_path"]))
+    battle_text: dict[str, dict[str, str]] = load_json(Path(CONFIG["gba_battle_text_file_path"]))
+    converted_battle_text: dict[int, dict[int, str]] = convert_battle_text_keys_to_int(battle_text)
+    ai_output_file: str = CONFIG["gba_parsed_ai_file_path"]
+    script_output_file: str = CONFIG["gba_ai_script_representation_file_path"]
+
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(enemy_ai_map, enemy_names, converted_battle_text, ai_output_file)
+    
+    write_ai_script(ai_script_list, enemy_names, script_output_file)
 
 
 def main() -> None:
     load_config()
 
-    enemy_ai_map: dict[str, str] = load_json(Path(CONFIG["enemy_ai_map_file_path"]))
-    enemy_names: dict[str, str] = load_json(Path(CONFIG["enemy_names_file_path"]))
-    battle_text: dict[str, dict[str, str]] = load_json(Path(CONFIG["rpge_battle_text_file_path"]))
-    converted_battle_text: dict[int, dict[int, str]] = convert_battle_text_keys_to_int(battle_text)
-
-    ai_script_list: list[list[str]] = generate_and_write_validation_results(enemy_ai_map, enemy_names, converted_battle_text)
-    
-    write_ai_script(ai_script_list, enemy_names)
+    snes_main()
+    gba_main()
 
 
 if __name__ == "__main__":

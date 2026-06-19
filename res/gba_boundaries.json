@@ -1,0 +1,22 @@
+{
+    "enemy_stats": [
+        "0x",
+        "0x"
+    ],
+    "enemy_ai_offsets": [
+        "0x241384",
+        "0x"
+    ],
+    "enemy_ai": [
+        "0x00241EDC",
+        "0x00246442"
+    ],
+    "battle_text": [
+        "0x",
+        "0x"
+    ],
+    "battle_pointers": [
+        "0x",
+        "0x"
+    ]
+}

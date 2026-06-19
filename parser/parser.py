@@ -7,6 +7,7 @@ from .enums.status_table import StatusTable
 from .enums.variable import Variable
 from .enums.command import Command
 from .enums.ability import Ability
+from .enums.dark_arts import DarkArts
 from .enums.party_member_offset import PartyMemberPropertyTable
 from .enums.global_event_table import GlobalEventTable
 from .enums.symbol import SymbolCode
@@ -53,18 +54,21 @@ class EnemyAIParser():
         - The first byte of a non-default condition (0x01-0x0F).
         - The first byte of a default condition (0x00).
         '''
-        self.__current_state = StateEnum.START
+        try:
+            self.__current_state = StateEnum.START
 
-        current_byte: int = self.__tokens[i]
+            current_byte: int = self.__tokens[i]
 
-        self.__current_tokens_group = [current_byte]
+            self.__current_tokens_group = [current_byte]
 
-        if not ConditionCode.is_valid_condition_code(current_byte):
-            return self.__handle_error_state(previous_byte=current_byte)
-        elif ConditionCode(current_byte) is ConditionCode.UNCONDITIONAL:
-            return self.__handle_dc1_state(condition_code=ConditionCode(current_byte), i=i + 1)
-        else:
-            return self.__handle_c1_state(condition_code=ConditionCode(current_byte), i=i + 1)
+            if not ConditionCode.is_valid_condition_code(current_byte):
+                return self.__handle_error_state(previous_byte=current_byte)
+            elif ConditionCode(current_byte) is ConditionCode.UNCONDITIONAL:
+                return self.__handle_dc1_state(condition_code=ConditionCode(current_byte), i=i + 1)
+            else:
+                return self.__handle_c1_state(condition_code=ConditionCode(current_byte), i=i + 1)
+        except IndexError:
+            return self.__handle_error_state(previous_byte=-1, optional_message="Ran out of bytes without finding a terminator byte (0xFF).")
 
     def __handle_c1_state(self, condition_code: ConditionCode, i: int) -> bool:
         '''
@@ -172,6 +176,8 @@ class EnemyAIParser():
             return self.__handle_sa_state(i=i + 1, f7_counter=-1)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_ca1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=-1)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_sa_state(i=i + 1, f7_counter=-1)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
 
@@ -208,6 +214,8 @@ class EnemyAIParser():
             return self.__handle_sa_state(i=i + 1, f7_counter=f7_counter)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_ca1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_sa_state(i=i + 1, f7_counter=f7_counter)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
 
@@ -233,7 +241,9 @@ class EnemyAIParser():
         # A no-interrupt action cannot end here.
         if f7_counter == 0:
             return self.__handle_error_state(previous_byte=current_byte, optional_message=self.__no_interrupt_error_message)
-        elif action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        elif action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_ca2_state(action_code=action_code, sub_action_code=None, i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_ca2_state(action_code=action_code, sub_action_code=None, i=i + 1, f7_counter=f7_counter)
         elif action_code is ActionCode.AI_COMMAND and ActionCode.NO_INTERRUPT.value == current_byte:
             return self.__handle_ca2_state(action_code=action_code, sub_action_code=ActionCode.NO_INTERRUPT, i=i + 1, f7_counter=f7_counter)
@@ -266,7 +276,9 @@ class EnemyAIParser():
         elif sub_action_code is ActionCode.NO_INTERRUPT and current_byte >= 2:  # The minimum length is the size of 2 simple actions (1 byte each).
             # +1 because the next byte is not covered by the declared length of a no-interrupt action.
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=current_byte + 1)
-        elif action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        elif action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif action_code is not ActionCode.AI_COMMAND:
             return self.__handle_error_state(previous_byte=current_byte)
@@ -305,7 +317,9 @@ class EnemyAIParser():
 
         self.__current_tokens_group.append(current_byte)
 
-        if action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        if action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_ca4_state(i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_ca4_state(i=i + 1, f7_counter=f7_counter)
         elif action_code is ActionCode.AI_COMMAND:  # The last byte is unrestricted for 3-byte actions (as part of a 4-byte command).
             return self.__handle_ca4_state(i=i + 1, f7_counter=f7_counter)
@@ -345,6 +359,8 @@ class EnemyAIParser():
             return self.__handle_sa_state(i=i + 1, f7_counter=f7_counter)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_ca1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_sa_state(i=i + 1, f7_counter=f7_counter)
         elif current_byte is SymbolCode.SEPARATOR.value:
             return self.__handle_sep2_state(i=i + 1, f7_counter=f7_counter)
         else:
@@ -481,6 +497,8 @@ class EnemyAIParser():
             return self.__handle_sda_state(i=i + 1, f7_counter=-1)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_cda1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=-1)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_sda_state(i=i + 1, f7_counter=-1)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
 
@@ -517,6 +535,8 @@ class EnemyAIParser():
             return self.__handle_sda_state(i=i + 1, f7_counter=f7_counter)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_cda1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_sda_state(i=i + 1, f7_counter=f7_counter)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
 
@@ -542,8 +562,9 @@ class EnemyAIParser():
         # A no-interrupt action cannot end here.
         if f7_counter == 0:
             return self.__handle_error_state(previous_byte=current_byte, optional_message=self.__no_interrupt_error_message)
-
-        if action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        elif action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_cda2_state(action_code=action_code, sub_action_code=None, i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_cda2_state(action_code=action_code, sub_action_code=None, i=i + 1, f7_counter=f7_counter)
         elif action_code is ActionCode.AI_COMMAND and ActionCode.is_valid_three_byte_action_code(current_byte):
             return self.__handle_cda2_state(action_code=action_code, sub_action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
@@ -574,7 +595,9 @@ class EnemyAIParser():
         elif sub_action_code is ActionCode.NO_INTERRUPT and current_byte >= 2:  # The minimum length is the size of 2 simple actions (1 byte each).
             # +1 because the next byte is not covered by the declared length of a no-interrupt action.
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=current_byte + 1)
-        elif action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        elif action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif action_code is not ActionCode.AI_COMMAND:
             return self.__handle_error_state(previous_byte=current_byte)
@@ -613,7 +636,9 @@ class EnemyAIParser():
 
         self.__current_tokens_group.append(current_byte)
 
-        if action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        if action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_cda4_state(i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_cda4_state(i=i + 1, f7_counter=f7_counter)
         elif action_code is ActionCode.AI_COMMAND:  # The last byte is unrestricted for 3-byte actions (as part of a 4-byte command).
             return self.__handle_cda4_state(i=i + 1, f7_counter=f7_counter)
@@ -653,6 +678,8 @@ class EnemyAIParser():
             return self.__handle_sda_state(i=i + 1, f7_counter=f7_counter)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_cda1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_sda_state(i=i + 1, f7_counter=f7_counter)
         elif current_byte is SymbolCode.TERMINATOR.value:
             return self.__handle_ter1_state(i=i + 1, f7_counter=f7_counter)
         else:
@@ -793,6 +820,8 @@ class EnemyAIParser():
             return self.__handle_rsa_state(i=i + 1, f7_counter=-1)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_rca1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=-1)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_rsa_state(i=i + 1, f7_counter=-1)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
 
@@ -832,6 +861,8 @@ class EnemyAIParser():
             return self.__handle_rsa_state(i=i + 1, f7_counter=f7_counter)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_rca1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_rsa_state(i=i + 1, f7_counter=f7_counter)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
 
@@ -857,7 +888,9 @@ class EnemyAIParser():
         # A no-interrupt action cannot end here.
         if f7_counter == 0:
             return self.__handle_error_state(previous_byte=current_byte, optional_message=self.__no_interrupt_error_message)
-        elif action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        elif action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_rca2_state(action_code=action_code, sub_action_code=None, i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_rca2_state(action_code=action_code, sub_action_code=None, i=i + 1, f7_counter=f7_counter)
         elif action_code is ActionCode.AI_COMMAND and ActionCode.is_valid_three_byte_action_code(current_byte):
             return self.__handle_rca2_state(action_code=action_code, sub_action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
@@ -888,7 +921,9 @@ class EnemyAIParser():
         elif sub_action_code is ActionCode.NO_INTERRUPT and current_byte >= 2:  # The minimum length is the size of 2 simple actions (1 byte each).
             # +1 because the next byte is not covered by the declared length of a no-interrupt action.
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=current_byte + 1)
-        elif action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        elif action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif action_code is not ActionCode.AI_COMMAND:
             return self.__handle_error_state(previous_byte=current_byte)
@@ -927,7 +962,9 @@ class EnemyAIParser():
 
         self.__current_tokens_group.append(current_byte)
 
-        if action_code in (ActionCode.GBA_RANDOM_SELECTION, ActionCode.RANDOM_SELECTION) and Ability.is_valid_ability_id(current_byte):
+        if action_code is ActionCode.GBA_RANDOM_SELECTION and (Ability.is_valid_ability_id(current_byte) or DarkArts.is_valid_ability_id(current_byte)):
+            return self.__handle_rca4_state(i=i + 1, f7_counter=f7_counter)
+        elif action_code is ActionCode.RANDOM_SELECTION and Ability.is_valid_ability_id(current_byte):
             return self.__handle_rca4_state(i=i + 1, f7_counter=f7_counter)
         elif action_code is ActionCode.AI_COMMAND:  # The last byte is unrestricted for 3-byte actions (as part of a 4-byte command).
             return self.__handle_rca4_state(i=i + 1, f7_counter=f7_counter)
@@ -968,6 +1005,8 @@ class EnemyAIParser():
             return self.__handle_rsa_state(i=i + 1, f7_counter=f7_counter)
         elif ActionCode.is_valid_four_byte_action_code(current_byte):
             return self.__handle_rca1_state(action_code=ActionCode(current_byte), i=i + 1, f7_counter=f7_counter)
+        elif DarkArts.is_valid_ability_id(current_byte):  # This must come after the check for the action code.
+            return self.__handle_rsa_state(i=i + 1, f7_counter=f7_counter)
         elif current_byte is SymbolCode.SEPARATOR.value:
             return self.__handle_sep5_state(i=i + 1, f7_counter=f7_counter)
         elif current_byte is SymbolCode.TERMINATOR.value:
