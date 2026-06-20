@@ -164,7 +164,7 @@ class Ability(IntEnum):
     BLUE_MAGIC_1000_NEEDLES = 0x9D
     BLUE_MAGIC_WHITE_WIND = 0x9E
     BLUE_MAGIC_MISSILE = 0x9F
-    ENEMY_MAGIC_KURURURU = 0xA0
+    ENEMY_MAGIC_RIBBIT = 0xA0
     ENEMY_MAGIC_LEVEL_DOWN = 0xA1
     ENEMY_MAGIC_ESCAPE = 0xA2
     ENEMY_MAGIC_STALKER_ATTACK = 0xA3
@@ -187,11 +187,11 @@ class Ability(IntEnum):
     ENEMY_MAGIC_HUG = 0xB4
     ENEMY_MAGIC_SPORE = 0xB5
     ENEMY_MAGIC_POISON_BREATH = 0xB6
-    ENEMY_MAGIC_DANCE_OF_THE_DEAD = 0xB7
+    ENEMY_MAGIC_DANCE_MACABRE = 0xB7
     ENEMY_MAGIC_ZOMBIE_POWDER = 0xB8
     ENEMY_MAGIC_ZOMBIE_BREATH = 0xB9
-    ENEMY_MAGIC_SPIRIT = 0xBA
-    ENEMY_MAGIC_ALLURE = 0xBB
+    ENEMY_MAGIC_PARACLETE = 0xBA
+    ENEMY_MAGIC_ENTICE = 0xBB
     ENEMY_MAGIC_ENTANGLE = 0xBC
     ENEMY_MAGIC_RAINBOW_WIND = 0xBD
     ENEMY_MAGIC_STRANGE_DANCE = 0xBE
@@ -200,7 +200,7 @@ class Ability(IntEnum):
     ENEMY_MAGIC_NEEDLE = 0xC1
     ENEMY_MAGIC_MAELSTROM = 0xC2
     ENEMY_MAGIC_BONE = 0xC3
-    ENEMY_MAGIC_TAILSCREW = 0xC4
+    ENEMY_MAGIC_TAIL_SCREW = 0xC4
     ENEMY_MAGIC_STOMACH_ACID = 0xC5
     ENEMY_MAGIC_ROCKET_PUNCH = 0xC6
     ENEMY_MAGIC_MUSTARD_BOMB = 0xC7
@@ -208,19 +208,19 @@ class Ability(IntEnum):
     ENEMY_MAGIC_QUICKSAND = 0xC9
     ENEMY_MAGIC_ATOMIC_RAY = 0xCA
     ENEMY_MAGIC_MINI_BLAZE = 0xCB
-    ENEMY_MAGIC_SNOWSTORM = 0xCC
+    ENEMY_MAGIC_ICE_STORM = 0xCC
     ENEMY_MAGIC_FROST = 0xCD
-    ENEMY_MAGIC_ELECTRIC_SHOCK = 0xCE
+    ENEMY_MAGIC_ELECTROCUTE = 0xCE
     ENEMY_MAGIC_EARTH_SHAKER = 0xCF
     ENEMY_MAGIC_ZANTETSUKEN = 0xD0
     ENEMY_MAGIC_TIDAL_WAVE = 0xD1
     ENEMY_MAGIC_MEGA_FLARE = 0xD2
-    ENEMY_MAGIC_SONIC_WAVE = 0xD3
-    ENEMY_MAGIC_THREAD = 0xD4
+    ENEMY_MAGIC_DISCHORD = 0xD3
+    ENEMY_MAGIC_WEB = 0xD4
     ENEMY_MAGIC_MUCUS = 0xD5
     ENEMY_MAGIC_EARTHQUAKE = 0xD6
     ENEMY_MAGIC_STRONG_ATTACK = 0xD7
-    ENEMY_MAGIC_MEDICINE = 0xD8
+    ENEMY_MAGIC_PANACEA = 0xD8
     ENEMY_MAGIC_IMAGE = 0xD9
     ENEMY_MAGIC_BREATH_WING = 0xDA
     ENEMY_MAGIC_BLAZE = 0xDB
@@ -233,13 +233,13 @@ class Ability(IntEnum):
     ENEMY_MAGIC_ENCIRCLE = 0xE2
     ENEMY_MAGIC_WORMHOLE = 0xE3
     ENEMY_MAGIC_POSSESS = 0xE4
-    ENEMY_MAGIC_DYNAMO = 0xE5
+    ENEMY_MAGIC_REVERSE_POLARITY = 0xE5
     ENEMY_MAGIC_MAGNET = 0xE6
-    ENEMY_MAGIC_REVERSE_POLARITY = 0xE7
+    ENEMY_MAGIC_REVERSE_POLARITY_2 = 0xE7  # TODO: find out what this is.
     ENEMY_MAGIC_JUMP = 0xE8
     ENEMY_MAGIC_BANISH = 0xE9
     ENEMY_MAGIC_HURRICANE = 0xEA
-    ENEMY_MAGIC_DEMON_EYE = 0xEB
+    ENEMY_MAGIC_EVIL_EYE = 0xEB
     ENEMY_MAGIC_PULL = 0xEC
     ENEMY_MAGIC_WIN_BATTLE = 0xED
     ENEMY_MAGIC_UNHIDE_ENEMY = 0xEE
@@ -287,6 +287,12 @@ class Ability(IntEnum):
             return "Special ability"
         elif self is Ability.BLUE_MAGIC_QUESTION_MARKS:
             return "????"
+        elif self is Ability.BLUE_MAGIC_SELF_DESTRUCT:
+            return "Self-Destruct"
+        elif self is Ability.BLUE_MAGIC_OFF_GUARD:
+            return "Off-Guard"
+        elif self is Ability. BLUE_MAGIC_PONDS_CHORUS:
+            return "Pond's Chorus"
         elif 0x82 <= self.value <= 0x9F:
             return f"{self.name.replace("BLUE_MAGIC_", "").replace("_", " ").title()}"
         elif self is Ability.NOTHING:
@@ -295,6 +301,8 @@ class Ability(IntEnum):
             return "Unnamed script trigger"
         elif self is Ability.ENEMY_MAGIC_UNHIDE_ENEMY:
             return "Hide/show enemies"
+        elif self is Ability.ENEMY_MAGIC_REAPERS_SWORD:
+            return "Reaper's Sword"
         elif self.value in (0xD0, 0xD1, 0xD2, 0xD9, 0xDE, 0xE8, 0xE9, 0xEB):
             return f"{self.name.replace("ENEMY_MAGIC_", "").replace("_", " ").title()} (enemy magic)"
         elif 0xA0 <= self.value <= 0xEF:

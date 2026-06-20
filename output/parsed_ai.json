@@ -364,7 +364,7 @@
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Electric Shock",
+                        "first_choice": "Electrocute",
                         "second_choice": "Physical attack",
                         "third_choice": "Special ability"
                     }
@@ -391,7 +391,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -433,7 +433,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -721,7 +721,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Ponds Chorus",
+                        "second_choice": "Pond's Chorus",
                         "third_choice": "Physical attack"
                     }
                 }
@@ -854,7 +854,7 @@
                 "actions": {
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Thread",
+                        "first_choice": "Web",
                         "second_choice": "Magic Hammer",
                         "third_choice": "Physical attack"
                     },
@@ -868,11 +868,11 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Magic Hammer",
                         "second_choice": "Physical attack",
-                        "third_choice": "Thread"
+                        "third_choice": "Web"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Sonic Wave",
+                        "first_choice": "Dischord",
                         "second_choice": "Wind Slash",
                         "third_choice": "Physical attack"
                     }
@@ -975,7 +975,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -994,7 +994,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -1185,7 +1185,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Attack (enemy magic)",
                         "second_choice": "Thundara",
-                        "third_choice": "Electric Shock"
+                        "third_choice": "Electrocute"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -1197,7 +1197,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Attack (enemy magic)",
                         "second_choice": "Thundara",
-                        "third_choice": "Electric Shock"
+                        "third_choice": "Electrocute"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -1358,7 +1358,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any command",
@@ -1368,7 +1368,7 @@
                     }
                 ],
                 "actions": [
-                    "Self Destruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -1807,7 +1807,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
                         "second_choice": "Special ability",
-                        "third_choice": "Self Destruct"
+                        "third_choice": "Self-Destruct"
                     }
                 }
             }
@@ -1825,9 +1825,9 @@
                 ],
                 "actions": {
                     "Turn #1": "Physical attack",
-                    "Turn #2": "Reverse Polarity",
+                    "Turn #2": "Reverse Polarity 2",
                     "Turn #3": "Special ability",
-                    "Turn #4": "Reverse Polarity"
+                    "Turn #4": "Reverse Polarity 2"
                 }
             }
         ],
@@ -2275,7 +2275,7 @@
                         "type": "SET_TARGET",
                         "target": "A random male party member"
                     },
-                    "Turn #3": "Allure",
+                    "Turn #3": "Entice",
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
@@ -2305,14 +2305,14 @@
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Ponds Chorus",
+                        "first_choice": "Pond's Chorus",
                         "second_choice": "Physical attack",
                         "third_choice": "Do nothing"
                     },
                     "Turn #3": "Physical attack",
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Ponds Chorus",
+                        "first_choice": "Pond's Chorus",
                         "second_choice": "Physical attack",
                         "third_choice": "Physical attack"
                     }
@@ -2466,7 +2466,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Thread",
+                        "second_choice": "Web",
                         "third_choice": "Physical attack"
                     }
                 }
@@ -2509,7 +2509,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Sonic Wave",
+                        "second_choice": "Dischord",
                         "third_choice": "Physical attack"
                     }
                 }
@@ -2587,7 +2587,7 @@
                         "type": "SET_TARGET",
                         "target": "A random dead party member"
                     },
-                    "Turn #2": "Spirit"
+                    "Turn #2": "Paraclete"
                 }
             },
             {
@@ -2707,7 +2707,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -2789,7 +2789,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -2923,7 +2923,7 @@
                 "conditions": [
                     "LONE_ENEMY",
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -3010,7 +3010,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Ponds Chorus",
+                        "second_choice": "Pond's Chorus",
                         "third_choice": "Physical attack"
                     }
                 }
@@ -3037,7 +3037,7 @@
                         "type": "SET_TARGET",
                         "target": "A random dead party member"
                     },
-                    "Turn #2": "Dance Of The Dead"
+                    "Turn #2": "Dance Macabre"
                 }
             },
             {
@@ -3270,7 +3270,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -3418,7 +3418,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Off Guard",
+                        "second_choice": "Off-Guard",
                         "third_choice": "Do nothing"
                     },
                     "Turn #2": {
@@ -3552,7 +3552,7 @@
                         "type": "SET_TARGET",
                         "target": "Whoever acted in the current tick"
                     },
-                    "Demon Eye (enemy magic)"
+                    "Evil Eye (enemy magic)"
                 ]
             }
         ]
@@ -3698,9 +3698,9 @@
                 ],
                 "actions": {
                     "Turn #1": "Physical attack",
-                    "Turn #2": "Reverse Polarity",
+                    "Turn #2": "Reverse Polarity 2",
                     "Turn #3": "Special ability",
-                    "Turn #4": "Reverse Polarity"
+                    "Turn #4": "Reverse Polarity 2"
                 }
             }
         ],
@@ -3830,7 +3830,7 @@
                     "Turn #3": "Physical attack",
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Off Guard",
+                        "first_choice": "Off-Guard",
                         "second_choice": "Level 2 Old",
                         "third_choice": "Do nothing"
                     }
@@ -3993,7 +3993,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -4024,13 +4024,13 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Snowstorm",
-                        "third_choice": "Snowstorm"
+                        "second_choice": "Ice Storm",
+                        "third_choice": "Ice Storm"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Snowstorm",
+                        "second_choice": "Ice Storm",
                         "third_choice": "Physical attack"
                     }
                 }
@@ -4049,7 +4049,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Snowstorm",
+                        "second_choice": "Ice Storm",
                         "third_choice": "Special ability"
                     }
                 }
@@ -4184,7 +4184,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -4220,7 +4220,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -4545,8 +4545,8 @@
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Allure",
-                        "second_choice": "Allure",
+                        "first_choice": "Entice",
+                        "second_choice": "Entice",
                         "third_choice": "Do nothing"
                     },
                     "Turn #4": {
@@ -4595,7 +4595,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Off Guard",
+                        "second_choice": "Off-Guard",
                         "third_choice": "Do nothing"
                     },
                     "Turn #2": {
@@ -4767,13 +4767,13 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Death",
                         "second_choice": "Physical attack",
-                        "third_choice": "Reapers Sword"
+                        "third_choice": "Reaper's Sword"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Banish",
                         "second_choice": "Physical attack",
-                        "third_choice": "Reapers Sword"
+                        "third_choice": "Reaper's Sword"
                     }
                 }
             }
@@ -4814,7 +4814,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Thread",
+                        "second_choice": "Web",
                         "third_choice": "Special ability"
                     }
                 }
@@ -5000,7 +5000,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -5054,7 +5054,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -5109,7 +5109,7 @@
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "Turn #2": "Reverse Polarity"
+                    "Turn #2": "Reverse Polarity 2"
                 }
             },
             {
@@ -5131,7 +5131,7 @@
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "Turn #2": "Reverse Polarity"
+                    "Turn #2": "Reverse Polarity 2"
                 }
             },
             {
@@ -5191,7 +5191,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #2": "Reverse Polarity"
+                    "Turn #2": "Reverse Polarity 2"
                 }
             }
         ],
@@ -5244,7 +5244,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -5282,7 +5282,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -5296,7 +5296,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -5407,7 +5407,7 @@
                         "var_id": "Var_01",
                         "value": 2
                     },
-                    "Turn #2": "Reverse Polarity"
+                    "Turn #2": "Reverse Polarity 2"
                 }
             },
             {
@@ -5429,7 +5429,7 @@
                         "var_id": "Var_01",
                         "value": 2
                     },
-                    "Turn #2": "Reverse Polarity"
+                    "Turn #2": "Reverse Polarity 2"
                 }
             },
             {
@@ -5489,7 +5489,7 @@
                         "var_id": "Var_01",
                         "value": 1
                     },
-                    "Turn #2": "Reverse Polarity"
+                    "Turn #2": "Reverse Polarity 2"
                 }
             }
         ],
@@ -5507,8 +5507,8 @@
                 "actions": {
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Thread",
-                        "second_choice": "Sonic Wave",
+                        "first_choice": "Web",
+                        "second_choice": "Dischord",
                         "third_choice": "Image (enemy magic)"
                     },
                     "Turn #2": {
@@ -5619,7 +5619,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -5699,7 +5699,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -5742,7 +5742,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -5775,7 +5775,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
                         "second_choice": "Physical attack",
-                        "third_choice": "Dynamo"
+                        "third_choice": "Reverse Polarity"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
@@ -5790,7 +5790,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -5831,7 +5831,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6054,7 +6054,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6106,7 +6106,7 @@
                                 "type": "SET_TARGET",
                                 "target": "The enemy in slot #2"
                             },
-                            "Kurururu",
+                            "Ribbit",
                             "Darkness"
                         ]
                     }
@@ -6237,7 +6237,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -6245,7 +6245,7 @@
                     }
                 ],
                 "actions": [
-                    "Self Destruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -6271,7 +6271,7 @@
                         "type": "SET_TARGET",
                         "target": "A random dead party member"
                     },
-                    "Turn #3": "Dance Of The Dead",
+                    "Turn #3": "Dance Macabre",
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
@@ -6425,7 +6425,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6436,7 +6436,7 @@
                     {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Hug",
-                        "second_choice": "Ponds Chorus",
+                        "second_choice": "Pond's Chorus",
                         "third_choice": "Do nothing"
                     }
                 ]
@@ -6466,7 +6466,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6476,8 +6476,8 @@
                 "actions": [
                     {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Dynamo",
-                        "second_choice": "Allure",
+                        "first_choice": "Reverse Polarity",
+                        "second_choice": "Entice",
                         "third_choice": "Do nothing"
                     }
                 ]
@@ -6513,7 +6513,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6523,7 +6523,7 @@
                 "actions": [
                     {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Dance Of The Dead",
+                        "first_choice": "Dance Macabre",
                         "second_choice": "Lilliputian Lyric",
                         "third_choice": "Do nothing"
                     }
@@ -6596,7 +6596,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Thread",
+                        "second_choice": "Web",
                         "third_choice": "Special ability"
                     },
                     "Turn #2": "Physical attack"
@@ -6607,7 +6607,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Lance",
@@ -6638,7 +6638,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Demon Eye (enemy magic)",
+                        "second_choice": "Evil Eye (enemy magic)",
                         "third_choice": "Special ability"
                     }
                 }
@@ -6700,7 +6700,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6760,7 +6760,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -6774,7 +6774,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -6806,7 +6806,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Osmose",
-                        "second_choice": "Ponds Chorus",
+                        "second_choice": "Pond's Chorus",
                         "third_choice": "Do nothing"
                     },
                     "Turn #3": "Physical attack",
@@ -6861,7 +6861,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -6875,7 +6875,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6917,7 +6917,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -6964,7 +6964,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -7023,7 +7023,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Atomic Ray",
                         "second_choice": "Frost",
-                        "third_choice": "Electric Shock"
+                        "third_choice": "Electrocute"
                     }
                 }
             },
@@ -7216,7 +7216,7 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Dynamo",
+                        "second_choice": "Reverse Polarity",
                         "third_choice": "Special ability"
                     }
                 }
@@ -7357,8 +7357,8 @@
                 "actions": [
                     {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Demon Eye (enemy magic)",
-                        "second_choice": "Sonic Wave",
+                        "first_choice": "Evil Eye (enemy magic)",
+                        "second_choice": "Dischord",
                         "third_choice": "Do nothing"
                     }
                 ]
@@ -8107,7 +8107,7 @@
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
                         "sub_actions": [
-                            "Ponds Chorus",
+                            "Pond's Chorus",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
@@ -8303,7 +8303,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Off Guard",
+                        "second_choice": "Off-Guard",
                         "third_choice": "Special ability"
                     }
                 }
@@ -8379,7 +8379,7 @@
                 "actions": {
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Sonic Wave",
+                        "first_choice": "Dischord",
                         "second_choice": "Level 3 Flare",
                         "third_choice": "Do nothing"
                     }
@@ -8778,7 +8778,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -8799,7 +8799,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -8847,13 +8847,13 @@
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Tailscrew",
+                        "second_choice": "Tail Screw",
                         "third_choice": "Special ability"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Tailscrew",
+                        "second_choice": "Tail Screw",
                         "third_choice": "Special ability"
                     }
                 }
@@ -9368,7 +9368,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -10078,7 +10078,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
                         "second_choice": "Special ability",
-                        "third_choice": "Self Destruct"
+                        "third_choice": "Self-Destruct"
                     }
                 }
             }
@@ -10314,7 +10314,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Attack (enemy magic)",
                         "second_choice": "Jump (enemy magic)",
-                        "third_choice": "Electric Shock"
+                        "third_choice": "Electrocute"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -10462,7 +10462,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -10481,7 +10481,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -10898,7 +10898,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"I'll leave the rest to you!"
                             },
-                            "Reverse Polarity",
+                            "Reverse Polarity 2",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
@@ -10947,13 +10947,13 @@
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Vampire",
-                        "second_choice": "Thread",
+                        "second_choice": "Web",
                         "third_choice": "Wind Slash"
                     },
                     "Turn #5": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Sonic Wave",
+                        "second_choice": "Dischord",
                         "third_choice": "White Wind"
                     }
                 }
@@ -11487,7 +11487,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "Physical attack",
-                        "third_choice": "Allure"
+                        "third_choice": "Entice"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -11498,7 +11498,7 @@
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
-                        "second_choice": "Allure",
+                        "second_choice": "Entice",
                         "third_choice": "Special ability"
                     }
                 }
@@ -11792,8 +11792,8 @@
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Dynamo",
-                        "second_choice": "Dynamo",
+                        "first_choice": "Reverse Polarity",
+                        "second_choice": "Reverse Polarity",
                         "third_choice": "Special ability"
                     },
                     "Turn #3": {
@@ -11851,7 +11851,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -11913,25 +11913,25 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Sonic Wave",
+                        "second_choice": "Dischord",
                         "third_choice": "Special ability"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Sonic Wave",
+                        "second_choice": "Dischord",
                         "third_choice": "Special ability"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Sonic Wave",
+                        "second_choice": "Dischord",
                         "third_choice": "Special ability"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Sonic Wave",
+                        "second_choice": "Dischord",
                         "third_choice": "Special ability"
                     },
                     "Turn #5": "Stomach Acid"
@@ -11962,7 +11962,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Dance Of The Dead",
+                        "second_choice": "Dance Macabre",
                         "third_choice": "Special ability"
                     }
                 }
@@ -12131,7 +12131,7 @@
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Mustard Bomb",
-                        "second_choice": "Dynamo",
+                        "second_choice": "Reverse Polarity",
                         "third_choice": "Do nothing"
                     },
                     "Turn #5": "Physical attack"
@@ -12528,7 +12528,7 @@
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
                         "sub_actions": [
-                            "Allure",
+                            "Entice",
                             "Barrier Change",
                             {
                                 "action": "AI_COMMAND",
@@ -12751,8 +12751,8 @@
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Snowstorm",
-                        "second_choice": "Snowstorm",
+                        "first_choice": "Ice Storm",
+                        "second_choice": "Ice Storm",
                         "third_choice": "Do nothing"
                     },
                     "Turn #3": {
@@ -12931,14 +12931,14 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
                         "elements": "irrelevant (including non-elemental)"
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "!Steal",
@@ -13005,7 +13005,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -13136,7 +13136,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -13155,7 +13155,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -13254,7 +13254,7 @@
                         "status_name": "False Image"
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any command",
@@ -13305,7 +13305,7 @@
                         "type": "NO_INTERRUPT",
                         "sub_actions": [
                             "Maelstrom",
-                            "Snowstorm",
+                            "Ice Storm",
                             "Aqua Breath"
                         ]
                     },
@@ -13314,7 +13314,7 @@
                         "type": "NO_INTERRUPT",
                         "sub_actions": [
                             "Frost",
-                            "Snowstorm",
+                            "Ice Storm",
                             "Aqua Breath"
                         ]
                     }
@@ -13542,7 +13542,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -13567,7 +13567,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND_CLASS",
+                        "condition": "HIT_BY_COMMAND_WITH_CATEGORY",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -13667,8 +13667,8 @@
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Snowstorm",
-                        "second_choice": "Snowstorm",
+                        "first_choice": "Ice Storm",
+                        "second_choice": "Ice Storm",
                         "third_choice": "Physical attack"
                     }
                 }
@@ -13856,7 +13856,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Dynamo",
+                        "second_choice": "Reverse Polarity",
                         "third_choice": "Special ability"
                     },
                     "Turn #2": {
@@ -13868,7 +13868,7 @@
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Dynamo",
+                        "second_choice": "Reverse Polarity",
                         "third_choice": "Special ability"
                     },
                     "Turn #4": {
@@ -13880,7 +13880,7 @@
                     "Turn #5": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Physical attack",
-                        "second_choice": "Dynamo",
+                        "second_choice": "Reverse Polarity",
                         "third_choice": "Special ability"
                     },
                     "Turn #6": {
@@ -13914,7 +13914,7 @@
                         "type": "SET_TARGET",
                         "target": "All party members"
                     },
-                    "Turn #3": "Kurururu"
+                    "Turn #3": "Ribbit"
                 }
             }
         ],
@@ -14083,7 +14083,7 @@
                         "value_to_match": 3
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any command",
@@ -14127,7 +14127,7 @@
                         "value_to_match": 2
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any command",
@@ -14164,7 +14164,7 @@
                         "value_to_match": 1
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any command",
@@ -14415,19 +14415,19 @@
                 "actions": {
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Tailscrew",
-                        "second_choice": "Tailscrew",
+                        "first_choice": "Tail Screw",
+                        "second_choice": "Tail Screw",
                         "third_choice": "Physical attack"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Tailscrew",
-                        "second_choice": "Tailscrew",
+                        "first_choice": "Tail Screw",
+                        "second_choice": "Tail Screw",
                         "third_choice": "Physical attack"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Tailscrew",
+                        "first_choice": "Tail Screw",
                         "second_choice": "Mucus",
                         "third_choice": "Physical attack"
                     }
@@ -14546,7 +14546,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "!Attack",
@@ -14609,7 +14609,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Level 3 Flare",
                         "second_choice": "Level 3 Flare",
-                        "third_choice": "Off Guard"
+                        "third_choice": "Off-Guard"
                     },
                     "Turn #3": {
                         "action": "RANDOM_SELECTION",
@@ -14775,7 +14775,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Aqua Breath",
                         "second_choice": "Aqua Breath",
-                        "third_choice": "Ponds Chorus"
+                        "third_choice": "Pond's Chorus"
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
@@ -14839,7 +14839,7 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "Self Destruct"
+                    "Turn #1": "Self-Destruct"
                 }
             },
             {
@@ -14850,7 +14850,7 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Dark Spark",
-                        "second_choice": "Off Guard",
+                        "second_choice": "Off-Guard",
                         "third_choice": "Mind Blast"
                     },
                     "Turn #2": {
@@ -15037,7 +15037,7 @@
                         "condition": "HIT_BY_SPELL",
                         "match_type": "MATCH",
                         "explanation": "the ability matches",
-                        "ability": "Self Destruct"
+                        "ability": "Self-Destruct"
                     }
                 ],
                 "actions": [
@@ -15083,7 +15083,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Earth Shaker",
                         "second_choice": "Earth Shaker",
-                        "third_choice": "Demon Eye (enemy magic)"
+                        "third_choice": "Evil Eye (enemy magic)"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -15489,13 +15489,13 @@
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Atomic Ray",
-                        "second_choice": "Snowstorm",
+                        "second_choice": "Ice Storm",
                         "third_choice": "Physical attack"
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Atomic Ray",
-                        "second_choice": "Snowstorm",
+                        "second_choice": "Ice Storm",
                         "third_choice": "Physical attack"
                     },
                     "Turn #3": {
@@ -15520,7 +15520,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -15539,7 +15539,7 @@
             {
                 "conditions": [
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -15652,7 +15652,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Hurricane",
                         "second_choice": "Physical attack",
-                        "third_choice": "Ponds Chorus"
+                        "third_choice": "Pond's Chorus"
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
@@ -15687,7 +15687,7 @@
                     },
                     "Turn #9": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Sonic Wave",
+                        "first_choice": "Dischord",
                         "second_choice": "Physical attack",
                         "third_choice": "Lilliputian Lyric"
                     },
@@ -15722,7 +15722,7 @@
                 "actions": {
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Sonic Wave",
+                        "first_choice": "Dischord",
                         "second_choice": "Physical attack",
                         "third_choice": "Lilliputian Lyric"
                     },
@@ -15742,7 +15742,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Hurricane",
                         "second_choice": "Physical attack",
-                        "third_choice": "Ponds Chorus"
+                        "third_choice": "Pond's Chorus"
                     },
                     "Turn #5": {
                         "action": "RANDOM_SELECTION",
@@ -15754,7 +15754,7 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Rocket Punch",
                         "second_choice": "Physical attack",
-                        "third_choice": "Ponds Chorus"
+                        "third_choice": "Pond's Chorus"
                     }
                 }
             }
@@ -15894,8 +15894,8 @@
                                 "type": "SET_TARGET",
                                 "target": "Self"
                             },
-                            "Medicine",
-                            "Reverse Polarity",
+                            "Panacea",
+                            "Reverse Polarity 2",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "SET_VARIABLE",
@@ -15913,7 +15913,7 @@
                 "actions": {
                     "Turn #1": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Thread",
+                        "first_choice": "Web",
                         "second_choice": "Magic Hammer",
                         "third_choice": "Physical attack"
                     },
@@ -15927,11 +15927,11 @@
                         "action": "RANDOM_SELECTION",
                         "first_choice": "Magic Hammer",
                         "second_choice": "Physical attack",
-                        "third_choice": "Thread"
+                        "third_choice": "Web"
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Sonic Wave",
+                        "first_choice": "Dischord",
                         "second_choice": "Wind Slash",
                         "third_choice": "Physical attack"
                     }
@@ -15953,7 +15953,7 @@
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
                         "sub_actions": [
-                            "Reverse Polarity",
+                            "Reverse Polarity 2",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
@@ -15980,7 +15980,7 @@
                         "value_to_match": 0
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "NO_MATCH",
                         "explanation": "either the command or the elements or both do not match",
                         "command": "any spell",
@@ -16006,7 +16006,7 @@
                         "value_to_match": 0
                     },
                     {
-                        "condition": "HIT_BY_COMMAND",
+                        "condition": "HIT_BY_COMMAND_WITH_ELEMENT",
                         "match_type": "MATCH",
                         "explanation": "both command and elements match",
                         "command": "any spell",
@@ -16419,7 +16419,7 @@
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
-                        "first_choice": "Snowstorm",
+                        "first_choice": "Ice Storm",
                         "second_choice": "Atomic Ray",
                         "third_choice": "Lightning"
                     },
@@ -16449,7 +16449,7 @@
                                 "action": "RANDOM_SELECTION",
                                 "first_choice": "Physical attack",
                                 "second_choice": "Physical attack",
-                                "third_choice": "Demon Eye (enemy magic)"
+                                "third_choice": "Evil Eye (enemy magic)"
                             },
                             {
                                 "action": "RANDOM_SELECTION",
@@ -17214,7 +17214,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "\"The great Gilgamesh?!"
                     },
-                    "Turn #4": "Reverse Polarity",
+                    "Turn #4": "Reverse Polarity 2",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
@@ -17300,7 +17300,7 @@
                                 "type": "SET_TARGET",
                                 "target": "The enemy in slot #1"
                             },
-                            "Self Destruct",
+                            "Self-Destruct",
                             "Terminate"
                         ]
                     }

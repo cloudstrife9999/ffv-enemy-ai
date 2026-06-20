@@ -9,8 +9,8 @@ class ConditionCode(IntEnum):
     VAR_CHECK = 0x03
     LONE_ENEMY = 0x04
     ENEMY_SLOTS = 0x05
-    HIT_BY_COMMAND = 0x06
-    HIT_BY_COMMAND_CLASS = 0x07
+    HIT_BY_COMMAND_WITH_ELEMENT = 0x06
+    HIT_BY_COMMAND_WITH_CATEGORY = 0x07
     HIT_BY_SPELL = 0x08
     HIT_BY_ITEM = 0x09
     TARGET_COUNT = 0x0A
@@ -38,8 +38,10 @@ class ConditionCode(IntEnum):
                 return "Lone enemy"
             case ConditionCode.ENEMY_SLOTS:
                 return "Enemy slots"
-            case ConditionCode.HIT_BY_COMMAND | ConditionCode.HIT_BY_COMMAND_CLASS:
-                return "Hit by command"
+            case ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT:
+                return "Hit by command (belonging to zero or more elements)"
+            case ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY:
+                return "Hit by command (belonging to one or more categories)"
             case ConditionCode.HIT_BY_SPELL:
                 return "Hit by ability"
             case ConditionCode.HIT_BY_ITEM:
@@ -88,8 +90,8 @@ class ConditionCode(IntEnum):
         '''Unrestricted as in "any value is valid".'''
         return self in {
             ConditionCode.ENEMY_SLOTS,
-            ConditionCode.HIT_BY_COMMAND,
-            ConditionCode.HIT_BY_COMMAND_CLASS,
+            ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT,
+            ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY,
             ConditionCode.HIT_BY_SPELL,
             ConditionCode.HIT_BY_ITEM,
             ConditionCode.TARGET_COUNT
@@ -139,8 +141,8 @@ class ConditionCode(IntEnum):
             ConditionCode.HP_LOWER_THAN_THRESHOLD,
             ConditionCode.VAR_CHECK,
             ConditionCode.ENEMY_SLOTS,  # Multiple slots can be checked by using a bitmask in the fourth byte.
-            ConditionCode.HIT_BY_COMMAND,  # Multiple elements can be checked by using a bitmask in the fourth byte.
-            ConditionCode.HIT_BY_COMMAND_CLASS,  # Multiple elements can be checked by using a bitmask in the fourth byte.
+            ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT,  # Multiple elements can be checked by using a bitmask in the fourth byte.
+            ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY,  # Multiple categories can be checked by using a bitmask in the fourth byte.
             ConditionCode.PARTY_MEMBER_PARAMETER,
             ConditionCode.COMPARE_WITH_A2,
             ConditionCode.GLOBAL_EVENT_FLAGS  # Multiple flags can be checked by using a bitmask in the fourth byte.

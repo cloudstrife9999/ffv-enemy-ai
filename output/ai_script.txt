@@ -199,7 +199,7 @@ ACTIVE RULES:
       Turn #1: Forcefully change target(s) to a random female party member
                random(Physical attack, Physical attack, Special ability)
       Turn #2: Forcefully change target(s) to a random female party member
-               random(Electric Shock, Physical attack, Special ability)
+               random(Electrocute, Physical attack, Special ability)
 REACTIVE RULES:
   None
 
@@ -406,7 +406,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(Physical attack, Ponds Chorus, Physical attack)
+      Turn #1: random(Physical attack, Pond's Chorus, Physical attack)
   Default rule:
     Conditions:
       Unconditional
@@ -484,10 +484,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Thread, Magic Hammer, Physical attack)
+      Turn #1: random(Web, Magic Hammer, Physical attack)
       Turn #2: random(Physical attack, Confuse, Wind Slash)
-      Turn #3: random(Magic Hammer, Physical attack, Thread)
-      Turn #4: random(Sonic Wave, Wind Slash, Physical attack)
+      Turn #3: random(Magic Hammer, Physical attack, Web)
+      Turn #4: random(Dischord, Wind Slash, Physical attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -628,9 +628,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack (enemy magic), Thundara, Electric Shock)
+      Turn #1: random(Attack (enemy magic), Thundara, Electrocute)
       Turn #2: random(Thundara, Flash, Attack (enemy magic))
-      Turn #3: random(Attack (enemy magic), Thundara, Electric Shock)
+      Turn #3: random(Attack (enemy magic), Thundara, Electrocute)
       Turn #4: random(Thundara, Lightning, Osmose)
 REACTIVE RULES:
   Rule #1:
@@ -700,7 +700,7 @@ REACTIVE RULES:
     Conditions:
       Hit by any command using any of the following elements: ['Lightning']
     Actions:
-      Ability: Self Destruct
+      Ability: Self-Destruct
 
 ----------------------------------------
 
@@ -946,7 +946,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: Physical attack
-      Turn #2: random(Physical attack, Special ability, Self Destruct)
+      Turn #2: random(Physical attack, Special ability, Self-Destruct)
 REACTIVE RULES:
   None
 
@@ -960,9 +960,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: Physical attack
-      Turn #2: Ability: Reverse Polarity
+      Turn #2: Ability: Reverse Polarity 2
       Turn #3: Ability: Special ability
-      Turn #4: Ability: Reverse Polarity
+      Turn #4: Ability: Reverse Polarity 2
 REACTIVE RULES:
   None
 
@@ -1194,7 +1194,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Physical attack, Physical attack, Nothing)
       Turn #2: Forcefully change target(s) to a random male party member
-               Ability: Allure
+               Ability: Entice
       Turn #3: random(Physical attack, Physical attack, Special ability)
 REACTIVE RULES:
   None
@@ -1209,9 +1209,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Nothing, Nothing)
-      Turn #2: random(Ponds Chorus, Physical attack, Nothing)
+      Turn #2: random(Pond's Chorus, Physical attack, Nothing)
       Turn #3: Ability: Physical attack
-      Turn #4: random(Ponds Chorus, Physical attack, Physical attack)
+      Turn #4: random(Pond's Chorus, Physical attack, Physical attack)
 REACTIVE RULES:
   None
 
@@ -1296,7 +1296,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Thread, Physical attack)
+      Turn #1: random(Physical attack, Web, Physical attack)
 REACTIVE RULES:
   None
 
@@ -1323,7 +1323,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: Physical attack
-      Turn #2: random(Physical attack, Sonic Wave, Physical attack)
+      Turn #2: random(Physical attack, Dischord, Physical attack)
 REACTIVE RULES:
   None
 
@@ -1361,7 +1361,7 @@ ACTIVE RULES:
       A random dead party member is affected by the Death status
     Actions:
       Turn #1: Forcefully change target(s) to a random dead party member
-               Ability: Spirit
+               Ability: Paraclete
   Default rule:
     Conditions:
       Unconditional
@@ -1590,7 +1590,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: Physical attack
-      Turn #2: random(Physical attack, Ponds Chorus, Physical attack)
+      Turn #2: random(Physical attack, Pond's Chorus, Physical attack)
 REACTIVE RULES:
   None
 
@@ -1604,7 +1604,7 @@ ACTIVE RULES:
       A random dead party member is affected by the Death status
     Actions:
       Turn #1: Forcefully change target(s) to a random dead party member
-               Ability: Dance Of The Dead
+               Ability: Dance Macabre
   Default rule:
     Conditions:
       Unconditional
@@ -1821,7 +1821,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Off Guard, Nothing)
+      Turn #1: random(Physical attack, Off-Guard, Nothing)
       Turn #2: random(Physical attack, Hurricane, Special ability)
 REACTIVE RULES:
   None
@@ -1890,7 +1890,7 @@ REACTIVE RULES:
       HP damage just taken
     Actions:
       Forcefully change target(s) to whoever acted in the current tick
-      Ability: Demon Eye (enemy magic)
+      Ability: Evil Eye (enemy magic)
 
 ----------------------------------------
 
@@ -1973,9 +1973,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: Physical attack
-      Turn #2: Ability: Reverse Polarity
+      Turn #2: Ability: Reverse Polarity 2
       Turn #3: Ability: Special ability
-      Turn #4: Ability: Reverse Polarity
+      Turn #4: Ability: Reverse Polarity 2
 REACTIVE RULES:
   None
 
@@ -2040,7 +2040,7 @@ ACTIVE RULES:
       Turn #1: Ability: Physical attack
       Turn #2: random(Aeroga, Physical attack, Special ability)
       Turn #3: Ability: Physical attack
-      Turn #4: random(Off Guard, Level 2 Old, Nothing)
+      Turn #4: random(Off-Guard, Level 2 Old, Nothing)
 REACTIVE RULES:
   None
 
@@ -2132,14 +2132,14 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(Physical attack, Snowstorm, Snowstorm)
-      Turn #2: random(Physical attack, Snowstorm, Physical attack)
+      Turn #1: random(Physical attack, Ice Storm, Ice Storm)
+      Turn #2: random(Physical attack, Ice Storm, Physical attack)
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Frost, Special ability)
-      Turn #2: random(Physical attack, Snowstorm, Special ability)
+      Turn #2: random(Physical attack, Ice Storm, Special ability)
 REACTIVE RULES:
   None
 
@@ -2404,7 +2404,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Physical attack, Special ability, Nothing)
       Turn #2: Forcefully change target(s) to Bartz
-               random(Allure, Allure, Nothing)
+               random(Entice, Entice, Nothing)
       Turn #3: random(Physical attack, 1000 Needles, Nothing)
 REACTIVE RULES:
   None
@@ -2432,7 +2432,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Off Guard, Nothing)
+      Turn #1: random(Physical attack, Off-Guard, Nothing)
       Turn #2: random(Dark Spark, Special ability, Nothing)
 REACTIVE RULES:
   Rule #1:
@@ -2502,8 +2502,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Death, Physical attack, Reapers Sword)
-      Turn #2: random(Banish, Physical attack, Reapers Sword)
+      Turn #1: random(Death, Physical attack, Reaper's Sword)
+      Turn #2: random(Banish, Physical attack, Reaper's Sword)
 REACTIVE RULES:
   None
 
@@ -2529,7 +2529,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Thread, Special ability)
+      Turn #1: random(Physical attack, Web, Special ability)
 REACTIVE RULES:
   None
 
@@ -2668,13 +2668,13 @@ ACTIVE RULES:
       No visible enemies in slots other than [#2]
     Actions:
       Turn #1: Set Var_00 to 2
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
   Rule #3:
     Conditions:
       No visible enemies in slots other than [#2, #3]
     Actions:
       Turn #1: Set Var_00 to 2
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
   Rule #4:
     Conditions:
       Variable Var_00 == 1
@@ -2690,7 +2690,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Set Var_00 to 1
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
 REACTIVE RULES:
   None
 
@@ -2785,13 +2785,13 @@ ACTIVE RULES:
       No visible enemies in slots other than [#3]
     Actions:
       Turn #1: Set Var_01 to 2
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
   Rule #3:
     Conditions:
       No visible enemies in slots other than [#2, #3]
     Actions:
       Turn #1: Set Var_01 to 2
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
   Rule #4:
     Conditions:
       Variable Var_01 == 1
@@ -2807,7 +2807,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Set Var_01 to 1
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
 REACTIVE RULES:
   None
 
@@ -2820,7 +2820,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Thread, Sonic Wave, Image (enemy magic))
+      Turn #1: random(Web, Dischord, Image (enemy magic))
       Turn #2: random(Magnet, Encircle, Physical attack)
 REACTIVE RULES:
   None
@@ -2948,7 +2948,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: Physical attack
-      Turn #2: random(Physical attack, Physical attack, Dynamo)
+      Turn #2: random(Physical attack, Physical attack, Reverse Polarity)
       Turn #3: random(Physical attack, Physical attack, Special ability)
 REACTIVE RULES:
   Rule #1:
@@ -3124,7 +3124,7 @@ ACTIVE RULES:
                Nothing
       Turn #3: Consecutive actions:
                  Forcefully change target(s) to the enemy in slot #2
-                 Ability: Kurururu
+                 Ability: Ribbit
                  Ability: Darkness
 REACTIVE RULES:
   None
@@ -3198,7 +3198,7 @@ REACTIVE RULES:
     Conditions:
       Hit by any spell
     Actions:
-      Ability: Self Destruct
+      Ability: Self-Destruct
 
 ----------------------------------------
 
@@ -3211,7 +3211,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Physical attack, Physical attack, Special ability)
       Turn #2: Forcefully change target(s) to a random dead party member
-               Ability: Dance Of The Dead
+               Ability: Dance Macabre
       Turn #3: random(Physical attack, Physical attack, Special ability)
 REACTIVE RULES:
   None
@@ -3302,7 +3302,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Hug, Ponds Chorus, Nothing)
+      random(Hug, Pond's Chorus, Nothing)
 
 ----------------------------------------
 
@@ -3319,7 +3319,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Dynamo, Allure, Nothing)
+      random(Reverse Polarity, Entice, Nothing)
 
 ----------------------------------------
 
@@ -3337,7 +3337,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Dance Of The Dead, Lilliputian Lyric, Nothing)
+      random(Dance Macabre, Lilliputian Lyric, Nothing)
 
 ----------------------------------------
 
@@ -3369,7 +3369,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Thread, Special ability)
+      Turn #1: random(Physical attack, Web, Special ability)
       Turn #2: Ability: Physical attack
 REACTIVE RULES:
   Rule #1:
@@ -3387,7 +3387,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(Physical attack, Demon Eye (enemy magic), Special ability)
+      Turn #1: random(Physical attack, Evil Eye (enemy magic), Special ability)
   Default rule:
     Conditions:
       Unconditional
@@ -3464,7 +3464,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Nothing
-      Turn #2: random(Osmose, Ponds Chorus, Nothing)
+      Turn #2: random(Osmose, Pond's Chorus, Nothing)
       Turn #3: Ability: Physical attack
       Turn #4: random(Drain, Lilliputian Lyric, Nothing)
 REACTIVE RULES:
@@ -3556,7 +3556,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(Atomic Ray, Frost, Electric Shock)
+      Turn #1: random(Atomic Ray, Frost, Electrocute)
   Default rule:
     Conditions:
       Unconditional
@@ -3637,7 +3637,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Physical attack, Special ability)
-      Turn #2: random(Physical attack, Dynamo, Special ability)
+      Turn #2: random(Physical attack, Reverse Polarity, Special ability)
 REACTIVE RULES:
   None
 
@@ -3707,7 +3707,7 @@ REACTIVE RULES:
     Conditions:
       HP damage just taken
     Actions:
-      random(Demon Eye (enemy magic), Sonic Wave, Nothing)
+      random(Evil Eye (enemy magic), Dischord, Nothing)
 
 ----------------------------------------
 
@@ -4090,7 +4090,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Ability: Ponds Chorus
+                 Ability: Pond's Chorus
                  Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
@@ -4208,7 +4208,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Off Guard, Special ability)
+      Turn #1: random(Physical attack, Off-Guard, Special ability)
 REACTIVE RULES:
   None
 
@@ -4252,7 +4252,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Sonic Wave, Level 3 Flare, Nothing)
+      Turn #1: random(Dischord, Level 3 Flare, Nothing)
 REACTIVE RULES:
   None
 
@@ -4495,8 +4495,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Special ability, Special ability)
-      Turn #2: random(Physical attack, Tailscrew, Special ability)
-      Turn #3: random(Physical attack, Tailscrew, Special ability)
+      Turn #2: random(Physical attack, Tail Screw, Special ability)
+      Turn #3: random(Physical attack, Tail Screw, Special ability)
 REACTIVE RULES:
   None
 
@@ -5102,7 +5102,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Nothing
       Turn #2: Nothing
-      Turn #3: random(Physical attack, Special ability, Self Destruct)
+      Turn #3: random(Physical attack, Special ability, Self-Destruct)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5217,7 +5217,7 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: random(Attack (enemy magic), Jump (enemy magic), Electric Shock)
+      Turn #1: random(Attack (enemy magic), Jump (enemy magic), Electrocute)
       Turn #2: random(Attack (enemy magic), Attack (enemy magic), Jump (enemy magic))
   Default rule:
     Conditions:
@@ -5488,7 +5488,7 @@ REACTIVE RULES:
       Consecutive actions:
         Display message: Gilgamesh:  Enkidou!
         Display message: "I'll leave the rest to you!
-        Ability: Reverse Polarity
+        Ability: Reverse Polarity 2
         Display message: "Enkidou...
         Display message: "Hey, don't leave me!!
         Nothing
@@ -5505,8 +5505,8 @@ ACTIVE RULES:
       Turn #1: random(Physical attack, Aera, Special ability)
       Turn #2: random(Vampire, Missile, Wind Slash)
       Turn #3: random(Physical attack, Physical attack, Special ability)
-      Turn #4: random(Vampire, Thread, Wind Slash)
-      Turn #5: random(Physical attack, Sonic Wave, White Wind)
+      Turn #4: random(Vampire, Web, Wind Slash)
+      Turn #5: random(Physical attack, Dischord, White Wind)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5721,9 +5721,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Firaga, Physical attack, Allure)
+      Turn #1: random(Firaga, Physical attack, Entice)
       Turn #2: random(Thundaga, Physical attack, Special ability)
-      Turn #3: random(Blizzaga, Allure, Special ability)
+      Turn #3: random(Blizzaga, Entice, Special ability)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5812,7 +5812,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Doom, Doom)
-      Turn #2: random(Dynamo, Dynamo, Special ability)
+      Turn #2: random(Reverse Polarity, Reverse Polarity, Special ability)
       Turn #3: random(Gravity 100, Gravity, Physical attack)
       Turn #4: random(Physical attack, Physical attack, Special ability)
       Turn #5: random(Earth Shaker, Earth Shaker, Physical attack)
@@ -5848,10 +5848,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Physical attack, Sonic Wave, Special ability)
-      Turn #2: random(Physical attack, Sonic Wave, Special ability)
-      Turn #3: random(Physical attack, Sonic Wave, Special ability)
-      Turn #4: random(Physical attack, Sonic Wave, Special ability)
+      Turn #1: random(Physical attack, Dischord, Special ability)
+      Turn #2: random(Physical attack, Dischord, Special ability)
+      Turn #3: random(Physical attack, Dischord, Special ability)
+      Turn #4: random(Physical attack, Dischord, Special ability)
       Turn #5: Ability: Stomach Acid
 REACTIVE RULES:
   Rule #1:
@@ -5869,7 +5869,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(Physical attack, Dance Of The Dead, Special ability)
+      Turn #1: random(Physical attack, Dance Macabre, Special ability)
   Default rule:
     Conditions:
       Unconditional
@@ -5934,7 +5934,7 @@ ACTIVE RULES:
       Turn #1: random(Missile, Flame Thrower, Nothing)
       Turn #2: random(Mustard Bomb, Wave Cannon, Nothing)
       Turn #3: random(Missile, Flame Thrower, Nothing)
-      Turn #4: random(Mustard Bomb, Dynamo, Nothing)
+      Turn #4: random(Mustard Bomb, Reverse Polarity, Nothing)
       Turn #5: Ability: Physical attack
 REACTIVE RULES:
   None
@@ -6068,7 +6068,7 @@ REACTIVE RULES:
       Hit by the unnamed script trigger spell
     Actions:
       Consecutive actions:
-        Ability: Allure
+        Ability: Entice
         Ability: Barrier Change
         Prepare to show/hide enemies:
           Relevant enemy slots: [#1, #2, #3, #4]
@@ -6179,7 +6179,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Physical attack, Physical attack, Nothing)
-      Turn #2: random(Snowstorm, Snowstorm, Nothing)
+      Turn #2: random(Ice Storm, Ice Storm, Nothing)
       Turn #3: random(Physical attack, Physical attack, Frost)
       Turn #4: random(Physical attack, Blizzaga, Physical attack)
 REACTIVE RULES:
@@ -6367,11 +6367,11 @@ ACTIVE RULES:
                  Ability: Meteor
       Turn #2: Consecutive actions:
                  Ability: Maelstrom
-                 Ability: Snowstorm
+                 Ability: Ice Storm
                  Ability: Aqua Breath
       Turn #3: Consecutive actions:
                  Ability: Frost
-                 Ability: Snowstorm
+                 Ability: Ice Storm
                  Ability: Aqua Breath
   Rule #2:
     Conditions:
@@ -6487,7 +6487,7 @@ ACTIVE RULES:
       Current HP < 20000
     Actions:
       Turn #1: random(Maelstrom, Maelstrom, Physical attack)
-      Turn #2: random(Snowstorm, Snowstorm, Physical attack)
+      Turn #2: random(Ice Storm, Ice Storm, Physical attack)
   Rule #4:
     Conditions:
       Current HP < 25000
@@ -6550,11 +6550,11 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: random(Physical attack, Dynamo, Special ability)
+      Turn #1: random(Physical attack, Reverse Polarity, Special ability)
       Turn #2: random(Physical attack, Physical attack, Dispel)
-      Turn #3: random(Physical attack, Dynamo, Special ability)
+      Turn #3: random(Physical attack, Reverse Polarity, Special ability)
       Turn #4: random(Physical attack, Physical attack, Haste)
-      Turn #5: random(Physical attack, Dynamo, Special ability)
+      Turn #5: random(Physical attack, Reverse Polarity, Special ability)
       Turn #6: random(Physical attack, Physical attack, Shell)
       Turn #7: Set Var_00 to 0
                Ability: Holy
@@ -6564,7 +6564,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Set Var_00 to 1
                Forcefully change target(s) to all party members
-               Ability: Kurururu
+               Ability: Ribbit
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -6767,9 +6767,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Tailscrew, Tailscrew, Physical attack)
-      Turn #2: random(Tailscrew, Tailscrew, Physical attack)
-      Turn #3: random(Tailscrew, Mucus, Physical attack)
+      Turn #1: random(Tail Screw, Tail Screw, Physical attack)
+      Turn #2: random(Tail Screw, Tail Screw, Physical attack)
+      Turn #3: random(Tail Screw, Mucus, Physical attack)
 REACTIVE RULES:
   None
 
@@ -6836,7 +6836,7 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: random(Level 3 Flare, Level 3 Flare, Dark Spark)
-      Turn #2: random(Level 3 Flare, Level 3 Flare, Off Guard)
+      Turn #2: random(Level 3 Flare, Level 3 Flare, Off-Guard)
       Turn #3: random(Level 3 Flare, Level 3 Flare, Goblin Punch)
       Turn #4: Set Var_00 to 0
                random(Level 3 Flare, Level 3 Flare, Mind Blast)
@@ -6871,7 +6871,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Aqua Breath, Aqua Breath, Aera)
       Turn #2: random(Aqua Breath, Aqua Breath, Flame Thrower)
-      Turn #3: random(Aqua Breath, Aqua Breath, Ponds Chorus)
+      Turn #3: random(Aqua Breath, Aqua Breath, Pond's Chorus)
       Turn #4: Set Var_00 to 0
                random(Aqua Breath, Aqua Breath, Missile)
   Rule #7:
@@ -6886,12 +6886,12 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 7
     Actions:
-      Turn #1: Ability: Self Destruct
+      Turn #1: Ability: Self-Destruct
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Dark Spark, Off Guard, Mind Blast)
+      Turn #1: random(Dark Spark, Off-Guard, Mind Blast)
       Turn #2: random(Doom, Roulette, Level 2 Old)
       Turn #3: random(Level 5 Death, Level 4 Graviga, Mighty Guard)
       Turn #4: random(Lilliputian Lyric, Flash, ????)
@@ -6942,7 +6942,7 @@ REACTIVE RULES:
       Nothing
   Rule #7:
     Conditions:
-      Hit by the Self Destruct spell
+      Hit by the Self-Destruct spell
     Actions:
       Display message: Learned Exploder!
       Set Var_00 to 7
@@ -6962,7 +6962,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Earth Shaker, Earth Shaker, Demon Eye (enemy magic))
+      Turn #1: random(Earth Shaker, Earth Shaker, Evil Eye (enemy magic))
       Turn #2: random(Physical attack, Earth Shaker, Special ability)
 REACTIVE RULES:
   None
@@ -7083,8 +7083,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Atomic Ray, Snowstorm, Physical attack)
-      Turn #2: random(Atomic Ray, Snowstorm, Physical attack)
+      Turn #1: random(Atomic Ray, Ice Storm, Physical attack)
+      Turn #2: random(Atomic Ray, Ice Storm, Physical attack)
       Turn #3: Forcefully change target(s) to all party members
                Ability: Mind Blast
       Turn #4: Ability: Wind Slash
@@ -7156,14 +7156,14 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: Display message: "Makes me kinda happy...
-               random(Hurricane, Physical attack, Ponds Chorus)
+               random(Hurricane, Physical attack, Pond's Chorus)
       Turn #2: Display message: Gilgamesh:  By the way...
                Display message: "Where's that jolly old man?
                Display message: Cara:  Exdeath...
                Display message: Gilgamesh:  ... I see...
                random(Time Slip, Physical attack, Special ability)
       Turn #3: Display message: Gilgamesh:  ...........
-               random(Sonic Wave, Physical attack, Lilliputian Lyric)
+               random(Dischord, Physical attack, Lilliputian Lyric)
       Turn #4: Display message: Gilgamesh:  OK, this is
                Display message: "the end of my warm-up!
                Display message: "Gilgamesh Change!!
@@ -7178,12 +7178,12 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Sonic Wave, Physical attack, Lilliputian Lyric)
+      Turn #1: random(Dischord, Physical attack, Lilliputian Lyric)
       Turn #2: random(Strange Dance, Physical attack, Special ability)
       Turn #3: random(Flash, Physical attack, Special ability)
-      Turn #4: random(Hurricane, Physical attack, Ponds Chorus)
+      Turn #4: random(Hurricane, Physical attack, Pond's Chorus)
       Turn #5: random(Time Slip, Physical attack, Special ability)
-      Turn #6: random(Rocket Punch, Physical attack, Ponds Chorus)
+      Turn #6: random(Rocket Punch, Physical attack, Pond's Chorus)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -7244,24 +7244,24 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  Display message: Apanda:  -shiver- -tremble-
                  Forcefully change target(s) to self
-                 Ability: Medicine
-                 Ability: Reverse Polarity
+                 Ability: Panacea
+                 Ability: Reverse Polarity 2
                  Set Var_00 to 0
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Thread, Magic Hammer, Physical attack)
+      Turn #1: random(Web, Magic Hammer, Physical attack)
       Turn #2: random(Physical attack, Confuse, Wind Slash)
-      Turn #3: random(Magic Hammer, Physical attack, Thread)
-      Turn #4: random(Sonic Wave, Wind Slash, Physical attack)
+      Turn #3: random(Magic Hammer, Physical attack, Web)
+      Turn #4: random(Dischord, Wind Slash, Physical attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by the Ifrit spell
     Actions:
       Consecutive actions:
-        Ability: Reverse Polarity
+        Ability: Reverse Polarity 2
         Display message: Apanda:  Eek eek it's Ifrit
         Set Var_00 to 1
         Nothing
@@ -7465,12 +7465,12 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: random(Maelstrom, Physical attack, Roulette)
-      Turn #2: random(Snowstorm, Atomic Ray, Lightning)
+      Turn #2: random(Ice Storm, Atomic Ray, Lightning)
       Turn #3: Consecutive actions:
                  random(Maelstrom, Physical attack, Roulette)
                  random(Mighty Guard, Level 2 Old, Level 3 Flare)
       Turn #4: Consecutive actions:
-                 random(Physical attack, Physical attack, Demon Eye (enemy magic))
+                 random(Physical attack, Physical attack, Evil Eye (enemy magic))
                  random(Physical attack, Physical attack, Poison Breath)
   Default rule:
     Conditions:
@@ -7706,7 +7706,7 @@ ACTIVE RULES:
       Turn #1: Display message: Gilgamesh:  You're pretty good!
                Display message: "You can even defeat...
                Display message: "The great Gilgamesh?!
-               Ability: Reverse Polarity
+               Ability: Reverse Polarity 2
       Turn #2: Display message: Gilgamesh:  Cara!
                Display message: "Your grandfather...
                Display message: "He was a strong man!
@@ -7727,7 +7727,7 @@ REACTIVE RULES:
         Display message: Gilgamesh:  That's...!
         Display message: "my line!!
         Forcefully change target(s) to the enemy in slot #1
-        Ability: Self Destruct
+        Ability: Self-Destruct
         Ability: Terminate
 
 ----------------------------------------

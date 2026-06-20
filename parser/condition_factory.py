@@ -59,7 +59,7 @@ class ConditionFactory():
                     return LoneEnemyCondition(second_byte=second_byte, third_byte=third_byte, fourth_byte=fourth_byte)
                 case ConditionCode.ENEMY_SLOTS:
                     return EnemySlotsCondition(match_type=MatchType(second_byte), third_byte=third_byte, mask=fourth_byte)
-                case ConditionCode.HIT_BY_COMMAND | ConditionCode.HIT_BY_COMMAND_CLASS:
+                case ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT | ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY:
                     return HitByCommandCondition(condition_code=ConditionCode(condition_code), match_type=MatchType(second_byte), command=Command(third_byte), elemental_mask=fourth_byte)
                 case ConditionCode.HIT_BY_SPELL:
                     return HitByExactSpellCondition(match_type=MatchType(second_byte), spell=Ability(third_byte), fourth_byte=fourth_byte)

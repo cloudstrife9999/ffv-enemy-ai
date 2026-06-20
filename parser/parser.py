@@ -107,7 +107,7 @@ class EnemyAIParser():
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.VAR_CHECK and Variable.is_valid_var_id(current_byte):
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
-        elif condition_code in (ConditionCode.HIT_BY_COMMAND, ConditionCode.HIT_BY_COMMAND_CLASS) and Command.is_valid_command_id(current_byte):
+        elif condition_code in (ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT, ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY) and Command.is_valid_command_id(current_byte):
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.HIT_BY_SPELL and Ability.is_valid_ability_id(current_byte):
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
@@ -432,7 +432,7 @@ class EnemyAIParser():
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.VAR_CHECK and Variable.is_valid_var_id(current_byte):
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
-        elif condition_code in (ConditionCode.HIT_BY_COMMAND, ConditionCode.HIT_BY_COMMAND_CLASS) and Command.is_valid_command_id(current_byte):
+        elif condition_code in (ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT, ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY) and Command.is_valid_command_id(current_byte):
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.HIT_BY_SPELL and Ability.is_valid_ability_id(current_byte):
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
@@ -751,7 +751,7 @@ class EnemyAIParser():
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.VAR_CHECK and Variable.is_valid_var_id(current_byte):
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
-        elif condition_code in (ConditionCode.HIT_BY_COMMAND, ConditionCode.HIT_BY_COMMAND_CLASS) and Command.is_valid_command_id(current_byte):
+        elif condition_code in (ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT, ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY) and Command.is_valid_command_id(current_byte):
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.HIT_BY_SPELL and Ability.is_valid_ability_id(current_byte):
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)

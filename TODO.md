@@ -37,3 +37,12 @@
 ## [parser/enums/ability.py](parser/enums/ability.py)
 
 - Line 5: # TODO: Complete migrating to GBA version names.
+- Line 238: ENEMY_MAGIC_REVERSE_POLARITY_2 = 0xE7  # TODO: find out what this is.
+
+## [parser/conditions/hit_by_command_condition.py](parser/conditions/hit_by_command_condition.py)
+
+- Line 10: # TODO: split this class into two separate classes: one for HIT_BY_COMMAND_WITH_ELEMENT and one for HIT_BY_COMMAND_WITH_CATEGORY, since they have different semantics.
+
+## [parser/conditions/lone_enemy_condition.py](parser/conditions/lone_enemy_condition.py)
+
+- Line 7: # TODO: the third byte is the count of enemies (other than this enemy) for this condition to be true.

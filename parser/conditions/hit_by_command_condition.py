@@ -7,11 +7,12 @@ from ..enums.command import Command
 from ..enums.element import Element
 
 
+# TODO: split this class into two separate classes: one for HIT_BY_COMMAND_WITH_ELEMENT and one for HIT_BY_COMMAND_WITH_CATEGORY, since they have different semantics.
 class HitByCommandCondition(AIRuleCondition):
     def __init__(self, condition_code: ConditionCode, match_type: MatchType, command: Command, elemental_mask: int) -> None:
         super().__init__(condition_code.value, match_type.value, command.value, elemental_mask)
 
-        if condition_code not in [ConditionCode.HIT_BY_COMMAND, ConditionCode.HIT_BY_COMMAND_CLASS]:
+        if condition_code not in [ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT, ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY]:
             raise ValueError(f"Invalid condition code for HitByCommandCondition: {condition_code}.")
 
     @property
