@@ -3,7 +3,7 @@ from typing import override
 
 
 # TODO: this only works for the SNES version. The GBA version has a different table/order.
-class PartyMemberPropertyTable(IntEnum):
+class StatsAndPropertiesTable(IntEnum):
     ROW = 0x00
     JOB = 0x01
     LEVEL = 0x02
@@ -44,7 +44,7 @@ class PartyMemberPropertyTable(IntEnum):
     BASE_AGILITY = 0x25
     BASE_STAMINA = 0x26
     BASE_MAGIC = 0x27
-    EQUIPPED_STRENGth = 0x28
+    EQUIPPED_STRENGTH = 0x28
     EQUIPPED_AGILITY = 0x29
     EQUIPPED_STAMINA = 0x2A
     EQUIPPED_MAGIC = 0x2B

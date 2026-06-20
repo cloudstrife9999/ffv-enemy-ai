@@ -19,5 +19,5 @@ class DarkArts(IntEnum):
         return self.name.replace("_", " ").title()
 
     @classmethod
-    def is_valid_ability_id(cls, value: int) -> bool:
+    def is_valid_id(cls, value: int) -> bool:
         return value in cls._value2member_map_

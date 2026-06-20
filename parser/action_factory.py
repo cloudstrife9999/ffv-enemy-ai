@@ -8,16 +8,16 @@ from .actions.display_message_action import DisplayMessageAction
 from .actions.no_interrupt_action import NoInterruptAction
 from .actions.full_screen_effect_action import FullScreenEffectAction
 from .actions.set_global_event_flag_action import SetGlobalEventFlagAction
-from .actions.set_stats_or_toggle_status_action import SetStatsOrToggleStatusAction
+from .actions.toggle_status_action import ToggleStatusAction
 from .actions.gba_random_selection_action import GBARandomSelectionAction
 from .actions.random_selection_action import RandomSelectionAction
 from .actions.ai_command_action import AICommandAction
 from .enums.action_code import ActionCode
-from .enums.ability import Ability
+from .ability import Ability
 from .enums.target import Target
 from .enums.variable import Variable
 from .enums.global_event_table import GlobalEventTable
-from .enums.party_member_offset import PartyMemberPropertyTable
+from .enums.stats_and_properties_table import StatsAndPropertiesTable
 
 
 class ActionFactory():
@@ -62,7 +62,7 @@ class ActionFactory():
             case ActionCode.SET_GLOBAL_EVENT_FLAG:
                 return SetGlobalEventFlagAction(global_event_table_number=GlobalEventTable(second_byte), mask=third_byte)
             case ActionCode.SET_STATS_OR_TOGGLE_STATUS:
-                return SetStatsOrToggleStatusAction(property_table=PartyMemberPropertyTable(second_byte), mask=third_byte)
+                return ToggleStatusAction(property_table=StatsAndPropertiesTable(second_byte), mask=third_byte)
             case _:
                 raise ValueError(f"Unknown three-byte action code: {action_code:#04x}.")
 
@@ -77,7 +77,7 @@ class ActionFactory():
             case ActionCode.GBA_RANDOM_SELECTION:
                 return GBARandomSelectionAction(first_choice=SimpleAction(second_byte), second_choice=SimpleAction(third_byte), third_choice=SimpleAction(fourth_byte))
             case ActionCode.RANDOM_SELECTION | ActionCode.AI_COMMAND:
-                if all(Ability.is_valid_ability_id(byte) for byte in (second_byte, third_byte, fourth_byte)):
+                if all(Ability.is_valid_non_dark_arts_id(byte) for byte in (second_byte, third_byte, fourth_byte)):
                     return RandomSelectionAction(first_choice=SimpleAction(second_byte), second_choice=SimpleAction(third_byte), third_choice=SimpleAction(fourth_byte))
                 else:
                     return AICommandAction(sub_action=ActionFactory.create_action([second_byte, third_byte, fourth_byte], battle_text))

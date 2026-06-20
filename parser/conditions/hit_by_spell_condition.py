@@ -3,11 +3,12 @@ from typing import Any, override
 from .condition import AIRuleCondition
 from ..enums.condition_code import ConditionCode
 from ..enums.match import MatchType
-from ..enums.ability import Ability
+from ..enums.abilities.enemy_abilities import EnemyAbilities
+from ..ability import Ability, GenericAbility
 
 
 class HitByExactSpellCondition(AIRuleCondition):
-    def __init__(self, match_type: MatchType, spell: Ability, fourth_byte: int) -> None:
+    def __init__(self, match_type: MatchType, spell: GenericAbility, fourth_byte: int) -> None:
         super().__init__(ConditionCode.HIT_BY_SPELL.value, match_type.value, spell.value, fourth_byte)
 
     @property
@@ -20,8 +21,8 @@ class HitByExactSpellCondition(AIRuleCondition):
         return MatchType(self.raw_second_byte)
 
     @property
-    def spell(self) -> Ability:
-        return Ability(self.raw_third_byte)
+    def spell(self) -> GenericAbility:
+        return Ability.from_id(self.raw_third_byte)
 
     @override
     def to_json(self) -> str | dict[str, Any]:
@@ -36,11 +37,11 @@ class HitByExactSpellCondition(AIRuleCondition):
     def to_compact_representation(self, indent: int) -> list[str]:
         spell_name: str = str(self.spell)
 
-        if self.match_type == MatchType.MATCH and self.spell is Ability.SCRIPT_TRIGGER:
+        if self.match_type == MatchType.MATCH and self.spell is EnemyAbilities.UNNAMED_SCRIPT_TRIGGER:
             return [f"{" " * indent}Hit by the unnamed script trigger spell"]
         elif self.match_type == MatchType.MATCH:
             return [f"{" " * indent}Hit by the {spell_name} spell"]
-        elif self.match_type == MatchType.NO_MATCH and self.spell is Ability.SCRIPT_TRIGGER:
+        elif self.match_type == MatchType.NO_MATCH and self.spell is EnemyAbilities.UNNAMED_SCRIPT_TRIGGER:
             return [f"{" " * indent}Hit by a spell other than the unnamed script trigger"]
         elif self.match_type == MatchType.NO_MATCH:
             return [f"{" " * indent}Hit by a spell other than {spell_name}"]

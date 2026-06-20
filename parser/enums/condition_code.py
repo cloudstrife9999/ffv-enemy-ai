@@ -14,7 +14,7 @@ class ConditionCode(IntEnum):
     HIT_BY_SPELL = 0x08
     HIT_BY_ITEM = 0x09
     TARGET_COUNT = 0x0A
-    PARTY_MEMBER_PARAMETER = 0x0B
+    STAT_OR_PROPERTY = 0x0B
     COMPARE_WITH_A2 = 0x0C
     GLOBAL_EVENT_FLAGS = 0x0D
     HP_DAMAGE_JUST_TAKEN = 0x0E
@@ -48,8 +48,8 @@ class ConditionCode(IntEnum):
                 return "Hit by item"
             case ConditionCode.TARGET_COUNT:
                 return "Target count"
-            case ConditionCode.PARTY_MEMBER_PARAMETER:
-                return "Party member parameter"
+            case ConditionCode.STAT_OR_PROPERTY:
+                return "Stat or property"
             case ConditionCode.COMPARE_WITH_A2:
                 return "Compare with A2"
             case ConditionCode.GLOBAL_EVENT_FLAGS:
@@ -143,7 +143,7 @@ class ConditionCode(IntEnum):
             ConditionCode.ENEMY_SLOTS,  # Multiple slots can be checked by using a bitmask in the fourth byte.
             ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT,  # Multiple elements can be checked by using a bitmask in the fourth byte.
             ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY,  # Multiple categories can be checked by using a bitmask in the fourth byte.
-            ConditionCode.PARTY_MEMBER_PARAMETER,
+            ConditionCode.STAT_OR_PROPERTY,
             ConditionCode.COMPARE_WITH_A2,
             ConditionCode.GLOBAL_EVENT_FLAGS  # Multiple flags can be checked by using a bitmask in the fourth byte.
         }

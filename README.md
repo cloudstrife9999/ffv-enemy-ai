@@ -35,22 +35,22 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: random(Maelstrom, Physical attack, Roulette)
-      Turn #2: random(Snowstorm, Atomic Ray, Lightning)
+      Turn #1: random(Maelstrom, !Attack, Roulette)
+      Turn #2: random(Ice Storm, Atomic Ray, Lightning)
       Turn #3: Consecutive actions:
-                 random(Maelstrom, Physical attack, Roulette)
+                 random(Maelstrom, !Attack, Roulette)
                  random(Mighty Guard, Level 2 Old, Level 3 Flare)
-               Consecutive actions:
-                 random(Physical attack, Physical attack, Demon Eye (enemy magic))
-                 random(Physical attack, Physical attack, Poison Breath)
+      Turn #4: Consecutive actions:
+                 random(!Attack, !Attack, Evil Eye)
+                 random(!Attack, !Attack, Poison Breath)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Nothing
+      Turn #1: [Stay idle]
       Turn #2: Consecutive actions:
                  Set Var_00 to 1
-                 Ability: Tidal Wave (enemy magic)
+                 Ability: Tidal Wave
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -63,5 +63,5 @@ REACTIVE RULES:
       Current HP < 20000
       HP damage just taken
     Actions:
-      random(Unnamed script trigger, Nothing, Nothing)
+      random([Unnamed script trigger], [Stay idle], [Stay idle])
 ```

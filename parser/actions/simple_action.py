@@ -1,8 +1,9 @@
 from typing import Any, override
 
 from .action import AIRuleAction
-from ..enums.ability import Ability
-from ..enums.dark_arts import DarkArts
+from ..ability import Ability, GenericAbility
+from ..enums.abilities.dark_arts import DarkArts
+from ..enums.abilities.enemy_abilities import EnemyAbilities
 
 
 class SimpleAction(AIRuleAction):
@@ -13,10 +14,10 @@ class SimpleAction(AIRuleAction):
             raise ValueError(f"Invalid action code: {action_code:#04x}. It must be between 0x00 and 0xFC (inclusive).")
 
     @property
-    def action(self) -> Ability | DarkArts:
-        if Ability.is_valid_ability_id(self.raw_action_code):
-            return Ability(self.raw_action_code)
-        elif DarkArts.is_valid_ability_id(self.raw_action_code):
+    def action(self) -> GenericAbility:
+        if Ability.is_valid_id(self.raw_action_code):
+            return Ability.from_id(self.raw_action_code)
+        elif DarkArts.is_valid_id(self.raw_action_code):
             return DarkArts(self.raw_action_code)
         else:
             raise ValueError(f"Invalid action code: {self.raw_action_code:#04x}")
@@ -31,7 +32,7 @@ class SimpleAction(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        if self.action is Ability.NOTHING:
-            return [f"{" " * indent}Nothing"]
+        if self.action is EnemyAbilities.UNNAMED_STAY_IDLE:
+            return [f"{" " * indent}{str(self.action)}"]
         else:
             return [f"{" " * indent}Ability: {str(self.action)}"]

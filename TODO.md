@@ -1,5 +1,9 @@
 # TODO List
 
+## [parser/special_abilities.py](parser/special_abilities.py)
+
+- Line 1: # TODO: implement this class binding enemy codes/names to special abilities names.
+
 ## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
 
 - Line 41: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
@@ -12,7 +16,7 @@
 
 - Line 7: # TODO: Find out the mapping between the second and third bytes and the actual full screen effect that is applied. For now, just store the raw values.
 
-## [parser/enums/party_member_offset.py](parser/enums/party_member_offset.py)
+## [parser/enums/stats_and_properties_table.py](parser/enums/stats_and_properties_table.py)
 
 - Line 5: # TODO: this only works for the SNES version. The GBA version has a different table/order.
 - Line 138: return self.name.replace("_", " ").title()  # TODO: refine this.
@@ -26,6 +30,10 @@
 - Line 5: # TODO: migrate to GBA names.
 - Line 233: return self.name.replace("_", " ").title()  # TODO: refine this.
 
+## [parser/enums/target_count.py](parser/enums/target_count.py)
+
+- Line 6: # TODO: check if it is more fine-grained than the current representation.
+
 ## [parser/enums/action_code.py](parser/enums/action_code.py)
 
 - Line 21: return self.name.title().replace("_", " ")  # TODO: refine this.
@@ -34,10 +42,9 @@
 
 - Line 45: ENKIDU = 0x27  # TODO: check this.
 
-## [parser/enums/ability.py](parser/enums/ability.py)
+## [parser/enums/full_screen_effects.py](parser/enums/full_screen_effects.py)
 
-- Line 5: # TODO: Complete migrating to GBA version names.
-- Line 238: ENEMY_MAGIC_REVERSE_POLARITY_2 = 0xE7  # TODO: find out what this is.
+- Line 1: # TODO: implement this enum.
 
 ## [parser/conditions/hit_by_command_condition.py](parser/conditions/hit_by_command_condition.py)
 

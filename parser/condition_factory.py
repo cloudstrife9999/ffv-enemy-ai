@@ -9,7 +9,7 @@ from .conditions.hit_by_command_condition import HitByCommandCondition
 from .conditions.hit_by_spell_condition import HitByExactSpellCondition
 from .conditions.hit_by_item_condition import HitByExactItemCondition
 from .conditions.target_count_condition import TargetCountCondition
-from .conditions.party_member_parameter_condition import PartyMemberParameterCondition
+from .conditions.stat_or_property_condition import StatOrPropertyCondition
 from .conditions.a2_comparison import A2ComparisonCondition
 from .conditions.global_event_condition import GlobalEventCondition
 from .conditions.hp_damage_condition import HPDamageCondition
@@ -23,10 +23,10 @@ from .enums.status_table import StatusTable
 from .enums.match import MatchType
 from .enums.variable import Variable
 from .enums.command import Command
-from .enums.ability import Ability
+from .ability import Ability
 from .enums.item import Item
 from .enums.target_count import TargetCount
-from .enums.party_member_offset import PartyMemberPropertyTable
+from .enums.stats_and_properties_table import StatsAndPropertiesTable
 from .enums.global_event_table import GlobalEventTable
 
 
@@ -62,13 +62,13 @@ class ConditionFactory():
                 case ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT | ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY:
                     return HitByCommandCondition(condition_code=ConditionCode(condition_code), match_type=MatchType(second_byte), command=Command(third_byte), elemental_mask=fourth_byte)
                 case ConditionCode.HIT_BY_SPELL:
-                    return HitByExactSpellCondition(match_type=MatchType(second_byte), spell=Ability(third_byte), fourth_byte=fourth_byte)
+                    return HitByExactSpellCondition(match_type=MatchType(second_byte), spell=Ability.from_id(third_byte), fourth_byte=fourth_byte)
                 case ConditionCode.HIT_BY_ITEM:
                     return HitByExactItemCondition(match_type=MatchType(second_byte), item=Item(third_byte), fourth_byte=fourth_byte)
                 case ConditionCode.TARGET_COUNT:
                     return TargetCountCondition(target_count=TargetCount(second_byte), third_byte=third_byte, fourth_byte=fourth_byte)
-                case ConditionCode.PARTY_MEMBER_PARAMETER:
-                    return PartyMemberParameterCondition(target=Target(second_byte), property_table=PartyMemberPropertyTable(third_byte), expected_value=fourth_byte)
+                case ConditionCode.STAT_OR_PROPERTY:
+                    return StatOrPropertyCondition(target=Target(second_byte), property_table=StatsAndPropertiesTable(third_byte), expected_value=fourth_byte)
                 case ConditionCode.COMPARE_WITH_A2:
                     return A2ComparisonCondition(second_byte=second_byte, value_lsb=third_byte, value_msb=fourth_byte)
                 case ConditionCode.GLOBAL_EVENT_FLAGS:

@@ -4,11 +4,13 @@ from typing import override
 
 
 class TransformationFlags(IntEnum):
-    DO_NOT_TRANSFER_HP = 0x80
-    TRANSFER_HP = 0x7F
-    RANDOM_TARGET = 0x40
-    NON_RANDOM_TARGET = 0x3F
+    # Flags
+    DO_NOT_TRANSFER_HP = 0x80  # Bit 7 set.
+    TRANSFER_HP = 0x7F  # Bit 7 not set. Not a proper flag, but used to indicate that HP should be transferred to the newly shown enemy/enemies.
+    RANDOM_TARGET = 0x40  # Bit 6 set.
+    NON_RANDOM_TARGET = 0x3F  # Bit 6 not set. Not a proper flag, but used to indicate that all enemies from the specified slots should be shown.
 
+    # Transformation style bitmask (bits 3–0)
     NEO_EXDEATH_APPEARANCE = 0x0D
     MELUSINE_4_APPEARANCE = 0x0C
     MELUSINE_3_APPEARANCE = 0x0B
