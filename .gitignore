@@ -9,3 +9,4 @@ res/roms/
 science.py
 test.txt
 extractor.py
+dialog_extractor.py

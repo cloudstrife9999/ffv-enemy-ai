@@ -12,11 +12,15 @@
         "0x00246442"
     ],
     "battle_text": [
-        "0x",
+        "0x003A6BBD",
         "0x"
     ],
     "battle_pointers": [
         "0x",
+        "0x"
+    ],
+    "special_ability_offsets": [
+        "0x00146D44",
         "0x"
     ]
 }

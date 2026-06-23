@@ -6,7 +6,7 @@
 
 ## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
 
-- Line 41: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
+- Line 43: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
 
 ## [parser/actions/ai_command_action.py](parser/actions/ai_command_action.py)
 

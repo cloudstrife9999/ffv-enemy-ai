@@ -59,7 +59,7 @@ class Special(IntEnum):
     COUNTER = 0x35
     VACUUM_WAVE = 0x36
     KNIFE = 0x37 #
-    VACUUM_WAVE_2 = 0x38  # Exclusive to Neo Exdeath's back part
+    VACUUM_WAVE_2 = 0x38  # Exclusive to Neo Exdeath's back part, Enuo (1st form, right hand, and left hand), and Necrophobia (Cloister of the Dead).
     UNUSED_0X39 = 0x39
     UNUSED_0X3A = 0x3A
     SILVER_POWDER = 0x3B
