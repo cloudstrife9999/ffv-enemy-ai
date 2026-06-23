@@ -8,11 +8,12 @@ from .condition_factory import ConditionFactory
 from .action_factory import ActionFactory
 
 class EnemyAIRule():
-    def __init__(self) -> None:
+    def __init__(self, enemy_special_ability: str) -> None:
         self.__tokens: list[list[int]] = []
         self.__conditions: list[AIRuleCondition] = []
         self.__actions: list[AIRuleAction] = []
         self.__current_no_interrupt_action: Optional[AICommandAction] = None
+        self.__enemy_special_ability: str = enemy_special_ability
 
     def add_condition(self, tokens: list[int]) -> None:
         self.__tokens.append(tokens)
@@ -27,7 +28,7 @@ class EnemyAIRule():
     def add_action(self, tokens: list[int], battle_text: dict[int, dict[int, str]]) -> None:
         self.__tokens.append(tokens)
 
-        action: AIRuleAction = ActionFactory.create_action(tokens, battle_text)
+        action: AIRuleAction = ActionFactory.create_action(tokens, battle_text, self.__enemy_special_ability)
 
         is_no_interrupt_action: bool = isinstance(action, AICommandAction) and isinstance(action.sub_action, NoInterruptAction)
 

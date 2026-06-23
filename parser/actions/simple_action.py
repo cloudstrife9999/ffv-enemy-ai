@@ -7,8 +7,10 @@ from ..enums.abilities.enemy_abilities import EnemyAbilities
 
 
 class SimpleAction(AIRuleAction):
-    def __init__(self, action_code: int) -> None:
-        super().__init__(action_code, optional_second_byte=None, optional_third_byte=None, optional_fourth_byte=None)
+    def __init__(self, action_code: int, enemy_special_ability: str) -> None:
+        super().__init__(action_code,  optional_second_byte=None, optional_third_byte=None, optional_fourth_byte=None)
+
+        self.__enemy_special_ability: str = enemy_special_ability
 
         if not (0x00 <= action_code <= 0xFC):
             raise ValueError(f"Invalid action code: {action_code:#04x}. It must be between 0x00 and 0xFC (inclusive).")
@@ -34,5 +36,7 @@ class SimpleAction(AIRuleAction):
     def to_compact_representation(self, indent: int) -> list[str]:
         if self.action is EnemyAbilities.UNNAMED_STAY_IDLE:
             return [f"{" " * indent}{str(self.action)}"]
+        elif self.action is EnemyAbilities.UNNAMED_SPECIAL_ABILITY:
+            return [f"{" " * indent}Special: {self.__enemy_special_ability}"]
         else:
             return [f"{" " * indent}Ability: {str(self.action)}"]

@@ -18,7 +18,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Needle)
 REACTIVE RULES:
   None
 
@@ -31,7 +31,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Incisor)
 REACTIVE RULES:
   None
 
@@ -44,7 +44,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Tail)
 REACTIVE RULES:
   None
 
@@ -58,7 +58,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(Vampire, !Attack, [Special ability])
+      Turn #2: random(Vampire, !Attack, Special: Claw)
 REACTIVE RULES:
   None
 
@@ -71,7 +71,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], !Attack)
+      Turn #1: random(!Attack, Special: Pincer, !Attack)
 REACTIVE RULES:
   None
 
@@ -110,7 +110,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Entangle, [Special ability])
+      Turn #1: random(!Attack, Entangle, Special: Tail)
 REACTIVE RULES:
   None
 
@@ -123,8 +123,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, [Special ability], Aero)
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: random(!Attack, Special: Critical Attack, Aero)
 REACTIVE RULES:
   None
 
@@ -137,8 +137,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random([Special ability], [Special ability], !Attack)
-      Turn #2: random([Special ability], !Attack, !Attack)
+      Turn #1: random(Special: Magic Stick, Special: Magic Stick, !Attack)
+      Turn #2: random(Special: Magic Stick, !Attack, !Attack)
       Turn #3: Forcefully change target(s) to all party members
                random(Fire, Blizzard, Thunder)
 REACTIVE RULES:
@@ -161,7 +161,7 @@ REACTIVE RULES:
       Hit by the Elixir item
     Actions:
       Display message: "Yay!! Yay!! Thanks!!
-      random(Flee, [Stay idle], [Stay idle])
+      random(Flee, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -172,13 +172,13 @@ ACTIVE RULES:
     Conditions:
       No female party members are targetable
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: Forcefully change target(s) to a random female party member
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Ten Arms)
 REACTIVE RULES:
   None
 
@@ -191,15 +191,15 @@ ACTIVE RULES:
     Conditions:
       No female party members are targetable
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: Forcefully change target(s) to a random female party member
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Eight Arms)
       Turn #2: Forcefully change target(s) to a random female party member
-               random(Electrocute, !Attack, [Special ability])
+               random(Electrocute, !Attack, Special: Eight Arms)
 REACTIVE RULES:
   None
 
@@ -218,7 +218,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random([Special ability], [Special ability], [Stay idle])
+      random(Special: Needle, Special: Needle, [Nothing])
 
 ----------------------------------------
 
@@ -230,7 +230,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Horn)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -248,7 +248,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random([Special ability], !Attack, !Attack)
+      Turn #2: random(Special: Rush, !Attack, !Attack)
 REACTIVE RULES:
   None
 
@@ -261,7 +261,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Body Slam)
 REACTIVE RULES:
   None
 
@@ -274,9 +274,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
-      Turn #3: [Stay idle]
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: [Nothing]
       Turn #4: Ability: Flee
 REACTIVE RULES:
   None
@@ -291,7 +291,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random([Special ability], !Attack, !Attack)
+      Turn #2: random(Special: Critical Attack, !Attack, !Attack)
 REACTIVE RULES:
   None
 
@@ -317,7 +317,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -335,7 +335,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Lick)
 REACTIVE RULES:
   None
 
@@ -361,7 +361,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Cat Scratch)
 REACTIVE RULES:
   None
 
@@ -375,7 +375,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, [Special ability], Beak)
+      Turn #2: random(!Attack, Special: Dive, Beak)
 REACTIVE RULES:
   None
 
@@ -388,7 +388,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Flash, [Special ability])
+      Turn #1: random(!Attack, Flash, Special: Corner)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -424,7 +424,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: random(!Attack, !Attack, Blizzard)
 REACTIVE RULES:
   None
@@ -471,7 +471,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Fin)
 REACTIVE RULES:
   None
 
@@ -499,7 +499,7 @@ REACTIVE RULES:
         Display message: "You fools!  The seal...
         Display message: "But the seal of my master
         Display message: "Still lives!!!
-        [Stay idle]
+        [Nothing]
   Rule #2:
     Conditions:
       Just before dying
@@ -509,23 +509,23 @@ REACTIVE RULES:
         Display message: "This is the end....
         Display message: "But the seal of my master
         Display message: "Still lives!!!
-        [Stay idle]
+        [Nothing]
   Rule #3:
     Conditions:
       Current HP < 800
       HP damage just taken
     Actions:
-      random(Drain, Drain, [Stay idle])
+      random(Drain, Drain, [Nothing])
   Rule #4:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(Protect, [Stay idle], [Stay idle])
+      random(Protect, [Nothing], [Nothing])
   Rule #5:
     Conditions:
       Hit by any spell
     Actions:
-      random(Toad, [Stay idle], [Stay idle])
+      random(Toad, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -536,7 +536,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Feeler)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   None
@@ -550,7 +550,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -564,7 +564,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(!Attack, !Attack, ????)
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Bite)
 REACTIVE RULES:
   None
 
@@ -577,7 +577,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   None
@@ -604,7 +604,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Tail)
   Rule #2:
     Conditions:
       Current HP < 300
@@ -645,7 +645,7 @@ REACTIVE RULES:
       Display message: Ramuh:  Stop, Ifrit!
       Display message: "This isn't between us!
       Mark the following global events as true: ['Ramuh Defeated']
-      [Stay idle]
+      [Nothing]
   Rule #2:
     Conditions:
       Hit by the Mini spell
@@ -667,7 +667,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Sap)
 REACTIVE RULES:
   None
 
@@ -680,7 +680,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Lick)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   None
@@ -694,7 +694,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Gamma Ray, [Special ability])
+      Turn #1: random(!Attack, Gamma Ray, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -735,7 +735,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -800,7 +800,7 @@ REACTIVE RULES:
     Conditions:
       Hit by the unnamed script trigger spell
     Actions:
-      Ability: [Special ability]
+      Special: Bite
 
 ----------------------------------------
 
@@ -812,14 +812,14 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Aera, !Attack, !Attack)
-      Turn #2: random(Aera, !Attack, [Special ability])
+      Turn #2: random(Aera, !Attack, Special: Elbow)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       HP damage just taken
     Actions:
       Forcefully change target(s) to all party members
-      random(Aero, Aero, [Stay idle])
+      random(Aero, Aero, [Nothing])
 
 ----------------------------------------
 
@@ -925,7 +925,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Blaze, Fira, Fira)
-      Turn #2: random(Blaze, !Attack, [Special ability])
+      Turn #2: random(Blaze, !Attack, Special: High Kick)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -934,7 +934,7 @@ REACTIVE RULES:
       Display message: Ifrit:  You are strong...!
       Display message: "I have decided to grant my
       Display message: "powers to you...
-      [Stay idle]
+      [Nothing]
 
 ----------------------------------------
 
@@ -946,7 +946,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, [Special ability], Self-Destruct)
+      Turn #2: random(!Attack, Special: Body Slam, Self-Destruct)
 REACTIVE RULES:
   None
 
@@ -961,7 +961,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Ability: !Attack
       Turn #2: Ability: [Flip sprite horizontally]
-      Turn #3: Ability: [Special ability]
+      Turn #3: Special: Sap
       Turn #4: Ability: [Flip sprite horizontally]
 REACTIVE RULES:
   None
@@ -994,7 +994,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Sickle)
 REACTIVE RULES:
   None
 
@@ -1020,7 +1020,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Headbutt)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   Rule #1:
@@ -1053,7 +1053,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Missile, Mustard Bomb, Blaster)
-      Turn #2: random(!Attack, [Special ability], Flame Thrower)
+      Turn #2: random(!Attack, Special: Critical Attack, Flame Thrower)
 REACTIVE RULES:
   None
 
@@ -1066,7 +1066,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Aqua Breath, !Attack, [Special ability])
+      Turn #1: random(Aqua Breath, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1107,8 +1107,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Right Claw)
 REACTIVE RULES:
   None
 
@@ -1122,11 +1122,11 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Forcefully change target(s) to all party members
-               random(Blizzara, Fira, [Stay idle])
+               random(Blizzara, Fira, [Nothing])
       Turn #2: Forcefully change target(s) to all party members
-               random(Fira, Thundara, [Stay idle])
+               random(Fira, Thundara, [Nothing])
       Turn #3: Forcefully change target(s) to all party members
-               random(Thundara, Blizzara, [Stay idle])
+               random(Thundara, Blizzara, [Nothing])
 REACTIVE RULES:
   None
 
@@ -1140,9 +1140,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, [Special ability], [Stay idle])
+      Turn #2: random(!Attack, Special: Sling, [Nothing])
       Turn #3: Ability: !Attack
-      Turn #4: random(!Attack, !Attack, [Special ability])
+      Turn #4: random(!Attack, !Attack, Special: Sling)
 REACTIVE RULES:
   None
 
@@ -1156,8 +1156,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Special ability])
-      Turn #3: random(!Attack, [Special ability], [Stay idle])
+      Turn #2: random(!Attack, !Attack, Special: Corner)
+      Turn #3: random(!Attack, Special: Corner, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -1176,7 +1176,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Forcefully change target(s) to all party members
-               random(Aera, [Stay idle], [Stay idle])
+               random(Aera, [Nothing], [Nothing])
       Turn #2: random(Aera, !Attack, !Attack)
       Turn #3: Forcefully change target(s) to all enemies
                Ability: White Wind
@@ -1192,10 +1192,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
       Turn #2: Forcefully change target(s) to a random male party member
                Ability: Entice
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Slap)
 REACTIVE RULES:
   None
 
@@ -1208,8 +1208,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Stay idle], [Stay idle])
-      Turn #2: random(Pond S Chorus, !Attack, [Stay idle])
+      Turn #1: random(!Attack, [Nothing], [Nothing])
+      Turn #2: random(Pond S Chorus, !Attack, [Nothing])
       Turn #3: Ability: !Attack
       Turn #4: random(Pond S Chorus, !Attack, !Attack)
 REACTIVE RULES:
@@ -1224,7 +1224,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Rush)
       Turn #2: random(Lightning, !Attack, !Attack)
 REACTIVE RULES:
   None
@@ -1238,7 +1238,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Poison Breath, !Attack, [Special ability])
+      Turn #1: random(Poison Breath, !Attack, Special: Rush)
       Turn #2: random(Lightning, !Attack, !Attack)
 REACTIVE RULES:
   Rule #1:
@@ -1270,7 +1270,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(!Attack, !Attack, Berserk)
-      Turn #2: random(Death Claw, Death Claw, [Stay idle])
+      Turn #2: random(Death Claw, Death Claw, [Nothing])
 REACTIVE RULES:
   None
 
@@ -1309,7 +1309,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1336,7 +1336,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
   Rule #2:
     Conditions:
       Current HP < 300
@@ -1347,7 +1347,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1366,7 +1366,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Spear)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -1384,7 +1384,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Slimer, [Special ability])
+      Turn #1: random(!Attack, Slimer, Special: Ten Arms)
 REACTIVE RULES:
   None
 
@@ -1397,7 +1397,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Digestive Acid, [Special ability])
+      Turn #1: random(!Attack, Digestive Acid, Special: Critical Attack)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   None
@@ -1424,13 +1424,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Needle)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      Ability: [Special ability]
+      Special: Needle
 
 ----------------------------------------
 
@@ -1441,7 +1441,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Maelstrom, !Attack, [Special ability])
+      Turn #1: random(Maelstrom, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1454,8 +1454,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, Special: Knock Silly)
+      Turn #2: random(!Attack, !Attack, [Nothing])
       Turn #3: random(!Attack, !Attack, Zombie Breath)
 REACTIVE RULES:
   Rule #1:
@@ -1468,7 +1468,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      Ability: [Special ability]
+      Special: Knock Silly
 
 ----------------------------------------
 
@@ -1479,7 +1479,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Vampire, Vampire, [Stay idle])
+      Turn #1: random(Vampire, Vampire, [Nothing])
 REACTIVE RULES:
   None
 
@@ -1492,7 +1492,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Pincer)
 REACTIVE RULES:
   None
 
@@ -1505,7 +1505,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Eight Arms)
 REACTIVE RULES:
   None
 
@@ -1519,9 +1519,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, Breath Wing, [Special ability])
-      Turn #3: random(!Attack, !Attack, [Special ability])
-      Turn #4: random(!Attack, [Special ability], Frost)
+      Turn #2: random(!Attack, Breath Wing, Special: Wing Attack)
+      Turn #3: random(!Attack, !Attack, Special: Wing Attack)
+      Turn #4: random(!Attack, Special: Wing Attack, Frost)
 REACTIVE RULES:
   None
 
@@ -1534,7 +1534,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], Flee)
+      Turn #1: random(!Attack, Special: Incisor, Flee)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -1558,7 +1558,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Slimer, [Special ability])
+      Turn #1: random(!Attack, Slimer, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1571,7 +1571,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Entangle, [Special ability])
+      Turn #1: random(!Attack, Entangle, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1609,7 +1609,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1622,8 +1622,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, Earthquake, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: random(!Attack, Earthquake, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1636,8 +1636,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, Magic Hammer, [Special ability])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, Magic Hammer, Special: Axe)
 REACTIVE RULES:
   None
 
@@ -1650,7 +1650,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Bite)
 REACTIVE RULES:
   None
 
@@ -1663,8 +1663,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Bone, [Special ability])
-      Turn #2: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, Bone, Special: Tail)
+      Turn #2: random(!Attack, !Attack, [Nothing])
 REACTIVE RULES:
   None
 
@@ -1677,7 +1677,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Claw)
 REACTIVE RULES:
   None
 
@@ -1690,9 +1690,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
-      Turn #3: random(!Attack, Poison Breath, [Special ability])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #3: random(!Attack, Poison Breath, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1717,7 +1717,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Display message: Golem:  Help me!
-               [Stay idle]
+               [Nothing]
 REACTIVE RULES:
   None
 
@@ -1730,13 +1730,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(Flash, [Stay idle], [Stay idle])
+      random(Flash, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -1765,7 +1765,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Thrust)
 REACTIVE RULES:
   None
 
@@ -1778,7 +1778,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Time Slip, [Special ability])
+      Turn #1: random(!Attack, Time Slip, Special: Critical Attack)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   None
@@ -1792,7 +1792,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Level 4 Graviga, [Stay idle])
+      Turn #1: random(!Attack, Level 4 Graviga, [Nothing])
 REACTIVE RULES:
   None
 
@@ -1806,9 +1806,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, Gravity, [Special ability])
+      Turn #2: random(!Attack, Gravity, Special: Critical Attack)
       Turn #3: Ability: !Attack
-      Turn #4: random(!Attack, Graviga, [Special ability])
+      Turn #4: random(!Attack, Graviga, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1821,8 +1821,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Off-Guard, [Stay idle])
-      Turn #2: random(!Attack, Hurricane, [Special ability])
+      Turn #1: random(!Attack, Off-Guard, [Nothing])
+      Turn #2: random(!Attack, Hurricane, Special: Flying Knee)
 REACTIVE RULES:
   None
 
@@ -1835,7 +1835,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: Forcefully change target(s) to all non-self enemies
                Ability: Cura
 REACTIVE RULES:
@@ -1850,7 +1850,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -1863,8 +1863,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, Special: Critical Attack, [Nothing])
 REACTIVE RULES:
   None
 
@@ -1884,7 +1884,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Mark the following global events as true: ['Catoblepas Defeated']
-      [Stay idle]
+      [Nothing]
   Rule #2:
     Conditions:
       HP damage just taken
@@ -1901,8 +1901,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Osmose, [Stay idle], [Stay idle])
-      Turn #2: random(Osmose, Lilliputian Lyric, [Stay idle])
+      Turn #1: random(Osmose, [Nothing], [Nothing])
+      Turn #2: random(Osmose, Lilliputian Lyric, [Nothing])
       Turn #3: Ability: Lilliputian Lyric
 REACTIVE RULES:
   None
@@ -1916,7 +1916,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Spirit Blast)
       Turn #2: random(Rainbow Wind, !Attack, !Attack)
 REACTIVE RULES:
   None
@@ -1930,7 +1930,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: Forcefully change target(s) to a random non-self enemy
                Ability: Berserk
 REACTIVE RULES:
@@ -1945,7 +1945,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Confuse, !Attack, [Special ability])
+      Turn #1: random(Confuse, !Attack, Special: Sap)
 REACTIVE RULES:
   None
 
@@ -1958,8 +1958,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, Breath Wing, [Special ability])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, Breath Wing, Special: Tail)
 REACTIVE RULES:
   None
 
@@ -1974,7 +1974,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Ability: !Attack
       Turn #2: Ability: [Flip sprite horizontally]
-      Turn #3: Ability: [Special ability]
+      Turn #3: Special: Critical Attack
       Turn #4: Ability: [Flip sprite horizontally]
 REACTIVE RULES:
   None
@@ -1988,7 +1988,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Tusk)
 REACTIVE RULES:
   None
 
@@ -2001,7 +2001,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2020,11 +2020,11 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Forcefully change target(s) to a random enemy with the reflect status effect
-               random(Fira, Thunder, [Stay idle])
+               random(Fira, Thunder, [Nothing])
       Turn #2: Forcefully change target(s) to a random enemy with the reflect status effect
-               random(Blizzara, Fire, [Stay idle])
+               random(Blizzara, Fire, [Nothing])
       Turn #3: Forcefully change target(s) to a random enemy with the reflect status effect
-               random(Thundara, Blizzard, [Stay idle])
+               random(Thundara, Blizzard, [Nothing])
 REACTIVE RULES:
   None
 
@@ -2038,9 +2038,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(Aeroga, !Attack, [Special ability])
+      Turn #2: random(Aeroga, !Attack, Special: Critical Attack)
       Turn #3: Ability: !Attack
-      Turn #4: random(Off-Guard, Level 2 Old, [Stay idle])
+      Turn #4: random(Off-Guard, Level 2 Old, [Nothing])
 REACTIVE RULES:
   None
 
@@ -2053,15 +2053,15 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(Death, Break, [Stay idle])
-      Turn #2: random(Break, Banish, [Stay idle])
+      Turn #1: random(Death, Break, [Nothing])
+      Turn #2: random(Break, Banish, [Nothing])
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Confuse, Drain, [Stay idle])
-      Turn #2: random(Confuse, Stop, [Stay idle])
-      Turn #3: random(Drain, Slowga, [Stay idle])
+      Turn #1: random(Confuse, Drain, [Nothing])
+      Turn #2: random(Confuse, Stop, [Nothing])
+      Turn #3: random(Drain, Slowga, [Nothing])
 REACTIVE RULES:
   None
 
@@ -2074,7 +2074,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Tackle)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2100,9 +2100,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, [Special ability], !Attack)
+      Turn #2: random(!Attack, Special: Critical Attack, !Attack)
       Turn #3: Ability: !Attack
-      Turn #4: random(Blaster, [Special ability], !Attack)
+      Turn #4: random(Blaster, Special: Critical Attack, !Attack)
 REACTIVE RULES:
   None
 
@@ -2115,13 +2115,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random([Special ability], [Stay idle], [Stay idle])
+      random(Special: Counter, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -2138,8 +2138,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Frost, [Special ability])
-      Turn #2: random(!Attack, Ice Storm, [Special ability])
+      Turn #1: random(!Attack, Frost, Special: Critical Attack)
+      Turn #2: random(!Attack, Ice Storm, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2152,9 +2152,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Atomic Ray, [Special ability])
+      Turn #1: random(!Attack, Atomic Ray, Special: Critical Attack)
       Turn #2: random(!Attack, Atomic Ray, !Attack)
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2167,7 +2167,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Lightning, [Special ability])
+      Turn #1: random(!Attack, Lightning, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2180,7 +2180,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
   Default rule:
     Conditions:
       Unconditional
@@ -2198,7 +2198,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Berserk, !Attack, [Special ability])
+      Turn #1: random(Berserk, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2228,13 +2228,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Entangle, Vampire, [Stay idle])
+      random(Entangle, Vampire, [Nothing])
 
 ----------------------------------------
 
@@ -2245,8 +2245,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2259,7 +2259,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Aeroga, !Attack, [Special ability])
+      Turn #1: random(Aeroga, !Attack, Special: Left Jab)
 REACTIVE RULES:
   None
 
@@ -2285,14 +2285,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #1: [Nothing]
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       HP damage just taken
     Actions:
-      random(Vampire, [Stay idle], [Stay idle])
+      random(Vampire, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -2303,7 +2303,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Consecutive actions:
                  Display message: Metamorpha:  Change!!
                  Prepare to show/hide enemies:
@@ -2351,8 +2351,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, Special: Tail, [Nothing])
 REACTIVE RULES:
   None
 
@@ -2365,8 +2365,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, Special: Body Slam, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Body Slam)
 REACTIVE RULES:
   None
 
@@ -2379,10 +2379,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack, Attack, [Special ability])
+      Turn #1: random(Attack, Attack, Special: Sling)
       Turn #2: Consecutive actions:
-                 Ability: [Special ability]
-                 Ability: [Special ability]
+                 Special: Sling
+                 Special: Sling
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2391,7 +2391,7 @@ REACTIVE RULES:
       Display message: Sekmet:  Even if you defeat me...
       Display message: "My brother at the tower... Ugh!
       Mark the following global events as true: ['Sekhmet Defeated']
-      [Stay idle]
+      [Nothing]
 
 ----------------------------------------
 
@@ -2402,10 +2402,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, Special: Critical Attack, [Nothing])
       Turn #2: Forcefully change target(s) to Bartz
-               random(Entice, Entice, [Stay idle])
-      Turn #3: random(!Attack, 1000 Needles, [Stay idle])
+               random(Entice, Entice, [Nothing])
+      Turn #3: random(!Attack, 1000 Needles, [Nothing])
 REACTIVE RULES:
   None
 
@@ -2418,7 +2418,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, Special: Fin, [Nothing])
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   None
@@ -2432,8 +2432,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Off-Guard, [Stay idle])
-      Turn #2: random(Dark Spark, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, Off-Guard, [Nothing])
+      Turn #2: random(Dark Spark, Special: Corner, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2452,10 +2452,10 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Stay idle])
-      Turn #3: random(Poison Breath, !Attack, [Stay idle])
-      Turn #4: random(!Attack, !Attack, [Stay idle])
-      Turn #5: random(Zombie Breath, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, [Nothing])
+      Turn #3: random(Poison Breath, !Attack, [Nothing])
+      Turn #4: random(!Attack, !Attack, [Nothing])
+      Turn #5: random(Zombie Breath, !Attack, Special: Claw)
 REACTIVE RULES:
   None
 
@@ -2468,7 +2468,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Consecutive actions:
                  Display message: "Come forth!  Evil one!!
                  Prepare to show/hide enemies:
@@ -2516,7 +2516,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Slimer, !Attack, [Special ability])
+      Turn #1: random(Slimer, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2529,7 +2529,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Web, [Special ability])
+      Turn #1: random(!Attack, Web, Special: Needle)
 REACTIVE RULES:
   None
 
@@ -2544,7 +2544,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Forcefully change target(s) to all party members
                random(Fira, Moon Flute, Aero)
-      Turn #2: random(!Attack, [Special ability], !Attack)
+      Turn #2: random(!Attack, Special: Critical Attack, !Attack)
 REACTIVE RULES:
   None
 
@@ -2558,7 +2558,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Level 5 Death, Level 4 Graviga, Level 2 Old)
-      Turn #2: random(Level 3 Flare, !Attack, [Special ability])
+      Turn #2: random(Level 3 Flare, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2571,7 +2571,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Confuse, !Attack, [Special ability])
+      Turn #1: random(Confuse, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2584,7 +2584,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Dancehall Daze, [Special ability])
+      Turn #1: random(!Attack, Dancehall Daze, Special: Toe Kick)
 REACTIVE RULES:
   None
 
@@ -2597,7 +2597,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2610,7 +2610,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Mineuchi)
 REACTIVE RULES:
   None
 
@@ -2623,9 +2623,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Mini, Cura, [Stay idle])
-      Turn #2: random(Confuse, Shell, [Stay idle])
-      Turn #3: random(Libra, Dispel, [Stay idle])
+      Turn #1: random(Mini, Cura, [Nothing])
+      Turn #2: random(Confuse, Shell, [Nothing])
+      Turn #3: random(Libra, Dispel, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2643,8 +2643,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Graviga, Slow, Regen)
-      Turn #2: random(Float, Gravity, [Stay idle])
-      Turn #3: random(Comet, Slowga, [Stay idle])
+      Turn #2: random(Float, Gravity, [Nothing])
+      Turn #3: random(Comet, Slowga, [Nothing])
       Turn #4: random(Old, Banish, Hastega)
 REACTIVE RULES:
   Rule #1:
@@ -2662,7 +2662,7 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 2
     Actions:
-      Turn #1: random(Bone, Bone, [Special ability])
+      Turn #1: random(Bone, Bone, Special: Critical Attack)
   Rule #2:
     Conditions:
       No visible enemies in slots other than [#2]
@@ -2680,11 +2680,11 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: Forcefully change target(s) to the enemy in slot #1
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: Forcefully change target(s) to the enemy in slot #1
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Critical Attack)
       Turn #3: Forcefully change target(s) to the enemy in slot #1
-               random(!Attack, Bone, [Special ability])
+               random(!Attack, Bone, Special: Critical Attack)
   Default rule:
     Conditions:
       Unconditional
@@ -2703,11 +2703,11 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Poison, Toad, [Stay idle])
-      Turn #2: random(Fira, Thundara, [Stay idle])
-      Turn #3: random(Blizzara, Firaga, [Stay idle])
-      Turn #4: random(Bio, Break, [Stay idle])
-      Turn #5: random(Blizzaga, Thundaga, [Stay idle])
+      Turn #1: random(Poison, Toad, [Nothing])
+      Turn #2: random(Fira, Thundara, [Nothing])
+      Turn #3: random(Blizzara, Firaga, [Nothing])
+      Turn #4: random(Bio, Break, [Nothing])
+      Turn #5: random(Blizzaga, Thundaga, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2732,7 +2732,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      Ability: [Special ability]
+      Special: Counter
   Rule #2:
     Conditions:
       Hit by any spell
@@ -2753,7 +2753,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Tackle)
 REACTIVE RULES:
   None
 
@@ -2766,7 +2766,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2779,7 +2779,7 @@ ACTIVE RULES:
     Conditions:
       Variable Var_01 == 2
     Actions:
-      Turn #1: random(Poison Breath, Poison Breath, [Special ability])
+      Turn #1: random(Poison Breath, Poison Breath, Special: Critical Attack)
   Rule #2:
     Conditions:
       No visible enemies in slots other than [#3]
@@ -2797,11 +2797,11 @@ ACTIVE RULES:
       Variable Var_01 == 1
     Actions:
       Turn #1: Forcefully change target(s) to the enemy in slot #1
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: Forcefully change target(s) to the enemy in slot #1
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Critical Attack)
       Turn #3: Forcefully change target(s) to the enemy in slot #1
-               random(!Attack, Vampire, [Special ability])
+               random(!Attack, Vampire, Special: Critical Attack)
   Default rule:
     Conditions:
       Unconditional
@@ -2834,7 +2834,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Rush)
 REACTIVE RULES:
   None
 
@@ -2847,8 +2847,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Stay idle], [Stay idle])
-      Turn #2: random(!Attack, Break, [Stay idle])
+      Turn #1: random(!Attack, [Nothing], [Nothing])
+      Turn #2: random(!Attack, Break, [Nothing])
       Turn #3: random(!Attack, Break, Break)
 REACTIVE RULES:
   Rule #1:
@@ -2868,7 +2868,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Horn)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2885,7 +2885,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Frostbite, [Special ability])
+      Turn #1: random(!Attack, Frostbite, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2898,7 +2898,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Quicksand, [Special ability])
+      Turn #1: random(!Attack, Quicksand, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -2911,7 +2911,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Slimer, !Attack, [Special ability])
+      Turn #1: random(Slimer, !Attack, Special: Sap)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2930,13 +2930,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Digestive Acid, !Attack, [Special ability])
+      Turn #1: random(Digestive Acid, !Attack, Special: Sap)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Slimer, Entangle, [Stay idle])
+      random(Slimer, Entangle, [Nothing])
 
 ----------------------------------------
 
@@ -2949,13 +2949,13 @@ ACTIVE RULES:
     Actions:
       Turn #1: Ability: !Attack
       Turn #2: random(!Attack, !Attack, Reverse Polarity)
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Sap)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Spore, Spore, [Stay idle])
+      random(Spore, Spore, [Nothing])
 
 ----------------------------------------
 
@@ -2966,7 +2966,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Doom, !Attack, [Special ability])
+      Turn #1: random(Doom, !Attack, Special: Sap)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2983,7 +2983,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Vampire, [Special ability])
+      Turn #1: random(!Attack, Vampire, Special: Claw)
 REACTIVE RULES:
   None
 
@@ -2996,7 +2996,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Spore, [Special ability])
+      Turn #1: random(!Attack, Spore, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3010,9 +3010,9 @@ ACTIVE RULES:
       No visible enemies in slots other than [#5]
     Actions:
       Turn #1: Consecutive actions:
-                 Ability: [Special ability]
-                 Ability: [Special ability]
-                 Ability: [Special ability]
+                 Special: Knife
+                 Special: Knife
+                 Special: Knife
       Turn #2: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #2, #3, #4]
                  Behaviour:
@@ -3076,7 +3076,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Hose)
 REACTIVE RULES:
   None
 
@@ -3090,7 +3090,7 @@ ACTIVE RULES:
       Lone enemy
     Actions:
       Turn #1: Display message: Charging up!
-               [Stay idle]
+               [Nothing]
       Turn #2: Ability: [Strong Attack]
   Default rule:
     Conditions:
@@ -3102,7 +3102,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      Ability: [Special ability]
+      Special: Air Fist
 
 ----------------------------------------
 
@@ -3119,9 +3119,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Display message: "Narrrrrr Torrrrrr
-               [Stay idle]
+               [Nothing]
       Turn #2: Display message: "Kirrrrrr Sarrrrrr
-               [Stay idle]
+               [Nothing]
       Turn #3: Consecutive actions:
                  Forcefully change target(s) to the enemy in slot #2
                  Ability: Ribbit
@@ -3138,12 +3138,12 @@ ACTIVE RULES:
     Conditions:
       Affected by the Toad status
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Atomic Ray, [Special ability])
+      Turn #1: random(!Attack, Atomic Ray, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3156,7 +3156,7 @@ ACTIVE RULES:
     Conditions:
       Affected by the Toad status
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Default rule:
     Conditions:
       Unconditional
@@ -3174,12 +3174,12 @@ ACTIVE RULES:
     Conditions:
       Affected by the Toad status
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Bone, [Special ability])
+      Turn #1: random(!Attack, Bone, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3192,7 +3192,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -3209,10 +3209,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: High Kick)
       Turn #2: Forcefully change target(s) to a random dead party member
                Ability: Dance Macabre
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: High Kick)
 REACTIVE RULES:
   None
 
@@ -3225,7 +3225,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Aeroga, [Special ability])
+      Turn #1: random(!Attack, Aeroga, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3251,7 +3251,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Earthquake, [Special ability])
+      Turn #1: random(!Attack, Earthquake, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3264,12 +3264,12 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(!Attack, Digestive Acid, [Stay idle])
+      Turn #1: random(!Attack, Digestive Acid, [Nothing])
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
 REACTIVE RULES:
   None
 
@@ -3282,7 +3282,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Maelstrom, [Special ability])
+      Turn #1: random(!Attack, Maelstrom, Special: Crush)
       Turn #2: random(Maelstrom, !Attack, Maelstrom)
 REACTIVE RULES:
   None
@@ -3296,13 +3296,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Spore, [Special ability])
+      Turn #1: random(!Attack, Spore, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Embrace, Pond S Chorus, [Stay idle])
+      random(Embrace, Pond S Chorus, [Nothing])
 
 ----------------------------------------
 
@@ -3313,13 +3313,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Roulette, [Special ability])
+      Turn #1: random(!Attack, Roulette, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Reverse Polarity, Entice, [Stay idle])
+      random(Reverse Polarity, Entice, [Nothing])
 
 ----------------------------------------
 
@@ -3331,13 +3331,13 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(!Attack, Dancehall Daze, Dancehall Daze)
-      Turn #2: random(!Attack, Dancehall Daze, [Special ability])
+      Turn #2: random(!Attack, Dancehall Daze, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Dance Macabre, Lilliputian Lyric, [Stay idle])
+      random(Dance Macabre, Lilliputian Lyric, [Nothing])
 
 ----------------------------------------
 
@@ -3348,9 +3348,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Stay idle], [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
-      Turn #3: random(White Wind, !Attack, [Stay idle])
+      Turn #1: random(!Attack, [Nothing], [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #3: random(White Wind, !Attack, [Nothing])
       Turn #4: random(White Wind, !Attack, !Attack)
 REACTIVE RULES:
   None
@@ -3369,14 +3369,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Web, [Special ability])
+      Turn #1: random(!Attack, Web, Special: Knock Silly)
       Turn #2: Ability: !Attack
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Lance
     Actions:
-      random(Rainbow Wind, Rainbow Wind, [Stay idle])
+      random(Rainbow Wind, Rainbow Wind, [Nothing])
 
 ----------------------------------------
 
@@ -3387,12 +3387,12 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(!Attack, Evil Eye, [Special ability])
+      Turn #1: random(!Attack, Evil Eye, Special: Critical Attack)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3414,7 +3414,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random([Special ability], [Special ability], [Stay idle])
+      random(Special: Takedown, Special: Takedown, [Nothing])
 
 ----------------------------------------
 
@@ -3438,10 +3438,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
       Turn #3: Ability: !Attack
-      Turn #4: [Stay idle]
+      Turn #4: [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -3452,7 +3452,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(!Attack, !Attack, [Special ability])
+      random(!Attack, !Attack, Special: Critical Attack)
 
 ----------------------------------------
 
@@ -3463,10 +3463,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: random(Osmose, Pond S Chorus, [Stay idle])
+      Turn #1: [Nothing]
+      Turn #2: random(Osmose, Pond S Chorus, [Nothing])
       Turn #3: Ability: !Attack
-      Turn #4: random(Drain, Lilliputian Lyric, [Stay idle])
+      Turn #4: random(Drain, Lilliputian Lyric, [Nothing])
 REACTIVE RULES:
   None
 
@@ -3484,7 +3484,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Zombie Powder, [Special ability])
+      Turn #1: random(!Attack, Zombie Powder, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -3506,14 +3506,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Yagyuu's Strike)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Image, [Stay idle], [Stay idle])
+      random(Image, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -3524,14 +3524,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Blaze, [Special ability])
-      Turn #2: random(!Attack, Flame Thrower, [Special ability])
+      Turn #1: random(!Attack, Blaze, Special: Critical Attack)
+      Turn #2: random(!Attack, Flame Thrower, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(Earthquake, [Stay idle], [Stay idle])
+      random(Earthquake, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -3542,8 +3542,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Breath Wing, [Stay idle])
-      Turn #2: random(!Attack, Breath Wing, [Special ability])
+      Turn #1: random(!Attack, Breath Wing, [Nothing])
+      Turn #2: random(!Attack, Breath Wing, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3561,7 +3561,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3594,13 +3594,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Mind Blast, [Stay idle])
+      Turn #1: random(!Attack, Mind Blast, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
       HP damage just taken
     Actions:
-      random(Mind Blast, Mind Blast, [Stay idle])
+      random(Mind Blast, Mind Blast, [Nothing])
 
 ----------------------------------------
 
@@ -3622,8 +3622,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 random(Death, Berserk, [Stay idle])
-                 random(Stop, Drain, [Stay idle])
+                 random(Death, Berserk, [Nothing])
+                 random(Stop, Drain, [Nothing])
 REACTIVE RULES:
   None
 
@@ -3636,8 +3636,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, Reverse Polarity, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: random(!Attack, Reverse Polarity, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3650,7 +3650,7 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: random([Terminate battle], [Stay idle], [Stay idle])
+      Turn #1: random([Terminate battle], [Nothing], [Nothing])
       Turn #2: Consecutive actions:
                  random(Encircle, Encircle, !Attack)
                  Set Var_00 to 0
@@ -3665,7 +3665,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Consecutive actions:
                  random(Delta Attack, Delta Attack, !Attack)
                  Set Var_00 to 1
@@ -3701,13 +3701,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
       HP damage just taken
     Actions:
-      random(Evil Eye, Dischord, [Stay idle])
+      random(Evil Eye, Dischord, [Nothing])
 
 ----------------------------------------
 
@@ -3718,7 +3718,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Wring)
 REACTIVE RULES:
   None
 
@@ -3748,12 +3748,12 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Display message: Gilgamesh:  Hah!
-                 random(!Attack, !Attack, [Stay idle])
-                 random(!Attack, !Attack, [Stay idle])
+                 random(!Attack, !Attack, [Nothing])
+                 random(!Attack, !Attack, [Nothing])
       Turn #2: Consecutive actions:
                  Display message: Gilgamesh:  Hah!
-                 random(!Attack, !Attack, [Stay idle])
-                 random(!Attack, !Attack, [Stay idle])
+                 random(!Attack, !Attack, [Nothing])
+                 random(!Attack, !Attack, [Nothing])
   Default rule:
     Conditions:
       Unconditional
@@ -3785,7 +3785,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3798,7 +3798,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3811,7 +3811,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Dive)
 REACTIVE RULES:
   None
 
@@ -3824,8 +3824,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, Breath Wing, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Fin)
+      Turn #2: random(!Attack, Breath Wing, Special: Fin)
 REACTIVE RULES:
   None
 
@@ -3838,7 +3838,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3851,7 +3851,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Needle)
 REACTIVE RULES:
   None
 
@@ -3864,7 +3864,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3877,7 +3877,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3904,7 +3904,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -3917,7 +3917,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Fin)
 REACTIVE RULES:
   None
 
@@ -3965,7 +3965,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -4046,7 +4046,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Ability: [Special ability]
+                 Special: Cat Scratch
                  Display message:   "Change back!!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
@@ -4177,7 +4177,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Aqua Breath, [Stay idle])
+      Turn #1: random(!Attack, Aqua Breath, [Nothing])
 REACTIVE RULES:
   None
 
@@ -4190,7 +4190,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, Special: Critical Attack, [Nothing])
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4208,7 +4208,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Off-Guard, [Special ability])
+      Turn #1: random(!Attack, Off-Guard, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -4221,7 +4221,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Stay idle])
+      Turn #1: random(!Attack, Special: Critical Attack, [Nothing])
 REACTIVE RULES:
   None
 
@@ -4234,7 +4234,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Bio, !Attack, [Special ability])
+      Turn #1: random(Bio, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4252,7 +4252,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Dischord, Level 3 Flare, [Stay idle])
+      Turn #1: random(Dischord, Level 3 Flare, [Nothing])
 REACTIVE RULES:
   None
 
@@ -4266,7 +4266,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
       Turn #3: Ability: !Attack
       Turn #4: random(!Attack, !Attack, Beak)
       Turn #5: random(Breath Wing, !Attack, Breath Wing)
@@ -4282,7 +4282,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -4295,7 +4295,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Confuse, !Attack, [Special ability])
+      Turn #1: random(Confuse, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -4308,7 +4308,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Forcefully change target(s) to all party members
                Ability: Confuse
 REACTIVE RULES:
@@ -4327,7 +4327,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4345,7 +4345,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: random(!Attack, !Attack, Goblin Punch)
 REACTIVE RULES:
   None
@@ -4371,8 +4371,8 @@ REACTIVE RULES:
       HP damage just taken
     Actions:
       Consecutive actions:
-        Ability: [Special ability]
-        Ability: [Special ability]
+        Special: Turtle
+        Special: Turtle
 
 ----------------------------------------
 
@@ -4411,7 +4411,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
 REACTIVE RULES:
   None
 
@@ -4458,8 +4458,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
       Turn #3: Consecutive actions:
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
@@ -4475,7 +4475,7 @@ REACTIVE RULES:
       Hit by !Attack
       Variable Var_00 == 1
     Actions:
-      Ability: [Special ability]
+      Special: Claw
   Rule #2:
     Conditions:
       Hit by !Attack
@@ -4483,7 +4483,7 @@ REACTIVE RULES:
       Display message: Attack when its wings are closed,
       Display message: and it'll respond with its claws!!
       Set Var_00 to 1
-      Ability: [Special ability]
+      Special: Claw
 
 ----------------------------------------
 
@@ -4494,9 +4494,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Special ability])
-      Turn #2: random(!Attack, Tail Screw, [Special ability])
-      Turn #3: random(!Attack, Tail Screw, [Special ability])
+      Turn #1: random(!Attack, Special: Feeler, Special: Feeler)
+      Turn #2: random(!Attack, Tail Screw, Special: Feeler)
+      Turn #3: random(!Attack, Tail Screw, Special: Feeler)
 REACTIVE RULES:
   None
 
@@ -4509,9 +4509,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Full screen effect: second byte = 3, third byte = 240
+      Turn #1: Light effect: Light Flash
                Display message: Charging up for Giga Flare!
-               [Stay idle]
+               [Nothing]
       Turn #2: Ability: Giga Flare
       Turn #3: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1]
@@ -4556,9 +4556,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], !Attack)
-      Turn #2: random(!Attack, [Special ability], !Attack)
-      Turn #3: random(!Attack, [Special ability], [Special ability])
+      Turn #1: random(!Attack, Special: Venomous Clasp, !Attack)
+      Turn #2: random(!Attack, Special: Venomous Clasp, !Attack)
+      Turn #3: random(!Attack, Special: Venomous Clasp, Special: Venomous Clasp)
       Turn #4: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1]
                  Behaviour:
@@ -4578,7 +4578,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], !Attack)
+      Turn #1: random(!Attack, Special: Tackle, !Attack)
 REACTIVE RULES:
   None
 
@@ -4610,7 +4610,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Fire, Blizzard, Thunder)
-      Turn #2: random(Aero, [Special ability], Drain)
+      Turn #2: random(Aero, Special: Critical Attack, Drain)
 REACTIVE RULES:
   None
 
@@ -4638,7 +4638,7 @@ REACTIVE RULES:
     Actions:
       Consecutive actions:
         Ability: !Attack
-        random([Special ability], !Attack, [Stay idle])
+        random(Special: Rush, !Attack, [Nothing])
 
 ----------------------------------------
 
@@ -4649,7 +4649,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], Blaze)
+      Turn #1: random(!Attack, Special: Rush, Blaze)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4674,7 +4674,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Ray)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4725,7 +4725,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -4761,7 +4761,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4816,11 +4816,11 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  Ability: !Attack
                  Ability: !Attack
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
       Turn #3: Consecutive actions:
-                 Ability: [Special ability]
-                 Ability: [Special ability]
-      Turn #4: random(!Attack, !Attack, [Special ability])
+                 Special: Critical Attack
+                 Special: Critical Attack
+      Turn #4: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -4846,7 +4846,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Missile, Rocket Punch, [Stay idle])
+      Turn #1: random(Missile, Rocket Punch, [Nothing])
       Turn #2: random(Missile, Missile, Rocket Punch)
 REACTIVE RULES:
   None
@@ -4860,20 +4860,20 @@ ACTIVE RULES:
     Conditions:
       Current HP < 10000
     Actions:
-      Turn #1: random(Meteor, Attack, [Stay idle])
+      Turn #1: random(Meteor, Attack, [Nothing])
   Rule #2:
     Conditions:
       Current HP < 30000
     Actions:
       Turn #1: random(Flare, Holy, Attack)
       Turn #2: random(Attack, Attack, White Hole)
-      Turn #3: random(Attack, White Hole, [Stay idle])
+      Turn #3: random(Attack, White Hole, [Nothing])
       Turn #4: random(Attack, Doom, White Hole)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack, White Hole, [Stay idle])
+      Turn #1: random(Attack, White Hole, [Nothing])
       Turn #2: random(Attack, White Hole, Attack)
 REACTIVE RULES:
   Rule #1:
@@ -4881,7 +4881,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Consecutive actions:
-        Full screen effect: second byte = 0, third byte = 62
+        Change music to "Tree Exdeath Defeated"
         Display message:   The Void begins to
         Display message:   devour Exdeath!!
         Display message: Exdeath:  W  H  Y?
@@ -4905,11 +4905,11 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: Display message: Filling Multi-Surge Beam energy
-               [Stay idle]
+               [Nothing]
       Turn #2: Display message: Explosives pressure increased
-               [Stay idle]
+               [Nothing]
       Turn #3: Display message: Energy Level 128%
-               [Stay idle]
+               [Nothing]
       Turn #4: Display message: Fire!!!
                Ability: Wave Cannon
   Default rule:
@@ -4917,21 +4917,21 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Display message: Filling Multi-Surge Beam energy
-               [Stay idle]
+               [Nothing]
       Turn #2: Display message: Cross Encountersnosity set to 20
-               [Stay idle]
+               [Nothing]
       Turn #3: Display message: Safety Lock released
-               [Stay idle]
+               [Nothing]
       Turn #4: Display message: Explosives pressure increased
-               [Stay idle]
+               [Nothing]
       Turn #5: Display message: Anti-Shock Anti-Flash Shield on
-               [Stay idle]
+               [Nothing]
       Turn #6: Display message: Energy Level 128%
-               [Stay idle]
+               [Nothing]
       Turn #7: Display message: Fire!!!
                Ability: Wave Cannon
       Turn #8: Set Var_00 to 1
-               [Stay idle]
+               [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4950,7 +4950,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack, Breath Wing, [Special ability])
+      Turn #1: random(Attack, Breath Wing, Special: Sap)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4973,7 +4973,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack, Frost, [Special ability])
+      Turn #1: random(Attack, Frost, Special: Wing Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -4996,7 +4996,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack, Blaze, [Special ability])
+      Turn #1: random(Attack, Blaze, Special: Tail)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5019,7 +5019,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Attack, Lightning, [Special ability])
+      Turn #1: random(Attack, Lightning, Special: Claw)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5037,7 +5037,7 @@ REACTIVE RULES:
         Display message: King Tycoon:  Astounding!
         Display message: "What life force!!
         Display message: "The power of the Crystals...?
-        [Stay idle]
+        [Nothing]
 
 ----------------------------------------
 
@@ -5048,14 +5048,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Breath Wing, Maelstrom, [Special ability])
-      Turn #2: random(Entangle, !Attack, [Special ability])
-      Turn #3: random(Blaze, Maelstrom, [Special ability])
-      Turn #4: random(Entangle, !Attack, [Special ability])
-      Turn #5: random(Lightning, Maelstrom, [Special ability])
-      Turn #6: random(Entangle, !Attack, [Special ability])
-      Turn #7: random(Frost, Maelstrom, [Special ability])
-      Turn #8: random(Entangle, !Attack, [Special ability])
+      Turn #1: random(Breath Wing, Maelstrom, Special: Tusk)
+      Turn #2: random(Entangle, !Attack, Special: Tusk)
+      Turn #3: random(Blaze, Maelstrom, Special: Tusk)
+      Turn #4: random(Entangle, !Attack, Special: Tusk)
+      Turn #5: random(Lightning, Maelstrom, Special: Tusk)
+      Turn #6: random(Entangle, !Attack, Special: Tusk)
+      Turn #7: random(Frost, Maelstrom, Special: Tusk)
+      Turn #8: random(Entangle, !Attack, Special: Tusk)
 REACTIVE RULES:
   None
 
@@ -5068,7 +5068,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Aqua Breath, !Attack, [Special ability])
+      Turn #1: random(Aqua Breath, !Attack, Special: Critical Attack)
       Turn #2: random(Aqua Breath, Frost, Frost)
 REACTIVE RULES:
   None
@@ -5082,8 +5082,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, Earth Shaker, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: random(!Attack, Earth Shaker, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5100,9 +5100,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
-      Turn #3: random(!Attack, [Special ability], Self-Destruct)
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: random(!Attack, Special: Critical Attack, Self-Destruct)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5127,7 +5127,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(!Attack, Hurricane, !Attack)
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5141,9 +5141,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Display message: Gilgamesh:  Hah!
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: Display message: Gilgamesh:  Hah!
-               random(!Attack, !Attack, [Special ability])
+               random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5165,7 +5165,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5178,7 +5178,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5191,7 +5191,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Mustard Bomb, [Special ability])
+      Turn #1: random(!Attack, Mustard Bomb, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5204,7 +5204,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Rush)
 REACTIVE RULES:
   None
 
@@ -5224,9 +5224,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, Goblin Punch, [Special ability])
+      Turn #2: random(!Attack, Goblin Punch, Special: Critical Attack)
       Turn #3: random(!Attack, Aera, !Attack)
-      Turn #4: random(!Attack, Wind Slash, [Special ability])
+      Turn #4: random(!Attack, Wind Slash, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5263,7 +5263,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5274,7 +5274,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
     Actions:
-      random(!Attack, [Special ability], ????)
+      random(!Attack, Special: Critical Attack, ????)
 
 ----------------------------------------
 
@@ -5301,8 +5301,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Hurricane, [Special ability])
-      Turn #2: random(!Attack, Vampire, [Special ability])
+      Turn #1: random(!Attack, Hurricane, Special: Critical Attack)
+      Turn #2: random(!Attack, Vampire, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5327,11 +5327,11 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
-      Turn #3: [Stay idle]
-      Turn #4: [Stay idle]
-      Turn #5: [Stay idle]
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
+      Turn #5: [Nothing]
       Turn #6: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
@@ -5372,7 +5372,7 @@ ACTIVE RULES:
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #5: Set Var_00 to 1
-               [Stay idle]
+               [Nothing]
 REACTIVE RULES:
   None
 
@@ -5385,7 +5385,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random([Special ability], [Special ability], [Stay idle])
+      Turn #1: random(Special: Silver Powder, Special: Silver Powder, [Nothing])
 REACTIVE RULES:
   None
 
@@ -5398,7 +5398,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random([Special ability], [Special ability], [Stay idle])
+      Turn #1: random(Special: Poison Powder, Special: Poison Powder, [Nothing])
 REACTIVE RULES:
   None
 
@@ -5411,7 +5411,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random([Special ability], [Special ability], [Stay idle])
+      Turn #1: random(Special: Darkness Powder, Special: Darkness Powder, [Nothing])
 REACTIVE RULES:
   None
 
@@ -5424,7 +5424,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random([Special ability], [Special ability], [Stay idle])
+      Turn #1: random(Special: Paralyze Powder, Special: Paralyze Powder, [Nothing])
 REACTIVE RULES:
   None
 
@@ -5437,7 +5437,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random([Special ability], [Special ability], [Stay idle])
+      Turn #1: random(Special: Confuse Powder, Special: Confuse Powder, [Nothing])
 REACTIVE RULES:
   None
 
@@ -5451,7 +5451,7 @@ ACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Turn #1: random(!Attack, Missile, !Attack)
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
       Turn #3: random(!Attack, Death Claw, !Attack)
   Rule #2:
     Conditions:
@@ -5475,9 +5475,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
       Turn #2: random(!Attack, Missile, !Attack)
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Critical Attack)
       Turn #4: random(!Attack, Death Claw, !Attack)
 REACTIVE RULES:
   Rule #1:
@@ -5491,7 +5491,7 @@ REACTIVE RULES:
         Ability: [Flip sprite horizontally]
         Display message: "Enkidou...
         Display message: "Hey, don't leave me!!
-        [Stay idle]
+        [Nothing]
 
 ----------------------------------------
 
@@ -5502,9 +5502,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Aera, [Special ability])
+      Turn #1: random(!Attack, Aera, Special: Critical Attack)
       Turn #2: random(Vampire, Missile, Wind Slash)
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Critical Attack)
       Turn #4: random(Vampire, Web, Wind Slash)
       Turn #5: random(!Attack, Dischord, White Wind)
 REACTIVE RULES:
@@ -5574,8 +5574,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 random(Comet, Comet, [Stay idle])
-                 random(Comet, Comet, [Stay idle])
+                 random(Comet, Comet, [Nothing])
+                 random(Comet, Comet, [Nothing])
 REACTIVE RULES:
   None
 
@@ -5594,7 +5594,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5612,7 +5612,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5630,7 +5630,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5649,7 +5649,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5722,8 +5722,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Firaga, !Attack, Entice)
-      Turn #2: random(Thundaga, !Attack, [Special ability])
-      Turn #3: random(Blizzaga, Entice, [Special ability])
+      Turn #2: random(Thundaga, !Attack, Special: Critical Attack)
+      Turn #3: random(Blizzaga, Entice, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5758,20 +5758,20 @@ ACTIVE RULES:
       Turn #2: Consecutive actions:
                  Ability: !Attack
                  Display message: "Huh?
-                 [Stay idle]
+                 [Nothing]
       Turn #3: Consecutive actions:
                  Ability: !Attack
                  Display message: "What the...?
-                 [Stay idle]
+                 [Nothing]
       Turn #4: Consecutive actions:
                  Ability: !Attack
                  Display message: "Isn't it the strongest sword!?
-                 [Stay idle]
-      Turn #5: Full screen effect: second byte = 0, third byte = 45
+                 [Nothing]
+      Turn #5: Change music to "The Evil Lord Exdeath"
                Display message: Exdeath:  Gilgamesh!
                Display message: Gilgamesh:  ...
                Set Var_00 to 2
-               [Stay idle]
+               [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -5780,7 +5780,7 @@ REACTIVE RULES:
     Actions:
       Display message: Gilgamesh:  Aaahh!!
       Mark the following global events as true: ['Gilgamesh Available In The Interdimensional Rift']
-      [Stay idle]
+      [Nothing]
 
 ----------------------------------------
 
@@ -5792,42 +5792,42 @@ ACTIVE RULES:
       Current HP < 16000
     Actions:
       Turn #1: Consecutive actions:
-                 random(!Attack, [Special ability], [Stay idle])
+                 random(!Attack, Special: Vacuum Wave, [Nothing])
                  random(Firaga, Thundaga, !Attack)
       Turn #2: Consecutive actions:
-                 random(Firaga, !Attack, [Special ability])
-                 random(Blizzaga, !Attack, [Stay idle])
+                 random(Firaga, !Attack, Special: Vacuum Wave)
+                 random(Blizzaga, !Attack, [Nothing])
       Turn #3: Consecutive actions:
-                 random(Blizzaga, !Attack, [Stay idle])
-                 random(Thundaga, !Attack, [Special ability])
+                 random(Blizzaga, !Attack, [Nothing])
+                 random(Thundaga, !Attack, Special: Vacuum Wave)
   Rule #2:
     Conditions:
       Current HP < 7000
     Actions:
       Turn #1: random(Meteor, Meteor, !Attack)
       Turn #2: random(Firaga, Blizzaga, Thundaga)
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Vacuum Wave)
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: random(!Attack, Doom, Doom)
-      Turn #2: random(Reverse Polarity, Reverse Polarity, [Special ability])
+      Turn #2: random(Reverse Polarity, Reverse Polarity, Special: Vacuum Wave)
       Turn #3: random(100 Gs, Gravity, !Attack)
-      Turn #4: random(!Attack, !Attack, [Special ability])
+      Turn #4: random(!Attack, !Attack, Special: Vacuum Wave)
       Turn #5: random(Earth Shaker, Earth Shaker, !Attack)
-      Turn #6: random(Blaze, !Attack, [Special ability])
+      Turn #6: random(Blaze, !Attack, Special: Vacuum Wave)
       Turn #7: random(Hurricane, Hurricane, !Attack)
-      Turn #8: random(Zombie Breath, Zombie Breath, [Special ability])
+      Turn #8: random(Zombie Breath, Zombie Breath, Special: Vacuum Wave)
       Turn #9: random(!Attack, Bio, !Attack)
-      Turn #10: random(Level 3 Flare, Level 3 Flare, [Special ability])
+      Turn #10: random(Level 3 Flare, Level 3 Flare, Special: Vacuum Wave)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by !Attack
     Actions:
       Forcefully change target(s) to a random party member
-      random(Dispel, [Stay idle], [Stay idle])
+      random(Dispel, [Nothing], [Nothing])
   Rule #2:
     Conditions:
       Hit by the Slow spell
@@ -5848,10 +5848,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Dischord, [Special ability])
-      Turn #2: random(!Attack, Dischord, [Special ability])
-      Turn #3: random(!Attack, Dischord, [Special ability])
-      Turn #4: random(!Attack, Dischord, [Special ability])
+      Turn #1: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #2: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #3: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #4: random(!Attack, Dischord, Special: Critical Attack)
       Turn #5: Ability: Digestive Acid
 REACTIVE RULES:
   Rule #1:
@@ -5869,12 +5869,12 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: random(!Attack, Dance Macabre, [Special ability])
+      Turn #1: random(!Attack, Dance Macabre, Special: Critical Attack)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5887,8 +5887,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Entangle, [Special ability])
-      Turn #2: random(Osmose, Entangle, [Special ability])
+      Turn #1: random(!Attack, Entangle, Special: Critical Attack)
+      Turn #2: random(Osmose, Entangle, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -5931,10 +5931,10 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Missile, Flame Thrower, [Stay idle])
-      Turn #2: random(Mustard Bomb, Wave Cannon, [Stay idle])
-      Turn #3: random(Missile, Flame Thrower, [Stay idle])
-      Turn #4: random(Mustard Bomb, Reverse Polarity, [Stay idle])
+      Turn #1: random(Missile, Flame Thrower, [Nothing])
+      Turn #2: random(Mustard Bomb, Wave Cannon, [Nothing])
+      Turn #3: random(Missile, Flame Thrower, [Nothing])
+      Turn #4: random(Mustard Bomb, Reverse Polarity, [Nothing])
       Turn #5: Ability: !Attack
 REACTIVE RULES:
   None
@@ -5948,12 +5948,12 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(Thundaga, !Attack, [Stay idle])
-      Turn #3: random(Blizzaga, !Attack, [Stay idle])
-      Turn #4: random(!Attack, [Unnamed script trigger], [Stay idle])
-      Turn #5: random(Thundaga, [Unnamed script trigger], [Stay idle])
-      Turn #6: random(Blizzaga, [Unnamed script trigger], [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(Thundaga, !Attack, [Nothing])
+      Turn #3: random(Blizzaga, !Attack, [Nothing])
+      Turn #4: random(!Attack, [Unnamed script trigger], [Nothing])
+      Turn #5: random(Thundaga, [Unnamed script trigger], [Nothing])
+      Turn #6: random(Blizzaga, [Unnamed script trigger], [Nothing])
       Turn #7: random(!Attack, [Unnamed script trigger], [Unnamed script trigger])
       Turn #8: random(Thundaga, [Unnamed script trigger], [Unnamed script trigger])
       Turn #9: random(Blizzaga, [Unnamed script trigger], [Unnamed script trigger])
@@ -5983,12 +5983,12 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Stay idle], [Stay idle])
-      Turn #2: random(Thundaga, [Stay idle], [Stay idle])
-      Turn #3: random(Firaga, [Stay idle], [Stay idle])
-      Turn #4: random(!Attack, [Unnamed script trigger], [Stay idle])
-      Turn #5: random(Thundaga, [Unnamed script trigger], [Stay idle])
-      Turn #6: random(Firaga, [Unnamed script trigger], [Stay idle])
+      Turn #1: random(!Attack, [Nothing], [Nothing])
+      Turn #2: random(Thundaga, [Nothing], [Nothing])
+      Turn #3: random(Firaga, [Nothing], [Nothing])
+      Turn #4: random(!Attack, [Unnamed script trigger], [Nothing])
+      Turn #5: random(Thundaga, [Unnamed script trigger], [Nothing])
+      Turn #6: random(Firaga, [Unnamed script trigger], [Nothing])
       Turn #7: random(!Attack, [Unnamed script trigger], [Unnamed script trigger])
       Turn #8: random(Thundaga, [Unnamed script trigger], [Unnamed script trigger])
       Turn #9: random(Firaga, [Unnamed script trigger], [Unnamed script trigger])
@@ -6018,12 +6018,12 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Stay idle], [Stay idle])
-      Turn #2: random(Blizzaga, [Stay idle], [Stay idle])
-      Turn #3: random(Firaga, [Stay idle], [Stay idle])
-      Turn #4: random(!Attack, [Unnamed script trigger], [Stay idle])
-      Turn #5: random(Blizzaga, [Unnamed script trigger], [Stay idle])
-      Turn #6: random(Firaga, [Unnamed script trigger], [Stay idle])
+      Turn #1: random(!Attack, [Nothing], [Nothing])
+      Turn #2: random(Blizzaga, [Nothing], [Nothing])
+      Turn #3: random(Firaga, [Nothing], [Nothing])
+      Turn #4: random(!Attack, [Unnamed script trigger], [Nothing])
+      Turn #5: random(Blizzaga, [Unnamed script trigger], [Nothing])
+      Turn #6: random(Firaga, [Unnamed script trigger], [Nothing])
       Turn #7: random(!Attack, [Unnamed script trigger], [Unnamed script trigger])
       Turn #8: random(Blizzaga, [Unnamed script trigger], [Unnamed script trigger])
       Turn #9: random(Firaga, [Unnamed script trigger], [Unnamed script trigger])
@@ -6053,12 +6053,12 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Firaga, [Stay idle], [Stay idle])
-      Turn #2: random(Blizzaga, [Stay idle], [Stay idle])
-      Turn #3: random(Thundaga, [Stay idle], [Stay idle])
-      Turn #4: random(Firaga, [Unnamed script trigger], [Stay idle])
-      Turn #5: random(Blizzaga, [Unnamed script trigger], [Stay idle])
-      Turn #6: random(Thundaga, [Unnamed script trigger], [Stay idle])
+      Turn #1: random(Firaga, [Nothing], [Nothing])
+      Turn #2: random(Blizzaga, [Nothing], [Nothing])
+      Turn #3: random(Thundaga, [Nothing], [Nothing])
+      Turn #4: random(Firaga, [Unnamed script trigger], [Nothing])
+      Turn #5: random(Blizzaga, [Unnamed script trigger], [Nothing])
+      Turn #6: random(Thundaga, [Unnamed script trigger], [Nothing])
       Turn #7: random(Firaga, [Unnamed script trigger], [Unnamed script trigger])
       Turn #8: random(Blizzaga, [Unnamed script trigger], [Unnamed script trigger])
       Turn #9: random(Thundaga, [Unnamed script trigger], [Unnamed script trigger])
@@ -6087,9 +6087,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Ability: Zantetsuken
-      Turn #3: random(!Attack, !Attack, [Special ability])
+      Turn #3: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -6118,11 +6118,11 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, !Attack, [Special ability])
-      Turn #3: random(!Attack, !Attack, [Special ability])
-      Turn #4: random(!Attack, !Attack, [Special ability])
-      Turn #5: random(Transfusion, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #3: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #4: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #5: random(Transfusion, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -6148,9 +6148,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
       Turn #2: Forcefully change target(s) to all party members
-               random(Firaga, Firaga, [Stay idle])
+               random(Firaga, Firaga, [Nothing])
       Turn #3: random(!Attack, !Attack, Flame Thrower)
       Turn #4: random(!Attack, Firaga, !Attack)
 REACTIVE RULES:
@@ -6178,8 +6178,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
-      Turn #2: random(Ice Storm, Ice Storm, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(Ice Storm, Ice Storm, [Nothing])
       Turn #3: random(!Attack, !Attack, Frost)
       Turn #4: random(!Attack, Blizzaga, !Attack)
 REACTIVE RULES:
@@ -6207,9 +6207,9 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Stay idle])
+      Turn #1: random(!Attack, !Attack, [Nothing])
       Turn #2: Forcefully change target(s) to all party members
-               random(Bio, Bio, [Stay idle])
+               random(Bio, Bio, [Nothing])
       Turn #3: random(!Attack, !Attack, Rainbow Wind)
       Turn #4: random(!Attack, Bio, !Attack)
 REACTIVE RULES:
@@ -6232,7 +6232,7 @@ ACTIVE RULES:
       Turn #1: random(Cure, Fire, Slow)
       Turn #2: random(Libra, Blizzard, Regen)
       Turn #3: random(Silence, Poison, Haste)
-      Turn #4: random(Mini, Float, [Stay idle])
+      Turn #4: random(Mini, Float, [Nothing])
       Turn #5: random(Cura, Toad, Gravity)
       Turn #6: random(Confuse, Fira, Stop)
       Turn #7: random(Thundara, Blizzara, Graviga)
@@ -6259,7 +6259,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -6277,7 +6277,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random([Special ability], [Stay idle], [Stay idle])
+      random(Special: Critical Attack, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -6288,33 +6288,33 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
-      Turn #2: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Tail)
+      Turn #2: random(!Attack, !Attack, Special: Tail)
       Turn #3: Consecutive actions:
-                 random(!Attack, [Special ability], Tidal Wave)
+                 random(!Attack, Special: Tail, Tidal Wave)
                  random(!Attack, Tidal Wave, Tidal Wave)
-      Turn #4: random(!Attack, !Attack, [Special ability])
-      Turn #5: random(!Attack, Tidal Wave, [Special ability])
+      Turn #4: random(!Attack, !Attack, Special: Tail)
+      Turn #5: random(!Attack, Tidal Wave, Special: Tail)
       Turn #6: random(!Attack, Aqua Breath, Aqua Breath)
       Turn #7: Consecutive actions:
-                 random(Tidal Wave, Tidal Wave, [Special ability])
-                 random([Special ability], !Attack, Tidal Wave)
-      Turn #8: random(!Attack, Tidal Wave, [Special ability])
-      Turn #9: random(!Attack, !Attack, [Special ability])
+                 random(Tidal Wave, Tidal Wave, Special: Tail)
+                 random(Special: Tail, !Attack, Tidal Wave)
+      Turn #8: random(!Attack, Tidal Wave, Special: Tail)
+      Turn #9: random(!Attack, !Attack, Special: Tail)
       Turn #10: Consecutive actions:
-                  random(!Attack, [Special ability], Tidal Wave)
-                  random(!Attack, [Special ability], Tidal Wave)
+                  random(!Attack, Special: Tail, Tidal Wave)
+                  random(!Attack, Special: Tail, Tidal Wave)
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by any spell
     Actions:
-      random(Tidal Wave, [Stay idle], [Stay idle])
+      random(Tidal Wave, [Nothing], [Nothing])
   Rule #2:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(Entangle, [Stay idle], [Stay idle])
+      random(Entangle, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -6331,12 +6331,12 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Mind Blast, [Stay idle], [Stay idle])
-      Turn #2: random(Attack, [Stay idle], [Stay idle])
-      Turn #3: random(Hurricane, [Stay idle], [Stay idle])
-      Turn #4: random(Attack, [Stay idle], [Stay idle])
-      Turn #5: random(Confuse, [Stay idle], [Stay idle])
-      Turn #6: random(Attack, [Stay idle], [Stay idle])
+      Turn #1: random(Mind Blast, [Nothing], [Nothing])
+      Turn #2: random(Attack, [Nothing], [Nothing])
+      Turn #3: random(Hurricane, [Nothing], [Nothing])
+      Turn #4: random(Attack, [Nothing], [Nothing])
+      Turn #5: random(Confuse, [Nothing], [Nothing])
+      Turn #6: random(Attack, [Nothing], [Nothing])
       Turn #7: Ability: [False Image switch]
 REACTIVE RULES:
   Rule #1:
@@ -6392,32 +6392,32 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
-      Turn #3: [Stay idle]
-      Turn #4: [Stay idle]
-      Turn #5: [Stay idle]
-      Turn #6: [Stay idle]
-      Turn #7: [Stay idle]
-      Turn #8: [Stay idle]
-      Turn #9: [Stay idle]
-      Turn #10: [Stay idle]
-      Turn #11: [Stay idle]
-      Turn #12: [Stay idle]
-      Turn #13: [Stay idle]
-      Turn #14: [Stay idle]
-      Turn #15: [Stay idle]
-      Turn #16: [Stay idle]
-      Turn #17: [Stay idle]
-      Turn #18: [Stay idle]
-      Turn #19: [Stay idle]
-      Turn #20: [Stay idle]
-      Turn #21: [Stay idle]
-      Turn #22: [Stay idle]
-      Turn #23: [Stay idle]
-      Turn #24: [Stay idle]
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
+      Turn #5: [Nothing]
+      Turn #6: [Nothing]
+      Turn #7: [Nothing]
+      Turn #8: [Nothing]
+      Turn #9: [Nothing]
+      Turn #10: [Nothing]
+      Turn #11: [Nothing]
+      Turn #12: [Nothing]
+      Turn #13: [Nothing]
+      Turn #14: [Nothing]
+      Turn #15: [Nothing]
+      Turn #16: [Nothing]
+      Turn #17: [Nothing]
+      Turn #18: [Nothing]
+      Turn #19: [Nothing]
+      Turn #20: [Nothing]
+      Turn #21: [Nothing]
+      Turn #22: [Nothing]
+      Turn #23: [Nothing]
+      Turn #24: [Nothing]
       Turn #25: Set Var_00 to 2
-                [Stay idle]
+                [Nothing]
   Default rule:
     Conditions:
       Unconditional
@@ -6433,7 +6433,7 @@ ACTIVE RULES:
                Display message: "If you do what I do,
                Display message: "You'll surely win!
                Set Var_00 to 1
-               [Stay idle]
+               [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -6443,7 +6443,7 @@ REACTIVE RULES:
       Display message: Gogo:  You guys...
       Display message: "You didn't get the point!
       Display message: "No more imitation...
-      Full screen effect: second byte = 0, third byte = 1
+      Change music to "The Fierce Battle"
       Display message: "Let's do it some other time!
       Set Var_01 to 2
       Ability: Meteor
@@ -6458,7 +6458,7 @@ REACTIVE RULES:
       Hit by a command other than any spell
     Actions:
       Set Var_01 to 1
-      random(!Attack, [Special ability], [Strong Attack])
+      random(!Attack, Special: Critical Attack, [Strong Attack])
   Rule #4:
     Conditions:
       HP damage just taken
@@ -6510,8 +6510,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
-      Turn #2: [Stay idle]
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
       Turn #3: Ability: Mega Flare
 REACTIVE RULES:
   Rule #1:
@@ -6530,14 +6530,14 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Breath Wing, Maelstrom, [Special ability])
-      Turn #2: random(Entangle, !Attack, [Special ability])
-      Turn #3: random(Blaze, Maelstrom, [Special ability])
-      Turn #4: random(Entangle, !Attack, [Special ability])
-      Turn #5: random(Lightning, Maelstrom, [Special ability])
-      Turn #6: random(Entangle, !Attack, [Special ability])
-      Turn #7: random(Frost, Maelstrom, [Special ability])
-      Turn #8: random(Entangle, !Attack, [Special ability])
+      Turn #1: random(Breath Wing, Maelstrom, Special: Critical Attack)
+      Turn #2: random(Entangle, !Attack, Special: Critical Attack)
+      Turn #3: random(Blaze, Maelstrom, Special: Critical Attack)
+      Turn #4: random(Entangle, !Attack, Special: Critical Attack)
+      Turn #5: random(Lightning, Maelstrom, Special: Critical Attack)
+      Turn #6: random(Entangle, !Attack, Special: Critical Attack)
+      Turn #7: random(Frost, Maelstrom, Special: Critical Attack)
+      Turn #8: random(Entangle, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -6550,11 +6550,11 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: random(!Attack, Reverse Polarity, [Special ability])
+      Turn #1: random(!Attack, Reverse Polarity, Special: Critical Attack)
       Turn #2: random(!Attack, !Attack, Dispel)
-      Turn #3: random(!Attack, Reverse Polarity, [Special ability])
+      Turn #3: random(!Attack, Reverse Polarity, Special: Critical Attack)
       Turn #4: random(!Attack, !Attack, Haste)
-      Turn #5: random(!Attack, Reverse Polarity, [Special ability])
+      Turn #5: random(!Attack, Reverse Polarity, Special: Critical Attack)
       Turn #6: random(!Attack, !Attack, Shell)
       Turn #7: Set Var_00 to 0
                Ability: Holy
@@ -6571,7 +6571,7 @@ REACTIVE RULES:
       Hit by a summon
     Actions:
       Display message:    focusing power!
-      Full screen effect: second byte = 3, third byte = 240
+      Light effect: Light Flash
       Ability: [Strong Attack]
 
 ----------------------------------------
@@ -6594,7 +6594,7 @@ ACTIVE RULES:
       Current HP < 43000
     Actions:
       Turn #1: Display message: Exdeath:  Take this!!
-               Ability: [Special ability]
+               Special: Vacuum Wave
       Turn #2: Consecutive actions:
                  Display message: "You've made me mad!
                  Display message: "To the world of Death with you!!
@@ -6609,7 +6609,7 @@ ACTIVE RULES:
                  Display message: "burns out...I will defeat you!!
                  Set Var_00 to 1
                  Set Var_01 to 1
-                 [Stay idle]
+                 [Nothing]
   Default rule:
     Conditions:
       Unconditional
@@ -6636,7 +6636,7 @@ REACTIVE RULES:
       Display message: Galuf:  This isn't anger...
       Display message: "... nor is it hatred...!!
       Set Var_00 to 3
-      [Stay idle]
+      [Nothing]
   Rule #3:
     Conditions:
       Variable Var_00 == 1
@@ -6645,7 +6645,7 @@ REACTIVE RULES:
       Display message: Exdeath:  I cannot be defeated by
       Display message: "anger or hatred...
       Set Var_00 to 2
-      [Stay idle]
+      [Nothing]
 
 ----------------------------------------
 
@@ -6656,7 +6656,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
 REACTIVE RULES:
   None
 
@@ -6669,7 +6669,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
 REACTIVE RULES:
   None
 
@@ -6695,8 +6695,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Death Claw, [Special ability])
-      Turn #2: random(Death Claw, Death Claw, [Special ability])
+      Turn #1: random(!Attack, Death Claw, Special: Critical Attack)
+      Turn #2: random(Death Claw, Death Claw, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -6750,13 +6750,13 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
       Hit by the unnamed script trigger spell
     Actions:
-      random(!Attack, !Attack, [Special ability])
+      random(!Attack, !Attack, Special: Critical Attack)
 
 ----------------------------------------
 
@@ -6782,7 +6782,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, [Special ability])
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -6904,49 +6904,49 @@ REACTIVE RULES:
     Actions:
       Display message: Learned L.3 Flare!
       Set Var_00 to 1
-      [Stay idle]
+      [Nothing]
   Rule #2:
     Conditions:
       Hit by the Aeroga spell
     Actions:
       Display message: Learned Aero 3!
       Set Var_00 to 2
-      [Stay idle]
+      [Nothing]
   Rule #3:
     Conditions:
       Hit by the 1000 Needles spell
     Actions:
       Display message: Learned Blowfish!
       Set Var_00 to 3
-      [Stay idle]
+      [Nothing]
   Rule #4:
     Conditions:
       Hit by the Vampire spell
     Actions:
       Display message: Learned Vampire!
       Set Var_00 to 4
-      [Stay idle]
+      [Nothing]
   Rule #5:
     Conditions:
       Hit by the Aqua Breath spell
     Actions:
       Display message: Learned Aqua Rake!
       Set Var_00 to 5
-      [Stay idle]
+      [Nothing]
   Rule #6:
     Conditions:
       Hit by the Magic Hammer spell
     Actions:
       Display message: Learned Magic Hammer!
       Set Var_00 to 6
-      [Stay idle]
+      [Nothing]
   Rule #7:
     Conditions:
       Hit by the Self-Destruct spell
     Actions:
       Display message: Learned Exploder!
       Set Var_00 to 7
-      [Stay idle]
+      [Nothing]
 
 ----------------------------------------
 
@@ -6963,7 +6963,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Earth Shaker, Earth Shaker, Evil Eye)
-      Turn #2: random(!Attack, Earth Shaker, [Special ability])
+      Turn #2: random(!Attack, Earth Shaker, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -6994,24 +6994,24 @@ ACTIVE RULES:
       Variable Var_01 == 1
     Actions:
       Turn #1: Forcefully change target(s) to the enemy in slot #6
-               random([Special ability], Firaga, Thundaga)
+               random(Special: Vacuum Wave, Firaga, Thundaga)
       Turn #2: Forcefully change target(s) to the enemy in slot #6
-               random([Special ability], Blizzaga, [Strong Attack])
+               random(Special: Vacuum Wave, Blizzaga, [Strong Attack])
   Rule #4:
     Conditions:
       Variable Var_00 == 2
     Actions:
       Turn #1: Consecutive actions:
                  random(!Attack, !Attack, Hurricane)
-                 random(!Attack, !Attack, [Special ability])
+                 random(!Attack, !Attack, Special: Vacuum Wave)
       Turn #2: Consecutive actions:
-                 random(!Attack, !Attack, [Special ability])
-                 random(!Attack, !Attack, [Special ability])
+                 random(!Attack, !Attack, Special: Vacuum Wave)
+                 random(!Attack, !Attack, Special: Vacuum Wave)
       Turn #3: Consecutive actions:
                  random(!Attack, !Attack, Hurricane)
-                 random(!Attack, !Attack, [Special ability])
+                 random(!Attack, !Attack, Special: Vacuum Wave)
       Turn #4: Consecutive actions:
-                 random(!Attack, !Attack, [Special ability])
+                 random(!Attack, !Attack, Special: Vacuum Wave)
                  random(!Attack, !Attack, Death)
   Rule #5:
     Conditions:
@@ -7028,7 +7028,7 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Default rule:
     Conditions:
       Unconditional
@@ -7037,7 +7037,7 @@ ACTIVE RULES:
                Display message: "I am now invincible!
                Display message: "Can you defeat me?
                Set Var_00 to 1
-               [Stay idle]
+               [Nothing]
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -7045,7 +7045,7 @@ REACTIVE RULES:
       Lone enemy
     Actions:
       Display message: "E...  Ex... !!!
-      [Stay idle]
+      [Nothing]
   Rule #2:
     Conditions:
       Current HP < 9999
@@ -7054,7 +7054,7 @@ REACTIVE RULES:
       All of the following global events are active/true: [Gilgamesh Available In The Interdimensional Rift]
     Actions:
       Consecutive actions:
-        Full screen effect: second byte = 0, third byte = 34
+        Change music to "Battle With Gilgamesh"
         Prepare to show/hide enemies:
           Relevant enemy slots: [#1, #6]
           Behaviour:
@@ -7072,7 +7072,7 @@ REACTIVE RULES:
         Display message: "I'll get rid of you first!
         Toggle Invincible status.
         Set Var_01 to 1
-        [Stay idle]
+        [Nothing]
 
 ----------------------------------------
 
@@ -7101,12 +7101,12 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell
     Actions:
-      random(Tidal Wave, [Stay idle], [Stay idle])
+      random(Tidal Wave, [Nothing], [Nothing])
   Rule #2:
     Conditions:
       Hit by any spell
     Actions:
-      random(Mega Flare, [Stay idle], [Stay idle])
+      random(Mega Flare, [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -7161,7 +7161,7 @@ ACTIVE RULES:
                Display message: "Where's that jolly old man?
                Display message: Cara:  Exdeath...
                Display message: Gilgamesh:  ... I see...
-               random(Time Slip, !Attack, [Special ability])
+               random(Time Slip, !Attack, Special: Critical Attack)
       Turn #3: Display message: Gilgamesh:  ...........
                random(Dischord, !Attack, Lilliputian Lyric)
       Turn #4: Display message: Gilgamesh:  OK, this is
@@ -7179,10 +7179,10 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(Dischord, !Attack, Lilliputian Lyric)
-      Turn #2: random(Dancehall Daze, !Attack, [Special ability])
-      Turn #3: random(Flash, !Attack, [Special ability])
+      Turn #2: random(Dancehall Daze, !Attack, Special: Critical Attack)
+      Turn #3: random(Flash, !Attack, Special: Critical Attack)
       Turn #4: random(Hurricane, !Attack, Pond S Chorus)
-      Turn #5: random(Time Slip, !Attack, [Special ability])
+      Turn #5: random(Time Slip, !Attack, Special: Critical Attack)
       Turn #6: random(Rocket Punch, !Attack, Pond S Chorus)
 REACTIVE RULES:
   Rule #1:
@@ -7196,7 +7196,7 @@ REACTIVE RULES:
         Display message: "Let's see...
         Display message: "This is our fourth time, huh...
         Set Var_00 to 1
-        random(Flash, !Attack, [Special ability])
+        random(Flash, !Attack, Special: Critical Attack)
 
 ----------------------------------------
 
@@ -7227,8 +7227,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Dancehall Daze, [Special ability])
-      Turn #2: random(!Attack, Dancehall Daze, [Special ability])
+      Turn #1: random(!Attack, Dancehall Daze, Special: Critical Attack)
+      Turn #2: random(!Attack, Dancehall Daze, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -7264,19 +7264,19 @@ REACTIVE RULES:
         Ability: [Flip sprite horizontally]
         Display message: Apanda:  Eek eek it's Ifrit
         Set Var_00 to 1
-        [Stay idle]
+        [Nothing]
   Rule #2:
     Conditions:
       Variable Var_00 == 0
       Hit by a command other than any spell
     Actions:
-      random(Protect, Drain, [Stay idle])
+      random(Protect, Drain, [Nothing])
   Rule #3:
     Conditions:
       Variable Var_00 == 0
       Hit by any spell
     Actions:
-      random(Toad, Drain, [Stay idle])
+      random(Toad, Drain, [Nothing])
 
 ----------------------------------------
 
@@ -7287,7 +7287,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Encircle, [Special ability])
+      Turn #1: random(!Attack, Encircle, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -7318,8 +7318,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Wind Slash, [Stay idle])
-      Turn #2: random(!Attack, Blaze, [Special ability])
+      Turn #1: random(!Attack, Wind Slash, [Nothing])
+      Turn #2: random(!Attack, Blaze, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -7328,13 +7328,13 @@ REACTIVE RULES:
       Variable Var_00 == 1
     Actions:
       Display message: "This is the end!!
-      [Stay idle]
+      [Nothing]
   Rule #2:
     Conditions:
       Just before dying
       Variable Var_00 == 1
     Actions:
-      [Stay idle]
+      [Nothing]
   Rule #3:
     Conditions:
       Just before dying
@@ -7359,8 +7359,8 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Aera, !Attack, [Special ability])
-      Turn #2: random(Hurricane, !Attack, [Special ability])
+      Turn #1: random(Aera, !Attack, Special: Critical Attack)
+      Turn #2: random(Hurricane, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -7373,7 +7373,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Blaster, [Special ability])
+      Turn #1: random(!Attack, Blaster, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -7386,11 +7386,11 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(Fira, Blaze, [Special ability])
+      Turn #1: random(Fira, Blaze, Special: Ray)
       Turn #2: Forcefully change target(s) to self
                Ability: Firaga
-      Turn #3: random(Fira, Blaze, [Special ability])
-      Turn #4: random(Fira, Blaze, [Special ability])
+      Turn #3: random(Fira, Blaze, Special: Ray)
+      Turn #4: random(Fira, Blaze, Special: Ray)
 REACTIVE RULES:
   None
 
@@ -7403,7 +7403,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, ????, [Special ability])
+      Turn #1: random(!Attack, ????, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -7435,12 +7435,12 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: random(!Attack, [Special ability], Blaster)
+      Turn #1: random(!Attack, Special: Critical Attack, Blaster)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, Blaster, [Special ability])
+      Turn #1: random(!Attack, Blaster, Special: Critical Attack)
       Turn #2: Consecutive actions:
                  Display message: "Image!!
                  Prepare to show/hide enemies:
@@ -7476,7 +7476,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Consecutive actions:
                  Set Var_00 to 1
                  Ability: Tidal Wave
@@ -7492,7 +7492,7 @@ REACTIVE RULES:
       Current HP < 20000
       HP damage just taken
     Actions:
-      random([Unnamed script trigger], [Stay idle], [Stay idle])
+      random([Unnamed script trigger], [Nothing], [Nothing])
 
 ----------------------------------------
 
@@ -7524,62 +7524,62 @@ ACTIVE RULES:
       No visible enemies in slots other than [#1, #2, #4]
     Actions:
       Turn #1: Consecutive actions:
-                 random(Meteor, Almagest, [Special ability])
-                 random(Comet, [Special ability], [Special ability])
+                 random(Meteor, Almagest, Special: Vacuum Wave)
+                 random(Comet, Special: Vacuum Wave, Special: Vacuum Wave)
       Turn #2: Consecutive actions:
-                 random(Meteor, Almagest, [Special ability])
-                 random(Maelstrom, Almagest, [Special ability])
+                 random(Meteor, Almagest, Special: Vacuum Wave)
+                 random(Maelstrom, Almagest, Special: Vacuum Wave)
       Turn #3: Consecutive actions:
-                 random(Meteor, !Attack, [Special ability])
-                 random(Comet, Almagest, [Special ability])
+                 random(Meteor, !Attack, Special: Vacuum Wave)
+                 random(Comet, Almagest, Special: Vacuum Wave)
       Turn #4: Ability: Grand Cross
   Rule #2:
     Conditions:
       Variable Var_00 == 1
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(Meteor, !Attack, [Stay idle])
-      Turn #3: [Stay idle]
+      Turn #2: random(Meteor, !Attack, [Nothing])
+      Turn #3: [Nothing]
   Rule #3:
     Conditions:
       Current HP < 15000
     Actions:
       Turn #1: Display message:   The laws of physics are broken!
-               Full screen effect: second byte = 10, third byte = 3
-               [Stay idle]
-      Turn #2: Full screen effect: second byte = 10, third byte = 131
+               Colour effect: Multicolour On
+               [Nothing]
+      Turn #2: Colour effect: Multicolour Off
                Ability: Grand Cross
       Turn #3: Set Var_00 to 1
-               [Stay idle]
+               [Nothing]
   Rule #4:
     Conditions:
       Current HP < 30000
     Actions:
       Turn #1: Display message:   The laws of physics are broken!
-               Full screen effect: second byte = 10, third byte = 3
-               [Stay idle]
-      Turn #2: Full screen effect: second byte = 10, third byte = 131
+               Colour effect: Multicolour On
+               [Nothing]
+      Turn #2: Colour effect: Multicolour Off
                Ability: Grand Cross
-      Turn #3: [Stay idle]
-      Turn #4: [Stay idle]
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
       Turn #5: Ability: !Attack
       Turn #6: Ability: Dispel
-      Turn #7: [Stay idle]
-      Turn #8: [Stay idle]
+      Turn #7: [Nothing]
+      Turn #8: [Nothing]
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
       Turn #2: Display message:   The laws of physics are broken!
-               Full screen effect: second byte = 10, third byte = 3
-               [Stay idle]
-      Turn #3: Full screen effect: second byte = 10, third byte = 131
+               Colour effect: Multicolour On
+               [Nothing]
+      Turn #3: Colour effect: Multicolour Off
                Ability: Grand Cross
-      Turn #4: [Stay idle]
-      Turn #5: [Stay idle]
+      Turn #4: [Nothing]
+      Turn #5: [Nothing]
       Turn #6: Ability: Dispel
-      Turn #7: [Stay idle]
+      Turn #7: [Nothing]
 REACTIVE RULES:
   None
 
@@ -7593,24 +7593,24 @@ ACTIVE RULES:
       No visible enemies in slots other than [#1, #2, #5]
     Actions:
       Turn #1: Consecutive actions:
-                 random(Meteor, Almagest, [Special ability])
-                 random(Comet, [Special ability], [Special ability])
+                 random(Meteor, Almagest, Special: Vacuum Wave)
+                 random(Comet, Special: Vacuum Wave, Special: Vacuum Wave)
       Turn #2: Consecutive actions:
-                 random(Meteor, Almagest, [Special ability])
-                 random(Maelstrom, Almagest, [Special ability])
+                 random(Meteor, Almagest, Special: Vacuum Wave)
+                 random(Maelstrom, Almagest, Special: Vacuum Wave)
       Turn #3: Consecutive actions:
-                 random(Meteor, !Attack, [Special ability])
-                 random(Comet, Almagest, [Special ability])
+                 random(Meteor, !Attack, Special: Vacuum Wave)
+                 random(Comet, Almagest, Special: Vacuum Wave)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Full screen effect: second byte = 9, third byte = 4
-               [Stay idle]
-      Turn #2: Full screen effect: second byte = 9, third byte = 132
+      Turn #1: Full screen effect: Screen Shake On
+               [Nothing]
+      Turn #2: Full screen effect: Screen Shake Off
                Ability: Almagest
-      Turn #3: [Stay idle]
-      Turn #4: [Stay idle]
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
 REACTIVE RULES:
   None
 
@@ -7624,21 +7624,21 @@ ACTIVE RULES:
       No visible enemies in slots other than [#1, #2, #6]
     Actions:
       Turn #1: Consecutive actions:
-                 random(Meteor, Meteor, [Special ability])
-                 random(Comet, [Special ability], [Special ability])
+                 random(Meteor, Meteor, Special: Vacuum Wave 2)
+                 random(Comet, Special: Vacuum Wave 2, Special: Vacuum Wave 2)
       Turn #2: Consecutive actions:
-                 random(Meteor, Meteor, [Special ability])
-                 random(Maelstrom, Maelstrom, [Special ability])
+                 random(Meteor, Meteor, Special: Vacuum Wave 2)
+                 random(Maelstrom, Maelstrom, Special: Vacuum Wave 2)
       Turn #3: Consecutive actions:
-                 random(Meteor, !Attack, [Special ability])
-                 random(Comet, Almagest, [Special ability])
+                 random(Meteor, !Attack, Special: Vacuum Wave 2)
+                 random(Comet, Almagest, Special: Vacuum Wave 2)
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, [Special ability], [Stay idle])
-      Turn #2: random(!Attack, !Attack, [Special ability])
-      Turn #3: random(!Attack, [Special ability], Dispel)
+      Turn #1: random(!Attack, Special: Vacuum Wave 2, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Vacuum Wave 2)
+      Turn #3: random(!Attack, Special: Vacuum Wave 2, Dispel)
 REACTIVE RULES:
   None
 
@@ -7652,14 +7652,14 @@ ACTIVE RULES:
       No visible enemies in slots other than [#1, #2, #7]
     Actions:
       Turn #1: Consecutive actions:
-                 random(Meteor, Meteor, [Special ability])
-                 random(Comet, [Special ability], [Special ability])
+                 random(Meteor, Meteor, Special: Vacuum Wave)
+                 random(Comet, Special: Vacuum Wave, Special: Vacuum Wave)
       Turn #2: Consecutive actions:
-                 random(Meteor, Meteor, [Special ability])
-                 random(Maelstrom, Maelstrom, [Special ability])
+                 random(Meteor, Meteor, Special: Vacuum Wave)
+                 random(Maelstrom, Maelstrom, Special: Vacuum Wave)
       Turn #3: Consecutive actions:
-                 random(Meteor, !Attack, [Special ability])
-                 random(Comet, Almagest, [Special ability])
+                 random(Meteor, !Attack, Special: Vacuum Wave)
+                 random(Comet, Almagest, Special: Vacuum Wave)
   Default rule:
     Conditions:
       Unconditional
@@ -7667,7 +7667,7 @@ ACTIVE RULES:
       Turn #1: random(Aeroga, Delta Attack, !Attack)
       Turn #2: random(Blizzaga, !Attack, Dispel)
       Turn #3: random(Flare, Firaga, !Attack)
-      Turn #4: random(Holy, Thundaga, [Stay idle])
+      Turn #4: random(Holy, Thundaga, [Nothing])
 REACTIVE RULES:
   None
 
@@ -7680,7 +7680,7 @@ ACTIVE RULES:
     Conditions:
       Variable Var_02 == 1
     Actions:
-      Turn #1: [Stay idle]
+      Turn #1: [Nothing]
   Rule #2:
     Conditions:
       Variable Var_03 == 1

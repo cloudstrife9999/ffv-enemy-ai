@@ -16,13 +16,13 @@ from .enemy_ai import EnemyAI
 
 
 class EnemyAIParser():
-    def __init__(self, enemy_id: str, enemy_name: str, tokens: bytes, battle_text: dict[int, dict[int, str]]) -> None:
+    def __init__(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, tokens: bytes, battle_text: dict[int, dict[int, str]]) -> None:
         self.__enemy_id: str = enemy_id
         self.__enemy_name: str = enemy_name
         self.__current_state: StateEnum = StateEnum.START
         self.__tokens: bytes = tokens
         self.__no_interrupt_error_message: str = "Unexpected end of no-interrupt action."
-        self.__enemy_ai: EnemyAI = EnemyAI(enemy_id=enemy_id, enemy_name=enemy_name, raw=tokens.hex().upper())
+        self.__enemy_ai: EnemyAI = EnemyAI(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, raw=tokens.hex().upper())
         self.__battle_text: dict[int, dict[int, str]] = battle_text
         self.__current_tokens_group: list[int] = []
 

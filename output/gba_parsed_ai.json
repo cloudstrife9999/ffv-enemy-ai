@@ -287,8 +287,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Flee",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -304,7 +304,7 @@
                     "NO_FEMALE_PARTY_MEMBERS_TARGETABLE"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -338,7 +338,7 @@
                     "NO_FEMALE_PARTY_MEMBERS_TARGETABLE"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -403,7 +403,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -501,9 +501,9 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
-                    "Turn #3": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
+                    "Turn #3": "[Nothing]",
                     "Turn #4": "Flee"
                 }
             }
@@ -915,7 +915,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"Still lives!!!"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -949,7 +949,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"Still lives!!!"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -968,7 +968,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Drain",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -986,8 +986,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Protect",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -1005,8 +1005,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Toad",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -1256,7 +1256,7 @@
                             "Ramuh Defeated"
                         ]
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -1590,7 +1590,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Aero",
                         "second_choice": "Aero",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -1787,7 +1787,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "\"powers to you..."
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             }
         ]
@@ -2079,7 +2079,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -2111,7 +2111,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzara",
                         "second_choice": "Fira",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
@@ -2122,7 +2122,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Fira",
                         "second_choice": "Thundara",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
@@ -2133,7 +2133,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundara",
                         "second_choice": "Blizzara",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -2155,7 +2155,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": "!Attack",
                     "Turn #4": {
@@ -2190,7 +2190,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -2234,8 +2234,8 @@
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Aera",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -2268,7 +2268,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -2300,14 +2300,14 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Pond S Chorus",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": "!Attack",
                     "Turn #4": {
@@ -2425,7 +2425,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Death Claw",
                         "second_choice": "Death Claw",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -2761,7 +2761,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -2816,7 +2816,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Vampire",
                         "second_choice": "Vampire",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3097,7 +3097,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -3151,7 +3151,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3193,7 +3193,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -3241,7 +3241,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Golem:  Help me!"
                     },
-                    "Turn #2": "[Stay idle]"
+                    "Turn #2": "[Nothing]"
                 }
             }
         ],
@@ -3281,8 +3281,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Flash",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -3369,7 +3369,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Level 4 Graviga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3419,7 +3419,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Off-Guard",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -3494,13 +3494,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3539,7 +3539,7 @@
                             "Catoblepas Defeated"
                         ]
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -3570,14 +3570,14 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Osmose",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Osmose",
                         "second_choice": "Lilliputian Lyric",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": "Lilliputian Lyric"
                 }
@@ -3674,7 +3674,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -3781,7 +3781,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Fira",
                         "second_choice": "Thunder",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
@@ -3792,7 +3792,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzara",
                         "second_choice": "Fire",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
@@ -3803,7 +3803,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundara",
                         "second_choice": "Blizzard",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3832,7 +3832,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Off-Guard",
                         "second_choice": "Level 2 Old",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3853,13 +3853,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Death",
                         "second_choice": "Break",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Break",
                         "second_choice": "Banish",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             },
@@ -3872,19 +3872,19 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Confuse",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Confuse",
                         "second_choice": "Stop",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Drain",
                         "second_choice": "Slowga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -3984,7 +3984,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -4004,8 +4004,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -4211,7 +4211,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -4232,7 +4232,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Entangle",
                         "second_choice": "Vampire",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -4252,7 +4252,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -4312,7 +4312,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
@@ -4331,8 +4331,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Vampire",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -4348,7 +4348,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -4427,13 +4427,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -4454,7 +4454,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -4517,7 +4517,7 @@
                             "Sekhmet Defeated"
                         ]
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             }
         ]
@@ -4536,7 +4536,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -4547,13 +4547,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Entice",
                         "second_choice": "Entice",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "1000 Needles",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -4574,7 +4574,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": "!Attack"
                 }
@@ -4596,13 +4596,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Off-Guard",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Dark Spark",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -4643,19 +4643,19 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Poison Breath",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -4678,7 +4678,7 @@
                     "LONE_ENEMY"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -4979,19 +4979,19 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mini",
                         "second_choice": "Cura",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Confuse",
                         "second_choice": "Shell",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Libra",
                         "second_choice": "Dispel",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -5033,13 +5033,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Float",
                         "second_choice": "Gravity",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Comet",
                         "second_choice": "Slowga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -5211,31 +5211,31 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Poison",
                         "second_choice": "Toad",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Fira",
                         "second_choice": "Thundara",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzara",
                         "second_choice": "Firaga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Bio",
                         "second_choice": "Break",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "Thundaga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -5556,14 +5556,14 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Break",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -5754,7 +5754,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Slimer",
                         "second_choice": "Entangle",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -5802,7 +5802,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Spore",
                         "second_choice": "Spore",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6037,7 +6037,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Charging up!"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": "[Strong Attack]"
                 }
             },
@@ -6090,13 +6090,13 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "\"Narrrrrr Torrrrrr"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "\"Kirrrrrr Sarrrrrr"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -6129,7 +6129,7 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -6162,7 +6162,7 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -6195,7 +6195,7 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -6355,7 +6355,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Digestive Acid",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             },
@@ -6368,7 +6368,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -6437,7 +6437,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Embrace",
                         "second_choice": "Pond S Chorus",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6478,7 +6478,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Reverse Polarity",
                         "second_choice": "Entice",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6525,7 +6525,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Dance Macabre",
                         "second_choice": "Lilliputian Lyric",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6544,8 +6544,8 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -6557,7 +6557,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "White Wind",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -6619,7 +6619,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Rainbow Wind",
                         "second_choice": "Rainbow Wind",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6712,7 +6712,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6749,10 +6749,10 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": "!Attack",
-                    "Turn #4": "[Stay idle]"
+                    "Turn #4": "[Nothing]"
                 }
             }
         ],
@@ -6802,19 +6802,19 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Osmose",
                         "second_choice": "Pond S Chorus",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": "!Attack",
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Drain",
                         "second_choice": "Lilliputian Lyric",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -6902,7 +6902,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -6928,8 +6928,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Image",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6975,8 +6975,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Earthquake",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -6996,7 +6996,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Breath Wing",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -7100,7 +7100,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Mind Blast",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -7115,7 +7115,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mind Blast",
                         "second_choice": "Mind Blast",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -7182,13 +7182,13 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Death",
                                 "second_choice": "Berserk",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Stop",
                                 "second_choice": "Drain",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -7243,8 +7243,8 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Terminate battle]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -7278,7 +7278,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -7344,7 +7344,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -7359,7 +7359,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Evil Eye",
                         "second_choice": "Dischord",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -7477,13 +7477,13 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     },
@@ -7500,13 +7500,13 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -8243,7 +8243,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Aqua Breath",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -8264,7 +8264,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -8325,7 +8325,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -8381,7 +8381,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Dischord",
                         "second_choice": "Level 3 Flare",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -8475,7 +8475,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "SET_TARGET",
@@ -8689,7 +8689,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -8848,8 +8848,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Zombie Powder",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -8923,8 +8923,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Zombie Powder",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -8998,8 +8998,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Zombie Powder",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9073,8 +9073,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Zombie Powder",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9148,8 +9148,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Zombie Powder",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9357,8 +9357,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Evil Eye",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9476,8 +9476,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Image",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9518,7 +9518,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Image",
                         "second_choice": "Image",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9560,8 +9560,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Strong Attack]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9603,8 +9603,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Strong Attack]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9646,8 +9646,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Strong Attack]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9689,8 +9689,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Strong Attack]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9732,8 +9732,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Strong Attack]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9859,8 +9859,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Tail Screw",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -9909,7 +9909,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -9969,7 +9969,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Almagest",
                         "second_choice": "Curse",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -9989,8 +9989,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -10009,7 +10009,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Flare",
                         "second_choice": "Death",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -10155,25 +10155,25 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Missile",
                         "second_choice": "Flame Thrower",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mustard Bomb",
                         "second_choice": "Wave Cannon",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Missile",
                         "second_choice": "Flame Thrower",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mustard Bomb",
                         "second_choice": "Reverse Polarity",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": "!Attack"
                 }
@@ -15076,8 +15076,8 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -15195,15 +15195,15 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 3,
-                        "third_byte": 240
+                        "effect_type": "Light_Effect table",
+                        "effect": "Light effect: Light Flash"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Charging up for Giga Flare!"
                     },
-                    "Turn #3": "[Stay idle]",
+                    "Turn #3": "[Nothing]",
                     "Turn #4": "Giga Flare",
                     "Turn #5": {
                         "action": "AI_COMMAND",
@@ -15461,7 +15461,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "[Special ability]",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -15681,7 +15681,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -15822,7 +15822,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Missile",
                         "second_choice": "Rocket Punch",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -15853,7 +15853,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Meteor",
                         "second_choice": "Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             },
@@ -15882,7 +15882,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
                         "second_choice": "White Hole",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -15901,7 +15901,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
                         "second_choice": "White Hole",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -15925,8 +15925,8 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "FULL_SCREEN_EFFECT",
-                                "second_byte": 0,
-                                "third_byte": 62
+                                "effect_type": "Change_Music table",
+                                "effect": "Change music to \"Tree Exdeath Defeated\""
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -15987,19 +15987,19 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Filling Multi-Surge Beam energy"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Explosives pressure increased"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Energy Level 128%"
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
@@ -16018,37 +16018,37 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Filling Multi-Surge Beam energy"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Cross Encountersnosity set to 20"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Safety Lock released"
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Explosives pressure increased"
                     },
-                    "Turn #8": "[Stay idle]",
+                    "Turn #8": "[Nothing]",
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Anti-Shock Anti-Flash Shield on"
                     },
-                    "Turn #10": "[Stay idle]",
+                    "Turn #10": "[Nothing]",
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Energy Level 128%"
                     },
-                    "Turn #12": "[Stay idle]",
+                    "Turn #12": "[Nothing]",
                     "Turn #13": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
@@ -16061,7 +16061,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #16": "[Stay idle]"
+                    "Turn #16": "[Nothing]"
                 }
             }
         ],
@@ -16250,7 +16250,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"The power of the Crystals...?"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -16393,8 +16393,8 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
@@ -16916,11 +16916,11 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
-                    "Turn #3": "[Stay idle]",
-                    "Turn #4": "[Stay idle]",
-                    "Turn #5": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
+                    "Turn #3": "[Nothing]",
+                    "Turn #4": "[Nothing]",
+                    "Turn #5": "[Nothing]",
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
@@ -16969,7 +16969,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #10": "[Stay idle]"
+                    "Turn #10": "[Nothing]"
                 }
             }
         ],
@@ -16989,7 +16989,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -17010,7 +17010,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -17031,7 +17031,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -17052,7 +17052,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -17073,7 +17073,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -17230,7 +17230,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"Hey, don't leave me!!"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -17480,13 +17480,13 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Comet",
                                 "second_choice": "Comet",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Comet",
                                 "second_choice": "Comet",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -17917,7 +17917,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"Huh?"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     },
                     "Turn #3": {
@@ -17930,7 +17930,7 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"What the...?"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     },
                     "Turn #4": {
@@ -17943,14 +17943,14 @@
                                 "type": "DISPLAY_MESSAGE",
                                 "message": "\"Isn't it the strongest sword!?"
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 0,
-                        "third_byte": 45
+                        "effect_type": "Change_Music table",
+                        "effect": "Change music to \"The Evil Lord Exdeath\""
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
@@ -17968,7 +17968,7 @@
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "Turn #9": "[Stay idle]"
+                    "Turn #9": "[Nothing]"
                 }
             }
         ],
@@ -17996,7 +17996,7 @@
                             "Gilgamesh Available In The Interdimensional Rift"
                         ]
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             }
         ]
@@ -18023,7 +18023,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "[Special ability]",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
@@ -18047,7 +18047,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Blizzaga",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     },
@@ -18059,7 +18059,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Blizzaga",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
@@ -18188,8 +18188,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Dispel",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -18435,25 +18435,25 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Missile",
                         "second_choice": "Flame Thrower",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mustard Bomb",
                         "second_choice": "Wave Cannon",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Missile",
                         "second_choice": "Flame Thrower",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mustard Bomb",
                         "second_choice": "Reverse Polarity",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": "!Attack"
                 }
@@ -18475,37 +18475,37 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -18576,38 +18576,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -18678,38 +18678,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -18780,38 +18780,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -18874,7 +18874,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": "Zantetsuken",
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -18999,7 +18999,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -19010,7 +19010,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "Firaga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -19068,13 +19068,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Ice Storm",
                         "second_choice": "Ice Storm",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -19132,7 +19132,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -19143,7 +19143,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Bio",
                         "second_choice": "Bio",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -19211,7 +19211,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mini",
                         "second_choice": "Float",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -19337,8 +19337,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -19468,8 +19468,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Tidal Wave",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -19487,8 +19487,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Entangle",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -19525,38 +19525,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mind Blast",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Hurricane",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Confuse",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": "[False Image switch]"
                 }
@@ -19716,37 +19716,37 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
-                    "Turn #3": "[Stay idle]",
-                    "Turn #4": "[Stay idle]",
-                    "Turn #5": "[Stay idle]",
-                    "Turn #6": "[Stay idle]",
-                    "Turn #7": "[Stay idle]",
-                    "Turn #8": "[Stay idle]",
-                    "Turn #9": "[Stay idle]",
-                    "Turn #10": "[Stay idle]",
-                    "Turn #11": "[Stay idle]",
-                    "Turn #12": "[Stay idle]",
-                    "Turn #13": "[Stay idle]",
-                    "Turn #14": "[Stay idle]",
-                    "Turn #15": "[Stay idle]",
-                    "Turn #16": "[Stay idle]",
-                    "Turn #17": "[Stay idle]",
-                    "Turn #18": "[Stay idle]",
-                    "Turn #19": "[Stay idle]",
-                    "Turn #20": "[Stay idle]",
-                    "Turn #21": "[Stay idle]",
-                    "Turn #22": "[Stay idle]",
-                    "Turn #23": "[Stay idle]",
-                    "Turn #24": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
+                    "Turn #3": "[Nothing]",
+                    "Turn #4": "[Nothing]",
+                    "Turn #5": "[Nothing]",
+                    "Turn #6": "[Nothing]",
+                    "Turn #7": "[Nothing]",
+                    "Turn #8": "[Nothing]",
+                    "Turn #9": "[Nothing]",
+                    "Turn #10": "[Nothing]",
+                    "Turn #11": "[Nothing]",
+                    "Turn #12": "[Nothing]",
+                    "Turn #13": "[Nothing]",
+                    "Turn #14": "[Nothing]",
+                    "Turn #15": "[Nothing]",
+                    "Turn #16": "[Nothing]",
+                    "Turn #17": "[Nothing]",
+                    "Turn #18": "[Nothing]",
+                    "Turn #19": "[Nothing]",
+                    "Turn #20": "[Nothing]",
+                    "Turn #21": "[Nothing]",
+                    "Turn #22": "[Nothing]",
+                    "Turn #23": "[Nothing]",
+                    "Turn #24": "[Nothing]",
                     "Turn #25": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "Turn #26": "[Stay idle]"
+                    "Turn #26": "[Nothing]"
                 }
             },
             {
@@ -19810,7 +19810,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #12": "[Stay idle]"
+                    "Turn #12": "[Nothing]"
                 }
             }
         ],
@@ -19843,8 +19843,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 0,
-                        "third_byte": 1
+                        "effect_type": "Change_Music table",
+                        "effect": "Change music to \"The Fierce Battle\""
                     },
                     {
                         "action": "AI_COMMAND",
@@ -20068,8 +20068,8 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": "Mega Flare"
                 }
             }
@@ -20253,8 +20253,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 3,
-                        "third_byte": 240
+                        "effect_type": "Light_Effect table",
+                        "effect": "Light effect: Light Flash"
                     },
                     "[Strong Attack]"
                 ]
@@ -20367,7 +20367,7 @@
                                 "var_id": "Var_01",
                                 "value": 1
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 }
@@ -20472,7 +20472,7 @@
                         "var_id": "Var_00",
                         "value": 3
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -20509,7 +20509,7 @@
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             }
         ]
@@ -20524,7 +20524,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -20540,7 +20540,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -20699,7 +20699,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -21229,7 +21229,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21253,7 +21253,7 @@
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21277,7 +21277,7 @@
                         "var_id": "Var_00",
                         "value": 3
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21301,7 +21301,7 @@
                         "var_id": "Var_00",
                         "value": 4
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21325,7 +21325,7 @@
                         "var_id": "Var_00",
                         "value": 5
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21349,7 +21349,7 @@
                         "var_id": "Var_00",
                         "value": 6
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21373,7 +21373,7 @@
                         "var_id": "Var_00",
                         "value": 7
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             }
         ]
@@ -21650,7 +21650,7 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -21679,7 +21679,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #5": "[Stay idle]"
+                    "Turn #5": "[Nothing]"
                 }
             }
         ],
@@ -21695,7 +21695,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "\"E...  Ex... !!!"
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -21728,8 +21728,8 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "FULL_SCREEN_EFFECT",
-                                "second_byte": 0,
-                                "third_byte": 34
+                                "effect_type": "Change_Music table",
+                                "effect": "Change music to \"Battle With Gilgamesh\""
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -21790,7 +21790,7 @@
                                 "var_id": "Var_01",
                                 "value": 1
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -21852,8 +21852,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Tidal Wave",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -21871,8 +21871,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mega Flare",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -22286,7 +22286,7 @@
                                 "var_id": "Var_00",
                                 "value": 1
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -22313,7 +22313,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Protect",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -22339,7 +22339,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Toad",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -22423,7 +22423,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "Wind Slash",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -22453,7 +22453,7 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "\"This is the end!!"
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -22468,7 +22468,7 @@
                     }
                 ],
                 "actions": [
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -22787,7 +22787,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -22837,8 +22837,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Unnamed script trigger]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -22995,9 +22995,9 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Meteor",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
-                    "Turn #3": "[Stay idle]"
+                    "Turn #3": "[Nothing]"
                 }
             },
             {
@@ -23017,15 +23017,15 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
-                    "Turn #3": "[Stay idle]",
+                    "Turn #3": "[Nothing]",
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 131
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour Off"
                     },
                     "Turn #5": "Grand Cross",
                     "Turn #6": {
@@ -23034,7 +23034,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #7": "[Stay idle]"
+                    "Turn #7": "[Nothing]"
                 }
             },
             {
@@ -23054,23 +23054,23 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
-                    "Turn #3": "[Stay idle]",
+                    "Turn #3": "[Nothing]",
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 131
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour Off"
                     },
                     "Turn #5": "Grand Cross",
-                    "Turn #6": "[Stay idle]",
-                    "Turn #7": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
+                    "Turn #7": "[Nothing]",
                     "Turn #8": "!Attack",
                     "Turn #9": "Dispel",
-                    "Turn #10": "[Stay idle]",
-                    "Turn #11": "[Stay idle]"
+                    "Turn #10": "[Nothing]",
+                    "Turn #11": "[Nothing]"
                 }
             },
             {
@@ -23078,7 +23078,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
@@ -23087,21 +23087,21 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 131
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour Off"
                     },
                     "Turn #6": "Grand Cross",
-                    "Turn #7": "[Stay idle]",
-                    "Turn #8": "[Stay idle]",
+                    "Turn #7": "[Nothing]",
+                    "Turn #8": "[Nothing]",
                     "Turn #9": "Dispel",
-                    "Turn #10": "[Stay idle]"
+                    "Turn #10": "[Nothing]"
                 }
             }
         ],
@@ -23190,19 +23190,19 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 9,
-                        "third_byte": 4
+                        "effect_type": "Shaking_Effect table",
+                        "effect": "Full screen effect: Screen Shake On"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 9,
-                        "third_byte": 132
+                        "effect_type": "Shaking_Effect table",
+                        "effect": "Full screen effect: Screen Shake Off"
                     },
                     "Turn #4": "Almagest",
-                    "Turn #5": "[Stay idle]",
-                    "Turn #6": "[Stay idle]"
+                    "Turn #5": "[Nothing]",
+                    "Turn #6": "[Nothing]"
                 }
             }
         ],
@@ -23292,7 +23292,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -23413,7 +23413,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Holy",
                         "second_choice": "Thundaga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -23436,7 +23436,7 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             },
             {
@@ -23975,7 +23975,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "White Wind",
                         "second_choice": "Aeroga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -24118,7 +24118,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Encircle",
                         "second_choice": "Remedy",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -24285,7 +24285,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Encircle",
                         "second_choice": "Remedy",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -24452,7 +24452,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Encircle",
                         "second_choice": "Remedy",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -24516,7 +24516,7 @@
                         "property_table": "BATTLE_COMMAND_2",
                         "mask": 64
                     },
-                    "Turn #3": "[Stay idle]"
+                    "Turn #3": "[Nothing]"
                 }
             },
             {
@@ -24530,7 +24530,7 @@
                         "property_table": "BATTLE_COMMAND_2",
                         "mask": 64
                     },
-                    "Turn #2": "[Stay idle]"
+                    "Turn #2": "[Nothing]"
                 }
             }
         ],
@@ -24582,7 +24582,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Zombie Powder",
                         "second_choice": "Doom",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -24599,8 +24599,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "White Hole",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -24822,7 +24822,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -25033,37 +25033,37 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Filling Multi-Surge Beam energy"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Cross Encountersnosity set to 20"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Safety Lock released"
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Explosives pressure increased"
                     },
-                    "Turn #8": "[Stay idle]",
+                    "Turn #8": "[Nothing]",
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Anti-Shock Anti-Flash Shield on"
                     },
-                    "Turn #10": "[Stay idle]",
+                    "Turn #10": "[Nothing]",
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Energy Level 128%"
                     },
-                    "Turn #12": "[Stay idle]",
+                    "Turn #12": "[Nothing]",
                     "Turn #13": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -25122,7 +25122,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Holy",
                         "second_choice": "Flare",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -25141,7 +25141,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
@@ -25204,8 +25204,8 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #5": "[Stay idle]",
-                    "Turn #6": "[Stay idle]",
+                    "Turn #5": "[Nothing]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
@@ -25262,7 +25262,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Curse",
                         "second_choice": "????",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -25389,7 +25389,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Regen",
                                 "second_choice": "Protect",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -25400,7 +25400,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Poison",
                                 "second_choice": "Osmose",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     },
@@ -25417,7 +25417,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Shell",
                                 "second_choice": "Haste",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -25428,7 +25428,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Graviga",
                                 "second_choice": "Slowga",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     },
@@ -25445,7 +25445,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Berserk",
                                 "second_choice": "Pond S Chorus",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -25456,7 +25456,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Evil Eye",
                                 "second_choice": "White Hole",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -25475,34 +25475,34 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
-                    "Turn #3": "[Stay idle]",
+                    "Turn #3": "[Nothing]",
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 131
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour Off"
                     },
                     "Turn #5": "Grand Cross",
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
-                    "Turn #8": "[Stay idle]",
+                    "Turn #8": "[Nothing]",
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 131
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour Off"
                     },
                     "Turn #10": "Giga Flare"
                 }
@@ -25523,8 +25523,8 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -25545,8 +25545,8 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "FULL_SCREEN_EFFECT",
-                                "second_byte": 10,
-                                "third_byte": 131
+                                "effect_type": "Brightness_Effect table",
+                                "effect": "Colour effect: Multicolour Off"
                             }
                         ]
                     },
@@ -25559,8 +25559,8 @@
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
@@ -25575,8 +25575,8 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "FULL_SCREEN_EFFECT",
-                                "second_byte": 10,
-                                "third_byte": 131
+                                "effect_type": "Brightness_Effect table",
+                                "effect": "Colour effect: Multicolour Off"
                             }
                         ]
                     },
@@ -25595,8 +25595,8 @@
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 10,
-                        "third_byte": 3
+                        "effect_type": "Brightness_Effect table",
+                        "effect": "Colour effect: Multicolour On"
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
@@ -25606,8 +25606,8 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "FULL_SCREEN_EFFECT",
-                                "second_byte": 10,
-                                "third_byte": 131
+                                "effect_type": "Brightness_Effect table",
+                                "effect": "Colour effect: Multicolour Off"
                             }
                         ]
                     }
@@ -25637,7 +25637,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "White Hole",
                         "second_choice": "Dance Macabre",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -25656,7 +25656,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Hurricane",
                         "second_choice": "Reaper's Sword",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -25814,19 +25814,19 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "[Special ability]",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "[Special ability]",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "!Attack",
                                 "second_choice": "[Special ability]",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -26323,8 +26323,8 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "NO_INTERRUPT",
@@ -26410,7 +26410,7 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "[Special ability]",
                                 "second_choice": "!Attack",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -26783,19 +26783,19 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Filling Multi-Surge Beam energy"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Explosives pressure increased"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Energy Level 128%"
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
@@ -26814,37 +26814,37 @@
                         "type": "DISPLAY_MESSAGE",
                         "message": "Filling Multi-Surge Beam energy"
                     },
-                    "Turn #2": "[Stay idle]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Cross Encountersnosity set to 20"
                     },
-                    "Turn #4": "[Stay idle]",
+                    "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Safety Lock released"
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Explosives pressure increased"
                     },
-                    "Turn #8": "[Stay idle]",
+                    "Turn #8": "[Nothing]",
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Anti-Shock Anti-Flash Shield on"
                     },
-                    "Turn #10": "[Stay idle]",
+                    "Turn #10": "[Nothing]",
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Energy Level 128%"
                     },
-                    "Turn #12": "[Stay idle]",
+                    "Turn #12": "[Nothing]",
                     "Turn #13": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
@@ -26857,7 +26857,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #16": "[Stay idle]"
+                    "Turn #16": "[Nothing]"
                 }
             }
         ],
@@ -26962,8 +26962,8 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
@@ -27070,7 +27070,7 @@
                     }
                 ],
                 "actions": [
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -27087,8 +27087,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -27133,7 +27133,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -27144,7 +27144,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "Firaga",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -27202,13 +27202,13 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Ice Storm",
                         "second_choice": "Ice Storm",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -27266,7 +27266,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -27277,7 +27277,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Bio",
                         "second_choice": "Bio",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -27348,7 +27348,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Drain",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -27366,8 +27366,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Protect",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -27385,8 +27385,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Toad",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -27494,11 +27494,11 @@
                     }
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]",
-                    "Turn #2": "[Stay idle]",
-                    "Turn #3": "[Stay idle]",
-                    "Turn #4": "[Stay idle]",
-                    "Turn #5": "[Stay idle]",
+                    "Turn #1": "[Nothing]",
+                    "Turn #2": "[Nothing]",
+                    "Turn #3": "[Nothing]",
+                    "Turn #4": "[Nothing]",
+                    "Turn #5": "[Nothing]",
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "SET_ENEMY_TO_SHOW",
@@ -27547,7 +27547,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #10": "[Stay idle]"
+                    "Turn #10": "[Nothing]"
                 }
             }
         ],
@@ -27567,7 +27567,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -27588,7 +27588,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -27609,7 +27609,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -27630,7 +27630,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -27651,7 +27651,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "[Special ability]",
                         "second_choice": "[Special ability]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 }
             }
@@ -27759,7 +27759,7 @@
                                 "var_id": "Var_00",
                                 "value": 1
                             },
-                            "[Stay idle]"
+                            "[Nothing]"
                         ]
                     }
                 ]
@@ -27786,7 +27786,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Protect",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -27812,7 +27812,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Toad",
                         "second_choice": "Drain",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -28080,8 +28080,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Tidal Wave",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             },
@@ -28099,8 +28099,8 @@
                     {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mega Flare",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }
@@ -28119,15 +28119,15 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 3,
-                        "third_byte": 240
+                        "effect_type": "Light_Effect table",
+                        "effect": "Light effect: Light Flash"
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
                         "message": "Charging up for Giga Flare!"
                     },
-                    "Turn #3": "[Stay idle]",
+                    "Turn #3": "[Nothing]",
                     "Turn #4": "Giga Flare",
                     "Turn #5": {
                         "action": "AI_COMMAND",
@@ -28190,7 +28190,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mini",
                         "second_choice": "Float",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -28271,7 +28271,7 @@
                         "property_table": "BATTLE_COMMAND_2",
                         "mask": 64
                     },
-                    "Turn #2": "[Stay idle]"
+                    "Turn #2": "[Nothing]"
                 }
             },
             {
@@ -28282,38 +28282,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Mind Blast",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Hurricane",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Confuse",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": "[False Image switch]"
                 }
@@ -28415,7 +28415,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -28661,13 +28661,13 @@
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Comet",
                                 "second_choice": "Comet",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             },
                             {
                                 "action": "GBA_RANDOM_SELECTION",
                                 "first_choice": "Comet",
                                 "second_choice": "Comet",
-                                "third_choice": "[Stay idle]"
+                                "third_choice": "[Nothing]"
                             }
                         ]
                     }
@@ -28771,8 +28771,8 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "FULL_SCREEN_EFFECT",
-                        "second_byte": 3,
-                        "third_byte": 240
+                        "effect_type": "Light_Effect table",
+                        "effect": "Light effect: Light Flash"
                     },
                     "[Strong Attack]"
                 ]
@@ -28935,37 +28935,37 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "!Attack",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -29036,38 +29036,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -29138,38 +29138,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "!Attack",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -29240,38 +29240,38 @@
                     "Turn #1": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #2": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
-                        "second_choice": "[Stay idle]",
-                        "third_choice": "[Stay idle]"
+                        "second_choice": "[Nothing]",
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #4": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Firaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #5": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Blizzaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #6": {
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Thundaga",
                         "second_choice": "[Unnamed script trigger]",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #7": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -29712,7 +29712,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -29736,7 +29736,7 @@
                         "var_id": "Var_00",
                         "value": 2
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -29760,7 +29760,7 @@
                         "var_id": "Var_00",
                         "value": 3
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -29784,7 +29784,7 @@
                         "var_id": "Var_00",
                         "value": 4
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -29808,7 +29808,7 @@
                         "var_id": "Var_00",
                         "value": 5
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -29832,7 +29832,7 @@
                         "var_id": "Var_00",
                         "value": 6
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             },
             {
@@ -29856,7 +29856,7 @@
                         "var_id": "Var_00",
                         "value": 7
                     },
-                    "[Stay idle]"
+                    "[Nothing]"
                 ]
             }
         ]
@@ -30012,7 +30012,7 @@
                     "UNCONDITIONAL"
                 ],
                 "actions": {
-                    "Turn #1": "[Stay idle]"
+                    "Turn #1": "[Nothing]"
                 }
             }
         ],
@@ -30116,7 +30116,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Holy",
                         "second_choice": "Flare",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     },
                     "Turn #3": {
                         "action": "GBA_RANDOM_SELECTION",
@@ -30135,7 +30135,7 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #6": "[Stay idle]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
@@ -30198,8 +30198,8 @@
                         "var_id": "Var_00",
                         "value": 1
                     },
-                    "Turn #5": "[Stay idle]",
-                    "Turn #6": "[Stay idle]",
+                    "Turn #5": "[Nothing]",
+                    "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "SET_VARIABLE",
@@ -30256,7 +30256,7 @@
                         "action": "GBA_RANDOM_SELECTION",
                         "first_choice": "Curse",
                         "second_choice": "????",
-                        "third_choice": "[Stay idle]"
+                        "third_choice": "[Nothing]"
                     }
                 ]
             }

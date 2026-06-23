@@ -112,7 +112,7 @@ class EnemyAbilities(IntEnum):
             case EnemyAbilities.UNNAMED_SELF_KILL:
                 return "[Unconditional self-kill]"
             case EnemyAbilities.UNNAMED_STAY_IDLE:
-                return "[Stay idle]"
+                return "[Nothing]"
             case EnemyAbilities.UNNAMED_SCRIPT_TRIGGER:
                 return "[Unnamed script trigger]"
             case EnemyAbilities.UNNAMED_EXPLODE:

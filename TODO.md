@@ -12,10 +12,6 @@
 
 - Line 32: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
 
-## [parser/actions/full_screen_effect_action.py](parser/actions/full_screen_effect_action.py)
-
-- Line 7: # TODO: Find out the mapping between the second and third bytes and the actual full screen effect that is applied. For now, just store the raw values.
-
 ## [parser/enums/stats_and_properties_table.py](parser/enums/stats_and_properties_table.py)
 
 - Line 5: # TODO: this only works for the SNES version. The GBA version has a different table/order.
@@ -41,10 +37,6 @@
 ## [parser/enums/target.py](parser/enums/target.py)
 
 - Line 45: ENKIDU = 0x27  # TODO: check this.
-
-## [parser/enums/full_screen_effects.py](parser/enums/full_screen_effects.py)
-
-- Line 1: # TODO: implement this enum.
 
 ## [parser/conditions/hit_by_command_condition.py](parser/conditions/hit_by_command_condition.py)
 

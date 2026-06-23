@@ -18,5 +18,9 @@
     "battle_pointers": [
         "0x10F000",
         "0x10F1D3"
+    ],
+    "special_ability_offsets": [
+        "0x109900",
+        "0x109BFF"
     ]
 }
