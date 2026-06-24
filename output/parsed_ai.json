@@ -262,7 +262,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Gimme an Elixir pleeease!"
+                        "message": "'Gimme an Elixir pleeease!",
+                        "table_number": 3,
+                        "entry": 232
                     },
                     "Turn #2": "Remedy"
                 }
@@ -282,7 +284,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Yay!! Yay!! Thanks!!"
+                        "message": "'Yay!! Yay!! Thanks!!",
+                        "table_number": 2,
+                        "entry": 233
                     },
                     {
                         "action": "RANDOM_SELECTION",
@@ -898,22 +902,30 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Byblos:  I, Ifrit..."
+                                "message": "Byblos:  I, Ifrit...",
+                                "table_number": 5,
+                                "entry": 8
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"You fools!  The seal..."
+                                "message": "'You fools!  The seal...",
+                                "table_number": 5,
+                                "entry": 9
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"But the seal of my master"
+                                "message": "'But the seal of my master",
+                                "table_number": 5,
+                                "entry": 59
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Still lives!!!"
+                                "message": "'Still lives!!!",
+                                "table_number": 5,
+                                "entry": 60
                             },
                             "[Nothing]"
                         ]
@@ -932,22 +944,30 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Byblos:  Uggh!!!"
+                                "message": "Byblos:  Uggh!!!",
+                                "table_number": 5,
+                                "entry": 57
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"This is the end...."
+                                "message": "'This is the end....",
+                                "table_number": 5,
+                                "entry": 58
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"But the seal of my master"
+                                "message": "'But the seal of my master",
+                                "table_number": 5,
+                                "entry": 59
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Still lives!!!"
+                                "message": "'Still lives!!!",
+                                "table_number": 5,
+                                "entry": 60
                             },
                             "[Nothing]"
                         ]
@@ -1217,37 +1237,51 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Ramuh:  Huh?  Ifrit...?"
+                        "message": "Ramuh:  Huh?  Ifrit...?",
+                        "table_number": 3,
+                        "entry": 108
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"What are you...?"
+                        "message": "'What are you...?",
+                        "table_number": 3,
+                        "entry": 109
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Ifrit:  Ramuh!"
+                        "message": "Ifrit:  Ramuh!",
+                        "table_number": 3,
+                        "entry": 110
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You're getting better!"
+                        "message": "'You're getting better!",
+                        "table_number": 3,
+                        "entry": 111
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"If it were possible..."
+                        "message": "'If it were possible...",
+                        "table_number": 3,
+                        "entry": 112
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Ramuh:  Stop, Ifrit!"
+                        "message": "Ramuh:  Stop, Ifrit!",
+                        "table_number": 3,
+                        "entry": 113
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"This isn't between us!"
+                        "message": "'This isn't between us!",
+                        "table_number": 3,
+                        "entry": 114
                     },
                     {
                         "action": "AI_COMMAND",
@@ -1453,7 +1487,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Crap!  You stubborn...!!"
+                        "message": "'Crap!  You stubborn...!!",
+                        "table_number": 1,
+                        "entry": 20
                     },
                     "Turn #2": "Flee"
                 }
@@ -1470,7 +1506,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Sergeant:  Attack them!"
+                                "message": "Sergeant:  Attack them!",
+                                "table_number": 1,
+                                "entry": 11
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -1775,17 +1813,23 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Ifrit:  You are strong...!"
+                        "message": "Ifrit:  You are strong...!",
+                        "table_number": 4,
+                        "entry": 1
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I have decided to grant my"
+                        "message": "'I have decided to grant my",
+                        "table_number": 4,
+                        "entry": 2
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"powers to you..."
+                        "message": "'powers to you...",
+                        "table_number": 4,
+                        "entry": 3
                     },
                     "[Nothing]"
                 ]
@@ -3239,7 +3283,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Golem:  Help me!"
+                        "message": "Golem:  Help me!",
+                        "table_number": 2,
+                        "entry": 5
                     },
                     "Turn #2": "[Nothing]"
                 }
@@ -4356,7 +4402,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Metamorpha:  Change!!"
+                                "message": "Metamorpha:  Change!!",
+                                "table_number": 1,
+                                "entry": 96
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -4503,12 +4551,16 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Sekmet:  Even if you defeat me..."
+                        "message": "Sekmet:  Even if you defeat me...",
+                        "table_number": 3,
+                        "entry": 75
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"My brother at the tower... Ugh!"
+                        "message": "'My brother at the tower... Ugh!",
+                        "table_number": 3,
+                        "entry": 76
                     },
                     {
                         "action": "AI_COMMAND",
@@ -4686,7 +4738,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Come forth!  Evil one!!"
+                                "message": "'Come forth!  Evil one!!",
+                                "table_number": 2,
+                                "entry": 41
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -5311,7 +5365,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Here...magic is useless!"
+                                "message": "'Here...magic is useless!",
+                                "table_number": 2,
+                                "entry": 21
                             },
                             "!Attack",
                             "!Attack",
@@ -6035,7 +6091,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Charging up!"
+                        "message": "Charging up!",
+                        "table_number": 1,
+                        "entry": 92
                     },
                     "Turn #2": "[Nothing]",
                     "Turn #3": "[Strong Attack]"
@@ -6088,13 +6146,17 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Narrrrrr Torrrrrr"
+                        "message": "'Narrrrrr Torrrrrr",
+                        "table_number": 2,
+                        "entry": 44
                     },
                     "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Kirrrrrr Sarrrrrr"
+                        "message": "'Kirrrrrr Sarrrrrr",
+                        "table_number": 2,
+                        "entry": 45
                     },
                     "Turn #4": "[Nothing]",
                     "Turn #5": {
@@ -7403,47 +7465,65 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"...<NAME>...?"
+                        "message": "'...Bartz...?",
+                        "table_number": 4,
+                        "entry": 133
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"It's you isn't it!!"
+                        "message": "'It's you isn't it!!",
+                        "table_number": 3,
+                        "entry": 134
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Why didn't you say so?"
+                        "message": "'Why didn't you say so?",
+                        "table_number": 7,
+                        "entry": 135
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"The monsters here are scary,"
+                        "message": "'The monsters here are scary,",
+                        "table_number": 4,
+                        "entry": 136
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"And I can't find my way out..."
+                        "message": "'And I can't find my way out...",
+                        "table_number": 5,
+                        "entry": 137
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I'm about to cry..."
+                        "message": "'I'm about to cry...",
+                        "table_number": 4,
+                        "entry": 138
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"By the way, how'd you get here?"
+                        "message": "'By the way, how'd you get here?",
+                        "table_number": 6,
+                        "entry": 139
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "<NAME> explains what happened"
+                        "message": "Bartz explains what happened",
+                        "table_number": 7,
+                        "entry": 140
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I see...now I can get home!"
+                        "message": "'I see...now I can get home!",
+                        "table_number": 5,
+                        "entry": 141
                     },
                     "Turn #10": {
                         "action": "AI_COMMAND",
@@ -7471,7 +7551,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  Hah!"
+                                "message": "Gilgamesh:  Hah!",
+                                "table_number": 1,
+                                "entry": 115
                             },
                             {
                                 "action": "RANDOM_SELECTION",
@@ -7494,7 +7576,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  Hah!"
+                                "message": "Gilgamesh:  Hah!",
+                                "table_number": 1,
+                                "entry": 120
                             },
                             {
                                 "action": "RANDOM_SELECTION",
@@ -7520,7 +7604,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Another monster!"
+                        "message": "Gilgamesh:  Another monster!",
+                        "table_number": 2,
+                        "entry": 132
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -7546,42 +7632,58 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"How'd you like to escape?"
+                        "message": "'How'd you like to escape?",
+                        "table_number": 6,
+                        "entry": 219
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"..."
+                        "message": "\"...",
+                        "table_number": 6,
+                        "entry": 220
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Oh..yeah...that's right..."
+                        "message": "'Oh..yeah...that's right...",
+                        "table_number": 6,
+                        "entry": 221
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Well if we live, let's meet again..."
+                        "message": "'Well if we live, let's meet again...",
+                        "table_number": 4,
+                        "entry": 222
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I know we will..."
+                        "message": "'I know we will...",
+                        "table_number": 4,
+                        "entry": 223
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"At that time we'll be friends..."
+                        "message": "'At that time we'll be friends...",
+                        "table_number": 6,
+                        "entry": 224
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"N... never mind!"
+                        "message": "'N... never mind!",
+                        "table_number": 6,
+                        "entry": 225
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Later!"
+                        "message": "'Later!",
+                        "table_number": 1,
+                        "entry": 226
                     },
                     "[Terminate battle]"
                 ]
@@ -7876,12 +7978,16 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Golem:  Thank you!"
+                        "message": "Golem:  Thank you!",
+                        "table_number": 3,
+                        "entry": 6
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Hey, can I go with you?"
+                        "message": "'Hey, can I go with you?",
+                        "table_number": 3,
+                        "entry": 7
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
@@ -7941,7 +8047,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -7975,7 +8083,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8009,7 +8119,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8043,7 +8155,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8077,7 +8191,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8111,7 +8227,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8145,7 +8263,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8179,7 +8299,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8213,7 +8335,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  \"Change back!!"
+                                "message": "  'Change back!!",
+                                "table_number": 1,
+                                "entry": 97
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -8810,12 +8934,16 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Attack when its wings are closed,"
+                        "message": "Attack when its wings are closed,",
+                        "table_number": 5,
+                        "entry": 208
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "and it'll respond with its claws!!"
+                        "message": "and it'll respond with its claws!!",
+                        "table_number": 5,
+                        "entry": 209
                     },
                     {
                         "action": "AI_COMMAND",
@@ -8880,7 +9008,9 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Charging up for Giga Flare!"
+                        "message": "Charging up for Giga Flare!",
+                        "table_number": 3,
+                        "entry": 87
                     },
                     "Turn #3": "[Nothing]",
                     "Turn #4": "Giga Flare",
@@ -8931,7 +9061,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Changes to an Undead!"
+                                "message": "Changes to an Undead!",
+                                "table_number": 2,
+                                "entry": 4
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -9036,7 +9168,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Magisa:  Honey, a job for you!"
+                                "message": "Magisa:  Honey, a job for you!",
+                                "table_number": 1,
+                                "entry": 10
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -9610,27 +9744,37 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  The Void begins to"
+                                "message": "  The Void begins to",
+                                "table_number": 7,
+                                "entry": 227
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "  devour Exdeath!!"
+                                "message": "  devour Exdeath!!",
+                                "table_number": 7,
+                                "entry": 228
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Exdeath:  W  H  Y?"
+                                "message": "Exdeath:  W  H  Y?",
+                                "table_number": 7,
+                                "entry": 229
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I had the power of \"Void'!"
+                                "message": "'I had the power of 'Void'!",
+                                "table_number": 7,
+                                "entry": 230
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"What IS \"Void'...?  Arrrgh!!"
+                                "message": "'What IS 'Void'...?  Arrrgh!!",
+                                "table_number": 7,
+                                "entry": 231
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -9664,25 +9808,33 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Filling Multi-Surge Beam energy"
+                        "message": "Filling Multi-Surge Beam energy",
+                        "table_number": 2,
+                        "entry": 22
                     },
                     "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Explosives pressure increased"
+                        "message": "Explosives pressure increased",
+                        "table_number": 2,
+                        "entry": 25
                     },
                     "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Energy Level 128%"
+                        "message": "Energy Level 128%",
+                        "table_number": 2,
+                        "entry": 27
                     },
                     "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Fire!!!"
+                        "message": "Fire!!!",
+                        "table_number": 1,
+                        "entry": 28
                     },
                     "Turn #8": "Wave Cannon"
                 }
@@ -9695,43 +9847,57 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Filling Multi-Surge Beam energy"
+                        "message": "Filling Multi-Surge Beam energy",
+                        "table_number": 2,
+                        "entry": 22
                     },
                     "Turn #2": "[Nothing]",
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Cross Encountersnosity set to 20"
+                        "message": "Cross Encountersnosity set to 20",
+                        "table_number": 2,
+                        "entry": 23
                     },
                     "Turn #4": "[Nothing]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Safety Lock released"
+                        "message": "Safety Lock released",
+                        "table_number": 2,
+                        "entry": 24
                     },
                     "Turn #6": "[Nothing]",
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Explosives pressure increased"
+                        "message": "Explosives pressure increased",
+                        "table_number": 2,
+                        "entry": 25
                     },
                     "Turn #8": "[Nothing]",
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Anti-Shock Anti-Flash Shield on"
+                        "message": "Anti-Shock Anti-Flash Shield on",
+                        "table_number": 2,
+                        "entry": 26
                     },
                     "Turn #10": "[Nothing]",
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Energy Level 128%"
+                        "message": "Energy Level 128%",
+                        "table_number": 2,
+                        "entry": 27
                     },
                     "Turn #12": "[Nothing]",
                     "Turn #13": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Fire!!!"
+                        "message": "Fire!!!",
+                        "table_number": 1,
+                        "entry": 28
                     },
                     "Turn #14": "Wave Cannon",
                     "Turn #15": {
@@ -9912,22 +10078,30 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "ArchaeoAvis revived!"
+                                "message": "ArchaeoAvis revived!",
+                                "table_number": 4,
+                                "entry": 217
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "King Tycoon:  Astounding!"
+                                "message": "King Tycoon:  Astounding!",
+                                "table_number": 4,
+                                "entry": 214
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"What life force!!"
+                                "message": "'What life force!!",
+                                "table_number": 4,
+                                "entry": 215
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"The power of the Crystals...?"
+                                "message": "'The power of the Crystals...?",
+                                "table_number": 4,
+                                "entry": 216
                             },
                             "[Nothing]"
                         ]
@@ -10152,7 +10326,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Hah!"
+                        "message": "Gilgamesh:  Hah!",
+                        "table_number": 1,
+                        "entry": 115
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -10163,7 +10339,9 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Hah!"
+                        "message": "Gilgamesh:  Hah!",
+                        "table_number": 1,
+                        "entry": 120
                     },
                     "Turn #4": {
                         "action": "RANDOM_SELECTION",
@@ -10188,22 +10366,30 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Crap!"
+                        "message": "Gilgamesh:  Crap!",
+                        "table_number": 2,
+                        "entry": 116
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Alright.. for today"
+                        "message": "'Alright.. for today",
+                        "table_number": 2,
+                        "entry": 117
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I'll let you go..."
+                        "message": "'I'll let you go...",
+                        "table_number": 2,
+                        "entry": 118
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Lucky for you!"
+                        "message": "'Lucky for you!",
+                        "table_number": 2,
+                        "entry": 119
                     },
                     "Flee"
                 ]
@@ -10367,17 +10553,23 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Hey!"
+                        "message": "Gilgamesh:  Hey!",
+                        "table_number": 2,
+                        "entry": 34
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I remembered urgent business!"
+                        "message": "'I remembered urgent business!",
+                        "table_number": 2,
+                        "entry": 35
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I'll be back!!"
+                        "message": "'I'll be back!!",
+                        "table_number": 2,
+                        "entry": 121
                     },
                     "Flee"
                 ]
@@ -10406,25 +10598,33 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I was wrong..."
+                                "message": "'I was wrong...",
+                                "table_number": 2,
+                                "entry": 30
                             },
                             "Haste",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I can't fight four people..."
+                                "message": "'I can't fight four people...",
+                                "table_number": 2,
+                                "entry": 31
                             },
                             "Protect",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I don't stand a chance..."
+                                "message": "'I don't stand a chance...",
+                                "table_number": 2,
+                                "entry": 32
                             },
                             "Shell",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"...did you believe me!!?"
+                                "message": "'...did you believe me!!?",
+                                "table_number": 2,
+                                "entry": 33
                             },
                             "Jump",
                             {
@@ -10818,22 +11018,30 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  What took you so long?"
+                                "message": "Gilgamesh:  What took you so long?",
+                                "table_number": 2,
+                                "entry": 36
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Enkidou:  That  old man..."
+                                "message": "Enkidou:  That  old man...",
+                                "table_number": 2,
+                                "entry": 37
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Gave me a bit of trouble..."
+                                "message": "'Gave me a bit of trouble...",
+                                "table_number": 2,
+                                "entry": 38
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  First aid...please!"
+                                "message": "Gilgamesh:  First aid...please!",
+                                "table_number": 2,
+                                "entry": 39
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -10891,23 +11099,31 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  Enkidou!"
+                                "message": "Gilgamesh:  Enkidou!",
+                                "table_number": 3,
+                                "entry": 210
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I'll leave the rest to you!"
+                                "message": "'I'll leave the rest to you!",
+                                "table_number": 4,
+                                "entry": 211
                             },
                             "[Flip sprite horizontally]",
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Enkidou..."
+                                "message": "'Enkidou...",
+                                "table_number": 5,
+                                "entry": 212
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Hey, don't leave me!!"
+                                "message": "'Hey, don't leave me!!",
+                                "table_number": 3,
+                                "entry": 213
                             },
                             "[Nothing]"
                         ]
@@ -11513,7 +11729,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Ramuh:  Oh!?  Ifrit..."
+                        "message": "Ramuh:  Oh!?  Ifrit...",
+                        "table_number": 3,
+                        "entry": 93
                     },
                     "Flee"
                 ]
@@ -11539,27 +11757,37 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Exdeath:  You worthless..."
+                        "message": "Exdeath:  You worthless...",
+                        "table_number": 5,
+                        "entry": 178
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"To the Cleft of Dimension!!"
+                        "message": "'To the Cleft of Dimension!!",
+                        "table_number": 5,
+                        "entry": 179
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  D..don't!"
+                        "message": "Gilgamesh:  D..don't!",
+                        "table_number": 5,
+                        "entry": 180
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Forgive me!"
+                        "message": "'Forgive me!",
+                        "table_number": 5,
+                        "entry": 181
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Exdeath:  Silence!"
+                        "message": "Exdeath:  Silence!",
+                        "table_number": 5,
+                        "entry": 182
                     },
                     "Turn #6": "Banish"
                 }
@@ -11576,12 +11804,16 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Excalibur..."
+                                "message": "'Excalibur...",
+                                "table_number": 5,
+                                "entry": 183
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Let me see your strength!"
+                                "message": "'Let me see your strength!",
+                                "table_number": 5,
+                                "entry": 184
                             },
                             "!Attack"
                         ]
@@ -11594,7 +11826,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Huh?"
+                                "message": "'Huh?",
+                                "table_number": 2,
+                                "entry": 185
                             },
                             "[Nothing]"
                         ]
@@ -11607,7 +11841,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"What the...?"
+                                "message": "'What the...?",
+                                "table_number": 2,
+                                "entry": 186
                             },
                             "[Nothing]"
                         ]
@@ -11620,7 +11856,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Isn't it the strongest sword!?"
+                                "message": "'Isn't it the strongest sword!?",
+                                "table_number": 2,
+                                "entry": 187
                             },
                             "[Nothing]"
                         ]
@@ -11634,12 +11872,16 @@
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Exdeath:  Gilgamesh!"
+                        "message": "Exdeath:  Gilgamesh!",
+                        "table_number": 5,
+                        "entry": 176
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  ..."
+                        "message": "Gilgamesh:  ...",
+                        "table_number": 5,
+                        "entry": 177
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
@@ -11666,7 +11908,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Aaahh!!"
+                        "message": "Gilgamesh:  Aaahh!!",
+                        "table_number": 3,
+                        "entry": 88
                     },
                     {
                         "action": "AI_COMMAND",
@@ -12573,7 +12817,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Odin:  This is it!"
+                        "message": "Odin:  This is it!",
+                        "table_number": 1,
+                        "entry": 73
                     },
                     "[Terminate battle]"
                 ]
@@ -12979,12 +13225,16 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Minotaur:  Holy...the magic"
+                        "message": "Minotaur:  Holy...the magic",
+                        "table_number": 3,
+                        "entry": 77
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"of strength...See its power!"
+                        "message": "'of strength...See its power!",
+                        "table_number": 3,
+                        "entry": 78
                     },
                     "Holy"
                 ]
@@ -13334,47 +13584,65 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gogo:  I give up!"
+                        "message": "Gogo:  I give up!",
+                        "table_number": 5,
+                        "entry": 192
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"That's the way!"
+                        "message": "'That's the way!",
+                        "table_number": 5,
+                        "entry": 193
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I'm not doing anything..."
+                        "message": "'I'm not doing anything...",
+                        "table_number": 5,
+                        "entry": 194
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"So you did nothing!"
+                        "message": "'So you did nothing!",
+                        "table_number": 5,
+                        "entry": 195
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You copied me!"
+                        "message": "'You copied me!",
+                        "table_number": 5,
+                        "entry": 196
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Good job!"
+                        "message": "'Good job!",
+                        "table_number": 5,
+                        "entry": 197
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"That is the art of the mimic!"
+                        "message": "'That is the art of the mimic!",
+                        "table_number": 5,
+                        "entry": 198
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You're graduates now!"
+                        "message": "'You're graduates now!",
+                        "table_number": 5,
+                        "entry": 199
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Goodbye!!"
+                        "message": "'Goodbye!!",
+                        "table_number": 5,
+                        "entry": 200
                     },
                     "Turn #10": {
                         "action": "AI_COMMAND",
@@ -13436,52 +13704,72 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gogo:  My name is Gogo!"
+                        "message": "Gogo:  My name is Gogo!",
+                        "table_number": 4,
+                        "entry": 46
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"The famous mimic..."
+                        "message": "'The famous mimic...",
+                        "table_number": 4,
+                        "entry": 47
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"The trick to mimicking..."
+                        "message": "'The trick to mimicking...",
+                        "table_number": 4,
+                        "entry": 48
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Is to imitate..."
+                        "message": "'Is to imitate...",
+                        "table_number": 4,
+                        "entry": 49
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"So I'll watch you and"
+                        "message": "'So I'll watch you and",
+                        "table_number": 4,
+                        "entry": 50
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Do what you do..."
+                        "message": "'Do what you do...",
+                        "table_number": 4,
+                        "entry": 51
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"If you fight, I fight..."
+                        "message": "'If you fight, I fight...",
+                        "table_number": 4,
+                        "entry": 52
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"If you use magic, so will I!"
+                        "message": "'If you use magic, so will I!",
+                        "table_number": 4,
+                        "entry": 53
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"If you do what I do,"
+                        "message": "'If you do what I do,",
+                        "table_number": 4,
+                        "entry": 54
                     },
                     "Turn #10": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You'll surely win!"
+                        "message": "'You'll surely win!",
+                        "table_number": 4,
+                        "entry": 55
                     },
                     "Turn #11": {
                         "action": "AI_COMMAND",
@@ -13507,17 +13795,23 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gogo:  You guys..."
+                        "message": "Gogo:  You guys...",
+                        "table_number": 4,
+                        "entry": 188
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You didn't get the point!"
+                        "message": "'You didn't get the point!",
+                        "table_number": 4,
+                        "entry": 189
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"No more imitation..."
+                        "message": "'No more imitation...",
+                        "table_number": 4,
+                        "entry": 190
                     },
                     {
                         "action": "AI_COMMAND",
@@ -13528,7 +13822,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Let's do it some other time!"
+                        "message": "'Let's do it some other time!",
+                        "table_number": 4,
+                        "entry": 191
                     },
                     {
                         "action": "AI_COMMAND",
@@ -13927,7 +14223,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "   focusing power!"
+                        "message": "   focusing power!",
+                        "table_number": 1,
+                        "entry": 218
                     },
                     {
                         "action": "AI_COMMAND",
@@ -13983,7 +14281,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Exdeath:  Take this!!"
+                        "message": "Exdeath:  Take this!!",
+                        "table_number": 1,
+                        "entry": 129
                     },
                     "Turn #2": "[Special ability]",
                     "Turn #3": {
@@ -13993,12 +14293,16 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"You've made me mad!"
+                                "message": "'You've made me mad!",
+                                "table_number": 3,
+                                "entry": 130
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"To the world of Death with you!!"
+                                "message": "'To the world of Death with you!!",
+                                "table_number": 3,
+                                "entry": 131
                             },
                             "Flare",
                             "Holy",
@@ -14012,27 +14316,37 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Exdeath:  Wh-, why won't you die!?"
+                                "message": "Exdeath:  Wh-, why won't you die!?",
+                                "table_number": 2,
+                                "entry": 98
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Galuf:  Not yet..."
+                                "message": "Galuf:  Not yet...",
+                                "table_number": 2,
+                                "entry": 99
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I can't die yet!"
+                                "message": "'I can't die yet!",
+                                "table_number": 2,
+                                "entry": 100
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Galuf:  Even if my life"
+                                "message": "Galuf:  Even if my life",
+                                "table_number": 2,
+                                "entry": 101
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"burns out...I will defeat you!!"
+                                "message": "'burns out...I will defeat you!!",
+                                "table_number": 2,
+                                "entry": 102
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -14098,7 +14412,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Exdeath:  Then what is it...?"
+                                "message": "Exdeath:  Then what is it...?",
+                                "table_number": 3,
+                                "entry": 107
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -14138,12 +14454,16 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Galuf:  This isn't anger..."
+                        "message": "Galuf:  This isn't anger...",
+                        "table_number": 3,
+                        "entry": 105
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"... nor is it hatred...!!"
+                        "message": "'... nor is it hatred...!!",
+                        "table_number": 3,
+                        "entry": 106
                     },
                     {
                         "action": "AI_COMMAND",
@@ -14175,12 +14495,16 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Exdeath:  I cannot be defeated by"
+                        "message": "Exdeath:  I cannot be defeated by",
+                        "table_number": 2,
+                        "entry": 103
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"anger or hatred..."
+                        "message": "'anger or hatred...",
+                        "table_number": 2,
+                        "entry": 104
                     },
                     {
                         "action": "AI_COMMAND",
@@ -14281,42 +14605,58 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Th- this guy's...."
+                        "message": "\"Th- this guy's....",
+                        "table_number": 1,
+                        "entry": 12
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"He's not just a Sergeant!"
+                        "message": "'He's not just a Sergeant!",
+                        "table_number": 1,
+                        "entry": 13
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Show your true colors!"
+                        "message": "'Show your true colors!",
+                        "table_number": 1,
+                        "entry": 14
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Duhahahahaha"
+                        "message": "'Duhahahahaha",
+                        "table_number": 1,
+                        "entry": 15
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Me?  I am the great"
+                        "message": "'Me?  I am the great",
+                        "table_number": 1,
+                        "entry": 16
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Bounty hunter..."
+                        "message": "'Bounty hunter...",
+                        "table_number": 1,
+                        "entry": 17
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Iron Claw!!"
+                        "message": "'Iron Claw!!",
+                        "table_number": 1,
+                        "entry": 18
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Change form!!"
+                        "message": "'Change form!!",
+                        "table_number": 1,
+                        "entry": 19
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
@@ -14345,7 +14685,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Sergeant:  Attack them!"
+                                "message": "Sergeant:  Attack them!",
+                                "table_number": 1,
+                                "entry": 11
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -14900,7 +15242,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned L.3 Flare!"
+                        "message": "Learned L.3 Flare!",
+                        "table_number": 3,
+                        "entry": 81
                     },
                     {
                         "action": "AI_COMMAND",
@@ -14924,7 +15268,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned Aero 3!"
+                        "message": "Learned Aero 3!",
+                        "table_number": 3,
+                        "entry": 80
                     },
                     {
                         "action": "AI_COMMAND",
@@ -14948,7 +15294,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned Blowfish!"
+                        "message": "Learned Blowfish!",
+                        "table_number": 3,
+                        "entry": 82
                     },
                     {
                         "action": "AI_COMMAND",
@@ -14972,7 +15320,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned Vampire!"
+                        "message": "Learned Vampire!",
+                        "table_number": 3,
+                        "entry": 83
                     },
                     {
                         "action": "AI_COMMAND",
@@ -14996,7 +15346,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned Aqua Rake!"
+                        "message": "Learned Aqua Rake!",
+                        "table_number": 3,
+                        "entry": 84
                     },
                     {
                         "action": "AI_COMMAND",
@@ -15020,7 +15372,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned Magic Hammer!"
+                        "message": "Learned Magic Hammer!",
+                        "table_number": 3,
+                        "entry": 85
                     },
                     {
                         "action": "AI_COMMAND",
@@ -15044,7 +15398,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Learned Exploder!"
+                        "message": "Learned Exploder!",
+                        "table_number": 3,
+                        "entry": 86
                     },
                     {
                         "action": "AI_COMMAND",
@@ -15125,7 +15481,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Necrofobia:  Die!!"
+                                "message": "Necrofobia:  Die!!",
+                                "table_number": 2,
+                                "entry": 169
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -15286,22 +15644,30 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"M... my invincible barrier..."
+                        "message": "'M... my invincible barrier...",
+                        "table_number": 7,
+                        "entry": 124
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Then I have no choice..."
+                        "message": "'Then I have no choice...",
+                        "table_number": 2,
+                        "entry": 125
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Have a taste of..."
+                        "message": "'Have a taste of...",
+                        "table_number": 2,
+                        "entry": 126
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"My real power!!"
+                        "message": "'My real power!!",
+                        "table_number": 2,
+                        "entry": 127
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
@@ -15340,17 +15706,23 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"With these four barriers..."
+                        "message": "'With these four barriers...",
+                        "table_number": 3,
+                        "entry": 172
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I am now invincible!"
+                        "message": "'I am now invincible!",
+                        "table_number": 3,
+                        "entry": 173
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Can you defeat me?"
+                        "message": "'Can you defeat me?",
+                        "table_number": 3,
+                        "entry": 174
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
@@ -15372,7 +15744,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"E...  Ex... !!!"
+                        "message": "'E...  Ex... !!!",
+                        "table_number": 3,
+                        "entry": 175
                     },
                     "[Nothing]"
                 ]
@@ -15420,42 +15794,58 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Gil... Gilgamesh!!"
+                                "message": "\"Gil... Gilgamesh!!",
+                                "table_number": 7,
+                                "entry": 142
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  Phew!  I made it!"
+                                "message": "Gilgamesh:  Phew!  I made it!",
+                                "table_number": 7,
+                                "entry": 128
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"If I go home right now,"
+                                "message": "'If I go home right now,",
+                                "table_number": 7,
+                                "entry": 143
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I'll remain in history"
+                                "message": "'I'll remain in history",
+                                "table_number": 7,
+                                "entry": 144
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"as a weakling!"
+                                "message": "'as a weakling!",
+                                "table_number": 7,
+                                "entry": 145
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Necrofobia:  Heh..."
+                                "message": "Necrofobia:  Heh...",
+                                "table_number": 7,
+                                "entry": 146
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Blabbermouth..."
+                                "message": "'Blabbermouth...",
+                                "table_number": 7,
+                                "entry": 147
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"I'll get rid of you first!"
+                                "message": "'I'll get rid of you first!",
+                                "table_number": 7,
+                                "entry": 148
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -15646,7 +16036,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Makes me kinda happy..."
+                        "message": "'Makes me kinda happy...",
+                        "table_number": 3,
+                        "entry": 64
                     },
                     "Turn #2": {
                         "action": "RANDOM_SELECTION",
@@ -15657,22 +16049,30 @@
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  By the way..."
+                        "message": "Gilgamesh:  By the way...",
+                        "table_number": 3,
+                        "entry": 65
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Where's that jolly old man?"
+                        "message": "'Where's that jolly old man?",
+                        "table_number": 7,
+                        "entry": 66
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Cara:  Exdeath..."
+                        "message": "Cara:  Exdeath...",
+                        "table_number": 5,
+                        "entry": 67
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  ... I see..."
+                        "message": "Gilgamesh:  ... I see...",
+                        "table_number": 5,
+                        "entry": 68
                     },
                     "Turn #7": {
                         "action": "RANDOM_SELECTION",
@@ -15683,7 +16083,9 @@
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  ..........."
+                        "message": "Gilgamesh:  ...........",
+                        "table_number": 3,
+                        "entry": 69
                     },
                     "Turn #9": {
                         "action": "RANDOM_SELECTION",
@@ -15694,17 +16096,23 @@
                     "Turn #10": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  OK, this is"
+                        "message": "Gilgamesh:  OK, this is",
+                        "table_number": 3,
+                        "entry": 70
                     },
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"the end of my warm-up!"
+                        "message": "'the end of my warm-up!",
+                        "table_number": 3,
+                        "entry": 71
                     },
                     "Turn #12": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Gilgamesh Change!!"
+                        "message": "'Gilgamesh Change!!",
+                        "table_number": 3,
+                        "entry": 72
                     },
                     "Turn #13": {
                         "action": "AI_COMMAND",
@@ -15784,17 +16192,23 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  So..."
+                                "message": "Gilgamesh:  So...",
+                                "table_number": 3,
+                                "entry": 61
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Let's see..."
+                                "message": "'Let's see...",
+                                "table_number": 3,
+                                "entry": 62
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"This is our fourth time, huh..."
+                                "message": "'This is our fourth time, huh...",
+                                "table_number": 3,
+                                "entry": 63
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -15887,7 +16301,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Apanda:  -shiver- -tremble-"
+                                "message": "Apanda:  -shiver- -tremble-",
+                                "table_number": 3,
+                                "entry": 123
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -15957,7 +16373,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Apanda:  Eek eek it's Ifrit"
+                                "message": "Apanda:  Eek eek it's Ifrit",
+                                "table_number": 3,
+                                "entry": 122
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -16052,7 +16470,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Alte Roite shows its true form!"
+                        "message": "Alte Roite shows its true form!",
+                        "table_number": 3,
+                        "entry": 89
                     },
                     {
                         "action": "AI_COMMAND",
@@ -16076,12 +16496,16 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Arute Roite:  Aahh!"
+                        "message": "Arute Roite:  Aahh!",
+                        "table_number": 3,
+                        "entry": 201
                     },
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Really works..."
+                        "message": "'Really works...",
+                        "table_number": 3,
+                        "entry": 202
                     },
                     "Remedy"
                 ]
@@ -16130,7 +16554,9 @@
                     {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"This is the end!!"
+                        "message": "'This is the end!!",
+                        "table_number": 3,
+                        "entry": 91
                     },
                     "[Nothing]"
                 ]
@@ -16162,7 +16588,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Image!!"
+                                "message": "'Image!!",
+                                "table_number": 2,
+                                "entry": 79
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -16372,7 +16800,9 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"Image!!"
+                                "message": "'Image!!",
+                                "table_number": 2,
+                                "entry": 79
                             },
                             {
                                 "action": "AI_COMMAND",
@@ -16691,7 +17121,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "  The laws of physics are broken!"
+                        "message": "  The laws of physics are broken!",
+                        "table_number": 5,
+                        "entry": 74
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -16728,7 +17160,9 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "  The laws of physics are broken!"
+                        "message": "  The laws of physics are broken!",
+                        "table_number": 5,
+                        "entry": 74
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
@@ -16761,7 +17195,9 @@
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "  The laws of physics are broken!"
+                        "message": "  The laws of physics are broken!",
+                        "table_number": 5,
+                        "entry": 74
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
@@ -17132,47 +17568,65 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Lenna!"
+                        "message": "Gilgamesh:  Lenna!",
+                        "table_number": 7,
+                        "entry": 160
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Never forget your"
+                        "message": "'Never forget your",
+                        "table_number": 7,
+                        "entry": 161
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"love for animals..."
+                        "message": "'love for animals...",
+                        "table_number": 7,
+                        "entry": 162
                     },
                     "Turn #4": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Lenna:  ..."
+                        "message": "Lenna:  ...",
+                        "table_number": 7,
+                        "entry": 163
                     },
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  <NAME>!"
+                        "message": "Gilgamesh:  Bartz!",
+                        "table_number": 7,
+                        "entry": 164
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"I would've liked to have a"
+                        "message": "'I would've liked to have a",
+                        "table_number": 7,
+                        "entry": 165
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"one on one battle with you!"
+                        "message": "'one on one battle with you!",
+                        "table_number": 7,
+                        "entry": 166
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You were such good friends..."
+                        "message": "'You were such good friends...",
+                        "table_number": 7,
+                        "entry": 167
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"... Gilgamesh...."
+                        "message": "\"... Gilgamesh....",
+                        "table_number": 7,
+                        "entry": 168
                     },
                     "Turn #10": {
                         "action": "AI_COMMAND",
@@ -17202,58 +17656,80 @@
                     "Turn #1": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  You're pretty good!"
+                        "message": "Gilgamesh:  You're pretty good!",
+                        "table_number": 5,
+                        "entry": 149
                     },
                     "Turn #2": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"You can even defeat..."
+                        "message": "'You can even defeat...",
+                        "table_number": 5,
+                        "entry": 150
                     },
                     "Turn #3": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"The great Gilgamesh?!"
+                        "message": "'The great Gilgamesh?!",
+                        "table_number": 5,
+                        "entry": 151
                     },
                     "Turn #4": "[Flip sprite horizontally]",
                     "Turn #5": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Cara!"
+                        "message": "Gilgamesh:  Cara!",
+                        "table_number": 7,
+                        "entry": 152
                     },
                     "Turn #6": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Your grandfather..."
+                        "message": "'Your grandfather...",
+                        "table_number": 7,
+                        "entry": 153
                     },
                     "Turn #7": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"He was a strong man!"
+                        "message": "'He was a strong man!",
+                        "table_number": 7,
+                        "entry": 154
                     },
                     "Turn #8": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Cara:  ... Grandpa...."
+                        "message": "Cara:  ... Grandpa....",
+                        "table_number": 7,
+                        "entry": 155
                     },
                     "Turn #9": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Gilgamesh:  Faris!"
+                        "message": "Gilgamesh:  Faris!",
+                        "table_number": 7,
+                        "entry": 156
                     },
                     "Turn #10": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Go fall in love..."
+                        "message": "'Go fall in love...",
+                        "table_number": 7,
+                        "entry": 157
                     },
                     "Turn #11": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "\"Then you'd be more feminine!"
+                        "message": "'Then you'd be more feminine!",
+                        "table_number": 7,
+                        "entry": 158
                     },
                     "Turn #12": {
                         "action": "AI_COMMAND",
                         "type": "DISPLAY_MESSAGE",
-                        "message": "Faris:  ..."
+                        "message": "Faris:  ...",
+                        "table_number": 7,
+                        "entry": 159
                     },
                     "Turn #13": {
                         "action": "AI_COMMAND",
@@ -17288,12 +17764,16 @@
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "Gilgamesh:  That's...!"
+                                "message": "Gilgamesh:  That's...!",
+                                "table_number": 3,
+                                "entry": 170
                             },
                             {
                                 "action": "AI_COMMAND",
                                 "type": "DISPLAY_MESSAGE",
-                                "message": "\"my line!!"
+                                "message": "'my line!!",
+                                "table_number": 4,
+                                "entry": 171
                             },
                             {
                                 "action": "AI_COMMAND",

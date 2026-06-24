@@ -44,14 +44,13 @@ def write_compact_representation(path: Path, lines: list[str]) -> None:
             file.write(line + "\n")
 
 
-def convert_battle_text_keys_to_int(battle_text: dict[str, dict[str, str]]) -> dict[int, dict[int, str]]:
-    converted_battle_text: dict[int, dict[int, str]] = {}
+def convert_battle_text_keys_to_int(battle_text: dict[str, str]) -> dict[int, str]:
+    converted_battle_text: dict[int, str] = {}
 
-    for table_number_str, entries in battle_text.items():
-        table_number: int = int(table_number_str)
-        converted_entries: dict[int, str] = {int(entry_number_str): message for entry_number_str, message in entries.items()}
+    for key, value in battle_text.items():
+        table_number: int = int(key, 16)
 
-        converted_battle_text[table_number] = converted_entries
+        converted_battle_text[table_number] = value
 
     return converted_battle_text
 
@@ -70,7 +69,7 @@ def convert_enemy_special_abilities_keys_to_int(enemy_special_abilities: dict[st
     return converted_enemy_special_abilities
 
 
-def parse_enemy_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, dict[int, str]]) -> tuple[bool, EnemyAIParser]:
+def parse_enemy_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, str]) -> tuple[bool, EnemyAIParser]:
     parser: EnemyAIParser = EnemyAIParser(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, tokens=bytes.fromhex(hex_ai), battle_text=battle_text)
 
     return parser.parse(), parser
@@ -93,7 +92,7 @@ def patch_hex_ai(enemy_id: str, hex_ai: str) -> str:
         return hex_ai.replace(BAD_TERMINATOR, GOOD_TERMINATOR)
 
 
-def parse_with_optional_patch(enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, dict[int, str]]) -> tuple[bool, str, EnemyAIParser]:
+def parse_with_optional_patch(enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, str]) -> tuple[bool, str, EnemyAIParser]:
     valid, parser = parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai, battle_text)
 
     if valid or enemy_id != PATCHED_ENEMY_ID:
@@ -112,7 +111,7 @@ def validate_recompile(enemy_id: str, hex_ai: str, parser: EnemyAIParser) -> Non
         raise ValueError(f"[Parser] Parsed and recompiled AI for enemy {enemy_id} does not match original hex AI.\nHex AI: {hex_ai}.\nRecompiled AI: {recompiled}.")
 
 
-def parse_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, original_hex_ai: str, battle_text: dict[int, dict[int, str]]) -> tuple[JsonObject, list[str]]:
+def parse_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, original_hex_ai: str, battle_text: dict[int, str]) -> tuple[JsonObject, list[str]]:
     valid, final_hex_ai, parser = parse_with_optional_patch(enemy_id, enemy_name, enemy_special_ability, original_hex_ai, battle_text)
 
     if not valid:
@@ -131,7 +130,7 @@ def parse_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, origina
     return parsed_ai, ai_script
 
 
-def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_names: dict[str, str], converted_enemy_special_abilities: dict[int, dict[str, int]], battle_text: dict[int, dict[int, str]], ai_output_file: str) -> list[list[str]]:
+def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_names: dict[str, str], converted_enemy_special_abilities: dict[int, dict[str, int]], battle_text: dict[int, str], ai_output_file: str) -> list[list[str]]:
     parsed_ai_list: list[JsonObject] = []
     ai_script_list: list[list[str]] = []
     
@@ -169,8 +168,8 @@ def snes_main() -> None:
     enemy_names: dict[str, str] = load_json(Path(CONFIG["enemy_names_file_path"]))
     enemy_special_abilities: dict[str, str] = load_json(Path(CONFIG["enemy_special_abilities_file_path"]))
     converted_enemy_special_abilities: dict[int, dict[str, int]] = convert_enemy_special_abilities_keys_to_int(enemy_special_abilities)
-    battle_text: dict[str, dict[str, str]] = load_json(Path(CONFIG["rpge_battle_text_file_path"]))
-    converted_battle_text: dict[int, dict[int, str]] = convert_battle_text_keys_to_int(battle_text)
+    battle_text: dict[str, str] = load_json(Path(CONFIG["rpge_battle_text_file_path"]))
+    converted_battle_text: dict[int, str] = convert_battle_text_keys_to_int(battle_text)
     ai_output_file: str = CONFIG["parsed_ai_file_path"]
     script_output_file: str = CONFIG["ai_script_representation_file_path"]
 
@@ -184,8 +183,8 @@ def gba_main() -> None:
     enemy_names: dict[str, str] = load_json(Path(CONFIG["gba_enemy_names_file_path"]))
     enemy_special_abilities: dict[str, str] = load_json(Path(CONFIG["gba_enemy_special_abilities_file_path"]))
     converted_enemy_special_abilities: dict[int, dict[str, int]] = convert_enemy_special_abilities_keys_to_int(enemy_special_abilities)
-    battle_text: dict[str, dict[str, str]] = load_json(Path(CONFIG["gba_battle_text_file_path"]))
-    converted_battle_text: dict[int, dict[int, str]] = convert_battle_text_keys_to_int(battle_text)
+    battle_text: dict[str, str] = load_json(Path(CONFIG["gba_battle_text_file_path"]))
+    converted_battle_text: dict[int, str] = convert_battle_text_keys_to_int(battle_text)
     ai_output_file: str = CONFIG["gba_parsed_ai_file_path"]
     script_output_file: str = CONFIG["gba_ai_script_representation_file_path"]
 

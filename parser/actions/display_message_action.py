@@ -5,14 +5,14 @@ from ..enums.action_code import ActionCode
 
 
 class DisplayMessageAction(AIRuleAction):
-    def __init__(self, message_table_number: int, message_entry: int, battle_text: dict[int, dict[int, str]]) -> None:
-        super().__init__(action_code=ActionCode.DISPLAY_MESSAGE, optional_second_byte=message_table_number, optional_third_byte=message_entry, optional_fourth_byte=None)
+    def __init__(self, unused_byte: int, message_entry: int, battle_text: dict[int, str]) -> None:
+        super().__init__(action_code=ActionCode.DISPLAY_MESSAGE, optional_second_byte=unused_byte, optional_third_byte=message_entry, optional_fourth_byte=None)
 
-        self.__battle_text: dict[int, dict[int, str]] = battle_text
-        self.__message: str = self.__battle_text.get(message_table_number, {}).get(message_entry, f"Unknown message for table {message_table_number}, entry {message_entry}")
+        self.__battle_text: dict[int, str] = battle_text
+        self.__message: str = self.__battle_text.get(message_entry, "Unknown message")
 
     @property
-    def message_table_number(self) -> int:
+    def unused_byte(self) -> int:
         if self.raw_second_byte is None:
             raise ValueError("Message table number is not set.")
         else:
@@ -33,7 +33,9 @@ class DisplayMessageAction(AIRuleAction):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": self.action_code.name,
-            "message": self.__message
+            "message": self.__message,
+            "table_number": self.unused_byte,
+            "entry": self.message_entry
         }
 
     @override

@@ -1,9 +1,5 @@
 # TODO List
 
-## [parser/special_abilities.py](parser/special_abilities.py)
-
-- Line 1: # TODO: implement this class binding enemy codes/names to special abilities names.
-
 ## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
 
 - Line 43: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
@@ -11,6 +7,10 @@
 ## [parser/actions/ai_command_action.py](parser/actions/ai_command_action.py)
 
 - Line 32: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
+
+## [parser/actions/unknown_f5_action.py](parser/actions/unknown_f5_action.py)
+
+- Line 8: # TODO: find out what this action actually does.
 
 ## [parser/enums/stats_and_properties_table.py](parser/enums/stats_and_properties_table.py)
 
@@ -45,3 +45,7 @@
 ## [parser/conditions/lone_enemy_condition.py](parser/conditions/lone_enemy_condition.py)
 
 - Line 7: # TODO: the third byte is the count of enemies (other than this enemy) for this condition to be true.
+
+## [parser/conditions/a2_comparison.py](parser/conditions/a2_comparison.py)
+
+- Line 7: # TODO: find out what this contition actually checks.

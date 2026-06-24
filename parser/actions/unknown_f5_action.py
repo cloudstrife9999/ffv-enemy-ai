@@ -5,6 +5,7 @@ from .action import AIRuleAction
 from ..enums.action_code import ActionCode
 
 
+# TODO: find out what this action actually does.
 class UnknownF5Action(AIRuleAction):
     def __init__(self, second_byte: int, third_byte: int) -> None:
         super().__init__(action_code=ActionCode.UNKNOWN_F5_ACTION, optional_second_byte=second_byte, optional_third_byte=third_byte, optional_fourth_byte=None)
@@ -37,4 +38,4 @@ class UnknownF5Action(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}An unknown action (0xF5)"]
+        return [f"{" " * indent}An unknown action [0xFD 0xF5 0x{self.second_byte:02X} 0x{self.third_byte:02X}]"]

@@ -4,6 +4,7 @@ from .condition import AIRuleCondition
 from ..enums.condition_code import ConditionCode
 
 
+# TODO: find out what this contition actually checks.
 class A2ComparisonCondition(AIRuleCondition):
     def __init__(self, second_byte: int, value_lsb: int, value_msb: int) -> None:
         super().__init__(ConditionCode.COMPARE_WITH_A2.value, second_byte, value_lsb, value_msb)

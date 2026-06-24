@@ -1,10 +1,10 @@
 {
     "enemy_stats": [
-        "0x",
+        "0x0014D228",
         "0x"
     ],
     "enemy_ai_offsets": [
-        "0x241384",
+        "0x00241384",
         "0x"
     ],
     "enemy_ai": [
@@ -13,7 +13,7 @@
     ],
     "battle_text": [
         "0x003A6BBD",
-        "0x"
+        "0x003A8911"
     ],
     "battle_pointers": [
         "0x",

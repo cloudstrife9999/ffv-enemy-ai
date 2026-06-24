@@ -25,7 +25,7 @@ class EnemyAIRule():
         else:
             raise ValueError(f"Failed to create condition from tokens: {tokens}.")
 
-    def add_action(self, tokens: list[int], battle_text: dict[int, dict[int, str]]) -> None:
+    def add_action(self, tokens: list[int], battle_text: dict[int, str]) -> None:
         self.__tokens.append(tokens)
 
         action: AIRuleAction = ActionFactory.create_action(tokens, battle_text, self.__enemy_special_ability)

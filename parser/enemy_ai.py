@@ -29,7 +29,7 @@ class EnemyAI():
 
         self.__current_rule.add_condition(tokens)
 
-    def add_action(self, tokens: list[int], battle_text: dict[int, dict[int, str]]) -> None:
+    def add_action(self, tokens: list[int], battle_text: dict[int, str]) -> None:
         self.__tokens.append(tokens)
 
         self.__current_rule.add_action(tokens, battle_text)

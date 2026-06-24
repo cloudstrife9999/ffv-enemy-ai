@@ -4,7 +4,7 @@
     "enemy_ai_map_file_path": "res/enemies/enemy_ai_map.json",
     "enemy_names_file_path": "res/enemies/enemy_names.json",
     "enemy_special_abilities_file_path": "res/enemies/enemy_special_abilities.json",
-    "rpge_battle_text_file_path": "res/text/rpge_battle_text.json",
+    "rpge_battle_text_file_path": "res/text/rpge_battle_text_entries.json",
     "parsed_ai_file_path": "output/parsed_ai.json",
     "ai_script_representation_file_path": "output/ai_script.txt",
     "gba_rom_file_path": "res/roms/ff5a.gba",
@@ -12,7 +12,7 @@
     "gba_enemy_ai_map_file_path": "res/enemies/gba_enemy_ai_map.json",
     "gba_enemy_names_file_path": "res/enemies/gba_enemy_names.json",
     "gba_enemy_special_abilities_file_path": "res/enemies/gba_enemy_special_abilities.json",
-    "gba_battle_text_file_path": "res/text/gba_battle_text.json",
+    "gba_battle_text_file_path": "res/text/gba_battle_text_entries.json",
     "gba_parsed_ai_file_path": "output/gba_parsed_ai.json",
     "gba_ai_script_representation_file_path": "output/gba_ai_script.txt"
 }

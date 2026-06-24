@@ -22,7 +22,7 @@ from .enums.stats_and_properties_table import StatsAndPropertiesTable
 
 class ActionFactory():
     @staticmethod
-    def create_action(bytes: list[int], battle_text: dict[int, dict[int, str]], enemy_special_ability: str) -> AIRuleAction:
+    def create_action(bytes: list[int], battle_text: dict[int, str], enemy_special_ability: str) -> AIRuleAction:
         if not bytes or len(bytes) < 1:
             raise ValueError("The provided bytes list is empty or None.")
         elif len(bytes) == 1:
@@ -39,7 +39,7 @@ class ActionFactory():
         return SimpleAction(action_code & 0xFF, enemy_special_ability=enemy_special_ability)
 
     @staticmethod
-    def __create_three_byte_action(bytes: list[int], battle_text: dict[int, dict[int, str]], enemy_special_ability: str) -> AIRuleAction:
+    def __create_three_byte_action(bytes: list[int], battle_text: dict[int, str], enemy_special_ability: str) -> AIRuleAction:
         action_code: int = bytes[0] & 0xFF
         second_byte: int = bytes[1] & 0xFF
         third_byte: int = bytes[2] & 0xFF
@@ -54,7 +54,7 @@ class ActionFactory():
             case ActionCode.UNKNOWN_F5_ACTION:
                 return UnknownF5Action(second_byte=second_byte, third_byte=third_byte)
             case ActionCode.DISPLAY_MESSAGE:
-                return DisplayMessageAction(message_table_number=second_byte, message_entry=third_byte, battle_text=battle_text)
+                return DisplayMessageAction(unused_byte=second_byte, message_entry=third_byte, battle_text=battle_text)
             case ActionCode.NO_INTERRUPT:
                 return NoInterruptAction(sub_actions_cumulative_length=second_byte, third_byte=third_byte)
             case ActionCode.FULL_SCREEN_EFFECT:
@@ -67,7 +67,7 @@ class ActionFactory():
                 raise ValueError(f"Unknown three-byte action code: {action_code:#04x}.")
 
     @staticmethod
-    def __create_four_byte_action(bytes: list[int], battle_text: dict[int, dict[int, str]], enemy_special_ability: str) -> AIRuleAction:
+    def __create_four_byte_action(bytes: list[int], battle_text: dict[int, str], enemy_special_ability: str) -> AIRuleAction:
         action_code: int = bytes[0] & 0xFF
         second_byte: int = bytes[1] & 0xFF
         third_byte: int = bytes[2] & 0xFF
