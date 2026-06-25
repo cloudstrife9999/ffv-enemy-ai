@@ -40,7 +40,7 @@ class GBARandomSelectionAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "first_choice": self.first_choice.to_json(),
             "second_choice": self.second_choice.to_json(),
             "third_choice": self.third_choice.to_json()

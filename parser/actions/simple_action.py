@@ -30,7 +30,12 @@ class SimpleAction(AIRuleAction):
 
     @override
     def to_json(self) -> str | dict[str, Any]:
-        return str(self.action)
+        if self.action is EnemyAbilities.UNNAMED_STAY_IDLE:
+            return "Stay idle"
+        elif self.action is EnemyAbilities.UNNAMED_SPECIAL_ABILITY:
+            return f"Special: {self.__enemy_special_ability}"
+        else:
+            return f"Ability: {str(self.action)}"
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:

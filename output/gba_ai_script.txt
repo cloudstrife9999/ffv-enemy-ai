@@ -5039,31 +5039,31 @@ Enemy Name: Mecha Head (Sealed Temple)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Bartz (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Bartz (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Bartz (while jumping)
                Ability: Interceptor
   Rule #2:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Lenna (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Lenna (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Lenna (while jumping)
                Ability: Interceptor
   Rule #3:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Galuf (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Galuf (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Galuf (while jumping)
                Ability: Interceptor
   Rule #4:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Faris (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Faris (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Faris (while jumping)
                Ability: Interceptor
   Rule #5:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Krile (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Krile (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Krile (while jumping)
                Ability: Interceptor
@@ -9553,31 +9553,31 @@ Enemy Name: Mecha Head
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Bartz (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Bartz (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Bartz (while jumping)
                Ability: Interceptor
   Rule #2:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Lenna (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Lenna (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Lenna (while jumping)
                Ability: Interceptor
   Rule #3:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Faris (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Faris (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Faris (while jumping)
                Ability: Interceptor
   Rule #4:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Galuf (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Galuf (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Galuf (while jumping)
                Ability: Interceptor
   Rule #5:
     Conditions:
-      Stat/Property Battle Command 3 is 16 for Krile (while jumping)
+      Stat/Property Cmd Status is "Jumping" for Krile (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Krile (while jumping)
                Ability: Interceptor
@@ -9979,7 +9979,7 @@ ACTIVE RULES:
     Conditions:
       All enemies are affected by the False Image status
     Actions:
-      Turn #1: Set property Battle Command 2 to 0x40
+      Turn #1: Toggle False Image status.
                Ability: [Unconditional self-kill]
   Default rule:
     Conditions:
@@ -10631,7 +10631,7 @@ ACTIVE RULES:
       Variable Var_02 == 1
     Actions:
       Turn #1: Consecutive actions:
-                 Set property Battle Command 1 to 0x02
+                 Toggle Invincible status.
                  Display message: Necrophobe: Enough of this. Die!
                  Forcefully change target(s) to the enemy in slot #6
                  Ability: Flare
@@ -10675,7 +10675,7 @@ ACTIVE RULES:
                Display message: You've left me with no choice!
                Display message: Have a taste of my true power...
                Display message: ...It's all you can eat!
-               Set property Battle Command 1 to 0x02
+               Toggle Invincible status.
                Set Var_00 to 2
                Ability: Flash
   Rule #6:
@@ -10724,7 +10724,7 @@ REACTIVE RULES:
         Display message: Necrophobe: Hmph... You've a big mouth.
         Display message: If you're so eager to fight,
         Display message: you can be the first to die!
-        Set property Battle Command 1 to 0x02
+        Toggle Invincible status.
         Set Var_01 to 1
         [Nothing]
 
@@ -11083,7 +11083,7 @@ ACTIVE RULES:
     Conditions:
       All enemies are affected by the False Image status
     Actions:
-      Turn #1: Set property Battle Command 2 to 0x40
+      Turn #1: Toggle False Image status.
                Ability: Flee
   Rule #2:
     Conditions:
@@ -11835,13 +11835,13 @@ ACTIVE RULES:
       Variable Var_01 == 0
     Actions:
       Turn #1: Set Var_01 to 1
-               Set property Battle Command 2 to 0x40
+               Toggle False Image status.
                [Nothing]
   Default rule:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Set property Battle Command 2 to 0x40
+      Turn #1: Toggle False Image status.
                [Nothing]
 REACTIVE RULES:
   Rule #1:
@@ -13491,7 +13491,7 @@ ACTIVE RULES:
     Conditions:
       All enemies are affected by the False Image status
     Actions:
-      Turn #1: Set property Battle Command 2 to 0x40
+      Turn #1: Toggle False Image status.
                [Nothing]
   Default rule:
     Conditions:
@@ -14084,7 +14084,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy
     Actions:
-      Turn #1: Set property Battle Command 1 to 0x02
+      Turn #1: Toggle Invincible status.
                Set Var_00 to 1
                Ability: Flash
   Default rule:

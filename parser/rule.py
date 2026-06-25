@@ -65,6 +65,7 @@ class EnemyAIRule():
     def has_lingering_no_interrupt_action(self) -> bool:
         return self.__current_no_interrupt_action is not None
 
+    # TODO: not every action ends the current turn. Fix that.
     def to_json(self, reactive: bool) -> dict[str, Any]:
         return {
             "conditions": [condition.to_json() for condition in self.__conditions],

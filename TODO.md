@@ -1,12 +1,8 @@
 # TODO List
 
-## [parser/actions/random_selection_action.py](parser/actions/random_selection_action.py)
+## [parser/rule.py](parser/rule.py)
 
-- Line 43: "action": "RANDOM_SELECTION",  # TODO: workaround to avoid the 0xFD name collision with AI_COMMAND, which is also 0xFD.
-
-## [parser/actions/ai_command_action.py](parser/actions/ai_command_action.py)
-
-- Line 32: "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
+- Line 68: # TODO: not every action ends the current turn. Fix that.
 
 ## [parser/actions/unknown_f5_action.py](parser/actions/unknown_f5_action.py)
 
@@ -18,8 +14,7 @@
 
 ## [parser/enums/gba_stats_and_properties_table.py](parser/enums/gba_stats_and_properties_table.py)
 
-- Line 5: # TODO: this only works for the SNES version. The GBA version has a different table/order.
-- Line 138: return self.name.replace("_", " ").title()  # TODO: refine this.
+- Line 14: return self.name.replace("_", " ").title()  # TODO: refine this.
 
 ## [parser/enums/target_count.py](parser/enums/target_count.py)
 

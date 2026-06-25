@@ -29,7 +29,7 @@ class AICommandAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": "AI_COMMAND",  # TODO: workaround to avoid the 0xFD name collision with RANDOM_SELECTION, which is also 0xFD.
+            "action": "AI command",
             **{self.__replace_action_key(k): v for k, v in cast(dict[str, Any], self.sub_action.to_json()).items()}
         }
 
