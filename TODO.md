@@ -8,14 +8,6 @@
 
 - Line 8: # TODO: find out what this action actually does.
 
-## [parser/enums/snes_stats_and_properties_table.py](parser/enums/snes_stats_and_properties_table.py)
-
-- Line 137: return self.name.replace("_", " ").title()  # TODO: refine this.
-
-## [parser/enums/gba_stats_and_properties_table.py](parser/enums/gba_stats_and_properties_table.py)
-
-- Line 14: return self.name.replace("_", " ").title()  # TODO: refine this.
-
 ## [parser/enums/target_count.py](parser/enums/target_count.py)
 
 - Line 6: # TODO: check if it is more fine-grained than the current representation.

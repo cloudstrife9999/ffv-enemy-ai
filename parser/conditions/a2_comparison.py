@@ -16,7 +16,7 @@ class A2ComparisonCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "condition": self.condition_code.name,
+            "condition": str(self.condition_code),
             "value": self.value
         }
 

@@ -40,7 +40,7 @@ class RandomSelectionAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": "Random selection",
+            "action": "Random selection",  # Hardcoded to avoid issues with the 0xFD value collision (random selection vs AI command).
             "first_choice": self.first_choice.to_json(),
             "second_choice": self.second_choice.to_json(),
             "third_choice": self.third_choice.to_json()

@@ -32,10 +32,10 @@ class DisplayMessageAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "message": self.__message,
-            "table_number": self.unused_byte,
-            "entry": self.message_entry
+            "unknown_parameter": f"0x{self.unused_byte:02X}",
+            "entry": f"0x{self.message_entry:02X}"
         }
 
     @override

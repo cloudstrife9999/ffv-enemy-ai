@@ -5039,31 +5039,31 @@ Enemy Name: Mecha Head (Sealed Temple)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Bartz (while jumping)
+      Stat/Property Action flags is "Jumping" for Bartz (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Bartz (while jumping)
                Ability: Interceptor
   Rule #2:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Lenna (while jumping)
+      Stat/Property Action flags is "Jumping" for Lenna (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Lenna (while jumping)
                Ability: Interceptor
   Rule #3:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Galuf (while jumping)
+      Stat/Property Action flags is "Jumping" for Galuf (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Galuf (while jumping)
                Ability: Interceptor
   Rule #4:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Faris (while jumping)
+      Stat/Property Action flags is "Jumping" for Faris (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Faris (while jumping)
                Ability: Interceptor
   Rule #5:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Krile (while jumping)
+      Stat/Property Action flags is "Jumping" for Krile (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Krile (while jumping)
                Ability: Interceptor
@@ -8766,7 +8766,7 @@ REACTIVE RULES:
       Ability: Arise
   Rule #2:
     Conditions:
-      Hit by a summon
+      Hit by summon
     Actions:
       Forcefully change target(s) to self
       Ability: Cura
@@ -9553,31 +9553,31 @@ Enemy Name: Mecha Head
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Bartz (while jumping)
+      Stat/Property Action flags is "Jumping" for Bartz (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Bartz (while jumping)
                Ability: Interceptor
   Rule #2:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Lenna (while jumping)
+      Stat/Property Action flags is "Jumping" for Lenna (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Lenna (while jumping)
                Ability: Interceptor
   Rule #3:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Faris (while jumping)
+      Stat/Property Action flags is "Jumping" for Faris (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Faris (while jumping)
                Ability: Interceptor
   Rule #4:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Galuf (while jumping)
+      Stat/Property Action flags is "Jumping" for Galuf (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Galuf (while jumping)
                Ability: Interceptor
   Rule #5:
     Conditions:
-      Stat/Property Cmd Status is "Jumping" for Krile (while jumping)
+      Stat/Property Action flags is "Jumping" for Krile (while jumping)
     Actions:
       Turn #1: Forcefully change target(s) to Krile (while jumping)
                Ability: Interceptor
@@ -10222,7 +10222,7 @@ ACTIVE RULES:
 REACTIVE RULES:
   Rule #1:
     Conditions:
-      Hit by a summon
+      Hit by summon
     Actions:
       Display message: Focusing power!
       Light effect: Light Flash
@@ -12943,7 +12943,7 @@ REACTIVE RULES:
       Ability: Arise
   Rule #2:
     Conditions:
-      Hit by a summon
+      Hit by summon
     Actions:
       Forcefully change target(s) to self
       Ability: Curaga
@@ -13684,7 +13684,7 @@ ACTIVE RULES:
 REACTIVE RULES:
   Rule #1:
     Conditions:
-      Hit by a summon
+      Hit by summon
     Actions:
       Display message: Focusing power!
       Light effect: Light Flash

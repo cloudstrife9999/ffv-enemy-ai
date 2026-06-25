@@ -2,7 +2,7 @@ from enum import Enum
 from typing import override
 
 
-class CommandStatus(Enum):
+class ActionFlags(Enum):
     DEFENDING = 0x80
     GUARDING = 0x40
     UNKNOWN_20 = 0x20
@@ -15,7 +15,7 @@ class CommandStatus(Enum):
     @override
     def __str__(self) -> str:
         match self:
-            case CommandStatus.UNKNOWN_01 | CommandStatus.UNKNOWN_02 | CommandStatus.UNKNOWN_04 | CommandStatus.UNKNOWN_20:
+            case ActionFlags.UNKNOWN_01 | ActionFlags.UNKNOWN_02 | ActionFlags.UNKNOWN_04 | ActionFlags.UNKNOWN_20:
                 return f"Unknown ({self.value:#04x})"
             case _:
                 return self.name.title()

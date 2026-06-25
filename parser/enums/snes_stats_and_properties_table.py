@@ -3,138 +3,27 @@ from typing import override
 
 
 class SNESStatsAndPropertiesTable(IntEnum):
-    ROW = 0x00
-    JOB = 0x01
-    LEVEL = 0x02
-    EXP_LSB = 0x03
-    EXP_MIDDLE_BYTE = 0x04
-    EXP_MSB = 0x05
-    CURHP_LSB = 0x06
-    CURHP_MSB = 0x07
-    MAXHP_LSB = 0x08
-    MAXHP_MSB = 0x09
-    CURMP_LSB = 0x0A
-    CURMP_MSB = 0x0B
-    MAXMP_LSB = 0x0C
-    MAXMP_MSB = 0x0D
-    HEADGEAR = 0x0E
-    BODYWEAR = 0x0F
-    ACCESSORY = 0x10
-    RIGHT_HAND_SHIELD = 0x11
-    LEFT_HAND_SHIELD = 0x12
-    RIGHT_HAND_WEAPON = 0x13
-    LEFT_HAND_WEAPON = 0x14
-    CAUGHT_MONSTER = 0x15
-    BATTLE_COMMAND_1 = 0x16
-    BATTLE_COMMAND_2 = 0x17
-    BATTLE_COMMAND_3 = 0x18
-    BATTLE_COMMAND_4 = 0x19
     STATUS_1 = 0x1A
     STATUS_2 = 0x1B
     STATUS_3 = 0x1C
     STATUS_4 = 0x1D
-    CMD_STATUS = 0x1E  # the CommandStatus enum is used to interpret the value at this offset.
-    DAMAGE_MOD = 0x1F
-    PASSIVES_1 = 0x20
-    PASSIVES_2 = 0x21
-    ELEMENT_UP = 0x22
-    EQUIPMENT_WEIGHT = 0x23
-    BASE_STRENGTH = 0x24
-    BASE_AGILITY = 0x25
-    BASE_STAMINA = 0x26
-    BASE_MAGIC = 0x27
-    EQUIPPED_STRENGTH = 0x28
-    EQUIPPED_AGILITY = 0x29
-    EQUIPPED_STAMINA = 0x2A
-    EQUIPPED_MAGIC = 0x2B
-    EVASION = 0x2C
-    DEFENSE = 0x2D
-    MAGIC_EVASION = 0x2E
-    MAGIC_DEFENSE = 0x2F
-    ELEMENT_ABSORB = 0x30
-    ELEMENT_BLOCK = 0x31
-    ELEMENT_IMMUNE = 0x32
-    ELEMENT_HALF = 0x33
-    ELEMENT_WEAK = 0x34
-    STATUS_1_IMMUNITY = 0x35
-    STATUS_2_IMMUNITY = 0x36
-    STATUS_3_IMMUNITY = 0x37
-    WEAPON_PROPERTIES = 0x38
-    ARMOR_PROPERTIES = 0x39
-    JOB_LEVEL = 0x3A
-    ABP_LSB = 0x3B
-    ABP_MSB = 0x3C
-    ENABLED_SPELLS_SWORD_WHITE = 0x3D
-    ENABLED_SPELLS_BLACK_TIME = 0x3E
-    ENABLED_SPELLS_SUMMON_MISC = 0x3F
-    EQUIPPABLE_WEAPONS_LSB = 0x40
-    EQUIPPABLE_WEAPONS_MSB = 0x41
-    EQUIPPABLE_ARMOR_LSB = 0x42
-    EQUIPPABLE_ARMOR_MSB = 0x43
-    ENEMY_ATTACK_OR_THROWING_ATTACK = 0x44  # Used for both !Throw and Goblin Punch.
-    ENEMY_ATTACK_LEFT_HAND = 0x45
-    REACTION_1_COMMAND = 0x46
-    REACTION_1_MAGIC = 0x47
-    REACTION_1_ITEM = 0x48
-    REACTION_1_ELEMENT = 0x49
-    REACTION_1_CATEGORY = 0x4A
-    REACTION_1_TARGETS = 0x4B
-    REACTION_1_DAMAGE = 0x4C
-    REACTION_2_COMMAND = 0x4D
-    REACTION_2_MAGIC = 0x4E
-    REACTION_2_ITEM = 0x4F
-    SPELLBLADE_ELEMENTAL1 = 0x50
-    SPELLBLADE_ELEMENTAL2 = 0x51
-    SPELLBLADE_ELEMENTAL3 = 0x52
-    SPELLBLADE_STATUS1 = 0x53
-    SPELLBLADE_STATUS2 = 0x54
-    SPELLBLADE_STATUS_SPECIAL = 0x55
-    ACTION_FLAG = 0x56
-    COMMAND = 0x57
-    ENEMY_TARGETS = 0x58
-    PARTY_TARGETS = 0x59
-    SELECTED_ITEM_OR_MAGIC = 0x5A
-    SECOND_ACTION_FLAG = 0x5B
-    SECOND_COMMAND = 0x5C
-    SECOND_ENEMY_TARGETS = 0x5D
-    SECOND_PARTY_TARGETS = 0x5E
-    SECOND_SELECTED_ITEM_OR_MAGIC = 0x5F
-    UNUSED_1 = 0x60
-    COMMAND_CANCELLED = 0x61
-    ENEMY_M = 0x62
-    UNUSED_2 = 0x63
-    CANT_EVADE = 0x64
-    CREATURE_TYPE = 0x65
-    COMMAND_IMMUNITY = 0x66
-    REWARD_EXP_LSB = 0x67
-    REWARD_EXP_MSB = 0x68
-    REWARD_GIL_LSB = 0x69
-    REWARD_GIL_MSB = 0x6A
-    STOLEN_ITEM = 0x6B
-    RIGHT_HAND_CATEGORY = 0x6C
-    LEFT_HAND_CATEGORY = 0x6D
-    SPECIALTY_EFFECT = 0x6E
-    SONG = 0x6F
-    AUTO_STATUS_1 = 0x70
-    AUTO_STATUS_2 = 0x71
-    AUTO_STATUS_3 = 0x72
-    AUTO_STATUS_4 = 0x73
-    BONUS_STRENGTH = 0x74
-    BONUS_AGILITY = 0x75
-    BONUS_STAMINA = 0x76
-    BONUS_MAGIC = 0x77
-    BONUS_LEVEL = 0x78
-    UNUSED_3 = 0x79
-    HAND_AND_MAGIC_SWORD_ANIM = 0x7A
-    REACTION_2_ELEMENT = 0x7B
-    REACTION_2_CATEGORY = 0x7C
-    REACTION_2_TARGETS = 0x7D
-    REACTION_2_DAMAGE = 0x7E
-    SPECIALTY_NAME = 0x7F
+    ACTION_FLAGS = 0x1E  # the ActionFlags enum is used to interpret the value at this offset.
 
     @override
     def __str__(self) -> str:
-        return self.name.replace("_", " ").title()  # TODO: refine this.
+        match self:
+            case SNESStatsAndPropertiesTable.STATUS_1:
+                return "Status table #1"
+            case SNESStatsAndPropertiesTable.STATUS_2:
+                return "Status table #2"
+            case SNESStatsAndPropertiesTable.STATUS_3:
+                return "Status table #3"
+            case SNESStatsAndPropertiesTable.STATUS_4:
+                return "Status table #4"
+            case SNESStatsAndPropertiesTable.ACTION_FLAGS:
+                return "Action flags"
+            case _:
+                raise ValueError(f"Unknown enum member: {self}.")
 
     @classmethod
     def is_valid_party_member_property_offset(cls, value: int) -> bool:

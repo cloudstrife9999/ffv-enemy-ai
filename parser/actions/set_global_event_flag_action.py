@@ -35,7 +35,7 @@ class SetGlobalEventFlagAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "global_events": self.global_events_names
         }
 

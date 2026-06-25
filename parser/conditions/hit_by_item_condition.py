@@ -26,8 +26,8 @@ class HitByExactItemCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "condition": self.condition_code.name,
-            "match_type": self.match_type.name,
+            "condition": str(self.condition_code),
+            "match_type": str(self.match_type),
             "explanation": "the item matches" if self.match_type == MatchType.MATCH else "the item does not match",
             "item": str(self.item)
         }

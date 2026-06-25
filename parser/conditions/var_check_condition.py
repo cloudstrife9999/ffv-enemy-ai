@@ -25,8 +25,8 @@ class VarCheckCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "condition": self.condition_code.name,
-            "match_type": self.match_type.name,
+            "condition": str(self.condition_code),
+            "match_type": str(self.match_type),
             "explanation": "variable == value" if self.match_type == MatchType.MATCH else "variable != value",
             "var_id": str(self.var_id),
             "value_to_match": self.value_to_match

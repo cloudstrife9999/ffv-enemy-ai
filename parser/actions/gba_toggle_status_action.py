@@ -4,7 +4,7 @@ from typing import Any, override
 from .action import AIRuleAction
 from ..enums.action_code import ActionCode
 from ..enums.gba_stats_and_properties_table import GBAStatsAndPropertiesTable
-from ..enums.command_status import CommandStatus
+from ..enums.action_flags import ActionFlags
 from ..enums.status import StatusCode
 from ..enums.status_table import StatusTable
 
@@ -16,7 +16,7 @@ class GBAToggleStatusAction(AIRuleAction):
     @property
     def property_table(self) -> GBAStatsAndPropertiesTable:
         if self.raw_second_byte is None:
-            raise ValueError("Party member offset is not set.")
+            raise ValueError("The offset is not set.")
         else:
             return GBAStatsAndPropertiesTable(self.raw_second_byte)
 
@@ -37,47 +37,47 @@ class GBAToggleStatusAction(AIRuleAction):
             status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FIRST, self.mask)
 
             return {
-                "action": self.action_code.name,
-                "property_table": self.property_table.name,
-                "status": status.name
+                "action": str(self.action_code),
+                "property_table": str(self.property_table),
+                "status": str(status)
             }
         elif self.property_table == GBAStatsAndPropertiesTable.STATUS_2:
             status: StatusCode = StatusCode.from_table_and_mask(StatusTable.SECOND, self.mask)
 
             return {
-                "action": self.action_code.name,
-                "property_table": self.property_table.name,
-                "status": status.name
+                "action": str(self.action_code),
+                "property_table": str(self.property_table),
+                "status": str(status)
             }
         elif self.property_table == GBAStatsAndPropertiesTable.STATUS_3:
             status: StatusCode = StatusCode.from_table_and_mask(StatusTable.THIRD, self.mask)
 
             return {
-                "action": self.action_code.name,
-                "property_table": self.property_table.name,
-                "status": status.name
+                "action": str(self.action_code),
+                "property_table": str(self.property_table),
+                "status": str(status)
             }
         elif self.property_table == GBAStatsAndPropertiesTable.STATUS_4:
             status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FOURTH, self.mask)
 
             return {
-                "action": self.action_code.name,
-                "property_table": self.property_table.name,
-                "status": status.name
+                "action": str(self.action_code),
+                "property_table": str(self.property_table),
+                "status": str(status)
             }
-        elif self.property_table == GBAStatsAndPropertiesTable.CMD_STATUS:
-            command_status: CommandStatus = CommandStatus(self.mask)
+        elif self.property_table == GBAStatsAndPropertiesTable.ACTION_FLAGS:
+            action_flags: ActionFlags = ActionFlags(self.mask)
 
             return {
-                "action": self.action_code.name,
-                "property_table": self.property_table.name,
-                "command_status": command_status.name
+                "action": str(self.action_code),
+                "property_table": str(self.property_table),
+                "action_flags": str(action_flags)
             }
         else:
             return {
-                "action": self.action_code.name,
-                "property_table": self.property_table.name,
-                "mask": self.mask,
+                "action": str(self.action_code),
+                "property_table": str(self.property_table),
+                "mask": f"0x{self.mask:02X}",
             }
 
     @override
@@ -98,9 +98,9 @@ class GBAToggleStatusAction(AIRuleAction):
             status: StatusCode = StatusCode.from_table_and_mask(StatusTable.FOURTH, self.mask)
 
             return [f"{" " * indent}Toggle {str(status)} status."]
-        elif self.property_table == GBAStatsAndPropertiesTable.CMD_STATUS:
-            command_status: CommandStatus = CommandStatus(self.mask)
+        elif self.property_table == GBAStatsAndPropertiesTable.ACTION_FLAGS:
+            action_flags: ActionFlags = ActionFlags(self.mask)
 
-            return [f"{" " * indent}Set command status to {str(command_status)}."]
+            return [f"{" " * indent}Set action flag: {str(action_flags)}."]
         else:
-            return [f"{" " * indent}Set property {str(self.property_table)} to {self.mask:#04x}"]
+            return [f"{" " * indent}Set property {str(self.property_table)} to 0x{self.mask:02X}"]

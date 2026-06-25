@@ -10,8 +10,8 @@ class NoFemalePartyMembersTargetableCondition(AIRuleCondition):
 
     @override
     def to_json(self) -> str | dict[str, Any]:
-        return self.condition_code.name
+        return str(self.condition_code)
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}No female party members are targetable"]
+        return [f"{" " * indent}{str(self.condition_code)}"]

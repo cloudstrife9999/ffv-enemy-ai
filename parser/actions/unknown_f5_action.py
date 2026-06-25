@@ -31,9 +31,9 @@ class UnknownF5Action(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
-            "second_byte": self.second_byte,
-            "third_byte": self.third_byte
+            "action": str(self.action_code),
+            "second_byte": f"0x{self.second_byte:02X}",
+            "third_byte": f"0x{self.third_byte:02X}"
         }
 
     @override

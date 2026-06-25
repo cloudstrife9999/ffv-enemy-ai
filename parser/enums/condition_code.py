@@ -59,11 +59,11 @@ class ConditionCode(IntEnum):
             case ConditionCode.DEATH_COUNTER:
                 return "Death counter"
             case ConditionCode.SINGLE_PARTY_MEMBER_ALIVE:
-                return "Single party member alive"
+                return "Only one party member is alive"
             case ConditionCode.HIT_BY_SUMMON:
                 return "Hit by summon"
             case ConditionCode.NO_FEMALE_PARTY_MEMBERS_TARGETABLE:
-                return "No female party members targetable"
+                return "No female party members are targetable"
             case _:
                 raise ValueError(f"{self} is not a valid {self.__class__.__name__}.")
 

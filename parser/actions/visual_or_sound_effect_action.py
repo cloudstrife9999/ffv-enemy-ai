@@ -31,7 +31,7 @@ class VisualOrSoundEffectAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "effect_type": str(self.table_id),
             "effect": str(self.effect_id)
         }

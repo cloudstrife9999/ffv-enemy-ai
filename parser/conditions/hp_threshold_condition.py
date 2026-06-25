@@ -20,7 +20,7 @@ class HPThresholdCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "condition": self.condition_code.name,
+            "condition": str(self.condition_code),
             "target": self.target.for_mid_sentence(),
             "hp_threshold": self.hp_threshold
         }

@@ -59,7 +59,7 @@ class NoInterruptAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "sub_actions": [action.to_json() for action in self.sub_actions]
         }
 

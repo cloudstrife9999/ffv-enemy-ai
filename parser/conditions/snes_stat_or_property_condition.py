@@ -4,7 +4,7 @@ from .condition import AIRuleCondition
 from ..enums.condition_code import ConditionCode
 from ..enums.target import Target
 from ..enums.snes_stats_and_properties_table import SNESStatsAndPropertiesTable
-from ..enums.command_status import CommandStatus
+from ..enums.action_flags import ActionFlags
 
 
 class SNESStatOrPropertyCondition(AIRuleCondition):
@@ -30,16 +30,16 @@ class SNESStatOrPropertyCondition(AIRuleCondition):
             "target": self.target.name,
             "stats_and_properties_table": self.stats_and_properties_table.name,
             "expected_value": self.expected_value
-        } if self.stats_and_properties_table != SNESStatsAndPropertiesTable.CMD_STATUS else {
+        } if self.stats_and_properties_table != SNESStatsAndPropertiesTable.ACTION_FLAGS else {
             "condition_code": self.condition_code.name,
             "target": self.target.name,
             "stats_and_properties_table": self.stats_and_properties_table.name,
-            "command_status": CommandStatus(self.expected_value).name
+            "action_flags": ActionFlags(self.expected_value).name
         }
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        if self.stats_and_properties_table == SNESStatsAndPropertiesTable.CMD_STATUS:
-            return [f"{" " * indent}Stat/Property {str(self.stats_and_properties_table)} is \"{str(CommandStatus(self.expected_value))}\" for {self.target.for_mid_sentence()}"]
+        if self.stats_and_properties_table == SNESStatsAndPropertiesTable.ACTION_FLAGS:
+            return [f"{" " * indent}Stat/Property {str(self.stats_and_properties_table)} is \"{str(ActionFlags(self.expected_value))}\" for {self.target.for_mid_sentence()}"]
         else:
             return [f"{" " * indent}Stat/Property {str(self.stats_and_properties_table)} is {self.expected_value} for {self.target.for_mid_sentence()}"]

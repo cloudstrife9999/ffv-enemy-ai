@@ -30,7 +30,7 @@ class SetVariableAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "var_id": str(self.var_id),
             "value": self.value
         }

@@ -42,7 +42,7 @@ class SetEnemyToShowAction(AIRuleAction):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "action": self.action_code.name,
+            "action": str(self.action_code),
             "slot_mask": f"{self.slot_mask:08b}",
             "flags": f"{self.flags:08b}"
         }

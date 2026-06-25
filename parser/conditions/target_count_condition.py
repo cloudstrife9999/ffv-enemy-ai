@@ -16,8 +16,8 @@ class TargetCountCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "condition": self.condition_code.name,
-            "target_count": self.target_count.name
+            "condition": str(self.condition_code),
+            "target_count": str(self.target_count)
         }
 
     @override

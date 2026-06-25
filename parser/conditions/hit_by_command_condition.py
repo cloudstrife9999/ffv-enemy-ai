@@ -39,8 +39,8 @@ class HitByCommandCondition(AIRuleCondition):
     @override
     def to_json(self) -> str | dict[str, Any]:
         return {
-            "condition": self.condition_code.name,
-            "match_type": self.match_type.name,
+            "condition": str(self.condition_code),
+            "match_type": str(self.match_type),
             "explanation": "both command and elements match" if self.match_type == MatchType.MATCH else "either the command or the elements or both do not match",
             "command": str(self.command),
             "elements": [element.name.capitalize() for element in self.elements] if self.elements else "irrelevant (including non-elemental)"
