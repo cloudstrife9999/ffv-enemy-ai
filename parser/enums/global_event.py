@@ -60,4 +60,20 @@ class GlobalEvent(Enum):
 
     @override
     def __str__(self) -> str:
-        return self.name.replace("_", " ").title()  # TODO: refine this.
+        match self:
+            case GlobalEvent.BARTZ_IS_IN_THE_PARTY | GlobalEvent.LENNA_IS_IN_THE_PARTY | GlobalEvent.GALUF_IS_IN_THE_PARTY | GlobalEvent.FARIS_IS_IN_THE_PARTY | GlobalEvent.KRILE_IS_IN_THE_PARTY:
+                return self.name.replace("_", " ").capitalize()
+            case GlobalEvent.RAMUH_DEFEATED | GlobalEvent.CATOBLEPAS_DEFEATED | GlobalEvent.SEKHMET_DEFEATED:
+                return self.name.replace("_", " ").capitalize()
+            case GlobalEvent.GILGAMESH_AVAILABLE_IN_THE_INTERDIMENSIONAL_RIFT:
+                return "Gilgamesh available in the Interdimensional Rift"
+            case GlobalEvent.KING_BEHEMOTH_DEFEATED:
+                return "King Behemoth defeated"
+            case GlobalEvent.SOLO_GOLEM_BATTLE_UNAVAILABLE:
+                return "Solo Golem battle unavailable"
+            case GlobalEvent.GOLEM_BONE_DRAGON_ZOMBIE_DRAGON_DEFEATED:
+                return "Golem + Bone Dragon + Zombie Dragon defeated"
+            case GlobalEvent.GALUF_SOLO_VS_EXDEATH_ALREADY_HAPPENED:
+                return "Galuf solo battle vs. Exdeath already happened"
+            case _:
+                return self.name.replace("_", " ").capitalize()

@@ -3,7 +3,7 @@ from typing import override
 
 
 # TODO: this only works for the SNES version. The GBA version has a different table/order.
-class StatsAndPropertiesTable(IntEnum):
+class GBAStatsAndPropertiesTable(IntEnum):
     ROW = 0x00
     JOB = 0x01
     LEVEL = 0x02

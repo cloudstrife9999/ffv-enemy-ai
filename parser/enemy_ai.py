@@ -1,20 +1,22 @@
 from typing import Any
 
 from .rule import EnemyAIRule
+from .enums.game_version import GameVersion
 
 
 class EnemyAI():
-    def __init__(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, raw: str):
+    def __init__(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, raw: str, game_version: GameVersion) -> None:
         self.__enemy_id: str = enemy_id
         self.__enemy_name: str = enemy_name
         self.__enemy_special_ability: str = enemy_special_ability
         self.__raw: str = raw
         self.__tokens: list[list[int]] = []
+        self.__game_version: GameVersion = game_version
         self.__active_ai_rules: list[EnemyAIRule] = []
         self.__reactive_ai_rules: list[EnemyAIRule] = []
         self.__first_terminator_encountered: bool = False
         self.__parsing_condition_group: bool = True
-        self.__current_rule: EnemyAIRule = EnemyAIRule(enemy_special_ability=enemy_special_ability)
+        self.__current_rule: EnemyAIRule = EnemyAIRule(enemy_special_ability=enemy_special_ability, game_version=game_version)
 
     @property
     def tokens(self) -> list[list[int]]:
@@ -40,11 +42,11 @@ class EnemyAI():
         if not self.__parsing_condition_group and not self.__first_terminator_encountered:
             self.__active_ai_rules.append(self.__current_rule)
 
-            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability)
+            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability, game_version=self.__game_version)
         elif not self.__parsing_condition_group:
             self.__reactive_ai_rules.append(self.__current_rule)
 
-            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability)
+            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability, game_version=self.__game_version)
 
         self.__parsing_condition_group = not self.__parsing_condition_group  # Switching between parsing condition group and action group (or vice versa) after a separator.
 
@@ -54,11 +56,11 @@ class EnemyAI():
         if not self.__parsing_condition_group and not self.__first_terminator_encountered:
             self.__active_ai_rules.append(self.__current_rule)
 
-            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability)
+            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability, game_version=self.__game_version)
         elif not self.__parsing_condition_group:
             self.__reactive_ai_rules.append(self.__current_rule)
 
-            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability)
+            self.__current_rule = EnemyAIRule(enemy_special_ability=self.__enemy_special_ability, game_version=self.__game_version)
 
         if not self.__first_terminator_encountered:
             self.__first_terminator_encountered = True

@@ -8,6 +8,7 @@ from typing import Any, TypeAlias
 
 from parser.parser import EnemyAIParser
 from parser.enums.abilities.special import Special
+from parser.enums.game_version import GameVersion
 
 CONFIG_FILE_PATH: Path = Path("res/config.json")
 CONFIG: dict[str, str] = {}
@@ -69,8 +70,8 @@ def convert_enemy_special_abilities_keys_to_int(enemy_special_abilities: dict[st
     return converted_enemy_special_abilities
 
 
-def parse_enemy_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, str]) -> tuple[bool, EnemyAIParser]:
-    parser: EnemyAIParser = EnemyAIParser(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, tokens=bytes.fromhex(hex_ai), battle_text=battle_text)
+def parse_enemy_ai(game_version: GameVersion, enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, str]) -> tuple[bool, EnemyAIParser]:
+    parser: EnemyAIParser = EnemyAIParser(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, tokens=bytes.fromhex(hex_ai), battle_text=battle_text, game_version=game_version)
 
     return parser.parse(), parser
 
@@ -92,14 +93,14 @@ def patch_hex_ai(enemy_id: str, hex_ai: str) -> str:
         return hex_ai.replace(BAD_TERMINATOR, GOOD_TERMINATOR)
 
 
-def parse_with_optional_patch(enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, str]) -> tuple[bool, str, EnemyAIParser]:
-    valid, parser = parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai, battle_text)
+def parse_with_optional_patch(game_version: GameVersion, enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str, battle_text: dict[int, str]) -> tuple[bool, str, EnemyAIParser]:
+    valid, parser = parse_enemy_ai(game_version, enemy_id, enemy_name, enemy_special_ability, hex_ai, battle_text)
 
     if valid or enemy_id != PATCHED_ENEMY_ID:
         return valid, hex_ai, parser
 
     patched_hex_ai: str = patch_hex_ai(enemy_id, hex_ai)
-    valid, parser = parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, patched_hex_ai, battle_text)
+    valid, parser = parse_enemy_ai(game_version, enemy_id, enemy_name, enemy_special_ability, patched_hex_ai, battle_text)
 
     return valid, patched_hex_ai, parser
 
@@ -111,8 +112,8 @@ def validate_recompile(enemy_id: str, hex_ai: str, parser: EnemyAIParser) -> Non
         raise ValueError(f"[Parser] Parsed and recompiled AI for enemy {enemy_id} does not match original hex AI.\nHex AI: {hex_ai}.\nRecompiled AI: {recompiled}.")
 
 
-def parse_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, original_hex_ai: str, battle_text: dict[int, str]) -> tuple[JsonObject, list[str]]:
-    valid, final_hex_ai, parser = parse_with_optional_patch(enemy_id, enemy_name, enemy_special_ability, original_hex_ai, battle_text)
+def parse_ai(game_version: GameVersion, enemy_id: str, enemy_name: str, enemy_special_ability: str, original_hex_ai: str, battle_text: dict[int, str]) -> tuple[JsonObject, list[str]]:
+    valid, final_hex_ai, parser = parse_with_optional_patch(game_version, enemy_id, enemy_name, enemy_special_ability, original_hex_ai, battle_text)
 
     if not valid:
         error: str = (f"Failed to parse AI even after patching {BAD_TERMINATOR} to {GOOD_TERMINATOR}." if enemy_id == PATCHED_ENEMY_ID else "Failed to parse AI.")
@@ -130,7 +131,7 @@ def parse_ai(enemy_id: str, enemy_name: str, enemy_special_ability: str, origina
     return parsed_ai, ai_script
 
 
-def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_names: dict[str, str], converted_enemy_special_abilities: dict[int, dict[str, int]], battle_text: dict[int, str], ai_output_file: str) -> list[list[str]]:
+def generate_and_write_validation_results(game_version: GameVersion, enemy_ai_map: dict[str, str], enemy_names: dict[str, str], converted_enemy_special_abilities: dict[int, dict[str, int]], battle_text: dict[int, str], ai_output_file: str) -> list[list[str]]:
     parsed_ai_list: list[JsonObject] = []
     ai_script_list: list[list[str]] = []
     
@@ -138,7 +139,7 @@ def generate_and_write_validation_results(enemy_ai_map: dict[str, str], enemy_na
         enemy_name: str = enemy_names.get(enemy_id, "Unknown Enemy")
         enemy_special_ability_id: int = converted_enemy_special_abilities.get(int(enemy_id, 16), {}).get("special_ability_id", -1)
         enemy_special_ability: str = str(Special(enemy_special_ability_id)) if enemy_special_ability_id != -1 else "[special ability]"
-        parsed_ai, ai_script = parse_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai, battle_text)
+        parsed_ai, ai_script = parse_ai(game_version, enemy_id, enemy_name, enemy_special_ability, hex_ai, battle_text)
 
         parsed_ai_list.append(parsed_ai)
         ai_script_list.append(ai_script)
@@ -173,7 +174,7 @@ def snes_main() -> None:
     ai_output_file: str = CONFIG["parsed_ai_file_path"]
     script_output_file: str = CONFIG["ai_script_representation_file_path"]
 
-    ai_script_list: list[list[str]] = generate_and_write_validation_results(enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file)
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(GameVersion.SNES, enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file)
     
     write_ai_script(ai_script_list, enemy_names, script_output_file)
 
@@ -188,7 +189,7 @@ def gba_main() -> None:
     ai_output_file: str = CONFIG["gba_parsed_ai_file_path"]
     script_output_file: str = CONFIG["gba_ai_script_representation_file_path"]
 
-    ai_script_list: list[list[str]] = generate_and_write_validation_results(enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file)
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(GameVersion.GBA, enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file)
     
     write_ai_script(ai_script_list, enemy_names, script_output_file)
 

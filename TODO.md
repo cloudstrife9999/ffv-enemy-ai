@@ -12,31 +12,26 @@
 
 - Line 8: # TODO: find out what this action actually does.
 
-## [parser/enums/stats_and_properties_table.py](parser/enums/stats_and_properties_table.py)
+## [parser/enums/snes_stats_and_properties_table.py](parser/enums/snes_stats_and_properties_table.py)
+
+- Line 137: return self.name.replace("_", " ").title()  # TODO: refine this.
+
+## [parser/enums/gba_stats_and_properties_table.py](parser/enums/gba_stats_and_properties_table.py)
 
 - Line 5: # TODO: this only works for the SNES version. The GBA version has a different table/order.
 - Line 138: return self.name.replace("_", " ").title()  # TODO: refine this.
-
-## [parser/enums/global_event.py](parser/enums/global_event.py)
-
-- Line 63: return self.name.replace("_", " ").title()  # TODO: refine this.
-
-## [parser/enums/item.py](parser/enums/item.py)
-
-- Line 5: # TODO: migrate to GBA names.
-- Line 233: return self.name.replace("_", " ").title()  # TODO: refine this.
 
 ## [parser/enums/target_count.py](parser/enums/target_count.py)
 
 - Line 6: # TODO: check if it is more fine-grained than the current representation.
 
-## [parser/enums/action_code.py](parser/enums/action_code.py)
-
-- Line 21: return self.name.title().replace("_", " ")  # TODO: refine this.
-
 ## [parser/enums/target.py](parser/enums/target.py)
 
 - Line 45: ENKIDU = 0x27  # TODO: check this.
+
+## [parser/conditions/hit_by_command_category_condition.py](parser/conditions/hit_by_command_category_condition.py)
+
+- Line 1: # TODO: implement this.
 
 ## [parser/conditions/hit_by_command_condition.py](parser/conditions/hit_by_command_condition.py)
 
@@ -49,3 +44,7 @@
 ## [parser/conditions/a2_comparison.py](parser/conditions/a2_comparison.py)
 
 - Line 7: # TODO: find out what this contition actually checks.
+
+## [parser/conditions/hit_by_elemental_command_condition.py](parser/conditions/hit_by_elemental_command_condition.py)
+
+- Line 1: # TODO: implement this.

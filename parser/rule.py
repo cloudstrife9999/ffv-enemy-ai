@@ -6,19 +6,21 @@ from .actions.no_interrupt_action import NoInterruptAction
 from .actions.ai_command_action import AICommandAction
 from .condition_factory import ConditionFactory
 from .action_factory import ActionFactory
+from .enums.game_version import GameVersion
 
 class EnemyAIRule():
-    def __init__(self, enemy_special_ability: str) -> None:
+    def __init__(self, enemy_special_ability: str, game_version: GameVersion) -> None:
         self.__tokens: list[list[int]] = []
         self.__conditions: list[AIRuleCondition] = []
         self.__actions: list[AIRuleAction] = []
         self.__current_no_interrupt_action: Optional[AICommandAction] = None
         self.__enemy_special_ability: str = enemy_special_ability
+        self.__game_version: GameVersion = game_version
 
     def add_condition(self, tokens: list[int]) -> None:
         self.__tokens.append(tokens)
 
-        condition: AIRuleCondition = ConditionFactory.create_condition(tokens)
+        condition: AIRuleCondition = ConditionFactory.create_condition(self.__game_version, tokens)
 
         if condition:
             self.__conditions.append(condition)
@@ -28,7 +30,7 @@ class EnemyAIRule():
     def add_action(self, tokens: list[int], battle_text: dict[int, str]) -> None:
         self.__tokens.append(tokens)
 
-        action: AIRuleAction = ActionFactory.create_action(tokens, battle_text, self.__enemy_special_ability)
+        action: AIRuleAction = ActionFactory.create_action(self.__game_version, tokens, battle_text, self.__enemy_special_ability)
 
         is_no_interrupt_action: bool = isinstance(action, AICommandAction) and isinstance(action.sub_action, NoInterruptAction)
 

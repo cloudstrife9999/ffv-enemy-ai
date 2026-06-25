@@ -9,7 +9,8 @@ from .conditions.hit_by_command_condition import HitByCommandCondition
 from .conditions.hit_by_spell_condition import HitByExactSpellCondition
 from .conditions.hit_by_item_condition import HitByExactItemCondition
 from .conditions.target_count_condition import TargetCountCondition
-from .conditions.stat_or_property_condition import StatOrPropertyCondition
+from .conditions.snes_stat_or_property_condition import SNESStatOrPropertyCondition
+from .conditions.gba_stat_or_property_condition import GBAStatOrPropertyCondition
 from .conditions.a2_comparison import A2ComparisonCondition
 from .conditions.global_event_condition import GlobalEventCondition
 from .conditions.hp_damage_condition import HPDamageCondition
@@ -26,13 +27,15 @@ from .enums.command import Command
 from .ability import Ability
 from .enums.item import Item
 from .enums.target_count import TargetCount
-from .enums.stats_and_properties_table import StatsAndPropertiesTable
+from .enums.snes_stats_and_properties_table import SNESStatsAndPropertiesTable
+from .enums.gba_stats_and_properties_table import GBAStatsAndPropertiesTable
 from .enums.global_event_table import GlobalEventTable
+from .enums.game_version import GameVersion
 
 
 class ConditionFactory():
     @staticmethod
-    def create_condition(bytes: list[int]) -> AIRuleCondition:
+    def create_condition(game_version: GameVersion, bytes: list[int]) -> AIRuleCondition:
         if len(bytes) != 4:
             raise ValueError("A valid condition must be 4 bytes long.")
         else:
@@ -41,10 +44,10 @@ class ConditionFactory():
             third_byte: int = bytes[2] & 0xFF
             fourth_byte: int = bytes[3] & 0xFF
 
-            return ConditionFactory.__create_condition_from_bytes(condition_code, second_byte, third_byte, fourth_byte)
+            return ConditionFactory.__create_condition_from_bytes(game_version, condition_code, second_byte, third_byte, fourth_byte)
 
     @staticmethod
-    def __create_condition_from_bytes(condition_code: int, second_byte: int, third_byte: int, fourth_byte: int) -> AIRuleCondition:
+    def __create_condition_from_bytes(game_version: GameVersion, condition_code: int, second_byte: int, third_byte: int, fourth_byte: int) -> AIRuleCondition:
         try:
             match ConditionCode(condition_code):
                 case ConditionCode.UNCONDITIONAL:
@@ -68,7 +71,7 @@ class ConditionFactory():
                 case ConditionCode.TARGET_COUNT:
                     return TargetCountCondition(target_count=TargetCount(second_byte), third_byte=third_byte, fourth_byte=fourth_byte)
                 case ConditionCode.STAT_OR_PROPERTY:
-                    return StatOrPropertyCondition(target=Target(second_byte), property_table=StatsAndPropertiesTable(third_byte), expected_value=fourth_byte)
+                    return ConditionFactory.__create_stat_or_property_condition(game_version=game_version, target=Target(second_byte), property_table_byte=third_byte, expected_value=fourth_byte)
                 case ConditionCode.COMPARE_WITH_A2:
                     return A2ComparisonCondition(second_byte=second_byte, value_lsb=third_byte, value_msb=fourth_byte)
                 case ConditionCode.GLOBAL_EVENT_FLAGS:
@@ -89,3 +92,13 @@ class ConditionFactory():
             raise ValueError(f"Invalid condition code: {condition_code}. Error: {e}") from e
         except Exception as e:
             raise ValueError(f"Error creating condition with code {condition_code}: {e}") from e
+
+    @staticmethod
+    def __create_stat_or_property_condition(game_version: GameVersion, target: Target, property_table_byte: int, expected_value: int) -> AIRuleCondition:
+        match game_version:
+            case GameVersion.SNES:
+                return SNESStatOrPropertyCondition(target=target, property_table=SNESStatsAndPropertiesTable(property_table_byte), expected_value=expected_value)
+            case GameVersion.GBA:
+                return GBAStatOrPropertyCondition(target=target, property_table=GBAStatsAndPropertiesTable(property_table_byte), expected_value=expected_value)
+            case _:
+                raise ValueError(f"Unknown game version: {game_version.value}")

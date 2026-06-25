@@ -18,7 +18,17 @@ class ActionCode(IntEnum):
 
     @override
     def __str__(self) -> str:
-        return self.name.title().replace("_", " ")  # TODO: refine this.
+        match self:
+            case ActionCode.UNKNOWN_F5_ACTION:
+                return "Unknown 0xF5 action"
+            case ActionCode.NO_INTERRUPT:
+                return "Consecutive actions"
+            case ActionCode.GBA_RANDOM_SELECTION | ActionCode.RANDOM_SELECTION:
+                return "Random selection"
+            case ActionCode.AI_COMMAND:
+                return "AI command"
+            case _:
+                return self.name.replace("_", " ").capitalize()
 
     @classmethod
     def is_valid_four_byte_action_code(cls, value: int) -> bool:

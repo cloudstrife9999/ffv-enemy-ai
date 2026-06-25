@@ -45,8 +45,6 @@ class AICommandAction(AIRuleAction):
         sub_action_compact_representation: list[str] = self.sub_action.to_compact_representation(indent)
         suffix: str = sub_action_compact_representation[0].strip()
 
-        #suffix = suffix[0].lower() + suffix[1:]
-
         if len(sub_action_compact_representation) == 1:
             return [f"{" " * indent}{suffix}"]
         else:

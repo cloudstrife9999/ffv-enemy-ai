@@ -644,7 +644,7 @@ REACTIVE RULES:
       Display message: If you would lend that strength to us...
       Display message: Ramuh: Ifrit! No need to say more.
       Display message: You and I have never been enemies!
-      Mark the following global events as true: ['Ramuh Defeated']
+      Mark the following global events as true: ['Ramuh defeated']
       [Nothing]
   Rule #2:
     Conditions:
@@ -1883,7 +1883,7 @@ REACTIVE RULES:
     Conditions:
       Just before dying
     Actions:
-      Mark the following global events as true: ['Catoblepas Defeated']
+      Mark the following global events as true: ['Catoblepas defeated']
       [Nothing]
   Rule #2:
     Conditions:
@@ -2390,7 +2390,7 @@ REACTIVE RULES:
     Actions:
       Display message: Sekhmet: You may have defeated me...
       Display message: but my brother in the tower willーgahhh!
-      Mark the following global events as true: ['Sekhmet Defeated']
+      Mark the following global events as true: ['Sekhmet defeated']
       [Nothing]
 
 ----------------------------------------
@@ -3951,7 +3951,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Display message: Golem: Thanks a ton!
                Display message: It'd rock if I could roll along with you!
-               Mark the following global events as true: ['Golem Bone Dragon Zombie Dragon Defeated', 'Solo Golem Battle Unavailable']
+               Mark the following global events as true: ['Golem + Bone Dragon + Zombie Dragon defeated', 'Solo Golem battle unavailable']
                Ability: [Unconditional self-kill]
 REACTIVE RULES:
   None
@@ -9177,28 +9177,28 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Bartz (while dead) is affected by the Death status
-      All of the following global events are active/true: [Bartz Is In The Party]
+      All of the following global events are active/true: [Bartz is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #2:
     Conditions:
       Lenna (while dead) is affected by the Death status
-      All of the following global events are active/true: [Lenna Is In The Party]
+      All of the following global events are active/true: [Lenna is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #3:
     Conditions:
       Galuf (while dead) is affected by the Death status
-      All of the following global events are active/true: [Galuf Is In The Party]
+      All of the following global events are active/true: [Galuf is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #4:
     Conditions:
       Faris (while dead) is affected by the Death status
-      All of the following global events are active/true: [Faris Is In The Party]
+      All of the following global events are active/true: [Faris is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
@@ -9433,7 +9433,7 @@ REACTIVE RULES:
       Hit by the Banish spell
     Actions:
       Display message: Gilgamesh: NOOOOOOOOOOOO!
-      Mark the following global events as true: ['Gilgamesh Available In The Interdimensional Rift']
+      Mark the following global events as true: ['Gilgamesh available in the Interdimensional Rift']
       [Nothing]
 
 ----------------------------------------
@@ -10279,7 +10279,7 @@ REACTIVE RULES:
     Actions:
       Consecutive actions:
         Display message: Exdeath: Then...what...?
-        Mark the following global events as true: ['Galuf Solo Vs Exdeath Already Happened']
+        Mark the following global events as true: ['Galuf solo battle vs. Exdeath already happened']
         Forcefully change target(s) to self
         Ability: [Unconditional self-kill]
   Rule #2:
@@ -10705,7 +10705,7 @@ REACTIVE RULES:
       Current HP < 9999
       Variable Var_01 == 0
       HP damage just taken
-      All of the following global events are active/true: [Gilgamesh Available In The Interdimensional Rift]
+      All of the following global events are active/true: [Gilgamesh available in the Interdimensional Rift]
     Actions:
       Consecutive actions:
         Change music to "Battle With Gilgamesh"
@@ -13601,28 +13601,28 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Bartz (while dead) is affected by the Death status
-      All of the following global events are active/true: [Bartz Is In The Party]
+      All of the following global events are active/true: [Bartz is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #2:
     Conditions:
       Lenna (while dead) is affected by the Death status
-      All of the following global events are active/true: [Lenna Is In The Party]
+      All of the following global events are active/true: [Lenna is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #3:
     Conditions:
       Faris (while dead) is affected by the Death status
-      All of the following global events are active/true: [Faris Is In The Party]
+      All of the following global events are active/true: [Faris is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole
   Rule #4:
     Conditions:
       Krile (while dead) is affected by the Death status
-      All of the following global events are active/true: [Krile Is In The Party]
+      All of the following global events are active/true: [Krile is in the party]
     Actions:
       Turn #1: Forcefully change target(s) to all party members matching the condition
                Ability: Wormhole

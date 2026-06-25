@@ -1287,7 +1287,7 @@
                         "action": "AI_COMMAND",
                         "type": "SET_GLOBAL_EVENT_FLAG",
                         "global_events": [
-                            "Ramuh Defeated"
+                            "Ramuh defeated"
                         ]
                     },
                     "[Nothing]"
@@ -3582,7 +3582,7 @@
                         "action": "AI_COMMAND",
                         "type": "SET_GLOBAL_EVENT_FLAG",
                         "global_events": [
-                            "Catoblepas Defeated"
+                            "Catoblepas defeated"
                         ]
                     },
                     "[Nothing]"
@@ -4566,7 +4566,7 @@
                         "action": "AI_COMMAND",
                         "type": "SET_GLOBAL_EVENT_FLAG",
                         "global_events": [
-                            "Sekhmet Defeated"
+                            "Sekhmet defeated"
                         ]
                     },
                     "[Nothing]"
@@ -7993,8 +7993,8 @@
                         "action": "AI_COMMAND",
                         "type": "SET_GLOBAL_EVENT_FLAG",
                         "global_events": [
-                            "Golem Bone Dragon Zombie Dragon Defeated",
-                            "Solo Golem Battle Unavailable"
+                            "Golem + Bone Dragon + Zombie Dragon defeated",
+                            "Solo Golem battle unavailable"
                         ]
                     },
                     "Turn #4": "[Unconditional self-kill]"
@@ -17533,7 +17533,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Bartz Is In The Party"
+                            "Bartz is in the party"
                         ]
                     }
                 ],
@@ -17556,7 +17556,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Lenna Is In The Party"
+                            "Lenna is in the party"
                         ]
                     }
                 ],
@@ -17579,7 +17579,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Galuf Is In The Party"
+                            "Galuf is in the party"
                         ]
                     }
                 ],
@@ -17602,7 +17602,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Faris Is In The Party"
+                            "Faris is in the party"
                         ]
                     }
                 ],
@@ -18237,7 +18237,7 @@
                         "action": "AI_COMMAND",
                         "type": "SET_GLOBAL_EVENT_FLAG",
                         "global_events": [
-                            "Gilgamesh Available In The Interdimensional Rift"
+                            "Gilgamesh available in the Interdimensional Rift"
                         ]
                     },
                     "[Nothing]"
@@ -20741,7 +20741,7 @@
                                 "action": "AI_COMMAND",
                                 "type": "SET_GLOBAL_EVENT_FLAG",
                                 "global_events": [
-                                    "Galuf Solo Vs Exdeath Already Happened"
+                                    "Galuf solo battle vs. Exdeath already happened"
                                 ]
                             },
                             {
@@ -22090,7 +22090,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Gilgamesh Available In The Interdimensional Rift"
+                            "Gilgamesh available in the Interdimensional Rift"
                         ]
                     }
                 ],
@@ -29040,7 +29040,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Bartz Is In The Party"
+                            "Bartz is in the party"
                         ]
                     }
                 ],
@@ -29063,7 +29063,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Lenna Is In The Party"
+                            "Lenna is in the party"
                         ]
                     }
                 ],
@@ -29086,7 +29086,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Faris Is In The Party"
+                            "Faris is in the party"
                         ]
                     }
                 ],
@@ -29109,7 +29109,7 @@
                     {
                         "condition": "GLOBAL_EVENT_FLAGS",
                         "global_events": [
-                            "Krile Is In The Party"
+                            "Krile is in the party"
                         ]
                     }
                 ],

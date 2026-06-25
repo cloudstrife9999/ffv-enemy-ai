@@ -1,6 +1,7 @@
 from typing import Optional
 
 from .state_enum import StateEnum
+from .stats_and_properties_table import StatsAndPropertiesTable
 from .enums.condition_code import ConditionCode
 from .enums.target import Target
 from .enums.status_table import StatusTable
@@ -8,22 +9,23 @@ from .enums.variable import Variable
 from .enums.command import Command
 from .ability import Ability
 from .enums.abilities.dark_arts import DarkArts
-from .enums.stats_and_properties_table import StatsAndPropertiesTable
 from .enums.global_event_table import GlobalEventTable
 from .enums.symbol import SymbolCode
 from .enums.action_code import ActionCode
+from .enums.game_version import GameVersion
 from .enemy_ai import EnemyAI
 
 
 class EnemyAIParser():
-    def __init__(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, tokens: bytes, battle_text: dict[int, str]) -> None:
+    def __init__(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, tokens: bytes, battle_text: dict[int, str], game_version: GameVersion) -> None:
         self.__enemy_id: str = enemy_id
         self.__enemy_name: str = enemy_name
         self.__current_state: StateEnum = StateEnum.START
         self.__tokens: bytes = tokens
         self.__no_interrupt_error_message: str = "Unexpected end of no-interrupt action."
-        self.__enemy_ai: EnemyAI = EnemyAI(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, raw=tokens.hex().upper())
+        self.__enemy_ai: EnemyAI = EnemyAI(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, raw=tokens.hex().upper(), game_version=game_version)
         self.__battle_text: dict[int, str] = battle_text
+        self.__game_version: GameVersion = game_version
         self.__current_tokens_group: list[int] = []
 
     def parse(self) -> bool:
@@ -111,7 +113,7 @@ class EnemyAIParser():
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.HIT_BY_SPELL and Ability.is_valid_id(current_byte):
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
-        elif condition_code is ConditionCode.STAT_OR_PROPERTY and StatsAndPropertiesTable.is_valid_party_member_property_offset(current_byte):
+        elif condition_code is ConditionCode.STAT_OR_PROPERTY and StatsAndPropertiesTable.is_valid_party_member_property_offset(self.__game_version, current_byte):
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.GLOBAL_EVENT_FLAGS and GlobalEventTable.is_valid_global_event_table_id(current_byte):
             return self.__handle_c3_state(condition_code=condition_code, i=i + 1)
@@ -298,7 +300,7 @@ class EnemyAIParser():
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_GLOBAL_EVENT_FLAG and GlobalEventTable.is_valid_global_event_table_id(current_byte):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
-        elif sub_action_code is ActionCode.SET_STATS_OR_TOGGLE_STATUS and StatsAndPropertiesTable.is_valid_party_member_property_offset(current_byte):
+        elif sub_action_code is ActionCode.SET_STATS_OR_TOGGLE_STATUS and StatsAndPropertiesTable.is_valid_party_member_property_offset(self.__game_version, current_byte):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
@@ -442,7 +444,7 @@ class EnemyAIParser():
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.HIT_BY_SPELL and Ability.is_valid_id(current_byte):
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
-        elif condition_code is ConditionCode.STAT_OR_PROPERTY and StatsAndPropertiesTable.is_valid_party_member_property_offset(current_byte):
+        elif condition_code is ConditionCode.STAT_OR_PROPERTY and StatsAndPropertiesTable.is_valid_party_member_property_offset(self.__game_version, current_byte):
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.GLOBAL_EVENT_FLAGS and GlobalEventTable.is_valid_global_event_table_id(current_byte):
             return self.__handle_dc3_state(condition_code=condition_code, i=i + 1)
@@ -623,7 +625,7 @@ class EnemyAIParser():
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_GLOBAL_EVENT_FLAG and GlobalEventTable.is_valid_global_event_table_id(current_byte):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
-        elif sub_action_code is ActionCode.SET_STATS_OR_TOGGLE_STATUS and StatsAndPropertiesTable.is_valid_party_member_property_offset(current_byte):
+        elif sub_action_code is ActionCode.SET_STATS_OR_TOGGLE_STATUS and StatsAndPropertiesTable.is_valid_party_member_property_offset(self.__game_version, current_byte):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
@@ -767,7 +769,7 @@ class EnemyAIParser():
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.HIT_BY_SPELL and Ability.is_valid_id(current_byte):
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
-        elif condition_code is ConditionCode.STAT_OR_PROPERTY and StatsAndPropertiesTable.is_valid_party_member_property_offset(current_byte):
+        elif condition_code is ConditionCode.STAT_OR_PROPERTY and StatsAndPropertiesTable.is_valid_party_member_property_offset(self.__game_version, current_byte):
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
         elif condition_code is ConditionCode.GLOBAL_EVENT_FLAGS and GlobalEventTable.is_valid_global_event_table_id(current_byte):
             return self.__handle_rc3_state(condition_code=condition_code, i=i + 1)
@@ -955,7 +957,7 @@ class EnemyAIParser():
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_GLOBAL_EVENT_FLAG and GlobalEventTable.is_valid_global_event_table_id(current_byte):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
-        elif sub_action_code is ActionCode.SET_STATS_OR_TOGGLE_STATUS and StatsAndPropertiesTable.is_valid_party_member_property_offset(current_byte):
+        elif sub_action_code is ActionCode.SET_STATS_OR_TOGGLE_STATUS and StatsAndPropertiesTable.is_valid_party_member_property_offset(self.__game_version, current_byte):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         else:
             return self.__handle_error_state(previous_byte=current_byte)
