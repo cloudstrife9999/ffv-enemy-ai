@@ -65,12 +65,30 @@ class EnemyAIRule():
     def has_lingering_no_interrupt_action(self) -> bool:
         return self.__current_no_interrupt_action is not None
 
-    # TODO: not every action ends the current turn. Fix that.
     def to_json(self, reactive: bool) -> dict[str, Any]:
         return {
             "conditions": [condition.to_json() for condition in self.__conditions],
-            "actions": {f"Turn #{i+1}": action.to_json() for i, action in enumerate(self.__actions)} if not reactive else [action.to_json() for action in self.__actions]
+            "actions": self.__turns_to_json() if not reactive else [action.to_json() for action in self.__actions]
         }
+
+    def __turns_to_json(self) -> dict[str, Any]:
+        turns: dict[str, Any] = {}
+        current_turn: int = 1
+        current_turn_actions: list[AIRuleAction] = []
+
+        for action in self.__actions:
+            current_turn_actions.append(action)
+
+            if action.terminates_turn_by_default():
+                turns[f"Turn #{current_turn}"] = [action.to_json() for action in current_turn_actions]
+
+                current_turn += 1
+                current_turn_actions = []
+
+        if current_turn_actions:
+            turns[f"Turn #{current_turn}"] = [action.to_json() for action in current_turn_actions]
+
+        return turns
 
     def to_compact_representation(self, reactive: bool) -> list[str]:
         if reactive:

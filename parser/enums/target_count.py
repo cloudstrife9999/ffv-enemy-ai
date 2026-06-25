@@ -3,7 +3,6 @@ from enum import IntEnum
 from typing import override, Optional
 
 
-# TODO: check if it is more fine-grained than the current representation.
 class TargetCount(IntEnum):
     SINGLE = 0x00
     MULTI = 0x01   # representative value

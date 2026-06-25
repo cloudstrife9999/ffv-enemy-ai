@@ -1,20 +1,12 @@
 # TODO List
 
-## [parser/rule.py](parser/rule.py)
-
-- Line 68: # TODO: not every action ends the current turn. Fix that.
-
 ## [parser/actions/unknown_f5_action.py](parser/actions/unknown_f5_action.py)
 
 - Line 8: # TODO: find out what this action actually does.
 
-## [parser/enums/target_count.py](parser/enums/target_count.py)
-
-- Line 6: # TODO: check if it is more fine-grained than the current representation.
-
 ## [parser/enums/target.py](parser/enums/target.py)
 
-- Line 45: ENKIDU = 0x27  # TODO: check this.
+- Line 45: ENKIDU = 0x27  # TODO: check this. It prbably targets an emeny that matches certain flags related to previous targets.
 
 ## [parser/conditions/hit_by_command_category_condition.py](parser/conditions/hit_by_command_category_condition.py)
 
@@ -23,10 +15,6 @@
 ## [parser/conditions/hit_by_command_condition.py](parser/conditions/hit_by_command_condition.py)
 
 - Line 10: # TODO: split this class into two separate classes: one for HIT_BY_COMMAND_WITH_ELEMENT and one for HIT_BY_COMMAND_WITH_CATEGORY, since they have different semantics.
-
-## [parser/conditions/lone_enemy_condition.py](parser/conditions/lone_enemy_condition.py)
-
-- Line 7: # TODO: the third byte is the count of enemies (other than this enemy) for this condition to be true.
 
 ## [parser/conditions/a2_comparison.py](parser/conditions/a2_comparison.py)
 

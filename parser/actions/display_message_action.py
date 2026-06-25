@@ -33,11 +33,14 @@ class DisplayMessageAction(AIRuleAction):
     def to_json(self) -> str | dict[str, Any]:
         return {
             "action": str(self.action_code),
-            "message": self.__message,
+            "message": self.__message if "\\n" not in self.__message else self.__message.split("\\n"),
             "unknown_parameter": f"0x{self.unused_byte:02X}",
             "entry": f"0x{self.message_entry:02X}"
         }
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
-        return [f"{" " * indent}Display message: {self.__message}"]
+        if "\\n" in self.__message:
+            return [f'{" " * indent}Display message: {line}' for line in self.__message.split("\\n")]
+        else:
+            return [f'{" " * indent}Display message: {self.__message}']

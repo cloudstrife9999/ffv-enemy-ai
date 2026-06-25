@@ -36,7 +36,7 @@ def load_json(path: Path) -> JsonObject:
 
 def write_json(path: Path, data: Any) -> None:
     with path.open("w", encoding="utf-8") as file:
-        dump(data, file, indent=4)
+        dump(data, file, indent=4, ensure_ascii=False)
 
 
 def write_compact_representation(path: Path, lines: list[str]) -> None:

@@ -404,7 +404,7 @@ Enemy Name: Elf Toad
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Pond S Chorus, !Attack)
   Default rule:
@@ -450,7 +450,7 @@ Enemy Name: Wyvern (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Breath Wing, Breath Wing)
   Default rule:
@@ -602,7 +602,7 @@ Enemy Name: Mythril Dragon
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, !Attack, Special: Tail)
   Rule #2:
@@ -660,7 +660,7 @@ Enemy Name: Crew Dust (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(Flash, Flash, !Attack)
   Default rule:
@@ -716,7 +716,7 @@ REACTIVE RULES:
   Rule #1:
     Conditions:
       Just before dying
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Prepare to show/hide enemies:
         Relevant enemy slots: [#5, #6]
@@ -751,7 +751,7 @@ Enemy Name: Sergeant (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Display message: Sergeant: Can't ya take a hint!? Eat this!
                Ability: Flee
@@ -787,7 +787,7 @@ Enemy Name: Cur Nakk (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: Flee
   Default rule:
@@ -979,7 +979,7 @@ ACTIVE RULES:
 REACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
       HP damage just taken
     Actions:
       Forcefully change target(s) to all party members
@@ -1334,7 +1334,7 @@ Enemy Name: Birostris
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, !Attack, Special: Critical Attack)
   Rule #2:
@@ -1538,7 +1538,7 @@ ACTIVE RULES:
 REACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
       Hit by any spell
     Actions:
       Prepare to show/hide enemies:
@@ -1703,7 +1703,7 @@ Enemy Name: Golem (1st form)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
                  Relevant enemy slots: [#4]
@@ -1745,7 +1745,7 @@ Enemy Name: Magnetite
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: !Attack
   Default rule:
@@ -2051,7 +2051,7 @@ Enemy Name: Black Warlock
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(Death, Break, [Nothing])
       Turn #2: random(Break, Banish, [Nothing])
@@ -2090,7 +2090,7 @@ Enemy Name: Bandercoeurl (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: Blaster
       Turn #2: Ability: !Attack
@@ -2130,7 +2130,7 @@ Enemy Name: Blue Dragon
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Ice Storm, Ice Storm)
       Turn #2: random(!Attack, Ice Storm, !Attack)
@@ -2178,7 +2178,7 @@ Enemy Name: Sleepy
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, !Attack, Special: Critical Attack)
   Default rule:
@@ -2466,7 +2466,7 @@ Enemy Name: Zephyrus
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: [Nothing]
       Turn #2: Consecutive actions:
@@ -3087,7 +3087,7 @@ Enemy Name: Steel Fist
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Display message: Focusing energy...
                [Nothing]
@@ -3111,7 +3111,7 @@ Enemy Name: Alchymia
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: Death
   Default rule:
@@ -3262,7 +3262,7 @@ Enemy Name: Ammonite
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Digestive Acid, [Nothing])
   Default rule:
@@ -3362,7 +3362,7 @@ Enemy Name: Moss Fungus
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Spore, !Attack)
   Default rule:
@@ -3385,7 +3385,7 @@ Enemy Name: Orukat
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Evil Eye, Special: Critical Attack)
   Default rule:
@@ -3554,7 +3554,7 @@ Enemy Name: Gorgimera
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(Atomic Ray, Frost, Electrocute)
   Default rule:
@@ -3609,7 +3609,7 @@ Enemy Name: Fury
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Consecutive actions:
                  random(Firaga, Thundaga, Blizzaga)
@@ -3734,10 +3734,12 @@ ACTIVE RULES:
       Turn #1: Display message: Gilgamesh: ...Wait a minute...Bartz?
                Display message: Zounds! 'Tis no beast, just Bartz!
                Display message: You should've just said so from the start!
-               Display message: Oohhh, I don't like it here...\nCreepy monsters lurk around every corner,
+               Display message: Oohhh, I don't like it here...
+               Display message: Creepy monsters lurk around every corner,
                Display message: and I can't find the way out...
                Display message: Cripes...*sniffle*...I'm gonna break down!
-               Display message: Anyway. How did you get here?\nOr rather, how does one exit?
+               Display message: Anyway. How did you get here?
+               Display message: Or rather, how does one exit?
                Display message: Bartz: Oh, just go that way, then...
                Display message: Gilgamesh: I see! Let us egress posthaste!
                Forcefully change target(s) to self
@@ -3766,11 +3768,14 @@ REACTIVE RULES:
     Conditions:
       Hit by the unnamed script trigger spell
     Actions:
-      Display message: Say...afterwards, what say we have a few\nspectacular adventures, just us five?
+      Display message: Say...afterwards, what say we have a few
+      Display message: spectacular adventures, just us five?
       Display message: Bartz: ...Um.
-      Display message: Gilgamesh: ...Oh yes, that whole\nsaving the world thing....phooey.
+      Display message: Gilgamesh: ...Oh yes, that whole
+      Display message: saving the world thing....phooey.
       Display message: If you make it out safely...
-      Display message: Hah! No ifs about it.\nI'm certain we'll meet again.
+      Display message: Hah! No ifs about it.
+      Display message: I'm certain we'll meet again.
       Display message: At that time, I hope you'll consider me a...
       Display message: Uhh...er. *cough* Never mind, ha ha!
       Display message: Hasta la bye-bye!
@@ -4457,7 +4462,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 0
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Consecutive actions:
                  Set Var_00 to 1
@@ -4489,7 +4494,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 0
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Consecutive actions:
                  Set Var_00 to 1
@@ -4521,7 +4526,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 0
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Consecutive actions:
                  Set Var_00 to 1
@@ -4553,7 +4558,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 0
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Consecutive actions:
                  Set Var_00 to 1
@@ -4585,7 +4590,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 0
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Consecutive actions:
                  Set Var_00 to 1
@@ -4728,7 +4733,7 @@ REACTIVE RULES:
   Rule #1:
     Conditions:
       Just before dying
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Prepare to show/hide enemies:
         Relevant enemy slots: [#2]
@@ -8540,7 +8545,8 @@ REACTIVE RULES:
         Display message: ...by the Void!!!
         Display message: Exdeath: NOOO! WHY!?
         Display message: The Void was mine to command!
-        Display message: How could itー\nUwaaah!!!
+        Display message: How could itー
+        Display message: Uwaaah!!!
         Prepare to show/hide enemies:
           Relevant enemy slots: [#1, #2, #4, #5, #6, #7]
           Behaviour:
@@ -8889,7 +8895,8 @@ REACTIVE RULES:
     Actions:
       Display message: Gilgamesh: Urgh! ...Goodness gracious!
       Display message: I, uh, just remembered something! See ya!
-      Display message: I must take my leave...\nbut we'll meet again! Count on it!
+      Display message: I must take my leave...
+      Display message: but we'll meet again! Count on it!
       Ability: Flee
   Rule #2:
     Conditions:
@@ -8968,7 +8975,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 1
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
@@ -9119,7 +9126,8 @@ ACTIVE RULES:
                      - Show all enemies from the specified slots
                      - Style: Fade
                  Ability: [Unhide enemy]
-                 Display message: Gilgamesh: I see you're leisurely as ever,\nfaithful sidekick!
+                 Display message: Gilgamesh: I see you're leisurely as ever,
+                 Display message: faithful sidekick!
                  Display message: Enkidu: The old man gave me some trouble.
                  Display message: Gilgamesh: Ho? Let's return the trouble...
                  Display message: ...and make it double! Come on!
@@ -9137,7 +9145,7 @@ REACTIVE RULES:
   Rule #1:
     Conditions:
       Just before dying
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Consecutive actions:
         Display message: Gilgamesh: Enkidu! Faithful sidekick!
@@ -9396,7 +9404,8 @@ ACTIVE RULES:
       Variable Var_00 == 2
     Actions:
       Turn #1: Display message: Exdeath: You worthless fool!
-               Display message: For your continued bungling,\nI banish you from this dimension!
+               Display message: For your continued bungling,
+               Display message: I banish you from this dimension!
                Display message: Gilgamesh: Wh-what!? No!
                Display message: Anything but that!
                Display message: Exdeath: Silence!
@@ -9419,7 +9428,8 @@ ACTIVE RULES:
                  [Nothing]
       Turn #4: Consecutive actions:
                  Ability: !Attack
-                 Display message: This is far from the strongest of swords!\nI feel so betrayed!
+                 Display message: This is far from the strongest of swords!
+                 Display message: I feel so betrayed!
                  [Nothing]
       Turn #5: Change music to "The Evil Lord Exdeath"
                Display message: Exdeath: Gilgamesh!
@@ -9521,7 +9531,7 @@ Enemy Name: Mummy
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: random(!Attack, Dance Macabre, Special: Critical Attack)
   Default rule:
@@ -9759,7 +9769,7 @@ Enemy Name: Gargoyle
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #2]
@@ -10038,7 +10048,8 @@ ACTIVE RULES:
                Display message: Rather...
                Display message: you're doing perfectly nothing, perfectly!
                Display message: Yes! You feel itーthe essence of mimicry!
-               Display message: I give you my blessing\nto continue on the true path of imitation!
+               Display message: I give you my blessing
+               Display message: to continue on the true path of imitation!
                Display message: Adieu!!! Break a leg!
                Forcefully change target(s) to self
                Ability: Banish
@@ -10260,7 +10271,8 @@ ACTIVE RULES:
                  Display message: Galuf: Takes a lot more than that...
                  Display message: ...for me to kick the bucket!
                  Display message: Galuf: I'll destroy you, Exdeath...
-                 Display message: even if it means I have to \ntake you into the afterlife myself!
+                 Display message: even if it means I have to
+                 Display message: take you into the afterlife myself!
                  Set Var_00 to 1
                  Set Var_01 to 1
                  [Nothing]
@@ -10361,7 +10373,7 @@ Enemy Name: Sergeant (Iron Claw battle)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Display message: Bartz: This guy...
                Display message: Lenna: He's no ordinary soldier!
@@ -10397,7 +10409,7 @@ Enemy Name: Cur Nakk (Iron Claw battle)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: Flee
   Default rule:
@@ -10640,7 +10652,7 @@ ACTIVE RULES:
   Rule #2:
     Conditions:
       Variable Var_01 == 1
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: [Terminate battle]
   Rule #3:
@@ -10669,7 +10681,7 @@ ACTIVE RULES:
                  random(!Attack, !Attack, Death)
   Rule #5:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Display message: Necrophobe: My...my invincible barriers...
                Display message: You've left me with no choice!
@@ -10696,7 +10708,7 @@ REACTIVE RULES:
   Rule #1:
     Conditions:
       Just before dying
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Display message: Necrophobe: E...Ex...!
       [Nothing]
@@ -10718,8 +10730,10 @@ REACTIVE RULES:
         Ability: [Unhide enemy]
         Display message: Bartz: WhaーGilgamesh!?
         Display message: Gilgamesh: Made it!
-        Display message: Gilgamesh: Why hello there!\nSurprised to see me?
-        Display message: Hah! If I'd just left you in the lurch,\nI'd look like a jerk for all of history!
+        Display message: Gilgamesh: Why hello there!
+        Display message: Surprised to see me?
+        Display message: Hah! If I'd just left you in the lurch,
+        Display message: I'd look like a jerk for all of history!
         Display message: Thought I'd let that happen? As if!
         Display message: Necrophobe: Hmph... You've a big mouth.
         Display message: If you're so eager to fight,
@@ -10809,7 +10823,8 @@ ACTIVE RULES:
     Conditions:
       Variable Var_00 == 1
     Actions:
-      Turn #1: Display message: ...an understanding that \nI will pound you silly! Ha ha!
+      Turn #1: Display message: ...an understanding that
+               Display message: I will pound you silly! Ha ha!
                random(Hurricane, !Attack, Pond S Chorus)
       Turn #2: Display message: Gilgamesh: Say...
                Display message: what happened to that spry old fellow?
@@ -10819,7 +10834,8 @@ ACTIVE RULES:
       Turn #3: Display message: Gilgamesh: ...
                random(Dischord, !Attack, Lilliputian Lyric)
       Turn #4: Display message: Gilgamesh: Enough expository banter!
-               Display message: Now we fight like men! And ladies! \nAnd ladies who dress like men!
+               Display message: Now we fight like men! And ladies!
+               Display message: And ladies who dress like men!
                Display message: For Gilgamesh...it is morphing time!
                Prepare to show/hide enemies:
                  Relevant enemy slots: [#2]
@@ -10978,7 +10994,7 @@ REACTIVE RULES:
   Rule #1:
     Conditions:
       Just before dying
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
       Variable Var_00 == 1
     Actions:
       Display message: That's far enough!
@@ -11367,7 +11383,8 @@ ACTIVE RULES:
                Display message: Krile: Grandpa...
                Display message: Gilgamesh: And you, Faris!
                Display message: You must fall in love, or something,
-               Display message: and try acting a little like a womanー\nif you still know how!
+               Display message: and try acting a little like a womanー
+               Display message: if you still know how!
                Display message: Faris: Hey...
                Set Var_03 to 1
                Forcefully change target(s) to self
@@ -11609,7 +11626,7 @@ REACTIVE RULES:
   Rule #1:
     Conditions:
       HP damage just taken
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Prepare to show/hide enemies:
         Relevant enemy slots: [#1, #2, #3]
@@ -11633,7 +11650,7 @@ Enemy Name: Dark Elemental (Grand Aevis battle)
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Ability: Self-Destruct
   Default rule:
@@ -12336,7 +12353,7 @@ Enemy Name: Neo Shinryu
 ACTIVE RULES:
   Rule #1:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #4]
@@ -12963,7 +12980,8 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Set Var_00 to 1
-               Display message: Your magic has been taken away!\nYou cannot use it here!
+               Display message: Your magic has been taken away!
+               Display message: You cannot use it here!
                random(!Attack, !Attack, Special: Critical Attack)
 REACTIVE RULES:
   Rule #1:
@@ -13132,7 +13150,7 @@ ACTIVE RULES:
   Rule #1:
     Conditions:
       Variable Var_00 == 1
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
                  Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
@@ -14082,7 +14100,7 @@ ACTIVE RULES:
                  random(!Attack, !Attack, Death)
   Rule #3:
     Conditions:
-      Lone enemy
+      Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Toggle Invincible status.
                Set Var_00 to 1

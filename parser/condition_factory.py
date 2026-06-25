@@ -59,7 +59,7 @@ class ConditionFactory():
                 case ConditionCode.VAR_CHECK:
                     return VarCheckCondition(match_type=MatchType(second_byte), var_id=Variable(third_byte), value_to_match=fourth_byte)
                 case ConditionCode.LONE_ENEMY:
-                    return LoneEnemyCondition(second_byte=second_byte, third_byte=third_byte, fourth_byte=fourth_byte)
+                    return LoneEnemyCondition(collapse_duplicates_byte=second_byte, third_byte=third_byte, fourth_byte=fourth_byte)
                 case ConditionCode.ENEMY_SLOTS:
                     return EnemySlotsCondition(match_type=MatchType(second_byte), third_byte=third_byte, mask=fourth_byte)
                 case ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT | ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY:

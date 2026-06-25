@@ -42,7 +42,7 @@ class Target(IntEnum):
     RANDOM_PARTY_MEMBER = 0x24
     ALL_DEAD_ENEMIES = 0x25
     RANDOM_DEAD_ENEMY = 0x26
-    ENKIDU = 0x27  # TODO: check this.
+    ENKIDU = 0x27  # TODO: check this. It prbably targets an emeny that matches certain flags related to previous targets.
     BARTZ_IF_JUMPING = 0x28
     LENNA_IF_JUMPING = 0x29
     FARIS_IF_JUMPING = 0x2A
