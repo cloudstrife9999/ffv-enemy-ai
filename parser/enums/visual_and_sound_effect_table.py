@@ -12,7 +12,7 @@ class VisualAndSoundEffectTable(IntEnum):
 
     @override
     def __str__(self) -> str:
-        return f"{self.name.title()} table"
+        return f"\"{self.name.title()}\" table"
 
     @classmethod
     def is_valid_effect_table_id(cls, value: int) -> bool:

@@ -60,7 +60,7 @@ class ActionFactory():
                 return DisplayMessageAction(unused_byte=second_byte, message_entry=third_byte, battle_text=battle_text)
             case ActionCode.NO_INTERRUPT:
                 return NoInterruptAction(sub_actions_cumulative_length=second_byte, third_byte=third_byte)
-            case ActionCode.FULL_SCREEN_EFFECT:
+            case ActionCode.VISUAL_OR_SOUND_EFFECT:
                 return VisualOrSoundEffectAction(table_id=second_byte, effect_id=third_byte)
             case ActionCode.SET_GLOBAL_EVENT_FLAG:
                 return SetGlobalEventFlagAction(global_event_table_number=GlobalEventTable(second_byte), mask=third_byte)

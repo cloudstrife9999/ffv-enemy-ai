@@ -9,7 +9,7 @@ class ActionCode(IntEnum):
     UNKNOWN_F5_ACTION = 0xF5
     DISPLAY_MESSAGE = 0xF6
     NO_INTERRUPT = 0xF7
-    FULL_SCREEN_EFFECT = 0xF8
+    VISUAL_OR_SOUND_EFFECT = 0xF8
     SET_GLOBAL_EVENT_FLAG = 0xF9
     SET_STATS_OR_TOGGLE_STATUS = 0xFA
     GBA_RANDOM_SELECTION = 0xFC
@@ -49,7 +49,7 @@ class ActionCode(IntEnum):
             ActionCode.UNKNOWN_F5_ACTION,
             ActionCode.DISPLAY_MESSAGE,
             ActionCode.NO_INTERRUPT,
-            ActionCode.FULL_SCREEN_EFFECT,
+            ActionCode.VISUAL_OR_SOUND_EFFECT,
             ActionCode.SET_GLOBAL_EVENT_FLAG,
             ActionCode.SET_STATS_OR_TOGGLE_STATUS
         }

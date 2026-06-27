@@ -16,6 +16,6 @@ class ActionFlags(Enum):
     def __str__(self) -> str:
         match self:
             case ActionFlags.UNKNOWN_01 | ActionFlags.UNKNOWN_02 | ActionFlags.UNKNOWN_04 | ActionFlags.UNKNOWN_20:
-                return f"Unknown ({self.value:#04x})"
+                return f"Unknown (0x{self.value:02X})"
             case _:
                 return self.name.title()

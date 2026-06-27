@@ -8552,7 +8552,7 @@ REACTIVE RULES:
           Behaviour:
             - Do not transfer HP to the newly shown enemy/enemies
             - Show all enemies from the specified slots
-            - Style: Neo exdeath appearance
+            - Neo Exdeath appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -9635,7 +9635,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 1 appearance
+            - Melusine (form 1) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -9670,7 +9670,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 2 appearance
+            - Melusine (form 2) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -9705,7 +9705,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 3 appearance
+            - Melusine (form 3) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -9739,7 +9739,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 4 appearance
+            - Melusine (form 4) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -11692,7 +11692,7 @@ ACTIVE RULES:
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show only a single enemy from a random slot among the specified ones
-                     - Style: Melusine 1 appearance
+                     - Melusine (form 1) appearance style
                  Ability: [Unhide enemy]
 REACTIVE RULES:
   Rule #1:
@@ -11706,7 +11706,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 2 appearance
+            - Melusine (form 2) appearance style
         Ability: [Unhide enemy]
   Rule #2:
     Conditions:
@@ -11752,7 +11752,7 @@ ACTIVE RULES:
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show only a single enemy from a random slot among the specified ones
-                     - Style: Melusine 1 appearance
+                     - Melusine (form 1) appearance style
                  Ability: [Unhide enemy]
 REACTIVE RULES:
   Rule #1:
@@ -11766,7 +11766,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 3 appearance
+            - Melusine (form 3) appearance style
         Ability: [Unhide enemy]
   Rule #2:
     Conditions:
@@ -11812,7 +11812,7 @@ ACTIVE RULES:
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show only a single enemy from a random slot among the specified ones
-                     - Style: Melusine 4 appearance
+                     - Melusine (form 4) appearance style
                  Ability: [Unhide enemy]
 REACTIVE RULES:
   Rule #1:
@@ -11826,7 +11826,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 4 appearance
+            - Melusine (form 4) appearance style
         Ability: [Unhide enemy]
   Rule #2:
     Conditions:
@@ -13814,7 +13814,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 1 appearance
+            - Melusine (form 1) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -13849,7 +13849,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 2 appearance
+            - Melusine (form 2) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -13884,7 +13884,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 3 appearance
+            - Melusine (form 3) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------
@@ -13918,7 +13918,7 @@ REACTIVE RULES:
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
-            - Style: Melusine 4 appearance
+            - Melusine (form 4) appearance style
         Ability: [Unhide enemy]
 
 ----------------------------------------

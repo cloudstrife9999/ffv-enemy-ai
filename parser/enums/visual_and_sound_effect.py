@@ -41,3 +41,7 @@ class VisualAndSoundEffect(Enum):
                 return f"Full screen effect: {self.name.replace("_", " ").title()}"
             case VisualAndSoundEffectTable.BRIGHTNESS_EFFECT:
                 return f"Colour effect: {self.name.replace("_", " ").title()}"
+            case VisualAndSoundEffectTable.VISUAL_EFFECTS:
+                return f"Visual effect: {self.name.replace("_", " ").title()}"
+            case _:
+                raise ValueError(f"Invalid table ID: {self.table}.")

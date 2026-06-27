@@ -8,7 +8,7 @@ from ..enums.visual_and_sound_effect_table import VisualAndSoundEffectTable
 
 class VisualOrSoundEffectAction(AIRuleAction):
     def __init__(self, table_id: int, effect_id: int) -> None:
-        super().__init__(action_code=ActionCode.FULL_SCREEN_EFFECT, optional_second_byte=table_id, optional_third_byte=effect_id, optional_fourth_byte=None)
+        super().__init__(action_code=ActionCode.VISUAL_OR_SOUND_EFFECT, optional_second_byte=table_id, optional_third_byte=effect_id, optional_fourth_byte=None)
 
     @property
     def table_id(self) -> VisualAndSoundEffectTable:

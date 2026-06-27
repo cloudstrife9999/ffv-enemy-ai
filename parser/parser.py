@@ -292,7 +292,7 @@ class EnemyAIParser():
             return self.__handle_ca2_state_helper(action_code=action_code, sub_action_code=sub_action_code, current_byte=current_byte, i=i, f7_counter=f7_counter)
 
     def __handle_ca2_state_helper(self, action_code: ActionCode, sub_action_code: Optional[ActionCode], current_byte: int, i: int, f7_counter: int) -> bool:
-        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
+        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.VISUAL_OR_SOUND_EFFECT):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_TARGET and Target.is_valid_target_id(current_byte):
             return self.__handle_ca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
@@ -617,7 +617,7 @@ class EnemyAIParser():
             return self.__handle_cda2_state_helper(action_code=action_code, sub_action_code=sub_action_code, current_byte=current_byte, i=i, f7_counter=f7_counter)
 
     def __handle_cda2_state_helper(self, action_code: ActionCode, sub_action_code: Optional[ActionCode], current_byte: int, i: int, f7_counter: int) -> bool:
-        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
+        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.VISUAL_OR_SOUND_EFFECT):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_TARGET and Target.is_valid_target_id(current_byte):
             return self.__handle_cda3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
@@ -949,7 +949,7 @@ class EnemyAIParser():
             return self.__handle_rca2_state_helper(action_code=action_code, sub_action_code=sub_action_code, current_byte=current_byte, i=i, f7_counter=f7_counter)
 
     def __handle_rca2_state_helper(self, action_code: ActionCode, sub_action_code: Optional[ActionCode], current_byte: int, i: int, f7_counter: int) -> bool:
-        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.FULL_SCREEN_EFFECT):
+        if sub_action_code in (ActionCode.SET_ENEMY_TO_SHOW, ActionCode.UNKNOWN_F5_ACTION, ActionCode.DISPLAY_MESSAGE, ActionCode.VISUAL_OR_SOUND_EFFECT):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)
         elif sub_action_code is ActionCode.SET_TARGET and Target.is_valid_target_id(current_byte):
             return self.__handle_rca3_state(action_code=action_code, i=i + 1, f7_counter=f7_counter)

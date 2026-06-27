@@ -50,13 +50,18 @@ class TransformationFlags(IntEnum):
 
     @override
     def __str__(self) -> str:
-        if self == TransformationFlags.DO_NOT_TRANSFER_HP:
-            return "Do not transfer HP to the newly shown enemy/enemies"
-        elif self == TransformationFlags.TRANSFER_HP:
-            return "Transfer HP to the newly shown enemy/enemies"
-        elif self == TransformationFlags.RANDOM_TARGET:
-            return "Show only a single enemy from a random slot among the specified ones"
-        elif self == TransformationFlags.NON_RANDOM_TARGET:
-            return "Show all enemies from the specified slots"
-        else:
-            return f"Style: {self.name.replace("_", " ").capitalize()}"
+        match self:
+            case TransformationFlags.DO_NOT_TRANSFER_HP:
+                return "Do not transfer HP to the newly shown enemy/enemies"
+            case TransformationFlags.TRANSFER_HP:
+                return "Transfer HP to the newly shown enemy/enemies"
+            case TransformationFlags.RANDOM_TARGET:
+                return "Show only a single enemy from a random slot among the specified ones"
+            case TransformationFlags.NON_RANDOM_TARGET:
+                return "Show all enemies from the specified slots"
+            case TransformationFlags.NEO_EXDEATH_APPEARANCE:
+                return "Neo Exdeath appearance style"
+            case TransformationFlags.MELUSINE_1_APPEARANCE | TransformationFlags.MELUSINE_2_APPEARANCE | TransformationFlags.MELUSINE_3_APPEARANCE | TransformationFlags.MELUSINE_4_APPEARANCE:
+                return f"Melusine (form {self.name.split("_")[1]}) appearance style"
+            case _:
+                return f"Style: {self.name.replace("_", " ").capitalize()}"
