@@ -5717,9 +5717,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -5779,9 +5779,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -5992,9 +5992,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -6032,9 +6032,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -6046,9 +6046,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -7096,9 +7096,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -7692,9 +7692,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -7706,9 +7706,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -7805,9 +7805,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -7916,9 +7916,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -16902,9 +16902,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Attack",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     },
                     {
                         "condition": "Variable check",
@@ -16923,9 +16923,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Attack",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -21995,9 +21995,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -22014,9 +22014,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -22526,9 +22526,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -22551,9 +22551,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "At least one parameter does not match",
-                        "explanation": "either the command or the elements or both do not match",
+                        "explanation": "either the command or the categories or both do not match",
                         "command": "any spell",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [
@@ -27450,13 +27450,13 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Rapid Fire",
-                        "elements": [
-                            "Water",
-                            "Wind",
-                            "Earth",
-                            "Holy"
+                        "categories": [
+                            "Physical",
+                            "Aerial",
+                            "Song",
+                            "Summon"
                         ]
                     }
                 ],
@@ -27635,13 +27635,13 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Rapid Fire",
-                        "elements": [
-                            "Water",
-                            "Wind",
-                            "Earth",
-                            "Holy"
+                        "categories": [
+                            "Physical",
+                            "Aerial",
+                            "Song",
+                            "Summon"
                         ]
                     }
                 ],
@@ -27820,13 +27820,13 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Rapid Fire",
-                        "elements": [
-                            "Water",
-                            "Wind",
-                            "Earth",
-                            "Holy"
+                        "categories": [
+                            "Physical",
+                            "Aerial",
+                            "Song",
+                            "Summon"
                         ]
                     }
                 ],
@@ -27949,13 +27949,13 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Rapid Fire",
-                        "elements": [
-                            "Water",
-                            "Wind",
-                            "Earth",
-                            "Holy"
+                        "categories": [
+                            "Physical",
+                            "Aerial",
+                            "Song",
+                            "Summon"
                         ]
                     }
                 ],
@@ -29969,9 +29969,9 @@
                     {
                         "condition": "Hit by command (belonging to one or more categories)",
                         "match_type": "All parameters match",
-                        "explanation": "both command and elements match",
+                        "explanation": "both command and categories match",
                         "command": "!Attack",
-                        "elements": "irrelevant (including non-elemental)"
+                        "categories": "irrelevant"
                     }
                 ],
                 "actions": [

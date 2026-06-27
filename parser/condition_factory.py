@@ -5,7 +5,8 @@ from .conditions.hp_threshold_condition import HPThresholdCondition
 from .conditions.var_check_condition import VarCheckCondition
 from .conditions.lone_enemy_condition import LoneEnemyCondition
 from .conditions.enemy_slots_condition import EnemySlotsCondition
-from .conditions.hit_by_command_condition import HitByCommandCondition
+from .conditions.hit_by_elemental_command_condition import HitByElementalCommandCondition
+from .conditions.hit_by_command_category_condition import HitByCommandWithActionCategoryCondition
 from .conditions.hit_by_spell_condition import HitByExactSpellCondition
 from .conditions.hit_by_item_condition import HitByExactItemCondition
 from .conditions.target_count_condition import TargetCountCondition
@@ -62,8 +63,10 @@ class ConditionFactory():
                     return LoneEnemyCondition(collapse_duplicates_byte=second_byte, third_byte=third_byte, fourth_byte=fourth_byte)
                 case ConditionCode.ENEMY_SLOTS:
                     return EnemySlotsCondition(match_type=MatchType(second_byte), third_byte=third_byte, mask=fourth_byte)
-                case ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT | ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY:
-                    return HitByCommandCondition(condition_code=ConditionCode(condition_code), match_type=MatchType(second_byte), command=Command(third_byte), elemental_mask=fourth_byte)
+                case ConditionCode.HIT_BY_COMMAND_WITH_ELEMENT:
+                    return HitByElementalCommandCondition(match_type=MatchType(second_byte), command=Command(third_byte), elemental_mask=fourth_byte)
+                case ConditionCode.HIT_BY_COMMAND_WITH_CATEGORY:
+                    return HitByCommandWithActionCategoryCondition(match_type=MatchType(second_byte), command=Command(third_byte), category_mask=fourth_byte)
                 case ConditionCode.HIT_BY_SPELL:
                     return HitByExactSpellCondition(match_type=MatchType(second_byte), spell=Ability.from_id(third_byte), fourth_byte=fourth_byte)
                 case ConditionCode.HIT_BY_ITEM:

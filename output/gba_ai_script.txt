@@ -11710,7 +11710,7 @@ REACTIVE RULES:
         Ability: [Unhide enemy]
   Rule #2:
     Conditions:
-      Hit by !Rapid Fire using any of the following elements: ['Water', 'Wind', 'Earth', 'Holy']
+      Hit by !Rapid Fire using any of the following categories: ['Physical', 'Aerial', 'Song', 'Summon']
     Actions:
       random(Encircle, Remedy, [Nothing])
   Rule #3:
@@ -11770,7 +11770,7 @@ REACTIVE RULES:
         Ability: [Unhide enemy]
   Rule #2:
     Conditions:
-      Hit by !Rapid Fire using any of the following elements: ['Water', 'Wind', 'Earth', 'Holy']
+      Hit by !Rapid Fire using any of the following categories: ['Physical', 'Aerial', 'Song', 'Summon']
     Actions:
       random(Encircle, Remedy, [Nothing])
   Rule #3:
@@ -11830,7 +11830,7 @@ REACTIVE RULES:
         Ability: [Unhide enemy]
   Rule #2:
     Conditions:
-      Hit by !Rapid Fire using any of the following elements: ['Water', 'Wind', 'Earth', 'Holy']
+      Hit by !Rapid Fire using any of the following categories: ['Physical', 'Aerial', 'Song', 'Summon']
     Actions:
       random(Encircle, Remedy, [Nothing])
   Rule #3:
@@ -11877,7 +11877,7 @@ REACTIVE RULES:
         Ability: Meteor
   Rule #2:
     Conditions:
-      Hit by !Rapid Fire using any of the following elements: ['Water', 'Wind', 'Earth', 'Holy']
+      Hit by !Rapid Fire using any of the following categories: ['Physical', 'Aerial', 'Song', 'Summon']
     Actions:
       Forcefully change target(s) to whoever acted in the current tick
       random(Zombie Powder, Doom, [Nothing])
