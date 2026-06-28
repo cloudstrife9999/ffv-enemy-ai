@@ -34,7 +34,7 @@ class Command(IntEnum):
     RELEASE = 0x1D
     MIX = 0x1E
     DRINK = 0x1F
-    PRAY = 0x20
+    RECOVER = 0x20
     REVIVE = 0x21
     GAIA = 0x22
     DUMMIED_0X23 = 0x23
