@@ -7,7 +7,7 @@ class Item(IntEnum):
     UNARMED = 0x01
     KNIFE = 0x02
     DAGGER = 0x03
-    MYTHRIL_DAGGER = 0x04
+    MYTHRIL_KNIFE = 0x04
     KUNAI = 0x05
     MAGE_MASHER = 0x06
     MAIN_GAUCHE = 0x07
@@ -64,7 +64,7 @@ class Item(IntEnum):
     POWER_STAFF = 0x3A
     HEALING_STAFF = 0x3B
     STAFF_OF_LIGHT = 0x3C
-    SAGE_STAFF = 0x3D
+    SAGE_S_STAFF = 0x3D
     JUDGMENT_STAFF = 0x3E
     FLAME_BOW = 0x3F
     FROST_BOW = 0x40
@@ -127,7 +127,7 @@ class Item(IntEnum):
     IRON_HELM = 0x8B
     MYTHRIL_HELM = 0x8C
     GOLDEN_HELM = 0x8D
-    DIAMOND_HELMET = 0x8E
+    DIAMOND_HELM = 0x8E
     CRYSTAL_HELM = 0x8F
     PLUMED_HAT = 0x90
     WIZARD_S_HAT = 0x91
@@ -135,11 +135,11 @@ class Item(IntEnum):
     CIRCLET = 0x93
     GOLD_HAIRPIN = 0x94
     RIBBON = 0x95
-    TWISTED_HEADBAND = 0x96
+    TWIST_HEADBAND = 0x96
     GREEN_BERET = 0x97
     BLACK_COWL = 0x98
     LAMIA_S_TIARA = 0x99
-    LEATHER_CLOTHES = 0x9A
+    LEATHER_ARMOR = 0x9A
     BRONZE_ARMOR = 0x9B
     IRON_ARMOR = 0x9C
     MYTHRIL_ARMOR = 0x9D
@@ -167,7 +167,7 @@ class Item(IntEnum):
     CURSED_RING = 0xB3
     SILVER_SPECS = 0xB4
     HERMES_SANDALS = 0xB5
-    MITHRIL_GLOVES = 0xB6
+    MYTHRIL_GLOVES = 0xB6
     SILVER_ARMLET = 0xB7
     DIAMOND_ARMLET = 0xB8
     POWER_SASH = 0xB9
@@ -233,6 +233,6 @@ class Item(IntEnum):
             case Item.MAN_EATER | Item.KIKU_ICHIMONJI:
                 return self.name.replace("_", "-")
             case Item.ARTEMIS_BOW:
-                return self.name.replace("_", "'s ")
+                return self.name.replace("_", "' ")
             case _:
                 return self.name.replace("_", " ").title().title().replace(" S ", "'s ")
