@@ -24,7 +24,7 @@ class Summons(IntEnum):
     DIAMOND_DUST = 0x62
     JUDGMENT_BOLT = 0x63
     HELLFIRE = 0x64
-    GAIAS_WRATH = 0x65
+    GAIA_S_WRATH = 0x65
     EARTHEN_WALL = 0x66
     DEMON_EYE = 0x67
     RUBY_LIGHT = 0x68
@@ -45,7 +45,7 @@ class Summons(IntEnum):
         elif self in (Summons.FLAMES_OF_REBIRTH_DAMAGE, Summons.FLAMES_OF_REBIRTH_RESURRECTION):
             return f"Flames of Rebirth ({"damage" if self == Summons.FLAMES_OF_REBIRTH_DAMAGE else "resurrection"})"
         else:
-            return self.name.replace("_", " ").title()
+            return self.name.replace("_", " ").title().replace(" S ", "'s ")
 
     @classmethod
     def is_valid_id(cls, value: int) -> bool:
