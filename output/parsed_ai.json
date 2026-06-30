@@ -15178,7 +15178,7 @@
                 "conditions": [
                     {
                         "condition": "Target count",
-                        "target_count": "Single-target action"
+                        "target_count": "Multi-target action"
                     },
                     {
                         "condition": "Status effect",

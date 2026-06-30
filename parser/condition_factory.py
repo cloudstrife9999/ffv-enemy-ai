@@ -72,7 +72,7 @@ class ConditionFactory():
                 case ConditionCode.HIT_BY_ITEM:
                     return HitByExactItemCondition(match_type=MatchType(second_byte), item=Item(third_byte), fourth_byte=fourth_byte)
                 case ConditionCode.TARGET_COUNT:
-                    return TargetCountCondition(target_count=TargetCount(second_byte), third_byte=third_byte, fourth_byte=fourth_byte)
+                    return TargetCountCondition(second_byte=second_byte, third_byte=third_byte, target_count=TargetCount(fourth_byte))
                 case ConditionCode.STAT_OR_PROPERTY:
                     return ConditionFactory.__create_stat_or_property_condition(game_version=game_version, target=Target(second_byte), property_table_byte=third_byte, expected_value=fourth_byte)
                 case ConditionCode.COMPARE_WITH_A2:

@@ -6,12 +6,12 @@ from ..enums.target_count import TargetCount
 
 
 class TargetCountCondition(AIRuleCondition):
-    def __init__(self, target_count: TargetCount, third_byte: int, fourth_byte: int) -> None:
-        super().__init__(ConditionCode.TARGET_COUNT.value, target_count.value, third_byte, fourth_byte)
+    def __init__(self, second_byte: int, third_byte: int, target_count: TargetCount) -> None:
+        super().__init__(ConditionCode.TARGET_COUNT.value, second_byte, third_byte, target_count.value)
 
     @property
     def target_count(self) -> TargetCount:
-        return TargetCount(self.raw_second_byte)
+        return TargetCount(self.raw_fourth_byte)
 
     @override
     def to_json(self) -> str | dict[str, Any]:
