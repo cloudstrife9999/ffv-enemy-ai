@@ -1,0 +1,51 @@
+{
+    "enemy_id": "0D",
+    "enemy_name": "Octokraken",
+    "raw": "12000000FEAAFE00000000FEFDF318F0FC808081FDF318F0FCCE8081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "No female party members are targetable"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random female party member"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Eight Arms"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random female party member"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Electrocute",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Eight Arms"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

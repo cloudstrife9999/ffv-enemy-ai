@@ -1,0 +1,18 @@
+{
+    "enemy_id": "FE",
+    "enemy_name": "Big Boss",
+    "raw": "00000000FEAAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

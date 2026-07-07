@@ -1,0 +1,252 @@
+{
+    "enemy_id": "237",
+    "enemy_name": "Exdeath (Castle Exdeath)",
+    "raw": "020D803EFEFDF708F0FC8081AAFC303280FDF708F0FC308081FC3180AAFDF709F0FC3180AAFC328081FE020D581BFEFC454580FC303132FC808081FE00000000FEFC808282FCE5E581FCAE3C80FC808081FCCFCF80FCDB8081FCEAEA80FCB9B981FC802F80FC888881FF06000400FEFDF324F0FC23AAAAFE08003700FE3AFE08004000FE3AFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 16000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Special: Vacuum Wave",
+                                "third_choice": "Stay idle"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Firaga",
+                                "second_choice": "Ability: Thundaga",
+                                "third_choice": "Ability: !Attack"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Firaga",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Blizzaga",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Stay idle"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Blizzaga",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Stay idle"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Thundaga",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 7000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meteor",
+                        "second_choice": "Ability: Meteor",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: Blizzaga",
+                        "third_choice": "Ability: Thundaga"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Vacuum Wave"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Doom",
+                        "third_choice": "Ability: Doom"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Reverse Polarity",
+                        "second_choice": "Ability: Reverse Polarity",
+                        "third_choice": "Special: Vacuum Wave"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: 100 Gs",
+                        "second_choice": "Ability: Gravity",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Vacuum Wave"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Earth Shaker",
+                        "second_choice": "Ability: Earth Shaker",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blaze",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Vacuum Wave"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Hurricane",
+                        "second_choice": "Ability: Hurricane",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Zombie Breath",
+                        "second_choice": "Ability: Zombie Breath",
+                        "third_choice": "Special: Vacuum Wave"
+                    }
+                ],
+                "Turn #9": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Bio",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #10": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Level 3 Flare",
+                        "second_choice": "Ability: Level 3 Flare",
+                        "third_choice": "Special: Vacuum Wave"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "!Attack",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "A random party member"
+                },
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Dispel",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "Slow"
+                }
+            ],
+            "actions": [
+                "Ability: Haste"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "Slowga"
+                }
+            ],
+            "actions": [
+                "Ability: Haste"
+            ]
+        }
+    ]
+}

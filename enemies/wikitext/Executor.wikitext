@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Level 5 Death, Level 4 Graviga, Level 2 Old)
+      Turn #2: random(Level 3 Flare, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

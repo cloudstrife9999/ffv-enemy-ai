@@ -1,0 +1,66 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      No visible enemies in slots other than [#1, #2, #4]
+    Actions:
+      Turn #1: Consecutive actions:
+                 random(Meteor, Almagest, Special: Vacuum Wave)
+                 random(Comet, Special: Vacuum Wave, Special: Vacuum Wave)
+      Turn #2: Consecutive actions:
+                 random(Meteor, Almagest, Special: Vacuum Wave)
+                 random(Maelstrom, Almagest, Special: Vacuum Wave)
+      Turn #3: Consecutive actions:
+                 random(Meteor, !Attack, Special: Vacuum Wave)
+                 random(Comet, Almagest, Special: Vacuum Wave)
+      Turn #4: Ability: Grand Cross
+  Rule #2:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(Meteor, !Attack, [Nothing])
+      Turn #3: [Nothing]
+  Rule #3:
+    Conditions:
+      Current HP < 15000
+    Actions:
+      Turn #1: Display message: The laws of the universe mean nothing!
+               Colour effect: Multicolour On
+               [Nothing]
+      Turn #2: Colour effect: Multicolour Off
+               Ability: Grand Cross
+      Turn #3: Set Var_00 to 1
+               [Nothing]
+  Rule #4:
+    Conditions:
+      Current HP < 30000
+    Actions:
+      Turn #1: Display message: The laws of the universe mean nothing!
+               Colour effect: Multicolour On
+               [Nothing]
+      Turn #2: Colour effect: Multicolour Off
+               Ability: Grand Cross
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
+      Turn #5: Ability: !Attack
+      Turn #6: Ability: Dispel
+      Turn #7: [Nothing]
+      Turn #8: [Nothing]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: Display message: The laws of the universe mean nothing!
+               Colour effect: Multicolour On
+               [Nothing]
+      Turn #3: Colour effect: Multicolour Off
+               Ability: Grand Cross
+      Turn #4: [Nothing]
+      Turn #5: [Nothing]
+      Turn #6: Ability: Dispel
+      Turn #7: [Nothing]
+REACTIVE RULES:
+  None
+</pre>

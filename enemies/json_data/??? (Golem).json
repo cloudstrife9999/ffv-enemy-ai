@@ -1,0 +1,34 @@
+{
+    "enemy_id": "E4",
+    "enemy_name": "??? (Golem)",
+    "raw": "00000000FEFDF703F080A2FF0F000000FEA2FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            "Ability: !Attack",
+                            "Ability: Flee"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                "Ability: Flee"
+            ]
+        }
+    ]
+}

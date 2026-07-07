@@ -1,0 +1,45 @@
+{
+    "enemy_id": "20A",
+    "enemy_name": "Liquid Flame (hand form)",
+    "raw": "00000000FEFC808081FF0E000000FEFDF707F02AFDF245A0EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Ray"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        "Ability: Fira",
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "10100000",
+                            "flags": "01000101"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Gamma Ray, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by any command using any of the following elements: ['Lightning']
+    Actions:
+      Ability: Self-Destruct
+</pre>

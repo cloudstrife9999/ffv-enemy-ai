@@ -1,0 +1,27 @@
+{
+    "enemy_id": "12",
+    "enemy_name": "Garula (regular)",
+    "raw": "00000000FEAAAAAAA2FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    "Stay idle"
+                ],
+                "Turn #3": [
+                    "Stay idle"
+                ],
+                "Turn #4": [
+                    "Ability: Flee"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

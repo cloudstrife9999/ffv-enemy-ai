@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(!Attack, !Attack, Special: Horn)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by any spell using any of the following elements: ['Fire']
+    Actions:
+      Ability: Flee
+</pre>

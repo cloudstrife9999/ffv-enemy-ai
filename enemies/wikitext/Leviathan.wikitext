@@ -1,0 +1,34 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Tail)
+      Turn #2: random(!Attack, !Attack, Special: Tail)
+      Turn #3: Consecutive actions:
+                 random(!Attack, Special: Tail, Tidal Wave)
+                 random(!Attack, Tidal Wave, Tidal Wave)
+      Turn #4: random(!Attack, !Attack, Special: Tail)
+      Turn #5: random(!Attack, Tidal Wave, Special: Tail)
+      Turn #6: random(!Attack, Aqua Breath, Aqua Breath)
+      Turn #7: Consecutive actions:
+                 random(Tidal Wave, Tidal Wave, Special: Tail)
+                 random(Special: Tail, !Attack, Tidal Wave)
+      Turn #8: random(!Attack, Tidal Wave, Special: Tail)
+      Turn #9: random(!Attack, !Attack, Special: Tail)
+      Turn #10: Consecutive actions:
+                  random(!Attack, Special: Tail, Tidal Wave)
+                  random(!Attack, Special: Tail, Tidal Wave)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by any spell
+    Actions:
+      random(Tidal Wave, [Nothing], [Nothing])
+  Rule #2:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      random(Entangle, [Nothing], [Nothing])
+</pre>

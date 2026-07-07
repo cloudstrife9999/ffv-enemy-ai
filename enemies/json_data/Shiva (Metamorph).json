@@ -1,0 +1,43 @@
+{
+    "enemy_id": "E7",
+    "enemy_name": "Shiva (Metamorph)",
+    "raw": "00000000FEFDF70FF0FDF323F02BFDF60161FDF20580EEFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set target",
+                                "target": "All party members"
+                            },
+                            "Ability: Blizzara",
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Revert!",
+                                "unknown_parameter": "0x01",
+                                "entry": "0x61"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set enemy to show",
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
+                            },
+                            "Ability: [Unhide enemy]"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

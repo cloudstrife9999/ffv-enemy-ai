@@ -1,0 +1,52 @@
+{
+    "enemy_id": "2A1",
+    "enemy_name": "Wing Raptor (2nd form, Cloister of the Dead)",
+    "raw": "00000000FEAAAAFDF707F0FDF20580EEDAFF07000400FE81FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    "Stay idle"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set enemy to show",
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
+                            },
+                            "Ability: [Unhide enemy]",
+                            "Ability: Breath Wing"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "!Attack",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                "Special: Claw"
+            ]
+        }
+    ]
+}

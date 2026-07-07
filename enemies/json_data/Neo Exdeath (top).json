@@ -1,0 +1,258 @@
+{
+    "enemy_id": "26B",
+    "enemy_name": "Neo Exdeath (top)",
+    "raw": "050000D0FEFDF708F0FC45C881FC3F8181FDF708F0FC45C881FCC2C881FDF708F0FC458081FC3FC881A6FE03000001FE80FC4580AAAAFE020D983AFEFDF6054AFDF80A03AAFDF80A83A6FDF40001AAFE020D3075FEFDF6054AFDF80A03AAFDF80A83A6AAAA8023AAAAFE00000000FEAAFDF6054AFDF80A03AAFDF80A83A6AAAA23AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Enemy slots",
+                    "match_type": "All parameters match",
+                    "explanation": "visible enemies only in these slots",
+                    "enemy_slots": [
+                        "#1, #2, #4"
+                    ]
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Meteor",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Comet",
+                                "second_choice": "Special: Vacuum Wave",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Meteor",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Maelstrom",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Meteor",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Comet",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #4": [
+                    "Ability: Grand Cross"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meteor",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 15000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "The laws of the universe mean nothing!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x4A"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Brightness_Effect\" table",
+                        "effect": "Colour effect: Multicolour On"
+                    },
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Brightness_Effect\" table",
+                        "effect": "Colour effect: Multicolour Off"
+                    },
+                    "Ability: Grand Cross"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 1
+                    },
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 30000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "The laws of the universe mean nothing!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x4A"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Brightness_Effect\" table",
+                        "effect": "Colour effect: Multicolour On"
+                    },
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Brightness_Effect\" table",
+                        "effect": "Colour effect: Multicolour Off"
+                    },
+                    "Ability: Grand Cross"
+                ],
+                "Turn #3": [
+                    "Stay idle"
+                ],
+                "Turn #4": [
+                    "Stay idle"
+                ],
+                "Turn #5": [
+                    "Ability: !Attack"
+                ],
+                "Turn #6": [
+                    "Ability: Dispel"
+                ],
+                "Turn #7": [
+                    "Stay idle"
+                ],
+                "Turn #8": [
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "The laws of the universe mean nothing!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x4A"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Brightness_Effect\" table",
+                        "effect": "Colour effect: Multicolour On"
+                    },
+                    "Stay idle"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Brightness_Effect\" table",
+                        "effect": "Colour effect: Multicolour Off"
+                    },
+                    "Ability: Grand Cross"
+                ],
+                "Turn #4": [
+                    "Stay idle"
+                ],
+                "Turn #5": [
+                    "Stay idle"
+                ],
+                "Turn #6": [
+                    "Ability: Dispel"
+                ],
+                "Turn #7": [
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

@@ -1,0 +1,26 @@
+{
+    "enemy_id": "36",
+    "enemy_name": "Bomb",
+    "raw": "00000000FE80FC80819BFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Body Slam",
+                        "third_choice": "Ability: Self-Destruct"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

@@ -39,6 +39,12 @@ def write_json(path: Path, data: Any) -> None:
         dump(data, file, indent=4, ensure_ascii=False)
 
 
+def write_individual_json_ai_scripts(output_dir: str, enemy_name: str, parsed_ai: JsonObject) -> None:
+    output_path: Path = Path(output_dir) / "json_data" / f"{enemy_name}.json"
+
+    write_json(output_path, parsed_ai)
+
+
 def write_compact_representation(path: Path, lines: list[str]) -> None:
     with path.open("w", encoding="utf-8") as file:
         for line in lines:
@@ -131,7 +137,7 @@ def parse_ai(game_version: GameVersion, enemy_id: str, enemy_name: str, enemy_sp
     return parsed_ai, ai_script
 
 
-def generate_and_write_validation_results(game_version: GameVersion, enemy_ai_map: dict[str, str], enemy_names: dict[str, str], converted_enemy_special_abilities: dict[int, dict[str, int]], battle_text: dict[int, str], ai_output_file: str) -> list[list[str]]:
+def generate_and_write_validation_results(game_version: GameVersion, enemy_ai_map: dict[str, str], enemy_names: dict[str, str], converted_enemy_special_abilities: dict[int, dict[str, int]], battle_text: dict[int, str], ai_output_file: str, individual_ai_output_dir: str) -> list[list[str]]:
     parsed_ai_list: list[JsonObject] = []
     ai_script_list: list[list[str]] = []
     
@@ -143,6 +149,9 @@ def generate_and_write_validation_results(game_version: GameVersion, enemy_ai_ma
 
         parsed_ai_list.append(parsed_ai)
         ai_script_list.append(ai_script)
+
+        if game_version is GameVersion.GBA:
+            write_individual_json_ai_scripts(individual_ai_output_dir, enemy_name, parsed_ai)
 
     write_json(Path(ai_output_file), parsed_ai_list)
 
@@ -164,6 +173,26 @@ def write_ai_script(ai_script_list: list[list[str]], enemy_names: dict[str, str]
     write_compact_representation(Path(script_output_file), ai_script_lines)
 
 
+def write_single_enemies_ai_script(ai_script_list: list[list[str]], enemy_names: dict[str, str], individual_ai_output_dir: str) -> None:
+    output_dir: Path = Path(individual_ai_output_dir) / "wikitext"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for enemy_id, enemy_name in enemy_names.items():
+        ai_script: list[str] = ai_script_list[list(enemy_names.keys()).index(enemy_id)]
+        ai_script_lines: list[str] = [
+            "<pre>"
+        ]
+
+        for line in ai_script:
+            ai_script_lines.append(line)
+
+        ai_script_lines.append("</pre>")
+
+        output_file_path: Path = output_dir / f"{enemy_name}.wikitext"
+
+        write_compact_representation(output_file_path, ai_script_lines)
+
+
 def snes_main() -> None:
     enemy_ai_map: dict[str, str] = load_json(Path(CONFIG["enemy_ai_map_file_path"]))
     enemy_names: dict[str, str] = load_json(Path(CONFIG["enemy_names_file_path"]))
@@ -174,7 +203,7 @@ def snes_main() -> None:
     ai_output_file: str = CONFIG["parsed_ai_file_path"]
     script_output_file: str = CONFIG["ai_script_representation_file_path"]
 
-    ai_script_list: list[list[str]] = generate_and_write_validation_results(GameVersion.SNES, enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file)
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(GameVersion.SNES, enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file, "")
     
     write_ai_script(ai_script_list, enemy_names, script_output_file)
 
@@ -188,10 +217,12 @@ def gba_main() -> None:
     converted_battle_text: dict[int, str] = convert_battle_text_keys_to_int(battle_text)
     ai_output_file: str = CONFIG["gba_parsed_ai_file_path"]
     script_output_file: str = CONFIG["gba_ai_script_representation_file_path"]
+    individual_ai_output_dir: str = CONFIG["individual_ai_output_dir"]
 
-    ai_script_list: list[list[str]] = generate_and_write_validation_results(GameVersion.GBA, enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file)
+    ai_script_list: list[list[str]] = generate_and_write_validation_results(GameVersion.GBA, enemy_ai_map, enemy_names, converted_enemy_special_abilities, converted_battle_text, ai_output_file, individual_ai_output_dir)
     
     write_ai_script(ai_script_list, enemy_names, script_output_file)
+    write_single_enemies_ai_script(ai_script_list, enemy_names, individual_ai_output_dir)
 
 
 def main() -> None:

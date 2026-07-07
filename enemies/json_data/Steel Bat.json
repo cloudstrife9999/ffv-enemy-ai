@@ -1,0 +1,26 @@
+{
+    "enemy_id": "04",
+    "enemy_name": "Steel Bat",
+    "raw": "00000000FE80FC988081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Vampire",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Claw"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

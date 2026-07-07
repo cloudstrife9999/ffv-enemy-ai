@@ -1,0 +1,29 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 0
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Consecutive actions:
+                 Set Var_00 to 1
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#3, #4, #5]
+                   Behaviour:
+                     - Do not transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Fade
+                 Ability: [Unhide enemy]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Firaga, Special: Paralyze Powder, Special: Paralyze Powder)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+      HP damage just taken
+    Actions:
+      random(Zombie Powder, [Nothing], [Nothing])
+</pre>

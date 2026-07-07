@@ -1,0 +1,56 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 5000
+    Actions:
+      Turn #1: Forcefully change target(s) to self
+               random(Break, Banish, Death)
+      Turn #2: Forcefully change target(s) to self
+               random(Break, Banish, Death)
+      Turn #3: Forcefully change target(s) to self
+               random(Break, Banish, Death)
+      Turn #4: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#2]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Discreet
+               Ability: [Unhide enemy]
+  Rule #2:
+    Conditions:
+      Current HP < 10000
+    Actions:
+      Turn #1: Forcefully change target(s) to self
+               random(Bio, Stop, Confuse)
+      Turn #2: Forcefully change target(s) to self
+               random(Bio, Stop, Confuse)
+      Turn #3: Forcefully change target(s) to self
+               random(Bio, Stop, Confuse)
+      Turn #4: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#2]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Discreet
+               Ability: [Unhide enemy]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Forcefully change target(s) to self
+               random(Blizzara, Fira, Thundara)
+      Turn #2: Forcefully change target(s) to self
+               random(Blizzara, Fira, Thundara)
+      Turn #3: Forcefully change target(s) to self
+               random(Blizzara, Fira, Thundara)
+      Turn #4: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#2]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Discreet
+               Ability: [Unhide enemy]
+REACTIVE RULES:
+  None
+</pre>

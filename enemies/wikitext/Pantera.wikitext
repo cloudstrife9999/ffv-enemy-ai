@@ -1,0 +1,32 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      All enemies are affected by the False Image status
+    Actions:
+      Turn #1: Toggle False Image status.
+               Ability: Flee
+  Rule #2:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: random(!Attack, Special: Critical Attack, Blaster)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Blaster, Special: Critical Attack)
+      Turn #2: Consecutive actions:
+                 Display message: Illusion!
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1, #2, #3]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Fade
+                 Ability: [Unhide enemy]
+                 Ability: [False Image switch]
+                 Set Var_00 to 1
+REACTIVE RULES:
+  None
+</pre>

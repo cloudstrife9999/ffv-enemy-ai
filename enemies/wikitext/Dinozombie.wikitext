@@ -1,0 +1,12 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Bone)
+      Turn #2: random(!Attack, Poison Breath, Special: Critical Attack)
+      Turn #3: random(Bone, Special: Critical Attack, Zombie Breath)
+REACTIVE RULES:
+  None
+</pre>

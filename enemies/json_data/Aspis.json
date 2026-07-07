@@ -1,0 +1,31 @@
+{
+    "enemy_id": "23A",
+    "enemy_name": "Aspis",
+    "raw": "00000000FEFC80BC81FC35BC81FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Entangle",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Osmose",
+                        "second_choice": "Ability: Entangle",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

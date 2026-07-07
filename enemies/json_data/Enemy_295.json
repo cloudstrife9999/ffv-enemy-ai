@@ -1,0 +1,18 @@
+{
+    "enemy_id": "295",
+    "enemy_name": "Enemy_295",
+    "raw": "00000000FED2FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Mega Flare"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

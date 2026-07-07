@@ -1,0 +1,26 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      No visible enemies in slots other than [#1, #2, #7]
+    Actions:
+      Turn #1: Consecutive actions:
+                 random(Meteor, Meteor, Special: Vacuum Wave)
+                 random(Comet, Special: Vacuum Wave, Special: Vacuum Wave)
+      Turn #2: Consecutive actions:
+                 random(Meteor, Meteor, Special: Vacuum Wave)
+                 random(Maelstrom, Maelstrom, Special: Vacuum Wave)
+      Turn #3: Consecutive actions:
+                 random(Meteor, !Attack, Special: Vacuum Wave)
+                 random(Comet, Almagest, Special: Vacuum Wave)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Aeroga, Delta Attack, !Attack)
+      Turn #2: random(Blizzaga, !Attack, Dispel)
+      Turn #3: random(Flare, Firaga, !Attack)
+      Turn #4: random(Holy, Thundaga, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

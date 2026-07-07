@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Berserk)
+      Turn #2: random(Death Claw, Death Claw, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

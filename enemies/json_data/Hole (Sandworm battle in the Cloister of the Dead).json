@@ -1,0 +1,38 @@
+{
+    "enemy_id": "2C5",
+    "enemy_name": "Hole (Sandworm battle in the Cloister of the Dead)",
+    "raw": "00000000FEAAFF06012BF0FE42FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "any spell",
+                    "elements": [
+                        "Water",
+                        "Wind",
+                        "Earth",
+                        "Holy"
+                    ]
+                }
+            ],
+            "actions": [
+                "Ability: Graviga"
+            ]
+        }
+    ]
+}

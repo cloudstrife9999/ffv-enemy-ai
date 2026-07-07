@@ -1,0 +1,14 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
+    Actions:
+      Ability: Gravity
+</pre>

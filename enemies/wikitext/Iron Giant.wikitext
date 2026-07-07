@@ -1,0 +1,17 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, !Attack)
+      Turn #2: random(Rocket Punch, Hurricane, !Attack)
+      Turn #3: random(!Attack, Rocket Punch, !Attack)
+      Turn #4: random(Rocket Punch, Hurricane, !Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      random(Special: Takedown, Special: Takedown, [Nothing])
+</pre>

@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Forcefully change target(s) to a random enemy with the reflect status effect
+               random(Fira, Thunder, [Nothing])
+      Turn #2: Forcefully change target(s) to a random enemy with the reflect status effect
+               random(Blizzara, Fire, [Nothing])
+      Turn #3: Forcefully change target(s) to a random enemy with the reflect status effect
+               random(Thundara, Blizzard, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

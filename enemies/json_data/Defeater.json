@@ -1,0 +1,37 @@
+{
+    "enemy_id": "2B",
+    "enemy_name": "Defeater",
+    "raw": "00000000FE80FF0F00000004000000FEFDF2830CEEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter",
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set enemy to show",
+                    "slot_mask": "00001100",
+                    "flags": "10000011"
+                },
+                "Ability: [Unhide enemy]"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "enemy_id": "30",
+    "enemy_name": "Gigas",
+    "raw": "00000000FEFC908080FC908081FF0E000000FEFDF323F0FC8F8FAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aera",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aera",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Elbow"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "All party members"
+                },
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Aero",
+                    "second_choice": "Ability: Aero",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: Earth Shaker
+REACTIVE RULES:
+  None
+</pre>

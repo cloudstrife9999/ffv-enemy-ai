@@ -1,0 +1,52 @@
+{
+    "enemy_id": "72",
+    "enemy_name": "Catoblepas",
+    "raw": "00000000FEFCDEDE2DFF0F000000FEFDF90140AAFE0E000000FEFDF32D00EBFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Attack",
+                        "third_choice": "Ability: Drain"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set global event flag",
+                    "global_events": [
+                        "Catoblepas defeated"
+                    ]
+                },
+                "Stay idle"
+            ]
+        },
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Whoever acted in the current tick"
+                },
+                "Ability: Evil Eye"
+            ]
+        }
+    ]
+}

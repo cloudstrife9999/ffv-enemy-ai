@@ -1,0 +1,33 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      All enemies are affected by the False Image status
+    Actions:
+      Turn #1: Toggle False Image status.
+               Ability: [Unconditional self-kill]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Mind Blast, [Nothing], [Nothing])
+      Turn #2: random(Attack, [Nothing], [Nothing])
+      Turn #3: random(Hurricane, [Nothing], [Nothing])
+      Turn #4: random(Attack, [Nothing], [Nothing])
+      Turn #5: random(Confuse, [Nothing], [Nothing])
+      Turn #6: random(Attack, [Nothing], [Nothing])
+      Turn #7: Ability: [False Image switch]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by a multi-target action
+      Affected by the False Image status
+      Hit by any command
+    Actions:
+      Ability: Frost
+  Rule #2:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Ability: [False Image switch]
+</pre>

@@ -1,0 +1,42 @@
+{
+    "enemy_id": "60",
+    "enemy_name": "Cursed Being",
+    "raw": "011B0080FEFDF31BF0B7FE00000000FEFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "A random dead party member",
+                    "status_name": "Death"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random dead party member"
+                    },
+                    "Ability: Dance Macabre"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

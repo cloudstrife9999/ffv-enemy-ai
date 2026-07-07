@@ -1,0 +1,25 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Firaga, Blizzaga, Thundaga)
+      Turn #2: random(Bio, Aeroga, Aqua Breath)
+      Turn #3: random(Meteor, Flare, Holy)
+      Turn #4: random(Meltdown, Deep Freeze, Drain Touch)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Consecutive actions:
+        Display message: The power of the Void is increasing!
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#5]
+          Behaviour:
+            - Do not transfer HP to the newly shown enemy/enemies
+            - Show all enemies from the specified slots
+            - Style: Discreet
+        Ability: [Unhide enemy]
+</pre>

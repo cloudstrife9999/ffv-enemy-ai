@@ -1,0 +1,14 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Doom, !Attack, Special: Sap)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      Ability: Doom
+</pre>

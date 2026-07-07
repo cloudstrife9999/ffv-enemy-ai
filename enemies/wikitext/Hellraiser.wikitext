@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Forcefully change target(s) to a random dead (or with 0 HP) enemy
+      Ability: Arise
+</pre>

@@ -1,0 +1,19 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Ability: Flee
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by the unnamed script trigger spell
+    Actions:
+      Special: Bite
+</pre>

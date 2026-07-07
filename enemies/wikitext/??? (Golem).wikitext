@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Consecutive actions:
+                 Ability: !Attack
+                 Ability: Flee
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Flee
+</pre>

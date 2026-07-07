@@ -1,0 +1,35 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: random([Terminate battle], [Nothing], [Nothing])
+      Turn #2: Consecutive actions:
+                 random(Encircle, Encircle, !Attack)
+                 Set Var_00 to 0
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1, #2, #3]
+                   Behaviour:
+                     - Do not transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Transform
+                 Ability: [Unhide enemy]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: Consecutive actions:
+                 random(Delta Attack, Delta Attack, !Attack)
+                 Set Var_00 to 1
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#4, #5, #6]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Transform
+                 Ability: [Unhide enemy]
+REACTIVE RULES:
+  None
+</pre>

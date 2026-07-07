@@ -1,0 +1,41 @@
+{
+    "enemy_id": "BF",
+    "enemy_name": "Ammonite",
+    "raw": "04000000FEFC80C5AAFE00000000FEFC8080AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Digestive Acid",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

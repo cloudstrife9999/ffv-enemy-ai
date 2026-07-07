@@ -1,0 +1,19 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Blizzaga, Aeroga, White Wind)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by any spell using any of the following elements: ['Fire']
+    Actions:
+      Ability: Firaga
+  Rule #2:
+    Conditions:
+      Hit by any spell using any of the following elements: ['Lightning']
+    Actions:
+      Ability: Thundaga
+</pre>

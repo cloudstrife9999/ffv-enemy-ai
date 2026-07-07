@@ -1,0 +1,53 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #4]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+  Rule #2:
+    Conditions:
+      Variable Var_01 == 2
+    Actions:
+      Turn #1: Consecutive actions:
+                 random(!Attack, !Attack, Special: Critical Attack)
+                 random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: Consecutive actions:
+                 random(!Attack, Special: Critical Attack, [Nothing])
+                 random(!Attack, Special: Critical Attack, [Nothing])
+                 random(!Attack, Special: Critical Attack, [Nothing])
+  Rule #3:
+    Conditions:
+      Variable Var_01 == 1
+    Actions:
+      Turn #1: Set Var_01 to 2
+               Ability: Mute
+  Rule #4:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: Ability: Maelstrom
+      Turn #2: random(Blaze, Ice Storm, Ice Storm)
+      Turn #3: Ability: Zombie Breath
+      Turn #4: random(Lightning, Earthquake, Earthquake)
+      Turn #5: Consecutive actions:
+                 Ability: !Attack
+                 Ability: !Attack
+      Turn #6: random(Breath Wing, Poison Breath, Poison Breath)
+      Turn #7: Ability: Curse
+      Turn #8: random(Almagest, Tidal Wave, Tidal Wave)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Set Var_00 to 1
+               Ability: Mighty Guard
+REACTIVE RULES:
+  None
+</pre>

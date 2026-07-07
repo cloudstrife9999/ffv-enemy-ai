@@ -1,0 +1,36 @@
+{
+    "enemy_id": "281",
+    "enemy_name": "Dark Elemental (Grand Aevis battle)",
+    "raw": "04000100FE9BFE00000000FEFC9E91AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Self-Destruct"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: White Wind",
+                        "second_choice": "Ability: Aeroga",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

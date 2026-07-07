@@ -1,0 +1,127 @@
+{
+    "enemy_id": "285",
+    "enemy_name": "Neo Shinryu (False Image)",
+    "raw": "020D983A03000100FEFDF40101FDFA1740AAFE00000000FEFDFA1740AAFF0F000000FEFDF708F0FDF20210EEE145FE070016F0FEFDF32DF0FCB882AAFE0E000000FEFDF32DF0FCC0AAAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 15000
+                },
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_01",
+                    "value_to_match": 0
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_01",
+                        "value": 1
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set stats or toggle status",
+                        "property_table": "Status table #4",
+                        "status": "False Image"
+                    },
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set stats or toggle status",
+                        "property_table": "Status table #4",
+                        "status": "False Image"
+                    },
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "00010000",
+                            "flags": "00000010"
+                        },
+                        "Ability: [Unhide enemy]",
+                        "Ability: Giga Flare",
+                        "Ability: Meteor"
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "!Rapid Fire",
+                    "categories": [
+                        "Physical",
+                        "Aerial",
+                        "Song",
+                        "Summon"
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Whoever acted in the current tick"
+                },
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Zombie Powder",
+                    "second_choice": "Ability: Doom",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Whoever acted in the current tick"
+                },
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: White Hole",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

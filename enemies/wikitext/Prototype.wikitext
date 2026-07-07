@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Missile, Mustard Bomb, Blaster)
+      Turn #2: random(!Attack, Special: Critical Attack, Flame Thrower)
+REACTIVE RULES:
+  None
+</pre>

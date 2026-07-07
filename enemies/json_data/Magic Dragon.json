@@ -1,0 +1,37 @@
+{
+    "enemy_id": "7C",
+    "enemy_name": "Magic Dragon",
+    "raw": "00000000FE80FC91808180FC9587AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aeroga",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Off-Guard",
+                        "second_choice": "Ability: Level 2 Old",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

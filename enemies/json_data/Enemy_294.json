@@ -1,0 +1,18 @@
+{
+    "enemy_id": "294",
+    "enemy_name": "Enemy_294",
+    "raw": "00000000FED1FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Tidal Wave"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: Ability: [Flip sprite horizontally]
+      Turn #3: Special: Sap
+      Turn #4: Ability: [Flip sprite horizontally]
+REACTIVE RULES:
+  None
+</pre>

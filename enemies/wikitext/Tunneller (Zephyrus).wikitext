@@ -1,0 +1,10 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Dischord, Level 3 Flare, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

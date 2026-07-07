@@ -1,0 +1,26 @@
+{
+    "enemy_id": "29",
+    "enemy_name": "Poltergeist",
+    "raw": "00000000FEFC80808180FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Lick"
+                    }
+                ],
+                "Turn #2": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

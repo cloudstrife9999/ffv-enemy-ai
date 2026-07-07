@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Entice, Special: Ray)
+      Turn #2: random(!Attack, Embrace, Dancehall Daze)
+      Turn #3: random(!Attack, Evil Eye, Special: Ray)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      random(Evil Eye, [Nothing], [Nothing])
+</pre>

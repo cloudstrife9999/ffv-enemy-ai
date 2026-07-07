@@ -1,0 +1,19 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by any spell using any of the following elements: ['Water', 'Wind', 'Earth', 'Holy']
+    Actions:
+      Ability: Poison Breath
+  Rule #2:
+    Conditions:
+      Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
+    Actions:
+      random(!Attack, Special: Critical Attack, ????)
+</pre>

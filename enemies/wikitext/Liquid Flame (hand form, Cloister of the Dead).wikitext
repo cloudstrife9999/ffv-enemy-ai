@@ -1,0 +1,22 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Ray)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Consecutive actions:
+        Ability: Firaga
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#1, #3]
+          Behaviour:
+            - Transfer HP to the newly shown enemy/enemies
+            - Show only a single enemy from a random slot among the specified ones
+            - Style: Transform
+        Ability: [Unhide enemy]
+</pre>

@@ -1,0 +1,32 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Set Var_00 to 1
+               Display message: Your magic has been taken away!
+               Display message: You cannot use it here!
+               random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Holy
+  Rule #2:
+    Conditions:
+      Hit by the Assassin Dagger item
+    Actions:
+      [Nothing]
+  Rule #3:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      random(Special: Critical Attack, [Nothing], [Nothing])
+</pre>

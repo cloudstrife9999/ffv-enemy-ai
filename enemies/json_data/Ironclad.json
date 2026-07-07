@@ -1,0 +1,88 @@
+{
+    "enemy_id": "112",
+    "enemy_name": "Ironclad",
+    "raw": "03000000020D1027FEFDF400019AFE00000000FE80FCC6EA80FC80C680FCC6EA80FF0E000000FEFDF32DF0FC808181FF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 0
+                },
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 10000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 1
+                    },
+                    "Ability: Mighty Guard"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Rocket Punch",
+                        "second_choice": "Ability: Hurricane",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Rocket Punch",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Rocket Punch",
+                        "second_choice": "Ability: Hurricane",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Whoever acted in the current tick"
+                },
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: !Attack",
+                    "second_choice": "Special: Takedown",
+                    "third_choice": "Special: Takedown"
+                }
+            ]
+        }
+    ]
+}

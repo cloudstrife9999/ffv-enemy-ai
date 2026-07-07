@@ -1,0 +1,40 @@
+{
+    "enemy_id": "E5",
+    "enemy_name": "Golem (2nd form)",
+    "raw": "00000000FEFDF60306FDF60307FDF90130A5FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Golem: Thanks a ton!",
+                        "unknown_parameter": "0x03",
+                        "entry": "0x06"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "It'd rock if I could roll along with you!",
+                        "unknown_parameter": "0x03",
+                        "entry": "0x07"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set global event flag",
+                        "global_events": [
+                            "Golem + Bone Dragon + Zombie Dragon defeated",
+                            "Solo Golem battle unavailable"
+                        ]
+                    },
+                    "Ability: [Unconditional self-kill]"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

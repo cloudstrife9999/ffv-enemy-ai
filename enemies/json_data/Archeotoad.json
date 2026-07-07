@@ -1,0 +1,42 @@
+{
+    "enemy_id": "47",
+    "enemy_name": "Archeotoad",
+    "raw": "00000000FEFC80AAAAFC8980AA80FC898080FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Pond S Chorus",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Pond S Chorus",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: random(!Attack, Breath Wing, Breath Wing)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,45 @@
+{
+    "enemy_id": "20B",
+    "enemy_name": "Liquid Flame (tornado form)",
+    "raw": "00000000FEFDF30DF02AFF0E000000FEFDF707F0E6FDF245C0EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    "Ability: Fira"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        "Ability: Magnet",
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "11000000",
+                            "flags": "01000101"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

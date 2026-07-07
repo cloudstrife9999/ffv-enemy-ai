@@ -1,0 +1,23 @@
+{
+    "enemy_id": "206",
+    "enemy_name": "Forza",
+    "raw": "00000000FEFC808180FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Tackle",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

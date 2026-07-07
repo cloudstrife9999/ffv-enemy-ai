@@ -1,0 +1,31 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Atomic Ray, Ice Storm, !Attack)
+      Turn #2: random(Atomic Ray, Ice Storm, !Attack)
+      Turn #3: Forcefully change target(s) to all party members
+               Ability: Mind Blast
+      Turn #4: Ability: Wind Slash
+      Turn #5: Ability: Wind Slash
+      Turn #6: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#2]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Discreet
+               Ability: [Unhide enemy]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      random(Tidal Wave, [Nothing], [Nothing])
+  Rule #2:
+    Conditions:
+      Hit by any spell
+    Actions:
+      random(Mega Flare, [Nothing], [Nothing])
+</pre>

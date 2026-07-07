@@ -1,0 +1,21 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Tail)
+  Rule #2:
+    Conditions:
+      Current HP < 300
+    Actions:
+      Turn #1: Forcefully change target(s) to a random non-self enemy
+               Ability: Transfusion
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+REACTIVE RULES:
+  None
+</pre>

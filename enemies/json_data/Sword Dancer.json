@@ -1,0 +1,39 @@
+{
+    "enemy_id": "BB",
+    "enemy_name": "Sword Dancer",
+    "raw": "00000000FEFC808081FDF31BF0B7FC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: High Kick"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random dead party member"
+                    },
+                    "Ability: Dance Macabre"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: High Kick"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

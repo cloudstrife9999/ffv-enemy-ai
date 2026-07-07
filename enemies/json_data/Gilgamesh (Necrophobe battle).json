@@ -1,0 +1,266 @@
+{
+    "enemy_id": "26F",
+    "enemy_name": "Gilgamesh (Necrophobe battle)",
+    "raw": "03000201FEAAFE03000301FEFDF607A0FDF607A1FDF607A2FDF607A3FDF607A4FDF607A5FDF607A6FDF607A7FDF607A8FDF30DF0DFFDF40201FDF30DF0DFFE00000000FEFDF60595FDF60596FDF60597E7FDF60798FDF60799FDF6079AFDF6079BFDF6079CFDF6079DFDF6079EFDF6079FFDF40301FDF30DF0DFFF0800AC00FEFDF70FF0FDF603AAFDF604ABFDF305F09BEFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_02",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_03",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: Lenna!",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA0"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Always so selfless towards animals...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA1"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Never lose that pure heart!",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA2"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Lenna: ...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA3"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: And Bartz...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA4"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "I wanted to fight you one more time,",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA5"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "mano-a-mano.",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA6"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "You have admirable companions. I envy you.",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA7"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Bartz: Gilgamesh...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0xA8"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    "Ability: Remedy"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_02",
+                        "value": 1
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    "Ability: Remedy"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: Oh really? Just try it, Baldy!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x95"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "You cannot even hold a birthday candle ",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x96"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "to the blazing flame of my winning spirit!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x97"
+                    },
+                    "Ability: [Flip sprite horizontally]"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: Krile!",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x98"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Your grandfather...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x99"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "...he was a pretty strong guy!",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x9A"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Krile: Grandpa...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x9B"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: And you, Faris!",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x9C"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "You must fall in love, or something,",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x9D"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": [
+                            "and try acting a little like a womanー",
+                            "if you still know how!"
+                        ],
+                        "unknown_parameter": "0x07",
+                        "entry": "0x9E"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Faris: Hey...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x9F"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_03",
+                        "value": 1
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    "Ability: Remedy"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "[Unnamed script trigger]"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Gilgamesh: *snort!*",
+                            "unknown_parameter": "0x03",
+                            "entry": "0xAA"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "I believe that's MY line!!!",
+                            "unknown_parameter": "0x04",
+                            "entry": "0xAB"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set target",
+                            "target": "The enemy in slot #1"
+                        },
+                        "Ability: Self-Destruct",
+                        "Ability: [Terminate battle]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

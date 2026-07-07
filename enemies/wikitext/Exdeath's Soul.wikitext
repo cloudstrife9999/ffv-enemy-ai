@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Death, !Attack, Reaper's Sword)
+      Turn #2: random(Banish, !Attack, Reaper's Sword)
+REACTIVE RULES:
+  None
+</pre>

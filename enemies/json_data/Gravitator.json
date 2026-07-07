@@ -1,0 +1,37 @@
+{
+    "enemy_id": "6D",
+    "enemy_name": "Gravitator",
+    "raw": "00000000FE80FC803C8180FC804281FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Gravity",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Graviga",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

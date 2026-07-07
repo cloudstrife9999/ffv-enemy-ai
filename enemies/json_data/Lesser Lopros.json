@@ -1,0 +1,42 @@
+{
+    "enemy_id": "5B",
+    "enemy_name": "Lesser Lopros",
+    "raw": "00000000FE80FC80DA81FC808081FC8081CDFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Breath Wing",
+                        "third_choice": "Special: Wing Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Wing Attack"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Wing Attack",
+                        "third_choice": "Ability: Frost"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

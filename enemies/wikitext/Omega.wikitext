@@ -1,0 +1,25 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Atomic Ray, Delta Attack, Blaster)
+      Turn #2: Ability: Wave Cannon
+      Turn #3: random(Rainbow Wind, Flame Thrower, Atomic Ray)
+      Turn #4: Ability: Wave Cannon
+      Turn #5: Consecutive actions:
+                 random(Delta Attack, Blaster, Wave Cannon)
+                 random(Maelstrom, Earthquake, Rainbow Wind)
+      Turn #6: Ability: Search
+      Turn #7: random(Rainbow Wind, Flame Thrower, Atomic Ray)
+      Turn #8: Ability: Wave Cannon
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Consecutive actions:
+        random(Rocket Punch, Rocket Punch, Mustard Bomb)
+        random(Rocket Punch, Rocket Punch, Encircle)
+</pre>

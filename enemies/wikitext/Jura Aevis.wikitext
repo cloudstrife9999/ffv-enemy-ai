@@ -1,0 +1,17 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Breath Wing, Maelstrom, Special: Critical Attack)
+      Turn #2: random(Entangle, !Attack, Special: Critical Attack)
+      Turn #3: random(Blaze, Maelstrom, Special: Critical Attack)
+      Turn #4: random(Entangle, !Attack, Special: Critical Attack)
+      Turn #5: random(Lightning, Maelstrom, Special: Critical Attack)
+      Turn #6: random(Entangle, !Attack, Special: Critical Attack)
+      Turn #7: random(Frost, Maelstrom, Special: Critical Attack)
+      Turn #8: random(Entangle, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

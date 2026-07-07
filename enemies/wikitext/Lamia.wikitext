@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: Forcefully change target(s) to a random male party member
+               Ability: Entice
+      Turn #3: random(!Attack, !Attack, Special: Slap)
+REACTIVE RULES:
+  None
+</pre>

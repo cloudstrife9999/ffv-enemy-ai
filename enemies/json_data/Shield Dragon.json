@@ -1,0 +1,67 @@
+{
+    "enemy_id": "57",
+    "enemy_name": "Shield Dragon",
+    "raw": "00000000FEFC808081FC8080AAFC8080B9FF020D10270E000000FEA2FE06000400FE81FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Knock Silly"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Zombie Breath"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 10000
+                },
+                "HP damage just taken"
+            ],
+            "actions": [
+                "Ability: Flee"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "!Attack",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                "Special: Knock Silly"
+            ]
+        }
+    ]
+}

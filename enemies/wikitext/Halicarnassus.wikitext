@@ -1,0 +1,30 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: random(!Attack, Reverse Polarity, Special: Critical Attack)
+      Turn #2: random(!Attack, !Attack, Dispel)
+      Turn #3: random(!Attack, Reverse Polarity, Special: Critical Attack)
+      Turn #4: random(!Attack, !Attack, Haste)
+      Turn #5: random(!Attack, Reverse Polarity, Special: Critical Attack)
+      Turn #6: random(!Attack, !Attack, Shell)
+      Turn #7: Set Var_00 to 0
+               Ability: Holy
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Set Var_00 to 1
+               Forcefully change target(s) to all party members
+               Ability: Ribbit
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by summon
+    Actions:
+      Display message: Focusing power!
+      Light effect: Light Flash
+      Ability: [Strong Attack]
+</pre>

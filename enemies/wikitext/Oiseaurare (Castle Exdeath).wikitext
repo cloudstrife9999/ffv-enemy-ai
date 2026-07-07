@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: Forcefully change target(s) to all party members
+               Ability: Confuse
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Ability: Confuse
+</pre>

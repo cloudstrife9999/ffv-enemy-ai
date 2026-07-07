@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 3000
+    Actions:
+      Turn #1: Forcefully change target(s) to all party members
+               Ability: Firaga
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

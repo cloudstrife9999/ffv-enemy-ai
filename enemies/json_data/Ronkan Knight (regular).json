@@ -1,0 +1,37 @@
+{
+    "enemy_id": "43",
+    "enemy_name": "Ronkan Knight (regular)",
+    "raw": "00000000FE80FC8081AA80FC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Sling",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Sling"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

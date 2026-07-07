@@ -1,0 +1,265 @@
+{
+    "enemy_id": "D8",
+    "enemy_name": "Gilgamesh (Interdimensional Rift)",
+    "raw": "020D3075FEFDF60485FDF60386FDF60787FDF60488FDF60589FDF6048AFDF6068BFDF6078CFDF6058DFDF30DF0ACFE03000001FEFDF70CF0FDF60173FC8080AAFC8080AAFDF70DF0FDF60178FC8080AAFC8080AAFE00000000FEFDF60284FDF4000180FF0800AC00FEFDF606DBFDF606DCFDF606DDFDF604DEFDF604DFFDF606E0FDF606E1FDF601E2EFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 30000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: ...Wait a minute...Bartz?",
+                        "unknown_parameter": "0x04",
+                        "entry": "0x85"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Zounds! 'Tis no beast, just Bartz!",
+                        "unknown_parameter": "0x03",
+                        "entry": "0x86"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "You should've just said so from the start!",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x87"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": [
+                            "Oohhh, I don't like it here...",
+                            "Creepy monsters lurk around every corner,"
+                        ],
+                        "unknown_parameter": "0x04",
+                        "entry": "0x88"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "and I can't find the way out...",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x89"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Cripes...*sniffle*...I'm gonna break down!",
+                        "unknown_parameter": "0x04",
+                        "entry": "0x8A"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": [
+                            "Anyway. How did you get here?",
+                            "Or rather, how does one exit?"
+                        ],
+                        "unknown_parameter": "0x06",
+                        "entry": "0x8B"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Bartz: Oh, just go that way, then...",
+                        "unknown_parameter": "0x07",
+                        "entry": "0x8C"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: I see! Let us egress posthaste!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0x8D"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    "Ability: [Unnamed script trigger]"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Gilgamesh: Take this!",
+                                "unknown_parameter": "0x01",
+                                "entry": "0x73"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Stay idle"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Stay idle"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Gilgamesh: Rahhh!",
+                                "unknown_parameter": "0x01",
+                                "entry": "0x78"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Stay idle"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Stay idle"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: Have at thee, vile beast!",
+                        "unknown_parameter": "0x02",
+                        "entry": "0x84"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 1
+                    },
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "[Unnamed script trigger]"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": [
+                        "Say...afterwards, what say we have a few",
+                        "spectacular adventures, just us five?"
+                    ],
+                    "unknown_parameter": "0x06",
+                    "entry": "0xDB"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Bartz: ...Um.",
+                    "unknown_parameter": "0x06",
+                    "entry": "0xDC"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": [
+                        "Gilgamesh: ...Oh yes, that whole",
+                        "saving the world thing....phooey."
+                    ],
+                    "unknown_parameter": "0x06",
+                    "entry": "0xDD"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "If you make it out safely...",
+                    "unknown_parameter": "0x04",
+                    "entry": "0xDE"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": [
+                        "Hah! No ifs about it.",
+                        "I'm certain we'll meet again."
+                    ],
+                    "unknown_parameter": "0x04",
+                    "entry": "0xDF"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "At that time, I hope you'll consider me a...",
+                    "unknown_parameter": "0x06",
+                    "entry": "0xE0"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Uhh...er. *cough* Never mind, ha ha!",
+                    "unknown_parameter": "0x06",
+                    "entry": "0xE1"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Hasta la bye-bye!",
+                    "unknown_parameter": "0x01",
+                    "entry": "0xE2"
+                },
+                "Ability: [Terminate battle]"
+            ]
+        }
+    ]
+}

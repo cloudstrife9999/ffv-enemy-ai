@@ -1,0 +1,23 @@
+{
+    "enemy_id": "F3",
+    "enemy_name": "Ronkan Knight (Zephyrus)",
+    "raw": "00000000FEFC8081AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Critical Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

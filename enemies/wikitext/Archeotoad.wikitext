@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, [Nothing], [Nothing])
+      Turn #2: random(Pond S Chorus, !Attack, [Nothing])
+      Turn #3: Ability: !Attack
+      Turn #4: random(Pond S Chorus, !Attack, !Attack)
+REACTIVE RULES:
+  None
+</pre>

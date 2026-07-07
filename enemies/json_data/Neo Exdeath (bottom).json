@@ -1,0 +1,113 @@
+{
+    "enemy_id": "26C",
+    "enemy_name": "Neo Exdeath (bottom)",
+    "raw": "050000C8FEFDF708F0FC45C881FC3F8181FDF708F0FC45C881FCC2C881FDF709F0FC458081FC3FC881FE00000000FEFDF80904AAFDF80984C8AAAAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Enemy slots",
+                    "match_type": "All parameters match",
+                    "explanation": "visible enemies only in these slots",
+                    "enemy_slots": [
+                        "#1, #2, #5"
+                    ]
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Meteor",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Comet",
+                                "second_choice": "Special: Vacuum Wave",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Meteor",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Maelstrom",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Meteor",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Special: Vacuum Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Comet",
+                                "second_choice": "Ability: Almagest",
+                                "third_choice": "Special: Vacuum Wave"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Shaking_Effect\" table",
+                        "effect": "Full screen effect: Screen Shake On"
+                    },
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Shaking_Effect\" table",
+                        "effect": "Full screen effect: Screen Shake Off"
+                    },
+                    "Ability: Almagest"
+                ],
+                "Turn #3": [
+                    "Stay idle"
+                ],
+                "Turn #4": [
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

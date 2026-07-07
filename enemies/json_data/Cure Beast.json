@@ -1,0 +1,31 @@
+{
+    "enemy_id": "6F",
+    "enemy_name": "Cure Beast",
+    "raw": "00000000FEFC808081FDF30EF018FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All non-self enemies"
+                    },
+                    "Ability: Cura"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

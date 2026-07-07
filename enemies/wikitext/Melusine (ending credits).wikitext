@@ -1,0 +1,17 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Firaga, !Attack, Entice)
+      Turn #2: random(Thundaga, !Attack, Special: Critical Attack)
+      Turn #3: random(Blizzaga, Entice, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Display message: Ramuh: Oho? Ifrit...?
+      Ability: Flee
+</pre>

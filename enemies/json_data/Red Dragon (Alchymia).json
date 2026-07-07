@@ -1,0 +1,37 @@
+{
+    "enemy_id": "B7",
+    "enemy_name": "Red Dragon (Alchymia)",
+    "raw": "010D0020FEAAFE00000000FEFC80CA81FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "Self",
+                    "status_name": "Toad"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Atomic Ray",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

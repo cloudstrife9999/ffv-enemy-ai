@@ -1,0 +1,23 @@
+{
+    "enemy_id": "BE",
+    "enemy_name": "Ankheg",
+    "raw": "00000000FEFC80D681FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Earthquake",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

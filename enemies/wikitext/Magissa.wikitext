@@ -1,0 +1,29 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 0
+      Current HP < 300
+    Actions:
+      Turn #1: Consecutive actions:
+                 Display message: Magissa: Honey! Come take out this trash!
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1, #2]
+                   Behaviour:
+                     - Do not transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Fade
+                 Ability: [Unhide enemy]
+      Turn #2: Consecutive actions:
+                 Forcefully change target(s) to a random non-self enemy
+                 Ability: Regen
+                 Set Var_00 to 1
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Fire, Blizzard, Thunder)
+      Turn #2: random(Aero, Special: Critical Attack, Drain)
+REACTIVE RULES:
+  None
+</pre>

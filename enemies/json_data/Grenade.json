@@ -1,0 +1,38 @@
+{
+    "enemy_id": "BA",
+    "enemy_name": "Grenade",
+    "raw": "00000000FEFC808081FF07002B00FE9BFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                "Ability: Self-Destruct"
+            ]
+        }
+    ]
+}

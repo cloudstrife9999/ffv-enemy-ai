@@ -1,0 +1,20 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Attack, Frost, Special: Wing Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Prepare to show/hide enemies:
+        Relevant enemy slots: [#3]
+        Behaviour:
+          - Do not transfer HP to the newly shown enemy/enemies
+          - Show all enemies from the specified slots
+          - Style: Discreet
+      Ability: [Unhide enemy]
+</pre>

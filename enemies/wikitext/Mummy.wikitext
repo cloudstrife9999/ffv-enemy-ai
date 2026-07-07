@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: random(!Attack, Dance Macabre, Special: Critical Attack)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,21 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Attack, Attack, Drain)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Mark the following global events as true: ['Catoblepas defeated']
+      [Nothing]
+  Rule #2:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Forcefully change target(s) to whoever acted in the current tick
+      Ability: Evil Eye
+</pre>

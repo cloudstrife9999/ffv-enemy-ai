@@ -1,0 +1,23 @@
+{
+    "enemy_id": "02",
+    "enemy_name": "Nutkin",
+    "raw": "00000000FEFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Incisor"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

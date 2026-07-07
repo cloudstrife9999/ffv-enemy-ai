@@ -1,0 +1,43 @@
+{
+    "enemy_id": "0F",
+    "enemy_name": "Big Horn",
+    "raw": "00000000FE80FC808081FF06002B01FEA2FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Horn"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any spell",
+                    "elements": [
+                        "Fire"
+                    ]
+                }
+            ],
+            "actions": [
+                "Ability: Flee"
+            ]
+        }
+    ]
+}

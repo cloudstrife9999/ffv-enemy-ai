@@ -1,0 +1,23 @@
+{
+    "enemy_id": "B1",
+    "enemy_name": "Mercury Bat",
+    "raw": "00000000FEFC809881FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Vampire",
+                        "third_choice": "Special: Claw"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

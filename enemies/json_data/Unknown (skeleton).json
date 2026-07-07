@@ -1,0 +1,38 @@
+{
+    "enemy_id": "B0",
+    "enemy_name": "Unknown (skeleton)",
+    "raw": "00000000FEFC828081FF06000400FE82FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Doom",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Sap"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "!Attack",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                "Ability: Doom"
+            ]
+        }
+    ]
+}

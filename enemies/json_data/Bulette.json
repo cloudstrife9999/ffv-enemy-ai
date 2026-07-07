@@ -1,0 +1,31 @@
+{
+    "enemy_id": "8F",
+    "enemy_name": "Bulette",
+    "raw": "00000000FEFC8081AAFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Body Slam",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Body Slam"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

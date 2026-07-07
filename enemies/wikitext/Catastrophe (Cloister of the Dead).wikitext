@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      A random party member is affected by the Float status
+    Actions:
+      Turn #1: Ability: 100 Gs
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Earth Shaker, Earth Shaker, Evil Eye)
+      Turn #2: random(!Attack, Earth Shaker, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

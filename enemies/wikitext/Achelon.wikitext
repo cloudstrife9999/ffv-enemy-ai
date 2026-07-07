@@ -1,0 +1,14 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, [Nothing])
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      random(Evil Eye, Dischord, [Nothing])
+</pre>

@@ -1,0 +1,12 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: Forcefully change target(s) to a random non-self enemy
+               Ability: Berserk
+REACTIVE RULES:
+  None
+</pre>

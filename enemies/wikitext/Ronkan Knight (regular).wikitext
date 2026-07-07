@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(!Attack, Special: Sling, [Nothing])
+      Turn #3: Ability: !Attack
+      Turn #4: random(!Attack, !Attack, Special: Sling)
+REACTIVE RULES:
+  None
+</pre>

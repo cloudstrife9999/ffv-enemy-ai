@@ -1,0 +1,28 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Encircle, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Display message: Alte Roite reveals his true form!
+      Prepare to show/hide enemies:
+        Relevant enemy slots: [#2]
+        Behaviour:
+          - Do not transfer HP to the newly shown enemy/enemies
+          - Show all enemies from the specified slots
+          - Style: Transform
+      Ability: [Unhide enemy]
+  Rule #2:
+    Conditions:
+      Hit by the Gold Needle item
+    Actions:
+      Display message: Alte Roite: Ohh...
+      Display message: My aching back!
+      Ability: Remedy
+</pre>

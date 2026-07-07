@@ -1,0 +1,26 @@
+{
+    "enemy_id": "3F",
+    "enemy_name": "Sandboil",
+    "raw": "00000000FE80FCB58080FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Spore",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

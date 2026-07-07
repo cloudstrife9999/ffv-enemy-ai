@@ -1,0 +1,23 @@
+{
+    "enemy_id": "03",
+    "enemy_name": "Stray Cat",
+    "raw": "00000000FEFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Tail"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

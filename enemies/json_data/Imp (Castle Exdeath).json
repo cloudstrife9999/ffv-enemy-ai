@@ -1,0 +1,23 @@
+{
+    "enemy_id": "F8",
+    "enemy_name": "Imp (Castle Exdeath)",
+    "raw": "00000000FEFC1A8081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Confuse",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

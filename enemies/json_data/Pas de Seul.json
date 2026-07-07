@@ -1,0 +1,26 @@
+{
+    "enemy_id": "1F",
+    "enemy_name": "Pas de Seul",
+    "raw": "00000000FE80FC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Fin"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

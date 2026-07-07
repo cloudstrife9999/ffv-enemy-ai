@@ -1,0 +1,23 @@
+{
+    "enemy_id": "22C",
+    "enemy_name": "Dragon Flower (5th)",
+    "raw": "00000000FEFC8181AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Special: Confuse Powder",
+                        "second_choice": "Special: Confuse Powder",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

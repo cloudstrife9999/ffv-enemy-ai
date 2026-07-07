@@ -1,0 +1,54 @@
+{
+    "enemy_id": "9F",
+    "enemy_name": "Tiny Mage",
+    "raw": "00000000FEFC1718AAFC1A1CAAFC1323AAFF07012B00FEE2FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Mini",
+                        "second_choice": "Ability: Cura",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Confuse",
+                        "second_choice": "Ability: Shell",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Libra",
+                        "second_choice": "Ability: Dispel",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the categories or both do not match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                "Ability: Encircle"
+            ]
+        }
+    ]
+}

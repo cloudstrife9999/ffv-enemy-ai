@@ -1,0 +1,26 @@
+{
+    "enemy_id": "6B",
+    "enemy_name": "Traveler",
+    "raw": "00000000FEFC808C8180FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Time Slip",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

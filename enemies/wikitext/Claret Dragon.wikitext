@@ -1,0 +1,20 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Breath Wing, Firaga)
+      Turn #2: random(!Attack, Breath Wing, Flame Thrower)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Flare
+  Rule #2:
+    Conditions:
+      HP damage just taken
+    Actions:
+      random(Tail Screw, [Nothing], [Nothing])
+</pre>

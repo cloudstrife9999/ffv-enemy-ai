@@ -1,0 +1,38 @@
+{
+    "enemy_id": "20E",
+    "enemy_name": "Hole (Sandworm battle)",
+    "raw": "00000000FEAAFF06012BF0FE3CFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "any spell",
+                    "elements": [
+                        "Water",
+                        "Wind",
+                        "Earth",
+                        "Holy"
+                    ]
+                }
+            ],
+            "actions": [
+                "Ability: Gravity"
+            ]
+        }
+    ]
+}

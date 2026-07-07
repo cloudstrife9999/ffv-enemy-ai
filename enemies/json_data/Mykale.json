@@ -1,0 +1,36 @@
+{
+    "enemy_id": "99",
+    "enemy_name": "Mykale",
+    "raw": "00000000FEFDF323F0FC2A8D8FFC808180FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Fira",
+                        "second_choice": "Ability: Moon Flute",
+                        "third_choice": "Ability: Aero"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Critical Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

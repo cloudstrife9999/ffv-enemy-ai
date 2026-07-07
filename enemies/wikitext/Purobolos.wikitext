@@ -1,0 +1,23 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: random(!Attack, Special: Critical Attack, Self-Destruct)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Forcefully change target(s) to all dead (or with 0 HP) enemies
+      Ability: Arise
+  Rule #2:
+    Conditions:
+      Hit by summon
+    Actions:
+      Forcefully change target(s) to self
+      Ability: Cura
+</pre>

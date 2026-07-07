@@ -1,0 +1,50 @@
+{
+    "enemy_id": "93",
+    "enemy_name": "Ushabti",
+    "raw": "00000000FEFC8095AAFC9481AAFF0900EC00FEFDF30DF0AFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Off-Guard",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Dark Spark",
+                        "second_choice": "Special: Corner",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by item",
+                    "match_type": "All parameters match",
+                    "explanation": "the item matches",
+                    "item": "Gold Needle"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Self"
+                },
+                "Ability: Vanish"
+            ]
+        }
+    ]
+}

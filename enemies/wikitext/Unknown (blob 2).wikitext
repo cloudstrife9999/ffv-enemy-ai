@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(!Attack, !Attack, Reverse Polarity)
+      Turn #3: random(!Attack, !Attack, Special: Sap)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      random(Spore, Spore, [Nothing])
+</pre>

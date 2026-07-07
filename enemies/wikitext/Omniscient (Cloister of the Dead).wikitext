@@ -1,0 +1,32 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 4000
+    Actions:
+      Turn #1: random(Thundaga, Firaga, Blizzaga)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Cure, Fire, Slow)
+      Turn #2: random(Libra, Blizzard, Regen)
+      Turn #3: random(Silence, Poison, Haste)
+      Turn #4: random(Mini, Float, [Nothing])
+      Turn #5: random(Cura, Toad, Gravity)
+      Turn #6: random(Confuse, Fira, Stop)
+      Turn #7: random(Thundara, Blizzara, Graviga)
+      Turn #8: random(Reflect, Drain, Bio)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Flare
+  Rule #2:
+    Conditions:
+      Hit by a command other than any spell
+      Hit by a command other than !Steal
+    Actions:
+      Ability: Return
+</pre>

@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Ability: !Attack
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: Magnet
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Blaze, Special: Critical Attack)
+      Turn #2: random(!Attack, Flame Thrower, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      random(Earthquake, [Nothing], [Nothing])
+</pre>

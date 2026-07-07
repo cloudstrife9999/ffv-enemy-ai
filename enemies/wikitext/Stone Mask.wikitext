@@ -1,0 +1,17 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(!Attack, !Attack, Special: Corner)
+      Turn #3: random(!Attack, Special: Corner, [Nothing])
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by the Gold Needle item
+    Actions:
+      Forcefully change target(s) to self
+      Ability: Vanish
+</pre>

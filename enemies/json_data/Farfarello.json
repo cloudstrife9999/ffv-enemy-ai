@@ -1,0 +1,37 @@
+{
+    "enemy_id": "CA",
+    "enemy_name": "Farfarello",
+    "raw": "00000000FEAAFC3589AA80FC2D8AAAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Osmose",
+                        "second_choice": "Ability: Pond S Chorus",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Drain",
+                        "second_choice": "Ability: Lilliputian Lyric",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

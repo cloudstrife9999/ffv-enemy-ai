@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Sleep, Slow, Stop)
+      Turn #2: random(Cure, Drain, !Attack)
+REACTIVE RULES:
+  None
+</pre>

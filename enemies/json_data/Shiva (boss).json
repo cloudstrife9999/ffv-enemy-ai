@@ -1,0 +1,31 @@
+{
+    "enemy_id": "225",
+    "enemy_name": "Shiva (boss)",
+    "raw": "00000000FEFDF312F02BFDF313F02BFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All front row party members"
+                    },
+                    "Ability: Blizzara"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All back row party members"
+                    },
+                    "Ability: Blizzara"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

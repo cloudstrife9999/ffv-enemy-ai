@@ -1,0 +1,18 @@
+{
+    "enemy_id": "54",
+    "enemy_name": "Kuza Beast (regular)",
+    "raw": "00000000FE9CFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: ????"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

@@ -1,0 +1,12 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Atomic Ray, Special: Critical Attack)
+      Turn #2: random(!Attack, Atomic Ray, !Attack)
+      Turn #3: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

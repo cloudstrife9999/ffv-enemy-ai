@@ -1,0 +1,53 @@
+{
+    "enemy_id": "113",
+    "enemy_name": "Claret Dragon",
+    "raw": "00000000FEFC80DA30FC80DA92FF0F000000FE33FE0E000000FEFCC4AAAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Breath Wing",
+                        "third_choice": "Ability: Firaga"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Breath Wing",
+                        "third_choice": "Ability: Flame Thrower"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                "Ability: Flare"
+            ]
+        },
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Tail Screw",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Attack, Thundara, Electrocute)
+      Turn #2: random(Thundara, Flash, Attack)
+      Turn #3: random(Attack, Thundara, Electrocute)
+      Turn #4: random(Thundara, Lightning, Osmose)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Display message: Ramuh: ...Ifrit?
+      Display message: What are you doing here?
+      Display message: Ifrit: Lord Ramuh!
+      Display message: I see you have become even more powerful.
+      Display message: If you would lend that strength to us...
+      Display message: Ramuh: Ifrit! No need to say more.
+      Display message: You and I have never been enemies!
+      Mark the following global events as true: ['Ramuh defeated']
+      [Nothing]
+  Rule #2:
+    Conditions:
+      Hit by the Mini spell
+    Actions:
+      Forcefully change target(s) to all party members
+      Ability: Mini
+</pre>

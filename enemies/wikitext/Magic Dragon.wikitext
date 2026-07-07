@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(Aeroga, !Attack, Special: Critical Attack)
+      Turn #3: Ability: !Attack
+      Turn #4: random(Off-Guard, Level 2 Old, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,17 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: random(!Attack, Ice Storm, Ice Storm)
+      Turn #2: random(!Attack, Ice Storm, !Attack)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Frost, Special: Critical Attack)
+      Turn #2: random(!Attack, Ice Storm, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

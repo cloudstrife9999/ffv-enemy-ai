@@ -1,0 +1,31 @@
+{
+    "enemy_id": "6E",
+    "enemy_name": "Ziggurat Gigas (regular)",
+    "raw": "00000000FEFC8095AAFC80EA81FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Off-Guard",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Hurricane",
+                        "third_choice": "Special: Flying Knee"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

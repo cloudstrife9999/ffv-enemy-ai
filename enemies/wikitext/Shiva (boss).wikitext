@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Forcefully change target(s) to all front row party members
+               Ability: Blizzara
+      Turn #2: Forcefully change target(s) to all back row party members
+               Ability: Blizzara
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,26 @@
+{
+    "enemy_id": "13",
+    "enemy_name": "Skeleton",
+    "raw": "00000000FE80FC818080FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Special: Critical Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

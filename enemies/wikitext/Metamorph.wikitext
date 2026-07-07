@@ -1,0 +1,19 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: Consecutive actions:
+                 Display message: Metamorph: Transform!
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#2, #3, #4]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show only a single enemy from a random slot among the specified ones
+                     - Style: Transform
+                 Ability: [Unhide enemy]
+REACTIVE RULES:
+  None
+</pre>

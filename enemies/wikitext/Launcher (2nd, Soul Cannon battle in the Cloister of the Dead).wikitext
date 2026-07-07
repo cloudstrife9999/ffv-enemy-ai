@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: [Fractional Launcher attack]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+      Current HP < 10000
+    Actions:
+      Forcefully change target(s) to self
+      Ability: [Explode]
+</pre>

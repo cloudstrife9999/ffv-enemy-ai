@@ -1,0 +1,93 @@
+{
+    "enemy_id": "268",
+    "enemy_name": "Pantera",
+    "raw": "010F0340FEFDFA1740A2FE03000001FEFC8081B2FE00000000FEFC80B281FDF70FF0FDF6024FFDF200E0EEA3FDF40001FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "All enemies",
+                    "status_name": "False Image"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set stats or toggle status",
+                        "property_table": "Status table #4",
+                        "status": "False Image"
+                    },
+                    "Ability: Flee"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Critical Attack",
+                        "third_choice": "Ability: Blaster"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Blaster",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Illusion!",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x4F"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set enemy to show",
+                                "slot_mask": "11100000",
+                                "flags": "00000000"
+                            },
+                            "Ability: [Unhide enemy]",
+                            "Ability: [False Image switch]",
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_00",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

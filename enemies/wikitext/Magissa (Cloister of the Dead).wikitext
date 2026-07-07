@@ -1,0 +1,20 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 0
+      Current HP < 6000
+    Actions:
+      Turn #1: Consecutive actions:
+                 Forcefully change target(s) to all enemies
+                 Ability: Regen
+                 Set Var_00 to 1
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Firaga, Blizzaga, Thundaga)
+      Turn #2: random(Aeroga, Special: Critical Attack, Drain)
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,86 @@
+{
+    "enemy_id": "116",
+    "enemy_name": "Hades",
+    "raw": "00000000FEFC828334FCF59481FCF7B081FCC8FAAAFF06012B00FEFC81AAAAFE06002B00FEFC3334AAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Doom",
+                        "second_choice": "Ability: Roulette",
+                        "third_choice": "Ability: Death"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Deep Freeze",
+                        "second_choice": "Ability: Dark Spark",
+                        "third_choice": "Special: Sickle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meltdown",
+                        "second_choice": "Ability: Reaper's Sword",
+                        "third_choice": "Special: Sickle"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Almagest",
+                        "second_choice": "Ability: Curse",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "any spell",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Special: Sickle",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any spell",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Flare",
+                    "second_choice": "Ability: Death",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

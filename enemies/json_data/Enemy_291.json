@@ -1,0 +1,18 @@
+{
+    "enemy_id": "291",
+    "enemy_name": "Enemy_291",
+    "raw": "00000000FECCFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Ice Storm"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

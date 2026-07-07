@@ -1,0 +1,10 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Dark Spark)
+REACTIVE RULES:
+  None
+</pre>

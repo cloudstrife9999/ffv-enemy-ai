@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Aqua Breath, !Attack, Special: Critical Attack)
+      Turn #2: random(Aqua Breath, Frost, Frost)
+REACTIVE RULES:
+  None
+</pre>

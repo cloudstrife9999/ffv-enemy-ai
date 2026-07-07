@@ -1,0 +1,158 @@
+{
+    "enemy_id": "213",
+    "enemy_name": "Exdeath (tree)",
+    "raw": "020D1027FEFC45DEAAFE020D3075FEFC3322DEFCDEDEC0FCDEC0AAFCDE82C0FE00000000FEFCDEC0AAFCDEC0DEFF0F000000FEFDF71EF0FDF8003EFDF607E3FDF607E4FDF607E5FDF607E6FDF607E7FDF28DDEEEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 10000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meteor",
+                        "second_choice": "Ability: Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 30000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Flare",
+                        "second_choice": "Ability: Holy",
+                        "third_choice": "Ability: Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Attack",
+                        "third_choice": "Ability: White Hole"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: White Hole",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Doom",
+                        "third_choice": "Ability: White Hole"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: White Hole",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: White Hole",
+                        "third_choice": "Ability: Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Visual or sound effect",
+                            "effect_type": "\"Change_Music\" table",
+                            "effect": "Change music to \"Tree Exdeath Defeated\""
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Exdeath was engulfed...",
+                            "unknown_parameter": "0x07",
+                            "entry": "0xE3"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "...by the Void!!!",
+                            "unknown_parameter": "0x07",
+                            "entry": "0xE4"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Exdeath: NOOO! WHY!?",
+                            "unknown_parameter": "0x07",
+                            "entry": "0xE5"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "The Void was mine to command!",
+                            "unknown_parameter": "0x07",
+                            "entry": "0xE6"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": [
+                                "How could itー",
+                                "Uwaaah!!!"
+                            ],
+                            "unknown_parameter": "0x07",
+                            "entry": "0xE7"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "11011110",
+                            "flags": "10001101"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: [Fractional Launcher attack]
+      Turn #2: random(Missile, Rocket Punch, Rainbow Wind)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+      Variable Var_01 == 1
+    Actions:
+      Consecutive actions:
+        Set Var_01 to 0
+        Display message: The armor was destroyed!
+        Forcefully change target(s) to self
+        Ability: [Explode]
+  Rule #2:
+    Conditions:
+      Just before dying
+    Actions:
+      Consecutive actions:
+        Set Var_01 to 1
+        Forcefully change target(s) to self
+        Ability: [Explode]
+</pre>

@@ -1,0 +1,174 @@
+{
+    "enemy_id": "2BB",
+    "enemy_name": "Apanda (Cloister of the Dead)",
+    "raw": "03000001FEFDF70FF0FDF6037BFDF30DF0D8E7FDF40000FE00000000FEFCD49980FC801AABFC9980D4FCD3AB80FF08004D00FEFDF70BF0E7FDF6037AFDF40001AAFE0300000006012B00FEFC162DAAFE0300000006002B00FEFC292DAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Apanda: *tremble*",
+                                "unknown_parameter": "0x03",
+                                "entry": "0x7B"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set target",
+                                "target": "Self"
+                            },
+                            "Ability: Panacea",
+                            "Ability: [Flip sprite horizontally]",
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_00",
+                                "value": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Web",
+                        "second_choice": "Ability: Magic Hammer",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Confuse",
+                        "third_choice": "Ability: Wind Slash"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Magic Hammer",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Web"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Dischord",
+                        "second_choice": "Ability: Wind Slash",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "Ifrit (summon)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        "Ability: [Flip sprite horizontally]",
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Apanda: Gah, Ifrit! Scary!",
+                            "unknown_parameter": "0x03",
+                            "entry": "0x7A"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set variable",
+                            "var_id": "Var_00",
+                            "value": 1
+                        },
+                        "Stay idle"
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 0
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "any spell",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Protect",
+                    "second_choice": "Ability: Drain",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 0
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any spell",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Toad",
+                    "second_choice": "Ability: Drain",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

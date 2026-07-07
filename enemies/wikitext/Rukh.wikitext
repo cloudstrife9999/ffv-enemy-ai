@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Breath Wing, !Attack, Breath Wing)
+      Turn #2: random(Breath Wing, !Attack, Zombie Breath)
+REACTIVE RULES:
+  None
+</pre>

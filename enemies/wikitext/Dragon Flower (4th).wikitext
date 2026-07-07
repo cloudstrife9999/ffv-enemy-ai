@@ -1,0 +1,10 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Special: Paralyze Powder, Special: Paralyze Powder, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

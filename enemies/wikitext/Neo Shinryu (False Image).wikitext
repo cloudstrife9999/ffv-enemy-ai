@@ -1,0 +1,44 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 15000
+      Variable Var_01 == 0
+    Actions:
+      Turn #1: Set Var_01 to 1
+               Toggle False Image status.
+               [Nothing]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Toggle False Image status.
+               [Nothing]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Consecutive actions:
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#4]
+          Behaviour:
+            - Transfer HP to the newly shown enemy/enemies
+            - Show all enemies from the specified slots
+            - Style: Discreet
+        Ability: [Unhide enemy]
+        Ability: Giga Flare
+        Ability: Meteor
+  Rule #2:
+    Conditions:
+      Hit by !Rapid Fire using any of the following categories: ['Physical', 'Aerial', 'Song', 'Summon']
+    Actions:
+      Forcefully change target(s) to whoever acted in the current tick
+      random(Zombie Powder, Doom, [Nothing])
+  Rule #3:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Forcefully change target(s) to whoever acted in the current tick
+      random(White Hole, [Nothing], [Nothing])
+</pre>

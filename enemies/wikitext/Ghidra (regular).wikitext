@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Poison Breath, !Attack, Special: Rush)
+      Turn #2: random(Lightning, !Attack, !Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Level 4 Graviga
+</pre>

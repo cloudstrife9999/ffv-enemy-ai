@@ -1,0 +1,48 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_01 == 1
+    Actions:
+      Turn #1: random(Meteor, Holy, Flare)
+      Turn #2: random(Holy, Flare, [Nothing])
+      Turn #3: random(Death, Hurricane, Drain Touch)
+      Turn #4: Display message: Focusing power!
+               Set Var_00 to 1
+               [Nothing]
+      Turn #5: Set Var_00 to 0
+               random(Mega Flare, Giga Flare, Giga Flare)
+  Rule #2:
+    Conditions:
+      Current HP < 20000
+    Actions:
+      Turn #1: Consecutive actions:
+                 Set Var_01 to 1
+                 Set Var_00 to 0
+                 Ability: Drain Touch
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: Drain Touch
+      Turn #2: Ability: Flare
+      Turn #3: Display message: Focusing power!
+               Set Var_00 to 1
+               [Nothing]
+      Turn #4: [Nothing]
+      Turn #5: Set Var_00 to 0
+               random(Mega Flare, Mega Flare, Giga Flare)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
+    Actions:
+      Forcefully change target(s) to self
+      Ability: Death
+  Rule #2:
+    Conditions:
+      Variable Var_00 == 0
+      HP damage just taken
+    Actions:
+      random(Curse, ????, [Nothing])
+</pre>

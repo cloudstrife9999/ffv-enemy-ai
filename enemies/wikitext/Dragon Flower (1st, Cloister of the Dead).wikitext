@@ -1,0 +1,10 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Special: Silver Powder, Special: Silver Powder, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

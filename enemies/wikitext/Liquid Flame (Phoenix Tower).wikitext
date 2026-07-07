@@ -1,0 +1,14 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Fira, Blaze, Special: Ray)
+      Turn #2: Forcefully change target(s) to self
+               Ability: Firaga
+      Turn #3: random(Fira, Blaze, Special: Ray)
+      Turn #4: random(Fira, Blaze, Special: Ray)
+REACTIVE RULES:
+  None
+</pre>

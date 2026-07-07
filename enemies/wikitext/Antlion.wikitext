@@ -1,0 +1,18 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #2: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #3: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #4: random(!Attack, Dischord, Special: Critical Attack)
+      Turn #5: Ability: Digestive Acid
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Flee
+</pre>

@@ -1,0 +1,75 @@
+{
+    "enemy_id": "28C",
+    "enemy_name": "Enuo (1st form)",
+    "raw": "00000000FEFC303132FC2F9184FC453322FCF7F5F3FF0F000000FEFDF70AF0FDF602ECFDF28208EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: Blizzaga",
+                        "third_choice": "Ability: Thundaga"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Bio",
+                        "second_choice": "Ability: Aeroga",
+                        "third_choice": "Ability: Aqua Breath"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meteor",
+                        "second_choice": "Ability: Flare",
+                        "third_choice": "Ability: Holy"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meltdown",
+                        "second_choice": "Ability: Deep Freeze",
+                        "third_choice": "Ability: Drain Touch"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "The power of the Void is increasing!",
+                            "unknown_parameter": "0x02",
+                            "entry": "0xEC"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "00001000",
+                            "flags": "10000010"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Aera, !Attack, !Attack)
+      Turn #2: random(Aera, !Attack, Special: Elbow)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Forcefully change target(s) to all party members
+      random(Aero, Aero, [Nothing])
+</pre>

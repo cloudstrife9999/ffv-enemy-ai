@@ -1,0 +1,195 @@
+{
+    "enemy_id": "22D",
+    "enemy_name": "Gilgamesh (Xezat's Fleet)",
+    "raw": "03000001FEFC809F80FC808081FC808E80FE020D7017FEFDF71BF0FDF280C0EEFDF60224FDF60225FDF60226FDF60227FDF327F0ACFE00000000FEFC808081FC809F80FC808081FC808E80FF0F00000004000000FEFDF713F0FDF603D2FDF604D3E7FDF605D4FDF603D5AAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Missile",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Death Claw",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 6000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set enemy to show",
+                                "slot_mask": "11000000",
+                                "flags": "10000000"
+                            },
+                            "Ability: [Unhide enemy]",
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": [
+                                    "Gilgamesh: I see you're leisurely as ever,",
+                                    "faithful sidekick!"
+                                ],
+                                "unknown_parameter": "0x02",
+                                "entry": "0x24"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Enkidu: The old man gave me some trouble.",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x25"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Gilgamesh: Ho? Let's return the trouble...",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x26"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "...and make it double! Come on!",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x27"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set target",
+                                "target": "Enkidu"
+                            },
+                            "Ability: [Unnamed script trigger]"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Missile",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Death Claw",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter",
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Gilgamesh: Enkidu! Faithful sidekick!",
+                            "unknown_parameter": "0x03",
+                            "entry": "0xD2"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "I trust you can take care of the rest!",
+                            "unknown_parameter": "0x04",
+                            "entry": "0xD3"
+                        },
+                        "Ability: [Flip sprite horizontally]",
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Faithful sidekick? ...Enkidu?",
+                            "unknown_parameter": "0x05",
+                            "entry": "0xD4"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Hey! Sidekicks are NOT to ditch the hero!",
+                            "unknown_parameter": "0x03",
+                            "entry": "0xD5"
+                        },
+                        "Stay idle"
+                    ]
+                }
+            ]
+        }
+    ]
+}

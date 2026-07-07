@@ -1,0 +1,45 @@
+{
+    "enemy_id": "209",
+    "enemy_name": "Liquid Flame (human form)",
+    "raw": "00000000FEFC8081DBFF0E000000FEFDF707F0DBFDF24560EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Rush",
+                        "third_choice": "Ability: Blaze"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        "Ability: Blaze",
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "01100000",
+                            "flags": "01000101"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

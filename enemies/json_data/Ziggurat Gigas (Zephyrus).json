@@ -1,0 +1,23 @@
+{
+    "enemy_id": "F2",
+    "enemy_name": "Ziggurat Gigas (Zephyrus)",
+    "raw": "00000000FEFC809581FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Off-Guard",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

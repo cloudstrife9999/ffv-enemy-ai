@@ -1,0 +1,298 @@
+{
+    "enemy_id": "24D",
+    "enemy_name": "Exdeath (Galuf solo)",
+    "raw": "020D0100FEEFFE03000101FE80FE020DF8A7FEFDF6018181FDF70BF0FDF60382FDF60383332245FDF71EF0FDF60262FDF60263FDF60264FDF60265FDF60266FDF40001FDF40101AAFE00000000FEFC313032FCDEDE4280FF0300000306000700FEFDF70EF0FDF6036BFDF90280FDF30DF0A5FE0300000206000700FEFDF60369FDF6036AFDF40003AAFE0300000106000700FEFDF60267FDF60268FDF40002AAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: [Terminate battle]"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_01",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 43000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Exdeath: Take this!!!",
+                        "unknown_parameter": "0x01",
+                        "entry": "0x81"
+                    },
+                    "Special: Vacuum Wave"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Now I'll show you my true power!",
+                                "unknown_parameter": "0x03",
+                                "entry": "0x82"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Prepare yourself for the afterlife!",
+                                "unknown_parameter": "0x03",
+                                "entry": "0x83"
+                            },
+                            "Ability: Flare",
+                            "Ability: Holy",
+                            "Ability: Meteor"
+                        ]
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Exdeath: Why...why won't you die!?",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x62"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Galuf: Takes a lot more than that...",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x63"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "...for me to kick the bucket!",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x64"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Galuf: I'll destroy you, Exdeath...",
+                                "unknown_parameter": "0x02",
+                                "entry": "0x65"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": [
+                                    "even if it means I have to ",
+                                    "take you into the afterlife myself!"
+                                ],
+                                "unknown_parameter": "0x02",
+                                "entry": "0x66"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_00",
+                                "value": 1
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_01",
+                                "value": 1
+                            },
+                            "Stay idle"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: Firaga",
+                        "third_choice": "Ability: Thundaga"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Attack",
+                        "third_choice": "Ability: Graviga"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 3
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any command",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Exdeath: Then...what...?",
+                            "unknown_parameter": "0x03",
+                            "entry": "0x6B"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set global event flag",
+                            "global_events": [
+                                "Galuf solo battle vs. Exdeath already happened"
+                            ]
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set target",
+                            "target": "Self"
+                        },
+                        "Ability: [Unconditional self-kill]"
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 2
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any command",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Galuf: This...isn't anger...isn't hatred...",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x69"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "...it's...",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x6A"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Set variable",
+                    "var_id": "Var_00",
+                    "value": 3
+                },
+                "Stay idle"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any command",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Exdeath: Fool! All the hatred in existence",
+                    "unknown_parameter": "0x02",
+                    "entry": "0x67"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "would never be enough to defeat me!",
+                    "unknown_parameter": "0x02",
+                    "entry": "0x68"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Set variable",
+                    "var_id": "Var_00",
+                    "value": 2
+                },
+                "Stay idle"
+            ]
+        }
+    ]
+}

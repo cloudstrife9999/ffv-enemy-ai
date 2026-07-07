@@ -1,0 +1,19 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Meteor
+  Rule #2:
+    Conditions:
+      HP damage just taken
+    Actions:
+      random(!Attack, !Attack, Special: Critical Attack)
+</pre>

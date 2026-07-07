@@ -1,0 +1,23 @@
+{
+    "enemy_id": "222",
+    "enemy_name": "Neo Garula",
+    "raw": "00000000FEFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Rush"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

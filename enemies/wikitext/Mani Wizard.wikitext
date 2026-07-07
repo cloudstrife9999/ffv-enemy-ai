@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Special: Magic Stick, Special: Magic Stick, !Attack)
+      Turn #2: random(Special: Magic Stick, !Attack, !Attack)
+      Turn #3: Forcefully change target(s) to all party members
+               random(Fire, Blizzard, Thunder)
+REACTIVE RULES:
+  None
+</pre>

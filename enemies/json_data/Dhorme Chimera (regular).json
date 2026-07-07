@@ -1,0 +1,23 @@
+{
+    "enemy_id": "3E",
+    "enemy_name": "Dhorme Chimera (regular)",
+    "raw": "00000000FEFC848081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aqua Breath",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

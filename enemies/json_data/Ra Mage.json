@@ -1,0 +1,54 @@
+{
+    "enemy_id": "42",
+    "enemy_name": "Ra Mage",
+    "raw": "00000000FEFDF323F0FC2B2AAAFDF323F0FC2A2CAAFDF323F0FC2C2BAAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzara",
+                        "second_choice": "Ability: Fira",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Fira",
+                        "second_choice": "Ability: Thundara",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundara",
+                        "second_choice": "Ability: Blizzara",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 3000
+    Actions:
+      Turn #1: Ability: Earth Shaker
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

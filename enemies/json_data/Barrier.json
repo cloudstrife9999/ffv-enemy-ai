@@ -1,0 +1,67 @@
+{
+    "enemy_id": "26A",
+    "enemy_name": "Barrier",
+    "raw": "00000000FEFDF31DF0FC332233FDF31CF0FC303231FDF31DF0FC223322FDF31CF0FC303231FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random enemy with the reflect status effect"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Flare",
+                        "second_choice": "Ability: Holy",
+                        "third_choice": "Ability: Flare"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All enemies with the reflect status effect"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: Thundaga",
+                        "third_choice": "Ability: Blizzaga"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random enemy with the reflect status effect"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Holy",
+                        "second_choice": "Ability: Flare",
+                        "third_choice": "Ability: Holy"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All enemies with the reflect status effect"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: Thundaga",
+                        "third_choice": "Ability: Blizzaga"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

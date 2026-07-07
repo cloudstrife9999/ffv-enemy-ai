@@ -1,0 +1,181 @@
+{
+    "enemy_id": "234",
+    "enemy_name": "Carbuncle (1st form)",
+    "raw": "020D8813FEFDF30DF0FC2E4734FDF30DF0FC2E4734FDF30DF0FC2E4734FDF20240EEFE020D1027FEFDF30DF0FC2F3D1AFDF30DF0FC2F3D1AFDF30DF0FC2F3D1AFDF20240EEFE00000000FEFDF30DF0FC2B2A2CFDF30DF0FC2B2A2CFDF30DF0FC2B2A2CFDF20240EEFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 5000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Break",
+                        "second_choice": "Ability: Banish",
+                        "third_choice": "Ability: Death"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Break",
+                        "second_choice": "Ability: Banish",
+                        "third_choice": "Ability: Death"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Break",
+                        "second_choice": "Ability: Banish",
+                        "third_choice": "Ability: Death"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Set enemy to show",
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
+                    },
+                    "Ability: [Unhide enemy]"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 10000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Bio",
+                        "second_choice": "Ability: Stop",
+                        "third_choice": "Ability: Confuse"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Bio",
+                        "second_choice": "Ability: Stop",
+                        "third_choice": "Ability: Confuse"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Bio",
+                        "second_choice": "Ability: Stop",
+                        "third_choice": "Ability: Confuse"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Set enemy to show",
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
+                    },
+                    "Ability: [Unhide enemy]"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzara",
+                        "second_choice": "Ability: Fira",
+                        "third_choice": "Ability: Thundara"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzara",
+                        "second_choice": "Ability: Fira",
+                        "third_choice": "Ability: Thundara"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Self"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzara",
+                        "second_choice": "Ability: Fira",
+                        "third_choice": "Ability: Thundara"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Set enemy to show",
+                        "slot_mask": "01000000",
+                        "flags": "00000010"
+                    },
+                    "Ability: [Unhide enemy]"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

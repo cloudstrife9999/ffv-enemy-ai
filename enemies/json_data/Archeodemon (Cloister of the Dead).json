@@ -1,0 +1,198 @@
+{
+    "enemy_id": "2D5",
+    "enemy_name": "Archeodemon (Cloister of the Dead)",
+    "raw": "03000101FEFC452233FC2233AAFC34EAF3FDF602DAFDF40001AAFDF40000FCD2E1E1FE020D204EFEFDF70AF0FDF40101FDF40000F3FE00000000FEF333FDF602DAFDF40001AAAAFDF40000FCD2D2E1FF06012BF0FEFDF30DF034FE030000000E000000FEFCFA9CAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_01",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Meteor",
+                        "second_choice": "Ability: Holy",
+                        "third_choice": "Ability: Flare"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Holy",
+                        "second_choice": "Ability: Flare",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Death",
+                        "second_choice": "Ability: Hurricane",
+                        "third_choice": "Ability: Drain Touch"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Focusing power!",
+                        "unknown_parameter": "0x02",
+                        "entry": "0xDA"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 1
+                    },
+                    "Stay idle"
+                ],
+                "Turn #5": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 0
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Mega Flare",
+                        "second_choice": "Ability: Giga Flare",
+                        "third_choice": "Ability: Giga Flare"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 20000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_01",
+                                "value": 1
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_00",
+                                "value": 0
+                            },
+                            "Ability: Drain Touch"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Drain Touch"
+                ],
+                "Turn #2": [
+                    "Ability: Flare"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Focusing power!",
+                        "unknown_parameter": "0x02",
+                        "entry": "0xDA"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 1
+                    },
+                    "Stay idle"
+                ],
+                "Turn #4": [
+                    "Stay idle"
+                ],
+                "Turn #5": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 0
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Mega Flare",
+                        "second_choice": "Ability: Mega Flare",
+                        "third_choice": "Ability: Giga Flare"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "any spell",
+                    "elements": [
+                        "Water",
+                        "Wind",
+                        "Earth",
+                        "Holy"
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Self"
+                },
+                "Ability: Death"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 0
+                },
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Curse",
+                    "second_choice": "Ability: ????",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

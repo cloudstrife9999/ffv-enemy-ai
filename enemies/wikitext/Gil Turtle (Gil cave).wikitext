@@ -1,0 +1,21 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Ability: Earthquake
+  Rule #2:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Consecutive actions:
+        Special: Turtle
+        Special: Turtle
+</pre>

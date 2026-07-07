@@ -1,0 +1,38 @@
+{
+    "enemy_id": "33",
+    "enemy_name": "Page 128",
+    "raw": "00000000FEFCD58080FF0F000000FEFDF28701A4FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Slimer",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set enemy to show",
+                    "slot_mask": "00000001",
+                    "flags": "10000111"
+                },
+                "Ability: [Unhide next page]"
+            ]
+        }
+    ]
+}

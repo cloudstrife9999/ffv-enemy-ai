@@ -1,0 +1,26 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      A random dead (or with 0 HP) enemy is affected by the Death status
+    Actions:
+      Turn #1: Consecutive actions:
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1, #2, #3]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Fade
+                 Ability: [Unhide enemy]
+                 Ability: Delta Attack
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, [Nothing])
+      Turn #2: random(Ice Storm, Ice Storm, [Nothing])
+      Turn #3: random(!Attack, !Attack, Frost)
+      Turn #4: random(!Attack, Blizzaga, !Attack)
+REACTIVE RULES:
+  None
+</pre>

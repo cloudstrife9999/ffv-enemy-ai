@@ -1,0 +1,170 @@
+{
+    "enemy_id": "247",
+    "enemy_name": "Leviathan",
+    "raw": "00000000FEFC808081FC808081FDF708F0FC8081D1FC80D1D1FC808081FC80D181FC808484FDF708F0FCD1D181FC8180D1FC80D181FC808081FDF709F0FC8081D1FC8081D1FF07002B00FEFCD1AAAAFE07012B00FEFCBCAAAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Tail"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Tail"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Special: Tail",
+                                "third_choice": "Ability: Tidal Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: Tidal Wave",
+                                "third_choice": "Ability: Tidal Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Tail"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Tidal Wave",
+                        "third_choice": "Special: Tail"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Aqua Breath",
+                        "third_choice": "Ability: Aqua Breath"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Tidal Wave",
+                                "second_choice": "Ability: Tidal Wave",
+                                "third_choice": "Special: Tail"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Special: Tail",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Ability: Tidal Wave"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Tidal Wave",
+                        "third_choice": "Special: Tail"
+                    }
+                ],
+                "Turn #9": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Tail"
+                    }
+                ],
+                "Turn #10": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Special: Tail",
+                                "third_choice": "Ability: Tidal Wave"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Special: Tail",
+                                "third_choice": "Ability: Tidal Wave"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Tidal Wave",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the categories or both do not match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Entangle",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

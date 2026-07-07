@@ -1,0 +1,120 @@
+{
+    "enemy_id": "2CD",
+    "enemy_name": "Melusine (1st form, Cloister of the Dead)",
+    "raw": "00000000FEFC8080AAFC3280AAFC3180AAFC80ACAAFC32ACAAFC31ACAAFC80ACACFC32ACACFC31ACACFF0800AC00FEFDF70CF0FDF323F031A9FDF249F0EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Ability: [Unnamed script trigger]"
+                    }
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Ability: [Unnamed script trigger]"
+                    }
+                ],
+                "Turn #9": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Ability: [Unnamed script trigger]"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "[Unnamed script trigger]"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Set target",
+                            "target": "All party members"
+                        },
+                        "Ability: Blizzaga",
+                        "Ability: Barrier Change",
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "11110000",
+                            "flags": "01001001"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

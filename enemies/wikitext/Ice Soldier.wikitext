@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: random(!Attack, !Attack, Blizzard)
+REACTIVE RULES:
+  None
+</pre>

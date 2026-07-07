@@ -1,0 +1,56 @@
+{
+    "enemy_id": "2AE",
+    "enemy_name": "Purobolos (Cloister of the Dead)",
+    "raw": "00000000FEAAAAFC80819BFF0F000000FEFDF325F021FE11000000FEFDF30DF01EFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    "Stay idle"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Critical Attack",
+                        "third_choice": "Ability: Self-Destruct"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "All dead (or with 0 HP) enemies"
+                },
+                "Ability: Arise"
+            ]
+        },
+        {
+            "conditions": [
+                "Hit by summon"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Self"
+                },
+                "Ability: Curaga"
+            ]
+        }
+    ]
+}

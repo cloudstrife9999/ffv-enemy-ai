@@ -1,0 +1,37 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Yagyuu's Strike)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Prepare to show/hide enemies:
+        Relevant enemy slots: [#2]
+        Behaviour:
+          - Do not transfer HP to the newly shown enemy/enemies
+          - Show all enemies from the specified slots
+          - Style: Discreet
+      Ability: [Unhide enemy]
+  Rule #2:
+    Conditions:
+      Just before dying
+    Actions:
+      Prepare to show/hide enemies:
+        Relevant enemy slots: [#2, #3]
+        Behaviour:
+          - Do not transfer HP to the newly shown enemy/enemies
+          - Show all enemies from the specified slots
+          - Style: Discreet
+      Ability: [Unhide enemy]
+  Rule #3:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      random(Image, [Nothing], [Nothing])
+</pre>

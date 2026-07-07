@@ -1,0 +1,26 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Display message: Minotaur: The power of Holy magic...
+      Display message: I think it's time you tasted its might!
+      Ability: Holy
+  Rule #2:
+    Conditions:
+      Hit by the Assassin Dagger item
+    Actions:
+      Ability: [Unconditional self-kill]
+  Rule #3:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      random(Special: Critical Attack, [Nothing], [Nothing])
+</pre>

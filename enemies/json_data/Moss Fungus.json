@@ -1,0 +1,64 @@
+{
+    "enemy_id": "C5",
+    "enemy_name": "Moss Fungus",
+    "raw": "04000000FEFC80B580FE00000000FEFC80D48180FF06000D00FEFCBDBDAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Spore",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Web",
+                        "third_choice": "Special: Knock Silly"
+                    }
+                ],
+                "Turn #2": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "!Lance",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Rainbow Wind",
+                    "second_choice": "Ability: Rainbow Wind",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

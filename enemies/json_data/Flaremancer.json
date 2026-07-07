@@ -1,0 +1,77 @@
+{
+    "enemy_id": "A2",
+    "enemy_name": "Flaremancer",
+    "raw": "00000000FEFC2729AAFC2A2CAAFC2B30AAFC2F2EAAFC3132AAFF07012B00FEFDF703F0D7D7FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Poison",
+                        "second_choice": "Ability: Toad",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Fira",
+                        "second_choice": "Ability: Thundara",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzara",
+                        "second_choice": "Ability: Firaga",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Bio",
+                        "second_choice": "Ability: Break",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: Thundaga",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the categories or both do not match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        "Ability: [Strong Attack]",
+                        "Ability: [Strong Attack]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

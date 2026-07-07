@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: High Kick)
+      Turn #2: Forcefully change target(s) to a random dead party member
+               Ability: Dance Macabre
+      Turn #3: random(!Attack, !Attack, Special: High Kick)
+REACTIVE RULES:
+  None
+</pre>

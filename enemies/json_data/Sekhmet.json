@@ -1,0 +1,63 @@
+{
+    "enemy_id": "90",
+    "enemy_name": "Sekhmet",
+    "raw": "00000000FEFCDEDE81FDF703F08181FF0F000000FEFDF6034BFDF6034CFDF90108AAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Attack",
+                        "third_choice": "Special: Sling"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            "Special: Sling",
+                            "Special: Sling"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Sekhmet: You may have defeated me...",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x4B"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "but my brother in the tower willーgahhh!",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x4C"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Set global event flag",
+                    "global_events": [
+                        "Sekhmet defeated"
+                    ]
+                },
+                "Stay idle"
+            ]
+        }
+    ]
+}

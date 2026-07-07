@@ -1,0 +1,93 @@
+{
+    "enemy_id": "201",
+    "enemy_name": "Wing Raptor (2nd form)",
+    "raw": "00000000FEAAAAFDF707F0FDF20580EEDAFF0700040003000001FE81FE07000400FEFDF605D0FDF605D1FDF4000181FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    "Stay idle"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set enemy to show",
+                                "slot_mask": "10000000",
+                                "flags": "00000101"
+                            },
+                            "Ability: [Unhide enemy]",
+                            "Ability: Breath Wing"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "!Attack",
+                    "categories": "irrelevant"
+                },
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": [
+                "Special: Claw"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "!Attack",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "A fierce talon swipe will meet those",
+                    "unknown_parameter": "0x05",
+                    "entry": "0xD0"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "who attack when its wings are closed!",
+                    "unknown_parameter": "0x05",
+                    "entry": "0xD1"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Set variable",
+                    "var_id": "Var_00",
+                    "value": 1
+                },
+                "Special: Claw"
+            ]
+        }
+    ]
+}

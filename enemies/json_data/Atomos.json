@@ -1,0 +1,237 @@
+{
+    "enemy_id": "22F",
+    "enemy_name": "Atomos",
+    "raw": "012F00800D000380FEFDF32E00E3FE013000800D000340FEFDF32E00E3FE013100800D000320FEFDF32E00E3FE013200800D000310FEFDF32E00E3FE011B0080FEFCECECECECECFCECEC40ECFCECEC3CECFCECEC42ECFCECEC44ECFCECECECECFCECEC3CECFCECEC42ECFE00000000FEFDF709F0FC3F3FAAFC3F3FAAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "Bartz (while dead)",
+                    "status_name": "Death"
+                },
+                {
+                    "condition": "Global event flags",
+                    "global_events": [
+                        "Bartz is in the party"
+                    ]
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members matching the condition"
+                    },
+                    "Ability: Wormhole"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "Lenna (while dead)",
+                    "status_name": "Death"
+                },
+                {
+                    "condition": "Global event flags",
+                    "global_events": [
+                        "Lenna is in the party"
+                    ]
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members matching the condition"
+                    },
+                    "Ability: Wormhole"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "Galuf (while dead)",
+                    "status_name": "Death"
+                },
+                {
+                    "condition": "Global event flags",
+                    "global_events": [
+                        "Galuf is in the party"
+                    ]
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members matching the condition"
+                    },
+                    "Ability: Wormhole"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "Faris (while dead)",
+                    "status_name": "Death"
+                },
+                {
+                    "condition": "Global event flags",
+                    "global_events": [
+                        "Faris is in the party"
+                    ]
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members matching the condition"
+                    },
+                    "Ability: Wormhole"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "A random dead party member",
+                    "status_name": "Death"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: [Pull dead targets]"
+                    }
+                ],
+                "Turn #2": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #3": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: Slowga"
+                    }
+                ],
+                "Turn #5": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: Gravity"
+                    }
+                ],
+                "Turn #7": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: Graviga"
+                    }
+                ],
+                "Turn #9": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #10": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: Old"
+                    }
+                ],
+                "Turn #11": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #12": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: [Pull dead targets]"
+                    }
+                ],
+                "Turn #13": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #14": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: Gravity"
+                    }
+                ],
+                "Turn #15": [
+                    "Ability: [Pull dead targets]"
+                ],
+                "Turn #16": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: [Pull dead targets]",
+                        "second_choice": "Ability: [Pull dead targets]",
+                        "third_choice": "Ability: Graviga"
+                    }
+                ],
+                "Turn #17": [
+                    "Ability: [Pull dead targets]"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Comet",
+                                "second_choice": "Ability: Comet",
+                                "third_choice": "Stay idle"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Comet",
+                                "second_choice": "Ability: Comet",
+                                "third_choice": "Stay idle"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

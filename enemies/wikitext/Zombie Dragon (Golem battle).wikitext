@@ -1,0 +1,38 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_01 == 2
+    Actions:
+      Turn #1: random(Poison Breath, Poison Breath, Special: Critical Attack)
+  Rule #2:
+    Conditions:
+      No visible enemies in slots other than [#3]
+    Actions:
+      Turn #1: Set Var_01 to 2
+               Ability: [Flip sprite horizontally]
+  Rule #3:
+    Conditions:
+      No visible enemies in slots other than [#2, #3]
+    Actions:
+      Turn #1: Set Var_01 to 2
+               Ability: [Flip sprite horizontally]
+  Rule #4:
+    Conditions:
+      Variable Var_01 == 1
+    Actions:
+      Turn #1: Forcefully change target(s) to the enemy in slot #1
+               random(!Attack, !Attack, Special: Critical Attack)
+      Turn #2: Forcefully change target(s) to the enemy in slot #1
+               random(!Attack, !Attack, Special: Critical Attack)
+      Turn #3: Forcefully change target(s) to the enemy in slot #1
+               random(!Attack, Vampire, Special: Critical Attack)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Set Var_01 to 1
+               Ability: [Flip sprite horizontally]
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,204 @@
+{
+    "enemy_id": "236",
+    "enemy_name": "Gilgamesh (Castle Exdeath, morphed)",
+    "raw": "03000002FEFDF605B2FDF605B3FDF605B4FDF605B5FDF605B6E9FE00000000FEFDF709F0FDF605B7FDF605B880FDF706F080FDF602B9AAFDF706F080FDF602BAAAFDF706F080FDF602BBAAFDF8002DFDF605B0FDF605B1FDF40002AAFF0F0000000800E900FEFDF60358FDF90104AAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 2
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Exdeath: You worthless fool!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB2"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": [
+                            "For your continued bungling,",
+                            "I banish you from this dimension!"
+                        ],
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB3"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: Wh-what!? No!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB4"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Anything but that!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB5"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Exdeath: Silence!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB6"
+                    },
+                    "Ability: Banish"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Gilgamesh: Now that it's mine,",
+                                "unknown_parameter": "0x05",
+                                "entry": "0xB7"
+                            },
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "let's see how good this Excalibur really is!",
+                                "unknown_parameter": "0x05",
+                                "entry": "0xB8"
+                            },
+                            "Ability: !Attack"
+                        ]
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            "Ability: !Attack",
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Gilgamesh: Have at you!",
+                                "unknown_parameter": "0x02",
+                                "entry": "0xB9"
+                            },
+                            "Stay idle"
+                        ]
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            "Ability: !Attack",
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": "Gilgamesh: Ehhh!? Why, I've been had!",
+                                "unknown_parameter": "0x02",
+                                "entry": "0xBA"
+                            },
+                            "Stay idle"
+                        ]
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            "Ability: !Attack",
+                            {
+                                "action": "AI command",
+                                "type": "Display message",
+                                "message": [
+                                    "This is far from the strongest of swords!",
+                                    "I feel so betrayed!"
+                                ],
+                                "unknown_parameter": "0x02",
+                                "entry": "0xBB"
+                            },
+                            "Stay idle"
+                        ]
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "AI command",
+                        "type": "Visual or sound effect",
+                        "effect_type": "\"Change_Music\" table",
+                        "effect": "Change music to \"The Evil Lord Exdeath\""
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Exdeath: Gilgamesh!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB0"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gilgamesh: Erk!",
+                        "unknown_parameter": "0x05",
+                        "entry": "0xB1"
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 2
+                    },
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter",
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "Banish"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Gilgamesh: NOOOOOOOOOOOO!",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x58"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Set global event flag",
+                    "global_events": [
+                        "Gilgamesh available in the Interdimensional Rift"
+                    ]
+                },
+                "Stay idle"
+            ]
+        }
+    ]
+}

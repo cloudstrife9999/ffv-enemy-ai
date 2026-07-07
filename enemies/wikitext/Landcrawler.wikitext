@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Maelstrom, Special: Crush)
+      Turn #2: random(Maelstrom, !Attack, Maelstrom)
+REACTIVE RULES:
+  None
+</pre>

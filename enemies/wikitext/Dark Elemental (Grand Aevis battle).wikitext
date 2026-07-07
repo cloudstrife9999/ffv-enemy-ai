@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Ability: Self-Destruct
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(White Wind, Aeroga, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

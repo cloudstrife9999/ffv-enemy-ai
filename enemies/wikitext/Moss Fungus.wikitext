@@ -1,0 +1,20 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: random(!Attack, Spore, !Attack)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Web, Special: Knock Silly)
+      Turn #2: Ability: !Attack
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Lance
+    Actions:
+      random(Rainbow Wind, Rainbow Wind, [Nothing])
+</pre>

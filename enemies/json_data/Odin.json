@@ -1,0 +1,45 @@
+{
+    "enemy_id": "240",
+    "enemy_name": "Odin",
+    "raw": "00000000FEAAD0FC808081FF0F000000FEFDF60149EFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    "Ability: Zantetsuken"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Odin: All right, that's far enough!",
+                    "unknown_parameter": "0x01",
+                    "entry": "0x49"
+                },
+                "Ability: [Terminate battle]"
+            ]
+        }
+    ]
+}

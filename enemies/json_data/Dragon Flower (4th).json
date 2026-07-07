@@ -1,0 +1,23 @@
+{
+    "enemy_id": "22B",
+    "enemy_name": "Dragon Flower (4th)",
+    "raw": "00000000FEFC8181AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Special: Paralyze Powder",
+                        "second_choice": "Special: Paralyze Powder",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

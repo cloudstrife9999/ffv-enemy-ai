@@ -1,0 +1,31 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Firaga, [Nothing], [Nothing])
+      Turn #2: random(Blizzaga, [Nothing], [Nothing])
+      Turn #3: random(Thundaga, [Nothing], [Nothing])
+      Turn #4: random(Firaga, [Unnamed script trigger], [Nothing])
+      Turn #5: random(Blizzaga, [Unnamed script trigger], [Nothing])
+      Turn #6: random(Thundaga, [Unnamed script trigger], [Nothing])
+      Turn #7: random(Firaga, [Unnamed script trigger], [Unnamed script trigger])
+      Turn #8: random(Blizzaga, [Unnamed script trigger], [Unnamed script trigger])
+      Turn #9: random(Thundaga, [Unnamed script trigger], [Unnamed script trigger])
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by the unnamed script trigger spell
+    Actions:
+      Consecutive actions:
+        Ability: Entice
+        Ability: Barrier Change
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#1, #2, #3, #4]
+          Behaviour:
+            - Transfer HP to the newly shown enemy/enemies
+            - Show only a single enemy from a random slot among the specified ones
+            - Melusine (form 4) appearance style
+        Ability: [Unhide enemy]
+</pre>

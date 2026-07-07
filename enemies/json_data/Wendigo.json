@@ -1,0 +1,118 @@
+{
+    "enemy_id": "248",
+    "enemy_name": "Wendigo",
+    "raw": "010F0340FEFDFA1740A5FE00000000FEFC97AAAAFCDEAAAAFCEAAAAAFCDEAAAAFC1AAAAAFCDEAAAAA3FF0A000001010D034006000700FECDFE0E000000FEA3FF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "All enemies",
+                    "status_name": "False Image"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set stats or toggle status",
+                        "property_table": "Status table #4",
+                        "status": "False Image"
+                    },
+                    "Ability: [Unconditional self-kill]"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Mind Blast",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Hurricane",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Confuse",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #7": [
+                    "Ability: [False Image switch]"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Target count",
+                    "target_count": "Multi-target action"
+                },
+                {
+                    "condition": "Status effect",
+                    "target": "Self",
+                    "status_name": "False Image"
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any command",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                "Ability: Frost"
+            ]
+        },
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                "Ability: [False Image switch]"
+            ]
+        }
+    ]
+}

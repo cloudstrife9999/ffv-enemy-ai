@@ -1,0 +1,79 @@
+{
+    "enemy_id": "24B",
+    "enemy_name": "Jura Aevis",
+    "raw": "00000000FEFCDAC281FCBC8081FCDBC281FCBC8081FCDCC281FCBC8081FCCDC281FCBC8081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Breath Wing",
+                        "second_choice": "Ability: Maelstrom",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Entangle",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blaze",
+                        "second_choice": "Ability: Maelstrom",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Entangle",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Lightning",
+                        "second_choice": "Ability: Maelstrom",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Entangle",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Frost",
+                        "second_choice": "Ability: Maelstrom",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Entangle",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

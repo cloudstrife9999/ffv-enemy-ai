@@ -1,0 +1,18 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      No female party members are targetable
+    Actions:
+      Turn #1: [Nothing]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Forcefully change target(s) to a random female party member
+               random(!Attack, !Attack, Special: Eight Arms)
+      Turn #2: Forcefully change target(s) to a random female party member
+               random(Electrocute, !Attack, Special: Eight Arms)
+REACTIVE RULES:
+  None
+</pre>

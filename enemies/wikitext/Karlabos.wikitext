@@ -1,0 +1,12 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Special: Feeler, Special: Feeler)
+      Turn #2: random(!Attack, Tail Screw, Special: Feeler)
+      Turn #3: random(!Attack, Tail Screw, Special: Feeler)
+REACTIVE RULES:
+  None
+</pre>

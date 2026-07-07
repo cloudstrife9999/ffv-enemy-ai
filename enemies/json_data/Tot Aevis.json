@@ -1,0 +1,45 @@
+{
+    "enemy_id": "F6",
+    "enemy_name": "Tot Aevis",
+    "raw": "00000000FE80FC80808180FC8080B3FCDA80DAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: !Attack"
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Beak"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Breath Wing",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Breath Wing"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

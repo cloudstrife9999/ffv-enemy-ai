@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Dancehall Daze, Special: Critical Attack)
+      Turn #2: random(!Attack, Dancehall Daze, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,39 @@
+{
+    "enemy_id": "46",
+    "enemy_name": "Lamia",
+    "raw": "00000000FEFC8080AAFDF319F0BBFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random male party member"
+                    },
+                    "Ability: Entice"
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Slap"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

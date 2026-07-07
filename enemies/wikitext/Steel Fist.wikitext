@@ -1,0 +1,21 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Display message: Focusing energy...
+               [Nothing]
+      Turn #2: Ability: [Strong Attack]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      Special: Air Fist
+</pre>

@@ -1,0 +1,17 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: Search
+      Turn #2: random(Level 5 Death, Level 4 Graviga, Level 2 Old)
+      Turn #3: Ability: Search
+      Turn #4: random(Level 4 Graviga, Level 2 Old, Level 3 Flare)
+      Turn #5: Ability: Search
+      Turn #6: random(Level 2 Old, Level 3 Flare, Level 5 Death)
+      Turn #7: Ability: Search
+      Turn #8: random(Level 3 Flare, Level 5 Death, Level 2 Old)
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,15 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Forcefully change target(s) to all party members
+               random(Blizzara, Fira, [Nothing])
+      Turn #2: Forcefully change target(s) to all party members
+               random(Fira, Thundara, [Nothing])
+      Turn #3: Forcefully change target(s) to all party members
+               random(Thundara, Blizzara, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

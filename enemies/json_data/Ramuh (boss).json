@@ -1,0 +1,130 @@
+{
+    "enemy_id": "27",
+    "enemy_name": "Ramuh (boss)",
+    "raw": "00000000FEFCDE2CCEFC2C8BDEFCDE2CCEFC2CDC35FF0F000000FEFDF6036CFDF6036DFDF6036EFDF6036FFDF60370FDF60371FDF60372FDF90180AAFE080017F0FEFDF323F017FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Thundara",
+                        "third_choice": "Ability: Electrocute"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundara",
+                        "second_choice": "Ability: Flash",
+                        "third_choice": "Ability: Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Thundara",
+                        "third_choice": "Ability: Electrocute"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundara",
+                        "second_choice": "Ability: Lightning",
+                        "third_choice": "Ability: Osmose"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Ramuh: ...Ifrit?",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x6C"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "What are you doing here?",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x6D"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Ifrit: Lord Ramuh!",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x6E"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "I see you have become even more powerful.",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x6F"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "If you would lend that strength to us...",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x70"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Ramuh: Ifrit! No need to say more.",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x71"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "You and I have never been enemies!",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x72"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Set global event flag",
+                    "global_events": [
+                        "Ramuh defeated"
+                    ]
+                },
+                "Stay idle"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "Mini"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "All party members"
+                },
+                "Ability: Mini"
+            ]
+        }
+    ]
+}

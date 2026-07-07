@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Display message: Gimme some elixir!
+               Ability: Remedy
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by the Elixir item
+    Actions:
+      Display message: Yay! Yippee!
+      random(Flee, [Nothing], [Nothing])
+</pre>

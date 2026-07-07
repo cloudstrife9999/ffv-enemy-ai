@@ -1,0 +1,12 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Tail Screw, Tail Screw, !Attack)
+      Turn #2: random(Tail Screw, Tail Screw, !Attack)
+      Turn #3: random(Tail Screw, Slimer, !Attack)
+REACTIVE RULES:
+  None
+</pre>

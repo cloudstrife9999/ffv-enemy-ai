@@ -1,0 +1,38 @@
+{
+    "enemy_id": "55",
+    "enemy_name": "Cactus",
+    "raw": "00000000FEFC808081FF06000400FE81FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Needle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "!Attack",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                "Special: Needle"
+            ]
+        }
+    ]
+}

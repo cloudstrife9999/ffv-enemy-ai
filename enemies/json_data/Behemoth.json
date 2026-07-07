@@ -1,0 +1,40 @@
+{
+    "enemy_id": "115",
+    "enemy_name": "Behemoth",
+    "raw": "00000000FEAAFF0F000000FE45FE0E000000FEFC808081FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                "Ability: Meteor"
+            ]
+        },
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: !Attack",
+                    "second_choice": "Ability: !Attack",
+                    "third_choice": "Special: Critical Attack"
+                }
+            ]
+        }
+    ]
+}

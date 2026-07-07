@@ -1,0 +1,44 @@
+{
+    "enemy_id": "45",
+    "enemy_name": "Enchanted Fan (regular)",
+    "raw": "00000000FEFDF323F0FC90AAAAFC908080FDF30FF09EFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aera",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aera",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All enemies"
+                    },
+                    "Ability: White Wind"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

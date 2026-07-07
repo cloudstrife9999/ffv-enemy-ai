@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 300
+    Actions:
+      Turn #1: Ability: Flee
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(!Attack, Pond S Chorus, !Attack)
+REACTIVE RULES:
+  None
+</pre>

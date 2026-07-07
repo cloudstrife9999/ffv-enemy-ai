@@ -1,0 +1,45 @@
+{
+    "enemy_id": "258",
+    "enemy_name": "Catastrophe",
+    "raw": "01240008FEAEFE00000000FEFCCFCFEBFC80CF81FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "A random party member",
+                    "status_name": "Float"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: 100 Gs"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Earth Shaker",
+                        "second_choice": "Ability: Earth Shaker",
+                        "third_choice": "Ability: Evil Eye"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Earth Shaker",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

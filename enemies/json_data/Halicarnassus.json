@@ -1,0 +1,121 @@
+{
+    "enemy_id": "24C",
+    "enemy_name": "Halicarnassus",
+    "raw": "03000001FEFC80E581FC808023FC80E581FC80803AFC80E581FC80801CFDF4000022FE00000000FEFDF40001FDF323F0A0FF11000000FEFDF601DAFDF803F0D7FF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Reverse Polarity",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Dispel"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Reverse Polarity",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Haste"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Reverse Polarity",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Shell"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 0
+                    },
+                    "Ability: Holy"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set variable",
+                        "var_id": "Var_00",
+                        "value": 1
+                    },
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "All party members"
+                    },
+                    "Ability: Ribbit"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Hit by summon"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Focusing power!",
+                    "unknown_parameter": "0x01",
+                    "entry": "0xDA"
+                },
+                {
+                    "action": "AI command",
+                    "type": "Visual or sound effect",
+                    "effect_type": "\"Light_Effect\" table",
+                    "effect": "Light effect: Light Flash"
+                },
+                "Ability: [Strong Attack]"
+            ]
+        }
+    ]
+}

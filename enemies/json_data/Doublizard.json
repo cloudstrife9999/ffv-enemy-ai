@@ -1,0 +1,27 @@
+{
+    "enemy_id": "37",
+    "enemy_name": "Doublizard",
+    "raw": "00000000FE80E781E7FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    "Ability: [Flip sprite horizontally]"
+                ],
+                "Turn #3": [
+                    "Special: Sap"
+                ],
+                "Turn #4": [
+                    "Ability: [Flip sprite horizontally]"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

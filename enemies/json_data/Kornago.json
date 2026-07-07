@@ -1,0 +1,40 @@
+{
+    "enemy_id": "5F",
+    "enemy_name": "Kornago",
+    "raw": "020D2C01FEA2FE00000000FE80FC808980FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 300
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Flee"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Pond S Chorus",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

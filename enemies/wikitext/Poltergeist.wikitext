@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Lick)
+      Turn #2: Ability: !Attack
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,37 @@
+{
+    "enemy_id": "25C",
+    "enemy_name": "Launcher (2nd, Soul Cannon battle)",
+    "raw": "00000000FEE0FF0E000000020D1027FEFDF30DF0B1FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: [Fractional Launcher attack]"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken",
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 10000
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Self"
+                },
+                "Ability: [Explode]"
+            ]
+        }
+    ]
+}

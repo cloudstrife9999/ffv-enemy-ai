@@ -1,0 +1,18 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Breath Wing, !Attack, Breath Wing)
+      Turn #2: random(Breath Wing, !Attack, Breath Wing)
+      Turn #3: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#2]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Transform
+               Ability: [Unhide enemy]
+REACTIVE RULES:
+  None
+</pre>

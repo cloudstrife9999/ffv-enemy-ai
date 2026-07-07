@@ -14,5 +14,6 @@
     "gba_enemy_special_abilities_file_path": "res/enemies/gba_enemy_special_abilities.json",
     "gba_battle_text_file_path": "res/text/gba_battle_text_entries.json",
     "gba_parsed_ai_file_path": "output/gba_parsed_ai.json",
-    "gba_ai_script_representation_file_path": "output/gba_ai_script.txt"
+    "gba_ai_script_representation_file_path": "output/gba_ai_script.txt",
+    "individual_ai_output_dir": "enemies/"
 }

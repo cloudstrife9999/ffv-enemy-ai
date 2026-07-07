@@ -1,0 +1,27 @@
+{
+    "enemy_id": "25E",
+    "enemy_name": "Carbuncle (2nd form)",
+    "raw": "00000000FE18FDF20280EEFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Cura"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set enemy to show",
+                        "slot_mask": "10000000",
+                        "flags": "00000010"
+                    },
+                    "Ability: [Unhide enemy]"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

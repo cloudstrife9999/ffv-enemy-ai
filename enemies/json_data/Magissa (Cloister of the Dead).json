@@ -1,0 +1,69 @@
+{
+    "enemy_id": "2A5",
+    "enemy_name": "Magissa (Cloister of the Dead)",
+    "raw": "03000000020D7017FEFDF70AF0FDF30FF038FDF40001FE00000000FEFC303132FC91812DFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 0
+                },
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 6000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set target",
+                                "target": "All enemies"
+                            },
+                            "Ability: Regen",
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_00",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: Blizzaga",
+                        "third_choice": "Ability: Thundaga"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Aeroga",
+                        "second_choice": "Special: Critical Attack",
+                        "third_choice": "Ability: Drain"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

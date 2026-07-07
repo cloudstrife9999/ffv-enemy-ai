@@ -1,0 +1,115 @@
+{
+    "enemy_id": "2D0",
+    "enemy_name": "Melusine (4th form, Cloister of the Dead)",
+    "raw": "00000000FEFC30AAAAFC31AAAAFC32AAAAFC30ACAAFC31ACAAFC32ACAAFC30ACACFC31ACACFC32ACACFF0800AC00FEFDF708F0BBA9FDF24CF0EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Ability: [Unnamed script trigger]"
+                    }
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Ability: [Unnamed script trigger]"
+                    }
+                ],
+                "Turn #9": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: [Unnamed script trigger]",
+                        "third_choice": "Ability: [Unnamed script trigger]"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "[Unnamed script trigger]"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        "Ability: Entice",
+                        "Ability: Barrier Change",
+                        {
+                            "action": "AI command",
+                            "type": "Set enemy to show",
+                            "slot_mask": "11110000",
+                            "flags": "01001100"
+                        },
+                        "Ability: [Unhide enemy]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "enemy_id": "A3",
+    "enemy_name": "Dueling Knight",
+    "raw": "00000000FE80FF07012B00FE81FE07002B00FEFDF709F0FDF6021580808080FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the categories or both do not match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                "Special: Counter"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to one or more categories)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and categories match",
+                    "command": "any spell",
+                    "categories": "irrelevant"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "Magic is forbidden here!",
+                            "unknown_parameter": "0x02",
+                            "entry": "0x15"
+                        },
+                        "Ability: !Attack",
+                        "Ability: !Attack",
+                        "Ability: !Attack",
+                        "Ability: !Attack"
+                    ]
+                }
+            ]
+        }
+    ]
+}

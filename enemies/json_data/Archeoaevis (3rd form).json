@@ -1,0 +1,38 @@
+{
+    "enemy_id": "217",
+    "enemy_name": "Archeoaevis (3rd form)",
+    "raw": "00000000FEFCDEDB81FF0F000000FEFDF28210EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Attack",
+                        "second_choice": "Ability: Blaze",
+                        "third_choice": "Special: Tail"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set enemy to show",
+                    "slot_mask": "00010000",
+                    "flags": "10000010"
+                },
+                "Ability: [Unhide enemy]"
+            ]
+        }
+    ]
+}

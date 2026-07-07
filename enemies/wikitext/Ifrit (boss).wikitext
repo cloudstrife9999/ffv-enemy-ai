@@ -1,0 +1,18 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Blaze, Fira, Fira)
+      Turn #2: random(Blaze, !Attack, Special: High Kick)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Display message: Ifrit: ...Enough!
+      Display message: You have proven your worth.
+      Display message: I shall grant you the use of my powers.
+      [Nothing]
+</pre>

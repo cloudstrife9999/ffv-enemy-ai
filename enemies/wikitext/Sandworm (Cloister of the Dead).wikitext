@@ -1,0 +1,32 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#8]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Dive with sound
+               Ability: [False Image switch]
+      Turn #2: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#8]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Dive with sound
+               Ability: [False Image switch]
+      Turn #3: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#8]
+                 Behaviour:
+                   - Transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Dive with sound
+               Ability: [False Image switch]
+      Turn #4: Forcefully change target(s) to all non-self enemies
+               Ability: [Unnamed script trigger]
+REACTIVE RULES:
+  None
+</pre>

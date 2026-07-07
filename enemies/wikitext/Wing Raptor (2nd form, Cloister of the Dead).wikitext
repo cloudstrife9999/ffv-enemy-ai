@@ -1,0 +1,24 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: Consecutive actions:
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Transform
+                 Ability: [Unhide enemy]
+                 Ability: Breath Wing
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      Special: Claw
+</pre>

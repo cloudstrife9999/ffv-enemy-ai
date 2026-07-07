@@ -1,0 +1,33 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: Consecutive actions:
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Transform
+                 Ability: [Unhide enemy]
+                 Ability: Breath Wing
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+      Variable Var_00 == 1
+    Actions:
+      Special: Claw
+  Rule #2:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      Display message: A fierce talon swipe will meet those
+      Display message: who attack when its wings are closed!
+      Set Var_00 to 1
+      Special: Claw
+</pre>

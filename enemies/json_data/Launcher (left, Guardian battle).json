@@ -1,0 +1,91 @@
+{
+    "enemy_id": "288",
+    "enemy_name": "Launcher (left, Guardian battle)",
+    "raw": "00000000FEE0FC9FC6BDFF0F00000003000101FEFDF70EF0FDF40100FDF602EAFDF30DF0B1FE0F000000FEFDF70AF0FDF40101FDF30DF0B1FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: [Fractional Launcher attack]"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Missile",
+                        "second_choice": "Ability: Rocket Punch",
+                        "third_choice": "Ability: Rainbow Wind"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter",
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_01",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Set variable",
+                            "var_id": "Var_01",
+                            "value": 0
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Display message",
+                            "message": "The armor was destroyed!",
+                            "unknown_parameter": "0x02",
+                            "entry": "0xEA"
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set target",
+                            "target": "Self"
+                        },
+                        "Ability: [Explode]"
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Consecutive actions",
+                    "sub_actions": [
+                        {
+                            "action": "AI command",
+                            "type": "Set variable",
+                            "var_id": "Var_01",
+                            "value": 1
+                        },
+                        {
+                            "action": "AI command",
+                            "type": "Set target",
+                            "target": "Self"
+                        },
+                        "Ability: [Explode]"
+                    ]
+                }
+            ]
+        }
+    ]
+}

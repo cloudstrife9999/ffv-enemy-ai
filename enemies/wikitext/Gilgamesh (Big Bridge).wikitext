@@ -1,0 +1,44 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: random(Attack, Jump, Electrocute)
+      Turn #2: random(Attack, Attack, Jump)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(!Attack, Goblin Punch, Special: Critical Attack)
+      Turn #3: random(!Attack, Aera, !Attack)
+      Turn #4: random(!Attack, Wind Slash, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+      Variable Var_00 == 1
+    Actions:
+      Display message: Gilgamesh: Urgh! ...Goodness gracious!
+      Display message: I, uh, just remembered something! See ya!
+      Display message: I must take my leave...
+      Display message: but we'll meet again! Count on it!
+      Ability: Flee
+  Rule #2:
+    Conditions:
+      Current HP < 2500
+      HP damage just taken
+      Variable Var_00 == 0
+    Actions:
+      Consecutive actions:
+        Display message: I suppose I misjudged!
+        Ability: Haste
+        Display message: Fighting all four of you...
+        Ability: Protect
+        Display message: ...is just too tough for me...
+        Ability: Shell
+        Display message: ...NOT! Ha, I lied! Like a rug! Oh, I kill me!
+        Ability: Jump
+        Set Var_00 to 1
+</pre>

@@ -1,0 +1,20 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Slimer, !Attack, !Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Prepare to show/hide enemies:
+        Relevant enemy slots: [#8]
+        Behaviour:
+          - Do not transfer HP to the newly shown enemy/enemies
+          - Show all enemies from the specified slots
+          - Style: Dive without sound
+      Ability: [Unhide next page]
+</pre>

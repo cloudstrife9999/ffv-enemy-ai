@@ -1,0 +1,38 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Wind Slash, [Nothing])
+      Turn #2: random(!Attack, Blaze, Special: Critical Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+      Lone enemy (duplicates do not count as separate enemies)
+      Variable Var_00 == 1
+    Actions:
+      Display message: That's far enough!
+      [Nothing]
+  Rule #2:
+    Conditions:
+      Just before dying
+      Variable Var_00 == 1
+    Actions:
+      [Nothing]
+  Rule #3:
+    Conditions:
+      Just before dying
+    Actions:
+      Consecutive actions:
+        Display message: Illusion!
+        Set Var_00 to 1
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#2, #3]
+          Behaviour:
+            - Do not transfer HP to the newly shown enemy/enemies
+            - Show all enemies from the specified slots
+            - Style: Transform
+        Ability: [Unhide enemy]
+</pre>

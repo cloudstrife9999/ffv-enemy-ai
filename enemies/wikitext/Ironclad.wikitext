@@ -1,0 +1,25 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 0
+      Current HP < 10000
+    Actions:
+      Turn #1: Set Var_00 to 1
+               Ability: Mighty Guard
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(Rocket Punch, Hurricane, !Attack)
+      Turn #3: random(!Attack, Rocket Punch, !Attack)
+      Turn #4: random(Rocket Punch, Hurricane, !Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Forcefully change target(s) to whoever acted in the current tick
+      random(!Attack, Special: Takedown, Special: Takedown)
+</pre>

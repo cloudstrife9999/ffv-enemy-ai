@@ -1,0 +1,42 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 10000
+    Actions:
+      Turn #1: random(Meteor, Attack, [Nothing])
+  Rule #2:
+    Conditions:
+      Current HP < 30000
+    Actions:
+      Turn #1: random(Flare, Holy, Attack)
+      Turn #2: random(Attack, Attack, White Hole)
+      Turn #3: random(Attack, White Hole, [Nothing])
+      Turn #4: random(Attack, Doom, White Hole)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Attack, White Hole, [Nothing])
+      Turn #2: random(Attack, White Hole, Attack)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Just before dying
+    Actions:
+      Consecutive actions:
+        Change music to "Tree Exdeath Defeated"
+        Display message: Exdeath was engulfed...
+        Display message: ...by the Void!!!
+        Display message: Exdeath: NOOO! WHY!?
+        Display message: The Void was mine to command!
+        Display message: How could itー
+        Display message: Uwaaah!!!
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#1, #2, #4, #5, #6, #7]
+          Behaviour:
+            - Do not transfer HP to the newly shown enemy/enemies
+            - Show all enemies from the specified slots
+            - Neo Exdeath appearance style
+        Ability: [Unhide enemy]
+</pre>

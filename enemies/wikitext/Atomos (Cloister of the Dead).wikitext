@@ -1,0 +1,61 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Bartz (while dead) is affected by the Death status
+      All of the following global events are active/true: [Bartz is in the party]
+    Actions:
+      Turn #1: Forcefully change target(s) to all party members matching the condition
+               Ability: Wormhole
+  Rule #2:
+    Conditions:
+      Lenna (while dead) is affected by the Death status
+      All of the following global events are active/true: [Lenna is in the party]
+    Actions:
+      Turn #1: Forcefully change target(s) to all party members matching the condition
+               Ability: Wormhole
+  Rule #3:
+    Conditions:
+      Faris (while dead) is affected by the Death status
+      All of the following global events are active/true: [Faris is in the party]
+    Actions:
+      Turn #1: Forcefully change target(s) to all party members matching the condition
+               Ability: Wormhole
+  Rule #4:
+    Conditions:
+      Krile (while dead) is affected by the Death status
+      All of the following global events are active/true: [Krile is in the party]
+    Actions:
+      Turn #1: Forcefully change target(s) to all party members matching the condition
+               Ability: Wormhole
+  Rule #5:
+    Conditions:
+      A random dead party member is affected by the Death status
+    Actions:
+      Turn #1: random([Pull dead targets], [Pull dead targets], [Pull dead targets])
+      Turn #2: Ability: [Pull dead targets]
+      Turn #3: Ability: [Pull dead targets]
+      Turn #4: random([Pull dead targets], [Pull dead targets], Slowga)
+      Turn #5: Ability: [Pull dead targets]
+      Turn #6: random([Pull dead targets], [Pull dead targets], Gravity)
+      Turn #7: Ability: [Pull dead targets]
+      Turn #8: random([Pull dead targets], [Pull dead targets], Graviga)
+      Turn #9: Ability: [Pull dead targets]
+      Turn #10: random([Pull dead targets], [Pull dead targets], Old)
+      Turn #11: Ability: [Pull dead targets]
+      Turn #12: random([Pull dead targets], [Pull dead targets], [Pull dead targets])
+      Turn #13: Ability: [Pull dead targets]
+      Turn #14: random([Pull dead targets], [Pull dead targets], Gravity)
+      Turn #15: Ability: [Pull dead targets]
+      Turn #16: random([Pull dead targets], [Pull dead targets], Graviga)
+      Turn #17: Ability: [Pull dead targets]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Consecutive actions:
+                 random(Comet, Comet, [Nothing])
+                 random(Comet, Comet, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

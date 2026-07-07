@@ -1,0 +1,112 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_01 == 2
+    Actions:
+      Turn #1: Consecutive actions:
+                 Ability: Meteor
+                 Ability: Meteor
+                 Ability: Meteor
+      Turn #2: Consecutive actions:
+                 Ability: Maelstrom
+                 Ability: Ice Storm
+                 Ability: Aqua Breath
+      Turn #3: Consecutive actions:
+                 Ability: Frost
+                 Ability: Ice Storm
+                 Ability: Aqua Breath
+  Rule #2:
+    Conditions:
+      Variable Var_00 == 2
+    Actions:
+      Turn #1: Display message: Gogo: Oh! Bravo, bravo!
+               Display message: Perfect, just lovely!
+               Display message: You've seen me doing nothing,
+               Display message: and are copying that nothing yourselves!
+               Display message: Rather...
+               Display message: you're doing perfectly nothing, perfectly!
+               Display message: Yes! You feel itーthe essence of mimicry!
+               Display message: I give you my blessing
+               Display message: to continue on the true path of imitation!
+               Display message: Adieu!!! Break a leg!
+               Forcefully change target(s) to self
+               Ability: Banish
+  Rule #3:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
+      Turn #5: [Nothing]
+      Turn #6: [Nothing]
+      Turn #7: [Nothing]
+      Turn #8: [Nothing]
+      Turn #9: [Nothing]
+      Turn #10: [Nothing]
+      Turn #11: [Nothing]
+      Turn #12: [Nothing]
+      Turn #13: [Nothing]
+      Turn #14: [Nothing]
+      Turn #15: [Nothing]
+      Turn #16: [Nothing]
+      Turn #17: [Nothing]
+      Turn #18: [Nothing]
+      Turn #19: [Nothing]
+      Turn #20: [Nothing]
+      Turn #21: [Nothing]
+      Turn #22: [Nothing]
+      Turn #23: [Nothing]
+      Turn #24: [Nothing]
+      Turn #25: Set Var_00 to 2
+                [Nothing]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Display message: Gogo: My name is Gogo!
+               Display message: Mimic extraordinaire!
+               Display message: The basisーno, the very soul of mimicry
+               Display message: is the ability to aptly imitate anything,
+               Display message: no matter the situation.
+               Display message: Thusly, I will imitate your every move!
+               Display message: When you attack, I will attack.
+               Display message: When you cast a spell, I'll cast a spell.
+               Display message: Could you imitate me, you'd certainly win.
+               Display message: More likely, it will be curtains for you!
+               Set Var_00 to 1
+               [Nothing]
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 33000
+      HP damage just taken
+    Actions:
+      Display message: Gogo: You uncultured boors!
+      Display message: Know you nothing of an artist's soul?
+      Display message: Cut! Cut! Stop TRYING to mimic!
+      Change music to "The Fierce Battle"
+      Display message: Start over, recenter, and begin!
+      Set Var_01 to 2
+      Ability: Meteor
+  Rule #2:
+    Conditions:
+      Hit by any spell
+    Actions:
+      Set Var_01 to 1
+      random(Holy, Flare, Meteor)
+  Rule #3:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      Set Var_01 to 1
+      random(!Attack, Special: Critical Attack, [Strong Attack])
+  Rule #4:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Set Var_01 to 1
+      Ability: Remedy
+</pre>

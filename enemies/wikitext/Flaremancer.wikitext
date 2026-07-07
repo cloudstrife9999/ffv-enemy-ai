@@ -1,0 +1,20 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Poison, Toad, [Nothing])
+      Turn #2: random(Fira, Thundara, [Nothing])
+      Turn #3: random(Blizzara, Firaga, [Nothing])
+      Turn #4: random(Bio, Break, [Nothing])
+      Turn #5: random(Blizzaga, Thundaga, [Nothing])
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by a command other than any spell
+    Actions:
+      Consecutive actions:
+        Ability: [Strong Attack]
+        Ability: [Strong Attack]
+</pre>

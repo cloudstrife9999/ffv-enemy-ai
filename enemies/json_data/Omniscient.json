@@ -1,0 +1,128 @@
+{
+    "enemy_id": "245",
+    "enemy_name": "Omniscient",
+    "raw": "020DA00FFEFC323031FE00000000FEFC122437FC132538FC15273AFC173BAAFC18293CFC1A2A3DFC2C2B42FC1F2D2FFF0F000000FE33FE06012B0006010A00FE41FF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 4000
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: Firaga",
+                        "third_choice": "Ability: Blizzaga"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Cure",
+                        "second_choice": "Ability: Fire",
+                        "third_choice": "Ability: Slow"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Libra",
+                        "second_choice": "Ability: Blizzard",
+                        "third_choice": "Ability: Regen"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Silence",
+                        "second_choice": "Ability: Poison",
+                        "third_choice": "Ability: Haste"
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Mini",
+                        "second_choice": "Ability: Float",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #5": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Cura",
+                        "second_choice": "Ability: Toad",
+                        "third_choice": "Ability: Gravity"
+                    }
+                ],
+                "Turn #6": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Confuse",
+                        "second_choice": "Ability: Fira",
+                        "third_choice": "Ability: Stop"
+                    }
+                ],
+                "Turn #7": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundara",
+                        "second_choice": "Ability: Blizzara",
+                        "third_choice": "Ability: Graviga"
+                    }
+                ],
+                "Turn #8": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Reflect",
+                        "second_choice": "Ability: Drain",
+                        "third_choice": "Ability: Bio"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                "Ability: Flare"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "any spell",
+                    "elements": "irrelevant (including non-elemental)"
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "At least one parameter does not match",
+                    "explanation": "either the command or the elements or both do not match",
+                    "command": "!Steal",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                "Ability: Return"
+            ]
+        }
+    ]
+}

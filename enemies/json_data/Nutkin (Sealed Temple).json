@@ -1,0 +1,38 @@
+{
+    "enemy_id": "117",
+    "enemy_name": "Nutkin (Sealed Temple)",
+    "raw": "00000000FEFC808081FF0F000000FEFDF28078EEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Incisor"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set enemy to show",
+                    "slot_mask": "01111000",
+                    "flags": "10000000"
+                },
+                "Ability: [Unhide enemy]"
+            ]
+        }
+    ]
+}

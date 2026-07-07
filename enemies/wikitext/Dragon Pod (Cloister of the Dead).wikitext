@@ -1,0 +1,67 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 1
+      Lone enemy (duplicates do not count as separate enemies)
+    Actions:
+      Turn #1: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+  Rule #2:
+    Conditions:
+      Variable Var_00 == 1
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: [Nothing]
+      Turn #4: [Nothing]
+      Turn #5: [Nothing]
+      Turn #6: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #2, #5, #6]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+      Turn #2: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #2, #4, #5]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+      Turn #3: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #3, #4, #6]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+      Turn #4: Prepare to show/hide enemies:
+                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Behaviour:
+                   - Do not transfer HP to the newly shown enemy/enemies
+                   - Show all enemies from the specified slots
+                   - Style: Fade
+               Ability: [Unhide enemy]
+      Turn #5: Set Var_00 to 1
+               [Nothing]
+REACTIVE RULES:
+  None
+</pre>

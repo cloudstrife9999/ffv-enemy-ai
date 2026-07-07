@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Ability: !Attack
+      Turn #2: random(Vampire, !Attack, Special: Claw)
+REACTIVE RULES:
+  None
+</pre>

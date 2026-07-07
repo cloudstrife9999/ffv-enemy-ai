@@ -1,0 +1,71 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Current HP < 1
+    Actions:
+      Turn #1: Ability: [Terminate battle]
+  Rule #2:
+    Conditions:
+      Variable Var_01 == 1
+    Actions:
+      Turn #1: Ability: !Attack
+  Rule #3:
+    Conditions:
+      Current HP < 43000
+    Actions:
+      Turn #1: Display message: Exdeath: Take this!!!
+               Special: Vacuum Wave
+      Turn #2: Consecutive actions:
+                 Display message: Now I'll show you my true power!
+                 Display message: Prepare yourself for the afterlife!
+                 Ability: Flare
+                 Ability: Holy
+                 Ability: Meteor
+      Turn #3: Consecutive actions:
+                 Display message: Exdeath: Why...why won't you die!?
+                 Display message: Galuf: Takes a lot more than that...
+                 Display message: ...for me to kick the bucket!
+                 Display message: Galuf: I'll destroy you, Exdeath...
+                 Display message: even if it means I have to
+                 Display message: take you into the afterlife myself!
+                 Set Var_00 to 1
+                 Set Var_01 to 1
+                 [Nothing]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Blizzaga, Firaga, Thundaga)
+      Turn #2: random(Attack, Attack, Graviga)
+      Turn #3: Ability: !Attack
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Variable Var_00 == 3
+      Hit by any command
+    Actions:
+      Consecutive actions:
+        Display message: Exdeath: Then...what...?
+        Mark the following global events as true: ['Galuf solo battle vs. Exdeath already happened']
+        Forcefully change target(s) to self
+        Ability: [Unconditional self-kill]
+  Rule #2:
+    Conditions:
+      Variable Var_00 == 2
+      Hit by any command
+    Actions:
+      Display message: Galuf: This...isn't anger...isn't hatred...
+      Display message: ...it's...
+      Set Var_00 to 3
+      [Nothing]
+  Rule #3:
+    Conditions:
+      Variable Var_00 == 1
+      Hit by any command
+    Actions:
+      Display message: Exdeath: Fool! All the hatred in existence
+      Display message: would never be enough to defeat me!
+      Set Var_00 to 2
+      [Nothing]
+</pre>

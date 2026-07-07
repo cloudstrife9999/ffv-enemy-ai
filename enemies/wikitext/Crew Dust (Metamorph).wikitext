@@ -1,0 +1,19 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Consecutive actions:
+                 Ability: Flash
+                 Display message: Revert!
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#1]
+                   Behaviour:
+                     - Transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Transform
+                 Ability: [Unhide enemy]
+REACTIVE RULES:
+  None
+</pre>

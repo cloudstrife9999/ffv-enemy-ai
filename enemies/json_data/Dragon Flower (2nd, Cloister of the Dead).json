@@ -1,0 +1,23 @@
+{
+    "enemy_id": "2B7",
+    "enemy_name": "Dragon Flower (2nd, Cloister of the Dead)",
+    "raw": "00000000FEFC8181AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Special: Poison Powder",
+                        "second_choice": "Special: Poison Powder",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

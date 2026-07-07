@@ -1,0 +1,23 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Forcefully change target(s) to self
+               Ability: Fira
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      HP damage just taken
+    Actions:
+      Consecutive actions:
+        Ability: Magnet
+        Prepare to show/hide enemies:
+          Relevant enemy slots: [#1, #2]
+          Behaviour:
+            - Transfer HP to the newly shown enemy/enemies
+            - Show only a single enemy from a random slot among the specified ones
+            - Style: Transform
+        Ability: [Unhide enemy]
+</pre>

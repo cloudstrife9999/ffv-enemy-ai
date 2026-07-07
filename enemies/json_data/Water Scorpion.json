@@ -1,0 +1,23 @@
+{
+    "enemy_id": "DE",
+    "enemy_name": "Water Scorpion",
+    "raw": "00000000FEFC808081FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Needle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

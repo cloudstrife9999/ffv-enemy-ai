@@ -1,0 +1,140 @@
+{
+    "enemy_id": "269",
+    "enemy_name": "Shinryu",
+    "raw": "03000001FEFCC28083FCCCCADCFDF708F0FCC28083FC9A8788FDF709F0FC8080EBFC8080B6FE00000000FEAAFDF706F0FDF40001D1FF0800AC00FEFDF40000B9FE020D204E0E000000FEFCACAAAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Variable check",
+                    "match_type": "All parameters match",
+                    "explanation": "variable == value",
+                    "var_id": "Var_00",
+                    "value_to_match": 1
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Maelstrom",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Roulette"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Ice Storm",
+                        "second_choice": "Ability: Atomic Ray",
+                        "third_choice": "Ability: Lightning"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Maelstrom",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Ability: Roulette"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: Mighty Guard",
+                                "second_choice": "Ability: Level 2 Old",
+                                "third_choice": "Ability: Level 3 Flare"
+                            }
+                        ]
+                    }
+                ],
+                "Turn #4": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Ability: Evil Eye"
+                            },
+                            {
+                                "action": "Random selection",
+                                "first_choice": "Ability: !Attack",
+                                "second_choice": "Ability: !Attack",
+                                "third_choice": "Ability: Poison Breath"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Stay idle"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Consecutive actions",
+                        "sub_actions": [
+                            {
+                                "action": "AI command",
+                                "type": "Set variable",
+                                "var_id": "Var_00",
+                                "value": 1
+                            },
+                            "Ability: Tidal Wave"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "[Unnamed script trigger]"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set variable",
+                    "var_id": "Var_00",
+                    "value": 0
+                },
+                "Ability: Zombie Breath"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "HP lower than threshold",
+                    "target": "self",
+                    "hp_threshold": 20000
+                },
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: [Unnamed script trigger]",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

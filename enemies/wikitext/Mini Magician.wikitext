@@ -1,0 +1,12 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Osmose, [Nothing], [Nothing])
+      Turn #2: random(Osmose, Lilliputian Lyric, [Nothing])
+      Turn #3: Ability: Lilliputian Lyric
+REACTIVE RULES:
+  None
+</pre>

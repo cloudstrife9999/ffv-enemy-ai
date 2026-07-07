@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Special: Body Slam, [Nothing])
+      Turn #2: random(!Attack, !Attack, Special: Body Slam)
+REACTIVE RULES:
+  None
+</pre>

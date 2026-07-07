@@ -1,0 +1,16 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      A random dead party member is affected by the Death status
+    Actions:
+      Turn #1: Forcefully change target(s) to a random dead party member
+               Ability: Dance Macabre
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

@@ -1,0 +1,18 @@
+{
+    "enemy_id": "27A",
+    "enemy_name": "Enemy_27A",
+    "raw": "00000000FE80FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

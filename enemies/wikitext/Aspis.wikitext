@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Entangle, Special: Critical Attack)
+      Turn #2: random(Osmose, Entangle, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

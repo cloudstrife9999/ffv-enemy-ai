@@ -1,0 +1,56 @@
+{
+    "enemy_id": "108",
+    "enemy_name": "Dark Elemental (Lightning)",
+    "raw": "00000000FEFC32919EFF06002B01FE30FE06002B02FE31FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: Aeroga",
+                        "third_choice": "Ability: White Wind"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any spell",
+                    "elements": [
+                        "Fire"
+                    ]
+                }
+            ],
+            "actions": [
+                "Ability: Firaga"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any spell",
+                    "elements": [
+                        "Ice"
+                    ]
+                }
+            ],
+            "actions": [
+                "Ability: Blizzaga"
+            ]
+        }
+    ]
+}

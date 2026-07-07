@@ -1,0 +1,44 @@
+{
+    "enemy_id": "91",
+    "enemy_name": "Lamia Queen",
+    "raw": "00000000FEFC8081AAFDF300F0FCBBBBAAFC809DAAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Critical Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "Bartz"
+                    },
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Entice",
+                        "second_choice": "Ability: Entice",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: 1000 Needles",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

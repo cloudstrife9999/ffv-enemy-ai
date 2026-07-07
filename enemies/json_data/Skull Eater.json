@@ -1,0 +1,48 @@
+{
+    "enemy_id": "5C",
+    "enemy_name": "Skull Eater",
+    "raw": "00000000FEFC8081A2FF0400000006002B00FEFDF207FCEEFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Incisor",
+                        "third_choice": "Ability: Flee"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                },
+                {
+                    "condition": "Hit by command (belonging to zero or more elements)",
+                    "match_type": "All parameters match",
+                    "explanation": "both command and elements match",
+                    "command": "any spell",
+                    "elements": "irrelevant (including non-elemental)"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set enemy to show",
+                    "slot_mask": "11111100",
+                    "flags": "00000111"
+                },
+                "Ability: [Unhide enemy]"
+            ]
+        }
+    ]
+}

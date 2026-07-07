@@ -1,0 +1,30 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      A random party member is affected by the Reflect status
+    Actions:
+      Turn #1: Forcefully change target(s) to a random party member without the reflect status effect
+               random(Haste, Protect, Regen)
+      Turn #2: Forcefully change target(s) to a random party member without the reflect status effect
+               random(Cura, Shell, Esuna)
+  Rule #2:
+    Conditions:
+      Affected by the Reflect status
+    Actions:
+      Turn #1: Forcefully change target(s) to self
+               random(Reflect, Bio, Poison)
+      Turn #2: Forcefully change target(s) to self
+               random(Reflect, Old, Stop)
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Reflect, Old, Stop)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Hit by !Attack
+    Actions:
+      Ability: Drain
+</pre>

@@ -1,0 +1,31 @@
+{
+    "enemy_id": "62",
+    "enemy_name": "Drippy",
+    "raw": "00000000FEFC8080AAFC809981FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Magic Hammer",
+                        "third_choice": "Special: Axe"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

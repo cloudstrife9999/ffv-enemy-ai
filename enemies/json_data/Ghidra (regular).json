@@ -1,0 +1,40 @@
+{
+    "enemy_id": "49",
+    "enemy_name": "Ghidra (regular)",
+    "raw": "00000000FEFCB68081FCDC8080FF0F000000FE86FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Poison Breath",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Rush"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Lightning",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: !Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                "Ability: Level 4 Graviga"
+            ]
+        }
+    ]
+}

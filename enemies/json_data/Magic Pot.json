@@ -1,0 +1,51 @@
+{
+    "enemy_id": "0B",
+    "enemy_name": "Magic Pot",
+    "raw": "00000000FEFDF603E8DFFF0900E300FEFDF602E9FCA2AAAAFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Display message",
+                        "message": "Gimme some elixir!",
+                        "unknown_parameter": "0x03",
+                        "entry": "0xE8"
+                    },
+                    "Ability: Remedy"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by item",
+                    "match_type": "All parameters match",
+                    "explanation": "the item matches",
+                    "item": "Elixir"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Yay! Yippee!",
+                    "unknown_parameter": "0x02",
+                    "entry": "0xE9"
+                },
+                {
+                    "action": "Random selection",
+                    "first_choice": "Ability: Flee",
+                    "second_choice": "Stay idle",
+                    "third_choice": "Stay idle"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+<pre>
+ACTIVE RULES:
+  Rule #1:
+    Conditions:
+      No visible enemies in slots other than [#1, #2]
+    Actions:
+      Turn #1: Consecutive actions:
+                 Display message: The power of the Void is increasing!
+                 Prepare to show/hide enemies:
+                   Relevant enemy slots: [#5]
+                   Behaviour:
+                     - Do not transfer HP to the newly shown enemy/enemies
+                     - Show all enemies from the specified slots
+                     - Style: Fade
+                 Ability: [Unhide enemy]
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: Consecutive actions:
+                 Forcefully change target(s) to the enemy in slot #4
+                 random(Regen, Protect, [Nothing])
+                 Forcefully change target(s) to a random party member
+                 random(Poison, Osmose, [Nothing])
+      Turn #2: Consecutive actions:
+                 Forcefully change target(s) to the enemy in slot #4
+                 random(Shell, Haste, [Nothing])
+                 Forcefully change target(s) to all party members
+                 random(Graviga, Slowga, [Nothing])
+      Turn #3: Consecutive actions:
+                 Forcefully change target(s) to a random party member
+                 random(Berserk, Pond S Chorus, [Nothing])
+                 Forcefully change target(s) to a random party member
+                 random(Evil Eye, White Hole, [Nothing])
+REACTIVE RULES:
+  None
+</pre>

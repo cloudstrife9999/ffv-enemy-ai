@@ -1,0 +1,11 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(Aera, !Attack, Special: Critical Attack)
+      Turn #2: random(Hurricane, !Attack, Special: Critical Attack)
+REACTIVE RULES:
+  None
+</pre>

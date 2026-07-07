@@ -1,0 +1,36 @@
+{
+    "enemy_id": "1E",
+    "enemy_name": "Wyvern (regular)",
+    "raw": "04000000FEFC80DADAFE00000000FE80FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: Breath Wing",
+                        "third_choice": "Ability: Breath Wing"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

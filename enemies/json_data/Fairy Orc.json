@@ -1,0 +1,61 @@
+{
+    "enemy_id": "51",
+    "enemy_name": "Fairy Orc",
+    "raw": "011B0080FEFDF31BF0BAFE00000000FEFC808081FF08001200FEFDF323F01EFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Status effect",
+                    "target": "A random dead party member",
+                    "status_name": "Death"
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "AI command",
+                        "type": "Set target",
+                        "target": "A random dead party member"
+                    },
+                    "Ability: Paraclete"
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Spear"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by ability",
+                    "match_type": "All parameters match",
+                    "explanation": "the ability matches",
+                    "ability": "Cure"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "All party members"
+                },
+                "Ability: Curaga"
+            ]
+        }
+    ]
+}

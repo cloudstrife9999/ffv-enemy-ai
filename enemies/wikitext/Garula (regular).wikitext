@@ -1,0 +1,13 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: [Nothing]
+      Turn #2: [Nothing]
+      Turn #3: [Nothing]
+      Turn #4: Ability: Flee
+REACTIVE RULES:
+  None
+</pre>

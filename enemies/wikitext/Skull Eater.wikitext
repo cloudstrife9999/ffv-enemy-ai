@@ -1,0 +1,21 @@
+<pre>
+ACTIVE RULES:
+  Default rule:
+    Conditions:
+      Unconditional
+    Actions:
+      Turn #1: random(!Attack, Special: Incisor, Flee)
+REACTIVE RULES:
+  Rule #1:
+    Conditions:
+      Lone enemy (duplicates do not count as separate enemies)
+      Hit by any spell
+    Actions:
+      Prepare to show/hide enemies:
+        Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+        Behaviour:
+          - Transfer HP to the newly shown enemy/enemies
+          - Show all enemies from the specified slots
+          - Style: Dive without sound
+      Ability: [Unhide enemy]
+</pre>

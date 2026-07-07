@@ -1,0 +1,37 @@
+{
+    "enemy_id": "2C",
+    "enemy_name": "Jackanapes (regular)",
+    "raw": "00000000FEFC808081FF0E000000FEFDF323F08DFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "HP damage just taken"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "All party members"
+                },
+                "Ability: Moon Flute"
+            ]
+        }
+    ]
+}

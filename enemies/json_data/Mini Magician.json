@@ -1,0 +1,34 @@
+{
+    "enemy_id": "73",
+    "enemy_name": "Mini Magician",
+    "raw": "00000000FEFC35AAAAFC358AAA8AFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Osmose",
+                        "second_choice": "Stay idle",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Osmose",
+                        "second_choice": "Ability: Lilliputian Lyric",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    "Ability: Lilliputian Lyric"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

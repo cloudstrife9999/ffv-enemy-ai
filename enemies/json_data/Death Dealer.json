@@ -1,0 +1,18 @@
+{
+    "enemy_id": "BD",
+    "enemy_name": "Death Dealer",
+    "raw": "00000000FE83FFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: Roulette"
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

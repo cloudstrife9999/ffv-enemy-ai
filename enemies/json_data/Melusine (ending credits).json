@@ -1,0 +1,55 @@
+{
+    "enemy_id": "235",
+    "enemy_name": "Melusine (ending credits)",
+    "raw": "00000000FEFC3080BBFC328081FC31BB81FF0F000000FEFDF6035DA2FF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Firaga",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Ability: Entice"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Thundaga",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Blizzaga",
+                        "second_choice": "Ability: Entice",
+                        "third_choice": "Special: Critical Attack"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                "Death counter"
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Display message",
+                    "message": "Ramuh: Oho? Ifrit...?",
+                    "unknown_parameter": "0x03",
+                    "entry": "0x5D"
+                },
+                "Ability: Flee"
+            ]
+        }
+    ]
+}

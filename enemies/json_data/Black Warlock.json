@@ -1,0 +1,65 @@
+{
+    "enemy_id": "7D",
+    "enemy_name": "Black Warlock",
+    "raw": "04000000FEFC342EAAFC2E47AAFE00000000FEFC1A2DAAFC1A3DAAFC2D40AAFFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Lone enemy",
+                    "duplicates_count_as_separate_enemies": true
+                }
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Death",
+                        "second_choice": "Ability: Break",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Break",
+                        "second_choice": "Ability: Banish",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        },
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Confuse",
+                        "second_choice": "Ability: Drain",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Confuse",
+                        "second_choice": "Ability: Stop",
+                        "third_choice": "Stay idle"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: Drain",
+                        "second_choice": "Ability: Slowga",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": []
+}

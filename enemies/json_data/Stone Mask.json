@@ -1,0 +1,53 @@
+{
+    "enemy_id": "44",
+    "enemy_name": "Stone Mask",
+    "raw": "00000000FE80FC808081FC8081AAFF0900EC00FEFDF30DF0AFFF",
+    "active_rules": [
+        {
+            "conditions": [
+                "Unconditional"
+            ],
+            "actions": {
+                "Turn #1": [
+                    "Ability: !Attack"
+                ],
+                "Turn #2": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Ability: !Attack",
+                        "third_choice": "Special: Corner"
+                    }
+                ],
+                "Turn #3": [
+                    {
+                        "action": "Random selection",
+                        "first_choice": "Ability: !Attack",
+                        "second_choice": "Special: Corner",
+                        "third_choice": "Stay idle"
+                    }
+                ]
+            }
+        }
+    ],
+    "reactive_rules": [
+        {
+            "conditions": [
+                {
+                    "condition": "Hit by item",
+                    "match_type": "All parameters match",
+                    "explanation": "the item matches",
+                    "item": "Gold Needle"
+                }
+            ],
+            "actions": [
+                {
+                    "action": "AI command",
+                    "type": "Set target",
+                    "target": "Self"
+                },
+                "Ability: Vanish"
+            ]
+        }
+    ]
+}
