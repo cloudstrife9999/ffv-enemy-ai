@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Default rule:
@@ -14,7 +13,7 @@ REACTIVE RULES:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#5, #6]
+        Enemy slots with shown enemies: [#5, #6]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots

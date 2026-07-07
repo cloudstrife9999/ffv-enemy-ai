@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -11,7 +10,7 @@ ACTIVE RULES:
                  Special: Knife
                  Special: Knife
       Turn #2: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show only a single enemy from a random slot among the specified ones
@@ -22,7 +21,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#4]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#5]
+                 Enemy slots with shown enemies: [#5]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -33,7 +32,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#3]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#4]
+                 Enemy slots with shown enemies: [#4]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -44,7 +43,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#2]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#3]
+                 Enemy slots with shown enemies: [#3]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -55,7 +54,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots

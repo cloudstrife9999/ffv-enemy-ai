@@ -10556,7 +10556,7 @@
     },
     {
         "enemy_id": "10D",
-        "enemy_name": "Sandworm",
+        "enemy_name": "[Executor] Sandworm",
         "raw": "00000000FEFDDEC9C9FF020B0100FEFDF30DF0EDFE0800AC00FEDEFF",
         "active_rules": [
             {
@@ -10648,7 +10648,7 @@
     },
     {
         "enemy_id": "10F",
-        "enemy_name": "Fake Sandworm",
+        "enemy_name": "[Orchestrator] Sandworm",
         "raw": "00000000FEFDF20801A3FDF20801A3FDF20801A3FDF30EF0ACFFFF",
         "active_rules": [
             {

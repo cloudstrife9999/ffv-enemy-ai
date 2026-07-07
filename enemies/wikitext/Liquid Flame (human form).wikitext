@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Default rule:
@@ -15,7 +14,7 @@ REACTIVE RULES:
       Consecutive actions:
         Ability: Blaze
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#2, #3]
+          Enemy slots with shown enemies: [#2, #3]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones

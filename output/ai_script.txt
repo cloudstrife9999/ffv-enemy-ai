@@ -719,7 +719,7 @@ REACTIVE RULES:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#5, #6]
+        Enemy slots with shown enemies: [#5, #6]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -837,7 +837,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#8]
+        Enemy slots with shown enemies: [#8]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -860,7 +860,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#8]
+        Enemy slots with shown enemies: [#8]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -883,7 +883,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#8]
+        Enemy slots with shown enemies: [#8]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -908,7 +908,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#8]
+        Enemy slots with shown enemies: [#8]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -1542,7 +1542,7 @@ REACTIVE RULES:
       Hit by any spell
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+        Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
         Behaviour:
           - Transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -1706,7 +1706,7 @@ ACTIVE RULES:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#4]
+                 Enemy slots with shown enemies: [#4]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -2307,7 +2307,7 @@ ACTIVE RULES:
       Turn #2: Consecutive actions:
                  Display message: Metamorpha:  Change!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#2, #3, #4]
+                   Enemy slots with shown enemies: [#2, #3, #4]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show only a single enemy from a random slot among the specified ones
@@ -2327,7 +2327,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -2472,7 +2472,7 @@ ACTIVE RULES:
       Turn #2: Consecutive actions:
                  Display message: 'Come forth!  Evil one!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: []
+                   Enemy slots with shown enemies: a random one
                    Behaviour:
                      - Do not transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -3014,7 +3014,7 @@ ACTIVE RULES:
                  Special: Knife
                  Special: Knife
       Turn #2: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show only a single enemy from a random slot among the specified ones
@@ -3025,7 +3025,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#4]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#5]
+                 Enemy slots with shown enemies: [#5]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -3036,7 +3036,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#3]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#4]
+                 Enemy slots with shown enemies: [#4]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -3047,7 +3047,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#2]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#3]
+                 Enemy slots with shown enemies: [#3]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -3058,7 +3058,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -3655,7 +3655,7 @@ ACTIVE RULES:
                  random(Encircle, Encircle, !Attack)
                  Set Var_00 to 0
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Do not transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -3670,7 +3670,7 @@ ACTIVE RULES:
                  random(Delta Attack, Delta Attack, !Attack)
                  Set Var_00 to 1
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#4, #5, #6]
+                   Enemy slots with shown enemies: [#4, #5, #6]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -3983,7 +3983,7 @@ ACTIVE RULES:
                  Ability: Blizzara
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4005,7 +4005,7 @@ ACTIVE RULES:
                  Ability: Blaze
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4027,7 +4027,7 @@ ACTIVE RULES:
                  Ability: Lightning
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4049,7 +4049,7 @@ ACTIVE RULES:
                  Special: Cat Scratch
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4071,7 +4071,7 @@ ACTIVE RULES:
                  Ability: Breath Wing
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4093,7 +4093,7 @@ ACTIVE RULES:
                  Ability: Pond's Chorus
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4115,7 +4115,7 @@ ACTIVE RULES:
                  Ability: Flash
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4137,7 +4137,7 @@ ACTIVE RULES:
                  Ability: Aeroga
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4159,7 +4159,7 @@ ACTIVE RULES:
                  Ability: Zombie Breath
                  Display message:   'Change back!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4440,7 +4440,7 @@ ACTIVE RULES:
       Turn #1: random(Breath Wing, !Attack, Breath Wing)
       Turn #2: random(Breath Wing, !Attack, Breath Wing)
       Turn #3: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -4462,7 +4462,7 @@ ACTIVE RULES:
       Turn #2: [Nothing]
       Turn #3: Consecutive actions:
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1]
+                   Enemy slots with shown enemies: [#1]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4514,7 +4514,7 @@ ACTIVE RULES:
                [Nothing]
       Turn #2: Ability: Giga Flare
       Turn #3: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1]
+                 Enemy slots with shown enemies: [#1]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -4538,7 +4538,7 @@ ACTIVE RULES:
       Turn #4: Consecutive actions:
                  Display message: Changes to an Undead!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#2]
+                   Enemy slots with shown enemies: [#2]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4560,7 +4560,7 @@ ACTIVE RULES:
       Turn #2: random(!Attack, Special: Venomous Clasp, !Attack)
       Turn #3: random(!Attack, Special: Venomous Clasp, Special: Venomous Clasp)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1]
+                 Enemy slots with shown enemies: [#1]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -4595,7 +4595,7 @@ ACTIVE RULES:
       Turn #1: Consecutive actions:
                  Display message: Magisa:  Honey, a job for you!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2]
+                   Enemy slots with shown enemies: [#1, #2]
                    Behaviour:
                      - Do not transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -4658,7 +4658,7 @@ REACTIVE RULES:
       Consecutive actions:
         Ability: Blaze
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#2, #3]
+          Enemy slots with shown enemies: [#2, #3]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -4683,7 +4683,7 @@ REACTIVE RULES:
       Consecutive actions:
         Ability: Fira
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #3]
+          Enemy slots with shown enemies: [#1, #3]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -4709,7 +4709,7 @@ REACTIVE RULES:
       Consecutive actions:
         Ability: Magnet
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #2]
+          Enemy slots with shown enemies: [#1, #2]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -4732,7 +4732,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 10D
-Enemy Name: Sandworm
+Enemy Name: [Executor] Sandworm
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -4772,28 +4772,28 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 10F
-Enemy Name: Fake Sandworm
+Enemy Name: [Orchestrator] Sandworm
 ACTIVE RULES:
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#8]
+                 Enemy slots with shown enemies: [#8]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Dive with sound
                Ability: [False Image switch]
       Turn #2: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#8]
+                 Enemy slots with shown enemies: [#8]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Dive with sound
                Ability: [False Image switch]
       Turn #3: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#8]
+                 Enemy slots with shown enemies: [#8]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -4888,7 +4888,7 @@ REACTIVE RULES:
         Display message: 'I had the power of 'Void'!
         Display message: 'What IS 'Void'...?  Arrrgh!!
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #2, #4, #5, #6, #7]
+          Enemy slots with shown enemies: [#1, #2, #4, #5, #6, #7]
           Behaviour:
             - Do not transfer HP to the newly shown enemy/enemies
             - Show all enemies from the specified slots
@@ -4957,7 +4957,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#2]
+        Enemy slots with shown enemies: [#2]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -4980,7 +4980,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#3]
+        Enemy slots with shown enemies: [#3]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -5003,7 +5003,7 @@ REACTIVE RULES:
       Just before dying
     Actions:
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#4]
+        Enemy slots with shown enemies: [#4]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -5027,7 +5027,7 @@ REACTIVE RULES:
     Actions:
       Consecutive actions:
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#5]
+          Enemy slots with shown enemies: [#5]
           Behaviour:
             - Do not transfer HP to the newly shown enemy/enemies
             - Show all enemies from the specified slots
@@ -5317,7 +5317,7 @@ ACTIVE RULES:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -5333,7 +5333,7 @@ ACTIVE RULES:
       Turn #4: [Nothing]
       Turn #5: [Nothing]
       Turn #6: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -5344,28 +5344,28 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #2: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #4, #5]
+                 Enemy slots with shown enemies: [#1, #2, #4, #5]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #3: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #3, #4, #6]
+                 Enemy slots with shown enemies: [#1, #3, #4, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -5459,7 +5459,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2]
+                   Enemy slots with shown enemies: [#1, #2]
                    Behaviour:
                      - Do not transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -5669,7 +5669,7 @@ ACTIVE RULES:
       Turn #3: Forcefully change target(s) to self
                random(Break, Banish, Death)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -5686,7 +5686,7 @@ ACTIVE RULES:
       Turn #3: Forcefully change target(s) to self
                random(Bio, Stop, Confuse)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -5703,7 +5703,7 @@ ACTIVE RULES:
       Turn #3: Forcefully change target(s) to self
                random(Blizzara, Fira, Thundara)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -5967,7 +5967,7 @@ REACTIVE RULES:
         Ability: Blizzaga
         Ability: Barrier Change
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #2, #3, #4]
+          Enemy slots with shown enemies: [#1, #2, #3, #4]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -6002,7 +6002,7 @@ REACTIVE RULES:
         Ability: Thundaga
         Ability: Barrier Change
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #2, #3, #4]
+          Enemy slots with shown enemies: [#1, #2, #3, #4]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -6037,7 +6037,7 @@ REACTIVE RULES:
         Ability: Firaga
         Ability: Barrier Change
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #2, #3, #4]
+          Enemy slots with shown enemies: [#1, #2, #3, #4]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -6071,7 +6071,7 @@ REACTIVE RULES:
         Ability: Entice
         Ability: Barrier Change
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #2, #3, #4]
+          Enemy slots with shown enemies: [#1, #2, #3, #4]
           Behaviour:
             - Transfer HP to the newly shown enemy/enemies
             - Show only a single enemy from a random slot among the specified ones
@@ -6108,7 +6108,7 @@ ACTIVE RULES:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2]
+                 Enemy slots with shown enemies: [#1, #2]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -6137,7 +6137,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -6167,7 +6167,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -6196,7 +6196,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Consecutive actions:
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -6718,7 +6718,7 @@ ACTIVE RULES:
                Display message: 'Iron Claw!!
                Display message: 'Change form!!
                Prepare to show/hide enemies:
-                 Relevant enemy slots: [#5]
+                 Enemy slots with shown enemies: [#5]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -7056,7 +7056,7 @@ REACTIVE RULES:
       Consecutive actions:
         Change music to "Battle With Gilgamesh"
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #6]
+          Enemy slots with shown enemies: [#1, #6]
           Behaviour:
             - Do not transfer HP to the newly shown enemy/enemies
             - Show all enemies from the specified slots
@@ -7090,7 +7090,7 @@ ACTIVE RULES:
       Turn #4: Ability: Wind Slash
       Turn #5: Ability: Wind Slash
       Turn #6: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -7168,7 +7168,7 @@ ACTIVE RULES:
                Display message: 'the end of my warm-up!
                Display message: 'Gilgamesh Change!!
                Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -7209,7 +7209,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Ability: Cura
       Turn #2: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1]
+                 Enemy slots with shown enemies: [#1]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -7295,7 +7295,7 @@ REACTIVE RULES:
     Actions:
       Display message: Alte Roite shows its true form!
       Prepare to show/hide enemies:
-        Relevant enemy slots: [#2]
+        Enemy slots with shown enemies: [#2]
         Behaviour:
           - Do not transfer HP to the newly shown enemy/enemies
           - Show all enemies from the specified slots
@@ -7343,7 +7343,7 @@ REACTIVE RULES:
         Display message: 'Image!!
         Set Var_00 to 1
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#2, #3]
+          Enemy slots with shown enemies: [#2, #3]
           Behaviour:
             - Do not transfer HP to the newly shown enemy/enemies
             - Show all enemies from the specified slots
@@ -7444,7 +7444,7 @@ ACTIVE RULES:
       Turn #2: Consecutive actions:
                  Display message: 'Image!!
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots

@@ -1,0 +1,55 @@
+# Executor Sandworm {ID: AI}
+"10D": "00 00 00 00 FE FD DE C9 C9 FF 02 0B 01 00 FE FD F3 0D F0 ED FE 08 00 AC 00 FE DE FF"
+# Explanation
+Default -> random(Attack, Quicksand, Quicksand)
+Reaction: Enemy in slot #7 has < 1 HP -> Target self + forfeit battle
+Reaction: Hit by script trigger -> Attack
+
+# Hole {ID: AI}
+"10E": "00 00 00 00 FE AA FF 06 01 2B F0 FE 3C FF"
+# Explanation
+Default -> Do nothing
+Reaction: Hit by any command or hit by not {water, wind, earth, holy} -> Graviga
+
+# Orchestrator Sandworm {ID: AI}
+"10F": "00 00 00 00 FE FD F2 08 01 A3 FD F2 08 01 A3 FD F2 08 01 A3 FD F3 0E F0 AC FF FF"
+# Explanation
+Default ->
+    Turn #1: Prepare to hide/show (flags 00001000=Dive_with_sound+HP_transfer, slot 0x01=8th_slot[?]) + False Image switch
+    Turn #2: Prepare to hide/show (flags 00001000=Dive_with_sound+HP_transfer, slot 0x01=8th_slot[?]) + False Image switch
+    Turn #3: Prepare to hide/show (flags 00001000=Dive_with_sound+HP_transfer, slot 0x01=8th_slot[?]) + False Image switch
+    Turn #4: Target all non-self enemies + cast script trigger
+
+# Battle
+Enemy slots:
+    #1: Hole (back)
+    #2: Hole (front)
+    #3: Hole (middle)
+    #4: Executor Sandworm (back, hidden)
+    #5: Executor Sandworm (front, hidden)
+    #6: Executor Sandworm (middle, hidden)
+    #7: Orchestrator Sandworm (erased)
+    #8: Empty slot
+
+# Classical explanation of FD F2 XX YY
+- FD: AI command
+- F2: Prepare to show/hide enemies according to flags XX and slot mask YY
+- XX:
+      MSB: 1 -> Do not transfer HP, 0 -> Transfer HP
+      2nd MSB: 1 -> Choose at random from YY, 0 -> Perfectly match YY
+      Bits 4-5 are unused
+      Bits 0-3 codify the 14 possible "styles" of showing/hiding enemies.
+- YY: set bit -> to show or keep shown, clear bit -> to hide or keep hidden
+      0x80: 1st slot
+      0x40: 2nd slot
+      0x20: 3rd slot
+      0x10: 4th slot
+      0x08: 5th slot
+      0x04: 6th slot
+      0x02: 7th slot
+      0x01: 8th slot (here is where we run into problems with the orchestrator sandworm's AI)
+      0x00: at random
+
+# Hypothesis
+FD F2 XX YY means "prepare to show/hide self with flags XX" when YY == 0x01, since the 8th slot is always empty for all possible battle formations.
+That would explain how the orchestrator sandworm can ever have < 1 HP, triggering the forfait counter from all remaining executor sandworms.

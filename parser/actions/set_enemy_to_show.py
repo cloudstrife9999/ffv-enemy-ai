@@ -49,10 +49,11 @@ class SetEnemyToShowAction(AIRuleAction):
 
     @override
     def to_compact_representation(self, indent: int) -> list[str]:
+        enemy_slots_str: str = f"[{", ".join(f"#{slot.name.split('_')[1]}" for slot in self.enemy_slots)}]" if self.enemy_slots else "a random one"
         return [
             f"{" " * indent}Prepare to show/hide enemies:"
         ] + [
-            f"{" " * (indent + 2)}Relevant enemy slots: [{", ".join(f"#{slot.name.split("_")[1]}" for slot in self.enemy_slots)}]"
+            f"{" " * (indent + 2)}Enemy slots with shown enemies: {enemy_slots_str}"
         ] + [
             f"{" " * (indent + 2)}Behaviour:"
         ] + [

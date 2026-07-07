@@ -17482,7 +17482,7 @@
     },
     {
         "enemy_id": "20D",
-        "enemy_name": "Sandworm",
+        "enemy_name": "[Executor] Sandworm",
         "raw": "00000000FEFCDEC9C9FF020B0100FEFDF30DF0EDFE0800AC00FEDEFF",
         "active_rules": [
             {
@@ -17574,7 +17574,7 @@
     },
     {
         "enemy_id": "20F",
-        "enemy_name": "Fake Sandworm",
+        "enemy_name": "[Orchestrator] Sandworm",
         "raw": "00000000FEFDF20801A3FDF20801A3FDF20801A3FDF30EF0ACFFFF",
         "active_rules": [
             {
@@ -32248,7 +32248,7 @@
     },
     {
         "enemy_id": "2C4",
-        "enemy_name": "Sandworm (fake, Cloister of the Dead)",
+        "enemy_name": "[Executor] Sandworm (Cloister of the Dead)",
         "raw": "00000000FEFCDEC9C9FF020B0100FEFDF30DF0EDFE0800AC00FEDEFF",
         "active_rules": [
             {
@@ -32340,7 +32340,7 @@
     },
     {
         "enemy_id": "2C6",
-        "enemy_name": "Sandworm (Cloister of the Dead)",
+        "enemy_name": "[Orchestrator] Sandworm (Cloister of the Dead)",
         "raw": "00000000FEFDF20801A3FDF20801A3FDF20801A3FDF30EF0ACFFFF",
         "active_rules": [
             {

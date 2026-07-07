@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -13,7 +12,7 @@ ACTIVE RULES:
       Turn #3: Forcefully change target(s) to self
                random(Break, Banish, Death)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -30,7 +29,7 @@ ACTIVE RULES:
       Turn #3: Forcefully change target(s) to self
                random(Bio, Stop, Confuse)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -47,7 +46,7 @@ ACTIVE RULES:
       Turn #3: Forcefully change target(s) to self
                random(Blizzara, Fira, Thundara)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots

@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -21,7 +20,7 @@ ACTIVE RULES:
                Display message: And ladies who dress like men!
                Display message: For Gilgamesh...it is morphing time!
                Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots

@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Default rule:
@@ -10,7 +9,7 @@ ACTIVE RULES:
       Turn #2: random(!Attack, Special: Venomous Clasp, !Attack)
       Turn #3: random(!Attack, Special: Venomous Clasp, Special: Venomous Clasp)
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1]
+                 Enemy slots with shown enemies: [#1]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots

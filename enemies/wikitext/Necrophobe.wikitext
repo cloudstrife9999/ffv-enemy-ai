@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -86,7 +85,7 @@ REACTIVE RULES:
       Consecutive actions:
         Change music to "Battle With Gilgamesh"
         Prepare to show/hide enemies:
-          Relevant enemy slots: [#1, #6]
+          Enemy slots with shown enemies: [#1, #6]
           Behaviour:
             - Do not transfer HP to the newly shown enemy/enemies
             - Show all enemies from the specified slots

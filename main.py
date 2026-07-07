@@ -181,7 +181,6 @@ def write_single_enemies_ai_script(ai_script_list: list[list[str]], enemy_names:
         ai_script: list[str] = ai_script_list[list(enemy_names.keys()).index(enemy_id)]
         ai_script_lines: list[str] = [
             "==[[Final Fantasy V enemy AI|AI script]]==",
-            r"{{See|Final Fantasy V enemy AI}}",
             "<pre style=\"white-space: pre; overflow-x: auto; max-width: 100%;\">"
         ]
 

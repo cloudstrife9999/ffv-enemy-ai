@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -8,7 +7,7 @@ ACTIVE RULES:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -24,7 +23,7 @@ ACTIVE RULES:
       Turn #4: [Nothing]
       Turn #5: [Nothing]
       Turn #6: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -35,28 +34,28 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #2: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #4, #5]
+                 Enemy slots with shown enemies: [#1, #2, #4, #5]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #3: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #3, #4, #6]
+                 Enemy slots with shown enemies: [#1, #3, #4, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
                    - Style: Fade
                Ability: [Unhide enemy]
       Turn #4: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#1, #2, #3, #4, #5, #6]
+                 Enemy slots with shown enemies: [#1, #2, #3, #4, #5, #6]
                  Behaviour:
                    - Do not transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots

@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -7,7 +6,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#1]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#4]
+                 Enemy slots with shown enemies: [#4]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
@@ -18,7 +17,7 @@ ACTIVE RULES:
       No visible enemies in slots other than [#1, #7]
     Actions:
       Turn #1: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#4, #7]
+                 Enemy slots with shown enemies: [#4, #7]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots

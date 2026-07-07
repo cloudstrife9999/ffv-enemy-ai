@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
@@ -11,7 +10,7 @@ ACTIVE RULES:
                  random(Encircle, Encircle, !Attack)
                  Set Var_00 to 0
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#1, #2, #3]
+                   Enemy slots with shown enemies: [#1, #2, #3]
                    Behaviour:
                      - Do not transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots
@@ -26,7 +25,7 @@ ACTIVE RULES:
                  random(Delta Attack, Delta Attack, !Attack)
                  Set Var_00 to 1
                  Prepare to show/hide enemies:
-                   Relevant enemy slots: [#4, #5, #6]
+                   Enemy slots with shown enemies: [#4, #5, #6]
                    Behaviour:
                      - Transfer HP to the newly shown enemy/enemies
                      - Show all enemies from the specified slots

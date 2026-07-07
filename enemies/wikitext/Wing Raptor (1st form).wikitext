@@ -1,5 +1,4 @@
 ==[[Final Fantasy V enemy AI|AI script]]==
-{{See|Final Fantasy V enemy AI}}
 <pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Default rule:
@@ -9,7 +8,7 @@ ACTIVE RULES:
       Turn #1: random(Breath Wing, !Attack, Breath Wing)
       Turn #2: random(Breath Wing, !Attack, Breath Wing)
       Turn #3: Prepare to show/hide enemies:
-                 Relevant enemy slots: [#2]
+                 Enemy slots with shown enemies: [#2]
                  Behaviour:
                    - Transfer HP to the newly shown enemy/enemies
                    - Show all enemies from the specified slots
