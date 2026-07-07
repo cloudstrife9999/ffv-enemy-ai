@@ -12239,8 +12239,8 @@ ACTIVE RULES:
     Actions:
       Turn #1: Colour effect: Multicolour On
                Consecutive actions:
-                 random(Meteor, Almagest, Special: Unused 0x39)
-                 random(Maelstrom, White Hole, Special: Unused 0x39)
+                 random(Meteor, Almagest, Special: Dimension Zero)
+                 random(Maelstrom, White Hole, Special: Dimension Zero)
                  Colour effect: Multicolour Off
       Turn #2: random(Delta Attack, Flare, Holy)
       Turn #3: Colour effect: Multicolour On
@@ -12251,7 +12251,7 @@ ACTIVE RULES:
       Turn #5: random(Level 3 Flare, Level 4 Graviga, Level 5 Death)
       Turn #6: Colour effect: Multicolour On
                Consecutive actions:
-                 Special: Unused 0x39
+                 Special: Dimension Zero
                  Colour effect: Multicolour Off
 REACTIVE RULES:
   Rule #1:

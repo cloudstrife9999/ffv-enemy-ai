@@ -29049,13 +29049,13 @@
                                     "action": "Random selection",
                                     "first_choice": "Ability: Meteor",
                                     "second_choice": "Ability: Almagest",
-                                    "third_choice": "Special: Unused 0x39"
+                                    "third_choice": "Special: Dimension Zero"
                                 },
                                 {
                                     "action": "Random selection",
                                     "first_choice": "Ability: Maelstrom",
                                     "second_choice": "Ability: White Hole",
-                                    "third_choice": "Special: Unused 0x39"
+                                    "third_choice": "Special: Dimension Zero"
                                 },
                                 {
                                     "action": "AI command",
@@ -29127,7 +29127,7 @@
                             "action": "AI command",
                             "type": "Consecutive actions",
                             "sub_actions": [
-                                "Special: Unused 0x39",
+                                "Special: Dimension Zero",
                                 {
                                     "action": "AI command",
                                     "type": "Visual or sound effect",

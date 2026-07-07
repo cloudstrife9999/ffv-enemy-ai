@@ -60,7 +60,7 @@ class Special(IntEnum):
     VACUUM_WAVE = 0x36
     KNIFE = 0x37 #
     VACUUM_WAVE_2 = 0x38  # Exclusive to Neo Exdeath's back part, Enuo (1st form, right hand, and left hand), and Necrophobia (Cloister of the Dead).
-    UNUSED_0X39 = 0x39
+    DIMENSION_ZERO = 0x39
     UNUSED_0X3A = 0x3A
     SILVER_POWDER = 0x3B
     POISON_POWDER = 0x3C
@@ -71,8 +71,6 @@ class Special(IntEnum):
     @override
     def __str__(self) -> str:
         match self:
-            case Special.UNUSED_0X39:
-                return "Unused 0x39"
             case Special.UNUSED_0X3A:
                 return "Unused 0x3A"
             case _:
