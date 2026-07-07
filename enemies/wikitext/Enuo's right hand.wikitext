@@ -1,4 +1,6 @@
-<pre>
+==[[Final Fantasy V enemy AI|AI script]]==
+{{See|Final Fantasy V enemy AI}}
+<pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -29,7 +31,7 @@ ACTIVE RULES:
                  random(Graviga, Slowga, [Nothing])
       Turn #3: Consecutive actions:
                  Forcefully change target(s) to a random party member
-                 random(Berserk, Pond S Chorus, [Nothing])
+                 random(Berserk, Pond's Chorus, [Nothing])
                  Forcefully change target(s) to a random party member
                  random(Evil Eye, White Hole, [Nothing])
 REACTIVE RULES:

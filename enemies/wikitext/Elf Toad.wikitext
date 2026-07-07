@@ -1,10 +1,12 @@
-<pre>
+==[[Final Fantasy V enemy AI|AI script]]==
+{{See|Final Fantasy V enemy AI}}
+<pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
     Conditions:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
-      Turn #1: random(!Attack, Pond S Chorus, !Attack)
+      Turn #1: random(!Attack, Pond's Chorus, !Attack)
   Default rule:
     Conditions:
       Unconditional

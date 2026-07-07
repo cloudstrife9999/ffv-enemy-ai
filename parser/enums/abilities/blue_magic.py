@@ -44,7 +44,7 @@ class BlueMagic(IntEnum):
             case BlueMagic.THOUSAND_NEEDLES:
                 return "1000 Needles"
             case _:
-                return self.name.replace("_", " ").title()
+                return self.name.replace("_", " ").title().replace(" S ", "'s ")
 
     @classmethod
     def is_valid_id(cls, value: int) -> bool:

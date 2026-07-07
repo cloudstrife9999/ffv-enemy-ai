@@ -19,7 +19,7 @@
                 "Turn #2": [
                     {
                         "action": "Random selection",
-                        "first_choice": "Ability: Pond S Chorus",
+                        "first_choice": "Ability: Pond's Chorus",
                         "second_choice": "Ability: !Attack",
                         "third_choice": "Stay idle"
                     }
@@ -30,7 +30,7 @@
                 "Turn #4": [
                     {
                         "action": "Random selection",
-                        "first_choice": "Ability: Pond S Chorus",
+                        "first_choice": "Ability: Pond's Chorus",
                         "second_choice": "Ability: !Attack",
                         "third_choice": "Ability: !Attack"
                     }

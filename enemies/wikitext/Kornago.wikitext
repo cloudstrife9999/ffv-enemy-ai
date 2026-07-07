@@ -1,4 +1,6 @@
-<pre>
+==[[Final Fantasy V enemy AI|AI script]]==
+{{See|Final Fantasy V enemy AI}}
+<pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -10,7 +12,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, Pond S Chorus, !Attack)
+      Turn #2: random(!Attack, Pond's Chorus, !Attack)
 REACTIVE RULES:
   None
 </pre>

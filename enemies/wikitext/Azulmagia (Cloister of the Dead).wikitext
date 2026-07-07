@@ -1,4 +1,6 @@
-<pre>
+==[[Final Fantasy V enemy AI|AI script]]==
+{{See|Final Fantasy V enemy AI}}
+<pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -47,7 +49,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Aqua Breath, Aqua Breath, Aera)
       Turn #2: random(Aqua Breath, Aqua Breath, Flame Thrower)
-      Turn #3: random(Aqua Breath, Aqua Breath, Pond S Chorus)
+      Turn #3: random(Aqua Breath, Aqua Breath, Pond's Chorus)
       Turn #4: Set Var_00 to 0
                random(Aqua Breath, Aqua Breath, Missile)
   Rule #7:

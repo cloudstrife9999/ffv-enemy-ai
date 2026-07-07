@@ -811,7 +811,7 @@
                         {
                             "action": "Random selection",
                             "first_choice": "Ability: !Attack",
-                            "second_choice": "Ability: Pond S Chorus",
+                            "second_choice": "Ability: Pond's Chorus",
                             "third_choice": "Ability: !Attack"
                         }
                     ]
@@ -2634,7 +2634,7 @@
                     "Turn #2": [
                         {
                             "action": "Random selection",
-                            "first_choice": "Ability: Pond S Chorus",
+                            "first_choice": "Ability: Pond's Chorus",
                             "second_choice": "Ability: !Attack",
                             "third_choice": "Stay idle"
                         }
@@ -2645,7 +2645,7 @@
                     "Turn #4": [
                         {
                             "action": "Random selection",
-                            "first_choice": "Ability: Pond S Chorus",
+                            "first_choice": "Ability: Pond's Chorus",
                             "second_choice": "Ability: !Attack",
                             "third_choice": "Ability: !Attack"
                         }
@@ -3427,7 +3427,7 @@
                         {
                             "action": "Random selection",
                             "first_choice": "Ability: !Attack",
-                            "second_choice": "Ability: Pond S Chorus",
+                            "second_choice": "Ability: Pond's Chorus",
                             "third_choice": "Ability: !Attack"
                         }
                     ]
@@ -7318,7 +7318,7 @@
                     {
                         "action": "Random selection",
                         "first_choice": "Ability: Embrace",
-                        "second_choice": "Ability: Pond S Chorus",
+                        "second_choice": "Ability: Pond's Chorus",
                         "third_choice": "Stay idle"
                     }
                 ]
@@ -7739,7 +7739,7 @@
                         {
                             "action": "Random selection",
                             "first_choice": "Ability: Osmose",
-                            "second_choice": "Ability: Pond S Chorus",
+                            "second_choice": "Ability: Pond's Chorus",
                             "third_choice": "Stay idle"
                         }
                     ],
@@ -9218,7 +9218,7 @@
                             "action": "AI command",
                             "type": "Consecutive actions",
                             "sub_actions": [
-                                "Ability: Pond S Chorus",
+                                "Ability: Pond's Chorus",
                                 {
                                     "action": "AI command",
                                     "type": "Display message",
@@ -17014,7 +17014,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Aqua Breath",
                             "second_choice": "Ability: Aqua Breath",
-                            "third_choice": "Ability: Pond S Chorus"
+                            "third_choice": "Ability: Pond's Chorus"
                         }
                     ],
                     "Turn #4": [
@@ -18018,7 +18018,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Hurricane",
                             "second_choice": "Ability: !Attack",
-                            "third_choice": "Ability: Pond S Chorus"
+                            "third_choice": "Ability: Pond's Chorus"
                         }
                     ],
                     "Turn #2": [
@@ -18138,7 +18138,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Hurricane",
                             "second_choice": "Ability: !Attack",
-                            "third_choice": "Ability: Pond S Chorus"
+                            "third_choice": "Ability: Pond's Chorus"
                         }
                     ],
                     "Turn #5": [
@@ -18154,7 +18154,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Rocket Punch",
                             "second_choice": "Ability: !Attack",
-                            "third_choice": "Ability: Pond S Chorus"
+                            "third_choice": "Ability: Pond's Chorus"
                         }
                     ]
                 }

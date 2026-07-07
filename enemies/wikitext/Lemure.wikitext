@@ -1,4 +1,6 @@
-<pre>
+==[[Final Fantasy V enemy AI|AI script]]==
+{{See|Final Fantasy V enemy AI}}
+<pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10,5 +12,5 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Embrace, Pond S Chorus, [Nothing])
+      random(Embrace, Pond's Chorus, [Nothing])
 </pre>

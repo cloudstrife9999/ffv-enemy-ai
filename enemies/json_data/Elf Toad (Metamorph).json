@@ -13,7 +13,7 @@
                         "action": "AI command",
                         "type": "Consecutive actions",
                         "sub_actions": [
-                            "Ability: Pond S Chorus",
+                            "Ability: Pond's Chorus",
                             {
                                 "action": "AI command",
                                 "type": "Display message",

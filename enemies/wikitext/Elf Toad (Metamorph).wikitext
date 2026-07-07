@@ -1,11 +1,13 @@
-<pre>
+==[[Final Fantasy V enemy AI|AI script]]==
+{{See|Final Fantasy V enemy AI}}
+<pre style="white-space: pre; overflow-x: auto; max-width: 100%;">
 ACTIVE RULES:
   Default rule:
     Conditions:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Ability: Pond S Chorus
+                 Ability: Pond's Chorus
                  Display message: Revert!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]

@@ -406,7 +406,7 @@ ACTIVE RULES:
     Conditions:
       Lone enemy (duplicates do not count as separate enemies)
     Actions:
-      Turn #1: random(!Attack, Pond S Chorus, !Attack)
+      Turn #1: random(!Attack, Pond's Chorus, !Attack)
   Default rule:
     Conditions:
       Unconditional
@@ -1209,9 +1209,9 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: random(!Attack, [Nothing], [Nothing])
-      Turn #2: random(Pond S Chorus, !Attack, [Nothing])
+      Turn #2: random(Pond's Chorus, !Attack, [Nothing])
       Turn #3: Ability: !Attack
-      Turn #4: random(Pond S Chorus, !Attack, !Attack)
+      Turn #4: random(Pond's Chorus, !Attack, !Attack)
 REACTIVE RULES:
   None
 
@@ -1590,7 +1590,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Ability: !Attack
-      Turn #2: random(!Attack, Pond S Chorus, !Attack)
+      Turn #2: random(!Attack, Pond's Chorus, !Attack)
 REACTIVE RULES:
   None
 
@@ -3302,7 +3302,7 @@ REACTIVE RULES:
     Conditions:
       Hit by !Attack
     Actions:
-      random(Embrace, Pond S Chorus, [Nothing])
+      random(Embrace, Pond's Chorus, [Nothing])
 
 ----------------------------------------
 
@@ -3464,7 +3464,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: [Nothing]
-      Turn #2: random(Osmose, Pond S Chorus, [Nothing])
+      Turn #2: random(Osmose, Pond's Chorus, [Nothing])
       Turn #3: Ability: !Attack
       Turn #4: random(Drain, Lilliputian Lyric, [Nothing])
 REACTIVE RULES:
@@ -4095,7 +4095,7 @@ ACTIVE RULES:
       Unconditional
     Actions:
       Turn #1: Consecutive actions:
-                 Ability: Pond S Chorus
+                 Ability: Pond's Chorus
                  Display message: Revert!
                  Prepare to show/hide enemies:
                    Relevant enemy slots: [#1]
@@ -10537,7 +10537,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Aqua Breath, Aqua Breath, Aera)
       Turn #2: random(Aqua Breath, Aqua Breath, Flame Thrower)
-      Turn #3: random(Aqua Breath, Aqua Breath, Pond S Chorus)
+      Turn #3: random(Aqua Breath, Aqua Breath, Pond's Chorus)
       Turn #4: Set Var_00 to 0
                random(Aqua Breath, Aqua Breath, Missile)
   Rule #7:
@@ -10825,7 +10825,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: Display message: ...an understanding that
                Display message: I will pound you silly! Ha ha!
-               random(Hurricane, !Attack, Pond S Chorus)
+               random(Hurricane, !Attack, Pond's Chorus)
       Turn #2: Display message: Gilgamesh: Say...
                Display message: what happened to that spry old fellow?
                Display message: Krile: He...he fought Exdeath, and...
@@ -10851,9 +10851,9 @@ ACTIVE RULES:
       Turn #1: random(Dischord, !Attack, Lilliputian Lyric)
       Turn #2: random(Dancehall Daze, !Attack, Special: Critical Attack)
       Turn #3: random(Flash, !Attack, Special: Critical Attack)
-      Turn #4: random(Hurricane, !Attack, Pond S Chorus)
+      Turn #4: random(Hurricane, !Attack, Pond's Chorus)
       Turn #5: random(Time Slip, !Attack, Special: Critical Attack)
-      Turn #6: random(Rocket Punch, !Attack, Pond S Chorus)
+      Turn #6: random(Rocket Punch, !Attack, Pond's Chorus)
 REACTIVE RULES:
   Rule #1:
     Conditions:
@@ -12200,7 +12200,7 @@ ACTIVE RULES:
                  random(Graviga, Slowga, [Nothing])
       Turn #3: Consecutive actions:
                  Forcefully change target(s) to a random party member
-                 random(Berserk, Pond S Chorus, [Nothing])
+                 random(Berserk, Pond's Chorus, [Nothing])
                  Forcefully change target(s) to a random party member
                  random(Evil Eye, White Hole, [Nothing])
 REACTIVE RULES:
@@ -13992,7 +13992,7 @@ ACTIVE RULES:
     Actions:
       Turn #1: random(Aqua Breath, Aqua Breath, Aera)
       Turn #2: random(Aqua Breath, Aqua Breath, Flame Thrower)
-      Turn #3: random(Aqua Breath, Aqua Breath, Pond S Chorus)
+      Turn #3: random(Aqua Breath, Aqua Breath, Pond's Chorus)
       Turn #4: Set Var_00 to 0
                random(Aqua Breath, Aqua Breath, Missile)
   Rule #7:
