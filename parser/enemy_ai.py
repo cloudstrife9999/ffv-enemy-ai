@@ -2,6 +2,14 @@ from typing import Any
 
 from .rule import EnemyAIRule
 from .enums.game_version import GameVersion
+from .actions.action import AIRuleAction
+from .actions.ai_command_action import AICommandAction
+from .actions.no_interrupt_action import NoInterruptAction
+from .actions.random_selection_action import RandomSelectionAction
+from .actions.gba_random_selection_action import GBARandomSelectionAction
+from .actions.simple_action import SimpleAction
+from .ability import Ability
+from .enums.abilities.enemy_abilities import EnemyAbilities
 
 
 class EnemyAI():
@@ -25,6 +33,39 @@ class EnemyAI():
     @tokens.setter
     def tokens(self, _: Any) -> None:
         raise AttributeError("Tokens property is read-only. Use add_condition(), add_action(), add_separator(), or add_terminator() to add new tokens.")
+
+    def get_all_simple_action_names(self) -> set[str]:
+        all_actions: list[AIRuleAction] = []
+
+        for rule in self.__active_ai_rules + self.__reactive_ai_rules:
+            all_actions.extend(rule.actions)
+
+        simple_actions: set[str] = self.__extract_simple_action_names(all_actions)
+
+        return simple_actions
+
+    def __extract_simple_action_names(self, all_actions: list[AIRuleAction]) -> set[str]:
+        simple_actions: set[str] = set()
+
+        for action in all_actions:
+            if isinstance(action, SimpleAction):
+                simple_actions.add(self.__get_action_name_from_id(action.raw_action_code))
+            elif isinstance(action, RandomSelectionAction) or isinstance(action, GBARandomSelectionAction):
+                simple_actions.add(self.__get_action_name_from_id(action.first_choice.raw_action_code))
+                simple_actions.add(self.__get_action_name_from_id(action.second_choice.raw_action_code))
+                simple_actions.add(self.__get_action_name_from_id(action.third_choice.raw_action_code))
+            elif isinstance(action, AICommandAction) and isinstance(action.sub_action, NoInterruptAction):
+                simple_actions.update(self.__extract_simple_action_names(action.sub_action.sub_actions))
+
+        return simple_actions
+
+    def __get_action_name_from_id(self, action_id: int) -> str:
+        if EnemyAbilities.is_valid_id(action_id) and EnemyAbilities(action_id) == EnemyAbilities.UNNAMED_SPECIAL_ABILITY:
+            return self.__enemy_special_ability
+        elif Ability.is_valid_id(action_id):
+            return str(Ability.from_id(action_id))
+        else:
+            raise ValueError(f"Invalid action ID: 0x{action_id:02X}. Cannot retrieve action name.")
 
     def add_condition(self, tokens: list[int]) -> None:
         self.__tokens.append(tokens)

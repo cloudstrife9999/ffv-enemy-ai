@@ -29,6 +29,7 @@ class AbstractAIParser(ABC):
         self.__battle_text: dict[int, str] = {}
         self.__ai_output_path: Path = Path(self.__config["parsed_ai_file_path"])
         self.__script_output_path: Path = Path(self.__config["ai_script_representation_file_path"])
+        self.__simple_actions_output_path: Path = Path(self.__config["simple_actions_file_path"])
         self.__individual_ai_output_dir: Path = Path(self.__config["individual_ai_output_dir"])
 
     @property
@@ -88,8 +89,10 @@ class AbstractAIParser(ABC):
             return load(file)
 
     @staticmethod
-    def __write_json(path: Path, data: Any) -> None:
-        with path.open("w", encoding="utf-8") as file:
+    def __write_json(path: Path, data: Any, append: bool = False) -> None:
+        mode: str = "a" if append else "w"
+
+        with path.open(mode, encoding="utf-8") as file:
             dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
@@ -103,6 +106,21 @@ class AbstractAIParser(ABC):
         with path.open("w", encoding="utf-8") as file:
             for line in lines:
                 file.write(line + "\n")
+
+    @staticmethod
+    def __dump_simple_actions_to_json(enemy_id: str, enemy_name: str, simple_actions: set[str], output_path: Path) -> None:
+        simple_actions_json: list[str] = list(simple_actions)
+
+        output_data: JsonObject = {
+            "enemy_name": enemy_name,
+            "simple_actions": simple_actions_json
+        }
+
+        current_data: JsonObject = AbstractAIParser.__load_json(output_path) if output_path.exists() else {}
+
+        current_data[enemy_id] = output_data
+
+        AbstractAIParser.__write_json(output_path, current_data)
 
     @staticmethod
     def __convert_enemy_special_abilities_keys_to_int(enemy_special_abilities: dict[str, str]) -> dict[int, dict[str, int]]:
@@ -165,6 +183,8 @@ class AbstractAIParser(ABC):
 
         if final_hex_ai != original_hex_ai:
             parsed_ai["raw"] = final_hex_ai
+
+        AbstractAIParser.__dump_simple_actions_to_json(enemy_id, enemy_name, parser.get_parsed_ai().get_all_simple_action_names(), self.__simple_actions_output_path)
 
         return parsed_ai, ai_script
 

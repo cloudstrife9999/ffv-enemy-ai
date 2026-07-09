@@ -17,6 +17,14 @@ class EnemyAIRule():
         self.__enemy_special_ability: str = enemy_special_ability
         self.__game_version: GameVersion = game_version
 
+    @property
+    def actions(self) -> list[AIRuleAction]:
+        return self.__actions
+
+    @actions.setter
+    def actions(self, _: Any) -> None:
+        raise AttributeError("Read-only property: actions.")
+
     def add_condition(self, tokens: list[int]) -> None:
         self.__tokens.append(tokens)
 
