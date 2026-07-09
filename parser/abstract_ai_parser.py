@@ -14,7 +14,7 @@ JsonObjectWithIntegerKeys: TypeAlias = dict[int, Any]
 
 
 class AbstractAIParser(ABC):
-    CONFIG_FILE_PATH: Path = Path("res/config.json")
+    __CONFIG_FILE_PATH: Path = Path("res/config.json")
     __PATCHED_ENEMY_ID: str = "E5"
     __BAD_TERMINATOR: str = "FEFF"
     __GOOD_TERMINATOR: str = "FFFF"
@@ -23,12 +23,10 @@ class AbstractAIParser(ABC):
         self.__config: dict[str, str] = self.load_config()
         self.__game_version: GameVersion = game_version
         self.__write_individual_ai_scripts: bool = write_individual_ai_scripts
-
         self.__enemy_ai_map: dict[str, str] = {}
         self.__enemy_names: dict[str, str] = {}
         self.__enemy_special_abilities: dict[int, dict[str, int]] = {}
         self.__battle_text: dict[int, str] = {}
-
         self.__ai_output_path: Path = Path(self.__config["parsed_ai_file_path"])
         self.__script_output_path: Path = Path(self.__config["ai_script_representation_file_path"])
         self.__individual_ai_output_dir: Path = Path(self.__config["individual_ai_output_dir"])
@@ -43,18 +41,18 @@ class AbstractAIParser(ABC):
         ...
 
     def run(self) -> None:
-        self._load_resources()
+        self.__load_resources()
 
-        ai_script_list: list[list[str]] = self.generate_and_write_validation_results()
+        ai_script_list: list[list[str]] = self.__generate_and_write_validation_results()
 
-        self.write_ai_script(ai_script_list)
+        self.__write_ai_script(ai_script_list)
 
         if self.__write_individual_ai_scripts:
-                self.write_single_enemies_ai_script(ai_script_list)
+                self.__write_single_enemies_ai_script(ai_script_list)
 
     @staticmethod
     def load_and_normalise_config(bad_prefix: str, good_prefix: str) -> dict[str, str]:
-        with AbstractAIParser.CONFIG_FILE_PATH.open("r", encoding="utf-8") as file:
+        with AbstractAIParser.__CONFIG_FILE_PATH.open("r", encoding="utf-8") as file:
             tmp_config: dict[str, str] = load(file)
 
         keys_to_remove: list[str] = [key for key in tmp_config if key.startswith(bad_prefix)]
@@ -72,41 +70,42 @@ class AbstractAIParser(ABC):
 
         return tmp_config
 
-    def _load_resources(self) -> None:
-        self.__enemy_ai_map = self.load_json(Path(self.__config["enemy_ai_map_file_path"]))
-        self.__enemy_names = self.load_json(Path(self.__config["enemy_names_file_path"]))
+    def __load_resources(self) -> None:
+        self.__enemy_ai_map = self.__load_json(Path(self.__config["enemy_ai_map_file_path"]))
+        self.__enemy_names = self.__load_json(Path(self.__config["enemy_names_file_path"]))
 
-        enemy_special_abilities: dict[str, str] = self.load_json(Path(self.__config["enemy_special_abilities_file_path"]))
+        enemy_special_abilities: dict[str, str] = self.__load_json(Path(self.__config["enemy_special_abilities_file_path"]))
 
-        self.__enemy_special_abilities = self.convert_enemy_special_abilities_keys_to_int(enemy_special_abilities)
+        self.__enemy_special_abilities = self.__convert_enemy_special_abilities_keys_to_int(enemy_special_abilities)
 
-        battle_text: dict[str, str] = self.load_json(Path(self.__config["battle_text_file_path"]))
-        self.__battle_text = self.convert_battle_text_keys_to_int(battle_text)
+        battle_text: dict[str, str] = self.__load_json(Path(self.__config["battle_text_file_path"]))
+
+        self.__battle_text = self.__convert_battle_text_keys_to_int(battle_text)
 
     @staticmethod
-    def load_json(path: Path) -> JsonObject:
+    def __load_json(path: Path) -> JsonObject:
         with path.open("r", encoding="utf-8") as file:
             return load(file)
 
     @staticmethod
-    def write_json(path: Path, data: Any) -> None:
+    def __write_json(path: Path, data: Any) -> None:
         with path.open("w", encoding="utf-8") as file:
             dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
-    def write_individual_json_ai_scripts(output_dir: Path, enemy_name: str, parsed_ai: JsonObject) -> None:
+    def __write_individual_json_ai_scripts(output_dir: Path, enemy_name: str, parsed_ai: JsonObject) -> None:
         output_path: Path = output_dir / "json_data" / f"{enemy_name}.json"
 
-        AbstractAIParser.write_json(output_path, parsed_ai)
+        AbstractAIParser.__write_json(output_path, parsed_ai)
 
     @staticmethod
-    def write_compact_representation(path: Path, lines: list[str]) -> None:
+    def __write_compact_representation(path: Path, lines: list[str]) -> None:
         with path.open("w", encoding="utf-8") as file:
             for line in lines:
                 file.write(line + "\n")
 
     @staticmethod
-    def convert_enemy_special_abilities_keys_to_int(enemy_special_abilities: dict[str, str]) -> dict[int, dict[str, int]]:
+    def __convert_enemy_special_abilities_keys_to_int(enemy_special_abilities: dict[str, str]) -> dict[int, dict[str, int]]:
         converted_enemy_special_abilities: dict[int, dict[str, int]] = {}
 
         for enemy_id_str, data in enemy_special_abilities.items():
@@ -122,7 +121,7 @@ class AbstractAIParser(ABC):
         return converted_enemy_special_abilities
 
     @staticmethod
-    def convert_battle_text_keys_to_int(battle_text: dict[str, str]) -> dict[int, str]:
+    def __convert_battle_text_keys_to_int(battle_text: dict[str, str]) -> dict[int, str]:
         converted_battle_text: dict[int, str] = {}
 
         for key, value in battle_text.items():
@@ -131,7 +130,7 @@ class AbstractAIParser(ABC):
 
         return converted_battle_text
 
-    def generate_and_write_validation_results(self) -> list[list[str]]:
+    def __generate_and_write_validation_results(self) -> list[list[str]]:
         parsed_ai_list: list[JsonObject] = []
         ai_script_list: list[list[str]] = []
 
@@ -139,27 +138,27 @@ class AbstractAIParser(ABC):
             enemy_name: str = self.__enemy_names.get(enemy_id, "Unknown Enemy")
             enemy_special_ability_id: int = self.__enemy_special_abilities.get(int(enemy_id, 16), {}).get("special_ability_id", -1)
             enemy_special_ability: str = str(Special(enemy_special_ability_id)) if enemy_special_ability_id != -1 else "[special ability]"
-            parsed_ai, ai_script = self.parse_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai)
+            parsed_ai, ai_script = self.__parse_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai)
 
             parsed_ai_list.append(parsed_ai)
             ai_script_list.append(ai_script)
 
             if self.__write_individual_ai_scripts:
-                AbstractAIParser.write_individual_json_ai_scripts(self.__individual_ai_output_dir, enemy_name, parsed_ai)
+                AbstractAIParser.__write_individual_json_ai_scripts(self.__individual_ai_output_dir, enemy_name, parsed_ai)
 
-        self.write_json(self.__ai_output_path, parsed_ai_list)
+        self.__write_json(self.__ai_output_path, parsed_ai_list)
 
         return ai_script_list
 
-    def parse_ai(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, original_hex_ai: str) -> tuple[JsonObject, list[str]]:
-        valid, final_hex_ai, parser = self.parse_with_optional_patch(enemy_id, enemy_name, enemy_special_ability, original_hex_ai)
+    def __parse_ai(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, original_hex_ai: str) -> tuple[JsonObject, list[str]]:
+        valid, final_hex_ai, parser = self.__parse_with_optional_patch(enemy_id, enemy_name, enemy_special_ability, original_hex_ai)
 
         if not valid:
             error: str = f"Failed to parse AI even after patching {self.__BAD_TERMINATOR} to {self.__GOOD_TERMINATOR}." if enemy_id == self.__PATCHED_ENEMY_ID else "Failed to parse AI."
 
-            return self.failure_result(enemy_id, enemy_name, final_hex_ai, error), []
+            return self.__failure_result(enemy_id, enemy_name, final_hex_ai, error), []
 
-        self.validate_recompile(enemy_id, final_hex_ai, parser)
+        self.__validate_recompile(enemy_id, final_hex_ai, parser)
 
         parsed_ai: JsonObject = parser.get_parsed_ai().to_json()
         ai_script: list[str] = parser.get_parsed_ai().to_compact_representation()
@@ -169,33 +168,33 @@ class AbstractAIParser(ABC):
 
         return parsed_ai, ai_script
 
-    def parse_with_optional_patch(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str) -> tuple[bool, str, EnemyAIParser]:
-        valid, parser = self.parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai)
+    def __parse_with_optional_patch(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str) -> tuple[bool, str, EnemyAIParser]:
+        valid, parser = self.__parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, hex_ai)
 
         if valid or enemy_id != self.__PATCHED_ENEMY_ID:
             return valid, hex_ai, parser
 
-        patched_hex_ai: str = self.patch_hex_ai(enemy_id, hex_ai)
-        valid, parser = self.parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, patched_hex_ai)
+        patched_hex_ai: str = self.__patch_hex_ai(enemy_id, hex_ai)
+        valid, parser = self.__parse_enemy_ai(enemy_id, enemy_name, enemy_special_ability, patched_hex_ai)
 
         return valid, patched_hex_ai, parser
 
     @classmethod
-    def patch_hex_ai(cls, enemy_id: str, hex_ai: str) -> str:
+    def __patch_hex_ai(cls, enemy_id: str, hex_ai: str) -> str:
         if enemy_id != cls.__PATCHED_ENEMY_ID:
             return hex_ai
 
         return hex_ai.replace(cls.__BAD_TERMINATOR, cls.__GOOD_TERMINATOR)
 
     @staticmethod
-    def validate_recompile(enemy_id: str, hex_ai: str, parser: EnemyAIParser) -> None:
+    def __validate_recompile(enemy_id: str, hex_ai: str, parser: EnemyAIParser) -> None:
         recompiled: str = parser.recompile_tokens()
 
         if recompiled != hex_ai:
             raise ValueError(f"[Parser] Parsed and recompiled AI for enemy {enemy_id} does not match original hex AI.\nHex AI: {hex_ai}.\nRecompiled AI: {recompiled}.")
 
     @staticmethod
-    def failure_result(enemy_id: str, enemy_name: str, hex_ai: str, error: str) -> JsonObject:
+    def __failure_result(enemy_id: str, enemy_name: str, hex_ai: str, error: str) -> JsonObject:
         return {
             "enemy_id": enemy_id,
             "enemy_name": enemy_name,
@@ -204,12 +203,12 @@ class AbstractAIParser(ABC):
             "error": error,
         }
 
-    def parse_enemy_ai(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str) -> tuple[bool, EnemyAIParser]:
+    def __parse_enemy_ai(self, enemy_id: str, enemy_name: str, enemy_special_ability: str, hex_ai: str) -> tuple[bool, EnemyAIParser]:
         parser: EnemyAIParser = EnemyAIParser(enemy_id=enemy_id, enemy_name=enemy_name, enemy_special_ability=enemy_special_ability, tokens=bytes.fromhex(hex_ai), battle_text=self.__battle_text, game_version=self.__game_version)
 
         return parser.parse(), parser
 
-    def write_ai_script(self, ai_script_list: list[list[str]]) -> None:
+    def __write_ai_script(self, ai_script_list: list[list[str]]) -> None:
         ai_script_lines: list[str] = []
 
         for (enemy_id, enemy_name), ai_script in zip(self.__enemy_names.items(), ai_script_list):
@@ -221,9 +220,9 @@ class AbstractAIParser(ABC):
 
             ai_script_lines.append("\n" + "-" * 40 + "\n")
 
-        self.write_compact_representation(self.__script_output_path, ai_script_lines)
+        self.__write_compact_representation(self.__script_output_path, ai_script_lines)
 
-    def write_single_enemies_ai_script(self, ai_script_list: list[list[str]]) -> None:
+    def __write_single_enemies_ai_script(self, ai_script_list: list[list[str]]) -> None:
         output_dir: Path = self.__individual_ai_output_dir / "wikitext"
         output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -241,4 +240,4 @@ class AbstractAIParser(ABC):
 
             output_file_path: Path = output_dir / f"{enemy_name}.wikitext"
 
-            AbstractAIParser.write_compact_representation(output_file_path, ai_script_lines)
+            AbstractAIParser.__write_compact_representation(output_file_path, ai_script_lines)
