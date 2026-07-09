@@ -34,6 +34,14 @@ class EnemyAI():
     def tokens(self, _: Any) -> None:
         raise AttributeError("Tokens property is read-only. Use add_condition(), add_action(), add_separator(), or add_terminator() to add new tokens.")
 
+    @property
+    def special_ability(self) -> str:
+        return self.__enemy_special_ability
+
+    @special_ability.setter
+    def special_ability(self, _: Any) -> None:
+        raise AttributeError("Special ability property is read-only.")
+
     def get_all_simple_action_names(self) -> set[str]:
         all_actions: list[AIRuleAction] = []
 
