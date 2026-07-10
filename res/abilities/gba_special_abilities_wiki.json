@@ -1,0 +1,4247 @@
+{
+    "00": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "01": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x01",
+        "ability_name": "[[Needle (Final Fantasy V enemy ability)|Needle]]"
+    },
+    "02": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x02",
+        "ability_name": "[[Incisor (Final Fantasy V)|Incisor]]"
+    },
+    "03": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "04": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "05": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x05",
+        "ability_name": "[[Pincer (Final Fantasy V)|Pincer]]"
+    },
+    "06": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "07": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "08": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "09": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "0A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x06",
+        "ability_name": "[[Magic Stick]]"
+    },
+    "0B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "0C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x08",
+        "ability_name": "[[Ten Arms (Final Fantasy V)|Ten Arms]]"
+    },
+    "0D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x07",
+        "ability_name": "[[Eight Arms (Final Fantasy V)|Eight Arms]]"
+    },
+    "0E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x01",
+        "ability_name": "[[Needle (Final Fantasy V enemy ability)|Needle]]"
+    },
+    "0F": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x09",
+        "ability_name": "[[Horn (Final Fantasy V)|Horn]]"
+    },
+    "10": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "11": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0b",
+        "ability_name": "[[Body Slam (Final Fantasy V)|Body Slam]]"
+    },
+    "12": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x10",
+        "ability_name": "[[Lick (Final Fantasy V)|Lick]]"
+    },
+    "17": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x2f",
+        "ability_name": "[[Cat Scratch (Final Fantasy V)|Cat Scratch]]"
+    },
+    "19": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0d",
+        "ability_name": "[[Dive (Final Fantasy V)|Dive]]"
+    },
+    "1A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x30",
+        "ability_name": "[[Corner (Final Fantasy V)|Corner]]"
+    },
+    "1B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x0e",
+        "ability_name": "[[Fin (Final Fantasy V)|Fin]]"
+    },
+    "20": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "21": {
+        "flags": {
+            "Old status": true
+        },
+        "ability_id": "0x0f",
+        "ability_name": "[[Feeler (Final Fantasy V)|Feeler]]"
+    },
+    "22": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x11",
+        "ability_name": "[[Bite (Final Fantasy V)|Bite]]"
+    },
+    "24": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "25": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "26": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "27": {
+        "flags": {
+            "Old status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x06",
+        "ability_name": "[[Magic Stick]]"
+    },
+    "28": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "29": {
+        "flags": {
+            "Confuse status": true
+        },
+        "ability_id": "0x10",
+        "ability_name": "[[Lick (Final Fantasy V)|Lick]]"
+    },
+    "2A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2D": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "2E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2F": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x11",
+        "ability_name": "[[Bite (Final Fantasy V)|Bite]]"
+    },
+    "30": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x12",
+        "ability_name": "[[Elbow (Final Fantasy V)|Elbow]]"
+    },
+    "31": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "32": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "33": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "34": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "35": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x27",
+        "ability_name": "[[High Kick (Final Fantasy V)|High Kick]]"
+    },
+    "36": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0b",
+        "ability_name": "[[Body Slam (Final Fantasy V)|Body Slam]]"
+    },
+    "37": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "38": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "39": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x2d",
+        "ability_name": "[[Sickle (Final Fantasy V)|Sickle]]"
+    },
+    "3A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "3B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x14",
+        "ability_name": "[[Headbutt (Final Fantasy V)|Headbutt]]"
+    },
+    "3C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "3D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "3E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "3F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "40": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "41": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x15",
+        "ability_name": "[[Right Claw (Final Fantasy V)|Right Claw]]"
+    },
+    "42": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "43": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x21",
+        "ability_name": "[[Sling (Final Fantasy V)|Sling]]"
+    },
+    "44": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x30",
+        "ability_name": "[[Corner (Final Fantasy V)|Corner]]"
+    },
+    "45": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "46": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x17",
+        "ability_name": "[[Slap (Final Fantasy V)|Slap]]"
+    },
+    "47": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "48": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "49": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "4A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "4B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "4C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "4D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "4E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "4F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "50": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "51": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x18",
+        "ability_name": "[[Spear (Final Fantasy V enemy ability)|Spear]]"
+    },
+    "52": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x08",
+        "ability_name": "[[Ten Arms (Final Fantasy V)|Ten Arms]]"
+    },
+    "53": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "54": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "55": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x01",
+        "ability_name": "[[Needle (Final Fantasy V enemy ability)|Needle]]"
+    },
+    "56": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "57": {
+        "flags": {
+            "Confuse status": true
+        },
+        "ability_id": "0x29",
+        "ability_name": "[[Knock Silly (Final Fantasy V)|Knock Silly]]"
+    },
+    "58": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "59": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x05",
+        "ability_name": "[[Pincer (Final Fantasy V)|Pincer]]"
+    },
+    "5A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x07",
+        "ability_name": "[[Eight Arms (Final Fantasy V)|Eight Arms]]"
+    },
+    "5B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x19",
+        "ability_name": "[[Wing Attack (Final Fantasy V)|Wing Attack]]"
+    },
+    "5C": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Poison status": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x02",
+        "ability_name": "[[Incisor (Final Fantasy V)|Incisor]]"
+    },
+    "5D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "5E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "5F": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "60": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "61": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "62": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x13",
+        "ability_name": "[[Axe (Final Fantasy V)|Axe]]"
+    },
+    "63": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x11",
+        "ability_name": "[[Bite (Final Fantasy V)|Bite]]"
+    },
+    "64": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "65": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "66": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "67": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "68": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "69": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "6A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x1a",
+        "ability_name": "[[Thrust (Final Fantasy V)|Thrust]]"
+    },
+    "6B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "6C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "6D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "6E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x1b",
+        "ability_name": "[[Flying Knee (Final Fantasy V)|Flying Knee]]"
+    },
+    "6F": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "70": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "71": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "72": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "73": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "74": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x1c",
+        "ability_name": "[[Spirit Blast (Final Fantasy V)|Spirit Blast]]"
+    },
+    "75": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "76": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "77": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "78": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "79": {
+        "flags": {
+            "Darkness status": true
+        },
+        "ability_id": "0x1d",
+        "ability_name": "[[Tusk (Final Fantasy V)|Tusk]]"
+    },
+    "7A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "7B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "7C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "7D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "7E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x16",
+        "ability_name": "[[Tackle (Final Fantasy V)|Tackle]]"
+    },
+    "7F": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "80": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true
+        },
+        "ability_id": "0x35",
+        "ability_name": "[[Counter (Final Fantasy V enemy ability)|Counter]]"
+    },
+    "81": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "82": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "83": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "84": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "85": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "86": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x01",
+        "ability_name": "[[Needle (Final Fantasy V enemy ability)|Needle]]"
+    },
+    "87": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x1f",
+        "ability_name": "[[Puncture (Final Fantasy V enemy ability)|Puncture]]"
+    },
+    "88": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "89": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x20",
+        "ability_name": "[[Left Jab (Final Fantasy V)|Left Jab]]"
+    },
+    "8A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "8B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "8C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "8D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "8E": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "8F": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x0b",
+        "ability_name": "[[Body Slam (Final Fantasy V)|Body Slam]]"
+    },
+    "90": {
+        "flags": {
+            "Darkness status": true
+        },
+        "ability_id": "0x21",
+        "ability_name": "[[Sling (Final Fantasy V)|Sling]]"
+    },
+    "91": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "92": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x0e",
+        "ability_name": "[[Fin (Final Fantasy V)|Fin]]"
+    },
+    "93": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x30",
+        "ability_name": "[[Corner (Final Fantasy V)|Corner]]"
+    },
+    "94": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "95": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "96": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "97": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "98": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x01",
+        "ability_name": "[[Needle (Final Fantasy V enemy ability)|Needle]]"
+    },
+    "99": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "9A": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "9B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "9C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x22",
+        "ability_name": "[[Toe Kick (Final Fantasy V)|Toe Kick]]"
+    },
+    "9D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "9E": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x23",
+        "ability_name": "[[Mineuchi (Final Fantasy V enemy ability)|Mineuchi]]"
+    },
+    "9F": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A0": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A2": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A3": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x35",
+        "ability_name": "[[Counter (Final Fantasy V enemy ability)|Counter]]"
+    },
+    "A4": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x16",
+        "ability_name": "[[Tackle (Final Fantasy V)|Tackle]]"
+    },
+    "A5": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A7": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "A8": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "A9": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x24",
+        "ability_name": "[[Pressure (Final Fantasy V enemy ability)|Pressure]]"
+    },
+    "AA": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x09",
+        "ability_name": "[[Horn (Final Fantasy V)|Horn]]"
+    },
+    "AB": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "AC": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "AD": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "AE": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "AF": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "B0": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "B1": {
+        "flags": {
+            "Old status": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "B2": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "B3": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true
+        },
+        "ability_id": "0x37",
+        "ability_name": "[[Knife (Final Fantasy V enemy ability)|Knife]]"
+    },
+    "B4": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x25",
+        "ability_name": "[[Hose (Final Fantasy V)|Hose]]"
+    },
+    "B5": {
+        "flags": {
+            "Old status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x26",
+        "ability_name": "[[Air Fist (Final Fantasy V)|Air Fist]]"
+    },
+    "B6": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "B7": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "B8": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "B9": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "BA": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "BB": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x27",
+        "ability_name": "[[High Kick (Final Fantasy V)|High Kick]]"
+    },
+    "BC": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "BD": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "BE": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "BF": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "C0": {
+        "flags": {
+            "Confuse status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x28",
+        "ability_name": "[[Crush (Final Fantasy V)|Crush]]"
+    },
+    "C1": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "C2": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "C3": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "C4": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "C5": {
+        "flags": {
+            "Confuse status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x29",
+        "ability_name": "[[Knock Silly (Final Fantasy V)|Knock Silly]]"
+    },
+    "C6": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "C7": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x32",
+        "ability_name": "[[Takedown (Final Fantasy V)|Takedown]]"
+    },
+    "C8": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x2a",
+        "ability_name": "[[Squeeze (Final Fantasy V enemy ability)|Squeeze]]"
+    },
+    "C9": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "CA": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x06",
+        "ability_name": "[[Magic Stick]]"
+    },
+    "CB": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "CC": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x2e",
+        "ability_name": "[[Yagyuu's Strike]]"
+    },
+    "CD": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "CE": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "CF": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D0": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D1": {
+        "flags": {
+            "Old status": true
+        },
+        "ability_id": "0x2b",
+        "ability_name": "[[Drill (Final Fantasy V enemy ability)|Drill]]"
+    },
+    "D2": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D3": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D4": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D5": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D6": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D7": {
+        "flags": {
+            "Poison status": true,
+            "Darkness status": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x2c",
+        "ability_name": "[[Wring (Final Fantasy V)|Wring]]"
+    },
+    "D8": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "D9": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "DA": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "DB": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0d",
+        "ability_name": "[[Dive (Final Fantasy V)|Dive]]"
+    },
+    "DC": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0e",
+        "ability_name": "[[Fin (Final Fantasy V)|Fin]]"
+    },
+    "DD": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "DE": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x01",
+        "ability_name": "[[Needle (Final Fantasy V enemy ability)|Needle]]"
+    },
+    "DF": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E0": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E1": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0d",
+        "ability_name": "[[Dive (Final Fantasy V)|Dive]]"
+    },
+    "E2": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E3": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x0e",
+        "ability_name": "[[Fin (Final Fantasy V)|Fin]]"
+    },
+    "E4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "E9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "EA": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x2f",
+        "ability_name": "[[Cat Scratch (Final Fantasy V)|Cat Scratch]]"
+    },
+    "EB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "EC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "ED": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "EE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "EF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "F9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "FA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "FB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "FC": {
+        "flags": {
+            "Old status": true,
+            "Poison status": true,
+            "Darkness status": true,
+            "Paralyze status": true,
+            "Confuse status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x0c",
+        "ability_name": "[[Turtle (Final Fantasy V)|Turtle]]"
+    },
+    "FD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "FE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "FF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "100": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Poison status": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x02",
+        "ability_name": "[[Incisor (Final Fantasy V)|Incisor]]"
+    },
+    "101": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Old status": true
+        },
+        "ability_id": "0x3b",
+        "ability_name": "[[Silver Powder]]"
+    },
+    "102": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Poison status": true
+        },
+        "ability_id": "0x3c",
+        "ability_name": "[[Poison Powder (Final Fantasy V)|Poison Powder]]"
+    },
+    "103": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Darkness status": true
+        },
+        "ability_id": "0x3d",
+        "ability_name": "[[Darkness Powder (Final Fantasy V)|Darkness Powder]]"
+    },
+    "104": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x3e",
+        "ability_name": "[[Paralyze Powder (Final Fantasy V)|Paralyze Powder]]"
+    },
+    "105": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x3f",
+        "ability_name": "[[Confuse Powder (Final Fantasy V)|Confuse Powder]]"
+    },
+    "106": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "107": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "108": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "109": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x34",
+        "ability_name": "[[Ray (Final Fantasy V)|Ray]]"
+    },
+    "10A": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "10B": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x2e",
+        "ability_name": "[[Yagyuu's Strike]]"
+    },
+    "10C": {
+        "flags": {
+            "Poison status": true,
+            "Darkness status": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x2c",
+        "ability_name": "[[Wring (Final Fantasy V)|Wring]]"
+    },
+    "10D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x20",
+        "ability_name": "[[Left Jab (Final Fantasy V)|Left Jab]]"
+    },
+    "10E": {
+        "flags": {
+            "Old status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x26",
+        "ability_name": "[[Air Fist (Final Fantasy V)|Air Fist]]"
+    },
+    "10F": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x27",
+        "ability_name": "[[High Kick (Final Fantasy V)|High Kick]]"
+    },
+    "110": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x12",
+        "ability_name": "[[Elbow (Final Fantasy V)|Elbow]]"
+    },
+    "111": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x0b",
+        "ability_name": "[[Body Slam (Final Fantasy V)|Body Slam]]"
+    },
+    "112": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x32",
+        "ability_name": "[[Takedown (Final Fantasy V)|Takedown]]"
+    },
+    "113": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "114": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "115": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "116": {
+        "flags": {
+            "Old status": true,
+            "Poison status": true,
+            "Darkness status": true,
+            "Paralyze status": true,
+            "Confuse status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x2d",
+        "ability_name": "[[Sickle (Final Fantasy V)|Sickle]]"
+    },
+    "117": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x02",
+        "ability_name": "[[Incisor (Final Fantasy V)|Incisor]]"
+    },
+    "118": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "119": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "11A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "11B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "11C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "11D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "11E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "11F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "120": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "121": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "122": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "123": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "124": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "125": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "126": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "127": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "128": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "129": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "12A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "12B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "12C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "12D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "12E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "12F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "130": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "131": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "132": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "133": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "134": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "135": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "136": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "137": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "138": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "139": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "13F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "140": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "141": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "142": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "143": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "144": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "145": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "146": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "147": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "148": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "149": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "14F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "150": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "151": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "152": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "153": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "154": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "155": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "156": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "157": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "158": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "159": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "15F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "160": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "161": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "162": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "163": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "164": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "165": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "166": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "167": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "168": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "169": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "16F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "170": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "171": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "172": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "173": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "174": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "175": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "176": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "177": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "178": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "179": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "17A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "17B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "17C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "17D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "17E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "17F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "180": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "181": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "182": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "183": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "184": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "185": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "186": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "187": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "188": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "189": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "18F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "190": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "191": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "192": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "193": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "194": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "195": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "196": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "197": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "198": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "199": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "19A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "19B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "19C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "19D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "19E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "19F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1A9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1AA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1AB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1AC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1AD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1AE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1AF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1B9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1BA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1BB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1BC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1BD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1BE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1BF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1C9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1CA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1CB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1CC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1CD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1CE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1CF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1D9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1DA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1DB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1DC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1DD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1DE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1DF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1E9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1EA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1EB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1EC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1ED": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1EE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1EF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1F9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1FA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1FB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1FC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1FD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1FE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "1FF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "200": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "201": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "202": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x0f",
+        "ability_name": "[[Feeler (Final Fantasy V)|Feeler]]"
+    },
+    "203": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "204": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "205": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x31",
+        "ability_name": "[[Venomous Clasp (Final Fantasy V)|Venomous Clasp]]"
+    },
+    "206": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x16",
+        "ability_name": "[[Tackle (Final Fantasy V)|Tackle]]"
+    },
+    "207": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "208": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "209": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "20A": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x34",
+        "ability_name": "[[Ray (Final Fantasy V)|Ray]]"
+    },
+    "20B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "20C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "20D": {
+        "flags": {
+            "Old status": true,
+            "Poison status": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x1d",
+        "ability_name": "[[Tusk (Final Fantasy V)|Tusk]]"
+    },
+    "20E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "20F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "210": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "211": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "212": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "213": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "214": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "215": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x33",
+        "ability_name": "[[Sap (Final Fantasy V enemy ability)|Sap]]"
+    },
+    "216": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x19",
+        "ability_name": "[[Wing Attack (Final Fantasy V)|Wing Attack]]"
+    },
+    "217": {
+        "flags": {
+            "Darkness status": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "218": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "219": {
+        "flags": {
+            "Confuse status": true
+        },
+        "ability_id": "0x1d",
+        "ability_name": "[[Tusk (Final Fantasy V)|Tusk]]"
+    },
+    "21A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "21B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "21C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "21D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "21E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "21F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "220": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "221": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "222": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "223": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "224": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "225": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "226": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "227": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "228": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Old status": true
+        },
+        "ability_id": "0x3b",
+        "ability_name": "[[Silver Powder]]"
+    },
+    "229": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Poison status": true
+        },
+        "ability_id": "0x3c",
+        "ability_name": "[[Poison Powder (Final Fantasy V)|Poison Powder]]"
+    },
+    "22A": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Darkness status": true
+        },
+        "ability_id": "0x3d",
+        "ability_name": "[[Darkness Powder (Final Fantasy V)|Darkness Powder]]"
+    },
+    "22B": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x3e",
+        "ability_name": "[[Paralyze Powder (Final Fantasy V)|Paralyze Powder]]"
+    },
+    "22C": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x3f",
+        "ability_name": "[[Confuse Powder (Final Fantasy V)|Confuse Powder]]"
+    },
+    "22D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "22E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "22F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "230": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "231": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "232": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "233": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "234": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "235": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "236": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "237": {
+        "flags": {
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x36",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave]]"
+    },
+    "238": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "239": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "23F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "240": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "241": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "242": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "243": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "244": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "245": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "246": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "247": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x03",
+        "ability_name": "[[Tail (Final Fantasy V)|Tail]]"
+    },
+    "248": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "249": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "24A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "24B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "24C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "24D": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true
+        },
+        "ability_id": "0x36",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave]]"
+    },
+    "24E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "24F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "250": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "251": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "252": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "253": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "254": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "255": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "256": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "257": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "258": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "259": {
+        "flags": {
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x36",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave]]"
+    },
+    "25A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "25B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "25C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "25D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "25E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "25F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "260": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "261": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "262": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "263": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "264": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "265": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x34",
+        "ability_name": "[[Ray (Final Fantasy V)|Ray]]"
+    },
+    "266": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "267": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "268": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "269": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "26A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "26B": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x36",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave]]"
+    },
+    "26C": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x36",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave]]"
+    },
+    "26D": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x38",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave (copy)]]"
+    },
+    "26E": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x36",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave]]"
+    },
+    "26F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "270": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "271": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "272": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "273": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "274": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "275": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "276": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "277": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "278": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "279": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "27A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "27B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "27C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "27D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "27E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "27F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "280": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x19",
+        "ability_name": "[[Wing Attack (Final Fantasy V)|Wing Attack]]"
+    },
+    "281": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "282": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "283": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "284": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "285": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "286": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "287": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "288": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "289": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "28A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "28B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "28C": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x38",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave (copy)]]"
+    },
+    "28D": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x38",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave (copy)]]"
+    },
+    "28E": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x38",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave (copy)]]"
+    },
+    "28F": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x39",
+        "ability_name": "[[Dimension Zero (Final Fantasy V enemy ability)|Dimension Zero]]"
+    },
+    "290": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "291": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "292": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "293": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "294": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "295": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "296": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "297": {
+        "flags": {
+            "Old status": true,
+            "Poison status": true,
+            "Darkness status": true,
+            "Paralyze status": true,
+            "Confuse status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x0c",
+        "ability_name": "[[Turtle (Final Fantasy V)|Turtle]]"
+    },
+    "298": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "299": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Sap status": true
+        },
+        "ability_id": "0x37",
+        "ability_name": "[[Knife (Final Fantasy V enemy ability)|Knife]]"
+    },
+    "29A": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "29B": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "29C": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "29D": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "29E": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "29F": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2A0": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "2A1": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x04",
+        "ability_name": "[[Claw (Final Fantasy V)|Claw]]"
+    },
+    "2A2": {
+        "flags": {
+            "Sap status": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "2A3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2A4": {
+        "flags": {
+            "Poison status": true
+        },
+        "ability_id": "0x31",
+        "ability_name": "[[Venomous Clasp (Final Fantasy V)|Venomous Clasp]]"
+    },
+    "2A5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2A6": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x16",
+        "ability_name": "[[Tackle (Final Fantasy V)|Tackle]]"
+    },
+    "2A7": {
+        "flags": {
+            "Old status": true,
+            "Poison status": true,
+            "Darkness status": true,
+            "Paralyze status": true,
+            "Confuse status": true,
+            "Sap status": true
+        },
+        "ability_id": "0x0c",
+        "ability_name": "[[Turtle (Final Fantasy V)|Turtle]]"
+    },
+    "2A8": {
+        "flags": {
+            "Auto-hit and D = 0": true
+        },
+        "ability_id": "0x0a",
+        "ability_name": "[[Rush (Final Fantasy V)|Rush]]"
+    },
+    "2A9": {
+        "flags": {
+            "Paralyze status": true
+        },
+        "ability_id": "0x34",
+        "ability_name": "[[Ray (Final Fantasy V)|Ray]]"
+    },
+    "2AA": {
+        "flags": {
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2AB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2AC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2AD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2AE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2AF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2B6": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Old status": true
+        },
+        "ability_id": "0x3b",
+        "ability_name": "[[Silver Powder]]"
+    },
+    "2B7": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Poison status": true
+        },
+        "ability_id": "0x3c",
+        "ability_name": "[[Poison Powder (Final Fantasy V)|Poison Powder]]"
+    },
+    "2B8": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Darkness status": true
+        },
+        "ability_id": "0x3d",
+        "ability_name": "[[Darkness Powder (Final Fantasy V)|Darkness Powder]]"
+    },
+    "2B9": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Paralyze status": true
+        },
+        "ability_id": "0x3e",
+        "ability_name": "[[Paralyze Powder (Final Fantasy V)|Paralyze Powder]]"
+    },
+    "2BA": {
+        "flags": {
+            "Auto-hit and D = 0": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x3f",
+        "ability_name": "[[Confuse Powder (Final Fantasy V)|Confuse Powder]]"
+    },
+    "2BB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2BC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2BD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2BE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2BF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C3": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C4": {
+        "flags": {
+            "Old status": true,
+            "Poison status": true,
+            "Confuse status": true
+        },
+        "ability_id": "0x1d",
+        "ability_name": "[[Tusk (Final Fantasy V)|Tusk]]"
+    },
+    "2C5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C6": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C7": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C8": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2C9": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2CA": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2CB": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2CC": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2CD": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2CE": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2CF": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2D0": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2D1": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2D2": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2D3": {
+        "flags": {
+            "Sap status": true,
+            "Modifier: A = A + A//2": true
+        },
+        "ability_id": "0x38",
+        "ability_name": "[[Vacuum Wave (Final Fantasy V)|Vacuum Wave (copy)]]"
+    },
+    "2D4": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    },
+    "2D5": {
+        "flags": {},
+        "ability_id": "0x00",
+        "ability_name": "[[Critical Attack (Final Fantasy V)|Critical Attack]]"
+    }
+}

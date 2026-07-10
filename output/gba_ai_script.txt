@@ -563,7 +563,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, !Attack, ????)
+      Turn #1: random(!Attack, !Attack, ???)
       Turn #2: random(!Attack, !Attack, Special: Bite)
 REACTIVE RULES:
   None
@@ -1411,7 +1411,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: Ability: ????
+      Turn #1: Ability: ???
 REACTIVE RULES:
   None
 
@@ -8935,7 +8935,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
     Actions:
-      random(!Attack, Special: Critical Attack, ????)
+      random(!Attack, Special: Critical Attack, ???)
 
 ----------------------------------------
 
@@ -10530,7 +10530,7 @@ ACTIVE RULES:
       Turn #1: random(Vampire, Vampire, Lilliputian Lyric)
       Turn #2: random(Vampire, Vampire, Flash)
       Turn #3: Set Var_00 to 0
-               random(Vampire, Vampire, ????)
+               random(Vampire, Vampire, ???)
   Rule #6:
     Conditions:
       Variable Var_00 == 5
@@ -10560,7 +10560,7 @@ ACTIVE RULES:
       Turn #1: random(Dark Spark, Off-Guard, Mind Blast)
       Turn #2: random(Doom, Roulette, Level 2 Old)
       Turn #3: random(Level 5 Death, Level 4 Graviga, Mighty Guard)
-      Turn #4: random(Lilliputian Lyric, Flash, ????)
+      Turn #4: random(Lilliputian Lyric, Flash, ???)
       Turn #5: random(Aera, Flame Thrower, Missile)
       Turn #6: random(Time Slip, Death Claw, White Wind)
 REACTIVE RULES:
@@ -11073,7 +11073,7 @@ ACTIVE RULES:
     Conditions:
       Unconditional
     Actions:
-      Turn #1: random(!Attack, ????, Special: Critical Attack)
+      Turn #1: random(!Attack, ???, Special: Critical Attack)
 REACTIVE RULES:
   None
 
@@ -12136,7 +12136,7 @@ REACTIVE RULES:
       Variable Var_00 == 0
       HP damage just taken
     Actions:
-      random(Curse, ????, [Nothing])
+      random(Curse, ???, [Nothing])
 
 ----------------------------------------
 
@@ -13140,7 +13140,7 @@ REACTIVE RULES:
     Conditions:
       Hit by a command other than any spell or hit by it with an elemental action that does not match any of ['Water', 'Wind', 'Earth', 'Holy']
     Actions:
-      random(!Attack, Special: Critical Attack, ????)
+      random(!Attack, Special: Critical Attack, ???)
 
 ----------------------------------------
 
@@ -13985,7 +13985,7 @@ ACTIVE RULES:
       Turn #1: random(Vampire, Vampire, Lilliputian Lyric)
       Turn #2: random(Vampire, Vampire, Flash)
       Turn #3: Set Var_00 to 0
-               random(Vampire, Vampire, ????)
+               random(Vampire, Vampire, ???)
   Rule #6:
     Conditions:
       Variable Var_00 == 5
@@ -14015,7 +14015,7 @@ ACTIVE RULES:
       Turn #1: random(Dark Spark, Off-Guard, Mind Blast)
       Turn #2: random(Doom, Roulette, Level 2 Old)
       Turn #3: random(Level 5 Death, Level 4 Graviga, Mighty Guard)
-      Turn #4: random(Lilliputian Lyric, Flash, ????)
+      Turn #4: random(Lilliputian Lyric, Flash, ???)
       Turn #5: random(Aera, Flame Thrower, Missile)
       Turn #6: random(Time Slip, Death Claw, White Wind)
 REACTIVE RULES:
@@ -14186,7 +14186,7 @@ REACTIVE RULES:
       Variable Var_00 == 0
       HP damage just taken
     Actions:
-      random(Curse, ????, [Nothing])
+      random(Curse, ???, [Nothing])
 
 ----------------------------------------
 

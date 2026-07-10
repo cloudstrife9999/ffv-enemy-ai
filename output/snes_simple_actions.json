@@ -5,13 +5,21 @@
             "!Attack",
             "Goblin Punch"
         ],
+        "simple_action_codes": [
+            "80",
+            "93"
+        ],
         "special_ability": "Critical Attack"
     },
     "01": {
         "enemy_name": "Killer Bee",
         "simple_actions": [
-            "Needle",
-            "!Attack"
+            "!Attack",
+            "Needle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Needle"
     },
@@ -21,6 +29,10 @@
             "Incisor",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Incisor"
     },
     "03": {
@@ -29,22 +41,35 @@
             "Tail",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Tail"
     },
     "04": {
         "enemy_name": "Steel Bat",
         "simple_actions": [
             "Claw",
-            "Vampire",
-            "!Attack"
+            "!Attack",
+            "Vampire"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "98"
         ],
         "special_ability": "Claw"
     },
     "05": {
         "enemy_name": "Devil Crab",
         "simple_actions": [
-            "Pincer",
-            "!Attack"
+            "!Attack",
+            "Pincer"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Pincer"
     },
@@ -53,6 +78,9 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "07": {
@@ -60,6 +88,10 @@
         "simple_actions": [
             "!Attack",
             "Goblin Punch"
+        ],
+        "simple_action_codes": [
+            "80",
+            "93"
         ],
         "special_ability": "Critical Attack"
     },
@@ -70,25 +102,42 @@
             "!Attack",
             "Entangle"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BC"
+        ],
         "special_ability": "Tail"
     },
     "09": {
         "enemy_name": "Moldwynd",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Aero",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8F"
         ],
         "special_ability": "Critical Attack"
     },
     "0A": {
         "enemy_name": "Mani Wizard",
         "simple_actions": [
-            "Thunder",
             "Fire",
-            "Magic Stick",
+            "!Attack",
             "Blizzard",
-            "!Attack"
+            "Magic Stick",
+            "Thunder"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "24",
+            "25",
+            "26"
         ],
         "special_ability": "Magic Stick"
     },
@@ -99,42 +148,68 @@
             "Flee",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA",
+            "A2",
+            "DF"
+        ],
         "special_ability": "Critical Attack"
     },
     "0C": {
         "enemy_name": "Sucker",
         "simple_actions": [
             "Ten Arms",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Ten Arms"
     },
     "0D": {
         "enemy_name": "Octokraken",
         "simple_actions": [
-            "[Nothing]",
-            "!Attack",
+            "Electrocute",
             "Eight Arms",
-            "Electrocute"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "CE"
         ],
         "special_ability": "Eight Arms"
     },
     "0E": {
         "enemy_name": "Gatling",
         "simple_actions": [
+            "!Attack",
             "Needle",
-            "[Nothing]",
-            "!Attack"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Needle"
     },
     "0F": {
         "enemy_name": "Big Horn",
         "simple_actions": [
-            "Horn",
+            "Flee",
             "!Attack",
-            "Flee"
+            "Horn"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2"
         ],
         "special_ability": "Horn"
     },
@@ -144,13 +219,21 @@
             "Rush",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Rush"
     },
     "11": {
         "enemy_name": "Bandersnatch",
         "simple_actions": [
-            "Body Slam",
-            "!Attack"
+            "!Attack",
+            "Body Slam"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Body Slam"
     },
@@ -160,13 +243,21 @@
             "Flee",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "A2",
+            "AA"
+        ],
         "special_ability": "Critical Attack"
     },
     "13": {
         "enemy_name": "Skeleton",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -175,14 +266,22 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "15": {
         "enemy_name": "Undead Husk",
         "simple_actions": [
-            "Critical Attack",
             "Vanish",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AF"
         ],
         "special_ability": "Critical Attack"
     },
@@ -192,12 +291,19 @@
             "Lick",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Lick"
     },
     "17": {
         "enemy_name": "Rock Slug",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -207,14 +313,23 @@
             "Cat Scratch",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Cat Scratch"
     },
     "19": {
         "enemy_name": "Cockatrice",
         "simple_actions": [
-            "Beak",
             "Dive",
-            "!Attack"
+            "!Attack",
+            "Beak"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B3"
         ],
         "special_ability": "Dive"
     },
@@ -222,38 +337,61 @@
         "enemy_name": "Headstone",
         "simple_actions": [
             "Vanish",
-            "!Attack",
             "Corner",
+            "!Attack",
             "Flash"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8B",
+            "AF"
         ],
         "special_ability": "Corner"
     },
     "1B": {
         "enemy_name": "Elf Toad (regular)",
         "simple_actions": [
-            "Pond's Chorus",
-            "!Attack"
+            "!Attack",
+            "Pond's Chorus"
+        ],
+        "simple_action_codes": [
+            "80",
+            "89"
         ],
         "special_ability": "Critical Attack"
     },
     "1C": {
         "enemy_name": "Ice Soldier",
         "simple_actions": [
-            "Critical Attack",
             "Blizzard",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "25"
         ],
         "special_ability": "Critical Attack"
     },
     "1D": {
         "enemy_name": "Ricard Mage",
         "simple_actions": [
-            "Stop",
-            "Slow",
-            "Drain",
             "Sleep",
             "Cure",
-            "!Attack"
+            "!Attack",
+            "Slow",
+            "Drain",
+            "Stop"
+        ],
+        "simple_action_codes": [
+            "80",
+            "28",
+            "2D",
+            "12",
+            "37",
+            "3D"
         ],
         "special_ability": "Critical Attack"
     },
@@ -263,6 +401,10 @@
             "!Attack",
             "Breath Wing"
         ],
+        "simple_action_codes": [
+            "80",
+            "DA"
+        ],
         "special_ability": "Critical Attack"
     },
     "1F": {
@@ -271,21 +413,37 @@
             "!Attack",
             "Fin"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Fin"
     },
     "20": {
         "enemy_name": "Byblos",
         "simple_actions": [
-            "Protect",
-            "[Nothing]",
-            "Toad",
-            "Wind Slash",
-            "Magic Hammer",
-            "Drain",
-            "Dischord",
             "Web",
+            "Magic Hammer",
+            "Toad",
             "!Attack",
-            "Confuse"
+            "[Nothing]",
+            "Wind Slash",
+            "Protect",
+            "Confuse",
+            "Dischord",
+            "Drain"
+        ],
+        "simple_action_codes": [
+            "80",
+            "29",
+            "AA",
+            "AB",
+            "2D",
+            "D3",
+            "D4",
+            "16",
+            "99",
+            "1A"
         ],
         "special_ability": "Critical Attack"
     },
@@ -295,38 +453,59 @@
             "Feeler",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Feeler"
     },
     "22": {
         "enemy_name": "Zu",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "23": {
         "enemy_name": "Wild Nakk",
         "simple_actions": [
-            "????",
             "Bite",
+            "???",
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "9C"
         ],
         "special_ability": "Bite"
     },
     "24": {
         "enemy_name": "Grass Tortoise",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "25": {
         "enemy_name": "Silent Bee",
         "simple_actions": [
-            "Needle",
-            "!Attack"
+            "!Attack",
+            "Needle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C1"
         ],
         "special_ability": "Critical Attack"
     },
@@ -334,22 +513,37 @@
         "enemy_name": "Mythril Dragon",
         "simple_actions": [
             "Tail",
-            "Transfusion",
-            "!Attack"
+            "!Attack",
+            "Transfusion"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "96"
         ],
         "special_ability": "Tail"
     },
     "27": {
         "enemy_name": "Ramuh (boss)",
         "simple_actions": [
-            "Osmose",
-            "Attack",
-            "Electrocute",
             "Thundara",
-            "Mini",
-            "[Nothing]",
             "Flash",
+            "Osmose",
+            "Electrocute",
+            "[Nothing]",
+            "Attack",
+            "Mini",
             "Lightning"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "8B",
+            "2C",
+            "CE",
+            "35",
+            "17",
+            "DC",
+            "DE"
         ],
         "special_ability": "Magic Stick"
     },
@@ -360,6 +554,11 @@
             "!Attack",
             "Flash"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8B"
+        ],
         "special_ability": "Sap"
     },
     "29": {
@@ -368,15 +567,25 @@
             "Lick",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Lick"
     },
     "2A": {
         "enemy_name": "Motor Trap",
         "simple_actions": [
             "Gamma Ray",
-            "Critical Attack",
+            "Self-Destruct",
             "!Attack",
-            "Self-Destruct"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "9B",
+            "BF"
         ],
         "special_ability": "Critical Attack"
     },
@@ -386,40 +595,63 @@
             "[Unhide enemy]",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "2C": {
         "enemy_name": "Jackanapes (regular)",
         "simple_actions": [
-            "Critical Attack",
             "Moon Flute",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8D"
         ],
         "special_ability": "Critical Attack"
     },
     "2D": {
         "enemy_name": "Sergeant (regular)",
         "simple_actions": [
-            "[Unnamed script trigger]",
-            "Flee"
+            "Flee",
+            "[Unnamed script trigger]"
+        ],
+        "simple_action_codes": [
+            "A2",
+            "AC"
         ],
         "special_ability": "Claw"
     },
     "2E": {
         "enemy_name": "Sorcerer",
         "simple_actions": [
-            "!Attack",
             "Toad",
-            "Confuse"
+            "Confuse",
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "29",
+            "1A"
         ],
         "special_ability": "Critical Attack"
     },
     "2F": {
         "enemy_name": "Cur Nakk (regular)",
         "simple_actions": [
+            "Bite",
             "Flee",
-            "!Attack",
-            "Bite"
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2"
         ],
         "special_ability": "Bite"
     },
@@ -427,19 +659,31 @@
         "enemy_name": "Gigas",
         "simple_actions": [
             "Elbow",
-            "Aera",
             "Aero",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Aera"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "8F",
+            "90"
         ],
         "special_ability": "Elbow"
     },
     "31": {
         "enemy_name": "Page 32",
         "simple_actions": [
-            "Aera",
             "[Unhide next page]",
-            "!Attack"
+            "!Attack",
+            "Aera"
+        ],
+        "simple_action_codes": [
+            "90",
+            "A4",
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -450,14 +694,24 @@
             "!Attack",
             "Level 5 Death"
         ],
+        "simple_action_codes": [
+            "80",
+            "A4",
+            "85"
+        ],
         "special_ability": "Critical Attack"
     },
     "33": {
         "enemy_name": "Page 128",
         "simple_actions": [
-            "Slimer",
             "[Unhide next page]",
+            "Slimer",
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A4",
+            "D5"
         ],
         "special_ability": "Critical Attack"
     },
@@ -468,25 +722,42 @@
             "[Unhide next page]",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "A4",
+            "8D"
+        ],
         "special_ability": "Critical Attack"
     },
     "35": {
         "enemy_name": "Ifrit (boss)",
         "simple_actions": [
+            "Blaze",
+            "!Attack",
             "High Kick",
             "[Nothing]",
-            "Fira",
-            "Blaze",
-            "!Attack"
+            "Fira"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "2A",
+            "AA",
+            "DB"
         ],
         "special_ability": "High Kick"
     },
     "36": {
         "enemy_name": "Bomb",
         "simple_actions": [
-            "Body Slam",
+            "Self-Destruct",
             "!Attack",
-            "Self-Destruct"
+            "Body Slam"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "9B"
         ],
         "special_ability": "Body Slam"
     },
@@ -494,16 +765,25 @@
         "enemy_name": "Doublizard",
         "simple_actions": [
             "Sap",
-            "!Attack",
-            "[Flip sprite horizontally]"
+            "[Flip sprite horizontally]",
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E7"
         ],
         "special_ability": "Sap"
     },
     "38": {
         "enemy_name": "Bio Soldier (regular)",
         "simple_actions": [
-            "Bio",
-            "!Attack"
+            "!Attack",
+            "Bio"
+        ],
+        "simple_action_codes": [
+            "80",
+            "2F"
         ],
         "special_ability": "Critical Attack"
     },
@@ -513,6 +793,10 @@
             "Sickle",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Sickle"
     },
     "3A": {
@@ -521,14 +805,23 @@
             "Dark Spark",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "94"
+        ],
         "special_ability": "Critical Attack"
     },
     "3B": {
         "enemy_name": "Stone Golem",
         "simple_actions": [
-            "Headbutt",
             "Vanish",
-            "!Attack"
+            "!Attack",
+            "Headbutt"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AF"
         ],
         "special_ability": "Headbutt"
     },
@@ -538,26 +831,43 @@
             "Frostbite",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "CB"
+        ],
         "special_ability": "Critical Attack"
     },
     "3D": {
         "enemy_name": "Prototype",
         "simple_actions": [
-            "Critical Attack",
-            "Blaster",
-            "Flame Thrower",
-            "Mustard Bomb",
             "Missile",
-            "!Attack"
+            "Mustard Bomb",
+            "!Attack",
+            "Flame Thrower",
+            "Blaster",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C7",
+            "B2",
+            "92",
+            "9F"
         ],
         "special_ability": "Critical Attack"
     },
     "3E": {
         "enemy_name": "Dhorme Chimera (regular)",
         "simple_actions": [
-            "Critical Attack",
             "Aqua Breath",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "84"
         ],
         "special_ability": "Critical Attack"
     },
@@ -567,33 +877,53 @@
             "!Attack",
             "Spore"
         ],
+        "simple_action_codes": [
+            "80",
+            "B5"
+        ],
         "special_ability": "Critical Attack"
     },
     "40": {
         "enemy_name": "Desert Killer",
         "simple_actions": [
+            "Quicksand",
             "Flee",
-            "!Attack",
-            "Quicksand"
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C9",
+            "A2"
         ],
         "special_ability": "Critical Attack"
     },
     "41": {
         "enemy_name": "Sand Bear",
         "simple_actions": [
-            "[Nothing]",
+            "Right Claw",
             "!Attack",
-            "Right Claw"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Right Claw"
     },
     "42": {
         "enemy_name": "Ra Mage",
         "simple_actions": [
-            "Thundara",
             "Fira",
+            "Thundara",
             "[Nothing]",
             "Blizzara"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "2A",
+            "2B",
+            "2C"
         ],
         "special_ability": "Critical Attack"
     },
@@ -604,25 +934,42 @@
             "!Attack",
             "Sling"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
+        ],
         "special_ability": "Sling"
     },
     "44": {
         "enemy_name": "Stone Mask",
         "simple_actions": [
-            "[Nothing]",
-            "!Attack",
+            "Vanish",
             "Corner",
-            "Vanish"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "AF"
         ],
         "special_ability": "Corner"
     },
     "45": {
         "enemy_name": "Enchanted Fan (regular)",
         "simple_actions": [
-            "Aera",
             "White Wind",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "Aera",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "90",
+            "AA",
+            "80",
+            "9E"
         ],
         "special_ability": "Critical Attack"
     },
@@ -631,17 +978,28 @@
         "simple_actions": [
             "Entice",
             "Slap",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "BB"
         ],
         "special_ability": "Slap"
     },
     "47": {
         "enemy_name": "Archeotoad",
         "simple_actions": [
-            "Pond's Chorus",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Pond's Chorus"
+        ],
+        "simple_action_codes": [
+            "80",
+            "89",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
@@ -649,19 +1007,31 @@
         "enemy_name": "Hydra",
         "simple_actions": [
             "Rush",
-            "Lightning",
-            "!Attack"
+            "!Attack",
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "DC"
         ],
         "special_ability": "Rush"
     },
     "49": {
         "enemy_name": "Ghidra (regular)",
         "simple_actions": [
+            "Poison Breath",
+            "!Attack",
             "Rush",
             "Level 4 Graviga",
-            "Lightning",
-            "!Attack",
-            "Poison Breath"
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "86",
+            "B6",
+            "DC"
         ],
         "special_ability": "Rush"
     },
@@ -671,15 +1041,25 @@
             "Digestive Acid",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "C5"
+        ],
         "special_ability": "Critical Attack"
     },
     "4B": {
         "enemy_name": "Treant",
         "simple_actions": [
-            "Berserk",
-            "!Attack",
             "[Nothing]",
+            "!Attack",
+            "Berserk",
             "Death Claw"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "20",
+            "8E"
         ],
         "special_ability": "Critical Attack"
     },
@@ -689,6 +1069,10 @@
             "Dark Spark",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "94"
+        ],
         "special_ability": "Critical Attack"
     },
     "4D": {
@@ -697,40 +1081,63 @@
             "Web",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "D4"
+        ],
         "special_ability": "Critical Attack"
     },
     "4E": {
         "enemy_name": "Shell Bear",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "4F": {
         "enemy_name": "Tunneller (regular)",
         "simple_actions": [
-            "Dischord",
-            "!Attack"
+            "!Attack",
+            "Dischord"
+        ],
+        "simple_action_codes": [
+            "80",
+            "D3"
         ],
         "special_ability": "Critical Attack"
     },
     "50": {
         "enemy_name": "Birostris",
         "simple_actions": [
-            "Critical Attack",
             "Transfusion",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "96"
         ],
         "special_ability": "Critical Attack"
     },
     "51": {
         "enemy_name": "Fairy Orc",
         "simple_actions": [
-            "Spear",
             "Curaga",
+            "!Attack",
             "Paraclete",
-            "!Attack"
+            "Spear"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BA",
+            "1E"
         ],
         "special_ability": "Spear"
     },
@@ -738,76 +1145,117 @@
         "enemy_name": "Devourer",
         "simple_actions": [
             "Slimer",
-            "Ten Arms",
-            "!Attack"
+            "!Attack",
+            "Ten Arms"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D5"
         ],
         "special_ability": "Ten Arms"
     },
     "53": {
         "enemy_name": "Mandrake",
         "simple_actions": [
-            "Critical Attack",
             "Digestive Acid",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C5"
         ],
         "special_ability": "Critical Attack"
     },
     "54": {
         "enemy_name": "Kuza Beast (regular)",
         "simple_actions": [
-            "????"
+            "???"
+        ],
+        "simple_action_codes": [
+            "9C"
         ],
         "special_ability": "Rush"
     },
     "55": {
         "enemy_name": "Cactus",
         "simple_actions": [
-            "Needle",
-            "!Attack"
+            "!Attack",
+            "Needle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Needle"
     },
     "56": {
         "enemy_name": "Sandcrawler",
         "simple_actions": [
-            "Critical Attack",
             "Maelstrom",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2"
         ],
         "special_ability": "Critical Attack"
     },
     "57": {
         "enemy_name": "Shield Dragon",
         "simple_actions": [
-            "Zombie Breath",
-            "Flee",
-            "[Nothing]",
             "Knock Silly",
-            "!Attack"
+            "!Attack",
+            "[Nothing]",
+            "Zombie Breath",
+            "Flee"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2",
+            "AA",
+            "B9"
         ],
         "special_ability": "Knock Silly"
     },
     "58": {
         "enemy_name": "Blood Slime",
         "simple_actions": [
-            "Vampire",
-            "[Nothing]"
+            "[Nothing]",
+            "Vampire"
+        ],
+        "simple_action_codes": [
+            "98",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
     "59": {
         "enemy_name": "Acrophies",
         "simple_actions": [
-            "Pincer",
-            "!Attack"
+            "!Attack",
+            "Pincer"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Pincer"
     },
     "5A": {
         "enemy_name": "Moogle Eater",
         "simple_actions": [
-            "!Attack",
-            "Eight Arms"
+            "Eight Arms",
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Eight Arms"
     },
@@ -819,6 +1267,12 @@
             "!Attack",
             "Breath Wing"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "DA",
+            "CD"
+        ],
         "special_ability": "Wing Attack"
     },
     "5C": {
@@ -829,14 +1283,25 @@
             "!Attack",
             "[Unhide enemy]"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2",
+            "EE"
+        ],
         "special_ability": "Incisor"
     },
     "5D": {
         "enemy_name": "Aquathorn",
         "simple_actions": [
-            "Critical Attack",
             "Slimer",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D5"
         ],
         "special_ability": "Critical Attack"
     },
@@ -847,6 +1312,11 @@
             "!Attack",
             "Entangle"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BC"
+        ],
         "special_ability": "Critical Attack"
     },
     "5F": {
@@ -856,33 +1326,54 @@
             "!Attack",
             "Pond's Chorus"
         ],
+        "simple_action_codes": [
+            "80",
+            "89",
+            "A2"
+        ],
         "special_ability": "Critical Attack"
     },
     "60": {
         "enemy_name": "Cursed Being",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Dance Macabre",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B7"
         ],
         "special_ability": "Critical Attack"
     },
     "61": {
         "enemy_name": "Undergrounder",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Earthquake",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D6"
         ],
         "special_ability": "Critical Attack"
     },
     "62": {
         "enemy_name": "Drippy",
         "simple_actions": [
+            "Magic Hammer",
             "Axe",
-            "[Nothing]",
             "!Attack",
-            "Magic Hammer"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "99",
+            "AA",
+            "81"
         ],
         "special_ability": "Axe"
     },
@@ -892,6 +1383,10 @@
             "Bite",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Bite"
     },
     "64": {
@@ -899,8 +1394,14 @@
         "simple_actions": [
             "Tail",
             "Bone",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "C3"
         ],
         "special_ability": "Tail"
     },
@@ -910,15 +1411,25 @@
             "Claw",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Claw"
     },
     "66": {
         "enemy_name": "Zombie Dragon (regular)",
         "simple_actions": [
-            "Critical Attack",
-            "[Nothing]",
             "!Attack",
-            "Poison Breath"
+            "Poison Breath",
+            "[Nothing]",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "B6"
         ],
         "special_ability": "Critical Attack"
     },
@@ -928,31 +1439,49 @@
             "[Unhide enemy]",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "68": {
         "enemy_name": "Neon",
         "simple_actions": [
-            "Critical Attack",
             "[Nothing]",
             "!Attack",
-            "Flash"
+            "Flash",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "8B"
         ],
         "special_ability": "Critical Attack"
     },
     "69": {
         "enemy_name": "Magnetite",
         "simple_actions": [
-            "Magnet",
-            "!Attack"
+            "!Attack",
+            "Magnet"
+        ],
+        "simple_action_codes": [
+            "80",
+            "E6"
         ],
         "special_ability": "Critical Attack"
     },
     "6A": {
         "enemy_name": "Reflect Knight",
         "simple_actions": [
-            "!Attack",
-            "Thrust"
+            "Thrust",
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Thrust"
     },
@@ -960,74 +1489,117 @@
         "enemy_name": "Traveler",
         "simple_actions": [
             "Critical Attack",
-            "Time Slip",
-            "!Attack"
+            "!Attack",
+            "Time Slip"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8C"
         ],
         "special_ability": "Critical Attack"
     },
     "6C": {
         "enemy_name": "Level Tricker",
         "simple_actions": [
+            "!Attack",
             "Level 4 Graviga",
-            "[Nothing]",
-            "!Attack"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "86"
         ],
         "special_ability": "Critical Attack"
     },
     "6D": {
         "enemy_name": "Gravitator",
         "simple_actions": [
-            "Critical Attack",
+            "Graviga",
             "Gravity",
             "!Attack",
-            "Graviga"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "42",
+            "3C"
         ],
         "special_ability": "Critical Attack"
     },
     "6E": {
         "enemy_name": "Ziggurat Gigas (regular)",
         "simple_actions": [
-            "Flying Knee",
-            "Off-Guard",
+            "!Attack",
             "[Nothing]",
             "Hurricane",
-            "!Attack"
+            "Flying Knee",
+            "Off-Guard"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "EA",
+            "95"
         ],
         "special_ability": "Flying Knee"
     },
     "6F": {
         "enemy_name": "Cure Beast",
         "simple_actions": [
-            "Critical Attack",
+            "Cura",
             "!Attack",
-            "Cura"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "18"
         ],
         "special_ability": "Critical Attack"
     },
     "70": {
         "enemy_name": "Land Turtle",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "71": {
         "enemy_name": "Dechirer",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
     "72": {
         "enemy_name": "Catoblepas",
         "simple_actions": [
+            "Evil Eye",
             "Drain",
             "[Nothing]",
-            "Attack",
-            "Evil Eye"
+            "Attack"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "EB",
+            "2D",
+            "DE"
         ],
         "special_ability": "Rush"
     },
@@ -1035,26 +1607,41 @@
         "enemy_name": "Mini Magician",
         "simple_actions": [
             "Lilliputian Lyric",
-            "Osmose",
-            "[Nothing]"
+            "[Nothing]",
+            "Osmose"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "35",
+            "8A"
         ],
         "special_ability": "Critical Attack"
     },
     "74": {
         "enemy_name": "Galajelly",
         "simple_actions": [
-            "Rainbow Wind",
+            "Spirit Blast",
             "!Attack",
-            "Spirit Blast"
+            "Rainbow Wind"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BD"
         ],
         "special_ability": "Spirit Blast"
     },
     "75": {
         "enemy_name": "Mammon",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Berserk",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "20"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1062,8 +1649,13 @@
         "enemy_name": "Imp (regular)",
         "simple_actions": [
             "Sap",
-            "!Attack",
-            "Confuse"
+            "Confuse",
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "1A"
         ],
         "special_ability": "Sap"
     },
@@ -1071,18 +1663,29 @@
         "enemy_name": "Wyrm",
         "simple_actions": [
             "Tail",
-            "[Nothing]",
             "!Attack",
+            "[Nothing]",
             "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "80",
+            "DA",
+            "AA",
+            "81"
         ],
         "special_ability": "Tail"
     },
     "78": {
         "enemy_name": "Twin Lizard",
         "simple_actions": [
-            "Critical Attack",
+            "[Flip sprite horizontally]",
             "!Attack",
-            "[Flip sprite horizontally]"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E7"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1092,53 +1695,89 @@
             "Tusk",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Tusk"
     },
     "7A": {
         "enemy_name": "Hellraiser",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Arise"
+            "Arise",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "21"
         ],
         "special_ability": "Critical Attack"
     },
     "7B": {
         "enemy_name": "Reflect Mage",
         "simple_actions": [
-            "Thunder",
+            "Fire",
             "Thundara",
             "[Nothing]",
-            "Fire",
-            "Fira",
             "Blizzard",
-            "Blizzara"
+            "Fira",
+            "Blizzara",
+            "Thunder"
+        ],
+        "simple_action_codes": [
+            "24",
+            "25",
+            "26",
+            "AA",
+            "2A",
+            "2B",
+            "2C"
         ],
         "special_ability": "Critical Attack"
     },
     "7C": {
         "enemy_name": "Magic Dragon",
         "simple_actions": [
-            "Off-Guard",
-            "Critical Attack",
-            "[Nothing]",
             "Level 2 Old",
             "!Attack",
-            "Aeroga"
+            "Aeroga",
+            "[Nothing]",
+            "Off-Guard",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "87",
+            "AA",
+            "91",
+            "95"
         ],
         "special_ability": "Critical Attack"
     },
     "7D": {
         "enemy_name": "Black Warlock",
         "simple_actions": [
-            "Stop",
             "Slowga",
-            "[Nothing]",
             "Banish",
-            "Drain",
-            "Death",
+            "[Nothing]",
             "Break",
-            "Confuse"
+            "Confuse",
+            "Drain",
+            "Stop",
+            "Death"
+        ],
+        "simple_action_codes": [
+            "40",
+            "47",
+            "AA",
+            "2D",
+            "2E",
+            "34",
+            "1A",
+            "3D"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1149,14 +1788,24 @@
             "Vanish",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AF"
+        ],
         "special_ability": "Tackle"
     },
     "7F": {
         "enemy_name": "Bandercoeurl (regular)",
         "simple_actions": [
-            "Critical Attack",
             "Blaster",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B2"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1164,27 +1813,43 @@
         "enemy_name": "Iron Fist",
         "simple_actions": [
             "Counter",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Counter"
     },
     "81": {
         "enemy_name": "Blue Dragon",
         "simple_actions": [
-            "Ice Storm",
-            "Critical Attack",
             "Frost",
-            "!Attack"
+            "!Attack",
+            "Ice Storm",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "CC",
+            "CD"
         ],
         "special_ability": "Critical Attack"
     },
     "82": {
         "enemy_name": "Red Dragon (regular)",
         "simple_actions": [
-            "Critical Attack",
             "Atomic Ray",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "CA"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1192,34 +1857,53 @@
         "enemy_name": "Yellow Dragon",
         "simple_actions": [
             "Critical Attack",
-            "Lightning",
-            "!Attack"
+            "!Attack",
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "DC"
         ],
         "special_ability": "Critical Attack"
     },
     "84": {
         "enemy_name": "Sleepy",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Sleep",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "28"
         ],
         "special_ability": "Critical Attack"
     },
     "85": {
         "enemy_name": "Triffid",
         "simple_actions": [
-            "Critical Attack",
             "Berserk",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "20",
+            "81",
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
     "86": {
         "enemy_name": "Hedgehog",
         "simple_actions": [
-            "Needle",
-            "!Attack"
+            "!Attack",
+            "Needle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C1"
         ],
         "special_ability": "Needle"
     },
@@ -1227,18 +1911,29 @@
         "enemy_name": "Python",
         "simple_actions": [
             "Vampire",
-            "[Nothing]",
             "!Attack",
+            "[Nothing]",
             "Entangle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "BC",
+            "98"
         ],
         "special_ability": "Puncture"
     },
     "88": {
         "enemy_name": "Shadow",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1249,6 +1944,11 @@
             "!Attack",
             "Aeroga"
         ],
+        "simple_action_codes": [
+            "80",
+            "91",
+            "81"
+        ],
         "special_ability": "Left Jab"
     },
     "8A": {
@@ -1256,15 +1956,24 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "8B": {
         "enemy_name": "Dark Aspic",
         "simple_actions": [
-            "Critical Attack",
             "Vampire",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "98"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1274,14 +1983,23 @@
             "[Unhide enemy]",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "8D": {
         "enemy_name": "Unknown (blob 1)",
         "simple_actions": [
             "[Unhide enemy]",
-            "Delta Attack",
-            "!Attack"
+            "!Attack",
+            "Delta Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "EE",
+            "A7"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1289,17 +2007,27 @@
         "enemy_name": "Desertpede",
         "simple_actions": [
             "Tail",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Tail"
     },
     "8F": {
         "enemy_name": "Bulette",
         "simple_actions": [
-            "Body Slam",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Body Slam"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Body Slam"
     },
@@ -1307,8 +2035,13 @@
         "enemy_name": "Sekhmet",
         "simple_actions": [
             "[Nothing]",
-            "Attack",
-            "Sling"
+            "Sling",
+            "Attack"
+        ],
+        "simple_action_codes": [
+            "81",
+            "AA",
+            "DE"
         ],
         "special_ability": "Sling"
     },
@@ -1316,10 +2049,17 @@
         "enemy_name": "Lamia Queen",
         "simple_actions": [
             "Entice",
-            "Critical Attack",
-            "[Nothing]",
             "1000 Needles",
-            "!Attack"
+            "!Attack",
+            "[Nothing]",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "BB",
+            "9D"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1330,6 +2070,11 @@
             "!Attack",
             "Fin"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
+        ],
         "special_ability": "Fin"
     },
     "93": {
@@ -1337,53 +2082,88 @@
         "simple_actions": [
             "Vanish",
             "Corner",
-            "Off-Guard",
+            "!Attack",
             "[Nothing]",
             "Dark Spark",
-            "!Attack"
+            "Off-Guard"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "AF",
+            "94",
+            "95"
         ],
         "special_ability": "Corner"
     },
     "94": {
         "enemy_name": "Archeosaur",
         "simple_actions": [
-            "Zombie Breath",
+            "Poison Breath",
             "Claw",
-            "[Nothing]",
             "!Attack",
-            "Poison Breath"
+            "[Nothing]",
+            "Zombie Breath"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "B6",
+            "B9"
         ],
         "special_ability": "Claw"
     },
     "95": {
         "enemy_name": "Zephyrus",
         "simple_actions": [
-            "Cura",
-            "Blink",
+            "[Unhide enemy]",
             "Shell",
             "[Nothing]",
-            "[Unhide enemy]",
+            "Haste",
             "Protect",
-            "Haste"
+            "Cura",
+            "Blink"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "EE",
+            "16",
+            "18",
+            "3A",
+            "1B",
+            "1C"
         ],
         "special_ability": "Critical Attack"
     },
     "96": {
         "enemy_name": "Exdeath's Soul",
         "simple_actions": [
-            "Death",
-            "Banish",
+            "Reaper's Sword",
             "!Attack",
-            "Reaper's Sword"
+            "Death",
+            "Banish"
+        ],
+        "simple_action_codes": [
+            "80",
+            "34",
+            "B0",
+            "47"
         ],
         "special_ability": "Critical Attack"
     },
     "97": {
         "enemy_name": "Slug",
         "simple_actions": [
-            "Critical Attack",
             "Slimer",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D5"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1391,40 +2171,65 @@
         "enemy_name": "Gloom Widow",
         "simple_actions": [
             "Web",
-            "Needle",
-            "!Attack"
+            "!Attack",
+            "Needle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D4"
         ],
         "special_ability": "Needle"
     },
     "99": {
         "enemy_name": "Mykale",
         "simple_actions": [
-            "Critical Attack",
-            "Aero",
-            "Fira",
             "Moon Flute",
-            "!Attack"
+            "Aero",
+            "!Attack",
+            "Fira",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "2A",
+            "8D",
+            "8F"
         ],
         "special_ability": "Critical Attack"
     },
     "9A": {
         "enemy_name": "Executor",
         "simple_actions": [
-            "Critical Attack",
-            "Level 4 Graviga",
-            "Level 2 Old",
             "!Attack",
+            "Level 2 Old",
+            "Level 5 Death",
+            "Level 4 Graviga",
             "Level 3 Flare",
-            "Level 5 Death"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "85",
+            "86",
+            "87",
+            "88"
         ],
         "special_ability": "Critical Attack"
     },
     "9B": {
         "enemy_name": "Oiseaurare (regular)",
         "simple_actions": [
-            "Critical Attack",
+            "Confuse",
             "!Attack",
-            "Confuse"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "1A"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1432,16 +2237,25 @@
         "enemy_name": "Shadow Dancer",
         "simple_actions": [
             "Dancehall Daze",
-            "Toe Kick",
-            "!Attack"
+            "!Attack",
+            "Toe Kick"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BE"
         ],
         "special_ability": "Toe Kick"
     },
     "9D": {
         "enemy_name": "The Damned",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1451,65 +2265,113 @@
             "Mineuchi",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Mineuchi"
     },
     "9F": {
         "enemy_name": "Tiny Mage",
         "simple_actions": [
             "Libra",
-            "Cura",
-            "Mini",
             "Shell",
             "[Nothing]",
-            "Dispel",
+            "Confuse",
             "Encircle",
-            "Confuse"
+            "Dispel",
+            "Cura",
+            "Mini"
+        ],
+        "simple_action_codes": [
+            "E2",
+            "23",
+            "AA",
+            "13",
+            "17",
+            "18",
+            "1A",
+            "1C"
         ],
         "special_ability": "Critical Attack"
     },
     "A0": {
         "enemy_name": "Chrono Controller",
         "simple_actions": [
-            "Comet",
-            "Slow",
-            "Regen",
-            "Graviga",
-            "Slowga",
-            "[Nothing]",
-            "Banish",
             "Old",
+            "Slowga",
+            "Meteor",
+            "Banish",
+            "Comet",
+            "[Nothing]",
             "Float",
             "Gravity",
-            "Hastega",
-            "Meteor"
+            "Slow",
+            "Graviga",
+            "Regen",
+            "Hastega"
+        ],
+        "simple_action_codes": [
+            "40",
+            "42",
+            "43",
+            "44",
+            "45",
+            "47",
+            "AA",
+            "37",
+            "38",
+            "3B",
+            "3C",
+            "3F"
         ],
         "special_ability": "Critical Attack"
     },
     "A1": {
         "enemy_name": "Bone Dragon (Golem battle)",
         "simple_actions": [
-            "Critical Attack",
+            "[Flip sprite horizontally]",
             "Bone",
             "!Attack",
-            "[Flip sprite horizontally]"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C3",
+            "E7"
         ],
         "special_ability": "Critical Attack"
     },
     "A2": {
         "enemy_name": "Flaremancer",
         "simple_actions": [
-            "Blizzaga",
-            "Thundaga",
             "Thundara",
-            "[Nothing]",
-            "Toad",
-            "Poison",
             "Bio",
+            "Toad",
+            "Thundaga",
+            "Poison",
+            "[Nothing]",
+            "Blizzaga",
+            "Break",
             "Fira",
             "[Strong Attack]",
             "Firaga",
-            "Break",
             "Blizzara"
+        ],
+        "simple_action_codes": [
+            "27",
+            "29",
+            "AA",
+            "2A",
+            "2C",
+            "2B",
+            "2E",
+            "2F",
+            "30",
+            "31",
+            "32",
+            "D7"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1519,6 +2381,10 @@
             "Counter",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Counter"
     },
     "A4": {
@@ -1527,36 +2393,59 @@
             "Tackle",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Tackle"
     },
     "A5": {
         "enemy_name": "Berserker",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "A6": {
         "enemy_name": "Zombie Dragon (Golem battle)",
         "simple_actions": [
-            "Vampire",
             "[Flip sprite horizontally]",
-            "Critical Attack",
+            "Poison Breath",
+            "Vampire",
             "!Attack",
-            "Poison Breath"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E7",
+            "B6",
+            "98"
         ],
         "special_ability": "Critical Attack"
     },
     "A7": {
         "enemy_name": "Druid",
         "simple_actions": [
-            "Encircle",
-            "Magnet",
+            "Web",
+            "!Attack",
             "Image",
             "Dischord",
-            "Web",
-            "!Attack"
+            "Encircle",
+            "Magnet"
+        ],
+        "simple_action_codes": [
+            "80",
+            "E2",
+            "E6",
+            "D3",
+            "D4",
+            "D9"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1566,53 +2455,85 @@
             "Rush",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Rush"
     },
     "A9": {
         "enemy_name": "Objet d'Art",
         "simple_actions": [
+            "Vanish",
             "Break",
-            "[Nothing]",
             "!Attack",
-            "Vanish"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "2E",
+            "AF"
         ],
         "special_ability": "Pressure"
     },
     "AA": {
         "enemy_name": "Frost Bull",
         "simple_actions": [
-            "Horn",
+            "Flee",
             "!Attack",
-            "Flee"
+            "Horn"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2"
         ],
         "special_ability": "Horn"
     },
     "AB": {
         "enemy_name": "Istory Lythos",
         "simple_actions": [
-            "Critical Attack",
             "Frostbite",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "CB"
         ],
         "special_ability": "Critical Attack"
     },
     "AC": {
         "enemy_name": "Spizzner",
         "simple_actions": [
-            "Critical Attack",
+            "Quicksand",
             "!Attack",
-            "Quicksand"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C9",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "AD": {
         "enemy_name": "Unknown (slime)",
         "simple_actions": [
-            "[Unconditional self-kill]",
             "Slimer",
             "Possess",
+            "[Unconditional self-kill]",
             "Sap",
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E4",
+            "D5",
+            "A5"
         ],
         "special_ability": "Sap"
     },
@@ -1620,22 +2541,37 @@
         "enemy_name": "Unknown (worm)",
         "simple_actions": [
             "Digestive Acid",
-            "[Nothing]",
-            "Entangle",
-            "Slimer",
             "Sap",
-            "!Attack"
+            "!Attack",
+            "[Nothing]",
+            "Slimer",
+            "Entangle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C5",
+            "AA",
+            "D5",
+            "BC"
         ],
         "special_ability": "Sap"
     },
     "AF": {
         "enemy_name": "Unknown (blob 2)",
         "simple_actions": [
-            "Spore",
-            "[Nothing]",
             "Reverse Polarity",
+            "Spore",
             "Sap",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E5",
+            "AA",
+            "B5"
         ],
         "special_ability": "Sap"
     },
@@ -1643,8 +2579,13 @@
         "enemy_name": "Unknown (skeleton)",
         "simple_actions": [
             "Sap",
-            "!Attack",
-            "Doom"
+            "Doom",
+            "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "82"
         ],
         "special_ability": "Sap"
     },
@@ -1652,17 +2593,27 @@
         "enemy_name": "Mercury Bat",
         "simple_actions": [
             "Claw",
-            "Vampire",
-            "!Attack"
+            "!Attack",
+            "Vampire"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "98"
         ],
         "special_ability": "Claw"
     },
     "B2": {
         "enemy_name": "Coral",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Spore"
+            "Spore",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B5"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1672,43 +2623,69 @@
             "[Unhide enemy]",
             "Knife"
         ],
+        "simple_action_codes": [
+            "81",
+            "EE"
+        ],
         "special_ability": "Knife"
     },
     "B4": {
         "enemy_name": "Aquagel",
         "simple_actions": [
-            "Hose",
-            "!Attack"
+            "!Attack",
+            "Hose"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Hose"
     },
     "B5": {
         "enemy_name": "Steel Fist",
         "simple_actions": [
-            "[Strong Attack]",
             "Air Fist",
-            "[Nothing]",
-            "!Attack"
+            "[Strong Attack]",
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "D7"
         ],
         "special_ability": "Air Fist"
     },
     "B6": {
         "enemy_name": "Alchymia",
         "simple_actions": [
-            "Death",
             "Ribbit",
             "[Nothing]",
-            "Vanish"
+            "Vanish",
+            "Death"
+        ],
+        "simple_action_codes": [
+            "A0",
+            "AA",
+            "34",
+            "AF"
         ],
         "special_ability": "Critical Attack"
     },
     "B7": {
         "enemy_name": "Red Dragon (Alchymia)",
         "simple_actions": [
-            "Critical Attack",
             "Atomic Ray",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "CA",
+            "AA",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1716,46 +2693,73 @@
         "enemy_name": "Ghidra (Alchymia)",
         "simple_actions": [
             "Tidal Wave",
-            "[Nothing]",
             "!Attack",
-            "Poison Breath"
+            "Poison Breath",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "D1",
+            "AA",
+            "B6"
         ],
         "special_ability": "Critical Attack"
     },
     "B9": {
         "enemy_name": "Bone Dragon (Alchymia)",
         "simple_actions": [
-            "Critical Attack",
             "Bone",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "C3"
         ],
         "special_ability": "Critical Attack"
     },
     "BA": {
         "enemy_name": "Grenade",
         "simple_actions": [
-            "Critical Attack",
+            "Self-Destruct",
             "!Attack",
-            "Self-Destruct"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "9B"
         ],
         "special_ability": "Critical Attack"
     },
     "BB": {
         "enemy_name": "Sword Dancer",
         "simple_actions": [
-            "Dance Macabre",
+            "!Attack",
             "High Kick",
-            "!Attack"
+            "Dance Macabre"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B7"
         ],
         "special_ability": "High Kick"
     },
     "BC": {
         "enemy_name": "Baldanders",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Aeroga"
+            "Aeroga",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "91",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1764,14 +2768,22 @@
         "simple_actions": [
             "Roulette"
         ],
+        "simple_action_codes": [
+            "83"
+        ],
         "special_ability": "Critical Attack"
     },
     "BE": {
         "enemy_name": "Ankheg",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Earthquake",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D6"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1779,8 +2791,13 @@
         "enemy_name": "Ammonite",
         "simple_actions": [
             "Digestive Acid",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "C5"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1791,17 +2808,30 @@
             "Maelstrom",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2"
+        ],
         "special_ability": "Crush"
     },
     "C1": {
         "enemy_name": "Lemure",
         "simple_actions": [
             "Spore",
-            "Critical Attack",
-            "[Nothing]",
+            "!Attack",
             "Embrace",
+            "[Nothing]",
             "Pond's Chorus",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "89",
+            "AA",
+            "B4",
+            "B5"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1809,11 +2839,19 @@
         "enemy_name": "Parthenope",
         "simple_actions": [
             "Entice",
-            "Critical Attack",
-            "[Nothing]",
             "Reverse Polarity",
+            "!Attack",
+            "[Nothing]",
             "Roulette",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "83",
+            "E5",
+            "AA",
+            "BB"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1821,53 +2859,87 @@
         "enemy_name": "Cherie",
         "simple_actions": [
             "Dancehall Daze",
+            "!Attack",
+            "[Nothing]",
             "Lilliputian Lyric",
             "Dance Macabre",
-            "Critical Attack",
-            "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8A",
+            "AA",
+            "B7",
+            "BE"
         ],
         "special_ability": "Critical Attack"
     },
     "C4": {
         "enemy_name": "White Flame",
         "simple_actions": [
-            "Critical Attack",
             "White Wind",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "9E"
         ],
         "special_ability": "Critical Attack"
     },
     "C5": {
         "enemy_name": "Moss Fungus",
         "simple_actions": [
-            "Spore",
-            "[Nothing]",
-            "Knock Silly",
-            "Rainbow Wind",
             "Web",
-            "!Attack"
+            "Spore",
+            "Knock Silly",
+            "!Attack",
+            "[Nothing]",
+            "Rainbow Wind"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "D4",
+            "B5",
+            "BD"
         ],
         "special_ability": "Knock Silly"
     },
     "C6": {
         "enemy_name": "Orukat",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Evil Eye"
+            "Evil Eye",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EB"
         ],
         "special_ability": "Critical Attack"
     },
     "C7": {
         "enemy_name": "Iron Giant",
         "simple_actions": [
-            "[Nothing]",
-            "Takedown",
             "Rocket Punch",
+            "!Attack",
+            "[Nothing]",
             "Hurricane",
-            "!Attack"
+            "Takedown"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C6",
+            "EA",
+            "AA"
         ],
         "special_ability": "Takedown"
     },
@@ -1877,15 +2949,25 @@
             "!Attack",
             "Death Claw"
         ],
+        "simple_action_codes": [
+            "80",
+            "8E"
+        ],
         "special_ability": "Squeeze"
     },
     "C9": {
         "enemy_name": "King Behemoth",
         "simple_actions": [
-            "Critical Attack",
-            "[Nothing]",
+            "Meteor",
             "!Attack",
-            "Meteor"
+            "[Nothing]",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "45"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1893,32 +2975,53 @@
         "enemy_name": "Farfarello",
         "simple_actions": [
             "Lilliputian Lyric",
-            "Osmose",
+            "!Attack",
             "[Nothing]",
-            "Drain",
+            "Osmose",
             "Pond's Chorus",
-            "!Attack"
+            "Drain"
+        ],
+        "simple_action_codes": [
+            "80",
+            "89",
+            "AA",
+            "8A",
+            "2D",
+            "35"
         ],
         "special_ability": "Magic Stick"
     },
     "CB": {
         "enemy_name": "Necromancer",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Shell",
             "Protect",
             "Zombie Powder",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "16",
+            "B8",
+            "1C"
         ],
         "special_ability": "Critical Attack"
     },
     "CC": {
         "enemy_name": "Ninja",
         "simple_actions": [
-            "[Nothing]",
+            "Yagyuu's Strike",
             "!Attack",
             "Image",
-            "Yagyuu's Strike"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "D9"
         ],
         "special_ability": "Yagyuu's Strike"
     },
@@ -1926,11 +3029,19 @@
         "enemy_name": "Great Dragon",
         "simple_actions": [
             "Earthquake",
-            "Critical Attack",
+            "Blaze",
+            "!Attack",
             "[Nothing]",
             "Flame Thrower",
-            "Blaze",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "92",
+            "D6",
+            "DB"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1938,9 +3049,15 @@
         "enemy_name": "Dragon Aevis",
         "simple_actions": [
             "Critical Attack",
-            "[Nothing]",
             "!Attack",
+            "[Nothing]",
             "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "DA",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -1948,79 +3065,131 @@
         "enemy_name": "Gorgimera",
         "simple_actions": [
             "Atomic Ray",
+            "!Attack",
             "Electrocute",
-            "Critical Attack",
             "Frost",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "CA",
+            "CD",
+            "CE"
         ],
         "special_ability": "Critical Attack"
     },
     "D0": {
         "enemy_name": "Level Checker",
         "simple_actions": [
-            "Search",
-            "Level 4 Graviga",
             "Level 2 Old",
-            "Level 3 Flare",
-            "Level 5 Death"
+            "Level 5 Death",
+            "Level 4 Graviga",
+            "Search",
+            "Level 3 Flare"
+        ],
+        "simple_action_codes": [
+            "85",
+            "86",
+            "87",
+            "88",
+            "AD"
         ],
         "special_ability": "Critical Attack"
     },
     "D1": {
         "enemy_name": "Mindflayer",
         "simple_actions": [
-            "Mind Blast",
+            "[Nothing]",
             "!Attack",
-            "[Nothing]"
+            "Mind Blast"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "97"
         ],
         "special_ability": "Drill"
     },
     "D2": {
         "enemy_name": "Fury",
         "simple_actions": [
-            "Blizzaga",
-            "Stop",
+            "Silence",
+            "Slowga",
+            "Berserk",
+            "Bio",
             "Comet",
             "Thundaga",
-            "Mini",
-            "Slowga",
-            "[Nothing]",
             "Toad",
-            "Bio",
-            "Silence",
-            "Berserk",
+            "[Nothing]",
+            "Blizzaga",
+            "Firaga",
             "Drain",
-            "Death",
-            "Firaga"
+            "Stop",
+            "Mini",
+            "Death"
+        ],
+        "simple_action_codes": [
+            "40",
+            "20",
+            "29",
+            "AA",
+            "2D",
+            "2F",
+            "30",
+            "31",
+            "32",
+            "34",
+            "15",
+            "17",
+            "3D",
+            "3F"
         ],
         "special_ability": "Critical Attack"
     },
     "D3": {
         "enemy_name": "Crystelle",
         "simple_actions": [
-            "Critical Attack",
+            "Reverse Polarity",
             "!Attack",
-            "Reverse Polarity"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E5"
         ],
         "special_ability": "Critical Attack"
     },
     "D4": {
         "enemy_name": "Mover",
         "simple_actions": [
-            "[Unhide enemy]",
+            "Encircle",
             "[Terminate battle]",
-            "Delta Attack",
-            "[Nothing]",
+            "[Unhide enemy]",
             "!Attack",
-            "Encircle"
+            "Delta Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "E2",
+            "A7",
+            "AA",
+            "EE",
+            "EF"
         ],
         "special_ability": "Critical Attack"
     },
     "D5": {
         "enemy_name": "Crystal Dragon",
         "simple_actions": [
-            "Breath Wing",
-            "!Attack"
+            "!Attack",
+            "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "80",
+            "DA"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2028,43 +3197,67 @@
         "enemy_name": "Achelon",
         "simple_actions": [
             "Dischord",
-            "[Nothing]",
+            "Evil Eye",
             "!Attack",
-            "Evil Eye"
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "EB",
+            "D3"
         ],
         "special_ability": "Critical Attack"
     },
     "D7": {
         "enemy_name": "Yojimbo",
         "simple_actions": [
-            "Wring",
-            "!Attack"
+            "!Attack",
+            "Wring"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Wring"
     },
     "D8": {
         "enemy_name": "Gilgamesh (Interdimensional Rift)",
         "simple_actions": [
-            "[Unnamed script trigger]",
             "[Terminate battle]",
-            "[Nothing]",
-            "!Attack"
+            "[Unnamed script trigger]",
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "AC",
+            "EF"
         ],
         "special_ability": "Critical Attack"
     },
     "D9": {
         "enemy_name": "Sahagin",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "DA": {
         "enemy_name": "Thunder Anemone",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2074,63 +3267,97 @@
             "Dive",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Dive"
     },
     "DC": {
         "enemy_name": "Corbett",
         "simple_actions": [
-            "Breath Wing",
             "!Attack",
-            "Fin"
+            "Fin",
+            "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "DA"
         ],
         "special_ability": "Fin"
     },
     "DD": {
         "enemy_name": "Nix",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "DE": {
         "enemy_name": "Water Scorpion",
         "simple_actions": [
-            "Needle",
-            "!Attack"
+            "!Attack",
+            "Needle"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Needle"
     },
     "DF": {
         "enemy_name": "Vilia",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "E0": {
         "enemy_name": "Gel Fish",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "E1": {
         "enemy_name": "Rukh",
         "simple_actions": [
+            "!Attack",
             "Zombie Breath",
-            "Breath Wing",
-            "!Attack"
+            "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "80",
+            "B9",
+            "DA"
         ],
         "special_ability": "Dive"
     },
     "E2": {
         "enemy_name": "Sea Devil",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2140,6 +3367,10 @@
             "!Attack",
             "Fin"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Fin"
     },
     "E4": {
@@ -2148,6 +3379,10 @@
             "Flee",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "A2"
+        ],
         "special_ability": "Critical Attack"
     },
     "E5": {
@@ -2155,13 +3390,20 @@
         "simple_actions": [
             "[Unconditional self-kill]"
         ],
+        "simple_action_codes": [
+            "A5"
+        ],
         "special_ability": "Critical Attack"
     },
     "E6": {
         "enemy_name": "Chimera",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2171,6 +3413,10 @@
             "[Unhide enemy]",
             "Blizzara"
         ],
+        "simple_action_codes": [
+            "2B",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "E8": {
@@ -2179,21 +3425,33 @@
             "[Unhide enemy]",
             "Blaze"
         ],
+        "simple_action_codes": [
+            "DB",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "E9": {
         "enemy_name": "Ramuh (Metamorph)",
         "simple_actions": [
-            "Lightning",
-            "[Unhide enemy]"
+            "[Unhide enemy]",
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "DC",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
     "EA": {
         "enemy_name": "Gaelicat (Metamorph)",
         "simple_actions": [
-            "[Unhide enemy]",
-            "Cat Scratch"
+            "Cat Scratch",
+            "[Unhide enemy]"
+        ],
+        "simple_action_codes": [
+            "81",
+            "EE"
         ],
         "special_ability": "Cat Scratch"
     },
@@ -2203,13 +3461,21 @@
             "[Unhide enemy]",
             "Breath Wing"
         ],
+        "simple_action_codes": [
+            "DA",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "EC": {
         "enemy_name": "Elf Toad (Metamorph)",
         "simple_actions": [
-            "Pond's Chorus",
-            "[Unhide enemy]"
+            "[Unhide enemy]",
+            "Pond's Chorus"
+        ],
+        "simple_action_codes": [
+            "89",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2219,6 +3485,10 @@
             "[Unhide enemy]",
             "Flash"
         ],
+        "simple_action_codes": [
+            "8B",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "EE": {
@@ -2227,13 +3497,21 @@
             "[Unhide enemy]",
             "Aeroga"
         ],
+        "simple_action_codes": [
+            "91",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "EF": {
         "enemy_name": "Zombie Dragon (Metamorph)",
         "simple_actions": [
-            "Zombie Breath",
-            "[Unhide enemy]"
+            "[Unhide enemy]",
+            "Zombie Breath"
+        ],
+        "simple_action_codes": [
+            "B9",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2241,107 +3519,167 @@
         "enemy_name": "Dhorme Chimera (Zephyrus)",
         "simple_actions": [
             "Aqua Breath",
-            "[Nothing]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "AA",
+            "84"
         ],
         "special_ability": "Critical Attack"
     },
     "F1": {
         "enemy_name": "Adamantite Golem (Zephyrus)",
         "simple_actions": [
-            "Critical Attack",
-            "[Nothing]",
+            "Vanish",
             "!Attack",
-            "Vanish"
+            "[Nothing]",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "AF"
         ],
         "special_ability": "Critical Attack"
     },
     "F2": {
         "enemy_name": "Ziggurat Gigas (Zephyrus)",
         "simple_actions": [
+            "!Attack",
             "Off-Guard",
-            "Critical Attack",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "95"
         ],
         "special_ability": "Critical Attack"
     },
     "F3": {
         "enemy_name": "Ronkan Knght (Zephyrus)",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
     "F4": {
         "enemy_name": "Bio Soldier (Zephyrus)",
         "simple_actions": [
+            "!Attack",
             "Bio",
-            "Critical Attack",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "2F"
         ],
         "special_ability": "Critical Attack"
     },
     "F5": {
         "enemy_name": "Tunneller (Zephyrus)",
         "simple_actions": [
+            "[Nothing]",
             "Dischord",
-            "Level 3 Flare",
-            "[Nothing]"
+            "Level 3 Flare"
+        ],
+        "simple_action_codes": [
+            "88",
+            "AA",
+            "D3"
         ],
         "special_ability": "Critical Attack"
     },
     "F6": {
         "enemy_name": "Tot Aevis",
         "simple_actions": [
-            "Beak",
-            "Critical Attack",
+            "Breath Wing",
             "!Attack",
-            "Breath Wing"
+            "Beak",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "DA",
+            "B3"
         ],
         "special_ability": "Critical Attack"
     },
     "F7": {
         "enemy_name": "Belphegor",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "F8": {
         "enemy_name": "Imp (Castle Exdeath)",
         "simple_actions": [
-            "Critical Attack",
+            "Confuse",
             "!Attack",
-            "Confuse"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "1A"
         ],
         "special_ability": "Critical Attack"
     },
     "F9": {
         "enemy_name": "Oiseaurare (Castle Exdeath)",
         "simple_actions": [
-            "[Nothing]",
-            "Confuse"
+            "Confuse",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "1A"
         ],
         "special_ability": "Critical Attack"
     },
     "FA": {
         "enemy_name": "Jackanapes (Castle Exdeath)",
         "simple_actions": [
-            "Critical Attack",
             "Moon Flute",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8D"
         ],
         "special_ability": "Critical Attack"
     },
     "FB": {
         "enemy_name": "Gobbledygook",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Goblin Punch"
+            "Goblin Punch",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "93"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2349,26 +3687,45 @@
         "enemy_name": "Gil Turtle",
         "simple_actions": [
             "Turtle",
-            "Earthquake",
-            "!Attack"
+            "!Attack",
+            "Earthquake"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D6"
         ],
         "special_ability": "Turtle"
     },
     "FD": {
         "enemy_name": "Omega",
         "simple_actions": [
-            "Search",
             "Atomic Ray",
             "Earthquake",
-            "Wave Cannon",
-            "Blaster",
-            "Encircle",
-            "Flame Thrower",
             "Rocket Punch",
             "Mustard Bomb",
+            "Wave Cannon",
+            "Flame Thrower",
             "Maelstrom",
+            "Encircle",
             "Rainbow Wind",
-            "Delta Attack"
+            "Search",
+            "Delta Attack",
+            "Blaster"
+        ],
+        "simple_action_codes": [
+            "C2",
+            "E2",
+            "C6",
+            "A7",
+            "C7",
+            "CA",
+            "AD",
+            "B2",
+            "92",
+            "D6",
+            "DD",
+            "BD"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2377,6 +3734,9 @@
         "simple_actions": [
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA"
+        ],
         "special_ability": "Critical Attack"
     },
     "FF": {
@@ -2384,14 +3744,22 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "100": {
         "enemy_name": "Wing Raptor (1st form)",
         "simple_actions": [
             "[Unhide enemy]",
-            "Breath Wing",
-            "!Attack"
+            "!Attack",
+            "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "80",
+            "DA",
+            "EE"
         ],
         "special_ability": "Claw"
     },
@@ -2403,6 +3771,12 @@
             "[Nothing]",
             "Breath Wing"
         ],
+        "simple_action_codes": [
+            "DA",
+            "AA",
+            "81",
+            "EE"
+        ],
         "special_ability": "Claw"
     },
     "102": {
@@ -2412,30 +3786,52 @@
             "Feeler",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C4"
+        ],
         "special_ability": "Feeler"
     },
     "103": {
         "enemy_name": "Twintania (2nd form)",
         "simple_actions": [
-            "Giga Flare",
             "[Unhide enemy]",
-            "[Nothing]"
+            "[Nothing]",
+            "Giga Flare"
+        ],
+        "simple_action_codes": [
+            "E1",
+            "AA",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
     "104": {
         "enemy_name": "Siren (1st form)",
         "simple_actions": [
-            "Libra",
-            "Thunder",
-            "Slow",
             "Silence",
+            "Sleep",
+            "Cure",
+            "Libra",
             "[Unhide enemy]",
+            "Haste",
             "Blizzard",
             "Protect",
-            "Sleep",
-            "Haste",
-            "Cure"
+            "Slow",
+            "Thunder"
+        ],
+        "simple_action_codes": [
+            "25",
+            "26",
+            "28",
+            "EE",
+            "12",
+            "13",
+            "15",
+            "16",
+            "37",
+            "3A"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2446,6 +3842,11 @@
             "!Attack",
             "Venomous Clasp"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EE"
+        ],
         "special_ability": "Venomous Clasp"
     },
     "106": {
@@ -2454,19 +3855,33 @@
             "Tackle",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Tackle"
     },
     "107": {
         "enemy_name": "Magissa",
         "simple_actions": [
-            "Thunder",
-            "Regen",
-            "Critical Attack",
-            "Aero",
             "Fire",
+            "Aero",
             "[Unhide enemy]",
             "Blizzard",
-            "Drain"
+            "Drain",
+            "Regen",
+            "Thunder",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "81",
+            "24",
+            "25",
+            "26",
+            "2D",
+            "EE",
+            "8F",
+            "38"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2474,9 +3889,15 @@
         "enemy_name": "Garula (boss)",
         "simple_actions": [
             "Rush",
-            "[Nothing]",
             "Toad",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "29",
+            "AA"
         ],
         "special_ability": "Rush"
     },
@@ -2488,41 +3909,67 @@
             "Blaze",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "DB",
+            "EE"
+        ],
         "special_ability": "Rush"
     },
     "10A": {
         "enemy_name": "Liquid Flame (hand form)",
         "simple_actions": [
-            "Ray",
+            "[Unhide enemy]",
             "Fira",
             "!Attack",
-            "[Unhide enemy]"
+            "Ray"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "2A",
+            "EE"
         ],
         "special_ability": "Ray"
     },
     "10B": {
         "enemy_name": "Liquid Flame (tornado form)",
         "simple_actions": [
+            "[Unhide enemy]",
             "Fira",
-            "Magnet",
-            "[Unhide enemy]"
+            "Magnet"
+        ],
+        "simple_action_codes": [
+            "2A",
+            "E6",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
     "10C": {
         "enemy_name": "Ice Commander",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "10D": {
         "enemy_name": "[Executor] Sandworm",
         "simple_actions": [
+            "Quicksand",
             "[Forfeit battle]",
-            "Attack",
-            "Quicksand"
+            "Attack"
+        ],
+        "simple_action_codes": [
+            "C9",
+            "ED",
+            "DE"
         ],
         "special_ability": "Tusk"
     },
@@ -2532,6 +3979,10 @@
             "Gravity",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA",
+            "3C"
+        ],
         "special_ability": "Critical Attack"
     },
     "10F": {
@@ -2540,13 +3991,21 @@
             "[Unnamed script trigger]",
             "[False Image switch]"
         ],
+        "simple_action_codes": [
+            "A3",
+            "AC"
+        ],
         "special_ability": "Critical Attack"
     },
     "110": {
         "enemy_name": "Adamantoise",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2555,57 +4014,92 @@
         "simple_actions": [
             "Flame Thrower"
         ],
+        "simple_action_codes": [
+            "92"
+        ],
         "special_ability": "Critical Attack"
     },
     "112": {
         "enemy_name": "Rocket Launcher",
         "simple_actions": [
             "Missile",
-            "[Nothing]",
-            "Rocket Punch"
+            "Rocket Punch",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "C6",
+            "9F"
         ],
         "special_ability": "Critical Attack"
     },
     "113": {
         "enemy_name": "Exdeath (tree)",
         "simple_actions": [
-            "Flare",
-            "Attack",
-            "Doom",
-            "[Nothing]",
-            "[Unhide enemy]",
             "Meteor",
+            "Flare",
+            "[Unhide enemy]",
             "White Hole",
+            "[Nothing]",
+            "Doom",
+            "Attack",
             "Holy"
+        ],
+        "simple_action_codes": [
+            "C0",
+            "22",
+            "82",
+            "45",
+            "AA",
+            "EE",
+            "33",
+            "DE"
         ],
         "special_ability": "Critical Attack"
     },
     "114": {
         "enemy_name": "Soul Cannon (boss)",
         "simple_actions": [
-            "Wave Cannon",
             "[Explode]",
+            "Wave Cannon",
             "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "B1",
+            "AA",
+            "DD"
         ],
         "special_ability": "Critical Attack"
     },
     "115": {
         "enemy_name": "Archeoaevis (1st form)",
         "simple_actions": [
-            "[Unhide enemy]",
             "Sap",
+            "[Unhide enemy]",
             "Attack",
             "Breath Wing"
+        ],
+        "simple_action_codes": [
+            "81",
+            "DA",
+            "DE",
+            "EE"
         ],
         "special_ability": "Sap"
     },
     "116": {
         "enemy_name": "Archeoaevis (2nd form)",
         "simple_actions": [
+            "Wing Attack",
             "[Unhide enemy]",
             "Frost",
-            "Attack",
-            "Wing Attack"
+            "Attack"
+        ],
+        "simple_action_codes": [
+            "81",
+            "CD",
+            "DE",
+            "EE"
         ],
         "special_ability": "Wing Attack"
     },
@@ -2613,65 +4107,107 @@
         "enemy_name": "Archeoaevis (3rd form)",
         "simple_actions": [
             "Tail",
-            "[Unhide enemy]",
+            "Blaze",
             "Attack",
-            "Blaze"
+            "[Unhide enemy]"
+        ],
+        "simple_action_codes": [
+            "81",
+            "DB",
+            "DE",
+            "EE"
         ],
         "special_ability": "Tail"
     },
     "118": {
         "enemy_name": "Archeoaevis (4th form)",
         "simple_actions": [
-            "[Unhide enemy]",
             "Attack",
             "Claw",
-            "Lightning",
-            "[Nothing]"
+            "[Unhide enemy]",
+            "[Nothing]",
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "81",
+            "EE",
+            "AA",
+            "DC",
+            "DE"
         ],
         "special_ability": "Claw"
     },
     "119": {
         "enemy_name": "Archeoaevis (5th form)",
         "simple_actions": [
+            "Blaze",
+            "!Attack",
             "Breath Wing",
+            "Maelstrom",
             "Entangle",
             "Tusk",
-            "Maelstrom",
-            "Blaze",
-            "Lightning",
             "Frost",
-            "!Attack"
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "CD",
+            "DC",
+            "DA",
+            "DB",
+            "BC"
         ],
         "special_ability": "Tusk"
     },
     "11A": {
         "enemy_name": "Chimera Brain",
         "simple_actions": [
-            "Critical Attack",
-            "Aqua Breath",
             "Frost",
-            "!Attack"
+            "Aqua Breath",
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "84",
+            "CD"
         ],
         "special_ability": "Critical Attack"
     },
     "11B": {
         "enemy_name": "Titan",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Earth Shaker"
+            "Earth Shaker",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "CF"
         ],
         "special_ability": "Critical Attack"
     },
     "11C": {
         "enemy_name": "Purobolos",
         "simple_actions": [
-            "Arise",
-            "Cura",
-            "Critical Attack",
+            "!Attack",
             "[Nothing]",
+            "Arise",
             "Self-Destruct",
-            "!Attack"
+            "Cura",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "21",
+            "AA",
+            "18",
+            "9B"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2679,42 +4215,65 @@
         "enemy_name": "Abductor (Bartz solo)",
         "simple_actions": [
             "Critical Attack",
-            "Hurricane",
-            "!Attack"
+            "!Attack",
+            "Hurricane"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EA"
         ],
         "special_ability": "Critical Attack"
     },
     "11E": {
         "enemy_name": "Gilgamesh (dungeon)",
         "simple_actions": [
-            "Critical Attack",
             "Flee",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2"
         ],
         "special_ability": "Critical Attack"
     },
     "11F": {
         "enemy_name": "Merrow",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "120": {
         "enemy_name": "Flying Killer",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "121": {
         "enemy_name": "Little Chariot",
         "simple_actions": [
-            "Critical Attack",
             "Mustard Bomb",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C7"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2724,33 +4283,57 @@
             "Rush",
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80",
+            "81"
+        ],
         "special_ability": "Rush"
     },
     "123": {
         "enemy_name": "Gilgamesh (Big Bridge)",
         "simple_actions": [
-            "Attack",
-            "Electrocute",
+            "!Attack",
             "Goblin Punch",
-            "Critical Attack",
-            "Aera",
-            "Flee",
             "Shell",
-            "Wind Slash",
-            "Jump",
-            "Protect",
             "Haste",
-            "!Attack"
+            "Electrocute",
+            "Wind Slash",
+            "Protect",
+            "Attack",
+            "Jump",
+            "Flee",
+            "Aera",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2",
+            "E8",
+            "AB",
+            "CE",
+            "90",
+            "93",
+            "16",
+            "3A",
+            "1C",
+            "DE"
         ],
         "special_ability": "Critical Attack"
     },
     "124": {
         "enemy_name": "Tyrannosaur",
         "simple_actions": [
-            "Critical Attack",
-            "????",
+            "???",
             "!Attack",
-            "Poison Breath"
+            "Poison Breath",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "9C",
+            "B6"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2759,15 +4342,24 @@
         "simple_actions": [
             "Blizzara"
         ],
+        "simple_action_codes": [
+            "2B"
+        ],
         "special_ability": "Critical Attack"
     },
     "126": {
         "enemy_name": "Abductor (Castle of Bal)",
         "simple_actions": [
             "Critical Attack",
-            "Hurricane",
+            "!Attack",
             "Vampire",
-            "!Attack"
+            "Hurricane"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EA",
+            "98"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2777,6 +4369,10 @@
             "[Unhide enemy]",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "128": {
@@ -2785,29 +4381,45 @@
             "Silver Powder",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "81",
+            "AA"
+        ],
         "special_ability": "Silver Powder"
     },
     "129": {
         "enemy_name": "Dragon Flower (2nd)",
         "simple_actions": [
-            "[Nothing]",
-            "Poison Powder"
+            "Poison Powder",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "81",
+            "AA"
         ],
         "special_ability": "Poison Powder"
     },
     "12A": {
         "enemy_name": "Dragon Flower (3rd)",
         "simple_actions": [
-            "Darkness Powder",
-            "[Nothing]"
+            "[Nothing]",
+            "Darkness Powder"
+        ],
+        "simple_action_codes": [
+            "81",
+            "AA"
         ],
         "special_ability": "Darkness Powder"
     },
     "12B": {
         "enemy_name": "Dragon Flower (4th)",
         "simple_actions": [
-            "[Nothing]",
-            "Paralyze Powder"
+            "Paralyze Powder",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "81",
+            "AA"
         ],
         "special_ability": "Paralyze Powder"
     },
@@ -2817,147 +4429,249 @@
             "Confuse Powder",
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "81",
+            "AA"
+        ],
         "special_ability": "Confuse Powder"
     },
     "12D": {
         "enemy_name": "Gilgamesh (Xezat's Fleet)",
         "simple_actions": [
-            "[Unnamed script trigger]",
-            "[Unhide enemy]",
-            "Death Claw",
+            "[Flip sprite horizontally]",
             "Missile",
-            "Critical Attack",
             "[Nothing]",
+            "[Unhide enemy]",
+            "[Unnamed script trigger]",
             "!Attack",
-            "[Flip sprite horizontally]"
+            "Death Claw",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EE",
+            "AA",
+            "E7",
+            "AC",
+            "8E",
+            "9F"
         ],
         "special_ability": "Critical Attack"
     },
     "12E": {
         "enemy_name": "Enkidu",
         "simple_actions": [
-            "Vampire",
-            "Critical Attack",
-            "Aera",
-            "White Wind",
-            "Wind Slash",
-            "Dischord",
             "Missile",
+            "Web",
+            "Vampire",
             "!Attack",
-            "Web"
+            "Wind Slash",
+            "White Wind",
+            "Dischord",
+            "Aera",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AB",
+            "90",
+            "D3",
+            "D4",
+            "98",
+            "9E",
+            "9F"
         ],
         "special_ability": "Critical Attack"
     },
     "12F": {
         "enemy_name": "Atomos",
         "simple_actions": [
-            "Comet",
-            "Wormhole",
-            "Graviga",
-            "Slowga",
-            "[Nothing]",
             "Old",
+            "Slowga",
+            "Comet",
+            "[Nothing]",
             "Gravity",
-            "[Pull dead targets]"
+            "Wormhole",
+            "[Pull dead targets]",
+            "Graviga"
+        ],
+        "simple_action_codes": [
+            "40",
+            "42",
+            "E3",
+            "44",
+            "AA",
+            "EC",
+            "3C",
+            "3F"
         ],
         "special_ability": "Critical Attack"
     },
     "130": {
         "enemy_name": "Fire Crystal",
         "simple_actions": [
+            "!Attack",
             "Firaga",
-            "Critical Attack",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "30",
+            "81",
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
     "131": {
         "enemy_name": "Earth Crystal",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Earth Shaker"
+            "Earth Shaker",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "CF"
         ],
         "special_ability": "Critical Attack"
     },
     "132": {
         "enemy_name": "Water Crystal",
         "simple_actions": [
-            "Critical Attack",
             "Aqua Breath",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "84"
         ],
         "special_ability": "Critical Attack"
     },
     "133": {
         "enemy_name": "Wind Crystal",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Aeroga"
+            "Aeroga",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "91",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "134": {
         "enemy_name": "Carbuncle (1st form)",
         "simple_actions": [
-            "Stop",
             "Thundara",
-            "Banish",
             "Bio",
+            "Banish",
             "[Unhide enemy]",
+            "Break",
+            "Confuse",
             "Fira",
             "Blizzara",
-            "Death",
-            "Break",
-            "Confuse"
+            "Stop",
+            "Death"
+        ],
+        "simple_action_codes": [
+            "47",
+            "2A",
+            "2B",
+            "2C",
+            "EE",
+            "2F",
+            "2E",
+            "34",
+            "1A",
+            "3D"
         ],
         "special_ability": "Critical Attack"
     },
     "135": {
         "enemy_name": "Melusine (ending credits)",
         "simple_actions": [
-            "Blizzaga",
-            "Thundaga",
-            "Critical Attack",
             "Entice",
-            "Flee",
+            "Thundaga",
+            "!Attack",
+            "Blizzaga",
             "Firaga",
-            "!Attack"
+            "Flee",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2",
+            "30",
+            "31",
+            "32",
+            "BB"
         ],
         "special_ability": "Critical Attack"
     },
     "136": {
         "enemy_name": "Gilgamesh (Castle Exdeath, morphed)",
         "simple_actions": [
-            "[Nothing]",
             "Banish",
-            "!Attack"
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "E9",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
     "137": {
         "enemy_name": "Exdeath (Castle Exdeath)",
         "simple_actions": [
-            "Zombie Breath",
-            "Doom",
-            "Vacuum Wave",
-            "Reverse Polarity",
-            "Earth Shaker",
-            "Meteor",
-            "Level 3 Flare",
-            "[Nothing]",
-            "Bio",
+            "Blaze",
+            "!Attack",
             "Gravity",
-            "Hurricane",
+            "Firaga",
+            "Earth Shaker",
+            "Level 3 Flare",
+            "100 Gs",
+            "Bio",
             "Haste",
             "Blizzaga",
             "Dispel",
+            "Vacuum Wave",
             "Thundaga",
-            "Blaze",
-            "Firaga",
-            "!Attack",
-            "100 Gs"
+            "Doom",
+            "Zombie Breath",
+            "Meteor",
+            "Reverse Polarity",
+            "[Nothing]",
+            "Hurricane"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "82",
+            "88",
+            "23",
+            "AA",
+            "AE",
+            "2F",
+            "30",
+            "31",
+            "32",
+            "B9",
+            "3A",
+            "3C",
+            "45",
+            "CF",
+            "DB",
+            "E5",
+            "EA"
         ],
         "special_ability": "Vacuum Wave"
     },
@@ -2965,19 +4679,31 @@
         "enemy_name": "Antlion",
         "simple_actions": [
             "Digestive Acid",
-            "Critical Attack",
-            "Flee",
+            "!Attack",
             "Dischord",
-            "!Attack"
+            "Flee",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2",
+            "C5",
+            "D3"
         ],
         "special_ability": "Critical Attack"
     },
     "139": {
         "enemy_name": "Mummy",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "Dance Macabre",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B7"
         ],
         "special_ability": "Critical Attack"
     },
@@ -2989,176 +4715,305 @@
             "!Attack",
             "Entangle"
         ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BC",
+            "35"
+        ],
         "special_ability": "Critical Attack"
     },
     "13B": {
         "enemy_name": "Mecha Head",
         "simple_actions": [
+            "Missile",
+            "Reverse Polarity",
+            "Mustard Bomb",
+            "!Attack",
             "Wave Cannon",
             "[Nothing]",
-            "Reverse Polarity",
             "Flame Thrower",
-            "Mustard Bomb",
-            "Interceptor",
-            "Missile",
-            "!Attack"
+            "Interceptor"
+        ],
+        "simple_action_codes": [
+            "80",
+            "E5",
+            "C7",
+            "A8",
+            "AA",
+            "92",
+            "DD",
+            "9F"
         ],
         "special_ability": "Critical Attack"
     },
     "13C": {
         "enemy_name": "Melusine (1st form)",
         "simple_actions": [
-            "[Unnamed script trigger]",
-            "Blizzaga",
-            "Barrier Change",
             "Thundaga",
-            "[Nothing]",
+            "Barrier Change",
             "[Unhide enemy]",
-            "!Attack"
+            "!Attack",
+            "[Nothing]",
+            "Blizzaga",
+            "[Unnamed script trigger]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A9",
+            "AA",
+            "AC",
+            "EE",
+            "31",
+            "32"
         ],
         "special_ability": "Critical Attack"
     },
     "13D": {
         "enemy_name": "Melusine (2nd form)",
         "simple_actions": [
-            "[Unnamed script trigger]",
-            "Barrier Change",
             "Thundaga",
-            "[Nothing]",
+            "Barrier Change",
             "[Unhide enemy]",
+            "!Attack",
+            "[Nothing]",
             "Firaga",
-            "!Attack"
+            "[Unnamed script trigger]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A9",
+            "AA",
+            "AC",
+            "EE",
+            "30",
+            "32"
         ],
         "special_ability": "Critical Attack"
     },
     "13E": {
         "enemy_name": "Melusine (3rd form)",
         "simple_actions": [
-            "Blizzaga",
-            "[Unnamed script trigger]",
             "Barrier Change",
-            "[Nothing]",
             "[Unhide enemy]",
+            "!Attack",
+            "[Nothing]",
+            "Blizzaga",
             "Firaga",
-            "!Attack"
+            "[Unnamed script trigger]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A9",
+            "AA",
+            "AC",
+            "EE",
+            "30",
+            "31"
         ],
         "special_ability": "Critical Attack"
     },
     "13F": {
         "enemy_name": "Melusine (4th form)",
         "simple_actions": [
-            "[Unnamed script trigger]",
-            "Blizzaga",
-            "Barrier Change",
-            "Thundaga",
             "Entice",
-            "[Nothing]",
+            "Thundaga",
+            "Barrier Change",
             "[Unhide enemy]",
-            "Firaga"
+            "[Nothing]",
+            "Blizzaga",
+            "Firaga",
+            "[Unnamed script trigger]"
+        ],
+        "simple_action_codes": [
+            "A9",
+            "AA",
+            "AC",
+            "EE",
+            "30",
+            "31",
+            "32",
+            "BB"
         ],
         "special_ability": "Critical Attack"
     },
     "140": {
         "enemy_name": "Odin",
         "simple_actions": [
-            "Critical Attack",
+            "!Attack",
             "[Nothing]",
             "Zantetsuken",
             "[Terminate battle]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "EF",
+            "D0"
         ],
         "special_ability": "Critical Attack"
     },
     "141": {
         "enemy_name": "Gargoyle",
         "simple_actions": [
-            "Critical Attack",
             "[Unhide enemy]",
+            "!Attack",
             "Transfusion",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "96",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
     "142": {
         "enemy_name": "Triton",
         "simple_actions": [
+            "[Unhide enemy]",
+            "!Attack",
             "[Nothing]",
             "Flame Thrower",
-            "[Unhide enemy]",
             "Firaga",
-            "Delta Attack",
-            "!Attack"
+            "Delta Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A7",
+            "AA",
+            "EE",
+            "30",
+            "92"
         ],
         "special_ability": "Critical Attack"
     },
     "143": {
         "enemy_name": "Nereid",
         "simple_actions": [
-            "Ice Storm",
-            "Blizzaga",
-            "[Nothing]",
             "[Unhide enemy]",
-            "Frost",
+            "!Attack",
+            "[Nothing]",
+            "Blizzaga",
             "Delta Attack",
-            "!Attack"
+            "Frost",
+            "Ice Storm"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A7",
+            "AA",
+            "CC",
+            "CD",
+            "EE",
+            "31"
         ],
         "special_ability": "Critical Attack"
     },
     "144": {
         "enemy_name": "Phobos",
         "simple_actions": [
-            "[Nothing]",
             "Bio",
             "[Unhide enemy]",
+            "!Attack",
+            "[Nothing]",
             "Rainbow Wind",
-            "Delta Attack",
-            "!Attack"
+            "Delta Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "A7",
+            "AA",
+            "EE",
+            "2F",
+            "BD"
         ],
         "special_ability": "Critical Attack"
     },
     "145": {
         "enemy_name": "Omniscient",
         "simple_actions": [
-            "Toad",
             "Fire",
-            "Cura",
-            "Graviga",
-            "[Nothing]",
-            "Bio",
             "Silence",
-            "Float",
-            "Gravity",
-            "Reflect",
-            "Haste",
-            "Cure",
-            "Confuse",
-            "Blizzaga",
-            "Libra",
-            "Blizzara",
-            "Regen",
-            "Mini",
-            "Fira",
-            "Drain",
             "Flare",
-            "Stop",
-            "Slow",
-            "Thundaga",
-            "Thundara",
+            "Toad",
             "Poison",
-            "Return",
+            "Graviga",
+            "Gravity",
+            "Firaga",
+            "Blizzara",
+            "Reflect",
+            "Mini",
+            "Thundara",
+            "Bio",
+            "Haste",
+            "Blizzaga",
+            "Float",
+            "Cura",
+            "Cure",
+            "Thundaga",
+            "Libra",
             "Blizzard",
-            "Firaga"
+            "Confuse",
+            "Slow",
+            "Drain",
+            "Stop",
+            "[Nothing]",
+            "Fira",
+            "Return",
+            "Regen"
+        ],
+        "simple_action_codes": [
+            "12",
+            "13",
+            "15",
+            "17",
+            "18",
+            "1A",
+            "1F",
+            "24",
+            "25",
+            "27",
+            "29",
+            "AA",
+            "2A",
+            "2C",
+            "2B",
+            "2D",
+            "2F",
+            "30",
+            "31",
+            "32",
+            "33",
+            "37",
+            "38",
+            "3A",
+            "3B",
+            "3C",
+            "3D",
+            "41",
+            "42"
         ],
         "special_ability": "Critical Attack"
     },
     "146": {
         "enemy_name": "Minotaur",
         "simple_actions": [
-            "Critical Attack",
             "[Unconditional self-kill]",
-            "[Nothing]",
+            "Critical Attack",
             "!Attack",
+            "[Nothing]",
             "Holy"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "22",
+            "A5",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3167,110 +5022,194 @@
         "simple_actions": [
             "Tail",
             "Entangle",
-            "Aqua Breath",
             "Tidal Wave",
-            "[Nothing]",
-            "!Attack"
+            "Aqua Breath",
+            "!Attack",
+            "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "D1",
+            "84",
+            "AA",
+            "BC"
         ],
         "special_ability": "Tail"
     },
     "148": {
         "enemy_name": "Wendigo",
         "simple_actions": [
-            "Attack",
-            "Frost",
             "[Unconditional self-kill]",
-            "[Nothing]",
-            "[False Image switch]",
-            "Hurricane",
             "Mind Blast",
-            "Confuse"
+            "[False Image switch]",
+            "[Nothing]",
+            "Hurricane",
+            "Confuse",
+            "Attack",
+            "Frost"
+        ],
+        "simple_action_codes": [
+            "A3",
+            "A5",
+            "AA",
+            "EA",
+            "CD",
+            "97",
+            "1A",
+            "DE"
         ],
         "special_ability": "Critical Attack"
     },
     "149": {
         "enemy_name": "Famed Mimic Gogo",
         "simple_actions": [
-            "Ice Storm",
-            "Critical Attack",
-            "Banish",
-            "Meteor",
-            "Aqua Breath",
-            "Holy",
             "Flare",
-            "Remedy",
+            "!Attack",
+            "Frost",
+            "Aqua Breath",
+            "Meteor",
+            "Banish",
+            "Critical Attack",
             "[Nothing]",
             "Maelstrom",
             "[Strong Attack]",
-            "Frost",
-            "!Attack"
+            "Remedy",
+            "Ice Storm",
+            "Holy"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "84",
+            "45",
+            "CC",
+            "CD",
+            "D7",
+            "DF",
+            "22",
+            "E9",
+            "AA",
+            "33"
         ],
         "special_ability": "Critical Attack"
     },
     "14A": {
         "enemy_name": "Bahamut",
         "simple_actions": [
-            "Ice Storm",
-            "Zombie Breath",
             "Atomic Ray",
-            "Lightning",
-            "[Nothing]",
-            "Earth Shaker",
-            "Maelstrom",
-            "Blaze",
-            "Mega Flare",
-            "Aqua Breath",
+            "Poison Breath",
             "Frost",
+            "Blaze",
             "!Attack",
-            "Poison Breath"
+            "[Nothing]",
+            "Maelstrom",
+            "Zombie Breath",
+            "Earth Shaker",
+            "Aqua Breath",
+            "Mega Flare",
+            "Ice Storm",
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C2",
+            "84",
+            "CA",
+            "AA",
+            "CC",
+            "CD",
+            "CF",
+            "D2",
+            "B6",
+            "B9",
+            "DB",
+            "DC"
         ],
         "special_ability": "Critical Attack"
     },
     "14B": {
         "enemy_name": "Jura Aevis",
         "simple_actions": [
-            "Critical Attack",
-            "Breath Wing",
-            "Entangle",
-            "Maelstrom",
-            "Blaze",
             "Lightning",
+            "Blaze",
+            "!Attack",
+            "Breath Wing",
+            "Maelstrom",
+            "Entangle",
             "Frost",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "CD",
+            "DC",
+            "DA",
+            "DB",
+            "BC"
         ],
         "special_ability": "Critical Attack"
     },
     "14C": {
         "enemy_name": "Halicarnassus",
         "simple_actions": [
-            "Ribbit",
-            "Critical Attack",
-            "Dispel",
-            "Shell",
             "Reverse Polarity",
-            "[Strong Attack]",
-            "Haste",
             "!Attack",
-            "Holy"
+            "Shell",
+            "Haste",
+            "Holy",
+            "[Strong Attack]",
+            "Dispel",
+            "Ribbit",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "22",
+            "23",
+            "A0",
+            "E5",
+            "D7",
+            "3A",
+            "1C"
         ],
         "special_ability": "Critical Attack"
     },
     "14D": {
         "enemy_name": "Exdeath (Galuf solo)",
         "simple_actions": [
-            "Blizzaga",
-            "Attack",
             "Vacuum Wave",
-            "Meteor",
-            "[Terminate battle]",
-            "Holy",
             "Flare",
             "Thundaga",
-            "Graviga",
+            "!Attack",
+            "[Terminate battle]",
+            "Firaga",
+            "Meteor",
             "[Unconditional self-kill]",
             "[Nothing]",
-            "Firaga",
-            "!Attack"
+            "Blizzaga",
+            "Attack",
+            "Graviga",
+            "Holy"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "42",
+            "45",
+            "DE",
+            "22",
+            "A5",
+            "AA",
+            "EF",
+            "30",
+            "31",
+            "32",
+            "33"
         ],
         "special_ability": "Vacuum Wave"
     },
@@ -3279,12 +5218,18 @@
         "simple_actions": [
             "[Nothing]"
         ],
+        "simple_action_codes": [
+            "AA"
+        ],
         "special_ability": "Critical Attack"
     },
     "14F": {
         "enemy_name": "NeoExdeath (dummy 2)",
         "simple_actions": [
             "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3293,67 +5238,108 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "151": {
         "enemy_name": "Iron Claw",
         "simple_actions": [
-            "Critical Attack",
             "!Attack",
-            "Death Claw"
+            "Death Claw",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "8E"
         ],
         "special_ability": "Critical Attack"
     },
     "152": {
         "enemy_name": "Sergeant (Iron Claw battle)",
         "simple_actions": [
-            "[Unnamed script trigger]",
-            "[Unhide enemy]"
+            "[Unhide enemy]",
+            "[Unnamed script trigger]"
+        ],
+        "simple_action_codes": [
+            "AC",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
     "153": {
         "enemy_name": "Cur Nakk (Iron Claw battle)",
         "simple_actions": [
-            "Critical Attack",
             "Flee",
+            "!Attack",
             "[Nothing]",
-            "!Attack"
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "AA",
+            "81",
+            "A2",
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
     "154": {
         "enemy_name": "Cray Claw",
         "simple_actions": [
-            "Slimer",
             "Tail Screw",
+            "Slimer",
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C4",
+            "D5"
         ],
         "special_ability": "Critical Attack"
     },
     "155": {
         "enemy_name": "Neo Goblin",
         "simple_actions": [
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81"
         ],
         "special_ability": "Critical Attack"
     },
     "156": {
         "enemy_name": "Calofisteri",
         "simple_actions": [
-            "Stop",
-            "Cura",
-            "Esuna",
-            "Regen",
-            "Shell",
             "Old",
-            "Poison",
+            "Esuna",
             "Bio",
             "Reflect",
-            "Drain",
+            "Poison",
+            "Shell",
+            "Haste",
             "Protect",
-            "Haste"
+            "Drain",
+            "Cura",
+            "Stop",
+            "Regen"
+        ],
+        "simple_action_codes": [
+            "44",
+            "27",
+            "2D",
+            "2F",
+            "3D",
+            "16",
+            "38",
+            "18",
+            "3A",
+            "1C",
+            "1D",
+            "1F"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3361,81 +5347,147 @@
         "enemy_name": "Azulmagia",
         "simple_actions": [
             "Vampire",
-            "Goblin Punch",
-            "Doom",
-            "Death Claw",
             "Toad",
-            "Magic Hammer",
+            "Flame Thrower",
+            "Lilliputian Lyric",
+            "Aqua Breath",
             "Level 3 Flare",
-            "????",
-            "Time Slip",
-            "Aero",
-            "[Nothing]",
-            "Level 4 Graviga",
+            "Death Claw",
+            "Mind Blast",
+            "Magic Hammer",
             "Level 2 Old",
+            "Goblin Punch",
+            "Flash",
+            "Level 4 Graviga",
+            "Pond's Chorus",
+            "Self-Destruct",
+            "Dark Spark",
+            "Off-Guard",
+            "Missile",
+            "1000 Needles",
+            "Mighty Guard",
+            "Doom",
+            "White Wind",
+            "Roulette",
+            "???",
+            "Aero",
             "Aeroga",
             "Level 5 Death",
-            "Flame Thrower",
-            "Dark Spark",
-            "Missile",
-            "Aqua Breath",
-            "Mind Blast",
-            "Lilliputian Lyric",
-            "Off-Guard",
-            "Aera",
-            "Mighty Guard",
-            "White Wind",
-            "Flash",
-            "1000 Needles",
-            "Self-Destruct",
-            "Roulette",
-            "Pond's Chorus"
+            "Time Slip",
+            "[Nothing]",
+            "Aera"
+        ],
+        "simple_action_codes": [
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "8A",
+            "8B",
+            "8C",
+            "8E",
+            "8F",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "97",
+            "98",
+            "99",
+            "9A",
+            "9B",
+            "9C",
+            "9D",
+            "9E",
+            "9F",
+            "29",
+            "AA"
         ],
         "special_ability": "Critical Attack"
     },
     "158": {
         "enemy_name": "Catastrophe",
         "simple_actions": [
-            "Evil Eye",
-            "Critical Attack",
-            "Earth Shaker",
+            "100 Gs",
             "!Attack",
-            "100 Gs"
+            "Evil Eye",
+            "Earth Shaker",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EB",
+            "AE",
+            "CF"
         ],
         "special_ability": "Critical Attack"
     },
     "159": {
         "enemy_name": "Necrophobe",
         "simple_actions": [
-            "Flare",
-            "[Unnamed script trigger]",
-            "Blizzaga",
-            "Thundaga",
             "Vacuum Wave",
-            "[Nothing]",
-            "Flash",
-            "[Strong Attack]",
+            "Flare",
+            "Thundaga",
             "[Unhide enemy]",
-            "Death",
-            "Firaga",
+            "!Attack",
+            "Flash",
             "Hurricane",
+            "[Nothing]",
+            "Blizzaga",
+            "[Strong Attack]",
+            "Firaga",
             "[Terminate battle]",
-            "!Attack"
+            "[Unnamed script trigger]",
+            "Death"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "EA",
+            "8B",
+            "AC",
+            "AA",
+            "EE",
+            "EF",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "D7"
         ],
         "special_ability": "Vacuum Wave"
     },
     "15A": {
         "enemy_name": "Twintania (1st form)",
         "simple_actions": [
-            "Ice Storm",
             "Atomic Ray",
-            "Tidal Wave",
+            "Mind Blast",
+            "[Unhide enemy]",
+            "!Attack",
             "[Nothing]",
             "Wind Slash",
-            "[Unhide enemy]",
+            "Tidal Wave",
             "Mega Flare",
-            "Mind Blast",
-            "!Attack"
+            "Ice Storm"
+        ],
+        "simple_action_codes": [
+            "80",
+            "CA",
+            "AB",
+            "CC",
+            "AA",
+            "EE",
+            "D1",
+            "D2",
+            "97"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3445,6 +5497,10 @@
             "[Fractional Launcher attack]",
             "[Explode]"
         ],
+        "simple_action_codes": [
+            "E0",
+            "B1"
+        ],
         "special_ability": "Critical Attack"
     },
     "15C": {
@@ -3453,22 +5509,39 @@
             "[Fractional Launcher attack]",
             "[Explode]"
         ],
+        "simple_action_codes": [
+            "E0",
+            "B1"
+        ],
         "special_ability": "Critical Attack"
     },
     "15D": {
         "enemy_name": "Gilgamesh (Castle Exdeath, normal)",
         "simple_actions": [
-            "Lilliputian Lyric",
-            "Dancehall Daze",
-            "Critical Attack",
-            "Time Slip",
-            "Flash",
             "Rocket Punch",
             "[Unhide enemy]",
-            "Dischord",
+            "Dancehall Daze",
+            "!Attack",
+            "Flash",
+            "Time Slip",
             "Hurricane",
+            "Dischord",
             "Pond's Chorus",
-            "!Attack"
+            "Lilliputian Lyric",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C6",
+            "89",
+            "EA",
+            "8A",
+            "8C",
+            "8B",
+            "EE",
+            "D3",
+            "BE"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3478,93 +5551,153 @@
             "[Unhide enemy]",
             "Cura"
         ],
+        "simple_action_codes": [
+            "18",
+            "EE"
+        ],
         "special_ability": "Critical Attack"
     },
     "15F": {
         "enemy_name": "Grand Mummy",
         "simple_actions": [
             "Dancehall Daze",
-            "Critical Attack",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "BE"
         ],
         "special_ability": "Critical Attack"
     },
     "160": {
         "enemy_name": "Apanda",
         "simple_actions": [
-            "Protect",
             "[Flip sprite horizontally]",
-            "[Nothing]",
-            "Toad",
-            "Wind Slash",
-            "Panacea",
-            "Magic Hammer",
-            "Drain",
-            "Dischord",
             "Web",
+            "Magic Hammer",
+            "Toad",
             "!Attack",
-            "Confuse"
+            "Panacea",
+            "[Nothing]",
+            "Wind Slash",
+            "Protect",
+            "Confuse",
+            "Dischord",
+            "Drain"
+        ],
+        "simple_action_codes": [
+            "80",
+            "E7",
+            "29",
+            "AA",
+            "AB",
+            "2D",
+            "D3",
+            "D4",
+            "16",
+            "D8",
+            "99",
+            "1A"
         ],
         "special_ability": "Critical Attack"
     },
     "161": {
         "enemy_name": "Alte Roite",
         "simple_actions": [
-            "Remedy",
-            "Critical Attack",
-            "Encircle",
             "[Unhide enemy]",
-            "!Attack"
+            "!Attack",
+            "Encircle",
+            "Remedy",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "E2",
+            "EE",
+            "DF"
         ],
         "special_ability": "Critical Attack"
     },
     "162": {
         "enemy_name": "Covert",
         "simple_actions": [
-            "Critical Attack",
-            "[Nothing]",
-            "Wind Slash",
             "[Unhide enemy]",
             "Blaze",
-            "!Attack"
+            "!Attack",
+            "[Nothing]",
+            "Wind Slash",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "AA",
+            "AB",
+            "EE",
+            "DB"
         ],
         "special_ability": "Critical Attack"
     },
     "163": {
         "enemy_name": "Abductor (Castle Exdeath)",
         "simple_actions": [
-            "Critical Attack",
-            "Aera",
             "Hurricane",
-            "!Attack"
+            "!Attack",
+            "Aera",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "90",
+            "81",
+            "EA",
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
     "164": {
         "enemy_name": "Bandercoeurl (Phoenix Tower)",
         "simple_actions": [
-            "Critical Attack",
             "Blaster",
-            "!Attack"
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "B2"
         ],
         "special_ability": "Critical Attack"
     },
     "165": {
         "enemy_name": "Liquid Flame (Phoenix Tower)",
         "simple_actions": [
-            "Ray",
-            "Fira",
             "Firaga",
-            "Blaze"
+            "Blaze",
+            "Fira",
+            "Ray"
+        ],
+        "simple_action_codes": [
+            "30",
+            "81",
+            "2A",
+            "DB"
         ],
         "special_ability": "Ray"
     },
     "166": {
         "enemy_name": "Kuza Beast (Phoenix Tower)",
         "simple_actions": [
-            "Critical Attack",
-            "????",
-            "!Attack"
+            "???",
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "9C"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3575,38 +5708,68 @@
             "Missile",
             "Wave Cannon"
         ],
+        "simple_action_codes": [
+            "BF",
+            "DD",
+            "9F"
+        ],
         "special_ability": "Critical Attack"
     },
     "168": {
         "enemy_name": "Pantera",
         "simple_actions": [
-            "[Unhide enemy]",
             "[False Image switch]",
-            "Critical Attack",
-            "Flee",
+            "[Unhide enemy]",
             "Blaster",
-            "!Attack"
+            "Flee",
+            "!Attack",
+            "Critical Attack"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "A2",
+            "B2",
+            "A3",
+            "EE"
         ],
         "special_ability": "Critical Attack"
     },
     "169": {
         "enemy_name": "Shinryu",
         "simple_actions": [
-            "Ice Storm",
-            "Zombie Breath",
             "Atomic Ray",
-            "[Unnamed script trigger]",
-            "Evil Eye",
+            "Poison Breath",
+            "!Attack",
             "Mighty Guard",
-            "Tidal Wave",
+            "Level 2 Old",
             "[Nothing]",
             "Maelstrom",
+            "Zombie Breath",
+            "Evil Eye",
+            "Tidal Wave",
             "Roulette",
-            "Level 2 Old",
-            "Lightning",
-            "!Attack",
+            "[Unnamed script trigger]",
+            "Ice Storm",
             "Level 3 Flare",
-            "Poison Breath"
+            "Lightning"
+        ],
+        "simple_action_codes": [
+            "80",
+            "C2",
+            "83",
+            "87",
+            "88",
+            "CA",
+            "EB",
+            "CC",
+            "AA",
+            "AC",
+            "D1",
+            "B6",
+            "B9",
+            "9A",
+            "DC"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3614,84 +5777,145 @@
         "enemy_name": "Barrier",
         "simple_actions": [
             "Flare",
-            "Blizzaga",
             "Thundaga",
+            "Blizzaga",
             "Firaga",
             "Holy"
+        ],
+        "simple_action_codes": [
+            "22",
+            "30",
+            "31",
+            "32",
+            "33"
         ],
         "special_ability": "Critical Attack"
     },
     "16B": {
         "enemy_name": "Neo Exdeath (top)",
         "simple_actions": [
+            "Meteor",
+            "Vacuum Wave",
             "Comet",
             "Grand Cross",
-            "Almagest",
-            "Vacuum Wave",
-            "Dispel",
+            "!Attack",
             "[Nothing]",
             "Maelstrom",
-            "Meteor",
-            "!Attack"
+            "Dispel",
+            "Almagest"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "23",
+            "45",
+            "A6",
+            "C8",
+            "AA",
+            "3F"
         ],
         "special_ability": "Vacuum Wave"
     },
     "16C": {
         "enemy_name": "Neo Exdeath (bottom)",
         "simple_actions": [
-            "Comet",
-            "Almagest",
+            "Meteor",
             "Vacuum Wave",
+            "Comet",
+            "!Attack",
             "[Nothing]",
             "Maelstrom",
-            "Meteor",
-            "!Attack"
+            "Almagest"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "45",
+            "C8",
+            "AA",
+            "3F"
         ],
         "special_ability": "Vacuum Wave"
     },
     "16D": {
         "enemy_name": "Neo Exdeath (back)",
         "simple_actions": [
+            "Meteor",
             "Comet",
-            "Almagest",
-            "Dispel",
             "Vacuum Wave 2",
+            "!Attack",
             "[Nothing]",
             "Maelstrom",
-            "Meteor",
-            "!Attack"
+            "Dispel",
+            "Almagest"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "23",
+            "45",
+            "C8",
+            "AA",
+            "3F"
         ],
         "special_ability": "Vacuum Wave 2"
     },
     "16E": {
         "enemy_name": "Neo Exdeath (front)",
         "simple_actions": [
-            "Blizzaga",
+            "Meteor",
+            "Vacuum Wave",
             "Flare",
             "Comet",
-            "Holy",
             "Thundaga",
-            "Vacuum Wave",
-            "Almagest",
-            "Dispel",
+            "!Attack",
+            "Aeroga",
             "[Nothing]",
             "Maelstrom",
-            "Meteor",
+            "Blizzaga",
+            "Dispel",
             "Firaga",
+            "Almagest",
             "Delta Attack",
-            "!Attack",
-            "Aeroga"
+            "Holy"
+        ],
+        "simple_action_codes": [
+            "80",
+            "81",
+            "C2",
+            "23",
+            "22",
+            "45",
+            "A7",
+            "C8",
+            "AA",
+            "30",
+            "91",
+            "31",
+            "33",
+            "32",
+            "3F"
         ],
         "special_ability": "Vacuum Wave"
     },
     "16F": {
         "enemy_name": "Gilgamesh (Necrophobe battle)",
         "simple_actions": [
-            "Remedy",
             "[Flip sprite horizontally]",
             "[Terminate battle]",
             "Self-Destruct",
+            "Remedy",
             "[Nothing]"
+        ],
+        "simple_action_codes": [
+            "EF",
+            "E7",
+            "AA",
+            "9B",
+            "DF"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3700,12 +5924,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "171": {
         "enemy_name": "UNUSED 0x171",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3714,12 +5944,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "173": {
         "enemy_name": "UNUSED 0x173",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3728,12 +5964,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "175": {
         "enemy_name": "UNUSED 0x175",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3742,12 +5984,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "177": {
         "enemy_name": "UNUSED 0x177",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3756,12 +6004,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "179": {
         "enemy_name": "UNUSED 0x179",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3770,12 +6024,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "17B": {
         "enemy_name": "UNUSED 0x17B",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3784,12 +6044,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "17D": {
         "enemy_name": "UNUSED 0x17D",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     },
@@ -3798,12 +6064,18 @@
         "simple_actions": [
             "!Attack"
         ],
+        "simple_action_codes": [
+            "80"
+        ],
         "special_ability": "Critical Attack"
     },
     "17F": {
         "enemy_name": "UNUSED 0x17F",
         "simple_actions": [
             "!Attack"
+        ],
+        "simple_action_codes": [
+            "80"
         ],
         "special_ability": "Critical Attack"
     }

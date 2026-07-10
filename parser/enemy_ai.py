@@ -42,6 +42,16 @@ class EnemyAI():
     def special_ability(self, _: Any) -> None:
         raise AttributeError("Special ability property is read-only.")
 
+    def get_all_simple_action_codes(self) -> set[int]:
+        all_actions: list[AIRuleAction] = []
+
+        for rule in self.__active_ai_rules + self.__reactive_ai_rules:
+            all_actions.extend(rule.actions)
+
+        simple_action_codes: set[int] = self.__extract_simple_action_codes(all_actions)
+
+        return simple_action_codes
+
     def get_all_simple_action_names(self) -> set[str]:
         all_actions: list[AIRuleAction] = []
 
@@ -51,6 +61,21 @@ class EnemyAI():
         simple_actions: set[str] = self.__extract_simple_action_names(all_actions)
 
         return simple_actions
+
+    def __extract_simple_action_codes(self, all_actions: list[AIRuleAction]) -> set[int]:
+        simple_action_codes: set[int] = set()
+
+        for action in all_actions:
+            if isinstance(action, SimpleAction):
+                simple_action_codes.add(action.raw_action_code)
+            elif isinstance(action, RandomSelectionAction) or isinstance(action, GBARandomSelectionAction):
+                simple_action_codes.add(action.first_choice.raw_action_code)
+                simple_action_codes.add(action.second_choice.raw_action_code)
+                simple_action_codes.add(action.third_choice.raw_action_code)
+            elif isinstance(action, AICommandAction) and isinstance(action.sub_action, NoInterruptAction):
+                simple_action_codes.update(self.__extract_simple_action_codes(action.sub_action.sub_actions))
+
+        return simple_action_codes
 
     def __extract_simple_action_names(self, all_actions: list[AIRuleAction]) -> set[str]:
         simple_actions: set[str] = set()

@@ -1212,7 +1212,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: !Attack",
                             "second_choice": "Ability: !Attack",
-                            "third_choice": "Ability: ????"
+                            "third_choice": "Ability: ???"
                         }
                     ],
                     "Turn #2": [
@@ -3056,7 +3056,7 @@
                 ],
                 "actions": {
                     "Turn #1": [
-                        "Ability: ????"
+                        "Ability: ???"
                     ]
                 }
             }
@@ -18884,7 +18884,7 @@
                         "action": "Random selection",
                         "first_choice": "Ability: !Attack",
                         "second_choice": "Special: Critical Attack",
-                        "third_choice": "Ability: ????"
+                        "third_choice": "Ability: ???"
                     }
                 ]
             }
@@ -23924,7 +23924,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Vampire",
                             "second_choice": "Ability: Vampire",
-                            "third_choice": "Ability: ????"
+                            "third_choice": "Ability: ???"
                         }
                     ]
                 }
@@ -24073,7 +24073,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Lilliputian Lyric",
                             "second_choice": "Ability: Flash",
-                            "third_choice": "Ability: ????"
+                            "third_choice": "Ability: ???"
                         }
                     ],
                     "Turn #5": [
@@ -25705,7 +25705,7 @@
                         {
                             "action": "Random selection",
                             "first_choice": "Ability: !Attack",
-                            "second_choice": "Ability: ????",
+                            "second_choice": "Ability: ???",
                             "third_choice": "Special: Critical Attack"
                         }
                     ]
@@ -28744,7 +28744,7 @@
                     {
                         "action": "Random selection",
                         "first_choice": "Ability: Curse",
-                        "second_choice": "Ability: ????",
+                        "second_choice": "Ability: ???",
                         "third_choice": "Stay idle"
                     }
                 ]
@@ -31215,7 +31215,7 @@
                         "action": "Random selection",
                         "first_choice": "Ability: !Attack",
                         "second_choice": "Special: Critical Attack",
-                        "third_choice": "Ability: ????"
+                        "third_choice": "Ability: ???"
                     }
                 ]
             }
@@ -33638,7 +33638,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Vampire",
                             "second_choice": "Ability: Vampire",
-                            "third_choice": "Ability: ????"
+                            "third_choice": "Ability: ???"
                         }
                     ]
                 }
@@ -33787,7 +33787,7 @@
                             "action": "Random selection",
                             "first_choice": "Ability: Lilliputian Lyric",
                             "second_choice": "Ability: Flash",
-                            "third_choice": "Ability: ????"
+                            "third_choice": "Ability: ???"
                         }
                     ],
                     "Turn #5": [
@@ -34439,7 +34439,7 @@
                     {
                         "action": "Random selection",
                         "first_choice": "Ability: Curse",
-                        "second_choice": "Ability: ????",
+                        "second_choice": "Ability: ???",
                         "third_choice": "Stay idle"
                     }
                 ]

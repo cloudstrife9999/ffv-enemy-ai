@@ -108,12 +108,14 @@ class AbstractAIParser(ABC):
                 file.write(line + "\n")
 
     @staticmethod
-    def __dump_simple_actions_to_json(enemy_id: str, enemy_name: str, simple_actions: set[str], special_ability: str, output_path: Path) -> None:
+    def __dump_simple_actions_to_json(enemy_id: str, enemy_name: str, simple_actions: set[str], simple_action_codes: set[int], special_ability: str, output_path: Path) -> None:
         simple_actions_json: list[str] = list(simple_actions)
+        simple_action_codes_json: list[str] = [f"{code:02X}" for code in simple_action_codes]
 
         output_data: JsonObject = {
             "enemy_name": enemy_name,
             "simple_actions": simple_actions_json,
+            "simple_action_codes": simple_action_codes_json,
             "special_ability": special_ability
         }
 
@@ -186,9 +188,10 @@ class AbstractAIParser(ABC):
             parsed_ai["raw"] = final_hex_ai
 
         simple_actions: set[str] = parser.get_parsed_ai().get_all_simple_action_names()
+        simple_action_codes: set[int] = parser.get_parsed_ai().get_all_simple_action_codes()
         special_ability: str = parser.get_parsed_ai().special_ability
 
-        AbstractAIParser.__dump_simple_actions_to_json(enemy_id, enemy_name, simple_actions, special_ability, self.__simple_actions_output_path)
+        AbstractAIParser.__dump_simple_actions_to_json(enemy_id, enemy_name, simple_actions, simple_action_codes, special_ability, self.__simple_actions_output_path)
 
         return parsed_ai, ai_script
 

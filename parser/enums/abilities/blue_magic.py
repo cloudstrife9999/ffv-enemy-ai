@@ -40,7 +40,7 @@ class BlueMagic(IntEnum):
             case BlueMagic.OFF_GUARD | BlueMagic.SELF_DESTRUCT:
                 return self.name.replace("_", " ").title().replace(" ", "-")
             case BlueMagic.QUESTION_MARKS:
-                return "????"
+                return "???"
             case BlueMagic.THOUSAND_NEEDLES:
                 return "1000 Needles"
             case _:
