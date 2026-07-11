@@ -7532,6 +7532,90 @@
                 "absorbs": true
             }
         },
+        "ps-elemental-interactions": {
+            "water": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "wind": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "earth": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "holy": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "poison": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "lightning": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "ice": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "fire": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            }
+        },
+        "snes-elemental-interactions": {
+            "water": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "wind": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "earth": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "holy": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "poison": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "lightning": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "ice": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            },
+            "fire": {
+                "weak": true,
+                "immune": false,
+                "absorbs": true
+            }
+        },
         "status-immunities": {
             "death": true,
             "petrify": true,
@@ -50763,6 +50847,90 @@
                 "absorbs": true
             }
         },
+        "ps-elemental-interactions": {
+            "water": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "wind": {
+                "weak": false,
+                "immune": true,
+                "absorbs": true
+            },
+            "earth": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "holy": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "poison": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "lightning": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "ice": {
+                "weak": true,
+                "immune": true,
+                "absorbs": false
+            },
+            "fire": {
+                "weak": false,
+                "immune": false,
+                "absorbs": true
+            }
+        },
+        "snes-elemental-interactions": {
+            "water": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "wind": {
+                "weak": false,
+                "immune": true,
+                "absorbs": true
+            },
+            "earth": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "holy": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "poison": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "lightning": {
+                "weak": false,
+                "immune": true,
+                "absorbs": false
+            },
+            "ice": {
+                "weak": true,
+                "immune": true,
+                "absorbs": false
+            },
+            "fire": {
+                "weak": false,
+                "immune": false,
+                "absorbs": true
+            }
+        },
         "status-immunities": {
             "death": false,
             "petrify": true,
@@ -55002,6 +55170,58 @@
             "confuse": true,
             "berserk": false,
             "silence": true,
+            "image (2)": false,
+            "image (1)": false,
+            "reflect": false,
+            "protect": false,
+            "shell": false,
+            "stop": true,
+            "haste": false,
+            "slow": false,
+            "invincible": false,
+            "regen": false
+        },
+        "ps-status-immunities": {
+            "death": true,
+            "petrify": true,
+            "toad": true,
+            "mini": true,
+            "float": false,
+            "poison": true,
+            "zombie": false,
+            "darkness": false,
+            "old": false,
+            "sleep": true,
+            "paralyze": true,
+            "confuse": true,
+            "berserk": false,
+            "silence": false,
+            "image (2)": false,
+            "image (1)": false,
+            "reflect": false,
+            "protect": false,
+            "shell": false,
+            "stop": true,
+            "haste": false,
+            "slow": false,
+            "invincible": false,
+            "regen": false
+        },
+        "snes-status-immunities": {
+            "death": true,
+            "petrify": true,
+            "toad": true,
+            "mini": true,
+            "float": false,
+            "poison": true,
+            "zombie": false,
+            "darkness": false,
+            "old": false,
+            "sleep": true,
+            "paralyze": true,
+            "confuse": true,
+            "berserk": false,
+            "silence": false,
             "image (2)": false,
             "image (1)": false,
             "reflect": false,
