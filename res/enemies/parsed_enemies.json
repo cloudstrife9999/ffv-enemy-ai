@@ -4483,7 +4483,7 @@
         ]
     },
     "1B": {
-        "name": "Elf Toad",
+        "name": "Elf Toad (regular)",
         "pr-bestiary-number": 25,
         "gba-bestiary-number": 25,
         "location": [],
@@ -21667,7 +21667,7 @@
         ]
     },
     "82": {
-        "name": "Red Dragon",
+        "name": "Red Dragon (regular)",
         "pr-bestiary-number": 133,
         "gba-bestiary-number": 133,
         "location": [],
@@ -61221,7 +61221,7 @@
         ]
     },
     "24E": {
-        "name": "NeoExdeath (dummy 1)",
+        "name": "Neo Exdeath (dummy 1)",
         "ps-name": "Neo X-Deth (dummy 1)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
@@ -61385,7 +61385,7 @@
         ]
     },
     "24F": {
-        "name": "NeoExdeath (dummy 2)",
+        "name": "Neo Exdeath (dummy 2)",
         "ps-name": "Neo X-Deth (dummy 2)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",

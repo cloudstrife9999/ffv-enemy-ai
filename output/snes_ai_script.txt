@@ -6650,7 +6650,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 14E
-Enemy Name: NeoExdeath (dummy 1)
+Enemy Name: Neo Exdeath (dummy 1)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -6663,7 +6663,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 14F
-Enemy Name: NeoExdeath (dummy 2)
+Enemy Name: Neo Exdeath (dummy 2)
 ACTIVE RULES:
   Default rule:
     Conditions:

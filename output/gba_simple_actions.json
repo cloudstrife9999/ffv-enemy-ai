@@ -350,7 +350,7 @@
         "special_ability": "Corner"
     },
     "1B": {
-        "enemy_name": "Elf Toad",
+        "enemy_name": "Elf Toad (regular)",
         "simple_actions": [
             "!Attack",
             "Pond's Chorus"
@@ -1840,7 +1840,7 @@
         "special_ability": "Critical Attack"
     },
     "82": {
-        "enemy_name": "Red Dragon",
+        "enemy_name": "Red Dragon (regular)",
         "simple_actions": [
             "Atomic Ray",
             "!Attack",
@@ -7986,7 +7986,7 @@
         "special_ability": "Vacuum Wave"
     },
     "24E": {
-        "enemy_name": "NeoExdeath (dummy 1)",
+        "enemy_name": "Neo Exdeath (dummy 1)",
         "simple_actions": [
             "[Nothing]"
         ],
@@ -7996,7 +7996,7 @@
         "special_ability": "Critical Attack"
     },
     "24F": {
-        "enemy_name": "NeoExdeath (dummy 2)",
+        "enemy_name": "Neo Exdeath (dummy 2)",
         "simple_actions": [
             "[Nothing]"
         ],

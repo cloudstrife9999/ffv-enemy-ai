@@ -5214,7 +5214,7 @@
         "special_ability": "Vacuum Wave"
     },
     "14E": {
-        "enemy_name": "NeoExdeath (dummy 1)",
+        "enemy_name": "Neo Exdeath (dummy 1)",
         "simple_actions": [
             "[Nothing]"
         ],
@@ -5224,7 +5224,7 @@
         "special_ability": "Critical Attack"
     },
     "14F": {
-        "enemy_name": "NeoExdeath (dummy 2)",
+        "enemy_name": "Neo Exdeath (dummy 2)",
         "simple_actions": [
             "[Nothing]"
         ],

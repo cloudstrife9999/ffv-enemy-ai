@@ -796,7 +796,7 @@
     },
     {
         "enemy_id": "1B",
-        "enemy_name": "Elf Toad",
+        "enemy_name": "Elf Toad (regular)",
         "raw": "04000000FEFC808980FE00000000FE80FFFF",
         "active_rules": [
             {
@@ -4644,7 +4644,7 @@
     },
     {
         "enemy_id": "82",
-        "enemy_name": "Red Dragon",
+        "enemy_name": "Red Dragon (regular)",
         "raw": "00000000FEFC80CA81FC80CA80FC808081FFFF",
         "active_rules": [
             {
@@ -23284,7 +23284,7 @@
     },
     {
         "enemy_id": "24E",
-        "enemy_name": "NeoExdeath (dummy 1)",
+        "enemy_name": "Neo Exdeath (dummy 1)",
         "raw": "00000000FEAAFFFF",
         "active_rules": [
             {
@@ -23302,7 +23302,7 @@
     },
     {
         "enemy_id": "24F",
-        "enemy_name": "NeoExdeath (dummy 2)",
+        "enemy_name": "Neo Exdeath (dummy 2)",
         "raw": "00000000FEAAFFFF",
         "active_rules": [
             {

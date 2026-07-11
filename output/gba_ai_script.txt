@@ -400,7 +400,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 1B
-Enemy Name: Elf Toad
+Enemy Name: Elf Toad (regular)
 ACTIVE RULES:
   Rule #1:
     Conditions:
@@ -2146,7 +2146,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 82
-Enemy Name: Red Dragon
+Enemy Name: Red Dragon (regular)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10316,7 +10316,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24E
-Enemy Name: NeoExdeath (dummy 1)
+Enemy Name: Neo Exdeath (dummy 1)
 ACTIVE RULES:
   Default rule:
     Conditions:
@@ -10329,7 +10329,7 @@ REACTIVE RULES:
 ----------------------------------------
 
 Enemy ID: 24F
-Enemy Name: NeoExdeath (dummy 2)
+Enemy Name: Neo Exdeath (dummy 2)
 ACTIVE RULES:
   Default rule:
     Conditions:

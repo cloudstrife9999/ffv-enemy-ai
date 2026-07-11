@@ -16337,7 +16337,7 @@
     },
     {
         "enemy_id": "14E",
-        "enemy_name": "NeoExdeath (dummy 1)",
+        "enemy_name": "Neo Exdeath (dummy 1)",
         "raw": "00000000FEAAFFFF",
         "active_rules": [
             {
@@ -16355,7 +16355,7 @@
     },
     {
         "enemy_id": "14F",
-        "enemy_name": "NeoExdeath (dummy 2)",
+        "enemy_name": "Neo Exdeath (dummy 2)",
         "raw": "00000000FEAAFFFF",
         "active_rules": [
             {
