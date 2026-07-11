@@ -3,8 +3,20 @@
         "name": "Goblin (regular)",
         "pr-bestiary-number": 1,
         "gba-bestiary-number": 1,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Tule",
+            "Fork Tower",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Tule Village",
+            "Fork Tower",
+            "Sunken Tower of Walz"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 1,
@@ -169,8 +181,10 @@
         "name": "Killer Bee",
         "pr-bestiary-number": 5,
         "gba-bestiary-number": 5,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 2,
@@ -335,8 +349,14 @@
         "ps-name": "Nut Eater",
         "pr-bestiary-number": 6,
         "gba-bestiary-number": 6,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "Jachol Cave"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "Jacole Cave"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 2,
@@ -500,8 +520,9 @@
         "name": "Stray Cat",
         "pr-bestiary-number": 7,
         "gba-bestiary-number": 7,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 2,
@@ -665,8 +686,12 @@
         "name": "Steel Bat",
         "pr-bestiary-number": 2,
         "gba-bestiary-number": 2,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pirates' Hideout"
+        ],
+        "ps-location": [
+            "Pirate's Hideout"
+        ],
         "agility": 5,
         "strength": 3,
         "attack-multiplier": 2,
@@ -832,8 +857,12 @@
         "ps-name": "Diablo",
         "pr-bestiary-number": 3,
         "gba-bestiary-number": 3,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pirates' Hideout"
+        ],
+        "ps-location": [
+            "Pirate's Hideout"
+        ],
         "agility": 7,
         "strength": 4,
         "attack-multiplier": 1,
@@ -997,8 +1026,12 @@
         "name": "Stroper",
         "pr-bestiary-number": 4,
         "gba-bestiary-number": 4,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pirates' Hideout"
+        ],
+        "ps-location": [
+            "Pirate's Hideout"
+        ],
         "agility": 7,
         "strength": 4,
         "attack-multiplier": 2,
@@ -1161,8 +1194,9 @@
         "ps-name": "BlakGoblin",
         "pr-bestiary-number": 8,
         "gba-bestiary-number": 8,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Wind Shrine"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 3,
@@ -1326,8 +1360,9 @@
         "ps-name": "Whitesnake",
         "pr-bestiary-number": 9,
         "gba-bestiary-number": 9,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Wind Shrine"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 2,
@@ -1493,8 +1528,14 @@
         "ps-name": "Mauldwin",
         "pr-bestiary-number": 10,
         "gba-bestiary-number": 10,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Wind Shrine",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Wind Shrine",
+            "Sunken Tower of Walz"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 3,
@@ -1660,8 +1701,10 @@
         "ps-name": "Money Mage",
         "pr-bestiary-number": 11,
         "gba-bestiary-number": 11,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Wind Shrine",
+            "Fork Tower"
+        ],
         "agility": 7,
         "strength": 5,
         "attack-multiplier": 2,
@@ -1828,8 +1871,9 @@
         "name": "Magic Pot",
         "pr-bestiary-number": 190,
         "gba-bestiary-number": 190,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 2,
         "strength": 70,
         "attack-multiplier": 25,
@@ -1994,8 +2038,9 @@
         "ps-name": "Soccer",
         "pr-bestiary-number": 191,
         "gba-bestiary-number": 191,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Torna Canal"
+        ],
         "agility": 20,
         "strength": 7,
         "attack-multiplier": 3,
@@ -2161,8 +2206,9 @@
         "ps-name": "Octofist",
         "pr-bestiary-number": 192,
         "gba-bestiary-number": 192,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Torna Canal"
+        ],
         "agility": 20,
         "strength": 8,
         "attack-multiplier": 3,
@@ -2329,8 +2375,10 @@
         "ps-name": "Gatlings",
         "pr-bestiary-number": 16,
         "gba-bestiary-number": 16,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 9,
         "attack-multiplier": 3,
@@ -2495,8 +2543,10 @@
         "name": "Big Horn",
         "pr-bestiary-number": 17,
         "gba-bestiary-number": 17,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 10,
         "attack-multiplier": 4,
@@ -2662,8 +2712,10 @@
         "ps-name": "Tattoo",
         "pr-bestiary-number": 18,
         "gba-bestiary-number": 18,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 11,
         "attack-multiplier": 3,
@@ -2828,8 +2880,11 @@
         "ps-name": "Bndrsnatch",
         "pr-bestiary-number": 19,
         "gba-bestiary-number": 19,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Fork Tower"
+        ],
         "agility": 15,
         "strength": 14,
         "attack-multiplier": 5,
@@ -2993,8 +3048,10 @@
         "name": "Garula (regular)",
         "pr-bestiary-number": 20,
         "gba-bestiary-number": 20,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 10,
         "strength": 12,
         "attack-multiplier": 4,
@@ -3159,8 +3216,9 @@
         "name": "Skeleton",
         "pr-bestiary-number": 12,
         "gba-bestiary-number": 12,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ship Graveyard"
+        ],
         "agility": 15,
         "strength": 8,
         "attack-multiplier": 3,
@@ -3325,8 +3383,9 @@
         "ps-name": "CrystSlugs",
         "pr-bestiary-number": 13,
         "gba-bestiary-number": 13,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ship Graveyard"
+        ],
         "agility": 15,
         "strength": 8,
         "attack-multiplier": 4,
@@ -3489,8 +3548,9 @@
         "ps-name": "LumbrBeast",
         "pr-bestiary-number": 14,
         "gba-bestiary-number": 14,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ship Graveyard"
+        ],
         "agility": 20,
         "strength": 10,
         "attack-multiplier": 3,
@@ -3656,8 +3716,9 @@
         "ps-name": "PsychoHeds",
         "pr-bestiary-number": 15,
         "gba-bestiary-number": 15,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ship Graveyard"
+        ],
         "agility": 10,
         "strength": 9,
         "attack-multiplier": 3,
@@ -3822,8 +3883,9 @@
         "ps-name": "RockCutter",
         "pr-bestiary-number": 21,
         "gba-bestiary-number": 21,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 10,
         "strength": 13,
         "attack-multiplier": 3,
@@ -3986,8 +4048,9 @@
         "ps-name": "Ghilacat (regular)",
         "pr-bestiary-number": 22,
         "gba-bestiary-number": 22,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 15,
         "strength": 12,
         "attack-multiplier": 4,
@@ -4152,8 +4215,9 @@
         "ps-name": "Cockataur",
         "pr-bestiary-number": 23,
         "gba-bestiary-number": 23,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 15,
         "strength": 15,
         "attack-multiplier": 3,
@@ -4319,8 +4383,9 @@
         "ps-name": "Stones",
         "pr-bestiary-number": 24,
         "gba-bestiary-number": 24,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 10,
         "strength": 13,
         "attack-multiplier": 4,
@@ -4486,8 +4551,16 @@
         "name": "Elf Toad (regular)",
         "pr-bestiary-number": 25,
         "gba-bestiary-number": 25,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Walse",
+            "Walse Tower",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Walz Castle",
+            "Walz Tower",
+            "Sunken Tower of Walz"
+        ],
         "agility": 10,
         "strength": 15,
         "attack-multiplier": 4,
@@ -4651,8 +4724,14 @@
         "ps-name": "IceSoldier",
         "pr-bestiary-number": 26,
         "gba-bestiary-number": 26,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Walse",
+            "Walse Tower"
+        ],
+        "ps-location": [
+            "Walz Castle",
+            "Walz Tower"
+        ],
         "agility": 15,
         "strength": 17,
         "attack-multiplier": 4,
@@ -4818,8 +4897,14 @@
         "ps-name": "RicardMage",
         "pr-bestiary-number": 27,
         "gba-bestiary-number": 27,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Walse Tower",
+            "Fork Tower"
+        ],
+        "ps-location": [
+            "Walz Tower",
+            "Fork Tower"
+        ],
         "agility": 15,
         "strength": 17,
         "attack-multiplier": 2,
@@ -4987,8 +5072,12 @@
         "ps-name": "Y Burn (regular)`",
         "pr-bestiary-number": 28,
         "gba-bestiary-number": 28,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Walse Tower"
+        ],
+        "ps-location": [
+            "Walz Tower"
+        ],
         "agility": 18,
         "strength": 17,
         "attack-multiplier": 5,
@@ -5152,8 +5241,12 @@
         "ps-name": "PaddleThru",
         "pr-bestiary-number": 29,
         "gba-bestiary-number": 29,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Walse Tower"
+        ],
+        "ps-location": [
+            "Walz Tower"
+        ],
         "agility": 15,
         "strength": 19,
         "attack-multiplier": 6,
@@ -5318,8 +5411,12 @@
         "ps-name": "Biblos",
         "pr-bestiary-number": 240,
         "gba-bestiary-number": 254,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Library of the Ancients"
+        ],
+        "ps-location": [
+            "Library of Ancients"
+        ],
         "agility": 40,
         "strength": 30,
         "attack-multiplier": 15,
@@ -5491,8 +5588,10 @@
         "ps-name": "Landwort",
         "pr-bestiary-number": 31,
         "gba-bestiary-number": 31,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 15,
         "strength": 19,
         "attack-multiplier": 4,
@@ -5657,8 +5756,10 @@
         "ps-name": "Zuu",
         "pr-bestiary-number": 32,
         "gba-bestiary-number": 32,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 15,
         "strength": 22,
         "attack-multiplier": 4,
@@ -5823,8 +5924,16 @@
         "ps-name": "Wild Dog",
         "pr-bestiary-number": 33,
         "gba-bestiary-number": 33,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Sunken Tower of Walz"
+        ],
         "agility": 10,
         "strength": 20,
         "attack-multiplier": 3,
@@ -5990,8 +6099,10 @@
         "ps-name": "Glastos",
         "pr-bestiary-number": 34,
         "gba-bestiary-number": 34,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 10,
         "strength": 20,
         "attack-multiplier": 5,
@@ -6155,8 +6266,9 @@
         "name": "Silent Bee",
         "pr-bestiary-number": 35,
         "gba-bestiary-number": 35,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)"
+        ],
         "agility": 15,
         "strength": 20,
         "attack-multiplier": 5,
@@ -6320,8 +6432,14 @@
         "ps-name": "MithrlDrgn",
         "pr-bestiary-number": 36,
         "gba-bestiary-number": 36,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "N-Zone"
+        ],
         "agility": 15,
         "strength": 28,
         "attack-multiplier": 8,
@@ -6486,8 +6604,14 @@
         "name": "Ramuh (boss)",
         "pr-bestiary-number": 241,
         "gba-bestiary-number": 255,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "N-Zone"
+        ],
         "agility": 45,
         "strength": 27,
         "attack-multiplier": 8,
@@ -6660,8 +6784,14 @@
         "ps-name": "Cool Dust (regular)",
         "pr-bestiary-number": 37,
         "gba-bestiary-number": 37,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Fire Ship",
+            "Sunken Tower of Walz"
+        ],
         "agility": 15,
         "strength": 21,
         "attack-multiplier": 3,
@@ -6827,8 +6957,12 @@
         "ps-name": "Poltrgeist",
         "pr-bestiary-number": 38,
         "gba-bestiary-number": 38,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship"
+        ],
+        "ps-location": [
+            "Fire Ship"
+        ],
         "agility": 20,
         "strength": 21,
         "attack-multiplier": 5,
@@ -6993,8 +7127,12 @@
         "ps-name": "Mottletrap",
         "pr-bestiary-number": 40,
         "gba-bestiary-number": 40,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship"
+        ],
+        "ps-location": [
+            "Fire Ship"
+        ],
         "agility": 20,
         "strength": 24,
         "attack-multiplier": 5,
@@ -7160,8 +7298,12 @@
         "name": "Defeater",
         "pr-bestiary-number": 39,
         "gba-bestiary-number": 39,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship"
+        ],
+        "ps-location": [
+            "Fire Ship"
+        ],
         "agility": 20,
         "strength": 22,
         "attack-multiplier": 4,
@@ -7325,8 +7467,14 @@
         "ps-name": "Harpy (regular)",
         "pr-bestiary-number": 30,
         "gba-bestiary-number": 30,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Walse",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Walz Castle",
+            "Sunken Tower of Walz"
+        ],
         "agility": 35,
         "strength": 50,
         "attack-multiplier": 10,
@@ -7489,8 +7637,9 @@
         "name": "Sergeant (regular)",
         "pr-bestiary-number": 41,
         "gba-bestiary-number": 41,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 20,
         "strength": 25,
         "attack-multiplier": 5,
@@ -7655,8 +7804,9 @@
         "name": "Sorcerer",
         "pr-bestiary-number": 42,
         "gba-bestiary-number": 42,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 20,
         "strength": 20,
         "attack-multiplier": 5,
@@ -7821,8 +7971,9 @@
         "ps-name": "Karnak (regular)",
         "pr-bestiary-number": 43,
         "gba-bestiary-number": 43,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 10,
         "strength": 20,
         "attack-multiplier": 4,
@@ -7987,8 +8138,9 @@
         "name": "Gigas",
         "pr-bestiary-number": 44,
         "gba-bestiary-number": 44,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 20,
         "strength": 28,
         "attack-multiplier": 5,
@@ -8155,8 +8307,12 @@
         "name": "Page 32",
         "pr-bestiary-number": 45,
         "gba-bestiary-number": 45,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Library of the Ancients"
+        ],
+        "ps-location": [
+            "Library of Ancients"
+        ],
         "agility": 30,
         "strength": 27,
         "attack-multiplier": 5,
@@ -8320,8 +8476,12 @@
         "name": "Page 64",
         "pr-bestiary-number": 46,
         "gba-bestiary-number": 46,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Library of the Ancients"
+        ],
+        "ps-location": [
+            "Library of Ancients"
+        ],
         "agility": 35,
         "strength": 27,
         "attack-multiplier": 5,
@@ -8485,8 +8645,12 @@
         "name": "Page 128",
         "pr-bestiary-number": 47,
         "gba-bestiary-number": 47,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Library of the Ancients"
+        ],
+        "ps-location": [
+            "Library of Ancients"
+        ],
         "agility": 35,
         "strength": 28,
         "attack-multiplier": 5,
@@ -8650,8 +8814,12 @@
         "name": "Page 256",
         "pr-bestiary-number": 48,
         "gba-bestiary-number": 48,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Library of the Ancients"
+        ],
+        "ps-location": [
+            "Library of Ancients"
+        ],
         "agility": 35,
         "strength": 29,
         "attack-multiplier": 6,
@@ -8815,8 +8983,12 @@
         "name": "Ifrit (boss)",
         "pr-bestiary-number": 239,
         "gba-bestiary-number": 253,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Library of the Ancients"
+        ],
+        "ps-location": [
+            "Library of Ancients"
+        ],
         "agility": 40,
         "strength": 29,
         "attack-multiplier": 6,
@@ -8983,8 +9155,14 @@
         "name": "Bomb",
         "pr-bestiary-number": 49,
         "gba-bestiary-number": 49,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "Sunken Tower of Walz"
+        ],
         "agility": 15,
         "strength": 29,
         "attack-multiplier": 5,
@@ -9149,8 +9327,10 @@
         "name": "Doublizard",
         "pr-bestiary-number": 50,
         "gba-bestiary-number": 50,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 15,
         "strength": 29,
         "attack-multiplier": 5,
@@ -9316,8 +9496,10 @@
         "ps-name": "BioSoldier (regular)",
         "pr-bestiary-number": 51,
         "gba-bestiary-number": 51,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 15,
         "strength": 30,
         "attack-multiplier": 6,
@@ -9481,8 +9663,10 @@
         "ps-name": "Crescent",
         "pr-bestiary-number": 52,
         "gba-bestiary-number": 52,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 30,
         "attack-multiplier": 6,
@@ -9647,8 +9831,16 @@
         "ps-name": "BlackFlame",
         "pr-bestiary-number": 53,
         "gba-bestiary-number": 53,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "World Map (merged world)",
+            "Sunken Tower of Walz"
+        ],
         "agility": 20,
         "strength": 28,
         "attack-multiplier": 6,
@@ -9812,8 +10004,9 @@
         "ps-name": "StoneGolem",
         "pr-bestiary-number": 54,
         "gba-bestiary-number": 54,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)"
+        ],
         "agility": 20,
         "strength": 32,
         "attack-multiplier": 6,
@@ -9979,8 +10172,9 @@
         "ps-name": "MiniDragon",
         "pr-bestiary-number": 55,
         "gba-bestiary-number": 55,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)"
+        ],
         "agility": 20,
         "strength": 30,
         "attack-multiplier": 6,
@@ -10143,8 +10337,16 @@
         "name": "Prototype",
         "pr-bestiary-number": 56,
         "gba-bestiary-number": 56,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "Island Shrine",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "Island Shrine",
+            "Sunken Tower of Walz"
+        ],
         "agility": 20,
         "strength": 33,
         "attack-multiplier": 6,
@@ -10313,8 +10515,16 @@
         "ps-name": "Quadrharpy (regular)",
         "pr-bestiary-number": 58,
         "gba-bestiary-number": 58,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Bartz's world)",
+            "Sunken Tower of Walse",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "World Map (Bartz's world)",
+            "Sunken Tower of Walz",
+            "N-Zone"
+        ],
         "agility": 40,
         "strength": 50,
         "attack-multiplier": 10,
@@ -10479,8 +10689,14 @@
         "name": "Sandboil",
         "pr-bestiary-number": 59,
         "gba-bestiary-number": 59,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)",
+            "Desert of Shifting Sands"
+        ],
+        "ps-location": [
+            "World Map (merged world)",
+            "Quicksand Desert"
+        ],
         "agility": 20,
         "strength": 33,
         "attack-multiplier": 5,
@@ -10644,8 +10860,14 @@
         "ps-name": "SandKiller",
         "pr-bestiary-number": 60,
         "gba-bestiary-number": 60,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)",
+            "Desert of Shifting Sands"
+        ],
+        "ps-location": [
+            "World Map (merged world)",
+            "Quicksand Desert"
+        ],
         "agility": 20,
         "strength": 34,
         "attack-multiplier": 6,
@@ -10809,8 +11031,14 @@
         "name": "Sand Bear",
         "pr-bestiary-number": 61,
         "gba-bestiary-number": 61,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)",
+            "Desert of Shifting Sands"
+        ],
+        "ps-location": [
+            "World Map (merged world)",
+            "Quicksand Desert"
+        ],
         "agility": 35,
         "strength": 36,
         "attack-multiplier": 8,
@@ -10976,8 +11204,12 @@
         "ps-name": "La Mage",
         "pr-bestiary-number": 62,
         "gba-bestiary-number": 62,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 25,
         "strength": 25,
         "attack-multiplier": 5,
@@ -11145,8 +11377,14 @@
         "ps-name": "RonkaKnigt (regular)",
         "pr-bestiary-number": 63,
         "gba-bestiary-number": 63,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Ruins of Ronka",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 36,
         "attack-multiplier": 6,
@@ -11312,8 +11550,14 @@
         "ps-name": "StonedMask",
         "pr-bestiary-number": 64,
         "gba-bestiary-number": 64,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Ruins of Ronka",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 34,
         "attack-multiplier": 4,
@@ -11480,8 +11724,16 @@
         "ps-name": "Fan Wizard (regular)",
         "pr-bestiary-number": 65,
         "gba-bestiary-number": 65,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins",
+            "Sunken Tower of Walse",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Ruins of Ronka",
+            "Sunken Tower of Walz",
+            "N-Zone"
+        ],
         "agility": 30,
         "strength": 35,
         "attack-multiplier": 5,
@@ -11646,8 +11898,14 @@
         "name": "Lamia",
         "pr-bestiary-number": 66,
         "gba-bestiary-number": 66,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Ruins of Ronka",
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 35,
         "attack-multiplier": 5,
@@ -11813,8 +12071,14 @@
         "name": "Archeotoad",
         "pr-bestiary-number": 67,
         "gba-bestiary-number": 67,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Ruins of Ronka",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 34,
         "attack-multiplier": 6,
@@ -11979,8 +12243,12 @@
         "ps-name": "Hyudra",
         "pr-bestiary-number": 68,
         "gba-bestiary-number": 68,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 45,
         "strength": 38,
         "attack-multiplier": 6,
@@ -12146,8 +12414,14 @@
         "ps-name": "Aquaus (regular)",
         "pr-bestiary-number": 69,
         "gba-bestiary-number": 69,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Ruins of Ronka",
+            "N-Zone"
+        ],
         "agility": 50,
         "strength": 42,
         "attack-multiplier": 8,
@@ -12315,8 +12589,9 @@
         "ps-name": "Water Bus",
         "pr-bestiary-number": 73,
         "gba-bestiary-number": 73,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 25,
         "strength": 37,
         "attack-multiplier": 5,
@@ -12480,8 +12755,14 @@
         "ps-name": "Trent",
         "pr-bestiary-number": 74,
         "gba-bestiary-number": 74,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Galuf's world)",
+            "Sunken Tower of Walz"
+        ],
         "agility": 25,
         "strength": 36,
         "attack-multiplier": 6,
@@ -12647,8 +12928,9 @@
         "ps-name": "Blockhead",
         "pr-bestiary-number": 75,
         "gba-bestiary-number": 75,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 30,
         "strength": 37,
         "attack-multiplier": 5,
@@ -12811,8 +13093,12 @@
         "name": "Tarantula",
         "pr-bestiary-number": 71,
         "gba-bestiary-number": 71,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 20,
         "strength": 35,
         "attack-multiplier": 4,
@@ -12975,8 +13261,12 @@
         "name": "Shell Bear",
         "pr-bestiary-number": 72,
         "gba-bestiary-number": 72,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 20,
         "strength": 37,
         "attack-multiplier": 6,
@@ -13141,8 +13431,9 @@
         "ps-name": "Subterran (regular)",
         "pr-bestiary-number": 80,
         "gba-bestiary-number": 80,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 30,
         "strength": 36,
         "attack-multiplier": 6,
@@ -13306,8 +13597,14 @@
         "ps-name": "Verminator",
         "pr-bestiary-number": 81,
         "gba-bestiary-number": 81,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "World Map (Galuf's world)",
+            "Sunken Tower of Walz"
+        ],
         "agility": 25,
         "strength": 35,
         "attack-multiplier": 6,
@@ -13473,8 +13770,9 @@
         "ps-name": "Ferry Walk",
         "pr-bestiary-number": 82,
         "gba-bestiary-number": 82,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 25,
         "strength": 36,
         "attack-multiplier": 7,
@@ -13640,8 +13938,9 @@
         "name": "Devourer",
         "pr-bestiary-number": 83,
         "gba-bestiary-number": 83,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 25,
         "strength": 37,
         "attack-multiplier": 7,
@@ -13806,8 +14105,9 @@
         "name": "Mandrake",
         "pr-bestiary-number": 84,
         "gba-bestiary-number": 84,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 25,
         "strength": 36,
         "attack-multiplier": 7,
@@ -13973,8 +14273,9 @@
         "ps-name": "Kuzer (regular)",
         "pr-bestiary-number": 85,
         "gba-bestiary-number": 85,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 35,
         "strength": 45,
         "attack-multiplier": 7,
@@ -14138,8 +14439,9 @@
         "name": "Cactus",
         "pr-bestiary-number": 92,
         "gba-bestiary-number": 92,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 25,
         "strength": 37,
         "attack-multiplier": 7,
@@ -14304,8 +14606,9 @@
         "ps-name": "Sandcrawlr",
         "pr-bestiary-number": 93,
         "gba-bestiary-number": 93,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 35,
         "strength": 45,
         "attack-multiplier": 7,
@@ -14471,8 +14774,9 @@
         "ps-name": "ShieldDrgn",
         "pr-bestiary-number": 86,
         "gba-bestiary-number": 86,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Sealed Castle"
+        ],
         "agility": 40,
         "strength": 40,
         "attack-multiplier": 25,
@@ -14640,8 +14944,14 @@
         "ps-name": "BloodSlime",
         "pr-bestiary-number": 88,
         "gba-bestiary-number": 88,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Underground Waterway",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Underground Waterway",
+            "Sunken Tower of Walz"
+        ],
         "agility": 25,
         "strength": 36,
         "attack-multiplier": 6,
@@ -14807,8 +15117,9 @@
         "ps-name": "Acrophis",
         "pr-bestiary-number": 89,
         "gba-bestiary-number": 89,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Underground Waterway"
+        ],
         "agility": 25,
         "strength": 36,
         "attack-multiplier": 7,
@@ -14973,8 +15284,9 @@
         "ps-name": "Mog Eater",
         "pr-bestiary-number": 90,
         "gba-bestiary-number": 90,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Underground Waterway"
+        ],
         "agility": 30,
         "strength": 39,
         "attack-multiplier": 6,
@@ -15139,8 +15451,9 @@
         "ps-name": "Freeziabat",
         "pr-bestiary-number": 91,
         "gba-bestiary-number": 91,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Underground Waterway"
+        ],
         "agility": 39,
         "strength": 42,
         "attack-multiplier": 7,
@@ -15307,8 +15620,12 @@
         "ps-name": "SkullEater",
         "pr-bestiary-number": 57,
         "gba-bestiary-number": 57,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Jachol Cave"
+        ],
+        "ps-location": [
+            "Jacole Cave"
+        ],
         "agility": 50,
         "strength": 50,
         "attack-multiplier": 30,
@@ -15477,8 +15794,9 @@
         "ps-name": "Aquazone",
         "pr-bestiary-number": 94,
         "gba-bestiary-number": 94,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 30,
         "strength": 39,
         "attack-multiplier": 6,
@@ -15643,8 +15961,10 @@
         "name": "Weresnake",
         "pr-bestiary-number": 95,
         "gba-bestiary-number": 95,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 30,
         "strength": 40,
         "attack-multiplier": 5,
@@ -15809,8 +16129,10 @@
         "name": "Kornago",
         "pr-bestiary-number": 96,
         "gba-bestiary-number": 96,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 30,
         "strength": 38,
         "attack-multiplier": 6,
@@ -15977,8 +16299,10 @@
         "ps-name": "Ridicule",
         "pr-bestiary-number": 97,
         "gba-bestiary-number": 97,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 35,
         "strength": 41,
         "attack-multiplier": 7,
@@ -16144,8 +16468,9 @@
         "ps-name": "Groundpede",
         "pr-bestiary-number": 98,
         "gba-bestiary-number": 98,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Gil Cave"
+        ],
         "agility": 30,
         "strength": 42,
         "attack-multiplier": 8,
@@ -16310,8 +16635,16 @@
         "name": "Drippy",
         "pr-bestiary-number": 100,
         "gba-bestiary-number": 100,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Sunken Tower of Walse",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "Sunken Tower of Walz",
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 35,
         "attack-multiplier": 5,
@@ -16478,8 +16811,14 @@
         "ps-name": "Grimalkin",
         "pr-bestiary-number": 101,
         "gba-bestiary-number": 101,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "N-Zone"
+        ],
         "agility": 30,
         "strength": 36,
         "attack-multiplier": 7,
@@ -16644,8 +16983,12 @@
         "ps-name": "Skelesaur (regular)",
         "pr-bestiary-number": 102,
         "gba-bestiary-number": 102,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 28,
         "strength": 39,
         "attack-multiplier": 7,
@@ -16812,8 +17155,14 @@
         "ps-name": "PoisnEagle",
         "pr-bestiary-number": 103,
         "gba-bestiary-number": 103,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 37,
         "attack-multiplier": 7,
@@ -16978,8 +17327,12 @@
         "ps-name": "DrgnZombie (regular)",
         "pr-bestiary-number": 104,
         "gba-bestiary-number": 104,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 29,
         "strength": 46,
         "attack-multiplier": 8,
@@ -17145,8 +17498,14 @@
         "name": "Golem (1st form)",
         "pr-bestiary-number": 259,
         "gba-bestiary-number": 271,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "N-Zone"
+        ],
         "agility": 10,
         "strength": 40,
         "attack-multiplier": 8,
@@ -17311,8 +17670,9 @@
         "name": "Neon",
         "pr-bestiary-number": 106,
         "gba-bestiary-number": 106,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 25,
         "strength": 44,
         "attack-multiplier": 6,
@@ -17479,8 +17839,9 @@
         "ps-name": "Magnities",
         "pr-bestiary-number": 107,
         "gba-bestiary-number": 107,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 35,
         "strength": 43,
         "attack-multiplier": 5,
@@ -17646,8 +18007,9 @@
         "ps-name": "RflecKnigt",
         "pr-bestiary-number": 108,
         "gba-bestiary-number": 108,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 30,
         "strength": 47,
         "attack-multiplier": 7,
@@ -17811,8 +18173,14 @@
         "name": "Traveler",
         "pr-bestiary-number": 109,
         "gba-bestiary-number": 109,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Barrier Tower",
+            "Sunken Tower of Walz"
+        ],
         "agility": 35,
         "strength": 40,
         "attack-multiplier": 6,
@@ -17978,8 +18346,9 @@
         "ps-name": "LvlTripper",
         "pr-bestiary-number": 110,
         "gba-bestiary-number": 110,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 30,
         "strength": 41,
         "attack-multiplier": 6,
@@ -18146,8 +18515,9 @@
         "ps-name": "Gravidead",
         "pr-bestiary-number": 111,
         "gba-bestiary-number": 111,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 35,
         "strength": 38,
         "attack-multiplier": 7,
@@ -18314,8 +18684,9 @@
         "ps-name": "Ultragigas (regular)",
         "pr-bestiary-number": 112,
         "gba-bestiary-number": 112,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 31,
         "strength": 49,
         "attack-multiplier": 8,
@@ -18482,8 +18853,9 @@
         "name": "Cure Beast",
         "pr-bestiary-number": 115,
         "gba-bestiary-number": 115,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 35,
         "strength": 42,
         "attack-multiplier": 6,
@@ -18649,8 +19021,9 @@
         "ps-name": "LandTurtle",
         "pr-bestiary-number": 116,
         "gba-bestiary-number": 116,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 25,
         "strength": 42,
         "attack-multiplier": 9,
@@ -18815,8 +19188,9 @@
         "ps-name": "Bald Money",
         "pr-bestiary-number": 117,
         "gba-bestiary-number": 117,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 30,
         "strength": 43,
         "attack-multiplier": 6,
@@ -18982,8 +19356,9 @@
         "ps-name": "Shoat",
         "pr-bestiary-number": 269,
         "gba-bestiary-number": 281,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 45,
         "strength": 55,
         "attack-multiplier": 10,
@@ -19151,8 +19526,16 @@
         "ps-name": "MiniMage",
         "pr-bestiary-number": 118,
         "gba-bestiary-number": 118,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Forest of Moore",
+            "Sunken Tower of Walse",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Moore Forest",
+            "Sunken Tower of Walz",
+            "N-Zone"
+        ],
         "agility": 30,
         "strength": 30,
         "attack-multiplier": 8,
@@ -19319,8 +19702,14 @@
         "ps-name": "Galacjelly",
         "pr-bestiary-number": 119,
         "gba-bestiary-number": 119,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Forest of Moore",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Moore Forest",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 45,
         "attack-multiplier": 7,
@@ -19486,8 +19875,14 @@
         "ps-name": "Mamon",
         "pr-bestiary-number": 120,
         "gba-bestiary-number": 120,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Forest of Moore",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Moore Forest",
+            "N-Zone"
+        ],
         "agility": 30,
         "strength": 46,
         "attack-multiplier": 9,
@@ -19652,8 +20047,12 @@
         "name": "Imp (regular)",
         "pr-bestiary-number": 121,
         "gba-bestiary-number": 121,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Forest of Moore"
+        ],
+        "ps-location": [
+            "Moore Forest"
+        ],
         "agility": 30,
         "strength": 90,
         "attack-multiplier": 1,
@@ -19819,8 +20218,12 @@
         "ps-name": "Succubus",
         "pr-bestiary-number": 122,
         "gba-bestiary-number": 122,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Forest of Moore"
+        ],
+        "ps-location": [
+            "Moore Forest"
+        ],
         "agility": 35,
         "strength": 55,
         "attack-multiplier": 9,
@@ -19987,8 +20390,12 @@
         "ps-name": "TwinLizard",
         "pr-bestiary-number": 123,
         "gba-bestiary-number": 123,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 35,
         "strength": 54,
         "attack-multiplier": 7,
@@ -20153,8 +20560,14 @@
         "name": "Blind Wolf",
         "pr-bestiary-number": 124,
         "gba-bestiary-number": 124,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 54,
         "attack-multiplier": 8,
@@ -20319,8 +20732,14 @@
         "ps-name": "A Rage",
         "pr-bestiary-number": 125,
         "gba-bestiary-number": 125,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "N-Zone"
+        ],
         "agility": 30,
         "strength": 49,
         "attack-multiplier": 6,
@@ -20486,8 +20905,12 @@
         "ps-name": "RflecMage",
         "pr-bestiary-number": 126,
         "gba-bestiary-number": 126,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 28,
         "strength": 52,
         "attack-multiplier": 4,
@@ -20658,8 +21081,16 @@
         "ps-name": "MagicDrgn",
         "pr-bestiary-number": 127,
         "gba-bestiary-number": 127,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Sunken Tower of Walse",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "Sunken Tower of Walz",
+            "N-Zone"
+        ],
         "agility": 27,
         "strength": 58,
         "attack-multiplier": 8,
@@ -20828,8 +21259,14 @@
         "ps-name": "BlakWarlok",
         "pr-bestiary-number": 128,
         "gba-bestiary-number": 128,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Pyramid of Moore"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "Pyramid of Moore"
+        ],
         "agility": 30,
         "strength": 50,
         "attack-multiplier": 1,
@@ -21001,8 +21438,12 @@
         "ps-name": "Adamngolem (regular)",
         "pr-bestiary-number": 129,
         "gba-bestiary-number": 129,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 35,
         "strength": 62,
         "attack-multiplier": 9,
@@ -21168,8 +21609,12 @@
         "ps-name": "Hypnot (regular)",
         "pr-bestiary-number": 130,
         "gba-bestiary-number": 130,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 35,
         "strength": 59,
         "attack-multiplier": 8,
@@ -21335,8 +21780,12 @@
         "ps-name": "MotorDrive",
         "pr-bestiary-number": 131,
         "gba-bestiary-number": 131,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 32,
         "strength": 63,
         "attack-multiplier": 9,
@@ -21503,8 +21952,14 @@
         "ps-name": "BlueDragon",
         "pr-bestiary-number": 132,
         "gba-bestiary-number": 132,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 64,
         "attack-multiplier": 9,
@@ -21670,8 +22125,16 @@
         "name": "Red Dragon (regular)",
         "pr-bestiary-number": 133,
         "gba-bestiary-number": 133,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Barrier Tower",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "Barrier Tower",
+            "N-Zone"
+        ],
         "agility": 34,
         "strength": 65,
         "attack-multiplier": 9,
@@ -21837,8 +22300,16 @@
         "ps-name": "YellowDrgn",
         "pr-bestiary-number": 134,
         "gba-bestiary-number": 134,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath",
+            "Barrier Tower",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "X-Death's Castle",
+            "Barrier Tower",
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 65,
         "attack-multiplier": 9,
@@ -22003,8 +22474,10 @@
         "name": "Sleepy",
         "pr-bestiary-number": 135,
         "gba-bestiary-number": 135,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 30,
         "strength": 50,
         "attack-multiplier": 4,
@@ -22170,8 +22643,10 @@
         "ps-name": "Cowpoke",
         "pr-bestiary-number": 136,
         "gba-bestiary-number": 136,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 35,
         "strength": 52,
         "attack-multiplier": 7,
@@ -22336,8 +22811,10 @@
         "name": "Hedgehog",
         "pr-bestiary-number": 137,
         "gba-bestiary-number": 137,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 28,
         "strength": 54,
         "attack-multiplier": 6,
@@ -22502,8 +22979,9 @@
         "name": "Python",
         "pr-bestiary-number": 138,
         "gba-bestiary-number": 138,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 24,
         "strength": 49,
         "attack-multiplier": 6,
@@ -22670,8 +23148,10 @@
         "name": "Shadow",
         "pr-bestiary-number": 139,
         "gba-bestiary-number": 139,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)",
+            "World Map (merged world)"
+        ],
         "agility": 26,
         "strength": 57,
         "attack-multiplier": 7,
@@ -22837,8 +23317,9 @@
         "ps-name": "Neogigas",
         "pr-bestiary-number": 140,
         "gba-bestiary-number": 140,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 37,
         "strength": 62,
         "attack-multiplier": 10,
@@ -23003,8 +23484,9 @@
         "name": "Pao",
         "pr-bestiary-number": 70,
         "gba-bestiary-number": 70,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (Galuf's world)"
+        ],
         "agility": 20,
         "strength": 40,
         "attack-multiplier": 9,
@@ -23169,8 +23651,12 @@
         "ps-name": "Radiator",
         "pr-bestiary-number": 113,
         "gba-bestiary-number": 113,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 5,
         "strength": 47,
         "attack-multiplier": 8,
@@ -23337,8 +23823,14 @@
         "ps-name": "Metamorpha",
         "pr-bestiary-number": 114,
         "gba-bestiary-number": 114,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Gill's Cave",
+            "N-Zone"
+        ],
         "agility": 33,
         "strength": 40,
         "attack-multiplier": 10,
@@ -23503,8 +23995,9 @@
         "name": "Unknown (blob 1)",
         "pr-bestiary-number": 168,
         "gba-bestiary-number": 168,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 22,
         "strength": 60,
         "attack-multiplier": 6,
@@ -23671,8 +24164,9 @@
         "ps-name": "Desertpedo",
         "pr-bestiary-number": 141,
         "gba-bestiary-number": 141,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 22,
         "strength": 59,
         "attack-multiplier": 6,
@@ -23838,8 +24332,9 @@
         "ps-name": "Baretta",
         "pr-bestiary-number": 142,
         "gba-bestiary-number": 142,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 21,
         "strength": 61,
         "attack-multiplier": 10,
@@ -24006,8 +24501,9 @@
         "ps-name": "Bludgeoner",
         "pr-bestiary-number": 153,
         "gba-bestiary-number": 153,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 43,
         "strength": 70,
         "attack-multiplier": 11,
@@ -24173,8 +24669,14 @@
         "ps-name": "BrandLamia",
         "pr-bestiary-number": 143,
         "gba-bestiary-number": 143,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore",
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Pyramid of Moore",
+            "Sunken Tower of Walz"
+        ],
         "agility": 27,
         "strength": 54,
         "attack-multiplier": 6,
@@ -24342,8 +24844,9 @@
         "ps-name": "Pyramidia",
         "pr-bestiary-number": 144,
         "gba-bestiary-number": 144,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 26,
         "strength": 61,
         "attack-multiplier": 8,
@@ -24509,8 +25012,9 @@
         "ps-name": "Nile",
         "pr-bestiary-number": 145,
         "gba-bestiary-number": 145,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 21,
         "strength": 51,
         "attack-multiplier": 8,
@@ -24678,8 +25182,9 @@
         "name": "Archeosaur",
         "pr-bestiary-number": 146,
         "gba-bestiary-number": 146,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 33,
         "strength": 67,
         "attack-multiplier": 11,
@@ -24847,8 +25352,9 @@
         "ps-name": "Zefa Zone",
         "pr-bestiary-number": 147,
         "gba-bestiary-number": 147,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 30,
         "strength": 55,
         "attack-multiplier": 10,
@@ -25019,8 +25525,9 @@
         "ps-name": "X-DethSoul",
         "pr-bestiary-number": 87,
         "gba-bestiary-number": 87,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Sealed Castle"
+        ],
         "agility": 40,
         "strength": 77,
         "attack-multiplier": 13,
@@ -25187,8 +25694,9 @@
         "name": "Slug",
         "pr-bestiary-number": 154,
         "gba-bestiary-number": 154,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 62,
         "attack-multiplier": 7,
@@ -25354,8 +25862,9 @@
         "ps-name": "GloomWidow",
         "pr-bestiary-number": 155,
         "gba-bestiary-number": 155,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 60,
         "attack-multiplier": 8,
@@ -25521,8 +26030,9 @@
         "ps-name": "Bewitchin",
         "pr-bestiary-number": 156,
         "gba-bestiary-number": 156,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 25,
         "strength": 65,
         "attack-multiplier": 8,
@@ -25690,8 +26200,9 @@
         "ps-name": "Druid",
         "pr-bestiary-number": 157,
         "gba-bestiary-number": 157,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 35,
         "strength": 52,
         "attack-multiplier": 7,
@@ -25860,8 +26371,9 @@
         "ps-name": "Red Harpy (regular)",
         "pr-bestiary-number": 158,
         "gba-bestiary-number": 158,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 24,
         "strength": 60,
         "attack-multiplier": 10,
@@ -26027,8 +26539,9 @@
         "ps-name": "ShadeDancr",
         "pr-bestiary-number": 159,
         "gba-bestiary-number": 159,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 30,
         "strength": 75,
         "attack-multiplier": 9,
@@ -26193,8 +26706,10 @@
         "name": "The Damned",
         "pr-bestiary-number": 151,
         "gba-bestiary-number": 151,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore",
+            "Island Shrine"
+        ],
         "agility": 20,
         "strength": 65,
         "attack-multiplier": 9,
@@ -26359,8 +26874,9 @@
         "ps-name": "Slownin",
         "pr-bestiary-number": 160,
         "gba-bestiary-number": 160,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 35,
         "strength": 81,
         "attack-multiplier": 11,
@@ -26524,8 +27040,9 @@
         "name": "Tiny Mage",
         "pr-bestiary-number": 162,
         "gba-bestiary-number": 162,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 20,
         "strength": 80,
         "attack-multiplier": 16,
@@ -26697,8 +27214,9 @@
         "ps-name": "DeemMaster",
         "pr-bestiary-number": 163,
         "gba-bestiary-number": 163,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 20,
         "strength": 82,
         "attack-multiplier": 16,
@@ -26874,8 +27392,14 @@
         "ps-name": "Skelesaur (Golem battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "N-Zone"
+        ],
         "agility": 30,
         "strength": 45,
         "attack-multiplier": 10,
@@ -27040,8 +27564,9 @@
         "ps-name": "Flare",
         "pr-bestiary-number": 164,
         "gba-bestiary-number": 164,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 21,
         "strength": 89,
         "attack-multiplier": 15,
@@ -27217,8 +27742,9 @@
         "ps-name": "DualKnight",
         "pr-bestiary-number": 165,
         "gba-bestiary-number": 165,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 1,
         "strength": 78,
         "attack-multiplier": 11,
@@ -27383,8 +27909,9 @@
         "ps-name": "Iron",
         "pr-bestiary-number": 166,
         "gba-bestiary-number": 166,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 20,
         "strength": 80,
         "attack-multiplier": 11,
@@ -27548,8 +28075,9 @@
         "name": "Berserker",
         "pr-bestiary-number": 167,
         "gba-bestiary-number": 167,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 20,
         "strength": 77,
         "attack-multiplier": 11,
@@ -27714,8 +28242,14 @@
         "ps-name": "DrgnZombie (Golem battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 47,
         "attack-multiplier": 10,
@@ -27880,8 +28414,9 @@
         "name": "Druid",
         "pr-bestiary-number": 176,
         "gba-bestiary-number": 176,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Northwestern Cave"
+        ],
         "agility": 30,
         "strength": 60,
         "attack-multiplier": 11,
@@ -28051,8 +28586,9 @@
         "ps-name": "Iron Dress",
         "pr-bestiary-number": 177,
         "gba-bestiary-number": 177,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Northwestern Cave"
+        ],
         "agility": 30,
         "strength": 70,
         "attack-multiplier": 11,
@@ -28217,8 +28753,14 @@
         "ps-name": "RockStatue",
         "pr-bestiary-number": 99,
         "gba-bestiary-number": 99,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle of Bal",
+            "Pyramid of Moore"
+        ],
+        "ps-location": [
+            "Val Castle",
+            "Pyramid of Moore"
+        ],
         "agility": 26,
         "strength": 76,
         "attack-multiplier": 10,
@@ -28386,8 +28928,9 @@
         "ps-name": "Blizzard",
         "pr-bestiary-number": 173,
         "gba-bestiary-number": 173,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 77,
         "attack-multiplier": 11,
@@ -28553,8 +29096,9 @@
         "ps-name": "T-wrecks",
         "pr-bestiary-number": 174,
         "gba-bestiary-number": 174,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 25,
         "strength": 85,
         "attack-multiplier": 10,
@@ -28720,8 +29264,9 @@
         "ps-name": "Spizzoner",
         "pr-bestiary-number": 175,
         "gba-bestiary-number": 175,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)"
+        ],
         "agility": 20,
         "strength": 71,
         "attack-multiplier": 11,
@@ -28886,8 +29431,9 @@
         "name": "Unknown (slime)",
         "pr-bestiary-number": 169,
         "gba-bestiary-number": 169,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 20,
         "strength": 61,
         "attack-multiplier": 9,
@@ -29054,8 +29600,9 @@
         "name": "Unknown (worm)",
         "pr-bestiary-number": 170,
         "gba-bestiary-number": 170,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 20,
         "strength": 62,
         "attack-multiplier": 8,
@@ -29223,8 +29770,9 @@
         "name": "Unknown (blob 2)",
         "pr-bestiary-number": 171,
         "gba-bestiary-number": 171,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 20,
         "strength": 60,
         "attack-multiplier": 6,
@@ -29391,8 +29939,9 @@
         "name": "Unknown (skeleton)",
         "pr-bestiary-number": 172,
         "gba-bestiary-number": 172,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 20,
         "strength": 67,
         "attack-multiplier": 10,
@@ -29558,8 +30107,12 @@
         "ps-name": "MercuryBat",
         "pr-bestiary-number": 178,
         "gba-bestiary-number": 178,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 20,
         "strength": 65,
         "attack-multiplier": 10,
@@ -29725,8 +30278,12 @@
         "ps-name": "Corral",
         "pr-bestiary-number": 179,
         "gba-bestiary-number": 179,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 25,
         "strength": 66,
         "attack-multiplier": 11,
@@ -29892,8 +30449,12 @@
         "ps-name": "Dinglberry",
         "pr-bestiary-number": 183,
         "gba-bestiary-number": 183,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 49,
         "strength": 119,
         "attack-multiplier": 14,
@@ -30058,8 +30619,12 @@
         "name": "Aquagel",
         "pr-bestiary-number": 180,
         "gba-bestiary-number": 180,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 22,
         "strength": 67,
         "attack-multiplier": 10,
@@ -30224,8 +30789,14 @@
         "ps-name": "Fall Guard",
         "pr-bestiary-number": 181,
         "gba-bestiary-number": 181,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore",
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Pyramid of Moore",
+            "Easterly Falls"
+        ],
         "agility": 20,
         "strength": 60,
         "attack-multiplier": 11,
@@ -30393,8 +30964,12 @@
         "ps-name": "Alcumia",
         "pr-bestiary-number": 182,
         "gba-bestiary-number": 182,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 35,
         "strength": 70,
         "attack-multiplier": 11,
@@ -30562,8 +31137,12 @@
         "ps-name": "Red Dragon (Alcumia)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 35,
         "strength": 83,
         "attack-multiplier": 11,
@@ -30730,8 +31309,12 @@
         "ps-name": "Aquaus (Alcumia)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 35,
         "strength": 85,
         "attack-multiplier": 11,
@@ -30899,8 +31482,12 @@
         "ps-name": "Skelesaur (Alcumia)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 35,
         "strength": 85,
         "attack-multiplier": 11,
@@ -31066,8 +31653,12 @@
         "name": "Grenade",
         "pr-bestiary-number": 204,
         "gba-bestiary-number": 204,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 75,
         "attack-multiplier": 12,
@@ -31233,8 +31824,12 @@
         "ps-name": "SwrdDancer",
         "pr-bestiary-number": 216,
         "gba-bestiary-number": 216,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 75,
         "attack-multiplier": 12,
@@ -31400,8 +31995,12 @@
         "ps-name": "Cycloskull",
         "pr-bestiary-number": 205,
         "gba-bestiary-number": 205,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 75,
         "attack-multiplier": 12,
@@ -31567,8 +32166,12 @@
         "ps-name": "DethDealer",
         "pr-bestiary-number": 206,
         "gba-bestiary-number": 206,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 75,
         "attack-multiplier": 12,
@@ -31733,8 +32336,14 @@
         "ps-name": "Centipeelr",
         "pr-bestiary-number": 184,
         "gba-bestiary-number": 184,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "World Map (merged world)",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 75,
         "attack-multiplier": 12,
@@ -31900,8 +32509,14 @@
         "ps-name": "Landsquid",
         "pr-bestiary-number": 185,
         "gba-bestiary-number": 185,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "World Map (merged world)",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 71,
         "attack-multiplier": 12,
@@ -32068,8 +32683,14 @@
         "ps-name": "Landcrawlr",
         "pr-bestiary-number": 186,
         "gba-bestiary-number": 186,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map (merged world)",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "World Map (merged world)",
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 100,
         "attack-multiplier": 16,
@@ -32236,8 +32857,9 @@
         "ps-name": "Disabler",
         "pr-bestiary-number": 187,
         "gba-bestiary-number": 187,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 20,
         "strength": 77,
         "attack-multiplier": 12,
@@ -32406,8 +33028,9 @@
         "ps-name": "Serpentina",
         "pr-bestiary-number": 188,
         "gba-bestiary-number": 188,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 20,
         "strength": 76,
         "attack-multiplier": 12,
@@ -32576,8 +33199,9 @@
         "ps-name": "Sherry",
         "pr-bestiary-number": 189,
         "gba-bestiary-number": 189,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 20,
         "strength": 78,
         "attack-multiplier": 12,
@@ -32746,8 +33370,12 @@
         "ps-name": "WhiteFlame",
         "pr-bestiary-number": 208,
         "gba-bestiary-number": 208,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 65,
         "attack-multiplier": 12,
@@ -32914,8 +33542,12 @@
         "ps-name": "MossFungus",
         "pr-bestiary-number": 209,
         "gba-bestiary-number": 209,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 75,
         "attack-multiplier": 12,
@@ -33085,8 +33717,12 @@
         "ps-name": "Oculus",
         "pr-bestiary-number": 211,
         "gba-bestiary-number": 211,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 22,
         "strength": 75,
         "attack-multiplier": 12,
@@ -33251,8 +33887,12 @@
         "name": "Iron Giant",
         "pr-bestiary-number": 220,
         "gba-bestiary-number": 220,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 55,
         "strength": 100,
         "attack-multiplier": 13,
@@ -33419,8 +34059,12 @@
         "name": "Death Claw",
         "pr-bestiary-number": 217,
         "gba-bestiary-number": 217,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 70,
         "attack-multiplier": 9,
@@ -33586,8 +34230,12 @@
         "ps-name": "BehemoKing",
         "pr-bestiary-number": 221,
         "gba-bestiary-number": 221,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 95,
         "attack-multiplier": 13,
@@ -33754,8 +34402,12 @@
         "ps-name": "Jestrex",
         "pr-bestiary-number": 210,
         "gba-bestiary-number": 210,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 25,
         "strength": 90,
         "attack-multiplier": 2,
@@ -33925,8 +34577,12 @@
         "ps-name": "Necromancr",
         "pr-bestiary-number": 223,
         "gba-bestiary-number": 223,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 27,
         "strength": 79,
         "attack-multiplier": 13,
@@ -34093,8 +34749,12 @@
         "name": "Ninja",
         "pr-bestiary-number": 214,
         "gba-bestiary-number": 214,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 26,
         "strength": 90,
         "attack-multiplier": 12,
@@ -34261,8 +34921,12 @@
         "ps-name": "Drgn Great",
         "pr-bestiary-number": 212,
         "gba-bestiary-number": 212,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 100,
         "attack-multiplier": 13,
@@ -34431,8 +35095,12 @@
         "ps-name": "DragonAvis",
         "pr-bestiary-number": 215,
         "gba-bestiary-number": 215,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 22,
         "strength": 100,
         "attack-multiplier": 11,
@@ -34599,8 +35267,12 @@
         "ps-name": "Maximus",
         "pr-bestiary-number": 224,
         "gba-bestiary-number": 224,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 100,
         "attack-multiplier": 13,
@@ -34768,8 +35440,14 @@
         "ps-name": "LevelChekr",
         "pr-bestiary-number": 207,
         "gba-bestiary-number": 207,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Sunken Tower of Walse",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Sunken Tower of Walz",
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 90,
         "attack-multiplier": 10,
@@ -34938,8 +35616,12 @@
         "ps-name": "Mind Flare",
         "pr-bestiary-number": 225,
         "gba-bestiary-number": 225,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 90,
         "attack-multiplier": 4,
@@ -35105,8 +35787,12 @@
         "name": "Fury",
         "pr-bestiary-number": 218,
         "gba-bestiary-number": 218,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 80,
         "attack-multiplier": 10,
@@ -35283,8 +35969,12 @@
         "name": "Crystelle",
         "pr-bestiary-number": 226,
         "gba-bestiary-number": 226,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 100,
         "attack-multiplier": 7,
@@ -35449,8 +36139,12 @@
         "name": "Mover",
         "pr-bestiary-number": 228,
         "gba-bestiary-number": 228,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 128,
         "attack-multiplier": 3,
@@ -35620,8 +36314,12 @@
         "ps-name": "CrystlDrgn",
         "pr-bestiary-number": 222,
         "gba-bestiary-number": 222,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 50,
         "strength": 128,
         "attack-multiplier": 13,
@@ -35787,8 +36485,12 @@
         "ps-name": "Sybaritic",
         "pr-bestiary-number": 213,
         "gba-bestiary-number": 213,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 100,
         "attack-multiplier": 13,
@@ -35955,8 +36657,12 @@
         "name": "Yojimbo",
         "pr-bestiary-number": 219,
         "gba-bestiary-number": 219,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 20,
         "strength": 109,
         "attack-multiplier": 13,
@@ -36123,8 +36829,12 @@
         "ps-name": "Gilgamesh (N-Zone)",
         "pr-bestiary-number": 295,
         "gba-bestiary-number": 307,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 47,
         "strength": 109,
         "attack-multiplier": 13,
@@ -36292,8 +37002,10 @@
         "ps-name": "Fins",
         "pr-bestiary-number": 193,
         "gba-bestiary-number": 193,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (Bartz's world)",
+            "World Map oceans (merged world)"
+        ],
         "agility": 26,
         "strength": 27,
         "attack-multiplier": 5,
@@ -36458,8 +37170,10 @@
         "ps-name": "Thunderpit",
         "pr-bestiary-number": 194,
         "gba-bestiary-number": 194,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (Bartz's world)",
+            "World Map oceans (merged world)"
+        ],
         "agility": 25,
         "strength": 27,
         "attack-multiplier": 5,
@@ -36624,8 +37338,10 @@
         "ps-name": "Cybis",
         "pr-bestiary-number": 195,
         "gba-bestiary-number": 195,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (Bartz's world)",
+            "World Map oceans (merged world)"
+        ],
         "agility": 50,
         "strength": 30,
         "attack-multiplier": 5,
@@ -36789,8 +37505,10 @@
         "name": "Corbett",
         "pr-bestiary-number": 196,
         "gba-bestiary-number": 196,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (Bartz's world)",
+            "World Map oceans (merged world)"
+        ],
         "agility": 35,
         "strength": 40,
         "attack-multiplier": 9,
@@ -36956,8 +37674,9 @@
         "ps-name": "Armon",
         "pr-bestiary-number": 197,
         "gba-bestiary-number": 197,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 25,
         "strength": 90,
         "attack-multiplier": 1,
@@ -37122,8 +37841,9 @@
         "ps-name": "WaterScorp",
         "pr-bestiary-number": 198,
         "gba-bestiary-number": 198,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 35,
         "strength": 59,
         "attack-multiplier": 18,
@@ -37288,8 +38008,9 @@
         "ps-name": "Kestrel",
         "pr-bestiary-number": 199,
         "gba-bestiary-number": 199,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 59,
         "strength": 77,
         "attack-multiplier": 19,
@@ -37454,8 +38175,9 @@
         "ps-name": "Shell Fish",
         "pr-bestiary-number": 200,
         "gba-bestiary-number": 200,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 30,
         "strength": 0,
         "attack-multiplier": 0,
@@ -37620,8 +38342,9 @@
         "ps-name": "BigButrfly",
         "pr-bestiary-number": 201,
         "gba-bestiary-number": 201,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 55,
         "strength": 75,
         "attack-multiplier": 19,
@@ -37787,8 +38510,9 @@
         "name": "Sea Devil",
         "pr-bestiary-number": 202,
         "gba-bestiary-number": 202,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 20,
         "strength": 71,
         "attack-multiplier": 8,
@@ -37952,8 +38676,9 @@
         "name": "Stingray",
         "pr-bestiary-number": 203,
         "gba-bestiary-number": 203,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "World Map oceans (merged world)"
+        ],
         "agility": 70,
         "strength": 66,
         "attack-multiplier": 16,
@@ -38118,8 +38843,12 @@
         "ps-name": "???? (Golem)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 50,
         "strength": 50,
         "attack-multiplier": 10,
@@ -38282,8 +39011,14 @@
         "name": "Golem (2nd form)",
         "pr-bestiary-number": 259,
         "gba-bestiary-number": 271,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale",
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "Valley of Dragons",
+            "N-Zone"
+        ],
         "agility": 60,
         "strength": 50,
         "attack-multiplier": 10,
@@ -38446,8 +39181,7 @@
         "ps-name": "Kimaira",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -38610,8 +39344,12 @@
         "ps-name": "Shiva (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 0,
         "attack-multiplier": 0,
@@ -38775,8 +39513,12 @@
         "ps-name": "Ifrit (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 0,
         "attack-multiplier": 0,
@@ -38940,8 +39682,12 @@
         "ps-name": "Ramuh (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 0,
         "attack-multiplier": 0,
@@ -39105,8 +39851,12 @@
         "ps-name": "Ghilacat (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 55,
         "attack-multiplier": 8,
@@ -39271,8 +40021,12 @@
         "ps-name": "Y Burn (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 10,
@@ -39436,8 +40190,12 @@
         "ps-name": "Elf Toad (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 10,
@@ -39601,8 +40359,12 @@
         "ps-name": "Crew Dust (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 10,
@@ -39766,8 +40528,12 @@
         "ps-name": "Fan Wizard (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 10,
@@ -39931,8 +40697,12 @@
         "ps-name": "DrgnZombie (Metamorpha)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ghido's Cave"
+        ],
+        "ps-location": [
+            "Gill's Cave"
+        ],
         "agility": 25,
         "strength": 50,
         "attack-multiplier": 10,
@@ -40096,8 +40866,9 @@
         "ps-name": "Quadrharpy (Zefa Zone)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 40,
         "strength": 60,
         "attack-multiplier": 8,
@@ -40262,8 +41033,9 @@
         "ps-name": "Adamngolem (Zefa Zone)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 35,
         "strength": 60,
         "attack-multiplier": 9,
@@ -40428,8 +41200,9 @@
         "ps-name": "Ultragigas (Zefa Zone)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 35,
         "strength": 60,
         "attack-multiplier": 8,
@@ -40593,8 +41366,9 @@
         "ps-name": "RonkaKnigt (Zefa Zone)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 35,
         "strength": 70,
         "attack-multiplier": 10,
@@ -40758,8 +41532,9 @@
         "ps-name": "BioSoldier (Zefa Zone)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 50,
         "strength": 60,
         "attack-multiplier": 11,
@@ -40923,8 +41698,9 @@
         "ps-name": "Subterran (Zefa Zone)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 45,
         "strength": 60,
         "attack-multiplier": 9,
@@ -41089,8 +41865,9 @@
         "ps-name": "Tote Avis",
         "pr-bestiary-number": 161,
         "gba-bestiary-number": 161,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 50,
         "strength": 70,
         "attack-multiplier": 15,
@@ -41255,8 +42032,12 @@
         "ps-name": "Belfagel",
         "pr-bestiary-number": 227,
         "gba-bestiary-number": 227,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 40,
         "strength": 73,
         "attack-multiplier": 10,
@@ -41419,8 +42200,12 @@
         "ps-name": "Imp (X-Death's Castle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 40,
         "strength": 65,
         "attack-multiplier": 0,
@@ -41584,8 +42369,12 @@
         "ps-name": "Red Harpy (X-Death's Castle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 40,
         "strength": 60,
         "attack-multiplier": 0,
@@ -41749,8 +42538,12 @@
         "ps-name": "Harpy (X-Death's Castle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 40,
         "strength": 60,
         "attack-multiplier": 10,
@@ -41914,8 +42707,12 @@
         "ps-name": "Gobbldigoo",
         "pr-bestiary-number": 105,
         "gba-bestiary-number": 105,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Xezat's Fleet"
+        ],
+        "ps-location": [
+            "Zeza's Fleet"
+        ],
         "agility": 25,
         "strength": 39,
         "attack-multiplier": 10,
@@ -42079,8 +42876,9 @@
         "ps-name": "Gilgame (Gil cave)",
         "pr-bestiary-number": 270,
         "gba-bestiary-number": 282,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Gil Cave"
+        ],
         "agility": 66,
         "strength": 115,
         "attack-multiplier": 13,
@@ -42250,8 +43048,12 @@
         "name": "Omega",
         "pr-bestiary-number": 299,
         "gba-bestiary-number": 311,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 76,
         "strength": 115,
         "attack-multiplier": 25,
@@ -42424,8 +43226,7 @@
         "name": "Big Boss",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 28,
         "strength": 250,
         "attack-multiplier": 10,
@@ -42587,8 +43388,7 @@
         "name": "Enemy_FF",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -42750,8 +43550,9 @@
         "name": "Soul Eater",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 231,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 66,
         "strength": 50,
         "attack-multiplier": 30,
@@ -42920,8 +43721,9 @@
         "name": "Exoray (upper)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 40,
         "strength": 50,
         "attack-multiplier": 33,
@@ -43089,8 +43891,9 @@
         "name": "Exoray (upper-left)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 40,
         "strength": 50,
         "attack-multiplier": 33,
@@ -43258,8 +44061,9 @@
         "name": "Exoray (bottom-left)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 40,
         "strength": 50,
         "attack-multiplier": 33,
@@ -43427,8 +44231,9 @@
         "name": "Exoray (bottom-right)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 40,
         "strength": 50,
         "attack-multiplier": 33,
@@ -43596,8 +44401,9 @@
         "name": "Exoray (upper-right)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 40,
         "strength": 50,
         "attack-multiplier": 33,
@@ -43765,8 +44571,9 @@
         "name": "Dark Elemental (Fire)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 233,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 50,
         "strength": 80,
         "attack-multiplier": 12,
@@ -43932,8 +44739,9 @@
         "name": "Dark Elemental (Ice)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 234,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 50,
         "strength": 80,
         "attack-multiplier": 12,
@@ -44099,8 +44907,9 @@
         "name": "Dark Elemental (Lightning)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 235,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 50,
         "strength": 80,
         "attack-multiplier": 12,
@@ -44266,8 +45075,9 @@
         "name": "Medusa",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 238,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 55,
         "strength": 99,
         "attack-multiplier": 11,
@@ -44436,8 +45246,9 @@
         "name": "Mini Satana",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 229,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 60,
         "strength": 100,
         "attack-multiplier": 8,
@@ -44605,8 +45416,9 @@
         "name": "Assassin",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 230,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 75,
         "strength": 110,
         "attack-multiplier": 10,
@@ -44773,8 +45585,9 @@
         "name": "Assassin (Image)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 230,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 75,
         "strength": 110,
         "attack-multiplier": 10,
@@ -44942,8 +45755,9 @@
         "name": "Duelist (1st)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 100,
         "attack-multiplier": 12,
@@ -45109,8 +45923,9 @@
         "name": "Duelist (2nd)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 100,
         "attack-multiplier": 12,
@@ -45277,8 +46092,9 @@
         "name": "Duelist (3rd)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 100,
         "attack-multiplier": 12,
@@ -45444,8 +46260,9 @@
         "name": "Duelist (4th)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 100,
         "attack-multiplier": 12,
@@ -45611,8 +46428,9 @@
         "name": "Duelist (5th)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 100,
         "attack-multiplier": 12,
@@ -45779,8 +46597,9 @@
         "name": "Ironclad",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 241,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 40,
         "strength": 140,
         "attack-multiplier": 15,
@@ -45947,8 +46766,9 @@
         "name": "Claret Dragon",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 240,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 70,
         "strength": 135,
         "attack-multiplier": 18,
@@ -46118,8 +46938,9 @@
         "name": "Dinozombie",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 239,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 60,
         "strength": 150,
         "attack-multiplier": 16,
@@ -46286,8 +47107,9 @@
         "name": "Behemoth",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 232,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 25,
         "strength": 90,
         "attack-multiplier": 13,
@@ -46453,8 +47275,9 @@
         "name": "Hades",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 242,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 60,
         "strength": 120,
         "attack-multiplier": 15,
@@ -46633,8 +47456,9 @@
         "name": "Nutkin (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 6,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 2,
@@ -46799,8 +47623,9 @@
         "name": "Mecha Head (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 150,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 37,
         "strength": 59,
         "attack-multiplier": 13,
@@ -46969,8 +47794,7 @@
         "name": "Enemy_119",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -47132,8 +47956,7 @@
         "name": "Enemy_11A",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -47295,8 +48118,7 @@
         "name": "Enemy_11B",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -47458,8 +48280,7 @@
         "name": "Enemy_11C",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -47621,8 +48442,7 @@
         "name": "Enemy_11D",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -47784,8 +48604,7 @@
         "name": "Enemy_11E",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -47947,8 +48766,7 @@
         "name": "Enemy_11F",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 20,
         "strength": 0,
         "attack-multiplier": 0,
@@ -48111,8 +48929,9 @@
         "ps-name": "Wingrapter (1st form)",
         "pr-bestiary-number": 229,
         "gba-bestiary-number": 243,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Wind Shrine"
+        ],
         "agility": 25,
         "strength": 7,
         "attack-multiplier": 2,
@@ -48279,8 +49098,9 @@
         "ps-name": "Wingrapter (2nd form)",
         "pr-bestiary-number": 229,
         "gba-bestiary-number": 243,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Wind Shrine"
+        ],
         "agility": 25,
         "strength": 7,
         "attack-multiplier": 3,
@@ -48447,8 +49267,9 @@
         "ps-name": "Karl Boss",
         "pr-bestiary-number": 230,
         "gba-bestiary-number": 244,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Torna Canal"
+        ],
         "agility": 30,
         "strength": 10,
         "attack-multiplier": 4,
@@ -48614,8 +49435,12 @@
         "ps-name": "Twin Tania (2nd form)",
         "pr-bestiary-number": 294,
         "gba-bestiary-number": 306,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 81,
         "strength": 90,
         "attack-multiplier": 13,
@@ -48779,8 +49604,9 @@
         "name": "Siren (1st form)",
         "pr-bestiary-number": 231,
         "gba-bestiary-number": 245,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ship Graveyard"
+        ],
         "agility": 35,
         "strength": 15,
         "attack-multiplier": 6,
@@ -48951,8 +49777,9 @@
         "name": "Siren (2nd form)",
         "pr-bestiary-number": 231,
         "gba-bestiary-number": 245,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ship Graveyard"
+        ],
         "agility": 35,
         "strength": 14,
         "attack-multiplier": 8,
@@ -49118,8 +49945,9 @@
         "ps-name": "Faltzer",
         "pr-bestiary-number": 233,
         "gba-bestiary-number": 247,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 37,
         "strength": 14,
         "attack-multiplier": 9,
@@ -49283,8 +50111,9 @@
         "name": "Magissa",
         "pr-bestiary-number": 232,
         "gba-bestiary-number": 246,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 30,
         "strength": 14,
         "attack-multiplier": 5,
@@ -49452,8 +50281,12 @@
         "name": "Garula (boss)",
         "pr-bestiary-number": 236,
         "gba-bestiary-number": 250,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Walse Tower"
+        ],
+        "ps-location": [
+            "Walz Tower"
+        ],
         "agility": 31,
         "strength": 15,
         "attack-multiplier": 9,
@@ -49620,8 +50453,12 @@
         "ps-name": "LiqudFlame (human form)",
         "pr-bestiary-number": 237,
         "gba-bestiary-number": 251,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship"
+        ],
+        "ps-location": [
+            "Fire Ship"
+        ],
         "agility": 35,
         "strength": 18,
         "attack-multiplier": 5,
@@ -49788,8 +50625,12 @@
         "ps-name": "LiqudFlame (hand form)",
         "pr-bestiary-number": 237,
         "gba-bestiary-number": 251,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship"
+        ],
+        "ps-location": [
+            "Fire Ship"
+        ],
         "agility": 35,
         "strength": 18,
         "attack-multiplier": 5,
@@ -49956,8 +50797,12 @@
         "ps-name": "LiqudFlame (tornado form)",
         "pr-bestiary-number": 237,
         "gba-bestiary-number": 251,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fire-Powered Ship"
+        ],
+        "ps-location": [
+            "Fire Ship"
+        ],
         "agility": 35,
         "strength": 18,
         "attack-multiplier": 5,
@@ -50124,8 +50969,12 @@
         "ps-name": "IceComandr",
         "pr-bestiary-number": 234,
         "gba-bestiary-number": 248,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Walse"
+        ],
+        "ps-location": [
+            "Walz Castle"
+        ],
         "agility": 25,
         "strength": 21,
         "attack-multiplier": 6,
@@ -50287,8 +51136,12 @@
         "name": "[Executor] Sandworm",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Desert of Shifting Sands"
+        ],
+        "ps-location": [
+            "Quicksand Desert"
+        ],
         "agility": 50,
         "strength": 25,
         "attack-multiplier": 10,
@@ -50456,8 +51309,12 @@
         "name": "Hole (Sandworm battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Desert of Shifting Sands"
+        ],
+        "ps-location": [
+            "Quicksand Desert"
+        ],
         "agility": 1,
         "strength": 25,
         "attack-multiplier": 10,
@@ -50620,8 +51477,12 @@
         "name": "[Orchestrator] Sandworm",
         "pr-bestiary-number": 242,
         "gba-bestiary-number": 256,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Desert of Shifting Sands"
+        ],
+        "ps-location": [
+            "Quicksand Desert"
+        ],
         "agility": 98,
         "strength": 7,
         "attack-multiplier": 2,
@@ -50785,8 +51646,9 @@
         "ps-name": "Adamantaim",
         "pr-bestiary-number": 244,
         "gba-bestiary-number": 258,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Tycoon Meteorite"
+        ],
         "agility": 30,
         "strength": 31,
         "attack-multiplier": 18,
@@ -50949,8 +51811,9 @@
         "ps-name": "FlameThrow",
         "pr-bestiary-number": 245,
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Airship"
+        ],
         "agility": 35,
         "strength": 7,
         "attack-multiplier": 2,
@@ -51113,8 +51976,9 @@
         "ps-name": "Rocket Gun",
         "pr-bestiary-number": 246,
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Airship"
+        ],
         "agility": 33,
         "strength": 7,
         "attack-multiplier": 2,
@@ -51279,8 +52143,12 @@
         "ps-name": "X-Death (tree)",
         "pr-bestiary-number": 301,
         "gba-bestiary-number": 313,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 44,
         "strength": 111,
         "attack-multiplier": 17,
@@ -51450,8 +52318,9 @@
         "ps-name": "Soul Gun (boss)",
         "pr-bestiary-number": 247,
         "gba-bestiary-number": 259,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Airship"
+        ],
         "agility": 55,
         "strength": 7,
         "attack-multiplier": 2,
@@ -51616,8 +52485,12 @@
         "ps-name": "Archeoavis (1st form)",
         "pr-bestiary-number": 250,
         "gba-bestiary-number": 262,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 30,
         "strength": 39,
         "attack-multiplier": 7,
@@ -51784,8 +52657,12 @@
         "ps-name": "Archeoavis (2nd form)",
         "pr-bestiary-number": 250,
         "gba-bestiary-number": 262,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 30,
         "strength": 39,
         "attack-multiplier": 7,
@@ -51952,8 +52829,12 @@
         "ps-name": "Archeoavis (3rd form)",
         "pr-bestiary-number": 250,
         "gba-bestiary-number": 262,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 30,
         "strength": 39,
         "attack-multiplier": 7,
@@ -52120,8 +53001,12 @@
         "ps-name": "Archeoavis (4th form)",
         "pr-bestiary-number": 250,
         "gba-bestiary-number": 262,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 30,
         "strength": 39,
         "attack-multiplier": 7,
@@ -52289,8 +53174,12 @@
         "ps-name": "Archeoavis (5th form)",
         "pr-bestiary-number": 250,
         "gba-bestiary-number": 262,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ronka Ruins"
+        ],
+        "ps-location": [
+            "Ruins of Ronka"
+        ],
         "agility": 35,
         "strength": 42,
         "attack-multiplier": 7,
@@ -52462,8 +53351,12 @@
         "gba-name": "Manticore",
         "pr-bestiary-number": 253,
         "gba-bestiary-number": 265,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Gohn Meteorite"
+        ],
+        "ps-location": [
+            "Gorn Meteorite"
+        ],
         "agility": 35,
         "strength": 40,
         "attack-multiplier": 7,
@@ -52627,8 +53520,9 @@
         "name": "Titan",
         "pr-bestiary-number": 252,
         "gba-bestiary-number": 264,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Meteorite"
+        ],
         "agility": 25,
         "strength": 45,
         "attack-multiplier": 7,
@@ -52792,8 +53686,12 @@
         "ps-name": "Byurobolos",
         "pr-bestiary-number": 251,
         "gba-bestiary-number": 263,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Walse Meteorite"
+        ],
+        "ps-location": [
+            "Walz Meteorite"
+        ],
         "agility": 20,
         "strength": 45,
         "attack-multiplier": 7,
@@ -52959,8 +53857,9 @@
         "name": "Abductor (Bartz solo)",
         "pr-bestiary-number": 254,
         "gba-bestiary-number": 266,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Solitary Island forest dungeon"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 7,
@@ -53123,8 +54022,12 @@
         "name": "Gilgamesh (dungeon)",
         "pr-bestiary-number": 255,
         "gba-bestiary-number": 267,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 6,
@@ -53288,8 +54191,9 @@
         "ps-name": "Fishite",
         "pr-bestiary-number": 76,
         "gba-bestiary-number": 76,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Big Bridge"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 6,
@@ -53452,8 +54356,9 @@
         "ps-name": "WingKiller",
         "pr-bestiary-number": 77,
         "gba-bestiary-number": 77,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Big Bridge"
+        ],
         "agility": 28,
         "strength": 40,
         "attack-multiplier": 6,
@@ -53616,8 +54521,9 @@
         "ps-name": "LilChariot",
         "pr-bestiary-number": 78,
         "gba-bestiary-number": 78,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Big Bridge"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 6,
@@ -53780,8 +54686,9 @@
         "name": "Neo Garula",
         "pr-bestiary-number": 79,
         "gba-bestiary-number": 79,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Big Bridge"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 6,
@@ -53945,8 +54852,9 @@
         "name": "Gilgamesh (Big Bridge)",
         "pr-bestiary-number": 256,
         "gba-bestiary-number": 268,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Big Bridge"
+        ],
         "agility": 45,
         "strength": 49,
         "attack-multiplier": 7,
@@ -54119,8 +55027,9 @@
         "ps-name": "Tyrasaurus",
         "pr-bestiary-number": 257,
         "gba-bestiary-number": 269,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Underground Waterway"
+        ],
         "agility": 50,
         "strength": 45,
         "attack-multiplier": 8,
@@ -54284,8 +55193,12 @@
         "name": "Shiva (boss)",
         "pr-bestiary-number": 235,
         "gba-bestiary-number": 249,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Walse"
+        ],
+        "ps-location": [
+            "Walz Castle"
+        ],
         "agility": 25,
         "strength": 40,
         "attack-multiplier": 6,
@@ -54448,8 +55361,12 @@
         "ps-name": "Abductor (Val Castle)",
         "pr-bestiary-number": 258,
         "gba-bestiary-number": 270,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle of Bal"
+        ],
+        "ps-location": [
+            "Val Castle"
+        ],
         "agility": 35,
         "strength": 40,
         "attack-multiplier": 6,
@@ -54614,8 +55531,12 @@
         "ps-name": "Drgn Grass",
         "pr-bestiary-number": 260,
         "gba-bestiary-number": 272,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 39,
         "strength": 40,
         "attack-multiplier": 6,
@@ -54779,8 +55700,12 @@
         "ps-name": "Drgn Bulb (1st)",
         "pr-bestiary-number": 261,
         "gba-bestiary-number": 273,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 22,
         "strength": 5,
         "attack-multiplier": 20,
@@ -54946,8 +55871,12 @@
         "ps-name": "Drgn Bulb (2nd)",
         "pr-bestiary-number": 261,
         "gba-bestiary-number": 273,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 17,
         "strength": 5,
         "attack-multiplier": 20,
@@ -55113,8 +56042,12 @@
         "ps-name": "Drgn Bulb (3rd)",
         "pr-bestiary-number": 261,
         "gba-bestiary-number": 273,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 27,
         "strength": 5,
         "attack-multiplier": 20,
@@ -55280,8 +56213,12 @@
         "ps-name": "Drgn Bulb (4th)",
         "pr-bestiary-number": 261,
         "gba-bestiary-number": 273,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 22,
         "strength": 5,
         "attack-multiplier": 20,
@@ -55447,8 +56384,12 @@
         "ps-name": "Drgn Bulb (5th)",
         "pr-bestiary-number": 261,
         "gba-bestiary-number": 273,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Drakenvale"
+        ],
+        "ps-location": [
+            "Valley of Dragons"
+        ],
         "agility": 18,
         "strength": 5,
         "attack-multiplier": 20,
@@ -55614,8 +56555,12 @@
         "ps-name": "Gilgamesh (Zeza's Fleet)",
         "pr-bestiary-number": 262,
         "gba-bestiary-number": 274,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Xezat's Fleet"
+        ],
+        "ps-location": [
+            "Zeza's Fleet"
+        ],
         "agility": 45,
         "strength": 50,
         "attack-multiplier": 5,
@@ -55784,8 +56729,12 @@
         "ps-name": "Enkidoh",
         "pr-bestiary-number": 263,
         "gba-bestiary-number": 275,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Xezat's Fleet"
+        ],
+        "ps-location": [
+            "Zeza's Fleet"
+        ],
         "agility": 45,
         "strength": 50,
         "attack-multiplier": 5,
@@ -55954,8 +56903,9 @@
         "name": "Atomos",
         "pr-bestiary-number": 264,
         "gba-bestiary-number": 276,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Barrier Tower"
+        ],
         "agility": 36,
         "strength": 10,
         "attack-multiplier": 10,
@@ -56124,8 +57074,12 @@
         "name": "Fire Crystal",
         "pr-bestiary-number": 265,
         "gba-bestiary-number": 277,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 40,
         "strength": 40,
         "attack-multiplier": 10,
@@ -56288,8 +57242,12 @@
         "name": "Earth Crystal",
         "pr-bestiary-number": 266,
         "gba-bestiary-number": 278,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 45,
         "strength": 40,
         "attack-multiplier": 10,
@@ -56452,8 +57410,12 @@
         "name": "Water Crystal",
         "pr-bestiary-number": 267,
         "gba-bestiary-number": 279,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 50,
         "strength": 40,
         "attack-multiplier": 10,
@@ -56616,8 +57578,12 @@
         "name": "Wind Crystal",
         "pr-bestiary-number": 268,
         "gba-bestiary-number": 280,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 55,
         "strength": 40,
         "attack-multiplier": 10,
@@ -56780,8 +57746,12 @@
         "name": "Carbuncle (1st form)",
         "pr-bestiary-number": 271,
         "gba-bestiary-number": 283,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 50,
         "strength": 50,
         "attack-multiplier": 10,
@@ -56953,8 +57923,9 @@
         "ps-name": "Mellusion (ending credits)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Ending credits"
+        ],
         "agility": 50,
         "strength": 75,
         "attack-multiplier": 15,
@@ -57122,8 +58093,12 @@
         "ps-name": "Gilgamesh (X-Death's Castle, morphed)",
         "pr-bestiary-number": 272,
         "gba-bestiary-number": 284,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 75,
         "strength": 50,
         "attack-multiplier": 1,
@@ -57288,8 +58263,12 @@
         "ps-name": "X-Death (X-Death's Castle)",
         "pr-bestiary-number": 273,
         "gba-bestiary-number": 285,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 50,
         "strength": 58,
         "attack-multiplier": 20,
@@ -57472,8 +58451,12 @@
         "ps-name": "Antolyon",
         "pr-bestiary-number": 274,
         "gba-bestiary-number": 286,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Antlion's Nest"
+        ],
+        "ps-location": [
+            "Antolyon's Nest"
+        ],
         "agility": 50,
         "strength": 48,
         "attack-multiplier": 13,
@@ -57638,8 +58621,9 @@
         "name": "Mummy",
         "pr-bestiary-number": 148,
         "gba-bestiary-number": 148,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 50,
         "strength": 48,
         "attack-multiplier": 13,
@@ -57803,8 +58787,9 @@
         "ps-name": "Auspices",
         "pr-bestiary-number": 149,
         "gba-bestiary-number": 149,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 42,
         "strength": 57,
         "attack-multiplier": 11,
@@ -57969,8 +58954,10 @@
         "ps-name": "MechaHead",
         "pr-bestiary-number": 150,
         "gba-bestiary-number": 150,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore",
+            "Island Shrine"
+        ],
         "agility": 37,
         "strength": 59,
         "attack-multiplier": 13,
@@ -58140,8 +59127,12 @@
         "ps-name": "Mellusion (1st form)",
         "pr-bestiary-number": 275,
         "gba-bestiary-number": 287,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 50,
         "strength": 49,
         "attack-multiplier": 13,
@@ -58310,8 +59301,12 @@
         "ps-name": "Mellusion (2nd form)",
         "pr-bestiary-number": 275,
         "gba-bestiary-number": 287,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 50,
         "strength": 49,
         "attack-multiplier": 13,
@@ -58480,8 +59475,12 @@
         "ps-name": "Mellusion (3rd form)",
         "pr-bestiary-number": 275,
         "gba-bestiary-number": 287,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 50,
         "strength": 49,
         "attack-multiplier": 13,
@@ -58650,8 +59649,12 @@
         "ps-name": "Mellusion (4th form)",
         "pr-bestiary-number": 275,
         "gba-bestiary-number": 287,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 50,
         "strength": 65,
         "attack-multiplier": 13,
@@ -58820,8 +59823,12 @@
         "name": "Odin",
         "pr-bestiary-number": 278,
         "gba-bestiary-number": 290,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle of Bal"
+        ],
+        "ps-location": [
+            "Val Castle"
+        ],
         "agility": 50,
         "strength": 60,
         "attack-multiplier": 10,
@@ -58986,8 +59993,18 @@
         "name": "Gargoyle",
         "pr-bestiary-number": 276,
         "gba-bestiary-number": 288,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore",
+            "Island Shrine",
+            "Great Sea Trench",
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Pyramid of Moore",
+            "Island Shrine",
+            "Great Sea Trench",
+            "Easterly Falls"
+        ],
         "agility": 34,
         "strength": 58,
         "attack-multiplier": 9,
@@ -59151,8 +60168,9 @@
         "name": "Triton",
         "pr-bestiary-number": 281,
         "gba-bestiary-number": 293,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 35,
         "strength": 55,
         "attack-multiplier": 11,
@@ -59320,8 +60338,9 @@
         "ps-name": "Nergade",
         "pr-bestiary-number": 282,
         "gba-bestiary-number": 294,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 40,
         "strength": 54,
         "attack-multiplier": 11,
@@ -59489,8 +60508,9 @@
         "name": "Phobos",
         "pr-bestiary-number": 283,
         "gba-bestiary-number": 295,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Great Sea Trench"
+        ],
         "agility": 45,
         "strength": 55,
         "attack-multiplier": 11,
@@ -59657,8 +60677,9 @@
         "name": "Omniscient",
         "pr-bestiary-number": 280,
         "gba-bestiary-number": 292,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 26,
         "strength": 100,
         "attack-multiplier": 20,
@@ -59849,8 +60870,9 @@
         "ps-name": "Minitaurus",
         "pr-bestiary-number": 279,
         "gba-bestiary-number": 291,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Fork Tower"
+        ],
         "agility": 35,
         "strength": 99,
         "attack-multiplier": 9,
@@ -60015,8 +61037,12 @@
         "name": "Leviathan",
         "pr-bestiary-number": 284,
         "gba-bestiary-number": 296,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Istory Falls"
+        ],
+        "ps-location": [
+            "Easterly Falls"
+        ],
         "agility": 49,
         "strength": 85,
         "attack-multiplier": 16,
@@ -60185,8 +61211,9 @@
         "ps-name": "Stoker",
         "pr-bestiary-number": 277,
         "gba-bestiary-number": 289,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 40,
         "strength": 65,
         "attack-multiplier": 10,
@@ -60356,8 +61383,12 @@
         "ps-name": "Gogo",
         "pr-bestiary-number": 285,
         "gba-bestiary-number": 297,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Sunken Tower of Walse"
+        ],
+        "ps-location": [
+            "Sunken Tower of Walz"
+        ],
         "agility": 50,
         "strength": 120,
         "attack-multiplier": 25,
@@ -60530,8 +61561,9 @@
         "name": "Bahamut",
         "pr-bestiary-number": 286,
         "gba-bestiary-number": 298,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "North Mountain"
+        ],
         "agility": 40,
         "strength": 69,
         "attack-multiplier": 16,
@@ -60706,8 +61738,12 @@
         "ps-name": "JuraAvis",
         "pr-bestiary-number": 291,
         "gba-bestiary-number": 303,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 40,
         "strength": 65,
         "attack-multiplier": 10,
@@ -60876,8 +61912,12 @@
         "ps-name": "Halycanos",
         "pr-bestiary-number": 293,
         "gba-bestiary-number": 305,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 40,
         "strength": 65,
         "attack-multiplier": 12,
@@ -61047,8 +62087,12 @@
         "ps-name": "X-Death (Galuf solo)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Guardian Tree"
+        ],
+        "ps-location": [
+            "Elder's Tree"
+        ],
         "agility": 35,
         "strength": 60,
         "attack-multiplier": 20,
@@ -61225,8 +62269,12 @@
         "ps-name": "Neo X-Deth (dummy 1)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 1,
         "strength": 1,
         "attack-multiplier": 1,
@@ -61389,8 +62437,12 @@
         "ps-name": "Neo X-Deth (dummy 2)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 1,
         "strength": 1,
         "attack-multiplier": 1,
@@ -61552,8 +62604,10 @@
         "name": "Goblin (Bartz solo)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Tycoon Meteorite",
+            "Tycoon plains dungeon"
+        ],
         "agility": 10,
         "strength": 5,
         "attack-multiplier": 1,
@@ -61715,8 +62769,9 @@
         "name": "Iron Claw",
         "pr-bestiary-number": 238,
         "gba-bestiary-number": 252,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 40,
         "strength": 21,
         "attack-multiplier": 8,
@@ -61879,8 +62934,9 @@
         "name": "Sergeant (Iron Claw battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 20,
         "strength": 7,
         "attack-multiplier": 2,
@@ -62044,8 +63100,9 @@
         "ps-name": "Karnak (Iron Claw battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Karnak Castle"
+        ],
         "agility": 10,
         "strength": 18,
         "attack-multiplier": 4,
@@ -62210,8 +63267,9 @@
         "ps-name": "Clay Claw",
         "pr-bestiary-number": 243,
         "gba-bestiary-number": 257,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Airship"
+        ],
         "agility": 40,
         "strength": 37,
         "attack-multiplier": 6,
@@ -62375,8 +63433,7 @@
         "name": "Neo Goblin",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 40,
         "strength": 15,
         "attack-multiplier": 2,
@@ -62539,8 +63596,12 @@
         "ps-name": "WoodSprite",
         "pr-bestiary-number": 288,
         "gba-bestiary-number": 300,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 45,
         "strength": 66,
         "attack-multiplier": 16,
@@ -62713,8 +63774,12 @@
         "name": "Azulmagia",
         "pr-bestiary-number": 289,
         "gba-bestiary-number": 301,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 45,
         "strength": 65,
         "attack-multiplier": 21,
@@ -62906,8 +63971,12 @@
         "ps-name": "Catastroph",
         "pr-bestiary-number": 292,
         "gba-bestiary-number": 304,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 45,
         "strength": 67,
         "attack-multiplier": 18,
@@ -63072,8 +64141,12 @@
         "name": "Necrophobe",
         "pr-bestiary-number": 296,
         "gba-bestiary-number": 308,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 47,
         "strength": 99,
         "attack-multiplier": 16,
@@ -63251,8 +64324,12 @@
         "ps-name": "Twin Tania (1st form)",
         "pr-bestiary-number": 294,
         "gba-bestiary-number": 306,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 90,
         "attack-multiplier": 14,
@@ -63423,8 +64500,9 @@
         "ps-name": "Launcher (1st, Soul Gun battle)",
         "pr-bestiary-number": 248,
         "gba-bestiary-number": 260,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Airship"
+        ],
         "agility": 20,
         "strength": 7,
         "attack-multiplier": 2,
@@ -63588,8 +64666,9 @@
         "ps-name": "Launcher (2nd, Soul Gun battle)",
         "pr-bestiary-number": 249,
         "gba-bestiary-number": 261,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Airship"
+        ],
         "agility": 20,
         "strength": 7,
         "attack-multiplier": 2,
@@ -63753,8 +64832,12 @@
         "ps-name": "Gilgamesh (X-Death's Castle, normal)",
         "pr-bestiary-number": 272,
         "gba-bestiary-number": 284,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 65,
         "strength": 60,
         "attack-multiplier": 12,
@@ -63925,8 +65008,12 @@
         "name": "Carbuncle (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 25,
         "strength": 7,
         "attack-multiplier": 2,
@@ -64090,8 +65177,9 @@
         "ps-name": "GrandMummy",
         "pr-bestiary-number": 152,
         "gba-bestiary-number": 152,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Pyramid of Moore"
+        ],
         "agility": 34,
         "strength": 55,
         "attack-multiplier": 16,
@@ -64255,8 +65343,12 @@
         "ps-name": "Apprehendr",
         "pr-bestiary-number": 287,
         "gba-bestiary-number": 299,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 51,
         "strength": 73,
         "attack-multiplier": 18,
@@ -64430,8 +65522,12 @@
         "ps-name": "Alte Roit",
         "pr-bestiary-number": 290,
         "gba-bestiary-number": 302,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 45,
         "strength": 45,
         "attack-multiplier": 20,
@@ -64597,8 +65693,9 @@
         "ps-name": "Invisible",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 47,
         "strength": 90,
         "attack-multiplier": 11,
@@ -64765,8 +65862,12 @@
         "ps-name": "Abductor (X-Death's Castle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Castle Exdeath"
+        ],
+        "ps-location": [
+            "X-Death's Castle"
+        ],
         "agility": 50,
         "strength": 80,
         "attack-multiplier": 10,
@@ -64931,8 +66032,9 @@
         "ps-name": "Hypnot (Phoenix Tower)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 30,
         "strength": 80,
         "attack-multiplier": 11,
@@ -65096,8 +66198,9 @@
         "ps-name": "LiquiFlame (Phoenix Tower)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 30,
         "strength": 81,
         "attack-multiplier": 11,
@@ -65264,8 +66367,9 @@
         "ps-name": "Kuzer (Phoenix Tower)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 30,
         "strength": 75,
         "attack-multiplier": 15,
@@ -65429,8 +66533,9 @@
         "ps-name": "SoulCannon (Phoenix Tower)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Phoenix Tower"
+        ],
         "agility": 30,
         "strength": 1,
         "attack-multiplier": 1,
@@ -65594,8 +66699,9 @@
         "name": "Pantera",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Island Shrine"
+        ],
         "agility": 30,
         "strength": 61,
         "attack-multiplier": 16,
@@ -65761,8 +66867,12 @@
         "name": "Shinryu",
         "pr-bestiary-number": 300,
         "gba-bestiary-number": 312,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 87,
         "strength": 175,
         "attack-multiplier": 38,
@@ -65938,8 +67048,12 @@
         "name": "Barrier",
         "pr-bestiary-number": 297,
         "gba-bestiary-number": 309,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 1,
         "strength": 100,
         "attack-multiplier": 10,
@@ -66106,8 +67220,12 @@
         "ps-name": "Neo X-Deth (top)",
         "pr-bestiary-number": 302,
         "gba-bestiary-number": 314,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 27,
         "strength": 99,
         "attack-multiplier": 19,
@@ -66279,8 +67397,12 @@
         "ps-name": "Neo X-Deth (front)",
         "pr-bestiary-number": 302,
         "gba-bestiary-number": 314,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 99,
         "attack-multiplier": 19,
@@ -66450,8 +67572,12 @@
         "ps-name": "Neo X-Deth (bottom)",
         "pr-bestiary-number": 302,
         "gba-bestiary-number": 314,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 55,
         "strength": 99,
         "attack-multiplier": 19,
@@ -66622,8 +67748,12 @@
         "ps-name": "Neo X-Deth (back)",
         "pr-bestiary-number": 302,
         "gba-bestiary-number": 314,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 35,
         "strength": 99,
         "attack-multiplier": 19,
@@ -66800,8 +67930,12 @@
         "name": "Gilgamesh (Necrophobe battle)",
         "pr-bestiary-number": 298,
         "gba-bestiary-number": 310,
-        "location": [],
-        "ps-location": [],
+        "location": [
+            "Interdimensional Rift"
+        ],
+        "ps-location": [
+            "N-Zone"
+        ],
         "agility": 88,
         "strength": 115,
         "attack-multiplier": 25,
@@ -66967,8 +68101,7 @@
         "name": "Enemy_270",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -67130,8 +68263,7 @@
         "name": "Enemy_271",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -67293,8 +68425,7 @@
         "name": "Enemy_272",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -67456,8 +68587,7 @@
         "name": "Enemy_273",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -67619,8 +68749,7 @@
         "name": "Enemy_274",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -67782,8 +68911,7 @@
         "name": "Enemy_275",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -67945,8 +69073,7 @@
         "name": "Enemy_276",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -68108,8 +69235,7 @@
         "name": "Enemy_277",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -68271,8 +69397,7 @@
         "name": "Enemy_278",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -68434,8 +69559,7 @@
         "name": "Enemy_279",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -68597,8 +69721,7 @@
         "name": "Enemy_27A",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -68760,8 +69883,7 @@
         "name": "Enemy_27B",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -68923,8 +70045,7 @@
         "name": "Enemy_27C",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -69086,8 +70207,7 @@
         "name": "Enemy_27D",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -69249,8 +70369,7 @@
         "name": "Enemy_27E",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -69412,8 +70531,7 @@
         "name": "Enemy_27F",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -69575,8 +70693,9 @@
         "name": "Grand Aevis",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 315,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 88,
         "strength": 120,
         "attack-multiplier": 20,
@@ -69748,8 +70867,9 @@
         "name": "Dark Elemental (Grand Aevis battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 60,
         "strength": 80,
         "attack-multiplier": 12,
@@ -69914,8 +71034,9 @@
         "name": "Omega Mk.II (1st form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 321,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 90,
         "strength": 150,
         "attack-multiplier": 30,
@@ -70092,8 +71213,9 @@
         "name": "Omega Mk.II (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 321,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 90,
         "strength": 150,
         "attack-multiplier": 30,
@@ -70270,8 +71392,9 @@
         "name": "Omega Mk.II (3rd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 321,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 90,
         "strength": 150,
         "attack-multiplier": 30,
@@ -70448,8 +71571,9 @@
         "name": "Neo Shinryu (False Image)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 322,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -70617,8 +71741,9 @@
         "name": "Guardian (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 317,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 78,
         "strength": 110,
         "attack-multiplier": 30,
@@ -70789,8 +71914,9 @@
         "name": "Guardian (1st form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 98,
         "strength": 110,
         "attack-multiplier": 30,
@@ -70953,8 +72079,9 @@
         "name": "Launcher (left, Guardian battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 318,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 110,
         "attack-multiplier": 30,
@@ -71120,8 +72247,9 @@
         "name": "Launcher (right, Guardian battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 319,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 52,
         "strength": 110,
         "attack-multiplier": 30,
@@ -71287,8 +72415,9 @@
         "name": "Wave Cannon",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 320,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 44,
         "strength": 120,
         "attack-multiplier": 30,
@@ -71452,8 +72581,9 @@
         "name": "Archeodemon",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 316,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 80,
         "strength": 180,
         "attack-multiplier": 35,
@@ -71625,8 +72755,9 @@
         "name": "Enuo (1st form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 323,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 65,
         "strength": 220,
         "attack-multiplier": 30,
@@ -71804,8 +72935,9 @@
         "name": "Enuo's right hand",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 24,
         "strength": 220,
         "attack-multiplier": 30,
@@ -71984,8 +73116,9 @@
         "name": "Enuo's left hand",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 20,
         "strength": 220,
         "attack-multiplier": 30,
@@ -72153,8 +73286,9 @@
         "name": "Enuo (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 323,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 76,
         "strength": 220,
         "attack-multiplier": 30,
@@ -72337,8 +73471,7 @@
         "name": "Enemy_290",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -72500,8 +73633,7 @@
         "name": "Enemy_291",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -72663,8 +73795,7 @@
         "name": "Enemy_292",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -72826,8 +73957,7 @@
         "name": "Enemy_293",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -72989,8 +74119,7 @@
         "name": "Enemy_294",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -73152,8 +74281,7 @@
         "name": "Enemy_295",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -73315,8 +74443,9 @@
         "name": "Neo Shinryu",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 95,
         "strength": 200,
         "attack-multiplier": 40,
@@ -73493,8 +74622,9 @@
         "name": "Gil Turtle (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 282,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 66,
         "strength": 115,
         "attack-multiplier": 13,
@@ -73664,8 +74794,9 @@
         "name": "Omega (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 311,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 76,
         "strength": 115,
         "attack-multiplier": 25,
@@ -73838,8 +74969,9 @@
         "name": "Tonberry (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 183,
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Sealed Temple"
+        ],
         "agility": 49,
         "strength": 119,
         "attack-multiplier": 14,
@@ -74004,8 +75136,7 @@
         "name": "Enemy_29A",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -74167,8 +75298,7 @@
         "name": "Enemy_29B",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -74330,8 +75460,7 @@
         "name": "Enemy_29C",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -74493,8 +75622,7 @@
         "name": "Enemy_29D",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -74656,8 +75784,7 @@
         "name": "Enemy_29E",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -74819,8 +75946,7 @@
         "name": "Enemy_29F",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [],
         "agility": 0,
         "strength": 0,
         "attack-multiplier": 0,
@@ -74982,8 +76108,9 @@
         "name": "Wing Raptor (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 55,
         "strength": 80,
         "attack-multiplier": 17,
@@ -75149,8 +76276,9 @@
         "name": "Wing Raptor (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 55,
         "strength": 80,
         "attack-multiplier": 17,
@@ -75316,8 +76444,9 @@
         "name": "Garula (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 45,
         "strength": 118,
         "attack-multiplier": 16,
@@ -75483,8 +76612,9 @@
         "name": "Siren (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 60,
         "strength": 100,
         "attack-multiplier": 20,
@@ -75655,8 +76785,9 @@
         "name": "Siren (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 60,
         "strength": 100,
         "attack-multiplier": 20,
@@ -75821,8 +76952,9 @@
         "name": "Magissa (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 50,
         "strength": 122,
         "attack-multiplier": 15,
@@ -75989,8 +77121,9 @@
         "name": "Forza (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 60,
         "strength": 122,
         "attack-multiplier": 18,
@@ -76154,8 +77287,9 @@
         "name": "Gil Turtle (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 70,
         "strength": 155,
         "attack-multiplier": 15,
@@ -76325,8 +77459,9 @@
         "name": "Liquid Flame (human form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 62,
         "strength": 100,
         "attack-multiplier": 18,
@@ -76492,8 +77627,9 @@
         "name": "Liquid Flame (hand form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 62,
         "strength": 100,
         "attack-multiplier": 18,
@@ -76659,8 +77795,9 @@
         "name": "Liquid Flame (tornado form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 62,
         "strength": 100,
         "attack-multiplier": 18,
@@ -76826,8 +77963,9 @@
         "name": "Soul Cannon (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 65,
         "strength": 120,
         "attack-multiplier": 15,
@@ -76991,8 +78129,9 @@
         "name": "Launcher (1st, Soul Cannon battle in the Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 50,
         "strength": 100,
         "attack-multiplier": 10,
@@ -77155,8 +78294,9 @@
         "name": "Launcher (2nd, Soul Cannon battle in the Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 50,
         "strength": 100,
         "attack-multiplier": 10,
@@ -77319,8 +78459,9 @@
         "name": "Purobolos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 45,
         "strength": 112,
         "attack-multiplier": 8,
@@ -77486,8 +78627,9 @@
         "name": "Minotaur (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 55,
         "strength": 130,
         "attack-multiplier": 12,
@@ -77651,8 +78793,9 @@
         "name": "Triton (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 40,
         "strength": 110,
         "attack-multiplier": 15,
@@ -77819,8 +78962,9 @@
         "name": "Nereid (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 50,
         "strength": 105,
         "attack-multiplier": 15,
@@ -77988,8 +79132,9 @@
         "name": "Phobos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 60,
         "strength": 110,
         "attack-multiplier": 15,
@@ -78156,8 +79301,9 @@
         "name": "Byblos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 70,
         "strength": 98,
         "attack-multiplier": 18,
@@ -78328,8 +79474,9 @@
         "name": "Tyrannosaur (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 80,
         "strength": 120,
         "attack-multiplier": 12,
@@ -78493,8 +79640,9 @@
         "name": "Dragon Pod (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 50,
         "strength": 140,
         "attack-multiplier": 8,
@@ -78657,8 +79805,9 @@
         "name": "Dragon Flower (1st, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 35,
         "strength": 20,
         "attack-multiplier": 30,
@@ -78823,8 +79972,9 @@
         "name": "Dragon Flower (2nd, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 30,
         "strength": 20,
         "attack-multiplier": 30,
@@ -78989,8 +80139,9 @@
         "name": "Dragon Flower (3rd, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 40,
         "strength": 20,
         "attack-multiplier": 30,
@@ -79155,8 +80306,9 @@
         "name": "Dragon Flower (4th, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 35,
         "strength": 20,
         "attack-multiplier": 30,
@@ -79321,8 +80473,9 @@
         "name": "Dragon Flower (5th, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 32,
         "strength": 20,
         "attack-multiplier": 30,
@@ -79487,8 +80640,9 @@
         "name": "Apanda (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 78,
         "strength": 140,
         "attack-multiplier": 18,
@@ -79661,8 +80815,9 @@
         "name": "Chimera Brain (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 60,
         "strength": 111,
         "attack-multiplier": 14,
@@ -79826,8 +80981,9 @@
         "name": "Adamantoise (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 42,
         "strength": 105,
         "attack-multiplier": 20,
@@ -79989,8 +81145,9 @@
         "name": "Jackanapes (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 56,
         "strength": 100,
         "attack-multiplier": 12,
@@ -80153,8 +81310,9 @@
         "name": "Calofisteri (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 62,
         "strength": 120,
         "attack-multiplier": 17,
@@ -80327,8 +81485,9 @@
         "name": "Twintania (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 44,
         "strength": 130,
         "attack-multiplier": 15,
@@ -80498,8 +81657,9 @@
         "name": "Twintania (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 88,
         "strength": 130,
         "attack-multiplier": 15,
@@ -80663,8 +81823,9 @@
         "name": "Omniscient (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 33,
         "strength": 120,
         "attack-multiplier": 21,
@@ -80854,8 +82015,9 @@
         "name": "Wendigo (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 62,
         "strength": 105,
         "attack-multiplier": 14,
@@ -81023,8 +82185,9 @@
         "name": "[Executor] Sandworm (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 78,
         "strength": 99,
         "attack-multiplier": 13,
@@ -81192,8 +82355,9 @@
         "name": "Hole (Sandworm battle in the Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 1,
         "strength": 99,
         "attack-multiplier": 13,
@@ -81356,8 +82520,9 @@
         "name": "[Orchestrator] Sandworm (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 98,
         "strength": 10,
         "attack-multiplier": 5,
@@ -81520,8 +82685,9 @@
         "name": "Atomos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 45,
         "strength": 100,
         "attack-multiplier": 10,
@@ -81690,8 +82856,9 @@
         "name": "Halicarnassus (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 66,
         "strength": 134,
         "attack-multiplier": 12,
@@ -81860,8 +83027,9 @@
         "name": "Crystal (Fire, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 50,
         "strength": 100,
         "attack-multiplier": 13,
@@ -82024,8 +83192,9 @@
         "name": "Crystal (Earth, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 55,
         "strength": 100,
         "attack-multiplier": 13,
@@ -82188,8 +83357,9 @@
         "name": "Crystal (Water, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 60,
         "strength": 100,
         "attack-multiplier": 13,
@@ -82352,8 +83522,9 @@
         "name": "Crystal (Wind, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 65,
         "strength": 100,
         "attack-multiplier": 13,
@@ -82516,8 +83687,9 @@
         "name": "Melusine (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 70,
         "strength": 97,
         "attack-multiplier": 15,
@@ -82685,8 +83857,9 @@
         "name": "Melusine (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 70,
         "strength": 97,
         "attack-multiplier": 15,
@@ -82854,8 +84027,9 @@
         "name": "Melusine (3rd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 70,
         "strength": 97,
         "attack-multiplier": 15,
@@ -83023,8 +84197,9 @@
         "name": "Melusine (4th form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 70,
         "strength": 97,
         "attack-multiplier": 15,
@@ -83193,8 +84368,9 @@
         "name": "Catastrophe (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 66,
         "strength": 99,
         "attack-multiplier": 22,
@@ -83359,8 +84535,9 @@
         "name": "Azulmagia (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 64,
         "strength": 123,
         "attack-multiplier": 16,
@@ -83551,8 +84728,9 @@
         "name": "Necrophobe (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 52,
         "strength": 141,
         "attack-multiplier": 12,
@@ -83726,8 +84904,9 @@
         "name": "Barrier (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 1,
         "strength": 120,
         "attack-multiplier": 12,
@@ -83893,8 +85072,9 @@
         "name": "Archeodemon (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [],
-        "ps-location": [],
+        "gba-location": [
+            "Cloister of the Dead"
+        ],
         "agility": 80,
         "strength": 180,
         "attack-multiplier": 35,
