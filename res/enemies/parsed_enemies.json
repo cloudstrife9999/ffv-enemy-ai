@@ -14858,6 +14858,10 @@
         "ps-name": "ShieldDrgn",
         "pr-bestiary-number": 86,
         "gba-bestiary-number": 86,
+        "gba-location": [
+            "[[Sealed Castle]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Sealed Castle]]"
         ],
@@ -15704,6 +15708,10 @@
         "ps-name": "SkullEater",
         "pr-bestiary-number": 57,
         "gba-bestiary-number": 57,
+        "gba-location": [
+            "[[Jachol Cave]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Jachol Cave]]"
         ],
@@ -22036,6 +22044,11 @@
         "ps-name": "BlueDragon",
         "pr-bestiary-number": 132,
         "gba-bestiary-number": 132,
+        "gba-location": [
+            "[[Castle Exdeath]]",
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Castle Exdeath]]",
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
@@ -22209,6 +22222,12 @@
         "name": "Red Dragon (regular)",
         "pr-bestiary-number": 133,
         "gba-bestiary-number": 133,
+        "gba-location": [
+            "[[Castle Exdeath]]",
+            "[[Barrier Tower]]",
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Castle Exdeath]]",
             "[[Barrier Tower]]",
@@ -22384,6 +22403,12 @@
         "ps-name": "YellowDrgn",
         "pr-bestiary-number": 134,
         "gba-bestiary-number": 134,
+        "gba-location": [
+            "[[Castle Exdeath]]",
+            "[[Barrier Tower]]",
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Castle Exdeath]]",
             "[[Barrier Tower]]",
@@ -24753,6 +24778,11 @@
         "ps-name": "BrandLamia",
         "pr-bestiary-number": 143,
         "gba-bestiary-number": 143,
+        "gba-location": [
+            "[[Pyramid of Moore]]",
+            "[[Walse Tower|Sunken Tower of Walse]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Pyramid of Moore]]",
             "[[Walse Tower|Sunken Tower of Walse]]"
@@ -27298,6 +27328,10 @@
         "ps-name": "DeemMaster",
         "pr-bestiary-number": 163,
         "gba-bestiary-number": 163,
+        "gba-location": [
+            "[[Fork Tower]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Fork Tower]]"
         ],
@@ -27648,6 +27682,10 @@
         "ps-name": "Flare",
         "pr-bestiary-number": 164,
         "gba-bestiary-number": 164,
+        "gba-location": [
+            "[[Fork Tower]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Fork Tower]]"
         ],
@@ -31737,6 +31775,10 @@
         "name": "Grenade",
         "pr-bestiary-number": 204,
         "gba-bestiary-number": 204,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -31908,6 +31950,10 @@
         "ps-name": "SwrdDancer",
         "pr-bestiary-number": 216,
         "gba-bestiary-number": 216,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -33971,6 +34017,10 @@
         "name": "Iron Giant",
         "pr-bestiary-number": 220,
         "gba-bestiary-number": 220,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -34143,6 +34193,10 @@
         "name": "Death Claw",
         "pr-bestiary-number": 217,
         "gba-bestiary-number": 217,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -34314,6 +34368,10 @@
         "ps-name": "BehemoKing",
         "pr-bestiary-number": 221,
         "gba-bestiary-number": 221,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -34661,6 +34719,10 @@
         "ps-name": "Necromancr",
         "pr-bestiary-number": 223,
         "gba-bestiary-number": 223,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -35005,6 +35067,10 @@
         "ps-name": "Drgn Great",
         "pr-bestiary-number": 212,
         "gba-bestiary-number": 212,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -35179,6 +35245,10 @@
         "ps-name": "DragonAvis",
         "pr-bestiary-number": 215,
         "gba-bestiary-number": 215,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -35351,6 +35421,10 @@
         "ps-name": "Maximus",
         "pr-bestiary-number": 224,
         "gba-bestiary-number": 224,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -35524,6 +35598,11 @@
         "ps-name": "LevelChekr",
         "pr-bestiary-number": 207,
         "gba-bestiary-number": 207,
+        "gba-location": [
+            "[[Walse Tower|Sunken Tower of Walse]]",
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Walse Tower|Sunken Tower of Walse]]",
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
@@ -35700,6 +35779,10 @@
         "ps-name": "Mind Flare",
         "pr-bestiary-number": 225,
         "gba-bestiary-number": 225,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -35871,6 +35954,10 @@
         "name": "Fury",
         "pr-bestiary-number": 218,
         "gba-bestiary-number": 218,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -36053,6 +36140,10 @@
         "name": "Crystelle",
         "pr-bestiary-number": 226,
         "gba-bestiary-number": 226,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -36223,6 +36314,10 @@
         "name": "Mover",
         "pr-bestiary-number": 228,
         "gba-bestiary-number": 228,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -36398,6 +36493,10 @@
         "ps-name": "CrystlDrgn",
         "pr-bestiary-number": 222,
         "gba-bestiary-number": 222,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -36741,6 +36840,10 @@
         "name": "Yojimbo",
         "pr-bestiary-number": 219,
         "gba-bestiary-number": 219,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -38092,6 +38195,10 @@
         "ps-name": "Kestrel",
         "pr-bestiary-number": 199,
         "gba-bestiary-number": 199,
+        "gba-location": [
+            "World Map oceans ([[merged world]])",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "World Map oceans ([[merged world]])"
         ],
@@ -38426,6 +38533,10 @@
         "ps-name": "BigButrfly",
         "pr-bestiary-number": 201,
         "gba-bestiary-number": 201,
+        "gba-location": [
+            "World Map oceans ([[merged world]])",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "World Map oceans ([[merged world]])"
         ],
@@ -38594,6 +38705,10 @@
         "name": "Sea Devil",
         "pr-bestiary-number": 202,
         "gba-bestiary-number": 202,
+        "gba-location": [
+            "World Map oceans ([[merged world]])",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "World Map oceans ([[merged world]])"
         ],
@@ -38760,6 +38875,10 @@
         "name": "Stingray",
         "pr-bestiary-number": 203,
         "gba-bestiary-number": 203,
+        "gba-location": [
+            "World Map oceans ([[merged world]])",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "World Map oceans ([[merged world]])"
         ],
@@ -42116,6 +42235,10 @@
         "ps-name": "Belfagel",
         "pr-bestiary-number": 227,
         "gba-bestiary-number": 227,
+        "gba-location": [
+            "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]",
+            "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
+        ],
         "location": [
             "[[Interdimensional Rift (Final Fantasy V field)|Interdimensional Rift]]"
         ],
@@ -43634,11 +43757,8 @@
         "name": "Soul Eater",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 231,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 66,
         "strength": 50,
@@ -43808,11 +43928,8 @@
         "name": "Exoray (upper)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 50,
@@ -43981,11 +44098,8 @@
         "name": "Exoray (upper-left)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 50,
@@ -44154,11 +44268,8 @@
         "name": "Exoray (bottom-left)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 50,
@@ -44327,11 +44438,8 @@
         "name": "Exoray (bottom-right)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 50,
@@ -44500,11 +44608,8 @@
         "name": "Exoray (upper-right)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 236,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 50,
@@ -44673,11 +44778,8 @@
         "name": "Dark Elemental (Fire)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 233,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 80,
@@ -44844,11 +44946,8 @@
         "name": "Dark Elemental (Ice)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 234,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 80,
@@ -45015,11 +45114,8 @@
         "name": "Dark Elemental (Lightning)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 235,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 80,
@@ -45186,11 +45282,8 @@
         "name": "Medusa",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 238,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 55,
         "strength": 99,
@@ -45360,11 +45453,8 @@
         "name": "Mini Satana",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 229,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 100,
@@ -45533,11 +45623,8 @@
         "name": "Assassin",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 230,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 75,
         "strength": 110,
@@ -45705,11 +45792,8 @@
         "name": "Assassin (Image)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 230,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 75,
         "strength": 110,
@@ -45878,11 +45962,8 @@
         "name": "Duelist (1st)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 100,
@@ -46049,11 +46130,8 @@
         "name": "Duelist (2nd)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 100,
@@ -46221,11 +46299,8 @@
         "name": "Duelist (3rd)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 100,
@@ -46392,11 +46467,8 @@
         "name": "Duelist (4th)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 100,
@@ -46563,11 +46635,8 @@
         "name": "Duelist (5th)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 237,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 100,
@@ -46735,11 +46804,8 @@
         "name": "Ironclad",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 241,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 140,
@@ -46907,11 +46973,8 @@
         "name": "Claret Dragon",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 240,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 135,
@@ -47082,11 +47145,8 @@
         "name": "Dinozombie",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 239,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 150,
@@ -47254,11 +47314,8 @@
         "name": "Behemoth",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 232,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 25,
         "strength": 90,
@@ -47425,11 +47482,8 @@
         "name": "Hades",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 242,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 120,
@@ -47609,11 +47663,8 @@
         "name": "Nutkin (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 6,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 10,
         "strength": 5,
@@ -47779,11 +47830,8 @@
         "name": "Mecha Head (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 150,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 37,
         "strength": 59,
@@ -70988,11 +71036,8 @@
         "name": "Grand Aevis",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 315,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 88,
         "strength": 120,
@@ -71165,11 +71210,8 @@
         "name": "Dark Elemental (Grand Aevis battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 80,
@@ -71335,11 +71377,8 @@
         "name": "Omega Mk.II (1st form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 321,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 90,
         "strength": 150,
@@ -71517,11 +71556,8 @@
         "name": "Omega Mk.II (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 321,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 90,
         "strength": 150,
@@ -71699,11 +71735,8 @@
         "name": "Omega Mk.II (3rd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 321,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 90,
         "strength": 150,
@@ -71881,11 +71914,8 @@
         "name": "Neo Shinryu (False Image)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 322,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 95,
         "strength": 200,
@@ -72054,11 +72084,8 @@
         "name": "Guardian (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 317,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 78,
         "strength": 110,
@@ -72230,11 +72257,8 @@
         "name": "Guardian (1st form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 98,
         "strength": 110,
@@ -72398,11 +72422,8 @@
         "name": "Launcher (left, Guardian battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 318,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 110,
@@ -72569,11 +72590,8 @@
         "name": "Launcher (right, Guardian battle)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 319,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 110,
@@ -72740,11 +72758,8 @@
         "name": "Wave Cannon",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 320,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 44,
         "strength": 120,
@@ -72909,11 +72924,8 @@
         "name": "Archeodemon",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 316,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 80,
         "strength": 180,
@@ -73086,11 +73098,8 @@
         "name": "Enuo (1st form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 323,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 65,
         "strength": 220,
@@ -73269,11 +73278,8 @@
         "name": "Enuo's right hand",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 24,
         "strength": 220,
@@ -73453,11 +73459,8 @@
         "name": "Enuo's left hand",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 20,
         "strength": 220,
@@ -73626,11 +73629,8 @@
         "name": "Enuo (2nd form)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 323,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 76,
         "strength": 220,
@@ -74786,11 +74786,8 @@
         "name": "Neo Shinryu",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 95,
         "strength": 200,
@@ -74968,11 +74965,8 @@
         "name": "Gil Turtle (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 282,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 66,
         "strength": 115,
@@ -75143,11 +75137,8 @@
         "name": "Omega (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 311,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 76,
         "strength": 115,
@@ -75321,11 +75312,8 @@
         "name": "Tonberry (Sealed Temple)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": 183,
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)|Sealed Temple]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 49,
         "strength": 119,
@@ -76463,11 +76451,8 @@
         "name": "Wing Raptor (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 55,
         "strength": 80,
@@ -76634,11 +76619,8 @@
         "name": "Wing Raptor (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 55,
         "strength": 80,
@@ -76805,11 +76787,8 @@
         "name": "Garula (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 45,
         "strength": 118,
@@ -76976,11 +76955,8 @@
         "name": "Siren (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 100,
@@ -77152,11 +77128,8 @@
         "name": "Siren (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 100,
@@ -77322,11 +77295,8 @@
         "name": "Magissa (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 122,
@@ -77494,11 +77464,8 @@
         "name": "Forza (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 122,
@@ -77663,11 +77630,8 @@
         "name": "Gil Turtle (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 155,
@@ -77838,11 +77802,8 @@
         "name": "Liquid Flame (human form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 62,
         "strength": 100,
@@ -78009,11 +77970,8 @@
         "name": "Liquid Flame (hand form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 62,
         "strength": 100,
@@ -78180,11 +78138,8 @@
         "name": "Liquid Flame (tornado form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 62,
         "strength": 100,
@@ -78351,11 +78306,8 @@
         "name": "Soul Cannon (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 65,
         "strength": 120,
@@ -78520,11 +78472,8 @@
         "name": "Launcher (1st, Soul Cannon battle in the Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 100,
@@ -78688,11 +78637,8 @@
         "name": "Launcher (2nd, Soul Cannon battle in the Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 100,
@@ -78856,11 +78802,8 @@
         "name": "Purobolos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 45,
         "strength": 112,
@@ -79027,11 +78970,8 @@
         "name": "Minotaur (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 55,
         "strength": 130,
@@ -79196,11 +79136,8 @@
         "name": "Triton (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 110,
@@ -79368,11 +79305,8 @@
         "name": "Nereid (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 105,
@@ -79541,11 +79475,8 @@
         "name": "Phobos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 110,
@@ -79713,11 +79644,8 @@
         "name": "Byblos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 98,
@@ -79889,11 +79817,8 @@
         "name": "Tyrannosaur (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 80,
         "strength": 120,
@@ -80058,11 +79983,8 @@
         "name": "Dragon Pod (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 140,
@@ -80226,11 +80148,8 @@
         "name": "Dragon Flower (1st, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 35,
         "strength": 20,
@@ -80396,11 +80315,8 @@
         "name": "Dragon Flower (2nd, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 30,
         "strength": 20,
@@ -80566,11 +80482,8 @@
         "name": "Dragon Flower (3rd, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 40,
         "strength": 20,
@@ -80736,11 +80649,8 @@
         "name": "Dragon Flower (4th, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 35,
         "strength": 20,
@@ -80906,11 +80816,8 @@
         "name": "Dragon Flower (5th, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 32,
         "strength": 20,
@@ -81076,11 +80983,8 @@
         "name": "Apanda (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 78,
         "strength": 140,
@@ -81254,11 +81158,8 @@
         "name": "Chimera Brain (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 111,
@@ -81423,11 +81324,8 @@
         "name": "Adamantoise (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 42,
         "strength": 105,
@@ -81590,11 +81488,8 @@
         "name": "Jackanapes (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 56,
         "strength": 100,
@@ -81758,11 +81653,8 @@
         "name": "Calofisteri (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 62,
         "strength": 120,
@@ -81936,11 +81828,8 @@
         "name": "Twintania (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 44,
         "strength": 130,
@@ -82111,11 +82000,8 @@
         "name": "Twintania (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 88,
         "strength": 130,
@@ -82280,11 +82166,8 @@
         "name": "Omniscient (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 33,
         "strength": 120,
@@ -82475,11 +82358,8 @@
         "name": "Wendigo (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 62,
         "strength": 105,
@@ -82648,11 +82528,8 @@
         "name": "[Executor] Sandworm (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 78,
         "strength": 99,
@@ -82821,11 +82698,8 @@
         "name": "Hole (Sandworm battle in the Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 1,
         "strength": 99,
@@ -82989,11 +82863,8 @@
         "name": "[Orchestrator] Sandworm (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 98,
         "strength": 10,
@@ -83157,11 +83028,8 @@
         "name": "Atomos (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 45,
         "strength": 100,
@@ -83331,11 +83199,8 @@
         "name": "Halicarnassus (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 66,
         "strength": 134,
@@ -83505,11 +83370,8 @@
         "name": "Crystal (Fire, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 50,
         "strength": 100,
@@ -83673,11 +83535,8 @@
         "name": "Crystal (Earth, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 55,
         "strength": 100,
@@ -83841,11 +83700,8 @@
         "name": "Crystal (Water, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 60,
         "strength": 100,
@@ -84009,11 +83865,8 @@
         "name": "Crystal (Wind, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 65,
         "strength": 100,
@@ -84177,11 +84030,8 @@
         "name": "Melusine (1st form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 97,
@@ -84350,11 +84200,8 @@
         "name": "Melusine (2nd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 97,
@@ -84523,11 +84370,8 @@
         "name": "Melusine (3rd form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 97,
@@ -84696,11 +84540,8 @@
         "name": "Melusine (4th form, Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 70,
         "strength": 97,
@@ -84870,11 +84711,8 @@
         "name": "Catastrophe (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 66,
         "strength": 99,
@@ -85040,11 +84878,8 @@
         "name": "Azulmagia (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 64,
         "strength": 123,
@@ -85236,11 +85071,8 @@
         "name": "Necrophobe (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 52,
         "strength": 141,
@@ -85415,11 +85247,8 @@
         "name": "Barrier (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 1,
         "strength": 120,
@@ -85586,11 +85415,8 @@
         "name": "Archeodemon (Cloister of the Dead)",
         "pr-bestiary-number": "N/A",
         "gba-bestiary-number": "N/A",
-        "location": [
+        "gba-location": [
             "[[Sealed Temple (Final Fantasy V field)#Cloister of the Dead|Cloister of the Dead]]"
-        ],
-        "ps-location": [
-            ""
         ],
         "agility": 80,
         "strength": 180,
